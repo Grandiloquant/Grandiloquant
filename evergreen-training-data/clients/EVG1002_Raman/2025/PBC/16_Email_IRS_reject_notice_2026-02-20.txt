@@ -1,0 +1,9 @@
+CCH Axcess ELF Status - Rejected
+Return: EVG1002 Raman, Priya   TY2025 Form 1040   Submission ID 0048912026051xxxxxxx
+Transmitted: 02/19/2026 16:42   Status: REJECTED 02/20/2026 06:15
+
+Rule IND-507-01: 'Qualifying Child SSN' in the Earned Income Credit Schedule (Schedule EIC) and/or
+Dependent SSN on Form 1040 was used as a Dependent SSN or Qualifying Child SSN on another return
+for the same tax period.
+
+Dependent SSN: XXX-XX-6604 (ARJUN RAMAN)
