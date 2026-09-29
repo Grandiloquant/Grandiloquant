@@ -1,0 +1,667 @@
+{
+  "client_id": "EVG1016",
+  "client": "Megan Doyle",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "MI - Grand Rapids (MI-1040 + GR-1040R)",
+    "complexity": "Basic W-2 tier + separation items"
+  },
+  "filing_status": "HOH",
+  "form_1040_summary": {
+    "1z": 88600,
+    "2a": 0,
+    "2b": 62,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 30000,
+    "6b": 0,
+    "7": 0,
+    "8": 0,
+    "9": 118662,
+    "10": 0,
+    "11": 118662,
+    "12e": 23625,
+    "13a": 0,
+    "13b": 4860,
+    "15": 90177,
+    "16": 13014,
+    "17": 0,
+    "19": 2200,
+    "20": 1040,
+    "22": 9774,
+    "23": 0,
+    "24": 9774,
+    "25d": 13800,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 13800,
+    "34": 4026,
+    "35a": 4026,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 4026,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 88600
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 88600
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 62
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 30000
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 30000
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 118662
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 118662
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 23625
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 4860
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 28485
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 90177
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 13014
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 13014
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 2200
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 1040
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 3240
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 9774
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 9774
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 7800
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 6000
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 13800
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 13800
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 4026
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 4026
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Lake Michigan Credit Union",
+        "amount": 62
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 62
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 62
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 8900
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 6036
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 4330
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 10366
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 10366
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 10366
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 8120
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 8120
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 8120
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 0
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 18486
+      }
+    ],
+    "Schedule 1-A": [
+      {
+        "line": "Part I",
+        "description": "Modified AGI",
+        "amount": 118662
+      },
+      {
+        "line": "Part III",
+        "description": "Qualified overtime compensation deduction (FLSA premium portion 4,860)",
+        "amount": 4860.0
+      },
+      {
+        "line": "38",
+        "description": "Total additional deductions (to Form 1040, line 13b)",
+        "amount": 4860
+      }
+    ],
+    "Form 2441": [
+      {
+        "line": "employer_benefits",
+        "description": "employer benefits",
+        "amount": 0
+      },
+      {
+        "line": "exclusion",
+        "description": "exclusion",
+        "amount": 0
+      },
+      {
+        "line": "taxable_benefits",
+        "description": "taxable benefits",
+        "amount": 0
+      },
+      {
+        "line": "qualified_expenses_allowed",
+        "description": "qualified expenses allowed",
+        "amount": 5200
+      },
+      {
+        "line": "pct",
+        "description": "pct",
+        "amount": 0.2
+      },
+      {
+        "line": "credit",
+        "description": "credit",
+        "amount": 1040
+      }
+    ],
+    "Schedule 8812": [
+      {
+        "line": "4",
+        "description": "Number of qualifying children under 17 with SSN",
+        "amount": 1
+      },
+      {
+        "line": "6",
+        "description": "Number of other dependents",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Tentative credit",
+        "amount": 2200
+      },
+      {
+        "line": "10-11",
+        "description": "Phase-out reduction (MAGI 118,662 vs 200,000)",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Credit after phase-out",
+        "amount": 2200
+      },
+      {
+        "line": "14",
+        "description": "Nonrefundable CTC/ODC (to Form 1040 line 19)",
+        "amount": 2200
+      },
+      {
+        "line": "27",
+        "description": "Additional child tax credit (to Form 1040 line 28)",
+        "amount": 0
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "2",
+        "description": "Credit for child and dependent care expenses (Form 2441)",
+        "amount": 1040
+      },
+      {
+        "line": "8",
+        "description": "Total nonrefundable credits (to Form 1040, line 20)",
+        "amount": 1040
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "Michigan",
+      "form": "MI-1040",
+      "agi": 118662,
+      "exemptions": 11600,
+      "taxable_income": 107062,
+      "tax": 4550,
+      "withholding": 4725,
+      "refund": 175
+    },
+    {
+      "jurisdiction": "Grand Rapids (resident)",
+      "form": "GR-1040R",
+      "total_income": 118662,
+      "exemptions": 1200,
+      "taxable_income": 117462,
+      "tax": 1762,
+      "withholding": 1311,
+      "balance_due": 451,
+      "due": "2026-04-30"
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040 (federal) - HOH",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-03-25"
+    },
+    {
+      "form": "MI-1040",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-03-25"
+    },
+    {
+      "form": "GR-1040R",
+      "method": "e-file",
+      "due": "2026-04-30",
+      "filed": "2026-03-26"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1016-G1",
+      "procedure_section": "Filing Status (separations are not divorces)",
+      "title": "Divorce final 02/10/2026; client wants 'Single'",
+      "trap": "File Single because the divorce is final when the return is prepared, or MFS because the agreement says 'separate returns'.",
+      "correct_treatment": "Marital status is tested at 12/31/2025 - still married. But she is 'considered unmarried' (separate return, paid > half of home costs, child lived with her > half year, spouse out of home last 6 months) -> HOH, which also satisfies the agreement's 'separate returns' clause.",
+      "impact": "HOH vs MFS: std deduction $23,625 vs $15,750 + brackets + credits",
+      "affected_lines": [
+        "Filing status",
+        "12e",
+        "16"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1016-G2",
+      "procedure_section": "Scan - legal agreements (tax-reportable amounts)",
+      "title": "Separation agreement: spousal support + child support",
+      "trap": "Report $13,500 spousal support as alimony income (Sch 1 line 2a) and/or child support as income.",
+      "correct_treatment": "Instrument executed 03/20/2025 (after 2018) -> alimony is neither income to her nor deductible by Brian. Child support is never income. Nothing reported.",
+      "impact": "Income overstated $13,500-$21,600",
+      "affected_lines": [
+        "8",
+        "Sch 1 2a"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1016-G3",
+      "procedure_section": "Review - dependents (Form 8332 release)",
+      "title": "Liam released to Brian for 2025 (odd year)",
+      "trap": "Claim both children for CTC ($4,400), or drop Liam from HOH / Form 2441 as well.",
+      "correct_treatment": "Form 8332 releases only the dependency-related credits (CTC/ODC). Megan claims CTC for Nora only ($2,200); she remains custodial parent: Liam still counts for HOH and as a Form 2441 qualifying person (and EIC, though not eligible here).",
+      "impact": "CTC overstated $2,200 / 2441 limit understated",
+      "affected_lines": [
+        "19",
+        "Form 2441"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1016-G4",
+      "procedure_section": "Client IRAs / retirement distributions (1099-R code 1)",
+      "title": "QDRO distribution to alternate payee, age 36",
+      "trap": "Report on line 4 (IRA) and/or assess the 10% additional tax ($3,000) because code 1 is shown.",
+      "correct_treatment": "Taxable $30,000 on line 5a/5b (qualified plan). File Form 5329 with exception 04 (72(t)(2)(C) - payment to alternate payee under a QDRO) -> $0 additional tax. $6,000 (20%) withheld on line 25b.",
+      "impact": "$3,000 additional tax avoided",
+      "affected_lines": [
+        "5b",
+        "25b",
+        "Form 5329"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1016-G5",
+      "procedure_section": "OBBBA - no tax on overtime (Schedule 1-A Part III)",
+      "title": "Employer reported the FLSA premium itself",
+      "trap": "Divide the box 14 amount by 3 (as for total-OT W-2s like EVG1001), deducting only $1,620.",
+      "correct_treatment": "Box 14 'QUAL OT PREM' and the employer letter show the premium portion only -> full $4,860 qualifies. Considered-unmarried HOH is not 'married' for 7703 purposes, so the joint-return requirement does not bar the deduction.",
+      "impact": "Line 13b understated $3,240",
+      "affected_lines": [
+        "13b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1016-G6",
+      "procedure_section": "SALT Implications (state exemptions)",
+      "title": "Michigan exemptions after Form 8332 release",
+      "trap": "Claim 3 MI exemptions (Megan + both kids) as in the organizer.",
+      "correct_treatment": "MI personal exemptions follow the dependents claimed on the federal return: Megan + Nora = 2 x $5,800 (assumption stated: Brian claims Liam's MI exemption).",
+      "impact": "MI tax understated $247 if 3 exemptions",
+      "affected_lines": [
+        "MI-1040 9"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1016-G7",
+      "procedure_section": "Local Filing Requirements",
+      "title": "Grand Rapids resident city return",
+      "trap": "No city return (client's ex-spouse's city has none) or omit the QDRO distribution from city income.",
+      "correct_treatment": "Grand Rapids resident (1.5%) GR-1040R required; premature distribution taxable to the city; tax $1,762 vs withheld $1,311 -> $451 due 04/30/2026.",
+      "impact": "$451 city balance due",
+      "affected_lines": [
+        "GR-1040R"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1016-G8",
+      "procedure_section": "Scan - documents for another taxpayer",
+      "title": "Brian's W-2 uploaded by Megan",
+      "trap": "Add Brian's W-2 to her return (or prepare a joint return).",
+      "correct_treatment": "Separate return - Brian's W-2 is not hers; do not import. Keep out of her WP (confidentiality; Brian is not our client).",
+      "impact": "Wages overstated $73,850",
+      "affected_lines": [
+        "1a"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [
+    "Itemized deductions $18,486 < standard deduction $23,625; standard deduction used."
+  ]
+}

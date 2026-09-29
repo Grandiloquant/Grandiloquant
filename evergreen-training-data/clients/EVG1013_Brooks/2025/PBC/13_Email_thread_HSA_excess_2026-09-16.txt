@@ -1,0 +1,24 @@
+From: preparer@evergreentax.example
+To: Nathan Brooks
+Date: Thu, 27 Aug 2026 09:40:00 -0500
+Subject: Brooks 2025 - HSA excess contribution (action needed before 10/15)
+
+Hi Nathan - your 2025 HSA contributions were $5,300 ($4,300 through Parallax payroll/employer, which already equals the
+2025 self-only limit, plus your $1,000 transfer in April). The $1,000 is an excess contribution. If you withdraw the
+$1,000 plus the earnings on it before 10/15/2026 (the extended due date of your return), there is no 6% excise tax.
+Please ask Fidelity for a "return of excess contribution" for tax year 2025 and send us the confirmation.
+
+-----
+From: Nathan Brooks
+Date: Wed, 16 Sep 2026 07:58:31 -0500
+Subject: RE: Brooks 2025 - HSA excess contribution (action needed before 10/15)
+
+Done - Fidelity processed it yesterday. Confirmation attached. They said I'll get a 1099-SA for 2026.
+
+  Fidelity HSA - Return of Excess Contribution - Confirmation
+  Request date 09/14/2026   Processed 09/15/2026
+  Tax year of contribution: 2025
+  Excess contribution returned:   $1,000.00
+  Net income attributable (NIA):     $38.00
+  Total distributed to Chase ****7730: $1,038.00
+  (Will be reported on 2026 Form 1099-SA, distribution code 2)

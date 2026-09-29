@@ -1,0 +1,549 @@
+{
+  "client_id": "EVG1014",
+  "client": "Sofia Martinez & Liam Hart",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "MI - Ann Arbor (MI-1040; no city tax)",
+    "complexity": "Joint + first-year Schedule C"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 88000,
+    "2a": 0,
+    "2b": 350,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": 28416,
+    "9": 116766,
+    "10": 1622,
+    "11": 115144,
+    "12e": 31500,
+    "13a": 4267,
+    "13b": 0,
+    "15": 79377,
+    "16": 9048,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 9048,
+    "23": 3244,
+    "24": 12292,
+    "25d": 9446,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 9446,
+    "34": 0,
+    "35a": 0,
+    "37": 2846
+  },
+  "deduction_type": "Standard",
+  "refund": 0,
+  "balance_due": 2846,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 88000
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 88000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 350
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 28416
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 116766
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 1622
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 115144
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 31500
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 4267
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 35767
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 79377
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 9048
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 9048
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 9048
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 3244
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 12292
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 8900
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 546
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 9446
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 9446
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 0
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 0
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 2846
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Ally Bank",
+        "amount": 142
+      },
+      {
+        "line": "1.2",
+        "description": "Capital One, N.A.",
+        "amount": 208
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 350
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 350
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "3",
+        "description": "Business income or (loss) - Schedule C",
+        "amount": 22956
+      },
+      {
+        "line": "7",
+        "description": "Unemployment compensation",
+        "amount": 5460
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 28416
+      },
+      {
+        "line": "15",
+        "description": "Deductible part of self-employment tax (Schedule SE)",
+        "amount": 1622
+      },
+      {
+        "line": "26",
+        "description": "Total adjustments to income (to Form 1040, line 10)",
+        "amount": 1622
+      }
+    ],
+    "Form 8995": [
+      {
+        "line": "Sofia Martinez Design (Sch C)",
+        "description": "QBI 21,334; component (below threshold: 20% x QBI)",
+        "amount": 4267
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 83,644 - net capital gain & qualified dividends 0)",
+        "amount": 16729
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 4267
+      }
+    ],
+    "Schedule SE": [
+      {
+        "line": "T",
+        "description": "Net earnings 21,200; SS 2,629; Medicare 615; half deductible 1,622",
+        "amount": 3244
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "4",
+        "description": "Self-employment tax (Schedule SE)",
+        "amount": 3244
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 3244
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "Michigan",
+      "form": "MI-1040",
+      "agi": 115144,
+      "exemptions": 11600,
+      "taxable_income": 103544,
+      "tax": 4401,
+      "withholding": 4032,
+      "balance_due": 369
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040 (federal)",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "history": "rejected 2026-04-08 IND-031-04; retransmitted 2026-04-09; accepted 2026-04-10"
+    },
+    {
+      "form": "MI-1040",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-09"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1014-G1",
+      "procedure_section": "Filing Status (married by year end)",
+      "title": "Married 12/20/2025 - co-worker says file Single",
+      "trap": "File two Single returns because they were married for only 11 days.",
+      "correct_treatment": "Marital status is determined on 12/31: married for the entire year -> MFJ or MFS only.",
+      "impact": "Single returns would be invalid",
+      "affected_lines": [
+        "Filing status"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1014-G2",
+      "procedure_section": "Projections (simulations - MFJ vs MFS)",
+      "title": "Client asks for the cheaper of joint / separate",
+      "trap": "Pick MFS because 'we only just got married', or pick MFJ without modeling.",
+      "correct_treatment": "Model both: MFJ total tax $12,292 vs MFS combined $14,996 -> MFJ saves $2,704. MI flat tax - no difference. Document the simulation and reconcile to the compliance return.",
+      "impact": "$2,704 federal",
+      "affected_lines": [
+        "24"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1014-G3",
+      "procedure_section": "E-File Rejects (name control / SSN mismatch)",
+      "title": "Organizer signed 'Sofia Hart'; SSA still shows Martinez",
+      "trap": "Enter the primary taxpayer as 'Sofia Hart' per the organizer / client email.",
+      "correct_treatment": "Use the name on the SSA record (Sofia E. Martinez, name control MART) until she files Form SS-5. Actual history: rejected IND-031-04 on 04/08; document reason, save corrected version, retransmit 04/09, monitor to acceptance 04/10.",
+      "impact": "E-file reject; possible late filing if not monitored",
+      "affected_lines": [
+        "Header"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1014-G4",
+      "procedure_section": "Scan - duplicate documents / Schedule C records",
+      "title": "1099-K (Stripe) includes the $9,500 on the Arbor Brewing 1099-NEC",
+      "trap": "Gross receipts = 18,000 + 9,500 + 12,400 = $39,900 (all information returns added).",
+      "correct_treatment": "Reconcile Stripe balance history: $9,500 of the $12,400 is Arbor Brewing card payments. Unique receipts = $18,000 + $12,400 + Venmo $350 (no form - still income) = $30,750. Keep the reconciliation in the WP.",
+      "impact": "Sch C overstated $9,500 (~$2,900 income + SE tax) or Venmo omitted",
+      "affected_lines": [
+        "Sch C 1",
+        "Sch 1 3"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1014-G5",
+      "procedure_section": "Schedule C - Home Office Deduction (8829 vs simplified)",
+      "title": "Part-year home office in a rented apartment",
+      "trap": "Use simplified $5 x 150 = $750, or 8829 with 12 months of rent.",
+      "correct_treatment": "8829 actual: 16.67% x Apr-Dec rent/utilities/insurance $19,233 = $3,206 vs simplified $563 (average monthly footage 112.5) -> 8829.",
+      "impact": "Deduction $3,206",
+      "affected_lines": [
+        "Sch C 30"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1014-G6",
+      "procedure_section": "Schedule C - checking the top-of-form boxes / De-Minimis Safe Harbor / personal expenses",
+      "title": "First-year business boxes and personal items in client books",
+      "trap": "Leave line H blank; depreciate the laptop over 5 years; deduct the wedding invitations and Spotify from the spreadsheet.",
+      "correct_treatment": "Check line H (started 2025); line I 'No' (no payments requiring 1099s). Attach the de minimis safe harbor election statement (laptop $1,899, tablet $379 <= $2,500). Remove personal items ($739).",
+      "impact": "Sch C",
+      "affected_lines": [
+        "Sch C H",
+        "Sch C 22"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1014-G7",
+      "procedure_section": "General Return Prep Notes / Form 2210",
+      "title": "No estimates on a first-year Schedule C; balance due > $1,000",
+      "trap": "Assess a 2210 penalty because withholding $9,446 < 90% of 2025 tax $11,063.",
+      "correct_treatment": "MFJ in 2025 but separate in 2024 -> prior-year safe harbor = Liam $5,963 + Sofia $2,947 = $8,910 <= withholding -> no penalty. Advise 2026 estimates.",
+      "impact": "Line 38 $0",
+      "affected_lines": [
+        "38"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1014-G8",
+      "procedure_section": "Scan - information returns",
+      "title": "Unemployment 1099-G with federal and MI withholding",
+      "trap": "Omit unemployment (client thinks it was 'already taxed') or omit the $546 box 4 withholding.",
+      "correct_treatment": "Sch 1 line 7 $5,460 (taxable federal and MI); $546 on line 25b; $232 MI withholding on MI-1040.",
+      "impact": "Line 8 / 25b",
+      "affected_lines": [
+        "8",
+        "25b"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "mfs_simulation": {
+    "sofia_mfs_total_tax": 4137,
+    "liam_mfs_total_tax": 10859,
+    "mfs_combined": 14996,
+    "mfj": 12292,
+    "mfj_savings": 2704
+  },
+  "schedule_c": {
+    "gross_receipts": 30750,
+    "expenses_before_8829": 4588,
+    "form_8829": 3206,
+    "simplified_alternative": 563,
+    "net_profit": 22956,
+    "se_tax": 3244
+  },
+  "name_control": "MART"
+}
