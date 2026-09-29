@@ -1,0 +1,2 @@
+client_id,client,filing_status,state,agi_11,deduction_12e,deduction_type,qbi_13a,sch1a_13b,taxable_income_15,tax_16,total_tax_24,payments_33,refund,balance_due,gotchas,folder
+EVG1001,Marcus & Tanya Bell,MFJ,TX (no state return),106763,31500,Standard,0,5602,69661,7884,1084,6770,5686,0,8,clients/EVG1001_Bell
