@@ -1,0 +1,766 @@
+{
+  "client_id": "EVG1010",
+  "client": "Daniel & Grace Kim",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "WA (no state income tax return)",
+    "complexity": "Equity comp + household employer + kiddie tax",
+    "related_clients": [
+      "EVG1021 (Ethan - Form 8615 uses this return's taxable income)"
+    ]
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 429850,
+    "2a": 0,
+    "2b": 1452,
+    "3a": 5904,
+    "3b": 6811,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 10665,
+    "8": 0,
+    "9": 448778,
+    "10": 0,
+    "11": 448778,
+    "12e": 46459,
+    "13a": 0,
+    "13b": 0,
+    "15": 402319,
+    "16": 80885,
+    "17": 0,
+    "19": 1950,
+    "20": 0,
+    "22": 78935,
+    "23": 6965,
+    "24": 85900,
+    "25d": 87480,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 87480,
+    "34": 1580,
+    "35a": 1580,
+    "37": 0
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 1580,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 429850
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 429850
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 1452
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 5904
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 6811
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 10665
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 448778
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 448778
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 46459
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 46459
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 402319
+      },
+      {
+        "line": "16",
+        "description": "Tax (incl. Form 8814 child tax)",
+        "amount": 80885
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 80885
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 1950
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 1950
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 78935
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 6965
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 85900
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 86280
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 1200
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 87480
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 87480
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 1580
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 1580
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Rainier Securities (joint ****4418)",
+        "amount": 1452
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 1452
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 1452
+      },
+      {
+        "line": "5.1",
+        "description": "Rainier Securities (joint ****4418)",
+        "amount": 6811
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 6811
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box B)": [
+      {
+        "line": "STC1",
+        "description": "38 sh NSCS (RSU sell-to-cover) | acq 02/15/2025 | sold 02/18/2025 | proceeds 6,817 | basis 0 | code B adj -6,840",
+        "amount": -23
+      },
+      {
+        "line": "STC2",
+        "description": "38 sh NSCS (RSU sell-to-cover) | acq 05/15/2025 | sold 05/15/2025 | proceeds 6,549 | basis 0 | code B adj -6,555",
+        "amount": -6
+      },
+      {
+        "line": "STC3",
+        "description": "38 sh NSCS (RSU sell-to-cover) | acq 08/15/2025 | sold 08/15/2025 | proceeds 7,041 | basis 0 | code B adj -7,030",
+        "amount": 11
+      },
+      {
+        "line": "STC4",
+        "description": "38 sh NSCS (RSU sell-to-cover) | acq 11/15/2025 | sold 11/17/2025 | proceeds 6,912 | basis 0 | code B adj -6,935",
+        "amount": -23
+      },
+      {
+        "line": "S5",
+        "description": "82 sh NSCS (RSU 02/15/2025 lot) | acq 02/15/2025 | sold 12/05/2025 | proceeds 15,588 | basis 0 | code B adj -14,760",
+        "amount": 828
+      }
+    ],
+    "Form 8949 (Box E)": [
+      {
+        "line": "S6",
+        "description": "150 sh NSCS (RSU 03/15/2023 lot, FMV 118.40) | acq 03/15/2023 | sold 06/10/2025 | proceeds 26,430 | basis 0 | code B adj -17,760",
+        "amount": 8670
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "ST box B",
+        "description": "Short-term from Form 8949 box B (proceeds 42,908; cost 0; adj -42,120)",
+        "amount": 788
+      },
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 788
+      },
+      {
+        "line": "LT box E",
+        "description": "Long-term from Form 8949 box E (proceeds 26,430; cost 0; adj -17,760)",
+        "amount": 8670
+      },
+      {
+        "line": "13",
+        "description": "Capital gain distributions",
+        "amount": 1207
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 9877
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 10665
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 33658
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "General sales taxes",
+        "amount": 3912
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 14236
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 18148
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 18148
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 18148
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 24311
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 24311
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 24311
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 4000
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 4000
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 46459
+      }
+    ],
+    "Form 2441": [
+      {
+        "line": "employer_benefits",
+        "description": "employer benefits",
+        "amount": 5000.0
+      },
+      {
+        "line": "exclusion",
+        "description": "exclusion",
+        "amount": 5000
+      },
+      {
+        "line": "taxable_benefits",
+        "description": "taxable benefits",
+        "amount": 0
+      },
+      {
+        "line": "qualified_expenses_allowed",
+        "description": "qualified expenses allowed",
+        "amount": 0
+      },
+      {
+        "line": "pct",
+        "description": "pct",
+        "amount": 0.2
+      },
+      {
+        "line": "credit",
+        "description": "credit",
+        "amount": 0
+      }
+    ],
+    "Schedule 8812": [
+      {
+        "line": "4",
+        "description": "Number of qualifying children under 17 with SSN",
+        "amount": 2
+      },
+      {
+        "line": "6",
+        "description": "Number of other dependents",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Tentative credit",
+        "amount": 4400
+      },
+      {
+        "line": "10-11",
+        "description": "Phase-out reduction (MAGI 448,778 vs 400,000)",
+        "amount": 2450
+      },
+      {
+        "line": "12",
+        "description": "Credit after phase-out",
+        "amount": 1950
+      },
+      {
+        "line": "14",
+        "description": "Nonrefundable CTC/ODC (to Form 1040 line 19)",
+        "amount": 1950
+      },
+      {
+        "line": "27",
+        "description": "Additional child tax credit (to Form 1040 line 28)",
+        "amount": 0
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "9",
+        "description": "Household employment taxes (Schedule H)",
+        "amount": 4326
+      },
+      {
+        "line": "11",
+        "description": "Additional Medicare Tax (Form 8959)",
+        "amount": 1920
+      },
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 719
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 6965
+      }
+    ],
+    "Form 8959": [
+      {
+        "line": "7/13",
+        "description": "Additional Medicare Tax (Medicare wages 463,350; SE 0; threshold 250,000)",
+        "amount": 1920
+      },
+      {
+        "line": "24",
+        "description": "Additional Medicare Tax withheld by employer(s)",
+        "amount": 1200
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 18928
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 18928
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 448,778 over threshold 250,000",
+        "amount": 198778
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 719
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "Washington",
+      "return": "None (no personal income tax)",
+      "note": "WA capital gains excise (RCW 82.87) - long-term gains far below the WA standard deduction; no return. Household employer: WA ESD unemployment registration/contributions (outside 1040)."
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040 (federal) incl. Schedule H",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-13"
+    },
+    {
+      "form": "Form W-2 / W-3 (Maria Lopez)",
+      "method": "SSA e-file",
+      "due": "2026-02-02",
+      "filed": "2026-03-10 (late)"
+    },
+    {
+      "form": "Corrected Form 1099-NEC ($0)",
+      "method": "IRIS",
+      "filed": "2026-03-10"
+    },
+    {
+      "form": "EVG1021 - Ethan Kim Form 1040 with Form 8615",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-14"
+    },
+    {
+      "form": "2024 Form 1040-X with Schedule H (2024 nanny wages $6,240)",
+      "method": "separate MISC project",
+      "status": "in WIP"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1010-G1",
+      "procedure_section": "Review - Kid Taxes and Filings (separate client ID / project code)",
+      "title": "Ethan cannot go on Form 8814",
+      "trap": "Follow the client's request / PY return and report Ethan's $6,400 UTMA income on the parents' return via Form 8814.",
+      "correct_treatment": "Form 8814 is available only if the child's income is solely interest and dividends (incl. capital gain distributions) and < $13,500. Ethan has a $3,100 capital gain from a fund SALE and $3,200 of wages -> not eligible. Unearned income $6,400 > $2,700 -> Form 8615 on Ethan's own return. Separate client ID EVG1021 and 1040 project code opened.",
+      "impact": "Parents' return must show nothing for Ethan; Ethan's return EVG1021 carries the kiddie tax",
+      "affected_lines": [
+        "16"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1010-G2",
+      "procedure_section": "Review - Kid Taxes and Filings (Form 8814)",
+      "title": "Chloe's $1,900 interest - Form 8814 election",
+      "trap": "Either ignore Chloe's 1099-INT (below $2,700 so 'nothing to report') or add $1,900 to the parents' interest income.",
+      "correct_treatment": "Chloe must file (unearned > $1,350) unless parents elect Form 8814. Elected: line 4 $1,900 < $2,700 base -> $0 added to parents' income; tax 10% x ($1,900 - $1,350) = $55 added to Form 1040 line 16. Trade-off: identical tax to a separate return for Chloe, one fewer return and fee; no AGI-based items of the parents are affected because $0 is included.",
+      "impact": "Line 16 +$55",
+      "affected_lines": [
+        "16"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1010-G3",
+      "procedure_section": "Schedule D - missing cost basis on Consolidated 1099 (equity comp)",
+      "title": "RSU shares reported with $0 basis",
+      "trap": "Autoflow takes the 1099-B basis of $0 -> $69,338 of proceeds taxed as gain (the $86,400 of 2025 vest income and the 2023 lot income were already taxed as W-2 wages).",
+      "correct_treatment": "Form 8949 box B (short-term) / box E (long-term) - basis not reported to IRS; enter 1099-B basis $0, code B, and a negative column (g) adjustment equal to FMV at vest from the supplemental statement. Net RSU gain $9,458 (ST $788, LT $8,670).",
+      "impact": "Line 7 overstated by ~$59,880 if missed",
+      "affected_lines": [
+        "7"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1010-G4",
+      "procedure_section": "Scan - unstructured documents / Payment-app export (household employee)",
+      "title": "Nanny treated as a 1099 contractor",
+      "trap": "Accept the client's 1099-NEC treatment (or ignore it - 'not our client's income') and file with no Schedule H.",
+      "correct_treatment": "Maria is a household employee (family controls when/how the work is done, in their home, their car, weekly pay, no other clients). Cash wages $28,000 >= $2,800 (2025) -> Schedule H: SS/Medicare 15.3% = $4,284; FUTA 0.6% x $7,000 = $42 (WA ESD contributions paid by 04/15/2026) -> $4,326 on Schedule 2 line 9. Obtain EIN, file W-2/W-3 (box 1 includes the $2,142 employee share paid by the employer), file corrected $0 1099-NEC, register with WA ESD; 2024 wages $6,240 also exceeded the 2024 $2,700 threshold -> amend 2024 (separate project).",
+      "impact": "Total tax understated $4,326",
+      "affected_lines": [
+        "23",
+        "24"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1010-G5",
+      "procedure_section": "Form 2441 / W-2 box 10",
+      "title": "Dependent-care FSA displaces the credit",
+      "trap": "Claim a $600 credit (20% x $3,000) for Chloe's nanny costs in addition to the $5,000 FSA exclusion.",
+      "correct_treatment": "Only Chloe (under 13) is a qualifying person (Ethan is 16). With one qualifying person the credit base is $3,000 - $5,000 excluded FSA benefits = $0. Form 2441 is still required (Part III) to support the $5,000 exclusion and list the provider (Maria, SSN).",
+      "impact": "Credit $0, not $600",
+      "affected_lines": [
+        "20"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1010-G6",
+      "procedure_section": "Form 1099-Q",
+      "title": "529 distribution for private K-12 tuition",
+      "trap": "Treat the $3,123 earnings in box 2 as taxable (no 1098-T), or claim an education credit for the tuition.",
+      "correct_treatment": "Up to $10,000 per year per beneficiary of K-12 tuition is a qualified expense for 2025 (the $20,000 limit starts 2026). Distribution $10,000 = qualified tuition -> $0 taxable; nothing on the 1040. K-12 tuition is not eligible for AOTC/LLC.",
+      "impact": "Avoids $3,123 of phantom income",
+      "affected_lines": [
+        "8"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1010-G7",
+      "procedure_section": "Schedule 8812 / Form 8959 / Form 8960",
+      "title": "High-income phase-outs and surtaxes",
+      "trap": "Full $4,400 CTC; skip Form 8959 because the employer 'already withheld Additional Medicare'; skip NIIT.",
+      "correct_treatment": "CTC reduced $50 per $1,000 of MAGI over $400,000 -> $1,950. Form 8959: combined Medicare wages $463,350 - $250,000 MFJ threshold x 0.9% = $1,920; employer withheld only $1,200 (on Daniel's wages over $200,000) - credited on line 25c. NIIT 3.8% x NII $18,928 = $719.",
+      "impact": "Several thousand dollars of tax",
+      "affected_lines": [
+        "19",
+        "23",
+        "25c"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1010-G8",
+      "procedure_section": "Schedule A - sales tax vs income tax (no-income-tax state)",
+      "title": "WA residents: general sales tax election",
+      "trap": "Enter $0 on line 5a (no state income tax), or add both PFML premiums and sales tax.",
+      "correct_treatment": "Elect general sales taxes (IRS calculator / Axcess blended-rate option): $3,912 > PFML premiums treated as income tax. Only one of income or sales tax may be itemized. Itemized total exceeds the $31,500 standard deduction.",
+      "impact": "Schedule A line 5a",
+      "affected_lines": [
+        "12e"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "form_8615_parent_data_exported": {
+    "parent_ti": 402319,
+    "parent_status": "MFJ",
+    "parent_qd": 5904,
+    "parent_ncg": 9877,
+    "parent_tax_line16_ex_8814": 80830,
+    "parent_name": "Daniel J. Kim & Grace H. Kim",
+    "parent_ssn": "XXX-XX-3318"
+  }
+}

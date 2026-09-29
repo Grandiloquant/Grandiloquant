@@ -1,0 +1,15 @@
+From: preparer@evergreentax.example
+To: Thomas Nguyen <thomas.nguyen@example.com>
+Date: Fri, 10 Apr 2026 09:15:22 -0500
+Subject: Nguyen 2025 - extension
+
+Thomas - we don't have your final CoinLedger report yet (MetaMask wallet not connected), so we are filing Form 4868.
+Based on your preliminary numbers we recommend paying $12,000 with the extension by 04/15/2026 via Direct Pay.
+Please send the final CoinLedger Form 8949 (CSV + PDF) and income report once MetaMask is imported.
+
+-----
+From: Thomas Nguyen
+Date: Mon, 13 Apr 2026 22:47:10 -0500
+Subject: RE: Nguyen 2025 - extension
+
+Paying tomorrow. Will get the MetaMask stuff done over the summer, sorry!
