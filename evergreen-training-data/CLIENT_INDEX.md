@@ -12,6 +12,7 @@
 | EVG1006 | Carlos & Maria Mendoza | MFJ | TX (no state return) | 91,743 | 48,194 | 12,276 | 604 | 0 | 9 | [`clients/EVG1006_Mendoza`](clients/EVG1006_Mendoza) |
 | EVG1007 | Dr. Aisha Rahman | S | IL (Chicago) - full-year resident | 552,750 | 479,825 | 133,340 | 0 | 32,759 | 9 | [`clients/EVG1007_Rahman`](clients/EVG1007_Rahman) |
 | EVG1008 | Kevin & Samantha O'Brien | MFJ | PA (Lancaster - Manheim Twp) | 171,682 | 140,182 | 17,344 | 2,772 | 0 | 7 | [`clients/EVG1008_OBrien`](clients/EVG1008_OBrien) |
+| EVG1009 | Harold Jensen & Eleanor Jensen (deceased) | MFJ | WA (no income tax) | 95,881 | 31,036 | 1,368 | 2,032 | 0 | 8 | [`clients/EVG1009_Jensen`](clients/EVG1009_Jensen) |
 | EVG1010 | Daniel & Grace Kim | MFJ | WA (no state income tax return) | 448,778 | 402,319 | 85,900 | 1,580 | 0 | 8 | [`clients/EVG1010_Kim`](clients/EVG1010_Kim) |
 | EVG1011 | Thomas Nguyen | S | TN (no state income tax return) | 227,890 | 212,140 | 34,730 | 1,838 | 0 | 8 | [`clients/EVG1011_Nguyen`](clients/EVG1011_Nguyen) |
 | EVG1012 | Walter & June Hoffman | MFJ | NC (resident D-400) | 157,434 | 111,626 | 12,817 | 0 | 37 | 8 | [`clients/EVG1012_Hoffman`](clients/EVG1012_Hoffman) |
@@ -19,41 +20,46 @@
 | EVG1014 | Sofia Martinez & Liam Hart | MFJ | MI - Ann Arbor (MI-1040; no city tax) | 115,144 | 79,377 | 12,292 | 0 | 2,846 | 8 | [`clients/EVG1014_Martinez-Hart`](clients/EVG1014_Martinez-Hart) |
 | EVG1015 | Rajesh & Anita Iyer | MFJ | WA - Redmond (no state income tax) | 348,527 | 317,027 | 60,827 | 1,795 | 0 | 9 | [`clients/EVG1015_Iyer`](clients/EVG1015_Iyer) |
 | EVG1016 | Megan Doyle | HOH | MI - Grand Rapids (MI-1040 + GR-1040R) | 118,662 | 90,177 | 9,774 | 4,026 | 0 | 8 | [`clients/EVG1016_Doyle`](clients/EVG1016_Doyle) |
+| EVG1017 | Frank & Diane Russo | MFJ | IL (Hinsdale); PA nonresident | 350,875 | 279,087 | 42,450 | 350 | 0 | 9 | [`clients/EVG1017_Russo`](clients/EVG1017_Russo) |
 | EVG1018 | Elena Vasquez | S | FL (no state income tax) | 165,000 | 134,410 | 24,960 | 1,240 | 0 | 9 | [`clients/EVG1018_Vasquez`](clients/EVG1018_Vasquez) |
 | EVG1019 | Owen & Chloe Fitzgerald | MFJ | NC (Raleigh) | 240,012 | 173,434 | 28,020 | 7,780 | 0 | 9 | [`clients/EVG1019_Fitzgerald`](clients/EVG1019_Fitzgerald) |
 | EVG1020 | Ashley Turner | S | TN (no state income tax); NC nonresident return | 89,104 | 65,112 | 9,242 | 1,178 | 0 | 8 | [`clients/EVG1020_Turner`](clients/EVG1020_Turner) |
 | EVG1021 | Ethan S. Kim | S | WA (no state income tax return) | 9,600 | 5,950 | 642 | 0 | 642 | 6 | [`clients/EVG1021_Kim-Ethan`](clients/EVG1021_Kim-Ethan) |
 
-## Gotchas by procedure area (155 total)
+## Gotchas by procedure area (172 total)
 
 | Procedure area | Count | Rubric IDs |
 |---|---:|---|
-| Scan | 19 | EVG1001-G1, EVG1002-G3, EVG1003-G1, EVG1003-G3, EVG1004-G7, EVG1005-G9, EVG1006-G8, EVG1007-G9, EVG1008-G6, EVG1010-G4, EVG1011-G3, EVG1012-G4, EVG1013-G3, EVG1014-G4, EVG1014-G8, EVG1016-G2, EVG1016-G8, EVG1018-G8, EVG1020-G2 |
+| Scan | 21 | EVG1001-G1, EVG1002-G3, EVG1003-G1, EVG1003-G3, EVG1004-G7, EVG1005-G9, EVG1006-G8, EVG1007-G9, EVG1008-G6, EVG1010-G4, EVG1011-G3, EVG1012-G4, EVG1013-G3, EVG1014-G4, EVG1014-G8, EVG1016-G2, EVG1016-G8, EVG1017-G1, EVG1017-G4, EVG1018-G8, EVG1020-G2 |
 | Return | 17 | EVG1002-G4, EVG1002-G5, EVG1002-G6, EVG1002-G7, EVG1003-G2, EVG1003-G4, EVG1003-G5, EVG1003-G6, EVG1003-G7, EVG1003-G8, EVG1004-G1, EVG1004-G5, EVG1004-G8, EVG1004-G9, EVG1005-G1, EVG1005-G2, EVG1005-G4 |
+| Schedule A | 11 | EVG1007-G3, EVG1007-G4, EVG1007-G5, EVG1009-G4, EVG1010-G8, EVG1012-G8, EVG1019-G1, EVG1019-G4, EVG1020-G5, EVG1020-G6, EVG1020-G7 |
 | Schedule C | 11 | EVG1006-G1, EVG1006-G2, EVG1006-G3, EVG1006-G4, EVG1006-G5, EVG1006-G6, EVG1006-G7, EVG1014-G5, EVG1014-G6, EVG1019-G3, EVG1019-G7 |
-| Schedule A | 10 | EVG1007-G3, EVG1007-G4, EVG1007-G5, EVG1010-G8, EVG1012-G8, EVG1019-G1, EVG1019-G4, EVG1020-G5, EVG1020-G6, EVG1020-G7 |
-| Review | 9 | EVG1002-G1, EVG1004-G6, EVG1005-G3, EVG1007-G6, EVG1010-G1, EVG1010-G2, EVG1015-G9, EVG1016-G3, EVG1021-G1 |
-| Foreign Transactions | 8 | EVG1004-G2, EVG1004-G3, EVG1004-G4, EVG1015-G1, EVG1015-G2, EVG1015-G3, EVG1015-G4, EVG1015-G6 |
+| Review | 10 | EVG1002-G1, EVG1004-G6, EVG1005-G3, EVG1007-G6, EVG1009-G1, EVG1010-G1, EVG1010-G2, EVG1015-G9, EVG1016-G3, EVG1021-G1 |
+| Schedules K-1 | 10 | EVG1007-G1, EVG1007-G2, EVG1017-G7, EVG1017-G8, EVG1018-G1, EVG1018-G2, EVG1018-G3, EVG1018-G5, EVG1018-G6, EVG1018-G7 |
+| Foreign Transactions | 9 | EVG1004-G2, EVG1004-G3, EVG1004-G4, EVG1015-G1, EVG1015-G2, EVG1015-G3, EVG1015-G4, EVG1015-G6, EVG1017-G5 |
 | SALT Implications | 8 | EVG1002-G8, EVG1005-G5, EVG1005-G6, EVG1005-G7, EVG1005-G8, EVG1008-G7, EVG1013-G7, EVG1016-G6 |
-| Schedules K-1 | 8 | EVG1007-G1, EVG1007-G2, EVG1018-G1, EVG1018-G2, EVG1018-G3, EVG1018-G5, EVG1018-G6, EVG1018-G7 |
-| Schedule D | 4 | EVG1010-G3, EVG1011-G1, EVG1011-G5, EVG1013-G2 |
+| Schedule D | 5 | EVG1010-G3, EVG1011-G1, EVG1011-G5, EVG1013-G2, EVG1017-G3 |
+| OBBBA | 4 | EVG1001-G4, EVG1001-G5, EVG1009-G7, EVG1016-G5 |
+| SALT | 4 | EVG1012-G7, EVG1017-G9, EVG1019-G9, EVG1020-G8 |
 | General Return Prep Notes | 3 | EVG1001-G2, EVG1008-G4, EVG1012-G1 |
 | Kid Taxes | 3 | EVG1021-G2, EVG1021-G3, EVG1021-G5 |
-| OBBBA | 3 | EVG1001-G4, EVG1001-G5, EVG1016-G5 |
+| NIIT | 3 | EVG1007-G8, EVG1011-G7, EVG1017-G6 |
 | Other traps | 3 | EVG1019-G5, EVG1019-G6, EVG1019-G8 |
-| SALT | 3 | EVG1012-G7, EVG1019-G9, EVG1020-G8 |
 | Schedule E | 3 | EVG1008-G1, EVG1008-G2, EVG1008-G3 |
 | Schedule E / Rental Properties | 3 | EVG1018-G9, EVG1020-G3, EVG1020-G4 |
 | E-File Rejects | 2 | EVG1011-G2, EVG1014-G3 |
+| Estate Implications | 2 | EVG1009-G2, EVG1009-G3 |
 | Filing Status | 2 | EVG1014-G1, EVG1016-G1 |
 | Installment Sales | 2 | EVG1012-G2, EVG1012-G3 |
-| NIIT | 2 | EVG1007-G8, EVG1011-G7 |
 | QBI | 2 | EVG1007-G7, EVG1018-G4 |
+| Schedule B | 2 | EVG1012-G5, EVG1017-G2 |
 | W-2 box 12 codes | 2 | EVG1001-G7, EVG1001-G8 |
 | Billing | 1 | EVG1011-G8 |
+| Client IRAs / inherited IRA | 1 | EVG1009-G6 |
 | Client IRAs / retirement distributions | 1 | EVG1016-G4 |
 | Client Interview / dependents | 1 | EVG1001-G3 |
 | Education credits / dependents | 1 | EVG1008-G5 |
+| Estate Implications / SALT | 1 | EVG1009-G8 |
 | Filing | 1 | EVG1021-G6 |
 | FinCEN114/FBAR | 1 | EVG1015-G5 |
 | Foreign Trusts | 1 | EVG1015-G8 |
@@ -74,8 +80,8 @@
 | Schedule 1-A | 1 | EVG1012-G6 |
 | Schedule 8812 / Form 8959 / Form 8960 | 1 | EVG1010-G7 |
 | Schedule A / Schedule C | 1 | EVG1019-G2 |
-| Schedule B | 1 | EVG1012-G5 |
 | Schedule E / Rental Properties; Scan | 1 | EVG1020-G1 |
+| Social security | 1 | EVG1009-G5 |
 | Standard deduction | 1 | EVG1021-G4 |
 | W-2 box 12 codes / Form 8889 | 1 | EVG1013-G5 |
 
@@ -150,6 +156,14 @@
 | EVG1008-G5 | AOTC in the MAGI phase-out; 18-year-old dependent | Education credits / dependents | medium |
 | EVG1008-G6 | Lender escrow statement repeats the 1098 interest and taxes | Scan - duplicate documents | easy |
 | EVG1008-G7 | PA-40 prepared from federal numbers | SALT Implications - PA class rules | medium |
+| EVG1009-G1 | Client and procedure say 'qualifying widower' | Review - Filing Status (spouse deceased) | medium |
+| EVG1009-G2 | Schwab 1099-B shows original cost; noncovered lots show no basis | Estate Implications - step-up in basis (community property) | hard |
+| EVG1009-G3 | 1099-S $685,000 on the marital home | Estate Implications - sale of a home received from an estate; Schedule D code H | medium |
+| EVG1009-G4 | Final medical bills and funeral costs | Schedule A - medical; decedent's expenses; funeral | medium |
+| EVG1009-G5 | Eleanor's August benefit returned | Social security - benefits repaid (SSA-1099 box 4) | easy |
+| EVG1009-G6 | Vanguard statement shows a $418,903 'transfer out' of Eleanor's IRA | Client IRAs / inherited IRA | easy |
+| EVG1009-G7 | Deceased spouse and the new $6,000 senior deduction | OBBBA - senior deduction (Schedule 1-A Part V) | easy |
+| EVG1009-G8 | Items outside the 1040 | Estate Implications / SALT - WA capital gains excise; Form 706 portability | medium |
 | EVG1010-G1 | Ethan cannot go on Form 8814 | Review - Kid Taxes and Filings (separate client ID / project code) | hard |
 | EVG1010-G2 | Chloe's $1,900 interest - Form 8814 election | Review - Kid Taxes and Filings (Form 8814) | medium |
 | EVG1010-G3 | RSU shares reported with $0 basis | Schedule D - missing cost basis on Consolidated 1099 (equity comp) | medium |
@@ -206,6 +220,15 @@
 | EVG1016-G6 | Michigan exemptions after Form 8332 release | SALT Implications (state exemptions) | medium |
 | EVG1016-G7 | Grand Rapids resident city return | Local Filing Requirements | medium |
 | EVG1016-G8 | Brian's W-2 uploaded by Megan | Scan - documents for another taxpayer | easy |
+| EVG1017-G1 | Corrected Morgan Stanley 1099 replaces the original | Scan - duplicate documents (original + CORRECTED consolidated 1099) | easy |
+| EVG1017-G2 | Accrued interest paid and Treasury interest for IL | Schedule B - accrued interest / state exemption; Scan - consolidated 1099 (accrued interest, state exemptions) | medium |
+| EVG1017-G3 | Market discount, wash sale and a noncovered lot with no basis | Schedule D - adjustment codes D and W; missing cost basis | medium |
+| EVG1017-G4 | WHFIT section is outside the 1099 totals | Scan - consolidated 1099 (UITs / WHFITs) | medium |
+| EVG1017-G5 | Foreign tax $820 exceeds the MFJ de minimis | Foreign Transactions - Form 1116 ($600 MFJ de minimis; RIC) | medium |
+| EVG1017-G6 | Margin interest -> Form 4952 and Form 8960 | NIIT - margin interest allocable; Scan - margin interest | medium |
+| EVG1017-G7 | Ridgeview $80,000 distribution exceeds outside basis | Schedules K-1 - partnership distribution in excess of outside basis (Section 6 - apply the limitation) | hard |
+| EVG1017-G8 | LP rental loss vs other passive income; PTP basket | Schedules K-1 - passive activities / PTP; QBI (REIT, PTP) | hard |
+| EVG1017-G9 | K-1 state matrices: PA filing required; losses don't trigger filings | SALT - New State Filing Requirements (K-1 state matrix) | medium |
 | EVG1018-G1 | S corp omitted the 311(b) gain on the truck | Schedules K-1 - S corp IRC 311(b) property distribution | hard |
 | EVG1018-G2 | Basis ordering with a property distribution | Schedules K-1 - basis limitation (Section 5 line 16 other increases) | medium |
 | EVG1018-G3 | Reporting inconsistently with the K-1 requires Form 8082 | Schedules K-1 - S corp accountant fails to reflect 311(b); Review - tax research | medium |

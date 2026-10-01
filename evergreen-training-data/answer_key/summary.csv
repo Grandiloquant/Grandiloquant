@@ -7,6 +7,7 @@ EVG1005,Jennifer Walsh,S,MI - Detroit (01/01-06/30) -> Royal Oak (07/01-12/31),2
 EVG1006,Carlos & Maria Mendoza,MFJ,TX (no state return),91743,31500,Standard,12049,0,48194,5304,12276,12880,604,0,9,clients/EVG1006_Mendoza
 EVG1007,Dr. Aisha Rahman,S,IL (Chicago) - full-year resident,552750,72925,Itemized (Schedule A),0,0,479825,132794,133340,101360,0,32759,9,clients/EVG1007_Rahman
 EVG1008,Kevin & Samantha O'Brien,MFJ,PA (Lancaster - Manheim Twp),171682,31500,Standard,0,0,140182,20668,17344,20116,2772,0,7,clients/EVG1008_OBrien
+EVG1009,Harold Jensen & Eleanor Jensen (deceased),MFJ,WA (no income tax),95881,52845,Itemized (Schedule A),0,12000,31036,1368,1368,3400,2032,0,8,clients/EVG1009_Jensen
 EVG1010,Daniel & Grace Kim,MFJ,WA (no state income tax return),448778,46459,Itemized (Schedule A),0,0,402319,80885,85900,87480,1580,0,8,clients/EVG1010_Kim
 EVG1011,Thomas Nguyen,S,TN (no state income tax return),227890,15750,Standard,0,0,212140,30142,34730,36568,1838,0,8,clients/EVG1011_Nguyen
 EVG1012,Walter & June Hoffman,MFJ,NC (resident D-400),157434,34700,Standard,0,11108,111626,12817,12817,12780,0,37,8,clients/EVG1012_Hoffman
@@ -14,6 +15,7 @@ EVG1013,Nathan Brooks,S,IL - Chicago (IL-1040; no city income tax),165959,15750,
 EVG1014,Sofia Martinez & Liam Hart,MFJ,MI - Ann Arbor (MI-1040; no city tax),115144,31500,Standard,4267,0,79377,9048,12292,9446,0,2846,8,clients/EVG1014_Martinez-Hart
 EVG1015,Rajesh & Anita Iyer,MFJ,WA - Redmond (no state income tax),348527,31500,Standard,0,0,317027,61780,60827,62622,1795,0,9,clients/EVG1015_Iyer
 EVG1016,Megan Doyle,HOH,MI - Grand Rapids (MI-1040 + GR-1040R),118662,23625,Standard,0,4860,90177,13014,9774,13800,4026,0,8,clients/EVG1016_Doyle
+EVG1017,Frank & Diane Russo,MFJ,IL (Hinsdale); PA nonresident,350875,61608,Itemized (Schedule A),10180,0,279087,39437,42450,42800,350,0,9,clients/EVG1017_Russo
 EVG1018,Elena Vasquez,S,FL (no state income tax),165000,15750,Standard,14840,0,134410,24960,24960,26200,1240,0,9,clients/EVG1018_Vasquez
 EVG1019,Owen & Chloe Fitzgerald,MFJ,NC (Raleigh),240012,52252,Itemized (Schedule A),14326,0,173434,27983,28020,35800,7780,0,9,clients/EVG1019_Fitzgerald
 EVG1020,Ashley Turner,S,TN (no state income tax); NC nonresident return,89104,23992,Itemized (Schedule A),0,0,65112,9242,9242,10420,1178,0,8,clients/EVG1020_Turner
