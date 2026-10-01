@@ -408,6 +408,88 @@
         "amount": 7800
       }
     ],
+    "Itemized vs. standard comparison (Schedule A not filed)": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 12375
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 3920
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 3920
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 3920
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 3920
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 6180
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 6180
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 6180
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 2900
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 2900
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 13000
+      }
+    ],
     "Form 8995": [
       {
         "line": "Bayline Marine Services, Inc.",

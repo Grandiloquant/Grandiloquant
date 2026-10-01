@@ -470,17 +470,18 @@ class Return1040:
             self.values["deduction_type"] = "Standard"
             if itemized is not None:
                 self.notes.append(f"Itemized deductions ${itemized:,} < standard deduction ${std:,}; standard deduction used.")
+                # Schedule A is not filed - keep it only as a labelled comparison workpaper
+                self.forms["Itemized vs. standard comparison (Schedule A not filed)"] = self.forms.pop("Schedule A")
         self.values["standard_deduction_available"] = std
         self.values["itemized_total_computed"] = itemized
         l12 = self.line("Form 1040", "12e", f"Standard deduction or itemized deductions ({self.values['deduction_type']})", ded, "12e")
 
         # QBI
-        ti_before_qbi = max(0, agi - ded)
+        # Schedule 1-A (computed first: QBI's taxable-income limit is figured after these deductions)
+        s1a = self._schedule_1a(agi)
+        ti_before_qbi = max(0, agi - ded - s1a)
         qbi = self._qbi(ti_before_qbi)
         l13a = self.line("Form 1040", "13a", "Qualified business income deduction (Form 8995/8995-A)", qbi, "13a")
-
-        # Schedule 1-A
-        s1a = self._schedule_1a(agi)
         l13b = self.line("Form 1040", "13b", "Additional deductions from Schedule 1-A, line 38", s1a, "13b")
         l14 = self.line("Form 1040", "14", "Add lines 12e, 13a, and 13b", l12 + l13a + l13b)
         ti = self.line("Form 1040", "15", "Taxable income", max(0, agi - l14), "15")

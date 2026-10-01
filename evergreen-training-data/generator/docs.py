@@ -12,6 +12,7 @@ Produces realistic-looking (but clearly synthetic) PBC documents:
 from __future__ import annotations
 
 import csv
+import re
 import os
 import random
 from io import BytesIO
@@ -38,11 +39,18 @@ def ensure_dir(path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
 
 
+def esc(text):
+    """Escape bare ampersands for reportlab Paragraph markup (keeps existing entities and tags)."""
+    return re.sub(r"&(?!(?:[a-zA-Z]+|#\d+);)", "&amp;", str(text))
+
+
 def money(v, dec=2):
     if v is None or v == "":
         return ""
     if isinstance(v, str):
         return v
+    if isinstance(v, float) and 0 < abs(v) < 1:   # rates / ratios
+        return f"{v:.4f}".rstrip("0").rstrip(".")
     if dec == 0:
         return f"{v:,.0f}" if v >= 0 else f"({-v:,.0f})"
     return f"{v:,.2f}" if v >= 0 else f"({-v:,.2f})"
@@ -168,28 +176,28 @@ def statement(path, title, sections, subtitle=None, header_lines=None, landscape
                             topMargin=0.6 * inch, bottomMargin=0.6 * inch, title=title)
     story = []
     story.append(Paragraph(f"<font color='red' size='7'>{SYN}</font>", SMALL))
-    story.append(Paragraph(title, H1))
+    story.append(Paragraph(esc(title), H1))
     if subtitle:
-        story.append(Paragraph(subtitle, BODY))
+        story.append(Paragraph(esc(subtitle), BODY))
     if header_lines:
         story.append(Spacer(1, 4))
         for hl in header_lines:
-            story.append(Paragraph(hl, BODY))
+            story.append(Paragraph(esc(hl), BODY))
     story.append(Spacer(1, 6))
     for s in sections:
         if s.get("pagebreak"):
             story.append(PageBreak())
         if s.get("heading"):
-            story.append(Paragraph(s["heading"], H2))
+            story.append(Paragraph(esc(s["heading"]), H2))
         if s.get("subheading"):
-            story.append(Paragraph(s["subheading"], H3))
+            story.append(Paragraph(esc(s["subheading"]), H3))
         paras = s.get("para")
         if paras:
             for p in ([paras] if isinstance(paras, str) else paras):
-                story.append(Paragraph(p, BODY))
+                story.append(Paragraph(esc(p), BODY))
                 story.append(Spacer(1, 3))
         if s.get("table"):
-            data = [[Paragraph(str(cell), SMALL) if isinstance(cell, str) and len(cell) > 28 else
+            data = [[Paragraph(esc(cell), SMALL) if isinstance(cell, str) and len(cell) > 28 else
                      (money(cell) if isinstance(cell, (int, float)) and not isinstance(cell, bool) else cell)
                      for cell in row] for row in s["table"]]
             t = Table(data, colWidths=s.get("col_widths"), repeatRows=1 if s.get("header", True) else 0)
@@ -210,11 +218,11 @@ def statement(path, title, sections, subtitle=None, header_lines=None, landscape
             story.append(Spacer(1, 5))
         if s.get("note"):
             for n in ([s["note"]] if isinstance(s["note"], str) else s["note"]):
-                story.append(Paragraph(f"<i>{n}</i>", SMALL))
+                story.append(Paragraph(f"<i>{esc(n)}</i>", SMALL))
             story.append(Spacer(1, 4))
     if footer:
         story.append(Spacer(1, 10))
-        story.append(Paragraph(footer, SMALL))
+        story.append(Paragraph(esc(footer), SMALL))
 
     def _pg(canv, d):
         canv.setFont("Helvetica", 6.5)
@@ -357,10 +365,10 @@ def return_pdf(path, header, ret, state_summary=None, attachments=None, copy_lab
     doc = SimpleDocTemplate(path, pagesize=letter, leftMargin=0.55 * inch, rightMargin=0.55 * inch,
                             topMargin=0.6 * inch, bottomMargin=0.6 * inch, title=header["title"])
     story = [Paragraph(f"<font color='red' size='7'>{SYN}</font>", SMALL),
-             Paragraph(f"{header['title']}", H1),
+             Paragraph(esc(header["title"]), H1),
              Paragraph(f"<b>{copy_label}</b> - Tax Year 2025 - Prepared by Evergreen Tax (synthetic firm)", BODY),
              Spacer(1, 6)]
-    info = [[k, v] for k, v in header["info"]]
+    info = [[Paragraph(f"<b>{esc(k)}</b>", SMALL), Paragraph(esc(v), SMALL)] for k, v in header["info"]]
     t = Table(info, colWidths=[2.1 * inch, 5.1 * inch])
     t.setStyle(TableStyle([("FONT", (0, 0), (-1, -1), "Helvetica", 8.5), ("FONT", (0, 0), (0, -1), "Helvetica-Bold", 8.5),
                            ("GRID", (0, 0), (-1, -1), .25, colors.grey), ("VALIGN", (0, 0), (-1, -1), "TOP")]))
@@ -388,22 +396,22 @@ def return_pdf(path, header, ret, state_summary=None, attachments=None, copy_lab
         story.append(PageBreak() if form == "Form 1040" else Spacer(1, 10))
         rows = [["Line", "Description", "Amount"]]
         for ln, d, amt in lines:
-            rows.append([str(ln), Paragraph(str(d), SMALL),
+            rows.append([str(ln), Paragraph(esc(d), SMALL),
                          money(amt, 0) if isinstance(amt, (int, float)) and not isinstance(amt, bool) else str(amt)])
         tt = Table(rows, colWidths=[0.8 * inch, 5.3 * inch, 1.2 * inch], repeatRows=1)
         tt.setStyle(TableStyle([("FONT", (0, 0), (-1, -1), "Helvetica", 8), ("FONT", (0, 0), (-1, 0), "Helvetica-Bold", 8),
                                 ("BACKGROUND", (0, 0), (-1, 0), colors.Color(.9, .9, .9)),
                                 ("GRID", (0, 0), (-1, -1), .25, colors.grey), ("ALIGN", (2, 0), (2, -1), "RIGHT"),
                                 ("VALIGN", (0, 0), (-1, -1), "TOP")]))
-        story.append(KeepTogether([Paragraph(form, H2)]) )
+        story.append(KeepTogether([Paragraph(esc(form), H2)]) )
         story.append(tt)
     for title, rows in (attachments or []):
         story.append(Spacer(1, 10))
-        story.append(Paragraph(title, H2))
+        story.append(Paragraph(esc(title), H2))
         if isinstance(rows, str):
-            story.append(Paragraph(rows, BODY))
+            story.append(Paragraph(esc(rows), BODY))
         else:
-            data = [[Paragraph(str(c), SMALL) if isinstance(c, str) else money(c, 0) for c in row] for row in rows]
+            data = [[Paragraph(esc(c), SMALL) if isinstance(c, str) else money(c, 0) for c in row] for row in rows]
             tt = Table(data, repeatRows=1)
             tt.setStyle(TableStyle([("FONT", (0, 0), (-1, -1), "Helvetica", 8), ("GRID", (0, 0), (-1, -1), .25, colors.grey),
                                     ("BACKGROUND", (0, 0), (-1, 0), colors.Color(.9, .9, .9)), ("VALIGN", (0, 0), (-1, -1), "TOP")]))
@@ -412,15 +420,15 @@ def return_pdf(path, header, ret, state_summary=None, attachments=None, copy_lab
         story.append(PageBreak())
         story.append(Paragraph("State / Local Returns", H1))
         for st in state_summary:
-            story.append(Paragraph(st["title"], H2))
-            rows = [["Line", "Description", "Amount"]] + [[a, Paragraph(str(b), SMALL), money(c, 0) if isinstance(c, (int, float)) else str(c)] for a, b, c in st["lines"]]
+            story.append(Paragraph(esc(st["title"]), H2))
+            rows = [["Line", "Description", "Amount"]] + [[a, Paragraph(esc(b), SMALL), money(c, 0) if isinstance(c, (int, float)) else str(c)] for a, b, c in st["lines"]]
             tt = Table(rows, colWidths=[0.8 * inch, 5.3 * inch, 1.2 * inch], repeatRows=1)
             tt.setStyle(TableStyle([("FONT", (0, 0), (-1, -1), "Helvetica", 8), ("FONT", (0, 0), (-1, 0), "Helvetica-Bold", 8),
                                     ("GRID", (0, 0), (-1, -1), .25, colors.grey), ("ALIGN", (2, 0), (2, -1), "RIGHT"),
                                     ("BACKGROUND", (0, 0), (-1, 0), colors.Color(.9, .9, .9))]))
             story.append(tt)
             if st.get("note"):
-                story.append(Paragraph(f"<i>{st['note']}</i>", SMALL))
+                story.append(Paragraph(f"<i>{esc(st['note'])}</i>", SMALL))
 
     def _pg(canv, d):
         canv.setFont("Helvetica", 6.5)

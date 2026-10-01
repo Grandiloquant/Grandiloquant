@@ -323,23 +323,6 @@
         "amount": 1176
       }
     ],
-    "Form 8995": [
-      {
-        "line": "Uber rideshare (Sch C)",
-        "description": "QBI 15,471; component (below threshold: 20% x QBI)",
-        "amount": 3094
-      },
-      {
-        "line": "limit",
-        "description": "20% x (taxable income before QBI 45,721 - net capital gain & qualified dividends 0)",
-        "amount": 9144
-      },
-      {
-        "line": "deduction",
-        "description": "Qualified business income deduction",
-        "amount": 3094
-      }
-    ],
     "Schedule 1-A": [
       {
         "line": "Part I",
@@ -355,6 +338,23 @@
         "line": "38",
         "description": "Total additional deductions (to Form 1040, line 13b)",
         "amount": 25000
+      }
+    ],
+    "Form 8995": [
+      {
+        "line": "Uber rideshare (Sch C)",
+        "description": "QBI 15,471; component (below threshold: 20% x QBI)",
+        "amount": 3094
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 20,721 - net capital gain & qualified dividends 0)",
+        "amount": 4144
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 3094
       }
     ],
     "Schedule SE": [

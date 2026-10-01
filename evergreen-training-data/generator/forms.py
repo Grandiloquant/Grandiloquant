@@ -142,6 +142,8 @@ def f1099_sa(path, payer, recipient, b, **kw):
 
 
 def f5498_sa(path, trustee, participant, b, **kw):
+    if 'account' in kw:
+        kw['account_no'] = kw.pop('account')
     boxes = [("1", "Employee or self-employed person's Archer MSA contributions", ""),
              ("2", "Total contributions made in 2025", b.get("2", 0)), ("3", "Total HSA or Archer MSA contributions made in 2026 for 2025", b.get("3", "")),
              ("4", "Rollover contributions", ""), ("5", "Fair market value of HSA, Archer MSA, or MA MSA", b.get("5", "")),
@@ -152,6 +154,8 @@ def f5498_sa(path, trustee, participant, b, **kw):
 
 
 def f1099_s(path, filer, transferor, b, **kw):
+    if 'account' in kw:
+        kw['account_no'] = kw.pop('account')
     boxes = [("1", "Date of closing", b.get("1", "")), ("2", "Gross proceeds", b.get("2", 0)),
              ("3", "Address (including city, state, ZIP) or legal description", b.get("3", "")),
              ("4", "Transferor received or will receive property or services as part of consideration", b.get("4", "")),
@@ -170,6 +174,8 @@ def f1099_q(path, payer, recipient, b, **kw):
 
 
 def f1098(path, lender, borrower, b, **kw):
+    if 'account' in kw:
+        kw['account_no'] = kw.pop('account')
     boxes = [("1", "Mortgage interest received from payer(s)/borrower(s)", b.get("1", 0)),
              ("2", "Outstanding mortgage principal", b.get("2", "")), ("3", "Mortgage origination date", b.get("3", "")),
              ("4", "Refund of overpaid interest", b.get("4", "")), ("5", "Mortgage insurance premiums", b.get("5", "")),
@@ -185,6 +191,8 @@ def f1098(path, lender, borrower, b, **kw):
 
 
 def f1098_t(path, school, student, b, **kw):
+    if 'account' in kw:
+        kw['account_no'] = kw.pop('account')
     boxes = [("1", "Payments received for qualified tuition and related expenses", b.get("1", 0)),
              ("4", "Adjustments made for a prior year", b.get("4", "")), ("5", "Scholarships or grants", b.get("5", "")),
              ("6", "Adjustments to scholarships or grants for a prior year", b.get("6", "")),
@@ -197,6 +205,8 @@ def f1098_t(path, school, student, b, **kw):
 
 
 def f1098_e(path, lender, borrower, b, **kw):
+    if 'account' in kw:
+        kw['account_no'] = kw.pop('account')
     boxes = [("1", "Student loan interest received by lender", b.get("1", 0)),
              ("2", "If checked, box 1 does not include loan origination fees and/or capitalized interest", b.get("2", ""))]
     info_form(path, "1098-E", "Student Loan Interest Statement",
@@ -217,6 +227,8 @@ def ssa_1099(path, beneficiary, b, **kw):
 
 
 def w2g(path, payer, winner, b, **kw):
+    if 'account' in kw:
+        kw['account_no'] = kw.pop('account')
     boxes = [("1", "Reportable winnings", b.get("1", 0)), ("2", "Date won", b.get("2", "")),
              ("3", "Type of wager", b.get("3", "")), ("4", "Federal income tax withheld", b.get("4", "")),
              ("5", "Transaction", b.get("5", "")), ("6", "Race", ""), ("7", "Winnings from identical wagers", ""),
