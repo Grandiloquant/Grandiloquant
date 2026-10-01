@@ -1,0 +1,21 @@
+From: preparer@evergreentax.example
+To: Carlos Mendoza <carlos.mendoza@example.com>
+Date: Mon, 16 Mar 2026 11:02:00 -0500
+Subject: Mendoza 2025 - helpers / Forms 1099-NEC
+
+Hi Carlos - your QuickBooks shows Zelle/cash payments of $8,000 to Jose Ramirez and $4,500 to Luis Garza. Payments of
+$600 or more to a non-employee for services in the course of your business require Form 1099-NEC (due 01/31/2026).
+Because they were paid by Zelle (not by card/PayPal), no one else reported these payments. Schedule C asks whether you
+made payments requiring 1099s (Yes) and whether you filed them - please send us completed Forms W-9 (name, address, SSN)
+for both so we can prepare late 1099-NECs. Late-filing penalties apply but are much smaller than leaving them unfiled.
+
+Also - who else is on the BCBS policy, and did Maria's district offer family coverage?
+
+-----
+From: Carlos Mendoza
+Date: Tue, 24 Mar 2026 20:15:31 -0500
+Subject: RE: Mendoza 2025 - helpers / Forms 1099-NEC
+
+Ok. Jose gave me his W9, Luis is in Mexico until summer I'll get it when he is back. Me and the kids are on BCBS. Maria's
+school has family coverage but it was expensive ($1,410 a month for family) and we wanted Sofia's orthodontist in network.
+Just file the extension for now.

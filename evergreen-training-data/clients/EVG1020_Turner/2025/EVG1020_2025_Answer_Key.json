@@ -1,0 +1,612 @@
+{
+  "client_id": "EVG1020",
+  "client": "Ashley Turner",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "TN (no state income tax); NC nonresident return",
+    "complexity": "W-2 + short-term rental Schedule E + gambling + NC nonresident"
+  },
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 92180,
+    "2a": 0,
+    "2b": 71,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": -3147,
+    "9": 89104,
+    "10": 0,
+    "11": 89104,
+    "12e": 23992,
+    "13a": 0,
+    "13b": 0,
+    "15": 65112,
+    "16": 9242,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 9242,
+    "23": 0,
+    "24": 9242,
+    "25d": 10420,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 10420,
+    "34": 1178,
+    "35a": 1178,
+    "37": 0
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 1178,
+  "balance_due": 0,
+  "carryforwards_to_2026": {
+    "qbi_loss_carryforward_2026": 15147
+  },
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 92180
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 92180
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 71
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": -3147
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 89104
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 89104
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 23992
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 23992
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 65112
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 9242
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 9242
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 9242
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 9242
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 10420
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 10420
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 10420
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 1178
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 1178
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "ORNL Federal Credit Union",
+        "amount": 71
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 71
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 71
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "5",
+        "description": "Rental real estate, royalties, partnerships, S corps, trusts - Schedule E",
+        "amount": -15147
+      },
+      {
+        "line": "8b",
+        "description": "Gambling winnings (Form W-2G - Harrah's Cherokee, NC)",
+        "amount": 12000
+      },
+      {
+        "line": "9",
+        "description": "Total other income",
+        "amount": 12000
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": -3147
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 6683
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "General sales taxes",
+        "amount": 1480
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 2250
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 3730
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 3730
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 3730
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 7912
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 7912
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 7912
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 350
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 350
+      },
+      {
+        "line": "16",
+        "description": "Gambling losses (limited to gambling winnings of $12,000; 100% for 2025)",
+        "amount": 12000
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 23992
+      }
+    ],
+    "Form 8995": [
+      {
+        "line": "Gatlinburg STR (Sch E) - trade or business",
+        "description": "QBI -15,147; component (below threshold: 20% x QBI)",
+        "amount": -3029
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 65,112 - net capital gain & qualified dividends 0)",
+        "amount": 13022
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 0
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "NC D-400 (nonresident, Sch PN)",
+      "nc_agi": 89104,
+      "nc_std": 12750,
+      "taxable_pct": 0.1347,
+      "nc_taxable_income": 10285,
+      "tax": 437,
+      "withholding": 510,
+      "refund": 73
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-09"
+    },
+    {
+      "form": "NC D-400 nonresident",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-09"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1020-G1",
+      "procedure_section": "Schedule E / Rental Properties; Scan - Schedule E records (hours log)",
+      "title": "Short-term rental: not a 'rental activity'; material participation",
+      "trap": "Treat the Airbnb condo as a passive rental: loss suspended on Form 8582 (MAGI < $100k -> maybe $25k allowance) or move it to Schedule C with SE tax.",
+      "correct_treatment": "Average stay 3.10 nights (<= 7) -> not a rental activity (Reg. 1.469-1T(e)(3)(ii)(A)); no substantial services -> stays on Schedule E (no SE tax). Handwritten log: 180 hours, more than any other individual (cleaner ~95) -> material participation test 3 -> nonpassive. Loss ($15,147) offsets wages; no Form 8582.",
+      "impact": "Sch 1 line 5 ($15,147); tax effect ~22% of the loss",
+      "affected_lines": [
+        "Sch 1 line 5",
+        "11"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1020-G2",
+      "procedure_section": "Scan - Schedule E/Rental Income records",
+      "title": "Airbnb 1099-K gross vs payouts vs occupancy taxes",
+      "trap": "Report the organizer's payout figure $48,447 (and still deduct host fees = double deduction), or treat the occupancy/sales tax column as income and a deduction.",
+      "correct_treatment": "Rents = 1099-K gross $49,945 (nightly + cleaning fees), host fees $1,498 deducted once; occupancy/sales taxes $6,368 collected and remitted by Airbnb are neither income nor deductible. Reconciled CSV to 1099-K.",
+      "impact": "Sch E line 3 / expense lines",
+      "affected_lines": [
+        "Sch E line 3",
+        "Sch E line 8"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1020-G3",
+      "procedure_section": "Schedule E / Rental Properties - personal use days",
+      "title": "Personal-use days: 280A allocation, not the vacation-home limit",
+      "trap": "Ignore the girls' trip (deduct 100% of all expenses) or treat the condo as a vacation home and limit expenses to income.",
+      "correct_treatment": "6 personal days < greater of 14 / 10% of 192 -> not a residence; shared expenses x 192/198. Personal share of property tax ($66) to Sch A; personal share of mortgage interest ($429) is nondeductible personal interest (condo not a qualified residence). Maintenance days are not personal days.",
+      "impact": "Sch E expenses; Sch A line 5b",
+      "affected_lines": [
+        "Sch E",
+        "Sch A 5b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1020-G4",
+      "procedure_section": "Schedule E / Rental Properties - capitalization of repairs; Scan - spreadsheet",
+      "title": "Client spreadsheet expenses closing costs, furniture and personal items",
+      "trap": "Deduct the spreadsheet as-is: closing costs, $24.6k furniture as 'supplies', full property-tax bill, occupancy taxes, Dollywood pass, gas receipts.",
+      "correct_treatment": "Capitalize acquisition costs into basis ($388,410; land $58,262 per assessor ratio); building 39-yr MM (unit used on a transient basis is not a 'dwelling unit' for 27.5-yr); furniture 5-yr with 100% bonus (acquired after 01/19/2025) on Form 4562; loan costs amortized; property tax limited to her post-closing share $2,163 (IRC 164(d)); mileage at 70c replaces gas; Dollywood pass is personal.",
+      "impact": "Sch E lines 16/18/19; Form 4562",
+      "affected_lines": [
+        "Sch E",
+        "4562"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1020-G5",
+      "procedure_section": "Schedule A - Gambling Winnings/Losses (OBBBA timing)",
+      "title": "Gambling: gross winnings, losses capped, 2025 = 100%",
+      "trap": "Net the jackpot against losses and report nothing (client's view), or deduct $15,400, or apply the OBBBA 90% limit (procedure text says 'in effect for 2026').",
+      "correct_treatment": "Report $12,000 W-2G winnings on Sch 1 line 8b; losses deductible only as an itemized deduction (Sch A line 16) limited to winnings = $12,000. The 90% limit applies to tax years beginning after 12/31/2025 - not 2025. Procedure wording is imprecise; law followed.",
+      "impact": "Sch 1 line 8b; Sch A line 16",
+      "affected_lines": [
+        "8",
+        "12e"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1020-G6",
+      "procedure_section": "Schedule A - itemize vs standard / sales tax",
+      "title": "Itemizing only works because of the gambling losses",
+      "trap": "Take the standard deduction (as in 2024) - losing the gambling-loss deduction and taxing $12,000 of winnings in full.",
+      "correct_treatment": "Itemized $23,992 (sales tax - TN has no income tax - + real estate tax + home mortgage + charity + gambling) vs standard $15,750; without gambling itemized would be $11,992.",
+      "impact": "Line 12e",
+      "affected_lines": [
+        "12e"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1020-G7",
+      "procedure_section": "Schedule A - Disaster Losses (federally declared only)",
+      "title": "Windstorm tree damage is not deductible",
+      "trap": "Deduct the $1,000 deductible and $2,400 tree removal as a casualty loss.",
+      "correct_treatment": "Personal casualty losses for 2025 are deductible only if attributable to a federally declared disaster (Form 4684); the 07/18/2025 storm had no declaration (insurer letter). Expansion to state-declared disasters starts 2026. $0; no gain because reimbursement did not exceed basis.",
+      "impact": "Sch A line 15 = 0",
+      "affected_lines": [
+        "Sch A 15"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1020-G8",
+      "procedure_section": "SALT - New State Filing Requirements",
+      "title": "NC nonresident return for NC-casino winnings",
+      "trap": "No state return because Tennessee has no income tax; the $510 NC withholding is lost (or claimed on the 1040).",
+      "correct_treatment": "Winnings from a North Carolina casino are NC-source; file D-400 as nonresident with Schedule PN: NC taxable income x 0.1347 -> tax $437 vs withholding $510 -> refund $73. NC does not allow gambling losses.",
+      "impact": "NC D-400",
+      "affected_lines": [
+        "NC D-400"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [],
+  "schedule_e": {
+    "rents": 49945,
+    "expenses": 65092,
+    "net": -15147,
+    "fair_rental_days": 192,
+    "personal_days": 6,
+    "allocation_ratio": 0.969697,
+    "average_stay_nights": 3.1,
+    "nonpassive": true
+  },
+  "condo_basis": {
+    "total": 388410,
+    "land": 58262,
+    "building": 330148,
+    "building_depr_2025": 6005,
+    "furniture_bonus": 24600
+  }
+}

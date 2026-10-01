@@ -1,0 +1,666 @@
+{
+  "client_id": "EVG1018",
+  "client": "Elena Vasquez",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "FL (no state income tax)",
+    "complexity": "S-corp owner with 311(b) fix + final trust K-1"
+  },
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 90000,
+    "2a": 0,
+    "2b": 1780,
+    "3a": 1620,
+    "3b": 2020,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": -3000,
+    "8": 82000,
+    "9": 172800,
+    "10": 7800,
+    "11": 165000,
+    "12e": 15750,
+    "13a": 14840,
+    "13b": 0,
+    "15": 134410,
+    "16": 24960,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 24960,
+    "23": 0,
+    "24": 24960,
+    "25d": 11400,
+    "26": 12800,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 2000,
+    "33": 26200,
+    "34": 1240,
+    "35a": 1240,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 1240,
+  "balance_due": 0,
+  "carryforwards_to_2026": {
+    "capital_loss_carryover_2026": {
+      "st": 0,
+      "lt": 200,
+      "total": 200
+    }
+  },
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 90000
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 90000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 1780
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 1620
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 2020
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": -3000
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 82000
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 172800
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 7800
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 165000
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 15750
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 14840
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 30590
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 134410
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 24960
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 24960
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 24960
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 24960
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 11400
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 11400
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 12800
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 2000
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 2000
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 26200
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 1240
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 1240
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Bayline Marine Services, Inc. (K-1 box 4)",
+        "amount": 1150
+      },
+      {
+        "line": "1.2",
+        "description": "Rosa M. Delgado Trust u/a/d 05/14/2009 (K-1 box 1)",
+        "amount": 420
+      },
+      {
+        "line": "1.3",
+        "description": "Suncoast Credit Union",
+        "amount": 210
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 1780
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 1780
+      },
+      {
+        "line": "5.1",
+        "description": "Rosa M. Delgado Trust u/a/d 05/14/2009 (K-1 box 2a)",
+        "amount": 1380
+      },
+      {
+        "line": "5.2",
+        "description": "National Financial Services (Fidelity)",
+        "amount": 640
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 2020
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Long-term capital loss carryover - final Schedule K-1 (Form 1041) box 11 code E (trust terminated 2025)",
+        "amount": -3200
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": -3200
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": -3200
+      },
+      {
+        "line": "21",
+        "description": "Allowable capital loss",
+        "amount": -3000
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "5",
+        "description": "Rental real estate, royalties, partnerships, S corps, trusts - Schedule E",
+        "amount": 82000
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 82000
+      },
+      {
+        "line": "17",
+        "description": "Self-employed health insurance deduction",
+        "amount": 7800
+      },
+      {
+        "line": "26",
+        "description": "Total adjustments to income (to Form 1040, line 10)",
+        "amount": 7800
+      }
+    ],
+    "Itemized vs. standard comparison (Schedule A not filed)": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 12375
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 3920
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 3920
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 3920
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 3920
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 6180
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 6180
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 6180
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 2900
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 2900
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 13000
+      }
+    ],
+    "Form 8995": [
+      {
+        "line": "Bayline Marine Services, Inc.",
+        "description": "QBI 74,200; component (below threshold: 20% x QBI)",
+        "amount": 14840
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 149,250 - net capital gain & qualified dividends 1,620)",
+        "amount": 29526
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 14840
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "10",
+        "description": "Amount paid with request for extension to file (Form 4868)",
+        "amount": 2000
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 2000
+      }
+    ]
+  },
+  "state_and_local": [],
+  "required_filings": [
+    {
+      "form": "Form 4868",
+      "filed": "2026-04-13",
+      "payment": 2000
+    },
+    {
+      "form": "Form 1040 (with Forms 7203, 8082, 8995)",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-15"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1018-G1",
+      "procedure_section": "Schedules K-1 - S corp IRC 311(b) property distribution",
+      "title": "S corp omitted the 311(b) gain on the truck",
+      "trap": "Enter the K-1 as issued: box 1 $62,000, property distribution at book value $12,000 -> no gain.",
+      "correct_treatment": "Distribution of appreciated property = deemed sale at FMV at the corporate level (IRC 311(b), 1371(a)). Gain $20,000 (FMV $32,000 - adjusted basis $12,000) is all IRC 1245 recapture (accumulated depreciation $33,000) -> ordinary, flows through box 1. Manually add to the K-1 ordinary income: $82,000.",
+      "impact": "Income understated $20,000 (~$4,800 tax before QBI)",
+      "affected_lines": [
+        "Sch E line 28",
+        "Sch 1 line 5",
+        "11"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1018-G2",
+      "procedure_section": "Schedules K-1 - basis limitation (Section 5 line 16 other increases)",
+      "title": "Basis ordering with a property distribution",
+      "trap": "Reduce basis by the book value (or reduce by FMV without first adding the gain) -> wrong ending basis, or a phantom excess-distribution capital gain.",
+      "correct_treatment": "Form 7203: increase stock basis by the gain first, then reduce by distributions at FMV ($72,000); basis before distributions $178,150 is sufficient -> no capital gain; ending basis $101,750. Elena's basis in the truck = FMV $32,000 (IRC 301(d)).",
+      "impact": "Form 7203; Sch D (none)",
+      "affected_lines": [
+        "7203"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1018-G3",
+      "procedure_section": "Schedules K-1 - S corp accountant fails to reflect 311(b); Review - tax research",
+      "title": "Reporting inconsistently with the K-1 requires Form 8082",
+      "trap": "Silently report different numbers from the K-1 (IRS matching / IRC 6037(c) consistency) or wait for an amended K-1 past the extended due date.",
+      "correct_treatment": "Attach Form 8082 (inconsistent treatment) identifying box 1 and box 16D differences; notify the S corp's CPA to amend the 1120-S (agreed 09/02/2026). Keep the email in the WP.",
+      "impact": "Filing compliance",
+      "affected_lines": [
+        "8082"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1018-G4",
+      "procedure_section": "QBI - ensure QBI, UBIA and W-2 wages properly reported",
+      "title": "QBI includes the 1245 recapture; reduced by SE health",
+      "trap": "Use K-1 Statement A QBI of $62,000 (omits gain), or exclude the gain as 'not QBI', or ignore the health-insurance reduction.",
+      "correct_treatment": "IRC 1245 recapture is ordinary trade-or-business income -> QBI. QBI = $82,000 - $7,800 2% shareholder health deduction = $74,200; taxable income below $197,300 -> 20% = $14,840; W-2 wages/UBIA not limiting.",
+      "impact": "Line 13a",
+      "affected_lines": [
+        "13a"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1018-G5",
+      "procedure_section": "Schedules K-1 (S corp) / W-2 box 14",
+      "title": "2% shareholder health insurance",
+      "trap": "Treat the $7,800 in box 1 as ordinary wages with no deduction (or deduct it on Schedule A medical).",
+      "correct_treatment": "Premiums paid by the S corp for a >2% shareholder are included in W-2 box 1 (not boxes 3/5) and deductible on Sch 1 line 17 (Notice 2008-1), limited to the S corp wages.",
+      "impact": "Sch 1 line 17",
+      "affected_lines": [
+        "10"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1018-G6",
+      "procedure_section": "Schedules K-1 - trust termination suspended passive losses",
+      "title": "Trust's $18,400 suspended PAL on the distributed condo",
+      "trap": "Deduct the $18,400 suspended loss on Schedule E (Hector: 'you might be able to use them').",
+      "correct_treatment": "IRC 469(j)(12): on distribution of the passive activity the losses are never deductible; they increase the basis of the distributed property. Condo basis $222,546 + $18,400 = $240,946 (carryover basis under IRC 643(e), no 643(e)(3) election). Record in PERM for 2026 depreciation.",
+      "impact": "Sch E (no loss); basis memo",
+      "affected_lines": [
+        "Sch E"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1018-G7",
+      "procedure_section": "Schedules K-1 (1041) - final year items",
+      "title": "Trust's long-term capital loss carryover passes to beneficiary",
+      "trap": "Ignore box 11 code E (not on 1099s) or treat it as a current-year K-1 loss.",
+      "correct_treatment": "Final K-1 box 11 code E $3,200 -> Schedule D line 14 in the beneficiary's year the trust terminates (Reg. 1.642(h)-1). Net capital loss limited to $3,000; $200 carries to 2026.",
+      "impact": "Line 7 / Sch D",
+      "affected_lines": [
+        "7"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1018-G8",
+      "procedure_section": "Scan - duplicate documents (draft vs final K-1)",
+      "title": "Draft trust K-1 in the PBC",
+      "trap": "Load both the June DRAFT and August FINAL trust K-1s (double interest/dividends), or use the draft's $410 interest.",
+      "correct_treatment": "Use only the FINAL K-1 (interest $420). Bookmark the draft as superseded.",
+      "impact": "Lines 2b/3b",
+      "affected_lines": [
+        "2b",
+        "3b"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1018-G9",
+      "procedure_section": "Schedule E / Rental Properties",
+      "title": "No 2025 Schedule E for the inherited-then-distributed condo",
+      "trap": "Start depreciation in 2025 on stepped-up or FMV basis ($305,000), or claim the trust's 2025 depreciation again.",
+      "correct_treatment": "Not held out for rent in 2025 (painting; listed March 2026) -> no 2025 Sch E. 2026: continue trust's 27.5-yr schedule on carryover building basis $174,546 (IRC 168(i)(7)); the $14,431 basis increase is treated as a new 27.5-yr asset (assumption). Holding period tacks.",
+      "impact": "PERM basis record",
+      "affected_lines": [],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [
+    "Itemized deductions $13,000 < standard deduction $15,750; standard deduction used."
+  ],
+  "s_corp_basis": {
+    "beginning": 95000,
+    "ordinary_income_corrected": 82000,
+    "gain_311b": 20000,
+    "distributions_fmv": 72000,
+    "ending": 101750
+  },
+  "condo_basis_from_trust": {
+    "trust_adjusted_basis": 222546,
+    "suspended_pal_added": 18400,
+    "elena_basis": 240946,
+    "land": 51969,
+    "building": 188977
+  },
+  "truck_basis_to_shareholder": 32000
+}

@@ -1,0 +1,763 @@
+{
+  "client_id": "EVG1019",
+  "client": "Owen & Chloe Fitzgerald",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "NC (Raleigh)",
+    "complexity": "W-2 + Sch C/8829 + itemized + energy credits + NC"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 168000,
+    "2a": 0,
+    "2b": 382,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": 96344,
+    "9": 264726,
+    "10": 24714,
+    "11": 240012,
+    "12e": 52252,
+    "13a": 14326,
+    "13b": 0,
+    "15": 173434,
+    "16": 27983,
+    "17": 0,
+    "19": 4400,
+    "20": 9450,
+    "22": 14133,
+    "23": 13887,
+    "24": 28020,
+    "25d": 21800,
+    "26": 14000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 35800,
+    "34": 7780,
+    "35a": 7780,
+    "37": 0
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 7780,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 168000
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 168000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 382
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 96344
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 264726
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 24714
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 240012
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 52252
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 14326
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 66578
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 173434
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 27983
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 27983
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 4400
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 9450
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 13850
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 14133
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 13887
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 28020
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 21800
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 21800
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 14000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 35800
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 7780
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 7780
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "First Citizens Bank",
+        "amount": 382
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 382
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 382
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "3",
+        "description": "Business income or (loss) - Schedule C",
+        "amount": 96344
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 96344
+      },
+      {
+        "line": "15",
+        "description": "Deductible part of self-employment tax (Schedule SE)",
+        "amount": 6807
+      },
+      {
+        "line": "16",
+        "description": "Self-employed SEP, SIMPLE, and qualified plans",
+        "amount": 17907
+      },
+      {
+        "line": "26",
+        "description": "Total adjustments to income (to Form 1040, line 10)",
+        "amount": 24714
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 18001
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 11890
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 8856
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 20746
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 20746
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 20746
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 25506
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 25506
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 25506
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 6000
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 6000
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 52252
+      }
+    ],
+    "Schedule 1-A": [
+      {
+        "line": "Part I",
+        "description": "Modified AGI",
+        "amount": 240012
+      },
+      {
+        "line": "Part IV",
+        "description": "Qualified passenger vehicle loan interest (VIN KM8KRDDF2SU10XXXX)",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Total additional deductions (to Form 1040, line 13b)",
+        "amount": 0
+      }
+    ],
+    "Form 8995": [
+      {
+        "line": "Fitzgerald Advisory (SSTB - consulting; below threshold)",
+        "description": "QBI 71,630; component (below threshold: 20% x QBI)",
+        "amount": 14326
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 187,760 - net capital gain & qualified dividends 0)",
+        "amount": 37552
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 14326
+      }
+    ],
+    "Form 6251": [
+      {
+        "line": "1",
+        "description": "Taxable income (Form 1040 line 15)",
+        "amount": 173434
+      },
+      {
+        "line": "2a",
+        "description": "Taxes from Schedule A line 7",
+        "amount": 20746
+      },
+      {
+        "line": "4",
+        "description": "Alternative minimum taxable income",
+        "amount": 194180
+      },
+      {
+        "line": "5",
+        "description": "Exemption",
+        "amount": 137000
+      },
+      {
+        "line": "6",
+        "description": "AMTI less exemption",
+        "amount": 57180
+      },
+      {
+        "line": "7-9",
+        "description": "Tentative minimum tax",
+        "amount": 14867
+      },
+      {
+        "line": "10",
+        "description": "Regular tax (Form 1040 line 16 less Sch 3 line 1 FTC)",
+        "amount": 27983
+      },
+      {
+        "line": "11",
+        "description": "Alternative minimum tax",
+        "amount": 0
+      }
+    ],
+    "Schedule 8812": [
+      {
+        "line": "4",
+        "description": "Number of qualifying children under 17 with SSN",
+        "amount": 2
+      },
+      {
+        "line": "6",
+        "description": "Number of other dependents",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Tentative credit",
+        "amount": 4400
+      },
+      {
+        "line": "10-11",
+        "description": "Phase-out reduction (MAGI 240,012 vs 400,000)",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Credit after phase-out",
+        "amount": 4400
+      },
+      {
+        "line": "14",
+        "description": "Nonrefundable CTC/ODC (to Form 1040 line 19)",
+        "amount": 4400
+      },
+      {
+        "line": "27",
+        "description": "Additional child tax credit (to Form 1040 line 28)",
+        "amount": 0
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "5a",
+        "description": "Residential clean energy credit (Form 5695)",
+        "amount": 9450
+      },
+      {
+        "line": "8",
+        "description": "Total nonrefundable credits (to Form 1040, line 20)",
+        "amount": 9450
+      }
+    ],
+    "Schedule SE": [
+      {
+        "line": "S",
+        "description": "Net earnings 88,974; SS 11,033; Medicare 2,580; half deductible 6,807",
+        "amount": 13613
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "4",
+        "description": "Self-employment tax (Schedule SE)",
+        "amount": 13613
+      },
+      {
+        "line": "11",
+        "description": "Additional Medicare Tax (Form 8959)",
+        "amount": 274
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 13887
+      }
+    ],
+    "Form 8959": [
+      {
+        "line": "7/13",
+        "description": "Additional Medicare Tax (Medicare wages 191,500; SE 88,974; threshold 250,000)",
+        "amount": 274
+      },
+      {
+        "line": "24",
+        "description": "Additional Medicare Tax withheld by employer(s)",
+        "amount": 0
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "NC D-400 (resident, MFJ)",
+      "nc_agi": 240012,
+      "deduction": 26000,
+      "deduction_type": "NC itemized",
+      "child_deduction": 0,
+      "nc_taxable_income": 214012,
+      "tax": 9096,
+      "payments": 11350,
+      "refund": 2254
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 4868 / NC D-410",
+      "filed": "2026-04-14",
+      "payment": 0
+    },
+    {
+      "form": "Form 1040",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-25"
+    },
+    {
+      "form": "NC D-400",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-25"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1019-G1",
+      "procedure_section": "Schedule A - pre-2017 mortgages ($1M threshold) - manual override",
+      "title": "Grandfathered 2016 mortgage limited to $750k by default",
+      "trap": "Accept Axcess default: interest x 750,000/872,000 -> Schedule A $21,938.",
+      "correct_treatment": "Acquisition debt incurred 08/19/2016 (before 12/16/2017) keeps the $1,000,000 limit; balance $872,000 -> 100% deductible. Override: Schedule A line 8a $25,506 (90% personal share).",
+      "impact": "Sch A understated $3,568",
+      "affected_lines": [
+        "Sch A 8a",
+        "12e"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1019-G2",
+      "procedure_section": "Schedule A / Schedule C - home office double count",
+      "title": "8829 share of mortgage interest and property tax left on Schedule A",
+      "trap": "Deduct 10% of interest and real estate tax on Form 8829 AND 100% on Schedule A.",
+      "correct_treatment": "Schedule A gets only the 90% personal share: mortgage $25,506, real estate tax $8,856; 8829 gets $2,834 + $984.",
+      "impact": "Sch A overstated ~$3,800 if missed",
+      "affected_lines": [
+        "Sch A 5b",
+        "Sch A 8a"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1019-G3",
+      "procedure_section": "Schedule C - Home Office Deduction (simplified vs 8829)",
+      "title": "Client used $5/sq ft on her P&L",
+      "trap": "Use the P&L's simplified $1,500.",
+      "correct_treatment": "Compare: Form 8829 actual $7,017 (incl. depreciation $2,359) vs simplified $1,500 -> use 8829. Kitchen remodel is not an office expense.",
+      "impact": "Sch C understated deduction $5,517",
+      "affected_lines": [
+        "Sch C 30",
+        "Sch 1 line 3"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1019-G4",
+      "procedure_section": "Schedule A - income vs sales tax; large-item sales tax; refunds/timing",
+      "title": "SALT election and the January 2026 NC estimate",
+      "trap": "Claim both NC income tax and the EV highway-use tax, or deduct all four 2025 NC estimates incl. the one paid 01/15/2026.",
+      "correct_treatment": "Income OR sales tax, not both. Income tax paid in 2025 $11,890 (W-2 + three 2025 estimates + 2024 Q4 + 2024 balance) > sales tax $4,200 (table + HUT as large item) -> income tax. The 01/15/2026 payment is a 2026 deduction.",
+      "impact": "Sch A line 5a",
+      "affected_lines": [
+        "Sch A 5a"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1019-G5",
+      "procedure_section": "Other traps - 25D residential clean energy",
+      "title": "Solar credit 30%, residence with a home office",
+      "trap": "Reduce the credit by the 10% home-office share, or skip it assuming it expired, or claim an NC credit.",
+      "correct_treatment": "Form 5695: $31,500 x 30% = $9,450; business use <= 20% -> no reduction; expenditure before 12/31/2025 termination; fully usable against tax (no carryforward). NC has no solar credit. Reduce home basis by the credit.",
+      "impact": "Sch 3 line 5a",
+      "affected_lines": [
+        "20"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1019-G6",
+      "procedure_section": "Other traps - clean vehicle credit termination / Schedule 1-A",
+      "title": "EV bought 10/15/2025",
+      "trap": "Claim $7,500 Form 8936 (dealer's advice) and deduct the car-loan interest on Schedule 1-A.",
+      "correct_treatment": "30D terminated for vehicles acquired after 09/30/2025 (no binding contract/payment before) -> $0. Car-loan interest $438 qualifies in principle (new, US assembly) but MAGI $240,012 > $200,000: reduction $200 per $1,000 -> $0.",
+      "impact": "Credit overstated $7,500 if missed",
+      "affected_lines": [
+        "20",
+        "13b"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1019-G7",
+      "procedure_section": "Schedule C - SEP IRA (compute maximum)",
+      "title": "SEP maximum for a sole proprietor",
+      "trap": "Use 25% of net profit, or 20% of net profit without the half-SE-tax reduction.",
+      "correct_treatment": "Max = 20% x (net profit $96,344 - half SE tax $6,807) = $17,907; funded 09/18/2026 before the extended due date.",
+      "impact": "Sch 1 line 16",
+      "affected_lines": [
+        "10"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1019-G8",
+      "procedure_section": "Other traps - Form 8959",
+      "title": "Additional Medicare on combined wages + SE earnings (MFJ)",
+      "trap": "No 8959 because Owen's Medicare wages ($191,500) are under $250,000 and the employer withheld none.",
+      "correct_treatment": "MFJ threshold $250,000 applies to combined Medicare wages $191,500 + Chloe's SE earnings $88,974 -> 0.9% x excess = $274.",
+      "impact": "Sch 2 line 11",
+      "affected_lines": [
+        "23"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1019-G9",
+      "procedure_section": "SALT - NC return",
+      "title": "NC itemized deduction rules and child deduction",
+      "trap": "Use federal itemized total (or ignore NC's cap) and claim the NC child deduction; claim an NC solar credit.",
+      "correct_treatment": "NC itemized = mortgage + property tax capped at $20,000 + charity = $26,000 > NC standard $25,500; child deduction $0 (MFJ AGI > $140,000); no NC energy credit. NC tax $9,096, refund $2,254.",
+      "impact": "NC D-400",
+      "affected_lines": [
+        "NC D-400"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [],
+  "schedule_c": {
+    "gross": 122500,
+    "expenses_before_8829": 19139,
+    "form_8829": 7017,
+    "net": 96344
+  },
+  "sep_max": 17907,
+  "mortgage_interest_sch_a": 25506,
+  "cch_default_750k_would_allow": 21938
+}

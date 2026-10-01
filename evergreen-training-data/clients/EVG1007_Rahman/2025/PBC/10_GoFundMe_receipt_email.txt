@@ -1,0 +1,10 @@
+From: GoFundMe <receipts@gofundme.example.com>
+To: aisha.rahman@example.com
+Date: Sat, 14 Jun 2025 09:12:44 -0500
+Subject: Thank you for your donation to "Help the Lee Family Rebuild"
+
+Hi Aisha, thank you for donating $1,500.00 to "Help the Lee Family Rebuild" organized by Karen Wu.
+Beneficiary: Dr. Michael Lee and family (Evanston, IL).
+Please note: Donations to personal fundraisers are generally not tax-deductible. This is not a tax receipt.
+
+---- forwarded by Aisha: "can we deduct this? - A"

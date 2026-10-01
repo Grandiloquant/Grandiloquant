@@ -1,0 +1,615 @@
+{
+  "client_id": "EVG1015",
+  "client": "Rajesh & Anita Iyer",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "WA - Redmond (no state income tax)",
+    "complexity": "International tier"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 340000,
+    "2a": 0,
+    "2b": 8527,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": 0,
+    "9": 348527,
+    "10": 0,
+    "11": 348527,
+    "12e": 31500,
+    "13a": 0,
+    "13b": 0,
+    "15": 317027,
+    "16": 61780,
+    "17": 0,
+    "19": 2200,
+    "20": 310,
+    "22": 59270,
+    "23": 1557,
+    "24": 60827,
+    "25d": 62622,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 62622,
+    "34": 1795,
+    "35a": 1795,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 1795,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 340000
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 340000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 8527
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 348527
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 348527
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 31500
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 31500
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 317027
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 61780
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 61780
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 2200
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 310
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 2510
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 59270
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 1557
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 60827
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 62500
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 122
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 62622
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 62622
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 1795
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 1795
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "JPMorgan Chase Bank, N.A.",
+        "amount": 1642
+      },
+      {
+        "line": "1.2",
+        "description": "HDFC Bank Ltd, India - NRE deposits (INR 420,000 / 87.147)",
+        "amount": 4819
+      },
+      {
+        "line": "1.3",
+        "description": "State Bank of India - NRO deposits (INR 180,000 / 87.147)",
+        "amount": 2065
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 8527
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 8527
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "Yes / Yes"
+      },
+      {
+        "line": "7b",
+        "description": "Country",
+        "amount": "India"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 1116": [
+      {
+        "line": "summary",
+        "description": "Category: passive; foreign taxes 310; foreign-source TI 6,263; limitation 1,220",
+        "amount": 310
+      }
+    ],
+    "Schedule 8812": [
+      {
+        "line": "4",
+        "description": "Number of qualifying children under 17 with SSN",
+        "amount": 1
+      },
+      {
+        "line": "6",
+        "description": "Number of other dependents",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Tentative credit",
+        "amount": 2200
+      },
+      {
+        "line": "10-11",
+        "description": "Phase-out reduction (MAGI 348,527 vs 400,000)",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Credit after phase-out",
+        "amount": 2200
+      },
+      {
+        "line": "14",
+        "description": "Nonrefundable CTC/ODC (to Form 1040 line 19)",
+        "amount": 2200
+      },
+      {
+        "line": "27",
+        "description": "Additional child tax credit (to Form 1040 line 28)",
+        "amount": 0
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "1",
+        "description": "Foreign tax credit",
+        "amount": 310
+      },
+      {
+        "line": "8",
+        "description": "Total nonrefundable credits (to Form 1040, line 20)",
+        "amount": 310
+      }
+    ],
+    "Form 8959": [
+      {
+        "line": "7/13",
+        "description": "Additional Medicare Tax (Medicare wages 387,000; SE 0; threshold 250,000)",
+        "amount": 1233
+      },
+      {
+        "line": "24",
+        "description": "Additional Medicare Tax withheld by employer(s)",
+        "amount": 122
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "11",
+        "description": "Additional Medicare Tax (Form 8959)",
+        "amount": 1233
+      },
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 324
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 1557
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 8527
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 8527
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 348,527 over threshold 250,000",
+        "amount": 98527
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 324
+      }
+    ]
+  },
+  "state_and_local": [],
+  "required_filings": [
+    {
+      "form": "Form 4868",
+      "filed": "2026-04-10",
+      "payment": 0
+    },
+    {
+      "form": "Form 1040 incl. 1116, 8938, 8621 x3",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-22"
+    },
+    {
+      "form": "Form 3520 (Part IV)",
+      "method": "paper - IRS Ogden, certified mail",
+      "due": "2026-10-15",
+      "filed": "2026-09-23"
+    },
+    {
+      "form": "FinCEN 114 (FBAR) + Form 114a",
+      "method": "BSA E-Filing",
+      "due": "2026-10-15 (automatic extension)",
+      "filed": "2026-09-22"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1015-G1",
+      "procedure_section": "Foreign Transactions (foreign income / FX conversion)",
+      "title": "NRE interest is tax-free in India - client never reported it",
+      "trap": "Omit NRE interest (organizer says 'tax free in India').",
+      "correct_treatment": "US residents are taxed on worldwide income; the Indian section 10(4)(ii) exemption is irrelevant. Report INR 420,000 / 87.147 = $4,819 on Schedule B. Flag 2024 omission to signer (amend / streamlined).",
+      "impact": "Interest understated $4,819",
+      "affected_lines": [
+        "2b",
+        "Sch B"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1015-G2",
+      "procedure_section": "Foreign Transactions (use IRS rates; foreign-currency amounts)",
+      "title": "Indian certificates are on the April-March fiscal year",
+      "trap": "Use the FY 2024-25 certificate totals (INR 400,000 NRE / 173,000 NRO) as 2025 income.",
+      "correct_treatment": "Build calendar-2025 interest from quarterly credits: Q1 from the FY24-25 certificate + Q2-Q4 from the FY25-26 certificate (NRE INR 420,000; NRO INR 180,000; TDS INR 56,160). Convert at the IRS 2025 average 87.147.",
+      "impact": "Wrong income and FTC amounts",
+      "affected_lines": [
+        "2b",
+        "Form 1116"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1015-G3",
+      "procedure_section": "Foreign Transactions - Form 1116",
+      "title": "TDS withheld at 31.2% but treaty rate on interest is 15%",
+      "trap": "Claim the full TDS $644 as a credit (as the client did in 2024).",
+      "correct_treatment": "Only the tax legally owed under the US-India treaty (15%) is a compulsory, creditable tax (Reg. 1.901-2(e)(5)): INR 27,000 = $310. Excess INR 29,160 is refundable from India (ITR + Form 10F/TRC) - not creditable.",
+      "impact": "FTC overstated $335",
+      "affected_lines": [
+        "20",
+        "Sch 3 1"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1015-G4",
+      "procedure_section": "Foreign Transactions - Form 1116 (procedure's $600 MFJ print-skip)",
+      "title": "De minimis election is not available",
+      "trap": "Foreign tax under $600 MFJ -> claim directly on Schedule 3 without Form 1116 (procedure shortcut).",
+      "correct_treatment": "The election also requires all foreign income to be passive AND reported on a qualified payee statement (1099-INT/DIV, K-1). Indian bank certificates / Form 16A are not -> Form 1116 (passive) required. Procedure imprecise - law followed.",
+      "impact": "Form 1116 missing",
+      "affected_lines": [
+        "Form 1116"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1015-G5",
+      "procedure_section": "FinCEN114/FBAR",
+      "title": "Mutual fund folios omitted; wrong exchange rate",
+      "trap": "Repeat the 2024 FBAR (4 bank accounts) and convert at the IRS yearly average rate.",
+      "correct_treatment": "Report all 7 accounts (incl. 3 mutual fund folios - 'other financial accounts') at maximum value converted at the Treasury 12/31/2025 rate (INR 89.87). Aggregate max $202,648. Joint accounts -> one FBAR + Form 114a. Due 10/15/2026 (automatic).",
+      "impact": "Non-willful FBAR penalty exposure",
+      "affected_lines": [
+        "FBAR"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1015-G6",
+      "procedure_section": "Foreign Transactions (Form 8938)",
+      "title": "FBAR filed so 8938 'not needed'",
+      "trap": "Skip Form 8938 because the FBAR covers the accounts.",
+      "correct_treatment": "Separate requirement. MFJ living in US: year-end value $194,843 > $100,000 -> Form 8938 attached to the 1040; PFIC holdings counted toward the threshold and listed as excepted (3 Forms 8621).",
+      "impact": "$10,000 penalty exposure",
+      "affected_lines": [
+        "Form 8938"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1015-G7",
+      "procedure_section": "PFICs (Form 8621)",
+      "title": "Indian mutual funds (growth option, no sales) are PFICs",
+      "trap": "No income, no sale -> nothing to report.",
+      "correct_treatment": "Each fund is a PFIC. Aggregate value $72,327 > $50,000 MFJ exemption -> annual Form 8621 (Part I, section 1291 fund, no excess distribution) for each of the 3 funds. Recommend MTM (section 1296) discussion; QEF not available.",
+      "impact": "Unfiled 8621s keep the statute open (6501(c)(8))",
+      "affected_lines": [
+        "Form 8621"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1015-G8",
+      "procedure_section": "Foreign Trusts (Form 3520)",
+      "title": "INR 1.3 crore gift from a nonresident-alien parent",
+      "trap": "Either report it as income, or ignore it because gifts are not taxable.",
+      "correct_treatment": "Not income, but gifts > $100,000 from a nonresident alien individual require Form 3520 Part IV ($150,813 credited 06/18/2025). Due 10/15/2026 with the extension; mailed separately. Penalty up to 25% of the gift.",
+      "impact": "Up to ~$37,700 penalty",
+      "affected_lines": [
+        "Form 3520"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1015-G9",
+      "procedure_section": "Review - dependents / Filing Status",
+      "title": "Parents lived with them 6 months, fully supported",
+      "trap": "Claim both parents as qualifying relatives ($500 ODC each) and apply for ITINs.",
+      "correct_treatment": "Dependents must be US citizens, nationals, or residents of the US, Canada or Mexico. Parents are Indian residents; 177 days in the US on B-2 (< 183, no prior-year days) -> nonresident aliens. No ODC. (Additional Medicare $1,233 and NIIT $324 also apply - combined wages > $250,000; NII = all interest incl. foreign.)",
+      "impact": "ODC overstated $1,000",
+      "affected_lines": [
+        "19"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "fx": {
+    "irs_2025_average_inr": 87.147,
+    "treasury_12_31_2025_inr_assumed": 89.87
+  },
+  "foreign_income_usd": {
+    "nre": 4819,
+    "nro": 2065
+  },
+  "ftc": {
+    "tds_withheld_usd": 644,
+    "treaty_limited_usd": 310
+  },
+  "fbar_aggregate_max_usd": 202648,
+  "form8938_year_end_usd": 194843,
+  "pfic_aggregate_usd": 72327,
+  "gift_3520_usd": 150812.53
+}
