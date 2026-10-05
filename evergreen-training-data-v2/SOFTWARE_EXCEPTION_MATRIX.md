@@ -4,38 +4,87 @@
 
 | Client | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | Log-only | PC-only | Total | Silent |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| EVG1001 Marcus & Tanya Bell |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1002 Priya Raman |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1003 Daniel Okafor |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1004 Robert & Linda Castellano |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1005 Jennifer Walsh |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1006 Carlos & Maria Mendoza |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
+| EVG1001 Marcus & Tanya Bell |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 3 | 3 |
+| EVG1002 Priya Raman |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 5 | 3 |
+| EVG1003 Daniel Okafor |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 3 | 3 |
+| EVG1004 Robert & Linda Castellano |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  | X |  | 4 | 4 |
+| EVG1005 Jennifer Walsh |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X |  | 4 | 4 |
+| EVG1006 Carlos & Maria Mendoza |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 5 | 4 |
 | EVG1007 Dr. Aisha Rahman |  |  |  |  |  | X |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 6 | 5 |
-| EVG1008 Kevin & Samantha O'Brien |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1009 Harold Jensen & Eleanor Jensen (deceased) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1010 Daniel & Grace Kim |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1011 Thomas Nguyen |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1012 Walter & June Hoffman |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1013 Nathan Brooks |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1014 Sofia Martinez & Liam Hart |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1015 Rajesh & Anita Iyer |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1016 Megan Doyle |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1017 Frank & Diane Russo |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1018 Elena Vasquez |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1019 Owen & Chloe Fitzgerald |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1020 Ashley Turner |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| EVG1021 Ethan S. Kim |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | 0 | 0 |
-| **Clients per tab** | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | | | | |
+| EVG1008 Kevin & Samantha O'Brien |  |  | X |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  | X |  | 5 | 5 |
+| EVG1009 Harold Jensen & Eleanor Jensen (deceased) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X | X |  | 5 | 4 |
+| EVG1010 Daniel & Grace Kim |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  | X |  | 4 | 4 |
+| EVG1011 Thomas Nguyen |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  | X |  | 4 | 4 |
+| EVG1012 Walter & June Hoffman |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 4 | 4 |
+| EVG1013 Nathan Brooks |  |  |  |  |  | X |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  | X |  | 4 | 3 |
+| EVG1014 Sofia Martinez & Liam Hart |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 4 | 4 |
+| EVG1015 Rajesh & Anita Iyer |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X | X |  | 5 | 5 |
+| EVG1016 Megan Doyle |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 5 | 5 |
+| EVG1017 Frank & Diane Russo | X |  | X |  | X |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  |  | X |  | 7 | 7 |
+| EVG1018 Elena Vasquez |  |  |  |  |  |  |  |  |  | X | X |  |  |  |  |  |  |  |  |  |  |  | X |  | 5 | 5 |
+| EVG1019 Owen & Chloe Fitzgerald |  |  |  |  |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  |  | X |  | 3 | 3 |
+| EVG1020 Ashley Turner |  |  | X |  | X |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  | X |  | 5 | 5 |
+| EVG1021 Ethan S. Kim |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 3 | 3 |
+| EVG1022 Gregory & Ellen Whitfield |  |  |  |  | X | X |  | X |  |  |  | X |  |  | X | X |  |  |  |  | X |  | X |  | 9 | 8 |
+| EVG1024 Margaret "Peggy" Abernathy |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  | X |  | X |  | X |  | X | X | 1 | 7 | 7 |
+| EVG1025 Victor & Lena Brennan-Ochoa |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X | X | 1 | 7 | 5 |
+| **Clients per tab** | 1 | 0 | 3 | 0 | 3 | 5 | 0 | 2 | 0 | 2 | 1 | 3 | 1 | 2 | 3 | 2 | 1 | 1 | 0 | 2 | 2 | 4 | | | | |
 
-Total software exceptions: **6** across 21 clients (5 silent, 0 ProConnect-only).
+Total software exceptions: **116** across 24 clients (107 silent, 2 ProConnect-only).
 
-Tabs not yet exercised: 3., 4., 5., 6., 7., 9., 10., 11., 13., 14., 15., 16., 17., 18., 19., 20., 21., 22., 23., 24.
+Tabs not yet exercised: 4., 6., 9., 11., 21.
 
 ## ProConnect items with an Intuit reference
 
 | ID | Exception | Reference |
 |---|---|---|
+| EVG1001-SX1 | Duplicate W-2 (PDF + phone photo) picked up by Scan/AutoFlow | Screen name per current release - verify |
+| EVG1001-SX2 | Schedule 1-A Part III overtime: W-2 box 14 shows TOTAL overtime pay, not the premium | Screen/field per current release - verify |
+| EVG1001-SX3 | Schedule 1-A Part IV car-loan interest: only the new F-150 loan qualifies | Screen/field per current release - verify |
+| EVG1002-SX1 | Filing status carried forward as Single (organizer + self-prepared PY returns) | Screen name per current release - verify |
+| EVG1002-SX2 | PayPal 1099-K for personal items sold at a loss | Screen/field per current release - verify |
+| EVG1002-SX3 | 1099-G IL refund $212 - prior year used the standard deduction | Field per current release - verify |
+| EVG1002-SX4 | IND-507-01 reject - dependent's SSN already used by the father | E-file settings per current release - verify |
+| EVG1002-SX5 | IL Schedule M subtraction for TreasuryDirect interest | Field per current release - verify |
+| EVG1003-SX1 | W-2 box 8 allocated tips flow to Form 4137 in full - actual tips per diary are $1,600 | Intuit help: 'Using overrides and adjustments in ProConnect Tax' (document overrides); field per current release - verify |
+| EVG1003-SX2 | Duplicate Uber 1099-K ('(1)' download) doubled Schedule C gross receipts | Screen name per current release - verify |
+| EVG1003-SX3 | Schedule 1-A no-tax-on-tips: software uses only the qualified tips it is given | Screen/field per current release - verify |
+| EVG1004-SX1 | Original (code 7Y) and CORRECTED (code 7) 1099-R both AutoFlowed; 'QCD' by a 67-year-old | Field per current release - verify |
+| EVG1004-SX2 | Accrued interest paid on the Home Depot bond purchase not netted in box 1 | Field per current release - verify |
+| EVG1004-SX3 | Canadian NR-4 pension: no U.S. form, CAD amounts, Form 1116 general category with carryforward | Screen names per current release - verify |
+| EVG1005-SX1 | Form 8606 line 6 blank - rollover IRA omitted, conversion shown as tax-free | Screen/field per current release - verify |
+| EVG1005-SX2 | ADP REPRINT of the first W-2 AutoFlowed as a third W-2 | Screen name per current release - verify |
+| EVG1005-SX3 | Detroit part-year resident return: Lakeshore W-2 box 18 shows Detroit wages through 09/15 | Michigan city return support per current release - verify |
+| EVG1005-SX4 | MI-1040: no retirement subtraction for the Roth conversion | Field per current release - verify |
+| EVG1006-SX1 | SE health insurance deduction - spouse's employer offered subsidized family coverage | Screen/field per current release - verify |
+| EVG1006-SX2 | Gross receipts: accrual P&L revenue vs 1099-K/1099-NEC inputs (cash method) | Field per current release - verify |
+| EVG1006-SX3 | Used trailer 100% bonus (acquired after 01/19/2025) and mower de minimis election | Screen/field per current release - verify |
+| EVG1006-SX4 | SEP-IRA maximum for a self-employed person (20%, not 25% of net profit) | Screen/field per current release - verify |
 | EVG1007-SX1 | S-corp distribution above STOCK basis (debt basis does not cover distributions) | Intuit help: 'How to complete Form 7203 and resolve diagnostic 56844 in ProConnect Tax' |
 | EVG1007-SX2 | Form 2210 - organizer says 4 estimates, only 3 were paid | Screen name per current release - verify |
 | EVG1007-SX4 | NIIT - excess-distribution gain on active S-corp stock (Form 8960 line 5c) | Field label per current release - verify |
 | EVG1007-SX5 | State refund (1099-G $2,100) - tax benefit rule when PY SALT was capped | Verify field names in current release |
+| EVG1008-SX1 | Duplex Form 1098 (box 8 = rental address) AutoFlowed to Schedule A; escrow summary imported as a second 1098 | Screen names per current release - verify |
+| EVG1008-SX2 | Roof coded 'Repairs' in the client ledger; water heater de minimis; window repair | Screen/field per current release - verify |
+| EVG1008-SX3 | Form 8582: PY unallowed loss $6,200 not on the organizer; $25,000 allowance fully phased out | Intuit help: 'How to generate Form 8582 in ProConnect Tax'; community thread on prior years' unallowed losses |
+| EVG1008-SX4 | Cabin - sec. 280A residence: personal days must include the brother's free stay | Screen/field per current release - verify |
+| EVG1008-SX5 | PA-40: compensation from W-2 box 16 (401k/403b taxable) and rents loss stays in its class | Screen/field per current release - verify |
+| EVG1009-SX1 | Inherited community-property securities - 1099-B shows original cost; noncovered lots no basis | Field per current release - verify |
+| EVG1009-SX2 | Sale of the marital home (1099-S) - DOD appraisal basis and sec. 121 exclusion, code H | Screen/field per current release - verify |
+| EVG1009-SX4 | Year-of-death filing status: MFJ, not 'qualifying widower' (organizer + procedure wording) | Screen/field per current release - verify |
+| EVG1009-SX5 | Schedule 1-A senior deduction for the deceased spouse | Intuit help: 'Using overrides and adjustments in ProConnect Tax' (document overrides) |
+| EVG1010-SX1 | RSU sales reported with $0 basis (basis not reported to IRS) | Field per current release - verify |
+| EVG1010-SX2 | Kid taxes: Ethan not eligible for Form 8814 (fund sale + wages); Chloe 8814 elected | Intuit help: 'How do you generate Form 8615 in ProConnect Tax'; 'resolve diagnostic Ref 826' |
+| EVG1010-SX3 | Nanny paid on a 1099-NEC is a household employee - Schedule H | Screen/field per current release - verify |
+| EVG1010-SX4 | 1099-Q for private K-12 tuition - earnings not taxable | Field per current release - verify |
+| EVG1011-SX1 | Coinbase 1099-DA and the CoinLedger Form 8949 both loaded - proceeds counted twice | Intuit help: 'Attaching a summary statement to Schedule D/Form 8949 in ProConnect Tax and resolving Diagnostic ref. 10322' |
+| EVG1015-SX1 | Form 3520 Part IV - INR 1.3 crore gift from a nonresident-alien parent (separate paper filing) | Intuit Accountants Community: 'Does ProConnect generate Form 3520...' |
+| EVG1017-SX5 | Passive baskets - Oak Brook LP loss + omitted PY carryover vs PTP isolation | Intuit help: 'How to generate Form 8582 ... ProConnect Tax' (prior years' unallowed losses) |
+| EVG1018-SX2 | Form 7203 ordering with a property distribution - gain first, distribution at FMV | Intuit help: 'How to complete Form 7203 and resolve diagnostic 56844 in ProConnect Tax' |
+| EVG1021-SX1 | Form 8615 parent figures - stale 2024 data / manual entry; must match the FINAL EVG1010 return | Intuit help: 'How do you generate Form 8615 in ProConnect Tax'; 'resolve diagnostic Ref 826' |
+| EVG1024-SX1 | 1099-C $38,000 - insolvency exclusion (Form 982) must be built and elected manually | Intuit help: 'Entering a Form 1099-C with insolvency (Form 982)' |
+| EVG1024-SX2 | IRC 108(b) attribute reduction - 2026 capital loss carryover must be overridden (67,000 -> 29,000) | Intuit help: 'Entering a Form 1099-C with insolvency (Form 982)' - attribute reduction requires manual review |
+| EVG1024-SX6 | Form 3520 Part III - not supported in ProConnect; separate paper filing | Intuit Accountants Community: 'Does ProConnect generate Form 3520...' |
+| EVG1025-SX1 | Section 962 election - GILTI tax computed outside the 1040 engine, $2,286 on line 16 | Intuit Accountants Community thread on section 962 election / Form 8992 (practitioner workaround - verify) |
+| EVG1025-SX2 | Form 5471 (Cat 4/5), Form 8992 / 8993 and pro-forma Form 1118 - specialist workpaper, not the 1040 engine | Intuit Accountants Community thread on section 962 election / Form 8992 |
+| EVG1025-SX6 | Form 1042-S withholding on a U.S. citizen's 1040 - paper filing required | Intuit help: e-file diagnostic Ref 47040/47039/47310 for Form 1042-S |

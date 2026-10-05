@@ -7,7 +7,7 @@
 | EVG1001 | Marcus & Tanya Bell | MFJ | TX (no state return) | 106,763 | 69,661 | 1,084 | 5,686 | 0 | 8 | [`clients/EVG1001_Bell`](clients/EVG1001_Bell) |
 | EVG1002 | Priya Raman | HOH | IL - Naperville (full-year) | 36,463 | 12,838 | 0 | 5,141 | 0 | 8 | [`clients/EVG1002_Raman`](clients/EVG1002_Raman) |
 | EVG1003 | Daniel Okafor | S | NV - Las Vegas (no state return) | 61,471 | 17,627 | 4,351 | 0 | 201 | 8 | [`clients/EVG1003_Okafor`](clients/EVG1003_Okafor) |
-| EVG1004 | Robert & Linda Castellano | MFJ | FL - Sarasota (no state return) | 115,341 | 76,241 | 6,767 | 5,043 | 0 | 9 | [`clients/EVG1004_Castellano`](clients/EVG1004_Castellano) |
+| EVG1004 | Robert & Linda Castellano | MFJ | FL - Sarasota (no state return) | 115,565 | 76,465 | 6,789 | 5,021 | 0 | 9 | [`clients/EVG1004_Castellano`](clients/EVG1004_Castellano) |
 | EVG1005 | Jennifer Walsh | S | MI - Detroit (01/01-06/30) -> Royal Oak (07/01-12/31) | 205,555 | 189,805 | 38,610 | 3,850 | 0 | 9 | [`clients/EVG1005_Walsh`](clients/EVG1005_Walsh) |
 | EVG1006 | Carlos & Maria Mendoza | MFJ | TX (no state return) | 91,743 | 48,194 | 12,276 | 604 | 0 | 9 | [`clients/EVG1006_Mendoza`](clients/EVG1006_Mendoza) |
 | EVG1007 | Dr. Aisha Rahman | S | IL (Chicago) - full-year resident | 552,750 | 479,825 | 133,340 | 0 | 32,759 | 9 | [`clients/EVG1007_Rahman`](clients/EVG1007_Rahman) |
@@ -25,44 +25,50 @@
 | EVG1019 | Owen & Chloe Fitzgerald | MFJ | NC (Raleigh) | 240,012 | 173,434 | 28,020 | 7,780 | 0 | 9 | [`clients/EVG1019_Fitzgerald`](clients/EVG1019_Fitzgerald) |
 | EVG1020 | Ashley Turner | S | TN (no state income tax); NC nonresident return | 89,104 | 65,112 | 9,242 | 1,178 | 0 | 8 | [`clients/EVG1020_Turner`](clients/EVG1020_Turner) |
 | EVG1021 | Ethan S. Kim | S | WA (no state income tax return) | 9,600 | 5,950 | 642 | 0 | 642 | 6 | [`clients/EVG1021_Kim-Ethan`](clients/EVG1021_Kim-Ethan) |
+| EVG1022 | Gregory & Ellen Whitfield | MFJ | PA (West Chester) resident; MA nonresident | 622,485 | 586,245 | 140,074 | 695 | 0 | 9 | [`clients/EVG1022_Whitfield`](clients/EVG1022_Whitfield) |
+| EVG1024 | Margaret "Peggy" Abernathy | S | FL - Naples (no state income tax) | 222,041 | 139,926 | 23,736 | 964 | 0 | 9 | [`clients/EVG1024_Abernathy`](clients/EVG1024_Abernathy) |
+| EVG1025 | Victor & Lena Brennan-Ochoa | MFJ | TX - Houston (no state income tax) | 608,850 | 577,350 | 102,877 | 0 | 2,277 | 9 | [`clients/EVG1025_Brennan-Ochoa`](clients/EVG1025_Brennan-Ochoa) |
 
-## Gotchas by procedure area (172 total)
+## Gotchas by procedure area (199 total)
 
 | Procedure area | Count | Rubric IDs |
 |---|---:|---|
 | Scan | 21 | EVG1001-G1, EVG1002-G3, EVG1003-G1, EVG1003-G3, EVG1004-G7, EVG1005-G9, EVG1006-G8, EVG1007-G9, EVG1008-G6, EVG1010-G4, EVG1011-G3, EVG1012-G4, EVG1013-G3, EVG1014-G4, EVG1014-G8, EVG1016-G2, EVG1016-G8, EVG1017-G1, EVG1017-G4, EVG1018-G8, EVG1020-G2 |
-| Return | 17 | EVG1002-G4, EVG1002-G5, EVG1002-G6, EVG1002-G7, EVG1003-G2, EVG1003-G4, EVG1003-G5, EVG1003-G6, EVG1003-G7, EVG1003-G8, EVG1004-G1, EVG1004-G5, EVG1004-G8, EVG1004-G9, EVG1005-G1, EVG1005-G2, EVG1005-G4 |
-| Schedule A | 11 | EVG1007-G3, EVG1007-G4, EVG1007-G5, EVG1009-G4, EVG1010-G8, EVG1012-G8, EVG1019-G1, EVG1019-G4, EVG1020-G5, EVG1020-G6, EVG1020-G7 |
+| Return | 19 | EVG1002-G4, EVG1002-G5, EVG1002-G6, EVG1002-G7, EVG1003-G2, EVG1003-G4, EVG1003-G5, EVG1003-G6, EVG1003-G7, EVG1003-G8, EVG1004-G1, EVG1004-G5, EVG1004-G8, EVG1004-G9, EVG1005-G1, EVG1005-G2, EVG1005-G4, EVG1024-G3, EVG1024-G4 |
+| Schedule A | 13 | EVG1007-G3, EVG1007-G4, EVG1007-G5, EVG1009-G4, EVG1010-G8, EVG1012-G8, EVG1019-G1, EVG1019-G4, EVG1020-G5, EVG1020-G6, EVG1020-G7, EVG1022-G8, EVG1025-G9 |
 | Schedule C | 11 | EVG1006-G1, EVG1006-G2, EVG1006-G3, EVG1006-G4, EVG1006-G5, EVG1006-G6, EVG1006-G7, EVG1014-G5, EVG1014-G6, EVG1019-G3, EVG1019-G7 |
+| Schedule D | 11 | EVG1010-G3, EVG1011-G1, EVG1011-G5, EVG1013-G2, EVG1017-G3, EVG1022-G5, EVG1024-G1, EVG1024-G2, EVG1025-G4, EVG1025-G5, EVG1025-G6 |
 | Review | 10 | EVG1002-G1, EVG1004-G6, EVG1005-G3, EVG1007-G6, EVG1009-G1, EVG1010-G1, EVG1010-G2, EVG1015-G9, EVG1016-G3, EVG1021-G1 |
 | Schedules K-1 | 10 | EVG1007-G1, EVG1007-G2, EVG1017-G7, EVG1017-G8, EVG1018-G1, EVG1018-G2, EVG1018-G3, EVG1018-G5, EVG1018-G6, EVG1018-G7 |
 | Foreign Transactions | 9 | EVG1004-G2, EVG1004-G3, EVG1004-G4, EVG1015-G1, EVG1015-G2, EVG1015-G3, EVG1015-G4, EVG1015-G6, EVG1017-G5 |
+| SALT | 8 | EVG1012-G7, EVG1017-G9, EVG1019-G9, EVG1020-G8, EVG1022-G1, EVG1022-G2, EVG1022-G3, EVG1022-G9 |
 | SALT Implications | 8 | EVG1002-G8, EVG1005-G5, EVG1005-G6, EVG1005-G7, EVG1005-G8, EVG1008-G7, EVG1013-G7, EVG1016-G6 |
-| Schedule D | 5 | EVG1010-G3, EVG1011-G1, EVG1011-G5, EVG1013-G2, EVG1017-G3 |
+| NIIT | 5 | EVG1007-G8, EVG1011-G7, EVG1017-G6, EVG1024-G9, EVG1025-G8 |
+| General Return Prep Notes | 4 | EVG1001-G2, EVG1008-G4, EVG1012-G1, EVG1022-G7 |
 | OBBBA | 4 | EVG1001-G4, EVG1001-G5, EVG1009-G7, EVG1016-G5 |
-| SALT | 4 | EVG1012-G7, EVG1017-G9, EVG1019-G9, EVG1020-G8 |
-| General Return Prep Notes | 3 | EVG1001-G2, EVG1008-G4, EVG1012-G1 |
+| Estate Implications | 3 | EVG1009-G2, EVG1009-G3, EVG1024-G5 |
 | Kid Taxes | 3 | EVG1021-G2, EVG1021-G3, EVG1021-G5 |
-| NIIT | 3 | EVG1007-G8, EVG1011-G7, EVG1017-G6 |
 | Other traps | 3 | EVG1019-G5, EVG1019-G6, EVG1019-G8 |
+| Schedule B | 3 | EVG1012-G5, EVG1017-G2, EVG1022-G6 |
 | Schedule E | 3 | EVG1008-G1, EVG1008-G2, EVG1008-G3 |
 | Schedule E / Rental Properties | 3 | EVG1018-G9, EVG1020-G3, EVG1020-G4 |
+| Client IRAs / retirement distributions | 2 | EVG1016-G4, EVG1022-G4 |
 | E-File Rejects | 2 | EVG1011-G2, EVG1014-G3 |
-| Estate Implications | 2 | EVG1009-G2, EVG1009-G3 |
 | Filing Status | 2 | EVG1014-G1, EVG1016-G1 |
+| FinCEN114/FBAR | 2 | EVG1015-G5, EVG1025-G3 |
+| Foreign Corps | 2 | EVG1025-G1, EVG1025-G2 |
+| Foreign Trusts | 2 | EVG1015-G8, EVG1024-G7 |
 | Installment Sales | 2 | EVG1012-G2, EVG1012-G3 |
 | QBI | 2 | EVG1007-G7, EVG1018-G4 |
-| Schedule B | 2 | EVG1012-G5, EVG1017-G2 |
 | W-2 box 12 codes | 2 | EVG1001-G7, EVG1001-G8 |
 | Billing | 1 | EVG1011-G8 |
+| Client IRAs | 1 | EVG1024-G6 |
 | Client IRAs / inherited IRA | 1 | EVG1009-G6 |
-| Client IRAs / retirement distributions | 1 | EVG1016-G4 |
 | Client Interview / dependents | 1 | EVG1001-G3 |
 | Education credits / dependents | 1 | EVG1008-G5 |
 | Estate Implications / SALT | 1 | EVG1009-G8 |
 | Filing | 1 | EVG1021-G6 |
-| FinCEN114/FBAR | 1 | EVG1015-G5 |
-| Foreign Trusts | 1 | EVG1015-G8 |
+| Foreign Trusts / Paper Filing Returns | 1 | EVG1024-G8 |
 | Form 1099-Q | 1 | EVG1010-G6 |
 | Form 2441 | 1 | EVG1001-G6 |
 | Form 2441 / W-2 box 10 | 1 | EVG1010-G5 |
@@ -72,6 +78,7 @@
 | General Return Prep Notes / estimated tax | 1 | EVG1013-G6 |
 | Local Filing Requirements | 1 | EVG1016-G7 |
 | PFICs | 1 | EVG1015-G7 |
+| Paper Filing Returns / E-File Rejects | 1 | EVG1025-G7 |
 | Post-Submission Exceptions | 1 | EVG1002-G2 |
 | Projections | 1 | EVG1014-G2 |
 | Restricted Stock | 1 | EVG1013-G1 |
@@ -261,3 +268,30 @@
 | EVG1021-G4 | Dependent standard deduction | Standard deduction - dependent | easy |
 | EVG1021-G5 | Only unearned income is subject to kiddie tax | Kid Taxes - Form 8615 line 1 | medium |
 | EVG1021-G6 | Dependent checkbox / no credits for the child | Filing - dependent return | easy |
+| EVG1022-G1 | Single PA-coded W-2 for a mobile executive -> MA nonresident return | SALT - New State Filing Requirements | hard |
+| EVG1022-G2 | NJ reciprocity and the Illinois 30-day rule | SALT - New State Filing Requirements (reciprocity / thresholds) | medium |
+| EVG1022-G3 | PA credit for MA tax is limited | SALT - resident credit (Schedule G-L) | medium |
+| EVG1022-G4 | Lump-sum distribution with employer stock in kind | Client IRAs / retirement distributions (Form 1099-R) - NUA | hard |
+| EVG1022-G5 | Cross-account wash sale into spouse's IRA | Schedule D - adjustment code W (wash sales) | hard |
+| EVG1022-G6 | Box 11/13 premium and accrued interest paid | Schedule B - accrued interest / bond premium (Scan - consolidated 1099) | medium |
+| EVG1022-G7 | Prior preparer's carryover had the wrong character | General Return Prep Notes - prior-year carryovers (new client) | hard |
+| EVG1022-G8 | MAGI over $500,000 reduces the SALT cap to the $10,000 floor | Schedule A - SALT (OBBBA cap phase-down) | medium |
+| EVG1022-G9 | PA taxes 401(k)/403(b) deferrals; PA exempts the retirement distribution | SALT - PA compensation and retirement income | medium |
+| EVG1024-G1 | Founder stock in a dissolved C corp - 1244 split | Schedule D (worthless stock / IRC 1244) | medium |
+| EVG1024-G2 | Worthless security - timing, holding period and the $3,000 limit | Schedule D | medium |
+| EVG1024-G3 | 1099-C $38,000 - insolvency measured immediately before the discharge | Return - Form 982 (insolvency) | hard |
+| EVG1024-G4 | Excluded COD reduces the capital loss carryover | Return - Form 982 Part II (attribute reduction) | hard |
+| EVG1024-G5 | Estate tax deduction on inherited IRA withdrawals | Estate Implications (IRC 691(c) - income in respect of a decedent) | hard |
+| EVG1024-G6 | Inherited IRA distribution - code 4, RMD rules | Client IRAs (inherited IRA) | medium |
+| EVG1024-G7 | Foreign trust distribution taxed under the ACTUAL method | Foreign Trusts | hard |
+| EVG1024-G8 | Form 3520, Schedule B Part III and Form 8938 | Foreign Trusts / Paper Filing Returns | medium |
+| EVG1024-G9 | Net investment income - MAGI limb binds | NIIT | medium |
+| EVG1025-G1 | Section 962 tax computation and line 16 presentation | Foreign Corps (GILTI / section 962) | hard |
+| EVG1025-G2 | CFC information returns | Foreign Corps (Form 5471 / 926) | medium |
+| EVG1025-G3 | Company's Irish bank account - 'not my money' | FinCEN114/FBAR | medium |
+| EVG1025-G4 | Merger cash boot - 1099-B shows $300,000 proceeds, no basis | Schedule D (reorganization boot) | hard |
+| EVG1025-G5 | Liquidating distribution on Form 1099-DIV box 9 | Schedule D | medium |
+| EVG1025-G6 | Short against the box - IRC 1259 | Schedule D (constructive sale) | hard |
+| EVG1025-G7 | Form 1042-S issued to a U.S. citizen | Paper Filing Returns / E-File Rejects | medium |
+| EVG1025-G8 | Net investment income - gains, 962 inclusion, MAGI limb | NIIT | medium |
+| EVG1025-G9 | Itemize vs standard with MAGI > $500,000 | Schedule A (SALT cap phase-down) | easy |
