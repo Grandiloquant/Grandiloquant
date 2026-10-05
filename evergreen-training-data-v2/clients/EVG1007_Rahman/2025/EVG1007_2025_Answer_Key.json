@@ -1,0 +1,859 @@
+{
+  "client_id": "EVG1007",
+  "client": "Dr. Aisha Rahman",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "IL (Chicago) - full-year resident",
+    "complexity": "S-corp owner, K-1 basis, high income"
+  },
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 224900,
+    "2a": 0,
+    "2b": 2490,
+    "3a": 2100,
+    "3b": 2400,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 21360,
+    "8": 310000,
+    "9": 561150,
+    "10": 8400,
+    "11": 552750,
+    "12e": 72925,
+    "13a": 0,
+    "13b": 0,
+    "15": 479825,
+    "16": 132794,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 132794,
+    "23": 546,
+    "24": 133340,
+    "25d": 56360,
+    "26": 45000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 101360,
+    "34": 0,
+    "35a": 0,
+    "37": 31980
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 0,
+  "balance_due": 32759,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 224900
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 224900
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 2490
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 2100
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 2400
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 21360
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 310000
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 561150
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 8400
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 552750
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 72925
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 72925
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 479825
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 132794
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 132794
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 132794
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 546
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 133340
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 56000
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 360
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 56360
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 45000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 101360
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 0
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 0
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 31980
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 779
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "JPMorgan Chase Bank",
+        "amount": 1850
+      },
+      {
+        "line": "1.2",
+        "description": "Lakeshore Pediatric Partners, S.C. (Schedule K-1 box 4)",
+        "amount": 640
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 2490
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 2490
+      },
+      {
+        "line": "5.1",
+        "description": "Fidelity Brokerage Services",
+        "amount": 2400
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 2400
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box F)": [
+      {
+        "line": "1",
+        "description": "Lakeshore Pediatric Partners, S.C. - S corp distribution in excess of stock basis (sec. 1368(b)(2); Form 7203) | acq 01/01/2016 | sold 12/31/2025 | proceeds 21,360 | basis 0 | code  adj 0",
+        "amount": 21360
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "LT box F",
+        "description": "Long-term from Form 8949 box F (proceeds 21,360; cost 0; adj 0)",
+        "amount": 21360
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 21360
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 21360
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "5",
+        "description": "Rental real estate, royalties, partnerships, S corps, trusts - Schedule E",
+        "amount": 310000
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 310000
+      },
+      {
+        "line": "17",
+        "description": "Self-employed health insurance deduction",
+        "amount": 8400
+      },
+      {
+        "line": "26",
+        "description": "Total adjustments to income (to Form 1040, line 10)",
+        "amount": 8400
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 41456
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 17550
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 14800
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 32350
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($24,175 after MAGI phase-down)",
+        "amount": 24175
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 24175
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 21600
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 21600
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 21600
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 27000
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 150
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 27150
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 72925
+      }
+    ],
+    "Form 8995-A": [
+      {
+        "line": "Lakeshore Pediatric Partners, S.C.",
+        "description": "QBI 310,000; component (above threshold (SSTB phase 1.0000))",
+        "amount": 0
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 479,825 - net capital gain & qualified dividends 23,460)",
+        "amount": 91273
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 0
+      }
+    ],
+    "Form 8959": [
+      {
+        "line": "7/13",
+        "description": "Additional Medicare Tax (Medicare wages 240,000; SE 0; threshold 200,000)",
+        "amount": 360
+      },
+      {
+        "line": "24",
+        "description": "Additional Medicare Tax withheld by employer(s)",
+        "amount": 360
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "11",
+        "description": "Additional Medicare Tax (Form 8959)",
+        "amount": 360
+      },
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 186
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 546
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 4890
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 4890
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 552,750 over threshold 200,000",
+        "amount": 352750
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 186
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "return": "IL-1040",
+      "base_income": 552750,
+      "exemption": 0,
+      "tax": 27361,
+      "pte_credit": 16073,
+      "withholding": 10800,
+      "estimates": 9000,
+      "refund": 8512
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-13"
+    },
+    {
+      "form": "IL-1040",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-13"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1007-G1",
+      "procedure_section": "Schedules K-1 - Debt Basis vs Stock Basis Distribution Trap",
+      "title": "Distributions exceed STOCK basis; debt basis is positive",
+      "trap": "Look at total basis (stock $338,640 + debt $120,000) and treat the $360,000 distribution as tax-free.",
+      "correct_treatment": "Distributions reduce stock basis only. Stock basis before distributions $338,640 -> $21,360 is gain from the sale of stock (sec. 1368(b)(2)) - Form 8949 Part II box F, long-term; Form 7203 attached. Debt basis absorbs only the nondeductible expenses/charitable items (debt basis EOY $114,900).",
+      "impact": "Sch D +$21,360 LTCG (~$3,204 tax)",
+      "affected_lines": [
+        "7",
+        "Sch D",
+        "Form 8949",
+        "Form 7203"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1007-G2",
+      "procedure_section": "Schedules K-1 - PTE tax credit",
+      "title": "IL PTE tax on the K-1-P",
+      "trap": "Add the $16,073 PTE tax paid by the corporation to Schedule A line 5a as state income tax, and/or ignore the IL credit.",
+      "correct_treatment": "The PTE tax was deducted by the corporation (ordinary income is already net of it) - it is not the shareholder's itemized tax. Claim the $16,073 credit on the IL-1040 (Schedule K-1-P); no IL subtraction.",
+      "impact": "Sch A overstated / IL refund understated",
+      "affected_lines": [
+        "Sch A 5a",
+        "IL-1040"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1007-G3",
+      "procedure_section": "Schedule A - itemizing SALT (refund of taxes itemized in the prior year)",
+      "title": "1099-G $2,100 IL refund",
+      "trap": "Report the $2,100 on Schedule 1 line 1 because she itemized in 2024.",
+      "correct_treatment": "2024 SALT was capped at $10,000 with $31,000 paid; without the overpayment she would still have been capped -> no tax benefit -> $0 taxable (tax benefit rule, Rev. Rul. 2019-11). Keep the worksheet.",
+      "impact": "Line 8 +$2,100 if wrong",
+      "affected_lines": [
+        "Sch 1 1"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1007-G4",
+      "procedure_section": "Schedule A - SALT cap (OBBBA phase-down)",
+      "title": "MAGI above $500,000",
+      "trap": "Deduct the full $40,000 cap (or $32,350 paid), and include the 01/15/2026 IL estimate.",
+      "correct_treatment": "Cap = 40,000 - 30% x ($552,750 - 500,000) = $24,175. Only IL payments made in 2025 count (withholding + 3 estimates); total paid $32,350 -> limited to $24,175.",
+      "impact": "Sch A line 5e $24,175",
+      "affected_lines": [
+        "Sch A 5e",
+        "12e"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1007-G5",
+      "procedure_section": "Schedule A - Charitable Contributions (DAF vs GoFundMe; noncash clothing)",
+      "title": "Three kinds of 'donations'",
+      "trap": "Deduct GoFundMe $1,500 and value clothing at 3x cost per the procedure ($1,800) or at cost ($600).",
+      "correct_treatment": "DAF $25,000 deductible in 2025 (public charity, written acknowledgment). GoFundMe for a colleague's family is a gift to individuals - not deductible. Used clothing is limited to FMV (thrift value) ~$150 - the procedure's 3x-cost rule conflicts with sec. 170 (FMV of used clothing cannot exceed its cost) and is not followed.",
+      "impact": "Sch A line 11/12 overstated $3,150 if wrong",
+      "affected_lines": [
+        "Sch A 11",
+        "Sch A 12"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1007-G6",
+      "procedure_section": "Review - Hand-off / estimated payments (organizer vs. confirmation)",
+      "title": "Organizer says 4 x $15,000 federal estimates",
+      "trap": "Enter $60,000 on line 26 from the organizer -> understated balance due, IRS math-error notice, no 2210.",
+      "correct_treatment": "IRS account shows 3 payments ($45,000; Q3 missed). Line 26 = $45,000. 90% of 2025 tax < 110% of 2024 tax -> required annual payment $120,006; Form 2210 regular method penalty $779 (line 38).",
+      "impact": "Balance due $32,759 (not $16,980)",
+      "affected_lines": [
+        "26",
+        "37",
+        "38"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1007-G7",
+      "procedure_section": "QBI (limitations) - SSTB",
+      "title": "Medical practice S corp with $612k of W-2 wages",
+      "trap": "Claim 20% x $310,000 = $62,000 because the W-2 wage limit is met.",
+      "correct_treatment": "Health is an SSTB; taxable income before QBI is above $247,300 (single) -> applicable percentage 0% -> QBI deduction $0.",
+      "impact": "Line 13a $0",
+      "affected_lines": [
+        "13a"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1007-G8",
+      "procedure_section": "NIIT",
+      "title": "Excess-distribution gain and K-1 income on Form 8960",
+      "trap": "Include the K-1 ordinary income and/or the $21,360 excess-distribution gain in NII.",
+      "correct_treatment": "K-1 income is nonpassive trade/business income (material participation) - not NII. The excess-distribution gain is treated as gain on S-corp stock and removed on line 5c to the extent attributable to the active business (sec. 1411(c)(4), Prop. Reg. 1.1411-7; all corporate assets used in the practice). NII = interest + dividends $4,890 -> NIIT $186.",
+      "impact": "NIIT $186 (vs $998 if gain included)",
+      "affected_lines": [
+        "Sch 2 12",
+        "Form 8960"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1007-G9",
+      "procedure_section": "Scan - duplicate documents (draft vs final K-1)",
+      "title": "DRAFT K-1 received before the final",
+      "trap": "Autoflow both K-1s, or use the draft ($326,100 box 1 - before the PTE tax deduction).",
+      "correct_treatment": "Use only the FINAL K-1 (box 1 $310,000); bookmark the draft as superseded.",
+      "impact": "Sch E overstated $16,100 or doubled",
+      "affected_lines": [
+        "Sch E",
+        "Sch 1 5"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "form_7203": {
+    "stock_basis_boy": 28000.0,
+    "stock_before_distributions": 338640.0,
+    "distributions": 360000.0,
+    "excess_distribution_gain": 21360.0,
+    "stock_basis_eoy": 0.0,
+    "debt_basis_boy": 120000.0,
+    "debt_basis_eoy": 114900.0
+  },
+  "form_2210": {
+    "required_annual_payment": 120006,
+    "penalty": 779,
+    "rate_assumed": 0.07
+  },
+  "amt_check": {
+    "tentative_minimum_tax": 108620,
+    "regular_tax": 132794,
+    "amt": 0
+  },
+  "software_exceptions": [
+    {
+      "id": "EVG1007-SX1",
+      "workbook_tab": "12. S-Corp Dual Basis",
+      "tab_key": "12",
+      "category": "Basis/At-Risk/Passive",
+      "title": "S-corp distribution above STOCK basis (debt basis does not cover distributions)",
+      "axcess_default_behavior": "If beginning basis is keyed as one blended figure ($28,000 stock + $120,000 shareholder loan = $148,000), Axcess tests the $360,000 distribution against $148,000 + $310,640 of income = $458,640 and treats it as fully tax-free. No capital gain is generated.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Income/Deductions > S Corporation Passthrough > Basis Limitation section: beginning STOCK basis $28,000 on the stock-basis line; shareholder loan $120,000 entered only in the separate DEBT-basis lines. Recalculate - $21,360 excess distribution flows to Form 8949 box F (LT; held since 2016). Form 7203 attached.",
+      "override_amount": 21360,
+      "proconnect_default_behavior": "ProConnect requires 'Stock basis at beginning of year' to produce Form 7203 (missing entry raises diagnostic ref 56844). If the preparer types the blended $148,000 there, the same tax-free result occurs.",
+      "proconnect_fix": "S Corp Info (1120S K-1) > Shareholder's Basis (7203): Stock basis at beginning of year = 28,000; Debt basis at beginning of tax year = 120,000 (Shareholder Loan section). 7203 generates because a distribution was received; the $21,360 gain flows to Schedule D.",
+      "proconnect_reference": "Intuit help: 'How to complete Form 7203 and resolve diagnostic 56844 in ProConnect Tax'",
+      "efile_impact": "None (Form 7203 required attachment when a distribution is received)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 8949 box F",
+        "Form 7203"
+      ],
+      "procedure_section": "Schedules K-1 - Debt Basis vs Stock Basis Distribution Trap",
+      "notes": "Workbook tab 12 formula corrected to apply distributions before losses (Reg. 1.1367-1(f)); see Corrections Log."
+    },
+    {
+      "id": "EVG1007-SX2",
+      "workbook_tab": "8. Est. Tax Penalty (2210)",
+      "tab_key": "8",
+      "category": "Est. Tax Penalty",
+      "title": "Form 2210 - organizer says 4 estimates, only 3 were paid",
+      "axcess_default_behavior": "Axcess computes the underpayment penalty from whatever estimates are keyed. Keying the organizer (4 x $15,000) shows no penalty; nothing compares the organizer to the IRS account transcript.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "General > Payments: enter federal estimates by actual date paid (04/15, 06/16, 01/15/2026 = $15,000 each; Q3 $0). Penalty section: regular method, no waiver; 110% prior-year safe harbor applies (2024 AGI $508,300 > $150,000). Penalty $779 on line 38.",
+      "override_amount": 779,
+      "proconnect_default_behavior": "Same - ProConnect uses the estimate amounts/dates entered; no transcript check.",
+      "proconnect_fix": "Payments, Penalties & Extensions: enter each 2025 federal estimate with its actual date paid (leave Q3 blank); let the Form 2210 penalty compute (do not check 'suppress penalty').",
+      "proconnect_reference": "Screen name per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "26",
+        "38"
+      ],
+      "procedure_section": "Workpapers / Responding to Review Points",
+      "notes": "Workbook tab 8 (corrected) shows required annual payment $120,006 vs payments $101,360 -> NOT met."
+    },
+    {
+      "id": "EVG1007-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "SSTB flag missing from K-1 statement - QBI deduction would be ~$62,000",
+      "axcess_default_behavior": "The K-1's Section 199A statement reports QBI, W-2 wages and UBIA but the corporation did not check the SSTB box. Axcess applies the W-2 wage limit only and allows a ~$62,000 QBI deduction (20% x $310,000; wage limit $120,000 and taxable-income limit $91,273 do not bind).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "S Corporation Passthrough > Section 199A: check 'Specified service trade or business'. With taxable income before QBI of $479,825 (> $247,300) the SSTB is fully phased out - QBI deduction $0.",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same - ProConnect relies on the SSTB indicator entered from the K-1 statement.",
+      "proconnect_fix": "S Corp Info (1120S K-1) > Qualified Business Income (199A): 'Specified service trade or business' = Yes.",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "13a",
+        "Form 8995-A"
+      ],
+      "procedure_section": "QBI (QOFs, QROFs)",
+      "notes": "Pediatric medical practice is a health SSTB under 199A(d)(2)."
+    },
+    {
+      "id": "EVG1007-SX4",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "NIIT - excess-distribution gain on active S-corp stock (Form 8960 line 5c)",
+      "axcess_default_behavior": "The $21,360 Schedule D gain is treated as net investment income automatically (+$812 NIIT). Axcess cannot know the corporation's assets are 100% used in a nonpassive trade or business.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Form 8960 input: line 5c adjustment (disposition of partnership interest or S-corp stock) = (21,360), supported by a Reg. 1.1411-7 (proposed, may be relied on) statement. NIIT falls to $186.",
+      "override_amount": -21360,
+      "proconnect_default_behavior": "Same - capital gain flows into NII.",
+      "proconnect_fix": "Net Investment Income Tax (8960) screen: 'Adjustment for disposition of partnership interest or S corporation stock' = -21,360; attach statement.",
+      "proconnect_reference": "Field label per current release - verify",
+      "efile_impact": "Statement attached as PDF",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Schedule 2 line 12",
+        "Form 8960"
+      ],
+      "procedure_section": "",
+      "notes": "Position flagged for signer (NIIT $812 higher if not taken)."
+    },
+    {
+      "id": "EVG1007-SX5",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "State refund (1099-G $2,100) - tax benefit rule when PY SALT was capped",
+      "axcess_default_behavior": "For a new client or when the 2024 Schedule A detail did not proforma, Axcess's state-refund worksheet has no PY SALT/cap data and includes the full $2,100 on Schedule 1 line 1.",
+      "axcess_diagnostic": "Informational: state and local refund worksheet requires prior-year itemized deduction information",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Income > State and local refund worksheet: enter 2024 state and local taxes paid ($31,000), SALT limitation $10,000, 2024 itemized total; worksheet computes $0 taxable (Rev. Rul. 2019-11).",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same - the taxable-refund worksheet needs prior-year itemized and SALT-limit data; otherwise the full refund is taxable.",
+      "proconnect_fix": "Income > State and local tax refunds: complete the prior-year Schedule A / SALT limitation fields so the worksheet limits the taxable amount to $0.",
+      "proconnect_reference": "Verify field names in current release",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "8 (Schedule 1 line 1)"
+      ],
+      "procedure_section": "Schedule A - refunds of taxes itemized in a prior year",
+      "notes": ""
+    },
+    {
+      "id": "EVG1007-SX6",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "State Allocation",
+      "title": "Illinois PTE tax - federal Schedule A vs IL credit",
+      "axcess_default_behavior": "If the K-1's 'state taxes paid by entity' footnote is keyed as an estimated state payment, Axcess both itemizes it (federal) and credits it (IL) - double benefit. The tax was already deducted inside K-1 box 1.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Do not enter the PTE tax on the federal Taxes worksheet. Enter $16,073 only on the IL K-1-P passthrough credit input (IL Schedule IL-E / PTE credit). IL exemption and property-tax credit are disallowed (AGI > $250,000).",
+      "override_amount": 16073,
+      "proconnect_default_behavior": "Same risk if entered under state estimated payments.",
+      "proconnect_fix": "Illinois return > Pass-through entity credits: enter the IL K-1-P PTE tax credit $16,073; nothing on federal Taxes (Schedule A).",
+      "proconnect_reference": "",
+      "efile_impact": "IL return e-filed with K-1-P information",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Schedule A line 5a",
+        "IL-1040 credits"
+      ],
+      "procedure_section": "Schedules K-1 - PTE tax",
+      "notes": ""
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "8. Est. Tax Penalty (2210)",
+    "12. S-Corp Dual Basis"
+  ]
+}

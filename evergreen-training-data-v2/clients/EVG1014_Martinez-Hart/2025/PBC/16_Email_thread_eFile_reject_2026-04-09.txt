@@ -1,0 +1,16 @@
+From: preparer@evergreentax.example
+To: Liam Hart; Sofia Martinez
+Cc: L. Chen
+Date: Thu, 9 Apr 2026 08:15:00 -0400
+Subject: Hart/Martinez 2025 - IRS rejected e-file (name mismatch) - quick question
+
+Hi Sofia and Liam - the IRS rejected the e-filed return last night with code IND-031-04: the primary taxpayer's
+name control ("HART") does not match the SSN in the IRS/SSA database. Has Sofia filed Form SS-5 with Social
+Security to change her name to Hart yet?
+
+-----
+From: Sofia Martinez <sofia.designs@example.com>
+Date: Thu, 9 Apr 2026 10:02:47 -0400
+
+Oh no - no, I haven't done the Social Security name change yet. My card still says Martinez.
+Should I use Martinez?

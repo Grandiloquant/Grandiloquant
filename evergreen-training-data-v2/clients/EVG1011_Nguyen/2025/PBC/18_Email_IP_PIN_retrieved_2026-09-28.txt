@@ -1,0 +1,13 @@
+From: preparer@evergreentax.example
+To: Thomas Nguyen
+Date: Mon, 28 Sep 2026 08:40:00 -0500
+Subject: Re: FINAL coinledger report uploaded
+
+Thomas - the CP01A you scanned is from January 2025 and was for your 2024 return. IP PINs change every year, and the
+IRS mailed your 2026 CP01A to your old Demonbreun St address (no Form 8822 on file). Please log in to your IRS Online
+Account (Get an IP PIN) and text or call us with the current 6-digit IP PIN - do not email it.
+We'll also file Form 8822 with your new address.
+
+-----
+[Phone note - P. Anand, 09/28/2026 14:12] Client read current IP PIN from IRS Online Account (stored in Axcess e-file
+screen, masked ****27). Form 8822 prepared for client signature.

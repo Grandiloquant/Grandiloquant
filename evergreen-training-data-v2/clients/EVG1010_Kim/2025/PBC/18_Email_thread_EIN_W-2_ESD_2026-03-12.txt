@@ -1,0 +1,19 @@
+From: preparer@evergreentax.example
+To: Grace Kim
+Date: Tue, 3 Mar 2026 10:12:00 -0800
+Subject: Kim - household employer items
+
+Hi Grace - as discussed, your EIN as a household employer was assigned today (00-9087731, online SS-4). Next steps:
+1) We prepared Maria's 2025 Form W-2 (box 1 $30,142.00 - includes the $2,142 employee share of social security/
+   Medicare that you are paying on her behalf; boxes 3 and 5 $28,000.00) and Form W-3 for e-filing with SSA.
+2) We will file a CORRECTED 1099-NEC showing $0 to replace the one you sent.
+3) Please register with Washington ESD for unemployment insurance as a household employer and pay the 2025 contributions
+   BEFORE April 15, 2026 (this keeps the federal unemployment (FUTA) rate at 0.6% on Schedule H).
+
+-----
+From: Grace Kim
+Date: Thu, 12 Mar 2026 19:40:51 -0800
+Subject: RE: Kim - household employer items
+
+Done! Registered with ESD today. They'll send a bill for Q1-Q4 2025 - I will pay it as soon as it comes.
+Also gave Maria her W-2. She said thank you (she wasn't sure how to do her taxes with the 1099).
