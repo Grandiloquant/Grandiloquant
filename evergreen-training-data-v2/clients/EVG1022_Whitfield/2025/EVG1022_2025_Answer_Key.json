@@ -1,0 +1,1032 @@
+{
+  "client_id": "EVG1022",
+  "client": "Gregory & Ellen Whitfield",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "PA (West Chester) resident; MA nonresident",
+    "new_client": true,
+    "complexity": "Retiring executive - NUA, multi-state W-2 days, investments"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 472000,
+    "2a": 6396,
+    "2b": 9085,
+    "3a": 15900,
+    "3b": 18400,
+    "4b": 0,
+    "5b": 96000,
+    "6b": 0,
+    "7": 27000,
+    "8": 0,
+    "9": 622485,
+    "10": 0,
+    "11": 622485,
+    "12e": 36240,
+    "13a": 0,
+    "13b": 0,
+    "15": 586245,
+    "16": 135700,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 135700,
+    "23": 4374,
+    "24": 140074,
+    "25d": 105769,
+    "26": 32000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 3000,
+    "33": 140769,
+    "34": 695,
+    "35a": 695,
+    "37": 0
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 695,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 472000
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 472000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 6396
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 9085
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 15900
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 18400
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 1420000
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 96000
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 27000
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 622485
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 622485
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 36240
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 36240
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 586245
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 135700
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 135700
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 135700
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 4374
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 140074
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 103600
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 2169
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 105769
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 32000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 3000
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 3000
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 140769
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 695
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 695
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Charles Schwab & Co. - joint brokerage ****2207 (1099-INT box 1)",
+        "amount": 12641
+      },
+      {
+        "line": "1.2",
+        "description": "Brandywine Federal Credit Union",
+        "amount": 212
+      },
+      {
+        "line": "1.3",
+        "description": "ABP Adjustment - Pfizer 4.75% 2033 (1099-INT box 11)",
+        "amount": -786
+      },
+      {
+        "line": "1.4",
+        "description": "Accrued interest paid on purchase - Pfizer 4.75% 2033 (03/12/2025 confirm)",
+        "amount": -2982
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 9085
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 9085
+      },
+      {
+        "line": "5.1",
+        "description": "Charles Schwab - joint ****2207",
+        "amount": 14250
+      },
+      {
+        "line": "5.2",
+        "description": "Charles Schwab - Gregory ****4410",
+        "amount": 4150
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 18400
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box A)": [
+      {
+        "line": "1",
+        "description": "120 sh Eli Lilly & Co (LLY) [Gregory ****4410] | acq 01/22/2025 | sold 06/30/2025 | proceeds 95,400 | basis 90,400 | code  adj 0",
+        "amount": 5000
+      },
+      {
+        "line": "2",
+        "description": "400 sh iShares Core S&P 500 ETF (IVV) [Gregory ****4410] | acq 02/19/2025 | sold 11/10/2025 | proceeds 227,000 | basis 245,000 | code W adj 18,000",
+        "amount": 0
+      }
+    ],
+    "Form 8949 (Box D)": [
+      {
+        "line": "3",
+        "description": "400 sh Procter & Gamble Co (PG) [joint ****2207] | acq 05/14/2014 | sold 04/03/2025 | proceeds 66,400 | basis 31,200 | code  adj 0",
+        "amount": 35200
+      },
+      {
+        "line": "4",
+        "description": "300 sh Vanguard Total Stock Market ETF (VTI) [joint ****2207] | acq 03/09/2017 | sold 09/22/2025 | proceeds 92,100 | basis 67,300 | code  adj 0",
+        "amount": 24800
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "ST box A",
+        "description": "Short-term from Form 8949 box A (proceeds 322,400; cost 335,400; adj 18,000)",
+        "amount": 5000
+      },
+      {
+        "line": "6",
+        "description": "Short-term capital loss carryover from 2024",
+        "amount": -26000
+      },
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": -21000
+      },
+      {
+        "line": "LT box D",
+        "description": "Long-term from Form 8949 box D (proceeds 158,500; cost 98,500; adj 0)",
+        "amount": 60000
+      },
+      {
+        "line": "14",
+        "description": "Long-term capital loss carryover from 2024",
+        "amount": -12000
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 48000
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 27000
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 46686
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 21004
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 9830
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 30834
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($10,000 after MAGI phase-down)",
+        "amount": 10000
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 10000
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 11240
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 11240
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 11240
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 15000
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 15000
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 36240
+      }
+    ],
+    "Form 6251": [
+      {
+        "line": "1",
+        "description": "Taxable income (Form 1040 line 15)",
+        "amount": 586245
+      },
+      {
+        "line": "2a",
+        "description": "Taxes from Schedule A line 7",
+        "amount": 10000
+      },
+      {
+        "line": "4",
+        "description": "Alternative minimum taxable income",
+        "amount": 596245
+      },
+      {
+        "line": "5",
+        "description": "Exemption",
+        "amount": 137000
+      },
+      {
+        "line": "6",
+        "description": "AMTI less exemption",
+        "amount": 459245
+      },
+      {
+        "line": "7-9",
+        "description": "Tentative minimum tax",
+        "amount": 118230
+      },
+      {
+        "line": "10",
+        "description": "Regular tax (Form 1040 line 16 less Sch 3 line 1 FTC)",
+        "amount": 135700
+      },
+      {
+        "line": "11",
+        "description": "Alternative minimum tax",
+        "amount": 0
+      }
+    ],
+    "Form 8959": [
+      {
+        "line": "7/13",
+        "description": "Additional Medicare Tax (Medicare wages 506,000; SE 0; threshold 250,000)",
+        "amount": 2304
+      },
+      {
+        "line": "24",
+        "description": "Additional Medicare Tax withheld by employer(s)",
+        "amount": 2169
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "11",
+        "description": "Additional Medicare Tax (Form 8959)",
+        "amount": 2304
+      },
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 2070
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 4374
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 54485
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 54485
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 622,485 over threshold 250,000",
+        "amount": 372485
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 2070
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "10",
+        "description": "Amount paid with request for extension to file (Form 4868)",
+        "amount": 3000
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 3000
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "PA-40",
+      "compensation": 506000,
+      "interest": 9085,
+      "dividends": 18400,
+      "net_gains": 47000,
+      "taxable_income": 580485,
+      "tax": 17821,
+      "sch_gl_credit_ma": 1373,
+      "tax_after_credit": 16448,
+      "payments": 16534.2,
+      "refund": 86.2
+    },
+    {
+      "jurisdiction": "MA Form 1-NR/PY",
+      "ma_source_wages": 44727,
+      "workdays_ma_total": [
+        18,
+        165
+      ],
+      "ratio": 0.0711,
+      "deductions": 284,
+      "exemption": 626,
+      "taxable": 43817,
+      "tax": 2191,
+      "payments": 2300.0,
+      "refund": 109.0
+    },
+    {
+      "jurisdiction": "NJ",
+      "filing": "none - PA/NJ reciprocity"
+    },
+    {
+      "jurisdiction": "IL",
+      "filing": "none - 13 workdays <= 30 (assumption, verify)"
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 4868",
+      "filed": "2026-04-15",
+      "payment": 3000.0
+    },
+    {
+      "form": "Form 1040",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-17"
+    },
+    {
+      "form": "PA-40",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-17"
+    },
+    {
+      "form": "MA Form 1-NR/PY",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-17"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1022-G1",
+      "procedure_section": "SALT - New State Filing Requirements",
+      "title": "Single PA-coded W-2 for a mobile executive -> MA nonresident return",
+      "trap": "Accept W-2 box 15/16 (100% PA) and file only PA-40; or allocate by days to every state including NJ and IL.",
+      "correct_treatment": "Use the calendar export: 165 workdays (PA 112, NJ 22, MA 18, IL 13). MA has no day threshold -> Form 1-NR/PY with MA-source wages 410,000 x 18/165 = $44,727; MA tax $2,191.",
+      "impact": "MA return omitted (tax $2,191 + penalties/interest)",
+      "affected_lines": [
+        "MA 1-NR/PY"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1022-G2",
+      "procedure_section": "SALT - New State Filing Requirements (reciprocity / thresholds)",
+      "title": "NJ reciprocity and the Illinois 30-day rule",
+      "trap": "File NJ-1040NR for the 22 NJ days and IL-1040 for the 13 IL days (and claim PA credits for them).",
+      "correct_treatment": "PA-NJ reciprocal agreement: NJ wages of a PA resident are taxed only by PA - no NJ return. Illinois: a nonresident employee present 30 or fewer working days is not taxed on that compensation (effective 2020) - no IL return (assumption - verify no exception applies; IL tax at stake $1,599).",
+      "impact": "Unneeded NJ/IL returns; overstated PA credit",
+      "affected_lines": [
+        "PA-40 Sch G-L"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1022-G3",
+      "procedure_section": "SALT - resident credit (Schedule G-L)",
+      "title": "PA credit for MA tax is limited",
+      "trap": "Credit the full MA tax ($2,191) against PA tax.",
+      "correct_treatment": "PA credit = lesser of MA tax or PA tax on the income taxed by MA: $44,727 x 3.07% = $1,373 -> $1,373.",
+      "impact": "PA overstated credit $818",
+      "affected_lines": [
+        "PA-40 line 22"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1022-G4",
+      "procedure_section": "Client IRAs / retirement distributions (Form 1099-R) - NUA",
+      "title": "Lump-sum distribution with employer stock in kind",
+      "trap": "Tax the full $640,000 FMV (or the full $1,420,000), or apply the 10% early-distribution tax (age 58).",
+      "correct_treatment": "Only box 2a cost basis $96,000 is taxable (line 5b); NUA $544,000 deferred until sale (LTCG). Direct rollover $780,000 (code G) nontaxable. Code 2 - separation in/after the year he turned 55 - no 10% tax. Total tax effect of ignoring NUA: $199,260.",
+      "impact": "Line 5b overstated up to $544,000",
+      "affected_lines": [
+        "5a",
+        "5b",
+        "16"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1022-G5",
+      "procedure_section": "Schedule D - adjustment code W (wash sales)",
+      "title": "Cross-account wash sale into spouse's IRA",
+      "trap": "Report the $18,000 IVV loss as shown on Schwab's 1099-B (box 1g blank), or disallow it but add $18,000 to the IRA's basis.",
+      "correct_treatment": "Ellen's IRA bought 420 sh IVV 10 days after Gregory's loss sale -> wash sale (spouse; IRA). Form 8949 code W +18,000; the loss is permanently lost - IRA has no basis step-up (Rev. Rul. 2008-5).",
+      "impact": "Sch D ST gain understated $18,000",
+      "affected_lines": [
+        "7"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1022-G6",
+      "procedure_section": "Schedule B - accrued interest / bond premium (Scan - consolidated 1099)",
+      "title": "Box 11/13 premium and accrued interest paid",
+      "trap": "Report box 1 $12,641 gross with no ABP adjustment or accrued-interest reversal; report box 8 $7,500 as tax-exempt.",
+      "correct_treatment": "Sch B: 'ABP Adjustment' -786.12 and 'Accrued interest' -2,981.94 (from the trade confirm/supplemental page) -> line 2b $9,085. Line 2a = 7,500 - 1,104.30 box 13 = $6,396.",
+      "impact": "Line 2b overstated $3,768",
+      "affected_lines": [
+        "2a",
+        "2b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1022-G7",
+      "procedure_section": "General Return Prep Notes - prior-year carryovers (new client)",
+      "title": "Prior preparer's carryover had the wrong character",
+      "trap": "Enter the prior preparer's $38,000 long-term carryover as given.",
+      "correct_treatment": "2024: ST (29,000), LT (12,000), $3,000 allowed -> carryover ST $26,000 / LT $12,000 (ST absorbed first). 2025 net ST ($21,000), net LT $48,000; tax $1,000 lower than with the all-LT carryover (ST gain of $5,000 would otherwise be taxed at 35%).",
+      "impact": "Tax overstated $1,000",
+      "affected_lines": [
+        "7",
+        "16"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1022-G8",
+      "procedure_section": "Schedule A - SALT (OBBBA cap phase-down)",
+      "title": "MAGI over $500,000 reduces the SALT cap to the $10,000 floor",
+      "trap": "Deduct SALT up to $40,000 (PA/local tax $21,004 + RE tax $9,830).",
+      "correct_treatment": "Cap = 40,000 - 30% x (MAGI $622,485 - 500,000) -> below floor -> $10,000. Itemized $36,240 still beats standard.",
+      "impact": "Sch A line 5e",
+      "affected_lines": [
+        "12e"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1022-G9",
+      "procedure_section": "SALT - PA compensation and retirement income",
+      "title": "PA taxes 401(k)/403(b) deferrals; PA exempts the retirement distribution",
+      "trap": "Use federal box 1 wages ($472,000) as PA compensation and/or tax the $96,000 NUA cost basis (or $640,000) on the PA-40; carry the federal capital loss carryover/code W to PA.",
+      "correct_treatment": "PA compensation = W-2 box 16 $506,000. 401(k) distribution after retirement not PA-taxable. PA net gains $47,000 (2025 sales only; PA has no carryover; IVV loss allowed - no PA wash-sale rule, verify). PA tax $17,821.",
+      "impact": "PA-40 lines 1a/5",
+      "affected_lines": [
+        "PA-40"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [],
+  "workdays": {
+    "PA": 112,
+    "NJ": 22,
+    "MA": 18,
+    "IL": 13
+  },
+  "total_workdays": 165,
+  "ma_source_wages": 44727,
+  "nua": {
+    "box1": 640000.0,
+    "box2a": 96000.0,
+    "box6": 544000.0,
+    "rollover": 780000.0
+  },
+  "nii": 54485,
+  "capital_loss_carryover_used": {
+    "st": 26000,
+    "lt": 12000
+  },
+  "tax_difference_wrong_carryover_character": 1000,
+  "form_2210": {
+    "required_annual_payment": 126067,
+    "paid_timely": 137769,
+    "penalty": 0
+  },
+  "software_exceptions": [
+    {
+      "id": "EVG1022-SX1",
+      "workbook_tab": "23. Multi-State W-2 Days",
+      "tab_key": "23",
+      "category": "State Allocation",
+      "title": "Single PA-coded W-2 for a mobile executive - MA workday allocation",
+      "axcess_default_behavior": "The W-2 worksheet carries box 15/16 exactly as keyed: one PA row with $441,000 of state wages. Axcess has no work location data, so it produces only the PA resident return - no Massachusetts nonresident return and no MA-source wages.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Wages, Salaries, Tips (W-2) worksheet > state/local section: add a multi-state allocation row - MA wages $44,727 (410,000 x 18/165 workdays) - and activate the MA nonresident return (Form 1-NR/PY). Keep the PA row at box 16 ($441,000; PA taxes residents on all compensation). Verify field path in current release.",
+      "override_amount": 44727,
+      "proconnect_default_behavior": "Same - the W-2 screen's state section reflects only what is keyed; with one PA row only PA is generated.",
+      "proconnect_fix": "Wages, Salaries, Tips > W-2 > State and local information: add a second state line for MA with state wages $44,727 (state withholding 0) and generate the MA nonresident return (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None - PA and MA both e-filed",
+      "status": "Signed Off",
+      "affected_lines": [
+        "MA 1-NR/PY (MA-source wages)",
+        "PA-40 Schedule G-L"
+      ],
+      "procedure_section": "SALT Implications - New State Filing Requirements",
+      "notes": "Workdays from the Outlook export: PA 112, NJ 22, MA 18, IL 13 = 165 (4 holidays + 4 PTO excluded). Massachusetts uses the working-day ratio for nonresident employees."
+    },
+    {
+      "id": "EVG1022-SX2",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "State Allocation",
+      "title": "NJ reciprocity and Illinois 30-day threshold - do NOT generate NJ/IL returns",
+      "axcess_default_behavior": "If the preparer allocates by days to every state on the log (adds NJ and IL W-2 state rows), Axcess generates an NJ-1040NR and an IL-1040 with Schedule NR and pushes resident credits to the PA return. Nothing in the software knows the PA-NJ reciprocal agreement or the Illinois 30-working-day nonresident employee threshold.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "No NJ or IL state rows on the W-2 worksheet; leave the NJ/IL returns inactive. Document on the Diagnostics Log and tab 23 notes: NJ 22 days - reciprocity (PA only); IL 13 days <= 30 - not IL-source (assumption to verify; IL tax at stake about $1,599).",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same - any state line keyed on the W-2 generates that state's nonresident return.",
+      "proconnect_fix": "Do not add NJ/IL lines on the W-2 screen; if a state was activated, delete it in the state return list (screen per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "Avoids two unnecessary nonresident filings",
+      "status": "Signed Off",
+      "affected_lines": [
+        "PA-40 Schedule G-L"
+      ],
+      "procedure_section": "SALT Implications - New State Filing Requirements",
+      "notes": "Workbook tab 23 note column records both rules."
+    },
+    {
+      "id": "EVG1022-SX3",
+      "workbook_tab": "7. Multi-State Allocation",
+      "tab_key": "7",
+      "category": "State Allocation",
+      "title": "PA resident credit (Schedule G-L) for MA tax - limited to PA tax on the MA income",
+      "axcess_default_behavior": "When the MA tax paid is keyed as the 'tax paid to other state' on the PA credit input without the MA income, or the credit is overridden to the MA tax, the full $2,191 is credited. PA limits the credit to the PA tax on the income taxed by MA.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "PA return > Resident credit (Schedule G-L) input: income taxed by MA $44,727, MA tax $2,191; credit = MIN(2,191, 44,727 x 3.07% = 1,373) = $1,373 (override if the default differs). Tab 7 column G = PA tax before credit $17,821; column B = PA taxable income $580,485 so G x D = PA tax on the MA income. Verify field path in current release.",
+      "override_amount": 1373,
+      "proconnect_default_behavior": "Same - the PA credit for taxes paid to other states uses the income and tax entered for the other state.",
+      "proconnect_fix": "Pennsylvania return > Credits > Credit for taxes paid to other states (Schedule G-L): MA income 44,727, MA tax 2,191; confirm the computed credit is $1,373 (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "PA-40 line 22",
+        "Schedule G-L"
+      ],
+      "procedure_section": "SALT Implications",
+      "notes": "Used the income MA actually taxed (box 1 based) rather than PA-measured wages incl. 401(k) deferrals - conservative."
+    },
+    {
+      "id": "EVG1022-SX4",
+      "workbook_tab": "18. NUA & IRD Deduction",
+      "tab_key": "18",
+      "category": "Other",
+      "title": "401(k) lump sum with employer stock in kind - NUA (only cost basis taxable)",
+      "axcess_default_behavior": "Axcess taxes the 1099-R box 2a amount keyed. If the stock distribution is keyed with box 2a = box 1 ($640,000) or 'taxable amount not determined', and box 6 is skipped, the whole $640,000 is taxed on line 5b. With box 2a $96,000 keyed correctly the federal result is right - the risk is purely input.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Income > Pensions, IRAs (1099-R) worksheet: distribution 1 - gross $640,000, taxable $96,000, box 6 NUA $544,000, code 2, total distribution; distribution 2 - gross $780,000, taxable $0, code G (rollover). Tab 18: Box 1 - Box 6 = $96,000. Set up the 8,000 KMDV shares in the client's basis records at $12.00/share. PA: mark the 1099-R as not PA-taxable (retirement distribution after retirement) on the PA 1099-R input - verify field path in current release.",
+      "override_amount": 96000,
+      "proconnect_default_behavior": "Same - ProConnect taxes the taxable amount keyed; box 6 must be entered for the NUA to be carried.",
+      "proconnect_fix": "Income > Pensions, Annuities (1099-R): enter both 1099-Rs - box 2a $96,000 and box 6 net unrealized appreciation $544,000 on the stock distribution, code 2; the code G rollover with taxable $0 (field labels per current release - verify). PA: exclude from PA income on the PA 1099-R/retirement income input.",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "5a",
+        "5b",
+        "PA-40"
+      ],
+      "procedure_section": "Client IRAs / retirement distributions",
+      "notes": "Code 2 (separation from service in/after the year he turned 55) - no 10% tax, no Form 5329. Taxing the full FMV would cost $199,260 of additional federal tax (answer key what-if)."
+    },
+    {
+      "id": "EVG1022-SX5",
+      "workbook_tab": "17. Equity Comp & Wash Sales",
+      "tab_key": "17",
+      "category": "Capital Loss",
+      "title": "Cross-account wash sale - spouse's IRA bought the same ETF (Rev. Rul. 2008-5)",
+      "axcess_default_behavior": "Schwab's 1099-B for Gregory's account shows the IVV sale with box 1g blank (the repurchase was in Ellen's IRA - a different owner and account). Autoflow/keying the 1099-B as reported deducts the $18,000 loss.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Gains and Losses > Capital Gains and Losses (Form 8949) - IVV line: adjustment code W, adjustment amount +$18,000 (loss disallowed). Do NOT increase any basis (IRA purchase - the loss is permanently lost).",
+      "override_amount": 18000,
+      "proconnect_default_behavior": "Same - the disposition is imported/keyed as reported; nothing cross-matches other accounts or a spouse's IRA.",
+      "proconnect_fix": "Dispositions (Schedule D/4797) > the IVV transaction: adjustment code W, adjustment +18,000 (field labels per current release - verify). No basis entry elsewhere.",
+      "proconnect_reference": "",
+      "efile_impact": "None (four transactions - no 8949 summary/PDF attachment needed)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 8949 box A"
+      ],
+      "procedure_section": "Schedule D - adjustment code W",
+      "notes": "Evidence: Ellen's 02/24 email + Schwab IRA ****8831 Q4 statement (buy 420 sh IVV 11/20/2025)."
+    },
+    {
+      "id": "EVG1022-SX6",
+      "workbook_tab": "14. Bond Interest & Premium",
+      "tab_key": "14",
+      "category": "Other",
+      "title": "Bond premium (box 11/13) and accrued interest paid at purchase",
+      "axcess_default_behavior": "Scan/autoflow of the composite 1099 picks up box 1 ($12,640.55) and box 8 ($7,500). The accrued interest paid ($2,981.94) appears only on Schwab's supplemental page and the trade confirm - no 1099 box - so it is never reversed. If box 11/13 are not captured in their fields, no ABP adjustment is made and line 2a stays at $7,500.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Interest Income (1099-INT) worksheet: box 11 bond premium $786.12 and box 13 $1,104.30 in their fields (ABP adjustment line on Schedule B; line 2a $6,396); add a separate line 'Accrued interest' -$2,981.94. Line 2b $9,085.",
+      "override_amount": 3768,
+      "proconnect_default_behavior": "Same - the accrued interest is not on a 1099 box; box 11/13 must be keyed to be netted.",
+      "proconnect_fix": "Income > Interest Income (1099-INT): enter box 11 and box 13 premium amounts in their fields and the accrued interest as an adjustment line/'Accrued interest' (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "2a",
+        "2b"
+      ],
+      "procedure_section": "Schedule B - accrued interest; Scan - consolidated 1099",
+      "notes": "Override amount = 786.12 + 2,981.94 reduction of taxable interest."
+    },
+    {
+      "id": "EVG1022-SX7",
+      "workbook_tab": "10. Capital Loss Carryover",
+      "tab_key": "10",
+      "category": "Capital Loss",
+      "title": "New client - prior preparer's capital loss carryover had the wrong character",
+      "axcess_default_behavior": "No proforma for a new client. Keying the prior preparer's worksheet ($38,000 long-term) is accepted without question; Axcess then nets the $5,000 short-term gain as ordinary income.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Gains and Losses > Capital Loss Carryovers: short-term $26,000, long-term $12,000 (recomputed from the 2024 Schedule D: ST (29,000), LT (12,000), $3,000 allowed absorbs ST first). Tax $1,000 lower than the all-LT version.",
+      "override_amount": 26000,
+      "proconnect_default_behavior": "Same - carryovers for a new client are manual entries; ProConnect uses whatever character is keyed.",
+      "proconnect_fix": "Schedule D input > Capital loss carryover: short-term 26,000, long-term 12,000 (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "16",
+        "Schedule D lines 6/14"
+      ],
+      "procedure_section": "General Return Prep Notes",
+      "notes": "Workbook tab 10 (corrected formulas): D16 26,000 / D17 12,000."
+    },
+    {
+      "id": "EVG1022-SX8",
+      "workbook_tab": "8. Est. Tax Penalty (2210)",
+      "tab_key": "8",
+      "category": "Est. Tax Penalty",
+      "title": "Form 2210 for a new client - prior-year tax not proforma'd",
+      "axcess_default_behavior": "Axcess computes Form 2210 from the prior-year tax and AGI it has. For a new client those fields are blank unless keyed, so the 110%-of-prior-year safe harbor is not available to the calculation; front-loaded withholding is treated as paid evenly by default.",
+      "axcess_diagnostic": "Penalty/2210 informational message may appear for missing prior-year data - verify; otherwise silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "General > Payments > Penalties and Interest (Form 2210): 2024 tax $164,982, 2024 AGI $669,300; estimates by date (4 x $8,000 timely). Required annual payment = lesser of 90% of 2025 tax $126,067 or 110% of 2024 tax $181,480 -> $126,067; paid $137,769 (each quarter covered) -> no penalty, no override.",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same - prior-year tax/AGI for Form 2210 must be entered for a new client.",
+      "proconnect_fix": "Payments, Penalties & Extensions > Underpayment penalty (2210): enter prior-year tax and AGI; estimates with dates (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "38"
+      ],
+      "procedure_section": "Workpapers / Responding to Review Points",
+      "notes": ""
+    },
+    {
+      "id": "EVG1022-SX9",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "State Allocation",
+      "title": "PA-40 classes differ from federal: box 16 compensation, no carryover, no wash-sale rule",
+      "axcess_default_behavior": "The PA return starts from federal data. Unless PA adjustments are made: compensation may be pulled from federal box 1 instead of box 16 (PA taxes 401(k)/403(b) deferrals); the federal capital loss carryover and the code W disallowance can flow into PA net gains; the $96,000 taxable 1099-R can be treated as PA income.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "PA return inputs: compensation = W-2 box 16 ($506,000); PA net gains = 2025 sales only $47,000 (no PA carryover; IVV loss allowed - PA has no wash-sale provision, verify); 1099-R marked non-PA-taxable (retirement). PA taxable income $580,485, tax $17,821. Verify field paths in current release.",
+      "override_amount": 47000,
+      "proconnect_default_behavior": "Same risk - PA adjustments to federal amounts are separate state inputs.",
+      "proconnect_fix": "Pennsylvania return > income class adjustments: PA compensation from box 16; PA gains adjustment to remove the carryover and the code W adjustment; 1099-R PA exclusion (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "PA-40 lines 1a, 5"
+      ],
+      "procedure_section": "SALT Implications",
+      "notes": "PA wash-sale treatment is an assumption flagged for the signer (PA tax effect $553)."
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "7. Multi-State Allocation",
+    "8. Est. Tax Penalty (2210)",
+    "10. Capital Loss Carryover",
+    "14. Bond Interest & Premium",
+    "17. Equity Comp & Wash Sales",
+    "18. NUA & IRD Deduction",
+    "23. Multi-State W-2 Days"
+  ]
+}

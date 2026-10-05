@@ -1,0 +1,17 @@
+From: preparer@evergreentax.example
+To: Lena Brennan-Ochoa
+Date: Tue, 17 Mar 2026 09:41:00 -0500
+Subject: Brennan-Ochoa 2025 - the 1042-S
+
+Lena - Atlas still has the W-8BEN you signed in Madrid in 2017, so it treated you as a foreign person and withheld 30% on your
+dividends. You are a U.S. citizen: the dividends are taxable on your 1040 as usual and the $3,600 is credited against your tax like
+any other withholding. Please send Atlas a Form W-9 now so 2026 dividends are paid in full (we attached a blank W-9).
+One consequence: our software cannot e-file a Form 1040 that claims Form 1042-S withholding, so your 2025 return will be paper
+filed with a copy of the 1042-S attached.
+
+From: Lena Brennan-Ochoa <lena.bo@example.com>
+Date: Wed, 18 Mar 2026 07:12:30 -0500
+Subject: RE: Brennan-Ochoa 2025 - the 1042-S
+
+Done - W-9 uploaded to Atlas this morning. Paper is fine.
+Lena

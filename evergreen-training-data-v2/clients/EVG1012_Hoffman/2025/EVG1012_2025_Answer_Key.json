@@ -1,0 +1,706 @@
+{
+  "client_id": "EVG1012",
+  "client": "Walter & June Hoffman",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "NC (resident D-400)",
+    "complexity": "Retirees + installment sale"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 0,
+    "2a": 0,
+    "2b": 20321,
+    "3a": 2613,
+    "3b": 3104,
+    "4b": 8600,
+    "5b": 59188,
+    "6b": 49317,
+    "7": 16904,
+    "8": 0,
+    "9": 157434,
+    "10": 0,
+    "11": 157434,
+    "12e": 34700,
+    "13a": 0,
+    "13b": 11108,
+    "15": 111626,
+    "16": 12817,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 12817,
+    "23": 0,
+    "24": 12817,
+    "25d": 6780,
+    "26": 6000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 12780,
+    "34": 0,
+    "35a": 0,
+    "37": 37
+  },
+  "deduction_type": "Standard",
+  "refund": 0,
+  "balance_due": 37,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 0
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 0
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 20321
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 2613
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 3104
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 8600
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 8600
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 59600
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 59188
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 58020
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 49317
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 16904
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 157434
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 157434
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 34700
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 11108
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 45808
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 111626
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 12817
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 12817
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 12817
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 12817
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 6780
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 6780
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 6000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 12780
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 0
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 0
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 37
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Blue Ridge Savings Bank",
+        "amount": 2339
+      },
+      {
+        "line": "1.2",
+        "description": "Seller-financed mortgage interest - Aaron M. Caldwell & Beth L. Caldwell, SSN XXX-XX-6641, 912 Sugar Hollow Rd, Fairview, NC 28730 (incl. $75 late charge)",
+        "amount": 17983
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 20321
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 20321
+      },
+      {
+        "line": "5.1",
+        "description": "Blue Ridge Growth Fund",
+        "amount": 3104
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 3104
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Gain from Form 4797 Part I; long-term gain from Forms 2439, 6252, 4684, 6781, 8824",
+        "amount": 16904
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 16904
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 16904
+      }
+    ],
+    "Itemized vs. standard comparison (Schedule A not filed)": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 12580
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 11808
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 772
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 4120
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 4120
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 4120
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 4120
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 0
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 0
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 3300
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 3300
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 8192
+      }
+    ],
+    "Schedule 1-A": [
+      {
+        "line": "Part I",
+        "description": "Modified AGI",
+        "amount": 157434
+      },
+      {
+        "line": "Part V",
+        "description": "Enhanced deduction for seniors (2 x max(0, 6,000 - 6% x excess MAGI 7,434))",
+        "amount": 11108
+      },
+      {
+        "line": "38",
+        "description": "Total additional deductions (to Form 1040, line 13b)",
+        "amount": 11108
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "North Carolina",
+      "form": "D-400",
+      "federal_agi": 157434,
+      "ss_deduction": 49317,
+      "bailey_deduction": 30788.0,
+      "nc_standard_deduction": 25500,
+      "nc_taxable_income": 51829.0,
+      "nc_tax": 2203,
+      "withholding": 1100,
+      "estimated_payments": 1200.0,
+      "refund": 97.0,
+      "balance_due": 0
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040 (federal)",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-08"
+    },
+    {
+      "form": "NC D-400",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-08"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1012-G1",
+      "procedure_section": "General Return Prep Notes - blank organizer line with PY amount",
+      "title": "Installment payments missing from the organizer",
+      "trap": "Organizer installment-sale question and the Caldwell note line are blank -> no 2025 installment income or note interest reported.",
+      "correct_treatment": "PY return and PERM show a 2024 installment sale with a 10-year note. Blank line is not zero: called June (03/04) and used her ledger + amortization schedule. Report 2025 principal x GP% on Form 6252 and the interest on Schedule B.",
+      "impact": "Omits $16,904 LTCG and $17,983 interest",
+      "affected_lines": [
+        "2b",
+        "7"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1012-G2",
+      "procedure_section": "Installment Sales (Form 6252)",
+      "title": "Recognize gain only on principal received",
+      "trap": "Report the full $245,600 remaining gain in 2025, or apply GP% to the total checks (principal + interest).",
+      "correct_treatment": "Gain = principal received in 2025 $23,126 x 73.0952% (GP% from the 2024 6252) = $16,904, long-term (land held since 1998) -> Schedule D line 11. Interest is not a payment on the selling price.",
+      "impact": "Line 7",
+      "affected_lines": [
+        "7"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1012-G3",
+      "procedure_section": "Installment Sales - review the payment schedule dates",
+      "title": "December payment received in January 2026",
+      "trap": "Use the amortization schedule's 12 scheduled payments for 2025.",
+      "correct_treatment": "Cash-basis taxpayers report payments when received. Payment 12 (due 12/15/2025) was received 01/06/2026 -> 2026. 2025 = 11 payments: principal $23,126, interest $17,908.",
+      "impact": "Gain overstated $1,583 and interest $1,564 if 12 payments used",
+      "affected_lines": [
+        "2b",
+        "7"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1012-G4",
+      "procedure_section": "Scan - handwritten statements / legal agreements",
+      "title": "June's ledger mis-splits a payment; late fee",
+      "trap": "Key the handwritten ledger as-is (March check all 'principal'; total 'rec'd 2025' includes interest).",
+      "correct_treatment": "Use the attorney amortization schedule for the interest/principal split (payments apply to interest first per the note). The $75 July late charge is additional interest income (Sch B).",
+      "impact": "Split between line 2b and line 7",
+      "affected_lines": [
+        "2b",
+        "7"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1012-G5",
+      "procedure_section": "Schedule B - seller-financed mortgage",
+      "title": "Buyer name, SSN and address required",
+      "trap": "Lump the note interest with bank interest or list only 'Caldwell note'.",
+      "correct_treatment": "Interest on a seller-financed mortgage where the buyer uses the property as a personal residence is listed first on Schedule B line 1 with the buyer's name, address and SSN ($50 penalty for omission).",
+      "impact": "Disclosure",
+      "affected_lines": [
+        "2b"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1012-G6",
+      "procedure_section": "Schedule 1-A - senior deduction (OBBBA)",
+      "title": "Senior deduction phase-out",
+      "trap": "Take $12,000 (2 x $6,000) without the MAGI test, or skip it because they take the additional standard deduction.",
+      "correct_treatment": "Both 65+ -> $6,000 each, reduced by 6% of MAGI over $150,000 ($7,434 x 6% = $446 each) -> $11,108. It is in addition to the standard deduction (incl. 2 x $1,600 age add-ons).",
+      "impact": "Line 13b",
+      "affected_lines": [
+        "13b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1012-G7",
+      "procedure_section": "SALT - NC D-400 (Bailey / Social Security)",
+      "title": "NC exclusions for Bailey-vested TSERS and Social Security",
+      "trap": "Tax June's TSERS pension in NC (or exempt Walter's private pension too); forget the SS subtraction.",
+      "correct_treatment": "Schedule S: deduct taxable SS $49,317 and June's TSERS benefits $30,788 (5+ years creditable service as of 08/12/1989). Walter's private pension and IRA are taxable in NC. NC taxable income $51,829 x 4.25% = $2,203.",
+      "impact": "NC tax",
+      "affected_lines": [],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1012-G8",
+      "procedure_section": "Schedule A - Medicare premiums from SSA-1099",
+      "title": "Itemized vs standard for seniors",
+      "trap": "Itemize using the organizer medical total only, or ignore Medicare Part B shown on the SSA-1099s.",
+      "correct_treatment": "Add Medicare Part B $4,440 from the SSA-1099 descriptions to medical; still, itemized $8,192 < standard $34,700 -> standard deduction.",
+      "impact": "Line 12e",
+      "affected_lines": [
+        "12e"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [
+    "Itemized deductions $8,192 < standard deduction $34,700; standard deduction used."
+  ],
+  "installment_2025": {
+    "principal": 23125.55,
+    "interest": 17907.64,
+    "late_fee": 75.0,
+    "gain": 16904,
+    "gp_pct": 0.730952,
+    "balance_12_31_2025": 312874.45
+  },
+  "software_exceptions": [
+    {
+      "id": "EVG1012-SX1",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Installment sale year 2 - proforma'd Form 6252 computes $0 when 2025 payments are blank",
+      "axcess_default_behavior": "The 2024 Form 6252 rolls forward with the contract price, gross profit % (73.0952%) and note balance, but the current-year 'payments received' fields are blank because the organizer line was blank. Axcess computes $0 installment gain and the note interest never reaches Schedule B. If the attorney's amortization schedule is keyed instead of actual receipts, it picks up 12 payments (the December check was received 01/06/2026).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Gains and Losses > Installment Sales (Form 6252), Caldwell land note: 2025 principal received $23,126 (11 payments, amortization-schedule split - interest first). Gain = 23,126 x 73.0952% = $16,904 LT (Schedule D line 11). No 1250/1245 recapture (unimproved land). Payment 12 (received 01/06/2026) goes to 2026.",
+      "override_amount": 16904,
+      "proconnect_default_behavior": "Same - the installment sale carries forward from the prior year, but the current-year payment must be entered; blank = no gain.",
+      "proconnect_fix": "Dispositions > Installment Sale (6252): enter 2025 payments received (principal) $23,126; confirm gross profit % 73.0952% carried from 2024 and line 26 gain $16,904 (field names per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 6252 line 21/26",
+        "Schedule D line 11"
+      ],
+      "procedure_section": "Return - General Return Prep Notes (blank organizer line is not zero) / Installment Sales",
+      "notes": "Cash-basis: payments count when received. PERM note balance 12/31/2025 $312,874."
+    },
+    {
+      "id": "EVG1012-SX2",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Seller-financed mortgage interest - buyer's name, SSN and address must print first on Schedule B",
+      "axcess_default_behavior": "Note interest keyed as an ordinary interest payer (or lumped with the bank CD) prints as a plain Schedule B line; the seller-financed disclosure (buyer name/SSN/address, listed first) is only produced when the interest is flagged as seller-financed mortgage interest. Nothing prompts for it.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Income > Interest Income: payer 'Aaron M. & Beth L. Caldwell', mark as seller-financed mortgage (buyer used property as a personal residence), enter buyer SSN XXX-XX-6641 and address; amount $17,983 = amortization-schedule interest on 11 payments $17,908 + $75 late charge (verify field path in current release).",
+      "override_amount": 17983,
+      "proconnect_default_behavior": "Same - the seller-financed indicator and buyer information must be entered on the interest input.",
+      "proconnect_fix": "Income > Interest Income (1099-INT, 1099-OID): enter the Caldwell note as a separate payer with the 'seller-financed mortgage' option and the buyer's SSN/address (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None ($50 penalty for omitting the buyer SSN)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "2b",
+        "Schedule B line 1"
+      ],
+      "procedure_section": "Schedule B",
+      "notes": ""
+    },
+    {
+      "id": "EVG1012-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "State Allocation",
+      "title": "NC Bailey settlement - June's TSERS pension taxed by default",
+      "axcess_default_behavior": "The NC return taxes every 1099-R that is taxable federally unless the distribution is identified as a Bailey-qualifying government retirement benefit. The 1099-R itself carries no Bailey indicator, and Walter's private pension and IRA must stay taxable - so the result depends entirely on a per-1099-R state input.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "North Carolina > Retirement/Schedule S deductions: mark June's TSERS 1099-R as Bailey-exempt (5+ years creditable service as of 08/12/1989 - PERM). Schedule S: SS $49,317 + Bailey $30,788. Leave Walter's pension and IRA taxable. NC taxable income $51,829; tax $2,203 (verify field path in current release).",
+      "override_amount": 30788,
+      "proconnect_default_behavior": "Same - the Bailey deduction is driven by a state-specific input per 1099-R.",
+      "proconnect_fix": "North Carolina return > retirement benefits (Bailey) input for June's TSERS 1099-R = $30,788 (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "NC D-400 e-filed",
+      "status": "Signed Off",
+      "affected_lines": [
+        "NC D-400 Schedule S"
+      ],
+      "procedure_section": "SALT Implications",
+      "notes": ""
+    },
+    {
+      "id": "EVG1012-SX4",
+      "workbook_tab": "8. Est. Tax Penalty (2210)",
+      "tab_key": "8",
+      "category": "Est. Tax Penalty",
+      "title": "Form 2210 - 110% prior-year safe harbor missed, 90% current-year test met; 2026 vouchers",
+      "axcess_default_behavior": "Axcess correctly computes the lesser of 90% of 2025 tax and 110% of 2024 tax (2024 AGI $171,273) - no penalty. The trap is a manual one: forcing a penalty because the 110% test failed, or (for 2026) hand-setting vouchers at 4 x $1,500 using the 100% rule. 2025 AGI is $157,434 (> $150,000), so the 2026 prior-year safe harbor is 110% of $12,817 = $14,099; withholding at the 2025 level + 4 x $1,500 = $12,780 falls short of it by $1,319.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Penalties and Interest: no override, no waiver - regular method; required annual payment $11,535 (90% of 2025 tax) is met every quarter. Estimates input for 2026: let the 110% method compute vouchers (or document a 90%-of-2026 projection if the clients prefer $1,500/quarter).",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same calculation - ProConnect uses the lesser of the 90% / 110% tests from the prior-year data entered.",
+      "proconnect_fix": "Payments, Penalties & Extensions: confirm 2024 tax $20,486 and AGI $171,273 are entered; no penalty override. 2026 estimate vouchers: 110% method (screen per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "38",
+        "2026 Form 1040-ES"
+      ],
+      "procedure_section": "Workpapers / Estimated tax",
+      "notes": "Caught in v2 review: the draft open item applied the 100% rule (2025 AGI $157,434 > $150,000). Preparer Notes now recommend 4 x $1,830 federal estimates for 2026."
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "8. Est. Tax Penalty (2210)"
+  ]
+}

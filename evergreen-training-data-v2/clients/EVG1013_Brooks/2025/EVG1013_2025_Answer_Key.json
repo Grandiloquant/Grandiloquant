@@ -1,0 +1,680 @@
+{
+  "client_id": "EVG1013",
+  "client": "Nathan Brooks",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "IL - Chicago (IL-1040; no city income tax)",
+    "complexity": "Equity-compensation tier; AMT"
+  },
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 164700,
+    "2a": 0,
+    "2b": 1284,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": -25,
+    "8": 0,
+    "9": 165959,
+    "10": 0,
+    "11": 165959,
+    "12e": 15750,
+    "13a": 0,
+    "13b": 0,
+    "15": 150209,
+    "16": 28897,
+    "17": 4346,
+    "19": 0,
+    "20": 0,
+    "22": 33243,
+    "23": 0,
+    "24": 33243,
+    "25d": 27600,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 6000,
+    "33": 33600,
+    "34": 357,
+    "35a": 357,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 357,
+  "balance_due": 0,
+  "carryforwards_to_2026": {
+    "capital_loss_carryover_2026": {
+      "st": 0,
+      "lt": 0,
+      "total": 0
+    },
+    "minimum_tax_credit_carryforward": 4346
+  },
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 164700
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 164700
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 1284
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": -25
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 165959
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 165959
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 15750
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 15750
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 150209
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 28897
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 4346
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 33243
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 33243
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 33243
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 27600
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 27600
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 6000
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 6000
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 33600
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 357
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 357
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Wealthfront Brokerage LLC",
+        "amount": 1284
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 1284
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 1284
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box A)": [
+      {
+        "line": "1",
+        "description": "2,000 sh Parallax Robotics (PLXR) - NSO same-day sale | acq 09/18/2025 | sold 09/18/2025 | proceeds 25,975 | basis 4,000 | code B adj -22,000",
+        "amount": -25
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "ST box A",
+        "description": "Short-term from Form 8949 box A (proceeds 25,975; cost 4,000; adj -22,000)",
+        "amount": -25
+      },
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": -25
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": -25
+      },
+      {
+        "line": "21",
+        "description": "Allowable capital loss",
+        "amount": -25
+      }
+    ],
+    "Form 6251": [
+      {
+        "line": "1",
+        "description": "Taxable income (Form 1040 line 15)",
+        "amount": 150209
+      },
+      {
+        "line": "2a",
+        "description": "Standard deduction add-back",
+        "amount": 15750
+      },
+      {
+        "line": "2i",
+        "description": "2i Incentive stock options (exercise spread)",
+        "amount": 50000
+      },
+      {
+        "line": "4",
+        "description": "Alternative minimum taxable income",
+        "amount": 215959
+      },
+      {
+        "line": "5",
+        "description": "Exemption",
+        "amount": 88100
+      },
+      {
+        "line": "6",
+        "description": "AMTI less exemption",
+        "amount": 127859
+      },
+      {
+        "line": "7-9",
+        "description": "Tentative minimum tax",
+        "amount": 33243
+      },
+      {
+        "line": "10",
+        "description": "Regular tax (Form 1040 line 16 less Sch 3 line 1 FTC)",
+        "amount": 28897
+      },
+      {
+        "line": "11",
+        "description": "Alternative minimum tax",
+        "amount": 4346
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "1",
+        "description": "Alternative minimum tax (Form 6251)",
+        "amount": 4346
+      },
+      {
+        "line": "3",
+        "description": "Total Part I (to Form 1040, line 17)",
+        "amount": 4346
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "10",
+        "description": "Amount paid with request for extension to file (Form 4868)",
+        "amount": 6000
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 6000
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "Illinois",
+      "form": "IL-1040",
+      "base_income": 165959,
+      "exemption": 2850,
+      "net_income": 163109,
+      "tax": 8074,
+      "withholding": 8150,
+      "refund": 76
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 4868 (extension)",
+      "filed": "2026-04-13",
+      "payment": 6000
+    },
+    {
+      "form": "Form 1040 (federal)",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-25"
+    },
+    {
+      "form": "IL-1040",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-25"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1013-G1",
+      "procedure_section": "Restricted Stock (Section 83(b) / Form 15620 within 30 days)",
+      "title": "83(b) election mailed 37 days after grant",
+      "trap": "Accept the client's Form 15620 at face value: report $8,000 of compensation income for 2025 (Sch 1 / line 1h) and attach the election copy.",
+      "correct_treatment": "Grant 11/03/2025 -> 30-day deadline 12/03/2025; USPS postmark 12/10/2025. Election is invalid (no relief under Reg. 1.83-2 / no 9100 relief). No 2025 income; income is recognized at each vesting at FMV then. Advise client in writing (and Loomwork counsel re: possible cancel-and-regrant with a new timely election).",
+      "impact": "Income overstated $8,000 (tax ~$1,920) if reported; future vesting income ignored",
+      "affected_lines": [
+        "1h",
+        "8"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1013-G2",
+      "procedure_section": "Schedule D (missing / incorrect cost basis on consolidated 1099)",
+      "title": "NSO same-day sale: 1099-B basis = exercise price only",
+      "trap": "Autoflow the 1099-B as reported: $4,000 basis -> $21,975 short-term gain on top of the $22,000 already in W-2 box 1.",
+      "correct_treatment": "Form 8949 box A, report 1099-B basis $4,000 in col (e), code B, adjustment ($22,000) -> loss ($25) (commission).",
+      "impact": "Taxable income overstated $22,000 (~$5,280 tax)",
+      "affected_lines": [
+        "7",
+        "Form 8949"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1013-G3",
+      "procedure_section": "Scan - duplicate documents",
+      "title": "E*TRADE Stock Plan Transactions Supplement repeats the 1099-B sale",
+      "trap": "Enter both the 1099-B and the supplement's 'adjusted gain' line as separate sales (double-counting proceeds).",
+      "correct_treatment": "The supplement is informational (same transaction). Use it only to support the code B basis adjustment.",
+      "impact": "Proceeds double-counted $25,975",
+      "affected_lines": [
+        "7"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1013-G4",
+      "procedure_section": "Form 6251 (AMT) - ISO exercise and hold",
+      "title": "ISO spread is an AMT adjustment, not regular income",
+      "trap": "Either (a) ignore Form 3921 (no W-2/1099 income -> no AMT), or (b) add the $50,000 spread to wages.",
+      "correct_treatment": "Regular tax: nothing. Form 6251 line 2i $50,000 -> AMT $4,346. Track AMT basis $56,000 vs regular $6,000; Form 8801 minimum tax credit carryforward $4,346 to 2026 (deferral item).",
+      "impact": "Tax understated $4,346 (a) or overstated ~$12,000 (b)",
+      "affected_lines": [
+        "17",
+        "Form 6251"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1013-G5",
+      "procedure_section": "W-2 box 12 codes / Form 8889",
+      "title": "HSA code W already equals the self-only limit; extra $1,000 is excess",
+      "trap": "Deduct the $1,000 direct contribution on Schedule 1 line 13 (or deduct $5,300 per 5498-SA).",
+      "correct_treatment": "Limit $4,300 - code W $4,300 = $0 deduction. Excess $1,000 + $38 earnings withdrawn 09/15/2026, before the 10/15/2026 extended due date -> no 6% excise (no Form 5329); $38 earnings taxable in 2026, not 2025. File 8889.",
+      "impact": "Adjustments overstated $1,000; or $60 excise wrongly assessed",
+      "affected_lines": [
+        "10",
+        "Form 8889"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1013-G6",
+      "procedure_section": "General Return Prep Notes / estimated tax (Form 2210)",
+      "title": "AMT creates a balance due - is there a penalty?",
+      "trap": "Compute a Form 2210 penalty because withholding < 90% of 2025 tax.",
+      "correct_treatment": "Withholding $27,600 >= 100% of 2024 tax $23,526 (2024 AGI under $150,000) -> safe harbor met, no penalty. Extension payment $6,000 (Sch 3 line 10) avoids late-payment interest.",
+      "impact": "Line 38 should be $0",
+      "affected_lines": [
+        "38",
+        "31"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1013-G7",
+      "procedure_section": "SALT Implications (state conformity)",
+      "title": "Illinois has no AMT and taxes the NSO income as wages",
+      "trap": "Add an IL adjustment for the ISO spread or subtract the NSO income as 'already taxed on 1099-B'.",
+      "correct_treatment": "IL base income = federal AGI $165,959; exemption $2,850; tax 4.95% = $8,074; refund $76. Chicago has no city income tax.",
+      "impact": "IL-1040 lines 1-12",
+      "affected_lines": [
+        "IL-1040"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "minimum_tax_credit_carryforward_2026": 4346,
+  "iso_amt_basis_carryforward": 56000,
+  "restricted_stock_83b": "invalid (late) - no 2025 income",
+  "hsa_excess_2025": {
+    "excess": 1000,
+    "withdrawn": "2026-09-15",
+    "earnings_taxable_2026": 38
+  },
+  "software_exceptions": [
+    {
+      "id": "EVG1013-SX1",
+      "workbook_tab": "17. Equity Comp & Wash Sales",
+      "tab_key": "17",
+      "category": "Capital Loss",
+      "title": "NSO same-day sale - 1099-B basis is the exercise price only (spread taxed twice)",
+      "axcess_default_behavior": "Autoflow brings in the E*TRADE 1099-B (box A, covered) with cost basis $4,000. Axcess computes a $21,975 short-term gain even though the $22,000 spread is already in W-2 box 1 (box 12 code V). The Stock Plan Transactions Supplement, if also imported/keyed, adds the same sale a second time.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Gains and Losses > Capital Gains and Losses, PLXR row (box A): keep the reported basis $4,000 in column (e), adjustment code B, amount (22,000) -> loss ($25) = commission. Supplement used only as support (bookmarked DUP), not entered.",
+      "override_amount": -22000,
+      "proconnect_default_behavior": "Same - ProConnect uses the 1099-B basis as entered/imported; it does not read W-2 code V against the 1099-B.",
+      "proconnect_fix": "Dispositions: on the PLXR sale enter adjustment code B and adjustment amount -22,000 (or 'Adjustment to gain/loss' with code B); keep 1099-B basis as reported (field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 8949 box A"
+      ],
+      "procedure_section": "Restricted Stock / Schedule D - adjustment codes",
+      "notes": "Form 8949 instructions: code B when the basis shown on the 1099-B is incorrect; report the reported basis and the adjustment."
+    },
+    {
+      "id": "EVG1013-SX2",
+      "workbook_tab": "17. Equity Comp & Wash Sales",
+      "tab_key": "17",
+      "category": "AMT",
+      "title": "ISO exercise-and-hold - Form 3921 is not picked up, so the $50,000 AMT adjustment is missing",
+      "axcess_default_behavior": "Form 3921 has no income box an import maps to the return, so nothing flows anywhere. With no line 2i entry Form 6251 shows no AMT and no Form 8801 credit carryforward is created; the AMT basis of the shares is never tracked.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "AMT > Adjustments and preferences (or the ISO / Form 3921 input if used): Incentive stock options line 2i = $50,000 (4,000 sh x (14.00 - 1.50)). AMTI $215,959; TMT $33,243 vs regular $28,897 -> AMT $4,346 (Schedule 2 line 1). Deferral item -> Form 8801 MTC carryforward $4,346. Record AMT basis $56,000 vs regular $6,000 in PERM / asset notes (verify field path in current release).",
+      "override_amount": 50000,
+      "proconnect_default_behavior": "Same - an ISO exercise without a sale needs a manual AMT adjustment entry; the 3921 has nothing to import.",
+      "proconnect_fix": "Form 6251 adjustments input: Incentive stock options = 50,000 (or the ISO/3921 input if available); confirm Form 8801 carryforward 4,346 for 2026 (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "17 (Schedule 2 line 1)",
+        "Form 6251 line 2i",
+        "Form 8801 carryforward"
+      ],
+      "procedure_section": "Restricted Stock",
+      "notes": "A sale after 02/14/2026 is a qualifying disposition; the regular/AMT basis difference reverses on Form 6251 that year."
+    },
+    {
+      "id": "EVG1013-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "HSA excess contribution - Form 5329 excise computed though excess was withdrawn by the due date",
+      "axcess_default_behavior": "With 5498-SA contributions $5,300 (code W $4,300 + $1,000 personal) against the $4,300 self-only limit, Form 8889 shows a $1,000 excess and Axcess carries it to Form 5329 Part VII (6% = $60) unless the corrective withdrawal is entered. If the $1,000 is also keyed as a deductible personal contribution, Schedule 1 line 13 is overstated.",
+      "axcess_diagnostic": "Excess HSA contribution message / Form 5329 generated",
+      "manual_calc_required": "No",
+      "axcess_override": "HSA (Form 8889) input: personal contributions deductible $0 (code W already uses the full $4,300); excess contributions withdrawn before the extended due date = $1,000 (withdrawn 09/15/2026 with $38 earnings) -> no Form 5329. The $38 is 2026 income (verify field path in current release).",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same - Form 5329 excise is computed on any excess not marked as withdrawn timely.",
+      "proconnect_fix": "Health Savings Accounts (8889) input: enter the excess contribution withdrawn before the due date = 1,000; no deduction for the $1,000 personal contribution (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "10 (Schedule 1 line 13)",
+        "Form 8889",
+        "Form 5329"
+      ],
+      "procedure_section": "Client IRAs / HSA",
+      "notes": "Earnings on a corrective HSA withdrawal are income in the year withdrawn (2026) - flagged in PERM."
+    },
+    {
+      "id": "EVG1013-SX4",
+      "workbook_tab": "8. Est. Tax Penalty (2210)",
+      "tab_key": "8",
+      "category": "Est. Tax Penalty",
+      "title": "Form 2210 - AMT-driven balance due; prior-year safe harbor met",
+      "axcess_default_behavior": "The draft generated a penalty: with prior-year tax not available to the 2210 calculation, the test falls back to 90% of 2025 tax ($29,919) vs withholding $27,600.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Penalties and Interest / Form 2210 input: 2024 tax $23,526, 2024 AGI $140,986 (< $150,000 -> 100%). Required annual payment = lesser of $29,919 and $23,526 = $23,526; withholding $27,600 (treated as paid evenly) -> penalty $0. Extension payment $6,000 on Schedule 3 line 10 covers the balance.",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same - ProConnect needs the prior-year tax and AGI to apply the prior-year safe harbor.",
+      "proconnect_fix": "Payments, Penalties & Extensions > 2210: enter 2024 tax 23,526 and AGI 140,986; no penalty results (screen per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "38"
+      ],
+      "procedure_section": "Workpapers / Responding to Review Points",
+      "notes": ""
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "8. Est. Tax Penalty (2210)",
+    "17. Equity Comp & Wash Sales"
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "client_id": "EVG1002",
+  "client": "Priya Raman",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "IL - Naperville (full-year)",
+    "complexity": "Basic W-2 tier + IL; low-income credits",
+    "new_client": true
+  },
+  "filing_status": "HOH",
+  "form_1040_summary": {
+    "1z": 36140,
+    "2a": 0,
+    "2b": 323,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": 6812,
+    "9": 43275,
+    "10": 6812,
+    "11": 36463,
+    "12e": 23625,
+    "13a": 0,
+    "13b": 0,
+    "15": 12838,
+    "16": 1283,
+    "17": 0,
+    "19": 405,
+    "20": 878,
+    "22": 0,
+    "23": 0,
+    "24": 0,
+    "25d": 1210,
+    "26": 0,
+    "27a": 2231,
+    "28": 1700,
+    "29": 0,
+    "31": 0,
+    "33": 5141,
+    "34": 5141,
+    "35a": 5141,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 5141,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 36140
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 36140
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 323
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 6812
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 43275
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 6812
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 36463
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 23625
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 23625
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 12838
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 1283
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 1283
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 405
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 878
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 1283
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 0
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 0
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 1210
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 1210
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 2231
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 1700
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 3931
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 5141
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 5141
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 5141
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "U.S. Treasury - TreasuryDirect (box 3, U.S. obligations)",
+        "amount": 310
+      },
+      {
+        "line": "1.2",
+        "description": "Alliant Credit Union",
+        "amount": 12
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 323
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 323
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "8z",
+        "description": "Form 1099-K personal items sold at a loss (PayPal)",
+        "amount": 6812
+      },
+      {
+        "line": "9",
+        "description": "Total other income",
+        "amount": 6812
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 6812
+      },
+      {
+        "line": "24z",
+        "description": "Form 1099-K personal items sold at a loss (PayPal)",
+        "amount": 6812
+      },
+      {
+        "line": "26",
+        "description": "Total adjustments to income (to Form 1040, line 10)",
+        "amount": 6812
+      }
+    ],
+    "Form 8863": [
+      {
+        "line": "Priya Raman (College of DuPage)",
+        "description": "LLC qualified expenses 2,388",
+        "amount": ""
+      },
+      {
+        "line": "phase",
+        "description": "MAGI phase-out fraction applied",
+        "amount": 1
+      },
+      {
+        "line": "8",
+        "description": "Refundable American opportunity credit",
+        "amount": 0
+      },
+      {
+        "line": "19",
+        "description": "Nonrefundable education credits",
+        "amount": 478
+      }
+    ],
+    "Form 8880": [
+      {
+        "line": "1-6",
+        "description": "Elective deferrals (W-2 box 12 code D) 2,496; eligible (max 2,000)",
+        "amount": 2000
+      },
+      {
+        "line": "9",
+        "description": "Credit rate for AGI 36,463 (HOH: 50% <= 35,625; 20% <= 38,250; 10% <= 59,250)",
+        "amount": "20%"
+      },
+      {
+        "line": "12",
+        "description": "Retirement savings contributions credit (to Schedule 3, line 4)",
+        "amount": 400
+      }
+    ],
+    "Schedule 8812": [
+      {
+        "line": "4",
+        "description": "Number of qualifying children under 17 with SSN",
+        "amount": 1
+      },
+      {
+        "line": "6",
+        "description": "Number of other dependents",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Tentative credit",
+        "amount": 2200
+      },
+      {
+        "line": "10-11",
+        "description": "Phase-out reduction (MAGI 36,463 vs 200,000)",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Credit after phase-out",
+        "amount": 2200
+      },
+      {
+        "line": "14",
+        "description": "Nonrefundable CTC/ODC (to Form 1040 line 19)",
+        "amount": 405
+      },
+      {
+        "line": "27",
+        "description": "Additional child tax credit (to Form 1040 line 28)",
+        "amount": 1700
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "3",
+        "description": "Education credits (Form 8863, line 19)",
+        "amount": 478
+      },
+      {
+        "line": "4",
+        "description": "Retirement savings contributions credit (Form 8880)",
+        "amount": 400
+      },
+      {
+        "line": "8",
+        "description": "Total nonrefundable credits (to Form 1040, line 20)",
+        "amount": 878
+      }
+    ],
+    "EIC Worksheet": [
+      {
+        "line": "kids",
+        "description": "Qualifying children",
+        "amount": 1
+      },
+      {
+        "line": "earned",
+        "description": "Earned income",
+        "amount": 36140
+      },
+      {
+        "line": "agi",
+        "description": "AGI",
+        "amount": 36463
+      },
+      {
+        "line": "credit",
+        "description": "Earned income credit (EIC Table)",
+        "amount": 2231
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "title": "Illinois Form IL-1040 (full-year resident) - summary",
+      "lines": [
+        [
+          "1",
+          "Federal adjusted gross income",
+          36463
+        ],
+        [
+          "5-7",
+          "Subtractions - Schedule M: U.S. Treasury obligation interest (TreasuryDirect 1099-INT box 3)",
+          -310
+        ],
+        [
+          "-",
+          "IL refund on 1099-G: not in federal AGI -> no IL subtraction needed",
+          0
+        ],
+        [
+          "9",
+          "Illinois base income",
+          36153
+        ],
+        [
+          "10",
+          "Exemption allowance: 2 x $2,850 (Priya + Arjun)",
+          5700
+        ],
+        [
+          "11",
+          "Net income",
+          30453
+        ],
+        [
+          "12",
+          "Tax at 4.95%",
+          1507
+        ],
+        [
+          "-",
+          "K-12 education expense credit (Sch ICR): qualified fees $165 do not exceed $250 floor",
+          0
+        ],
+        [
+          "-",
+          "Property tax credit: renter - not eligible",
+          0
+        ],
+        [
+          "Sch IL-E/EIC",
+          "Illinois earned income credit = 20% x federal EIC 2,231",
+          446
+        ],
+        [
+          "Sch IL-E/EIC",
+          "Illinois child tax credit = 40% x IL EIC (child under 12) - see assumption",
+          178
+        ],
+        [
+          "-",
+          "IL income tax withheld (W-2 box 17)",
+          1480
+        ],
+        [
+          "-",
+          "Total payments and refundable credits",
+          2104
+        ],
+        [
+          "-",
+          "REFUND",
+          597
+        ]
+      ],
+      "note": "IL-1040 transmitted as a state-only (unlinked) e-file 02/24/2026 and accepted 02/25/2026. ASSUMPTION: IL child tax credit for 2025 computed at 40% of the IL EIC for a qualifying child under age 12 - verify rate against final 2025 Schedule IL-E/EIC instructions."
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040 (federal)",
+      "method": "paper (after e-file reject IND-507-01)",
+      "due": "2026-04-15",
+      "filed": "2026-03-04"
+    },
+    {
+      "form": "IL-1040",
+      "method": "e-file (state-only)",
+      "due": "2026-04-15",
+      "filed": "2026-02-24"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1002-G1",
+      "procedure_section": "Review - Filing Status (Single vs HOH)",
+      "title": "Organizer says 'Single' but client qualifies for HOH",
+      "trap": "Carry forward the organizer / PY filing status (Single, no dependent) - standard deduction $15,750, Single brackets, no EIC/CTC.",
+      "correct_treatment": "Unmarried, paid > 1/2 the cost of keeping up the home, qualifying child (son, 7) lived with her > 1/2 the year -> Head of household: standard deduction $23,625, HOH brackets; claim Arjun as dependent.",
+      "impact": "Refund $5,141 vs balance due $361 on a naive Single/no-dependent return",
+      "affected_lines": [
+        "filing status",
+        "12e",
+        "16"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1002-G2",
+      "procedure_section": "Post-Submission Exceptions - E-File Rejects / Paper Filing Returns",
+      "title": "Child's father also claims the child -> IND-507-01 reject",
+      "trap": "Remove Arjun (or switch back to Single) to get the e-file accepted because 'dad claims him every year'.",
+      "correct_treatment": "Priya is the custodial parent (child lived with her the greater number of nights), no Form 8332 / written release signed, so only she may claim Arjun (dependency, CTC, EIC, HOH). Document the reject, paper-file the same return with the school/lease support retained; IRS will resolve the duplicate with the father (CP87A).",
+      "impact": "EIC + CTC + HOH benefit preserved",
+      "affected_lines": [
+        "filing method",
+        "27a",
+        "28",
+        "19"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1002-G3",
+      "procedure_section": "Scan - Unstructured PBC / 1099-K",
+      "title": "1099-K for personal items sold at a loss",
+      "trap": "Treat PayPal 1099-K gross $6,812 as Schedule C gross receipts (SE tax) or other income, or ignore it (CP2000 risk).",
+      "correct_treatment": "Personal-use property sold below cost is not income and the loss is not deductible. Report $6,812 on Schedule 1 line 8z and the same amount on line 24z ('Form 1099-K personal items sold at a loss') so the 1099-K is matched and AGI is unaffected.",
+      "impact": "Avoids $6,812 of phantom income (+ SE tax) and preserves EIC",
+      "affected_lines": [
+        "Sch 1 8z",
+        "Sch 1 24z",
+        "11"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1002-G4",
+      "procedure_section": "Return - Schedule A (state refunds of taxes previously itemized)",
+      "title": "1099-G IL refund $212",
+      "trap": "Include the $212 state refund on Schedule 1 line 1.",
+      "correct_treatment": "2024 return used the standard deduction -> no tax benefit from the IL tax -> refund not taxable (tax benefit rule). Not reported.",
+      "impact": "Line 8 overstated $212",
+      "affected_lines": [
+        "Sch 1 1"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1002-G5",
+      "procedure_section": "Return - Form 8863 education credits",
+      "title": "Lifetime Learning Credit - qualified expenses",
+      "trap": "Add the $850 laptop to the 1098-T tuition, or skip the credit because box 8 (half-time) is unchecked.",
+      "correct_treatment": "LLC has no half-time requirement (one course is enough). Qualified expenses = tuition & fees paid to the school $2,388; the laptop was not required to be purchased from the institution -> not qualified for LLC. LLC = 20% = $478.",
+      "impact": "LLC",
+      "affected_lines": [
+        "Sch 3 line 3"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1002-G6",
+      "procedure_section": "Return - credit ordering (Form 8880 / Schedule 8812)",
+      "title": "Saver's credit missed / ordered after CTC",
+      "trap": "Ignore Form 8880 (401k deferrals code D) or apply it after the CTC so it is wiped out.",
+      "correct_treatment": "Part-time student (not full-time) with $2,496 elective deferrals and AGI $36,463 (HOH 20% tier) -> saver's credit $400. It is subtracted before the CTC on Credit Limit Worksheet A, so more of the $2,200 CTC becomes refundable ACTC ($1,700, capped at $1,700).",
+      "impact": "ACTC / refund",
+      "affected_lines": [
+        "20",
+        "19",
+        "28"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1002-G7",
+      "procedure_section": "Return - Schedule B (federal obligations exempt at state level)",
+      "title": "TreasuryDirect interest",
+      "trap": "Treat I-bond/T-bill interest as tax-exempt federally, or forget the IL subtraction; also the organizer line was blank.",
+      "correct_treatment": "Box 3 interest is taxable federally (line 2b); subtract $310 on IL Schedule M (U.S. obligations). The duplicate 'REPRINT' 1099-INT is the same form - count once.",
+      "impact": "IL tax on $310 (~$15); federal 2b",
+      "affected_lines": [
+        "2b",
+        "IL Sch M"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1002-G8",
+      "procedure_section": "SALT Implications - Illinois credits",
+      "title": "IL EIC and IL child tax credit",
+      "trap": "Stop at IL tax less withholding; miss the refundable IL EIC (20% of federal) and IL child tax credit; or claim the K-12 education expense credit for $165 of school fees.",
+      "correct_treatment": "IL EIC $446 + IL child tax credit $178 (assumed 40% of IL EIC for 2025); school fees are below the $250 floor for the K-12 credit.",
+      "impact": "IL refund $597",
+      "affected_lines": [
+        "IL-1040"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [],
+  "assumptions": [
+    "IL child tax credit 2025 = 40% of IL EIC (child under 12)",
+    "Saver's credit HOH 20% tier AGI $35,626-$38,250 (Notice 2024-80)"
+  ],
+  "naive_single_no_dependent_balance_due": 361,
+  "software_exceptions": [
+    {
+      "id": "EVG1002-SX1",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Filing status carried forward as Single (organizer + self-prepared PY returns)",
+      "axcess_default_behavior": "New Axcess return built from the organizer and her self-prepared 2023/2024 returns: Single, no dependent. Axcess calculates a valid Single return (standard deduction $15,750, no EIC/CTC) - a $361 balance due. Nothing in the software tests head-of-household eligibility.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "General > Basic Data: filing status Head of household; Dependents: add Arjun (son, 12 months, qualifying child - lived with Priya ~315 nights; no Form 8332). Complete the Form 8867 due-diligence inputs (EIC/CTC/HOH). Standard deduction $23,625; refund $5,141.",
+      "override_amount": 23625,
+      "proconnect_default_behavior": "Same - filing status and dependents are whatever is entered.",
+      "proconnect_fix": "General > Filing Status: Head of household; Dependents screen: Arjun with EIC/CTC qualifying-child answers; Form 8867 due-diligence questions (screen names per current release - verify).",
+      "proconnect_reference": "Screen name per current release - verify",
+      "efile_impact": "See SX4 - the dependent claim triggers the IND-507-01 reject",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Filing status",
+        "12e",
+        "16",
+        "19",
+        "27a",
+        "28"
+      ],
+      "procedure_section": "Review - Filing Status (Single vs HOH)",
+      "notes": "Refund $5,141 vs balance due $361 on the Single/no-dependent draft."
+    },
+    {
+      "id": "EVG1002-SX2",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "PayPal 1099-K for personal items sold at a loss",
+      "axcess_default_behavior": "The AutoFlowed 1099-K landed as business income (Schedule 1 line 3 / Schedule C gross receipts) and the return computed SE tax and cut the EIC. Axcess cannot know the items were personal-use property sold below cost.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Remove the 1099-K from the business-income input. Income > Other income: Schedule 1 line 8z 'Form 1099-K personal items sold at a loss' $6,812; Adjustments > other adjustments line 24z, same description, $6,812 (verify field path in current release). AGI unaffected ($36,463); no Schedule C / SE.",
+      "override_amount": 6812,
+      "proconnect_default_behavior": "Same risk if the 1099-K is entered on a business screen.",
+      "proconnect_fix": "Enter $6,812 as other income (Sch 1 line 8z) and the same amount as an other adjustment (line 24z) with the IRS description (screen/field per current release - verify). Keep the PayPal CSV (WP 9) as support.",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Sch 1 8z",
+        "Sch 1 24z",
+        "11",
+        "27a"
+      ],
+      "procedure_section": "Scan - Unstructured PBC / 1099-K",
+      "notes": "If gains existed they would go on Form 8949; losses on personal-use property are not deductible."
+    },
+    {
+      "id": "EVG1002-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "1099-G IL refund $212 - prior year used the standard deduction",
+      "axcess_default_behavior": "With no Axcess prior-year return (new client, self-prepared 2024), the state-refund worksheet has no 2024 itemized data and the AutoFlowed 1099-G is included on Schedule 1 line 1 in full.",
+      "axcess_diagnostic": "Informational: state and local refund worksheet requires prior-year itemized deduction information",
+      "manual_calc_required": "No",
+      "axcess_override": "Income > State and local refund worksheet: mark 2024 as standard deduction (did not itemize) - taxable refund $0. Alternatively remove the 1099-G input and keep it in the binder as 'not taxable - tax benefit rule'.",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same - the taxable-refund worksheet needs prior-year itemized information; otherwise the full refund is taxable.",
+      "proconnect_fix": "Income > State and local tax refunds: indicate the prior year did not itemize so the taxable amount is $0 (field per current release - verify).",
+      "proconnect_reference": "Field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Sch 1 line 1",
+        "8"
+      ],
+      "procedure_section": "Return - Schedule A (state refunds of taxes previously itemized)",
+      "notes": ""
+    },
+    {
+      "id": "EVG1002-SX4",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "E-file Disqualifying",
+      "title": "IND-507-01 reject - dependent's SSN already used by the father",
+      "axcess_default_behavior": "Axcess transmits; IRS rejects (IND-507-01, dependent SSN used on another return). No input or override can clear an IRS-side duplicate. The tempting 'fix' - removing Arjun so the e-file goes through - gives up HOH, EIC, CTC and is wrong (custodial parent, no Form 8332).",
+      "axcess_diagnostic": "E-file reject (IRS business rule IND-507-01) - not a calculation diagnostic",
+      "manual_calc_required": "No",
+      "axcess_override": "Keep the return unchanged. Turn off federal e-file for this return (e-file options per current release - verify), print the government copy, client wet-signs, mail certified (done 03/04/2026). IL-1040 sent as a state-only (unlinked) e-file. Reject, school letter and lease kept in the WP.",
+      "override_amount": 5141,
+      "proconnect_default_behavior": "Same IRS reject; ProConnect cannot override it either.",
+      "proconnect_fix": "Mark the federal return for paper filing (do not e-file federal), print the filing copy and mail; transmit the IL return separately if state-only e-file is supported for the state (per current release - verify).",
+      "proconnect_reference": "E-file settings per current release - verify",
+      "efile_impact": "Federal must be paper filed",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Filing method"
+      ],
+      "procedure_section": "Post-Submission Exceptions - E-File Rejects / Paper Filing Returns",
+      "notes": "IRS will resolve the duplicate claim with the father (expect CP87A to him / possible residency audit for Priya)."
+    },
+    {
+      "id": "EVG1002-SX5",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "State Allocation",
+      "title": "IL Schedule M subtraction for TreasuryDirect interest",
+      "axcess_default_behavior": "If the TreasuryDirect 1099-INT is keyed or AutoFlowed as box 1 (ordinary taxable interest) instead of box 3 (U.S. obligations), federal tax is identical but the IL return shows no Schedule M subtraction (the first draft had none - review point 7).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Interest income input: move $310.46 to the U.S. savings bond / Treasury obligation (box 3) column so the IL subtraction generates on Schedule M ($310). IL base income $36,153.",
+      "override_amount": 310,
+      "proconnect_default_behavior": "Same - the state subtraction keys off the box 3 / U.S. obligation designation.",
+      "proconnect_fix": "Interest Income screen: enter the TreasuryDirect amount as U.S. bond/Treasury interest (box 3) so the IL subtraction flows (field per current release - verify).",
+      "proconnect_reference": "Field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "2b",
+        "IL-1040 Schedule M"
+      ],
+      "procedure_section": "Return - Schedule B (federal obligations exempt at state level)",
+      "notes": "A REPRINT copy of the same 1099-INT was also in the PBC - count once."
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log"
+  ]
+}

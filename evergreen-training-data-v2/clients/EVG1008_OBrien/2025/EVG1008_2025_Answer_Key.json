@@ -1,0 +1,682 @@
+{
+  "client_id": "EVG1008",
+  "client": "Kevin & Samantha O'Brien",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "PA (Lancaster - Manheim Twp)",
+    "complexity": "Rental tier - 2 rentals incl. vacation home, college student"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 171300,
+    "2a": 0,
+    "2b": 382,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": 0,
+    "9": 171682,
+    "10": 0,
+    "11": 171682,
+    "12e": 31500,
+    "13a": 0,
+    "13b": 0,
+    "15": 140182,
+    "16": 20668,
+    "17": 0,
+    "19": 2700,
+    "20": 624,
+    "22": 17344,
+    "23": 0,
+    "24": 17344,
+    "25d": 19700,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 416,
+    "31": 0,
+    "33": 20116,
+    "34": 2772,
+    "35a": 2772,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 2772,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 171300
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 171300
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 382
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 171682
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 171682
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 31500
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 31500
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 140182
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 20668
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 20668
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 2700
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 624
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 3324
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 17344
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 17344
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 19700
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 19700
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 416
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 416
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 20116
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 2772
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 2772
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Fulton Bank",
+        "amount": 382
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 382
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 382
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8863": [
+      {
+        "line": "Emma O'Brien",
+        "description": "AOTC qualified expenses 12,400",
+        "amount": 2500
+      },
+      {
+        "line": "phase",
+        "description": "MAGI phase-out fraction applied",
+        "amount": 0.416
+      },
+      {
+        "line": "8",
+        "description": "Refundable American opportunity credit",
+        "amount": 416
+      },
+      {
+        "line": "19",
+        "description": "Nonrefundable education credits",
+        "amount": 624
+      }
+    ],
+    "Schedule 8812": [
+      {
+        "line": "4",
+        "description": "Number of qualifying children under 17 with SSN",
+        "amount": 1
+      },
+      {
+        "line": "6",
+        "description": "Number of other dependents",
+        "amount": 1
+      },
+      {
+        "line": "8",
+        "description": "Tentative credit",
+        "amount": 2700
+      },
+      {
+        "line": "10-11",
+        "description": "Phase-out reduction (MAGI 171,682 vs 400,000)",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Credit after phase-out",
+        "amount": 2700
+      },
+      {
+        "line": "14",
+        "description": "Nonrefundable CTC/ODC (to Form 1040 line 19)",
+        "amount": 2700
+      },
+      {
+        "line": "27",
+        "description": "Additional child tax credit (to Form 1040 line 28)",
+        "amount": 0
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "3",
+        "description": "Education credits (Form 8863, line 19)",
+        "amount": 624
+      },
+      {
+        "line": "8",
+        "description": "Total nonrefundable credits (to Form 1040, line 20)",
+        "amount": 624
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "return": "PA-40",
+      "compensation": 189300,
+      "interest": 382,
+      "rents_class": -7711,
+      "taxable_income": 189682,
+      "tax": 5823,
+      "withheld": 5812,
+      "balance_due": 11
+    },
+    {
+      "return": "Manheim Twp EIT (LCTCB)",
+      "withheld": 1893,
+      "note": "filed separately"
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-08"
+    },
+    {
+      "form": "PA-40",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-08"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1008-G1",
+      "procedure_section": "Schedule E - Rental Properties (Form 1098 treated as personal)",
+      "title": "1098 for the duplex address autoflows to Schedule A",
+      "trap": "Put the $9,860 rental mortgage interest (and $5,420 escrow taxes) on Schedule A -> itemize ($41,825) and show a duplex profit.",
+      "correct_treatment": "1098 box 8 = rental address (box 7 'No'): interest and escrowed taxes are Schedule E expenses of the duplex. Correct itemized total $26,545 < standard $31,500 -> standard deduction; duplex shows a ($3,207) loss (suspended).",
+      "impact": "Deduction type flips; passive income/loss misstated",
+      "affected_lines": [
+        "12e",
+        "Sch E 12",
+        "Sch E 16"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1008-G2",
+      "procedure_section": "Schedule E - capitalization of repairs vs improvements; de minimis election",
+      "title": "Roof, water heater, window",
+      "trap": "Expense the $14,000 roof as a repair (ledger coded it 'Repairs'), or capitalize everything.",
+      "correct_treatment": "Roof: full tear-off replacement = restoration of a building system -> capitalize, 27.5-yr SL mid-month from 06/2025 ($276 for 2025); small-taxpayer safe harbor fails (> 2% of UBB). Water heater $1,900: de minimis safe harbor (<= $2,500 per invoice) with the election statement attached. Window $450: repair.",
+      "impact": "Sch E line 14 overstated $14,000 (loss suspended anyway, but basis/carryforward wrong)",
+      "affected_lines": [
+        "Sch E 14",
+        "Sch E 18",
+        "Form 4562"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1008-G3",
+      "procedure_section": "Schedule E - personal use days (sec. 280A)",
+      "title": "Cabin rented 62 days, used personally 21 days",
+      "trap": "Report the cabin as a regular rental with a full-year loss (or count only 18 personal days, excluding the brother's free stay).",
+      "correct_treatment": "Use by a family member (brother) is personal use even if he paid nothing; the deck-repair weekend is not personal use. 21 personal days > 14 and > 10% of 62 -> the cabin is a residence: expenses allocated 62/83 and limited to rental income (Worksheet 5-1). Net $0; carry forward operating $260 + depreciation $4,244; personal share of interest/taxes to Sch A worksheet.",
+      "impact": "Avoids an improper ~$7,000 loss",
+      "affected_lines": [
+        "Sch E line 2",
+        "Sch E 21"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1008-G4",
+      "procedure_section": "General Return Prep Notes - blank organizer line with PY amount (suspended passive loss)",
+      "title": "PY suspended loss not on the organizer",
+      "trap": "Start Form 8582 at zero - the $6,200 carryforward is lost.",
+      "correct_treatment": "Pull the $6,200 unallowed loss from the PY return/PERM. MAGI $171,682 > $150k -> $25k special allowance fully phased out; 2025 loss ($3,207) also suspended -> carry $9,407 to 2026.",
+      "impact": "Carryforward understated $6,200",
+      "affected_lines": [
+        "Form 8582",
+        "Sch E 22"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1008-G5",
+      "procedure_section": "Education credits / dependents",
+      "title": "AOTC in the MAGI phase-out; 18-year-old dependent",
+      "trap": "Claim the full $2,500 AOTC on the $18,400 box 1 (ignoring the scholarship) and a $2,200 CTC for Emma.",
+      "correct_treatment": "Qualified expenses = 18,400 - 6,000 scholarship = $12,400 (>= $4,000 -> $2,500 tentative). MAGI $171,682 is in the $160k-$180k range -> allowed $1,040 ($416 refundable on line 29). Emma is 18 -> $500 ODC, Connor $2,200 CTC.",
+      "impact": "Credits overstated ~$3,100 if wrong",
+      "affected_lines": [
+        "19",
+        "29",
+        "Sch 3 3"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1008-G6",
+      "procedure_section": "Scan - duplicate documents",
+      "title": "Lender escrow statement repeats the 1098 interest and taxes",
+      "trap": "Autoflow the escrow year-end summary as a second 1098 -> duplex interest/taxes doubled.",
+      "correct_treatment": "Escrow statement is support only; use Form 1098 once (Sch E line 12 9,860; line 16 5,420).",
+      "impact": "Sch E expenses doubled",
+      "affected_lines": [
+        "Sch E 12",
+        "Sch E 16"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1008-G7",
+      "procedure_section": "SALT Implications - PA class rules",
+      "title": "PA-40 prepared from federal numbers",
+      "trap": "Use federal wages (box 1) and net the rental loss against compensation.",
+      "correct_treatment": "PA compensation = W-2 box 16 $189,300 (401(k)/403(b) deferrals are PA-taxable). The rents class is a loss and cannot offset other classes (no carryforward). PA tax 3.07% x $189,682 = $5,823; local EIT final return filed separately.",
+      "impact": "PA tax $5,823",
+      "affected_lines": [
+        "PA-40 1a",
+        "PA-40 6",
+        "PA-40 12"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [
+    "Itemized deductions $26,545 < standard $31,500 - standard used."
+  ],
+  "schedule_e": {
+    "duplex": {
+      "rents": 29225,
+      "expenses": 32432,
+      "net": -3207,
+      "allowed": 0
+    },
+    "cabin": {
+      "rents": 14880,
+      "rental_days": 62,
+      "personal_days": 21,
+      "net": 0,
+      "sec280A_carryover_operating": 260,
+      "sec280A_carryover_depreciation": 4244
+    }
+  },
+  "passive_loss_carryforward_to_2026": 9407,
+  "itemized_not_used": 26545,
+  "software_exceptions": [
+    {
+      "id": "EVG1008-SX1",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Duplex Form 1098 (box 8 = rental address) AutoFlowed to Schedule A; escrow summary imported as a second 1098",
+      "axcess_default_behavior": "AutoFlow treats every Form 1098 as home mortgage interest: the duplex 1098 ($9,860 interest; $5,420 escrowed taxes) went to Schedule A, flipping the return to itemized ($41,825) and overstating the duplex result. The lender's escrow year-end summary was imported as another 1098 (duplicate).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Delete the Schedule A 1098 entries for the duplex and the escrow-summary record. Rental (Schedule E) Property A: mortgage interest $9,860 (line 12), taxes $5,420 (line 16). Itemized $26,545 < standard $31,500 -> standard.",
+      "override_amount": 9860,
+      "proconnect_default_behavior": "If the 1098 is entered on the itemized-deduction mortgage screen it is deducted on Schedule A; ProConnect does not read box 8.",
+      "proconnect_fix": "Enter the interest and taxes on the Rental & Royalty Income (Schedule E) screen for the duplex, not on the Schedule A mortgage interest screen (screen names per current release - verify).",
+      "proconnect_reference": "Screen names per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "12e",
+        "Sch E 12",
+        "Sch E 16"
+      ],
+      "procedure_section": "Schedule E - Rental Properties (Form 1098 treated as personal)",
+      "notes": "Box 7 'No' (not the borrower's residence) and box 8 address are the tells."
+    },
+    {
+      "id": "EVG1008-SX2",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Depreciation",
+      "title": "Roof coded 'Repairs' in the client ledger; water heater de minimis; window repair",
+      "axcess_default_behavior": "Rental expenses are keyed from the client's ledger by category, so the $14,000 full roof replacement lands on Schedule E line 14 as a repair. Axcess cannot distinguish a restoration of a building system from a repair, and applies the de minimis safe harbor only if the election is made.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Depreciation (Form 4562) for Property A: add 'Roof replacement' 06/2025, $14,000, residential rental 27.5-yr SL mid-month -> $276. Remove it from repairs. Water heater $1,900 on line 19 with the Reg. 1.263(a)-1(f) election statement (General > Elections / statement - verify); window $450 stays a repair. Small-taxpayer safe harbor not available (> 2% of $265,000 UBB).",
+      "override_amount": 276,
+      "proconnect_default_behavior": "Same - expenses entered as repairs are deducted; capitalization is a preparer determination.",
+      "proconnect_fix": "Add the roof as a residential rental asset on the property's depreciation screen (27.5-yr, 06/2025); generate the de minimis election statement (screen/field per current release - verify).",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "De minimis election statement attached",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Sch E 14",
+        "Sch E 18",
+        "Form 4562"
+      ],
+      "procedure_section": "Schedule E - capitalization of repairs vs improvements; de minimis election",
+      "notes": "Loss is suspended either way, but the basis and the suspended-loss carryforward would be wrong."
+    },
+    {
+      "id": "EVG1008-SX3",
+      "workbook_tab": "5. Passive Activity (8582)",
+      "tab_key": "5",
+      "category": "Basis/At-Risk/Passive",
+      "title": "Form 8582: PY unallowed loss $6,200 not on the organizer; $25,000 allowance fully phased out",
+      "axcess_default_behavior": "Axcess releases or suspends only the prior-year unallowed loss present on the activity's carryover input. The organizer was silent; if the 2024 carryover is not on the duplex activity (e.g., the property is re-keyed as a new activity from the scanned ledger) the $6,200 is silently lost.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Rental (Schedule E) Property A > passive carryover input: prior-year unallowed loss (regular) $6,200 per the 2024 Form 8582 / PERM (verify AMT carryover - same amount, no AMT preferences). MAGI $171,682 > $150,000 -> special allowance $0; 2025 loss ($3,207) also suspended -> $9,407 to 2026.",
+      "override_amount": 9407,
+      "proconnect_default_behavior": "Same - ProConnect uses the prior-year unallowed losses entered on the rental's Passive Losses tab.",
+      "proconnect_fix": "Rental & Royalty Income > Passive Losses tab: prior-year unallowed losses - Regular $6,200 and AMT $6,200 (enter both). Form 8582 generates automatically (or force: 1 = when applicable, 2 = force).",
+      "proconnect_reference": "Intuit help: 'How to generate Form 8582 in ProConnect Tax'; community thread on prior years' unallowed losses",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Form 8582",
+        "Sch E 22"
+      ],
+      "procedure_section": "General Return Prep Notes - blank organizer line with PY amount (suspended passive loss)",
+      "notes": "The 9,407 carryforward is not listed in the answer key's carryforwards_to_2026 block (only in the gotchas/notes)."
+    },
+    {
+      "id": "EVG1008-SX4",
+      "workbook_tab": "16. Vacation Home Allocation",
+      "tab_key": "16",
+      "category": "Basis/At-Risk/Passive",
+      "title": "Cabin - sec. 280A residence: personal days must include the brother's free stay",
+      "axcess_default_behavior": "Axcess's vacation-home limitation uses the personal-use and rental days entered. The draft keyed 18 personal days (family only) - under 18 days the cabin is still a residence (18 > 14), but the allocation % and the carryovers change; the first draft went further and keyed the cabin as a regular rental with a ~$7,000 loss. The software cannot know Pat's free nights are personal use or that the deck weekend was repair work.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Rental (Schedule E) Property B: type 1 (single family / vacation), fair rental days 62, personal use days 21 (18 family + 3 brother; 10/11-10/12 repair weekend excluded). IRS method 62/83 = 74.70%; rental income limit applies (Pub. 527 Worksheet 5-1): interest $6,200 + taxes $2,480 + direct $2,430 -> operating $3,770 of $4,030 -> depreciation $0 of $4,244. Net $0; carry forward operating $260 + depreciation $4,244. Personal share of interest $2,100 / taxes $840 to the Schedule A worksheet.",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same - the vacation home limitation is computed from the days entered on the rental screen.",
+      "proconnect_fix": "Rental & Royalty Income: days rented at fair rental 62; personal use days 21; vacation home limitation applies (IRS method). Check the carryover of operating expenses and depreciation (screen/field per current release - verify).",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Sch E line 2",
+        "Sch E 21",
+        "Form 4562"
+      ],
+      "procedure_section": "Schedule E - personal use days (sec. 280A)",
+      "notes": "Bolton method (interest/taxes x 62/365) would free more operating expense; IRS method used per firm procedure - no 2025 tax difference (standard deduction). Not a passive activity (sec. 469(j)(10)) - no 8582 for the cabin."
+    },
+    {
+      "id": "EVG1008-SX5",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "State Allocation",
+      "title": "PA-40: compensation from W-2 box 16 (401k/403b taxable) and rents loss stays in its class",
+      "axcess_default_behavior": "The draft PA return used federal W-2 box 1 as PA compensation and netted the rents-class loss against wages. PA compensation must come from box 16 (elective deferrals are PA-taxable); if box 16 is blank or copied from box 1 on the W-2 input, the PA return understates compensation with no diagnostic.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "W-2 inputs: PA state wages (box 16) $189,300 combined. PA rents class: duplex ($3,207) + cabin (PA - no sec. 280A limit assumed) = loss ($7,711) - not netted against compensation (PA Schedule E / class-netting input - verify). PA taxable income $189,682 x 3.07% = $5,823; withheld $5,812 -> due $11.",
+      "override_amount": 189300,
+      "proconnect_default_behavior": "Same - PA compensation follows the state wages entered on the W-2 screen.",
+      "proconnect_fix": "W-2 screen: PA state wages = box 16; PA return rents class shows the loss with no offset (screen/field per current release - verify).",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "PA-40 e-filed with the federal return",
+      "status": "Signed Off",
+      "affected_lines": [
+        "PA-40 line 1a",
+        "PA-40 line 6"
+      ],
+      "procedure_section": "SALT Implications - Pennsylvania",
+      "notes": "Local Manheim Twp EIT final return filed separately with LCTCB (not in either package's 1040 workflow)."
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "5. Passive Activity (8582)",
+    "16. Vacation Home Allocation"
+  ]
+}

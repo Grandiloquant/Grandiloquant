@@ -1,0 +1,750 @@
+{
+  "client_id": "EVG1011",
+  "client": "Thomas Nguyen",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "TN (no state income tax return)",
+    "complexity": "Crypto investor, 1099-DA, PTC repayment, IP PIN"
+  },
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 21400,
+    "2a": 0,
+    "2b": 1850,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 202540,
+    "8": 2100,
+    "9": 227890,
+    "10": 0,
+    "11": 227890,
+    "12e": 15750,
+    "13a": 0,
+    "13b": 0,
+    "15": 212140,
+    "16": 30142,
+    "17": 3528,
+    "19": 0,
+    "20": 0,
+    "22": 33670,
+    "23": 1060,
+    "24": 34730,
+    "25d": 2568,
+    "26": 22000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 12000,
+    "33": 36568,
+    "34": 1838,
+    "35a": 1838,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 1838,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 21400
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 21400
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 1850
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 202540
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 2100
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 227890
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 227890
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 15750
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 15750
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 212140
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 30142
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 3528
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 33670
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 33670
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 1060
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 34730
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 2568
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 2568
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 22000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 12000
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 12000
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 36568
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 1838
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 1838
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Harpeth Online Bank",
+        "amount": 1850
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 1850
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 1850
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box H)": [
+      {
+        "line": "CB1",
+        "description": "0.50000000 BTC (Coinbase) | acq 12/16/2024 | sold 04/07/2025 | proceeds 38,346 | basis 53,212 | code  adj 0",
+        "amount": -14866
+      },
+      {
+        "line": "CB2",
+        "description": "40.0000 SOL (Coinbase) | acq 04/09/2025 | sold 09/18/2025 | proceeds 9,761 | basis 4,498 | code  adj 0",
+        "amount": 5263
+      },
+      {
+        "line": "CB3",
+        "description": "6.00000000 ETH (Coinbase) | acq 04/22/2025 | sold 08/22/2025 | proceeds 28,087 | basis 10,723 | code  adj 0",
+        "amount": 17364
+      },
+      {
+        "line": "CB4",
+        "description": "0.50000000 BTC (Coinbase) | acq 04/18/2025 | sold 10/06/2025 | proceeds 61,752 | basis 42,419 | code  adj 0",
+        "amount": 19333
+      }
+    ],
+    "Form 8949 (Box K)": [
+      {
+        "line": "CB5",
+        "description": "1.25000000 BTC (Coinbase) | acq 03/02/2021 | sold 07/14/2025 | proceeds 149,400 | basis 60,868 | code  adj 0",
+        "amount": 88533
+      },
+      {
+        "line": "CB6",
+        "description": "0.60000000 BTC (Coinbase) | acq 11/10/2022 | sold 10/06/2025 | proceeds 74,102 | basis 10,241 | code  adj 0",
+        "amount": 63862
+      },
+      {
+        "line": "CB7",
+        "description": "2.00000000 ETH (Coinbase) | acq 06/20/2022 | sold 08/22/2025 | proceeds 9,362 | basis 2,309 | code  adj 0",
+        "amount": 7053
+      }
+    ],
+    "Form 8949 (Box I)": [
+      {
+        "line": "MM1",
+        "description": "2.0 ETH -> 8,900 USDC (Uniswap swap) (MetaMask - no 1099-DA) | acq 04/22/2025 | sold 08/24/2025 | proceeds 8,886 | basis 3,574 | code  adj 0",
+        "amount": 5312
+      }
+    ],
+    "Form 8949 (Box L)": [
+      {
+        "line": "MM2",
+        "description": "NFT 'Chromatic Drift #214' (digital art) sold for 3.9 ETH (MetaMask - no 1099-DA) | acq 02/05/2023 | sold 11/12/2025 | proceeds 11,969 | basis 2,992 | code C adj 0",
+        "amount": 8976
+      }
+    ],
+    "Form 8949 (Box A)": [
+      {
+        "line": "RH1",
+        "description": "20 sh TSLA (Robinhood) | acq 01/21/2025 | sold 03/10/2025 | proceeds 4,440 | basis 8,400 | code W adj 3,960",
+        "amount": 0
+      },
+      {
+        "line": "RH2",
+        "description": "20 sh TSLA (replacement shares; basis incl. wash-sale adj.) (Robinhood) | acq 03/24/2025 | sold 06/30/2025 | proceeds 6,340 | basis 8,680 | code  adj 0",
+        "amount": -2340
+      }
+    ],
+    "Form 8949 (Box D)": [
+      {
+        "line": "RH3",
+        "description": "25 sh VTI (Robinhood) | acq 02/11/2020 | sold 09/15/2025 | proceeds 8,050 | basis 4,000 | code  adj 0",
+        "amount": 4050
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "ST box H",
+        "description": "Short-term from Form 8949 box H (proceeds 137,946; cost 110,852; adj 0)",
+        "amount": 27094
+      },
+      {
+        "line": "ST box I",
+        "description": "Short-term from Form 8949 box I (proceeds 8,886; cost 3,574; adj 0)",
+        "amount": 5312
+      },
+      {
+        "line": "ST box A",
+        "description": "Short-term from Form 8949 box A (proceeds 10,780; cost 17,080; adj 3,960)",
+        "amount": -2340
+      },
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 30066
+      },
+      {
+        "line": "LT box K",
+        "description": "Long-term from Form 8949 box K (proceeds 232,865; cost 73,418; adj 0)",
+        "amount": 159447
+      },
+      {
+        "line": "LT box L",
+        "description": "Long-term from Form 8949 box L (proceeds 11,969; cost 2,992; adj 0)",
+        "amount": 8976
+      },
+      {
+        "line": "LT box D",
+        "description": "Long-term from Form 8949 box D (proceeds 8,050; cost 4,000; adj 0)",
+        "amount": 4050
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 172474
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 202540
+      },
+      {
+        "line": "18",
+        "description": "28% rate gain",
+        "amount": 8976
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "8v",
+        "description": "Digital assets received as ordinary income not reported elsewhere (staking: Kraken 1099-MISC $1,240.00 + on-chain $860.44)",
+        "amount": 2100
+      },
+      {
+        "line": "9",
+        "description": "Total other income",
+        "amount": 2100
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 2100
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "2",
+        "description": "Excess advance premium tax credit repayment (Form 8962)",
+        "amount": 3528
+      },
+      {
+        "line": "3",
+        "description": "Total Part I (to Form 1040, line 17)",
+        "amount": 3528
+      },
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 1060
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 1060
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 206490
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 206490
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 227,890 over threshold 200,000",
+        "amount": 27890
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 1060
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "10",
+        "description": "Amount paid with request for extension to file (Form 4868)",
+        "amount": 12000
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 12000
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "Tennessee",
+      "return": "None (no individual income tax; Hall tax repealed 2021)"
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 4868",
+      "filed": "2026-04-14",
+      "payment": 12000.0
+    },
+    {
+      "form": "Form 1040 (federal)",
+      "method": "e-file with IP PIN",
+      "due": "2026-10-15 (extended)",
+      "filed": "2026-09-29 (transmitted; acknowledgment pending)"
+    },
+    {
+      "form": "Form 8822 (change of address)",
+      "method": "paper (mail)",
+      "filed": "2026-09-29"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1011-G1",
+      "procedure_section": "Schedule D - CoinLedger-provided Forms 8949 vs Consolidated 1099 / 1099-DA",
+      "title": "1099-DA and CoinLedger both loaded",
+      "trap": "Autoflow imports the Coinbase 1099-DA (basis blank -> $0) AND the CoinLedger 8949 -> Coinbase sales counted twice, ~$370,811 of extra gain.",
+      "correct_treatment": "Use the CoinLedger detail (all wallets) as the 8949 source; do not load the 1099-DA separately. Reconcile CoinLedger's Coinbase proceeds $372,300 less sale fees $1,489 = 1099-DA $370,811; report Coinbase sales in 8949 box H/K (1099-DA received, basis not reported) and MetaMask disposals in box I/L (no 1099-DA).",
+      "impact": "Line 7 overstated by the 1099-DA proceeds",
+      "affected_lines": [
+        "7"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1011-G2",
+      "procedure_section": "E-File Rejects - IP PIN changes every year",
+      "title": "Stale IP PIN",
+      "trap": "Enter the IP PIN from the January 2025 CP01A in the PBC (for the 2024 return).",
+      "correct_treatment": "IP PINs are valid for one calendar year. The 2026 CP01A went to his old address; the current IP PIN was retrieved from the IRS Online Account (09/28/2026). Using the old PIN rejects the e-file (IP PIN mismatch reject - IND-181/IND-183 family). Also file Form 8822.",
+      "impact": "E-file reject; late filing if not caught before 10/15",
+      "affected_lines": [],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1011-G3",
+      "procedure_section": "Scan - exchange CSV exports (self-transfers)",
+      "title": "Coinbase 'Send' rows treated as sales",
+      "trap": "Treat the 3.5 ETH sent to MetaMask as dispositions (or as withdrawals of income).",
+      "correct_treatment": "Transfers between wallets the taxpayer controls are not taxable; basis and holding period carry over (CoinLedger tracks the 2.0 ETH later swapped on Uniswap with its 04/22/2025 basis).",
+      "impact": "Line 7",
+      "affected_lines": [
+        "7"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1011-G4",
+      "procedure_section": "Sch 1 line 8v - staking income",
+      "title": "Kraken 1099-MISC double-counted",
+      "trap": "Report the $1,240 1099-MISC AND the CoinLedger income total $2,100.44 -> $3,340.44.",
+      "correct_treatment": "CoinLedger's staking total already includes the Kraken rewards. Report $2,100.44 once on Schedule 1 line 8v (ordinary income at FMV when received - Rev. Rul. 2023-14; not SE income for an investor). It is also net investment income.",
+      "impact": "Line 8 overstated $1,240 if missed",
+      "affected_lines": [
+        "8"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1011-G5",
+      "procedure_section": "Schedule D - adjustment codes (C collectibles, W wash sale)",
+      "title": "Wash sale rule and crypto; NFT collectible",
+      "trap": "Disallow the $14,866 BTC loss (repurchased 11 days later) as a wash sale; or treat the NFT gain as ordinary 15%/20% LTCG; or ignore Robinhood's 1g wash-sale amount.",
+      "correct_treatment": "Section 1091 applies to stock or securities - not to digital assets in 2025 -> BTC loss fully allowed. The Robinhood TSLA wash sale (code W, $3,960) IS applied as reported. The NFT is digital art -> collectible (Notice 2023-27 look-through) -> 28% rate gain $8,976 (8949 code C; Sch D line 18).",
+      "impact": "Line 16 tax",
+      "affected_lines": [
+        "7",
+        "16"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1011-G6",
+      "procedure_section": "Form 8962 - excess APTC",
+      "title": "Advance PTC based on $36k projected income",
+      "trap": "Omit Form 8962 (no 1095-A input) or cap repayment at the table amount.",
+      "correct_treatment": "Household income $227,890 = 1,513% of FPL. At 8.5% the monthly contribution $1,614 exceeds the SLCSP ($441) -> PTC $0 every month; repay ALL APTC $3,528 (no repayment cap at/above 400% FPL) on Schedule 2 line 2.",
+      "impact": "Tax understated $3,528",
+      "affected_lines": [
+        "17"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1011-G7",
+      "procedure_section": "NIIT",
+      "title": "NIIT limited by MAGI over threshold",
+      "trap": "3.8% x all net investment income $206,490 = $7,847; or no NIIT because wages are low.",
+      "correct_treatment": "NIIT = 3.8% x lesser of NII $206,490 or MAGI over $200,000 ($27,890) = $1,060.",
+      "impact": "Schedule 2 line 12",
+      "affected_lines": [
+        "23"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1011-G8",
+      "procedure_section": "Billing - expedite fee / Investor vs trader",
+      "title": "Late documents and non-deductible investor costs",
+      "trap": "Deduct CoinLedger subscription / hardware wallet on Schedule C or Schedule A; skip the 15% expedite fee.",
+      "correct_treatment": "Investor (not a trader): no Schedule C; investment expenses are miscellaneous itemized deductions - suspended (permanently after OBBBA). Final CoinLedger report received 09/26/2026, within 15 days of 10/15/2026 -> 15% expedited processing fee per engagement letter.",
+      "impact": "Billing / deductions",
+      "affected_lines": [],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "software_exceptions": [
+    {
+      "id": "EVG1011-SX1",
+      "workbook_tab": "19. Crypto Income & Basis",
+      "tab_key": "19",
+      "category": "Capital Loss",
+      "title": "Coinbase 1099-DA and the CoinLedger Form 8949 both loaded - proceeds counted twice",
+      "axcess_default_behavior": "Autoflow/1099 import brings in the Coinbase 1099-DA as 7 sales with gross proceeds $370,811 and BLANK basis (basis is not reported for 2025), and the CoinLedger 8949 import brings in the same Coinbase sales again with full basis. Axcess treats the 1099-DA rows as $0-basis sales, so line 7 rises by ~$370,811. A blank basis on a 'basis not reported' row is a valid entry, so nothing is flagged. A generic CSV import also puts every row in box C/F (no 1099) unless the box is mapped.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Gains and Losses > Capital Gains and Losses: delete the 1099-DA import; keep the CoinLedger FINAL (09/26/2026) detail only. Map Coinbase rows to Form 8949 box H (ST) / box K (LT) - '1099-DA received, basis not reported'; MetaMask rows to box I / L (no 1099-DA); Robinhood to A / D. Report Coinbase proceeds net of fees so they tie to the 1099-DA: CoinLedger $372,300 - fees $1,489 = $370,811 (same gain - CoinLedger had the fees in basis). Reconciliation attached in the workpapers.",
+      "override_amount": 370811,
+      "proconnect_default_behavior": "Same - ProConnect computes Schedule D from whatever 8949 rows are entered or imported; a 1099-DA entered manually or imported alongside the CoinLedger detail is a second set of sales with $0 basis.",
+      "proconnect_fix": "Dispositions (Schedule D/4797/etc.): import or key the CoinLedger detail only, with the 8949 box set per row (H/K, I/L, A/D). Alternative for many lots: enter summary totals by 8949 box and attach the CoinLedger detail as a PDF (General > e-file PDF/Miscellaneous > Attach PDF, linked to Sch D/Form 8949 'Form 8949 Exception Reporting Statement') so Form 8453 is not required - diagnostic ref 10322 clears once the PDF is attached.",
+      "proconnect_reference": "Intuit help: 'Attaching a summary statement to Schedule D/Form 8949 in ProConnect Tax and resolving Diagnostic ref. 10322'",
+      "efile_impact": "None if detail is entered; summary method requires the PDF attachment (or Form 8453)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 8949 boxes H/I/K/L",
+        "Schedule D"
+      ],
+      "procedure_section": "Schedule D - CoinLedger-provided Forms 8949 vs Consolidated 1099 / 1099-DA",
+      "notes": "Self-transfers (Coinbase 'Send' 2.0 ETH 08/23 and 1.5 ETH 11/02 to his own MetaMask) are not dispositions; the 2.0 ETH swapped on Uniswap keeps its 04/22/2025 basis $3,574."
+    },
+    {
+      "id": "EVG1011-SX2",
+      "workbook_tab": "19. Crypto Income & Basis",
+      "tab_key": "19",
+      "category": "Other",
+      "title": "Kraken 1099-MISC staking is already inside the CoinLedger income total",
+      "axcess_default_behavior": "The Kraken 1099-MISC box 3 ($1,240.00) entered on the 1099-MISC worksheet flows to Schedule 1 'other income'; the CoinLedger income report total ($2,100.44, which already includes the Kraken rewards) keyed as digital-asset income adds it again -> $3,340.44. Axcess has no way to know one is a subset of the other.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Income > Other income: enter $2,100 once as digital assets received as ordinary income (Schedule 1 line 8v). Keep the 1099-MISC on file for matching but do not let it flow (or enter it as the 8v item and add only the $860.44 on-chain balance). Not SE income (investor). Included in NII on Form 8960.",
+      "override_amount": 2100,
+      "proconnect_default_behavior": "Same - a 1099-MISC box 3 entry and a separate other-income entry both flow to Schedule 1.",
+      "proconnect_fix": "Income > Other income: one Schedule 1 line 8v entry $2,100 (digital assets received as ordinary income); do not also enter the Kraken 1099-MISC box 3 as other income (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "8 (Schedule 1 line 8v)",
+        "Form 8960"
+      ],
+      "procedure_section": "Sch 1 line 8v - staking income",
+      "notes": "Rev. Rul. 2023-14: staking rewards are income at FMV when the taxpayer gains dominion and control."
+    },
+    {
+      "id": "EVG1011-SX3",
+      "workbook_tab": "19. Crypto Income & Basis",
+      "tab_key": "19",
+      "category": "Capital Loss",
+      "title": "NFT digital art imported without the collectible code - 28% gain taxed at 15%",
+      "axcess_default_behavior": "The CoinLedger 8949 row for 'Chromatic Drift #214' imports as an ordinary long-term sale. Axcess applies 0/15/20% rates to all long-term gain; it cannot tell an NFT that references a work of art is a collectible. Schedule D line 18 (28% rate gain) stays $0.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Gains and Losses > Capital Gains and Losses, MetaMask NFT row (box L): adjustment code C (collectible) - gain $8,976 flows to the 28% Rate Gain Worksheet / Schedule D line 18 (verify field name in current release).",
+      "override_amount": 8976,
+      "proconnect_default_behavior": "Same - collectible treatment requires the collectible indicator / code C on the disposition.",
+      "proconnect_fix": "Dispositions: on the NFT row set the collectible indicator (28% rate gain) / 8949 code C; confirm Schedule D line 18 = 8,976 (field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "16",
+        "Schedule D line 18"
+      ],
+      "procedure_section": "Schedule D - adjustment codes (C collectibles, W wash sale)",
+      "notes": "Notice 2023-27 look-through: an NFT whose associated right/asset is a work of art is a collectible. Also on this tab: the 04/07 BTC loss ($14,866) stays allowed - section 1091 covers stock/securities, not digital assets, for 2025; the Robinhood TSLA code W ($3,960) is kept as the broker reported it."
+    },
+    {
+      "id": "EVG1011-SX4",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "E-file Disqualifying",
+      "title": "Stale IP PIN from the January 2025 CP01A",
+      "axcess_default_behavior": "Axcess transmits whatever 6-digit IP PIN is on the e-file input; it validates the format only. The CP01A in the PBC was for the 2024 return - using it causes an IRS reject (IP PIN mismatch).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "General > Electronic Filing: enter the 2026 IP PIN retrieved by the client from his IRS Online Account on 09/28/2026 (taken by phone, not email). Prepare Form 8822 (paper) for the new address.",
+      "override_amount": null,
+      "proconnect_default_behavior": "Same - the IP PIN field is not validated against IRS records before transmission.",
+      "proconnect_fix": "General > Electronic Filing: Identity Protection PIN field = current 2026 IP PIN (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "Reject if stale PIN used; retransmit before 10/15/2026",
+      "status": "Signed Off",
+      "affected_lines": [],
+      "procedure_section": "E-File Rejects - IP PIN changes every year",
+      "notes": "Nothing fires before transmission; the IRS rejects after transmission (IP PIN mismatch - IND-181/IND-183 family)."
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "19. Crypto Income & Basis"
+  ]
+}

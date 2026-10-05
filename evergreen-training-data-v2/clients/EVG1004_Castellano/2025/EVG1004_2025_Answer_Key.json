@@ -1,0 +1,670 @@
+{
+  "client_id": "EVG1004",
+  "client": "Robert & Linda Castellano",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "FL - Sarasota (no state return)",
+    "complexity": "Retiree, foreign pension, FBAR"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 0,
+    "2a": 3115,
+    "2b": 4162,
+    "3a": 5208,
+    "3b": 6184,
+    "4b": 30000,
+    "5b": 41767,
+    "6b": 32640,
+    "7": 812,
+    "8": 0,
+    "9": 115565,
+    "10": 0,
+    "11": 115565,
+    "12e": 33100,
+    "13a": 0,
+    "13b": 6000,
+    "15": 76465,
+    "16": 7974,
+    "17": 0,
+    "19": 0,
+    "20": 1185,
+    "22": 6789,
+    "23": 0,
+    "24": 6789,
+    "25d": 4660,
+    "26": 7150,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 11810,
+    "34": 5021,
+    "35a": 5021,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 5021,
+  "balance_due": 0,
+  "carryforwards_to_2026": {
+    "ftc_carryforward": 1391
+  },
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 0
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 0
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 3115
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 4162
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 5208
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 6184
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 30000
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 30000
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 41767
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 41767
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 38400
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 32640
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 812
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 115565
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 115565
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 33100
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 6000
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 39100
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 76465
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 7974
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 7974
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 1185
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 1185
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 6789
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 6789
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 4660
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 4660
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 7150
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 11810
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 5021
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 5021
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Charles Schwab ****3307 - interest (corporate bonds / sweep)",
+        "amount": 2439
+      },
+      {
+        "line": "1.2",
+        "description": "Charles Schwab ****3307 - U.S. Treasury interest",
+        "amount": 1862
+      },
+      {
+        "line": "1.3",
+        "description": "Royal Bank of Canada ****4471 (CAD 42.18 @ 1.398) - foreign",
+        "amount": 30
+      },
+      {
+        "line": "1.4",
+        "description": "Accrued interest paid on purchase - Home Depot 4.90% 2029 (Schwab)",
+        "amount": -169
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 4162
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 4162
+      },
+      {
+        "line": "5.1",
+        "description": "Charles Schwab ****3307",
+        "amount": 6184
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 6184
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "Yes / Yes"
+      },
+      {
+        "line": "7b",
+        "description": "Country",
+        "amount": "Canada"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "13",
+        "description": "Capital gain distributions",
+        "amount": 812
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 812
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 812
+      }
+    ],
+    "Schedule 1-A": [
+      {
+        "line": "Part I",
+        "description": "Modified AGI",
+        "amount": 115565
+      },
+      {
+        "line": "Part V",
+        "description": "Enhanced deduction for seniors (1 x max(0, 6,000 - 6% x excess MAGI 0))",
+        "amount": 6000
+      },
+      {
+        "line": "38",
+        "description": "Total additional deductions (to Form 1040, line 13b)",
+        "amount": 6000
+      }
+    ],
+    "Form 1116": [
+      {
+        "line": "summary",
+        "description": "Category: general (pension); foreign taxes 2,575; foreign-source TI 11,359; limitation 1,185",
+        "amount": 1185
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "1",
+        "description": "Foreign tax credit",
+        "amount": 1185
+      },
+      {
+        "line": "8",
+        "description": "Total nonrefundable credits (to Form 1040, line 20)",
+        "amount": 1185
+      }
+    ]
+  },
+  "state_and_local": [],
+  "required_filings": [
+    {
+      "form": "Form 1040 (federal)",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-03-27"
+    },
+    {
+      "form": "FinCEN Form 114 (FBAR) - Linda",
+      "method": "BSA E-Filing",
+      "due": "2026-04-15 (auto-ext 2026-10-15)",
+      "filed": "2026-03-27"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1004-G1",
+      "procedure_section": "Return - Schedule A (Medicare premiums from SSA-1099)",
+      "title": "Medicare Part B/D premiums in the SSA-1099 description",
+      "trap": "Ignore the Medicare premiums (and Linda's after-tax retiree premiums) when testing itemized deductions, or use net benefits ($35,718) as box 5.",
+      "correct_treatment": "Box 5 is gross $38,400 (premiums are included in benefits). Medicare B $2,220 + D $462 and the $3,960 after-tax retiree premium go to medical on the Schedule A comparison; after the 7.5% floor, itemized total still < standard deduction -> standard.",
+      "impact": "6a/6b and itemize decision",
+      "affected_lines": [
+        "6a",
+        "12e"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1004-G2",
+      "procedure_section": "Foreign Transactions - Form 1116 (Canadian NR-4 pension)",
+      "title": "Canadian pension in CAD",
+      "trap": "Enter CAD 24,000 as USD, omit it (thinking the treaty/Canadian tax covers it), or leave it out of the taxable SS computation.",
+      "correct_treatment": "Convert at the IRS 2025 yearly average (1.398): $17,167 on lines 5a/5b; it is included in provisional income for taxable SS (85% maximum reached).",
+      "impact": "5a/5b and 6b",
+      "affected_lines": [
+        "5a",
+        "5b",
+        "6b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1004-G3",
+      "procedure_section": "Foreign Transactions - Form 1116",
+      "title": "FTC on the Canadian pension: general category, no de minimis election",
+      "trap": "Claim the $2,575 directly on Schedule 3 without Form 1116, or classify as passive.",
+      "correct_treatment": "Pension is general-category income and not 'qualified passive income' reported on a payee statement, and $2,575 > $600 -> Form 1116 required. Limitation $1,185; credit $1,185; $1,390 added to the carryforward (total $3,858).",
+      "impact": "Sch 3 line 1",
+      "affected_lines": [
+        "20",
+        "Sch 3 line 1"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1004-G4",
+      "procedure_section": "Foreign Transactions - FinCEN114/FBAR",
+      "title": "RBC chequing account -> FBAR + Schedule B Part III",
+      "trap": "Answer Schedule B line 7a 'No' (the interest is tiny) and skip FBAR, or file Form 8938.",
+      "correct_treatment": "Max value CAD 37,912 = ~$27,653 (Treasury 12/31 rate) > $10,000 -> FinCEN 114 by Linda (due 4/15, auto-extended to 10/15); Schedule B Part III Yes / Canada; RBC interest is taxable. Form 8938 not required (below MFJ thresholds).",
+      "impact": "FBAR penalty exposure",
+      "affected_lines": [
+        "Sch B Part III",
+        "FBAR"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1004-G5",
+      "procedure_section": "Return - Schedule B (accrued interest reversal)",
+      "title": "Accrued interest paid at purchase",
+      "trap": "Report box 1 interest as shown ($2,439), or treat tax-exempt interest as taxable / omit it.",
+      "correct_treatment": "Subtract $169 'Accrued interest' on Schedule B (bond bought between coupon dates). Muni interest $3,115 on line 2a (not taxable, but counts in SS provisional income).",
+      "impact": "2b overstated $169",
+      "affected_lines": [
+        "2a",
+        "2b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1004-G6",
+      "procedure_section": "Review - Client IRAs",
+      "title": "Schwab IRA year-end statement in the PBC",
+      "trap": "Autoflow the IRA's dividends ($9,812), interest ($3,105) and gains ($14,280) onto Schedules B/D.",
+      "correct_treatment": "Income inside a traditional IRA is not reported; only distributions (1099-R) are taxable.",
+      "impact": "Would overstate income ~$27,000",
+      "affected_lines": [
+        "2b",
+        "3b",
+        "7"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1004-G7",
+      "procedure_section": "Scan - Duplicate documents (corrected 1099-R) / QCD age test",
+      "title": "'QCD' by a 67-year-old; corrected 1099-R",
+      "trap": "Use both 1099-Rs (double count $30,000) and/or exclude $8,000 as a QCD per the client and the original code Y.",
+      "correct_treatment": "Use the CORRECTED 1099-R only. A QCD requires the owner to be 70 1/2 on the distribution date (Robert: 11/14/2028). The full $30,000 is taxable (4b); the $8,000 is a cash charitable contribution usable only if itemizing (it isn't beneficial). No RMD was required (RMD age 73).",
+      "impact": "4b $30,000 not $22,000 (refund lower by $894)",
+      "affected_lines": [
+        "4a",
+        "4b"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1004-G8",
+      "procedure_section": "Return - Schedule 1-A senior deduction / standard deduction age test",
+      "title": "Linda is 64 at 12/31/2025",
+      "trap": "Check both age-65 boxes (+$3,200) and claim the $6,000 senior deduction for both spouses (client says 'Linda is 65 this year').",
+      "correct_treatment": "Linda turns 65 on 03/22/2026 -> only Robert gets the $1,600 additional standard deduction and the $6,000 senior deduction (MAGI $115,565 < $150,000, no phase-out).",
+      "impact": "12e / 13b overstated $7,600",
+      "affected_lines": [
+        "12e",
+        "13b"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1004-G9",
+      "procedure_section": "Return - estimated payments",
+      "title": "Estimates + prior-year overpayment",
+      "trap": "Enter only the four $1,500 payments (or the organizer's $950 PY figure).",
+      "correct_treatment": "Line 26 = 4 x $1,500 + $1,150 2024 overpayment applied (per PY return) = $7,150.",
+      "impact": "Line 26",
+      "affected_lines": [
+        "26"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "assumptions": [
+    "FBAR Treasury 12/31/2025 CAD rate assumed 1.371",
+    "1116 line 3 apportionment includes the Sch 1-A senior deduction with the standard deduction",
+    "Canadian employer pension non-contributory -> no US investment in the contract",
+    "QD/CG adjustment exception applies for Form 1116 (no foreign-source QD/CG)"
+  ],
+  "ftc_carryforward_general_total": 3858,
+  "client_expected_qcd_refund": 5915,
+  "software_exceptions": [
+    {
+      "id": "EVG1004-SX1",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Original (code 7Y) and CORRECTED (code 7) 1099-R both AutoFlowed; 'QCD' by a 67-year-old",
+      "axcess_default_behavior": "AutoFlow created two 1099-R records ($60,000 gross, $4,400 withholding). The original carries code Y (qualified charitable distribution) and the draft excluded $8,000 as a QCD on the client's word. Axcess excludes whatever QCD amount is entered; do not rely on the software to test the 70 1/2 age requirement against the QCD input (verify behavior in current release).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Retirement Income > 1099-R: delete the original (bookmark 'superseded'); keep the CORRECTED form only - gross $30,000, taxable $30,000, code 7, withholding $2,200, QCD amount blank. Line 4b $30,000. The $8,000 church gift is a Schedule A cash contribution (standard deduction still wins).",
+      "override_amount": 30000,
+      "proconnect_default_behavior": "Same - ProConnect excludes the QCD amount entered on the 1099-R screen; a second 1099-R record doubles income.",
+      "proconnect_fix": "Pensions, IRAs (1099-R): one record from the corrected form, QCD field blank (field per current release - verify).",
+      "proconnect_reference": "Field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "4a",
+        "4b",
+        "25b"
+      ],
+      "procedure_section": "Scan - Duplicate documents (corrected 1099-R) / QCD age test",
+      "notes": "Robert reaches 70 1/2 on 11/14/2028. Refund $894 lower than the client expected; discussed 03/04."
+    },
+    {
+      "id": "EVG1004-SX2",
+      "workbook_tab": "14. Bond Interest & Premium",
+      "tab_key": "14",
+      "category": "Other",
+      "title": "Accrued interest paid on the Home Depot bond purchase not netted in box 1",
+      "axcess_default_behavior": "Box 1 interest $2,439 is AutoFlowed as reported. Schwab shows the $169 accrued interest only on a supplemental page ('not netted against box 1'), so Axcess taxes the full coupon.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Interest Income > Schwab 1099-INT: enter the accrued-interest adjustment ($169) so Schedule B shows a separate negative line 'Accrued interest' under the payer (verify field path in current release). Taxable interest $4,162.",
+      "override_amount": -169,
+      "proconnect_default_behavior": "Same - the 1099-INT box 1 amount is taxed unless an adjustment is entered.",
+      "proconnect_fix": "Interest Income screen: enter the accrued interest paid as an adjustment to the Schwab payer so Schedule B shows the subtraction (field per current release - verify).",
+      "proconnect_reference": "Field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "2b",
+        "Schedule B"
+      ],
+      "procedure_section": "Return - Schedule B (accrued interest reversal)",
+      "notes": "Muni interest $3,115 goes on line 2a (no premium reported - box 13 blank) and still counts in provisional income for taxable SS. Accrued interest = 367.50 semiannual coupon x 83/180 days (04/15-07/08, 30/360) = 169.46."
+    },
+    {
+      "id": "EVG1004-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Canadian NR-4 pension: no U.S. form, CAD amounts, Form 1116 general category with carryforward",
+      "axcess_default_behavior": "There is no 1099 to AutoFlow. The draft keyed the NR-4 at face value in CAD (24,000) and the Canadian tax as a direct foreign tax credit. Axcess calculates on the numbers entered - it does not convert currency, and a foreign tax entered without Form 1116 detail is not tested against the limitation by category.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Retirement Income: foreign pension $17,167 (CAD 24,000 / 1.398 IRS 2025 yearly average). Foreign Tax Credit (1116) worksheet: general category, Canada, income $17,167, tax $2,575 (CAD 3,600 / 1.398), no de minimis election; carryover input general category $2,468 (2023 $1,210 + 2024 $1,258). Limitation/credit $1,185; carryforward to 2026 $3,858.",
+      "override_amount": 1185,
+      "proconnect_default_behavior": "Same - amounts must be entered in USD; the credit is limited only if the Form 1116 inputs are completed.",
+      "proconnect_fix": "Pensions (foreign pension, USD) and Foreign Tax Credit (1116) screens: general category, country Canada, income and tax in USD, prior-year carryover $2,468 (screen names per current release - verify).",
+      "proconnect_reference": "Screen names per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "5a",
+        "5b",
+        "6b",
+        "20",
+        "Sch 3 line 1",
+        "Form 1116"
+      ],
+      "procedure_section": "Foreign Transactions - Form 1116 (Canadian NR-4 pension)",
+      "notes": "The pension also enters provisional income (taxable SS 85% maximum). FBAR for the RBC account is a separate filing (BSA E-Filing) and is not a 1040 calculation item."
+    },
+    {
+      "id": "EVG1004-SX4",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Schwab IRA year-end statement AutoFlowed as taxable dividends/interest/gains",
+      "axcess_default_behavior": "AutoFlow read the IRA year-end statement like a consolidated 1099 and created dividend ($9,812), interest ($3,105) and gain ($14,280) entries - about $27,197 of income earned inside a traditional IRA.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Delete the AutoFlowed entries from the IRA statement; tickmark the page 'IRA - info only'. Only the 1099-R (SX1) is reportable.",
+      "override_amount": 0,
+      "proconnect_default_behavior": "No AutoFlow equivalent in the firm's ProConnect workflow; the same error occurs only if the statement is keyed.",
+      "proconnect_fix": "Do not enter IRA-internal income; only the 1099-R.",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "2b",
+        "3b",
+        "7"
+      ],
+      "procedure_section": "Review - Client IRAs",
+      "notes": ""
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "14. Bond Interest & Premium"
+  ]
+}

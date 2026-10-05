@@ -7,7 +7,7 @@
 | EVG1001 | Marcus & Tanya Bell | MFJ | TX (no state return) | 106,763 | 69,661 | 1,084 | 5,686 | 0 | 8 | [`clients/EVG1001_Bell`](clients/EVG1001_Bell) |
 | EVG1002 | Priya Raman | HOH | IL - Naperville (full-year) | 36,463 | 12,838 | 0 | 5,141 | 0 | 8 | [`clients/EVG1002_Raman`](clients/EVG1002_Raman) |
 | EVG1003 | Daniel Okafor | S | NV - Las Vegas (no state return) | 61,471 | 17,627 | 4,351 | 0 | 201 | 8 | [`clients/EVG1003_Okafor`](clients/EVG1003_Okafor) |
-| EVG1004 | Robert & Linda Castellano | MFJ | FL - Sarasota (no state return) | 115,341 | 76,241 | 6,767 | 5,043 | 0 | 9 | [`clients/EVG1004_Castellano`](clients/EVG1004_Castellano) |
+| EVG1004 | Robert & Linda Castellano | MFJ | FL - Sarasota (no state return) | 115,565 | 76,465 | 6,789 | 5,021 | 0 | 9 | [`clients/EVG1004_Castellano`](clients/EVG1004_Castellano) |
 | EVG1005 | Jennifer Walsh | S | MI - Detroit (01/01-06/30) -> Royal Oak (07/01-12/31) | 205,555 | 189,805 | 38,610 | 3,850 | 0 | 9 | [`clients/EVG1005_Walsh`](clients/EVG1005_Walsh) |
 | EVG1006 | Carlos & Maria Mendoza | MFJ | TX (no state return) | 91,743 | 48,194 | 12,276 | 604 | 0 | 9 | [`clients/EVG1006_Mendoza`](clients/EVG1006_Mendoza) |
 | EVG1007 | Dr. Aisha Rahman | S | IL (Chicago) - full-year resident | 552,750 | 479,825 | 133,340 | 0 | 32,759 | 9 | [`clients/EVG1007_Rahman`](clients/EVG1007_Rahman) |

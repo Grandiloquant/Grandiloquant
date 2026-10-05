@@ -1,0 +1,580 @@
+{
+  "client_id": "EVG1003",
+  "client": "Daniel Okafor",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "NV - Las Vegas (no state return)",
+    "complexity": "W-2 tipped + Schedule C rideshare"
+  },
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 46000,
+    "2a": 0,
+    "2b": 0,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": 16647,
+    "9": 62647,
+    "10": 1176,
+    "11": 61471,
+    "12e": 15750,
+    "13a": 3094,
+    "13b": 25000,
+    "15": 17627,
+    "16": 1877,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 1877,
+    "23": 2474,
+    "24": 4351,
+    "25d": 3150,
+    "26": 1000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 4150,
+    "34": 0,
+    "35a": 0,
+    "37": 201
+  },
+  "deduction_type": "Standard",
+  "refund": 0,
+  "balance_due": 201,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 44400
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 1600
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 46000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 0
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 16647
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 62647
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 1176
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 61471
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 15750
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 3094
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 25000
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 43844
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 17627
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 1877
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 1877
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 1877
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 2474
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 4351
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 3150
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 3150
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 1000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 4150
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 0
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 0
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 201
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "3",
+        "description": "Business income or (loss) - Schedule C",
+        "amount": 16647
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 16647
+      },
+      {
+        "line": "15",
+        "description": "Deductible part of self-employment tax (Schedule SE)",
+        "amount": 1176
+      },
+      {
+        "line": "26",
+        "description": "Total adjustments to income (to Form 1040, line 10)",
+        "amount": 1176
+      }
+    ],
+    "Schedule 1-A": [
+      {
+        "line": "Part I",
+        "description": "Modified AGI",
+        "amount": 61471
+      },
+      {
+        "line": "Part II",
+        "description": "Qualified tips deduction (qualified tips 29,060, occupation: Bartenders (W-2) / Rideshare drivers (Sch C))",
+        "amount": 25000
+      },
+      {
+        "line": "38",
+        "description": "Total additional deductions (to Form 1040, line 13b)",
+        "amount": 25000
+      }
+    ],
+    "Form 8995": [
+      {
+        "line": "Uber rideshare (Sch C)",
+        "description": "QBI 15,471; component (below threshold: 20% x QBI)",
+        "amount": 3094
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 20,721 - net capital gain & qualified dividends 0)",
+        "amount": 4144
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 3094
+      }
+    ],
+    "Schedule SE": [
+      {
+        "line": "T",
+        "description": "Net earnings 15,374; SS 1,906; Medicare 446; half deductible 1,176",
+        "amount": 2352
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "4",
+        "description": "Self-employment tax (Schedule SE)",
+        "amount": 2352
+      },
+      {
+        "line": "5",
+        "description": "Social security and Medicare tax on unreported tip income (Form 4137)",
+        "amount": 122
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 2474
+      }
+    ]
+  },
+  "state_and_local": [],
+  "required_filings": [
+    {
+      "form": "Form 1040 (federal)",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-03-11"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1003-G1",
+      "procedure_section": "Scan - Unstructured PBC (handwritten statements)",
+      "title": "Allocated tips (W-2 box 8) vs actual tip diary",
+      "trap": "Add W-2 box 8 allocated tips $2,900 to wages (line 1c) and Form 4137, or ignore unreported tips entirely.",
+      "correct_treatment": "Allocated tips are not in box 1. With adequate daily records (contemporaneous tip diary) the taxpayer reports ACTUAL unreported tips - $1,600 - on line 1c and Form 4137 instead of the $2,900 allocation. Document the judgment in the WP.",
+      "impact": "Line 1c $1,600 (not $2,900 or $0)",
+      "affected_lines": [
+        "1c",
+        "Form 4137"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1003-G2",
+      "procedure_section": "Return - Form 4137 / Schedule 2",
+      "title": "SS/Medicare on unreported tips",
+      "trap": "Report the $1,600 as wages without Form 4137 (no FICA) or compute SE tax on it.",
+      "correct_treatment": "Form 4137: 6.2% + 1.45% on $1,600 = $122 on Schedule 2 line 5; tips also count toward the SS wage base on Schedule SE line 8b.",
+      "impact": "Schedule 2 line 5 $122",
+      "affected_lines": [
+        "23",
+        "Sch 2 line 5"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1003-G3",
+      "procedure_section": "Scan - Unstructured PBC (Schedule C records / handwritten mileage log)",
+      "title": "Commuting miles in the mileage log",
+      "trap": "Use the client's 19,325 'total biz' miles (includes 4,180 miles driving to the casino bartending job).",
+      "correct_treatment": "Driving between home and the W-2 job is commuting. Business miles = Uber online miles 15,145 x $0.70 = $10,602 + tolls.",
+      "impact": "Car expense overstated $2,926",
+      "affected_lines": [
+        "Sch C line 9"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1003-G4",
+      "procedure_section": "Return - Schedule C (1099-K gross vs net)",
+      "title": "Rideshare 1099-K gross includes Uber fees and tips",
+      "trap": "Report net deposits ($28,730) as gross receipts, or report the 1099-K gross without deducting the Uber service/booking fees; or omit the 1099-NEC incentives / count the duplicate 1099-K twice.",
+      "correct_treatment": "Gross receipts = 1099-K $38,720 + 1099-NEC $1,150 = $39,870; deduct Uber service fee, booking and airport fees ($11,140) on line 10. Second 1099-K upload is a duplicate.",
+      "impact": "Schedule C net",
+      "affected_lines": [
+        "Sch C line 1",
+        "Sch C line 10"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1003-G5",
+      "procedure_section": "Return - OBBBA no tax on tips (Schedule 1-A Part II)",
+      "title": "Qualified tips from W-2, 4137 and Schedule C",
+      "trap": "Deduct only W-2 box 7 (or include allocated tips), and exceed the $25,000 cap.",
+      "correct_treatment": "Qualified tips = box 7 $24,600 + Form 4137 $1,600 + rider tips $2,860 (rideshare driver is a listed occupation; SE tips limited to Schedule C net) = $29,060, capped at $25,000. Unreported allocated tips never qualify.",
+      "impact": "Line 13b $25,000",
+      "affected_lines": [
+        "13b"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1003-G6",
+      "procedure_section": "Return - Schedule C / standard mileage",
+      "title": "Actual car costs claimed on top of standard mileage",
+      "trap": "Deduct gas, insurance and oil changes from the organizer in addition to 70 cents/mile.",
+      "correct_treatment": "Standard mileage rate replaces operating costs (gas, insurance, maintenance, depreciation); only tolls/parking added. Standard mileage was elected in the first business-use year (2024), so it may continue.",
+      "impact": "Schedule C overstated $6,490",
+      "affected_lines": [
+        "Sch C line 9"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1003-G7",
+      "procedure_section": "Return - Schedule SE / QBI",
+      "title": "SE tax and QBI on rideshare profit",
+      "trap": "Skip SE tax because the W-2 already has FICA, or compute QBI on net profit without the 1/2 SE tax reduction.",
+      "correct_treatment": "SE tax on $16,647 x 92.35% = $2,352 (SS base not reached); QBI = net - 1/2 SE = $15,471 -> $3,094 deduction.",
+      "impact": "Schedule 2 line 4 / line 13a",
+      "affected_lines": [
+        "23",
+        "13a",
+        "10"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1003-G8",
+      "procedure_section": "Return - Form 2210 (estimated tax)",
+      "title": "Only 2 of 4 estimated payments made",
+      "trap": "Compute an underpayment penalty for the missed September and January installments, or skip the 2210 analysis.",
+      "correct_treatment": "Required annual payment = smaller of 90% of 2025 tax ($3,916) or 100% of 2024 tax ($3,159) = $3,159. Withholding is treated as paid evenly; with the April and June $500 payments every cumulative installment is covered -> no penalty, Form 2210 not required.",
+      "impact": "Line 38 $0",
+      "affected_lines": [
+        "38"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [],
+  "form_2210": {
+    "required_annual_payment": 3159,
+    "penalty": 0,
+    "tax_after_withholding": 1201
+  },
+  "software_exceptions": [
+    {
+      "id": "EVG1003-SX1",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "W-2 box 8 allocated tips flow to Form 4137 in full - actual tips per diary are $1,600",
+      "axcess_default_behavior": "Keying W-2 box 8 ($2,900 allocated tips) makes Axcess report the full allocation as unreported tip income on line 1c and compute Form 4137 on it (the first draft did exactly this). The software has no way to know the taxpayer kept adequate daily records of actual tips.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "W-2 input: leave box 8 as reported on the W-2 for matching, and use the Form 4137 unreported-tips override (verify field path in current release) to report actual unreported tips $1,600 instead of the $2,900 allocation. Form 4137 tax $122 (7.65%). Tip diary (WP 6) and client confirmation (02/18 email) retained.",
+      "override_amount": 1600,
+      "proconnect_default_behavior": "Same default - allocated tips from box 8 are treated as unreported tips on Form 4137.",
+      "proconnect_fix": "W-2 / Form 4137 inputs: enter actual unreported tips $1,600 as the Form 4137 amount (override of the allocated amount - field per current release - verify); document the override.",
+      "proconnect_reference": "Intuit help: 'Using overrides and adjustments in ProConnect Tax' (document overrides); field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "1c",
+        "Form 4137",
+        "Sch 2 line 5"
+      ],
+      "procedure_section": "Scan - Unstructured PBC (handwritten statements)",
+      "notes": "Position depends on adequate contemporaneous records; without the diary the $2,900 allocation would be reported."
+    },
+    {
+      "id": "EVG1003-SX2",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Duplicate Uber 1099-K ('(1)' download) doubled Schedule C gross receipts",
+      "axcess_default_behavior": "AutoFlow picked up the 1099-K twice (original download and a '(1)' re-download - same form) and both records feed Schedule C line 1: gross receipts $78,590 instead of $39,870, with SE tax and QBI following.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Business Income (Schedule C) > 1099-K input: delete the duplicate record; bookmark the '(1)' file DUP. Gross receipts = 1099-K $38,720 + 1099-NEC incentives $1,150 = $39,870; Uber service/booking/airport fees $11,140 on line 10.",
+      "override_amount": 39870,
+      "proconnect_default_behavior": "Same overstatement if both copies are keyed or imported (import options per current release - verify).",
+      "proconnect_fix": "Schedule C gross receipts: one 1099-K ($38,720) plus the 1099-NEC ($1,150). Tie to bank deposits $28,730 + fees $11,140 before finalizing.",
+      "proconnect_reference": "Screen name per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Sch C line 1",
+        "Sch C line 10",
+        "23",
+        "13a"
+      ],
+      "procedure_section": "Return - Schedule C (1099-K gross vs net)",
+      "notes": ""
+    },
+    {
+      "id": "EVG1003-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Schedule 1-A no-tax-on-tips: software uses only the qualified tips it is given",
+      "axcess_default_behavior": "The first draft deducted W-2 box 7 only ($24,600). Axcess cannot identify the rider tips buried inside the Uber 1099-K gross, and it does not know whether the Form 4137 tips are qualified - they must be entered as qualified tips.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Schedule 1-A qualified tips inputs (W-2 and Schedule C activity - verify field paths in current release): W-2 social-security tips $24,600 + Form 4137 tips $1,600 + rideshare rider tips $2,860 (limited to Schedule C net $16,647 - not limiting) = $29,060; deduction capped at $25,000. Occupation: bartender / rideshare driver (both on Treasury's list). MAGI $61,471 < $150,000.",
+      "override_amount": 25000,
+      "proconnect_default_behavior": "Same - computed from the qualified tip amounts entered on each source screen.",
+      "proconnect_fix": "Enter qualified tips on the W-2 / Form 4137 and Schedule C (rideshare) Schedule 1-A inputs; confirm line 13b $25,000 (screen/field per current release - verify).",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "13b",
+        "Schedule 1-A Part II"
+      ],
+      "procedure_section": "Return - OBBBA no tax on tips (Schedule 1-A Part II)",
+      "notes": "Allocated tips (box 8) never qualify. The deduction does not reduce SE tax or the Form 4137 FICA."
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log"
+  ]
+}

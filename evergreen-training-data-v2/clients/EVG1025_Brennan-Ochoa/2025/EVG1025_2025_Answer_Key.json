@@ -1,0 +1,882 @@
+{
+  "client_id": "EVG1025",
+  "client": "Victor & Lena Brennan-Ochoa",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "TX - Houston (no state income tax)",
+    "complexity": "International tier - CFC/962, reorg, 1259"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 180000,
+    "2a": 0,
+    "2b": 1850,
+    "3a": 12000,
+    "3b": 12000,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 415000,
+    "8": 0,
+    "9": 608850,
+    "10": 0,
+    "11": 608850,
+    "12e": 31500,
+    "13a": 0,
+    "13b": 0,
+    "15": 577350,
+    "16": 89241,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 89241,
+    "23": 13636,
+    "24": 102877,
+    "25d": 35600,
+    "26": 40000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 25000,
+    "33": 100600,
+    "34": 0,
+    "35a": 0,
+    "37": 2277
+  },
+  "deduction_type": "Standard",
+  "refund": 0,
+  "balance_due": 2277,
+  "carryforwards_to_2026": {
+    "meridian_basis_2000_sh_after_1259": 190000,
+    "meridian_basis_8000_sh": 160000,
+    "section_962_ptep_usd": 1018400
+  },
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 180000
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 180000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 1850
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 12000
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 12000
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 415000
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 608850
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 608850
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 31500
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 31500
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 577350
+      },
+      {
+        "line": "16",
+        "description": "Tax (incl. Section 962 election tax (Ochoa Engineering Ltd.) - statement attached)",
+        "amount": 89241
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 89241
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 89241
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 13636
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 102877
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 32000
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 3600
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 35600
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 40000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 25000
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 25000
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 100600
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 0
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 0
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 2277
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Bayou City Bank",
+        "amount": 1850
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 1850
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 1850
+      },
+      {
+        "line": "5.1",
+        "description": "Atlas Clearing Corp. - reported on Form 1042-S (income code 06; U.S. citizen - see statement)",
+        "amount": 12000
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 12000
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "Yes / Yes"
+      },
+      {
+        "line": "7b",
+        "description": "Country",
+        "amount": "Ireland"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box E)": [
+      {
+        "line": "1",
+        "description": "Gulf Coast Dental Labs, Inc. 1,800 sh - cash boot in IRC 368(a)(1)(A) merger into Meridian; gain recognized = lesser of boot 300,000 or realized gain 1,000,000 (IRC 356(a)(1)); statement attached | acq 03/15/2012 | sold 06/20/2025 | proceeds 300,000 | basis 0 | code  adj 0",
+        "amount": 300000
+      }
+    ],
+    "Form 8949 (Box F)": [
+      {
+        "line": "2",
+        "description": "VBO Holdings, Inc. 1,000 sh - complete liquidation (IRC 331) - 1099-DIV box 9 | acq 05/09/2016 | sold 11/14/2025 | proceeds 85,000 | basis 120,000 | code  adj 0",
+        "amount": -35000
+      },
+      {
+        "line": "3",
+        "description": "Meridian Dental Holdings 2,000 sh - CONSTRUCTIVE SALE (IRC 1259) - short against the box 12/10/2025 @ $95; holding period includes GCDL (2012) | acq 03/15/2012 | sold 12/10/2025 | proceeds 190,000 | basis 40,000 | code  adj 0",
+        "amount": 150000
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "LT box E",
+        "description": "Long-term from Form 8949 box E (proceeds 300,000; cost 0; adj 0)",
+        "amount": 300000
+      },
+      {
+        "line": "LT box F",
+        "description": "Long-term from Form 8949 box F (proceeds 275,000; cost 160,000; adj 0)",
+        "amount": 115000
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 415000
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 415000
+      }
+    ],
+    "Itemized vs. standard comparison (Schedule A not filed)": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 45664
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 14800
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 14800
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($10,000 after MAGI phase-down)",
+        "amount": 10000
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 10000
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 9613
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 9613
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 9613
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 6000
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 6000
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 25613
+      }
+    ],
+    "Line 16 statement": [
+      {
+        "line": "Section 962 election tax (Ochoa Engineering Ltd.) - statement attached",
+        "description": "Section 962 election tax (Ochoa Engineering Ltd.) - statement attached",
+        "amount": 2286
+      },
+      {
+        "line": "regular",
+        "description": "Regular tax on taxable income (tax table / worksheets)",
+        "amount": 86955
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 428850
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 428850
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 608,850 over threshold 250,000",
+        "amount": 358850
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 13636
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 13636
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 13636
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "10",
+        "description": "Amount paid with request for extension to file (Form 4868)",
+        "amount": 25000
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 25000
+      }
+    ]
+  },
+  "state_and_local": [],
+  "required_filings": [
+    {
+      "form": "Form 4868",
+      "filed": "2026-04-14",
+      "payment": 25000
+    },
+    {
+      "form": "Form 1040 incl. 5471, 8992, 8993, 8938, 8960, 962 statement, 1042-S copy",
+      "method": "paper - certified mail (Where To File address for TX)",
+      "due": "2026-10-15",
+      "filed": "2026-09-24"
+    },
+    {
+      "form": "FinCEN 114 (FBAR)",
+      "method": "BSA E-Filing",
+      "due": "2026-10-15 (automatic extension)",
+      "filed": "2026-09-22"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1025-G1",
+      "procedure_section": "Foreign Corps (GILTI / section 962)",
+      "title": "Section 962 tax computation and line 16 presentation",
+      "trap": "Add the $400,000 GILTI to AGI and tax it at ordinary rates (no election); or apply 21% to $400,000 with no gross-up / no section 250 deduction / no deemed-paid credit; or add the 962 tax on Schedule 2.",
+      "correct_treatment": "962 election: (400,000 + 57,143 gross-up) - 50% IRC 250 deduction = 228,572 x 21% = 48,000 - 80% deemed-paid credit 45,714 = $2,286, on line 16 with a statement; inclusion not in AGI (presentation stated as an assumption to verify). Election statement + Forms 5471/8992/8993 + pro-forma 1118.",
+      "impact": "Without the election federal income tax is $125,391 higher",
+      "affected_lines": [
+        "16",
+        "Form 8992",
+        "Form 8993"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1025-G2",
+      "procedure_section": "Foreign Corps (Form 5471 / 926)",
+      "title": "CFC information returns",
+      "trap": "Only attach the 962 statement; or file Form 926 for the Irish company.",
+      "correct_treatment": "Victor is a 100% U.S. shareholder of a CFC -> Form 5471 Categories 4 and 5 (Schedules incl. I-1, J, P, Q, R), Form 8992, Form 8993. No transfers to the CFC in 2025 -> no Form 926. Form 8938 also required (CFC stock is a specified foreign financial asset - excepted, reported on 5471).",
+      "impact": "$10,000 per-form penalty exposure",
+      "affected_lines": [
+        "Form 5471",
+        "Form 8938"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1025-G3",
+      "procedure_section": "FinCEN114/FBAR",
+      "title": "Company's Irish bank account - 'not my money'",
+      "trap": "No FBAR and Schedule B 7a 'No' (as the prior preparer did), because the account is owned by the company.",
+      "correct_treatment": "A U.S. person who owns > 50% of a corporation has a financial interest in its foreign accounts, and Victor also has signature authority -> FBAR required (max EUR 310,000), Schedule B line 7a Yes / Ireland. 2022-2024 FBARs missing - delinquent FBAR procedures (separate engagement).",
+      "impact": "Penalty exposure",
+      "affected_lines": [
+        "Sch B 7a",
+        "FBAR"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1025-G4",
+      "procedure_section": "Schedule D (reorganization boot)",
+      "title": "Merger cash boot - 1099-B shows $300,000 proceeds, no basis",
+      "trap": "Report $1.2M amount realized (gain $1,000,000); or offset the $200,000 basis against the cash (gain $100,000); or treat the boot as a dividend.",
+      "correct_treatment": "IRC 356(a)(1): gain recognized = lesser of boot $300,000 or realized gain $1,000,000 = $300,000 LTCG (basis 0 on 8949 box E with statement). Clark: hypothetical redemption of Meridian stock is a meaningful reduction -> capital, not dividend. Meridian basis $200,000 ($20/sh), holding period from 2012.",
+      "impact": "Gain over/understated $200,000-$700,000",
+      "affected_lines": [
+        "7",
+        "Form 8949 box E"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1025-G5",
+      "procedure_section": "Schedule D",
+      "title": "Liquidating distribution on Form 1099-DIV box 9",
+      "trap": "Report $85,000 as a dividend, or ignore box 9 (no 1099-B) and miss the loss.",
+      "correct_treatment": "Box 9 is a liquidating distribution - IRC 331 exchange treatment: 85,000 - basis 120,000 = ($35,000) long-term capital loss (held since 2016), Form 8949 box F.",
+      "impact": "$35,000 loss omitted",
+      "affected_lines": [
+        "7",
+        "Form 8949 box F"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1025-G6",
+      "procedure_section": "Schedule D (constructive sale)",
+      "title": "Short against the box - IRC 1259",
+      "trap": "Nothing in 2025 (no 1099-B; advisor said no tax until closed); report the gain in 2026.",
+      "correct_treatment": "Shorting substantially identical stock against an appreciated long position is a constructive sale on 12/10/2025; the 30-day closing exception is not met (closed 03/15/2026). LTCG 2,000 x ($95 - $20) = $150,000 in 2025 (holding period tacks). New basis $95/share - adjust the 2026 1099-B so the gain is not taxed twice.",
+      "impact": "Gain understated $150,000",
+      "affected_lines": [
+        "7",
+        "Form 8949 box F"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1025-G7",
+      "procedure_section": "Paper Filing Returns / E-File Rejects",
+      "title": "Form 1042-S issued to a U.S. citizen",
+      "trap": "Ignore the 1042-S (dividends 'already taxed') or omit the $3,600 credit; or try to e-file anyway.",
+      "correct_treatment": "Dividends $12,000 taxable on Schedule B / line 3 (qualified - long-held domestic stock); 30% withholding $3,600 credited on line 25c. A 1040 claiming 1042-S withholding can't be e-filed in ProConnect (firm policy: paper file in either package) -> paper return with the 1042-S copy attached; W-9 to the broker.",
+      "impact": "$3,600 credit; e-file rejection",
+      "affected_lines": [
+        "3b",
+        "25c"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1025-G8",
+      "procedure_section": "NIIT",
+      "title": "Net investment income - gains, 962 inclusion, MAGI limb",
+      "trap": "Include the $400,000 GILTI in NII/MAGI; or skip NIIT because the gains are 'reorganization' gains.",
+      "correct_treatment": "NII = interest + dividends + net gains $415,000 = $428,850; MAGI $608,850 - 250,000 = $358,850 is smaller -> NIIT $13,636. The 962 inclusion is not NII and not in AGI (Reg. 1.1411-10; no (g) election).",
+      "impact": "NIIT $13,636",
+      "affected_lines": [
+        "23",
+        "Form 8960"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1025-G9",
+      "procedure_section": "Schedule A (SALT cap phase-down)",
+      "title": "Itemize vs standard with MAGI > $500,000",
+      "trap": "Itemize using $14,800 property tax + mortgage + charity (> $31,500 if the SALT cap is taken as $40,000).",
+      "correct_treatment": "MAGI $608,850 > $500,000 -> SALT cap 40,000 - 30% x excess, floored at $10,000. Itemized = 10,000 + 9,613 + 6,000 = $25,613 < standard $31,500 -> standard deduction.",
+      "impact": "Deduction",
+      "affected_lines": [
+        "12e"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [
+    "Itemized deductions $25,613 < standard deduction $31,500; standard deduction used."
+  ],
+  "section_962": {
+    "tested_income": 400000,
+    "gilti": 400000,
+    "gross_up": 57143,
+    "s250": 228572,
+    "taxable": 228572,
+    "tax_21pct": 48000,
+    "deemed_paid_credit": 45714,
+    "s962_tax": 2286,
+    "income_tax_without_election": 214632,
+    "saving": 125391
+  },
+  "reorg_356": {
+    "realized": 1000000,
+    "recognized": 300000,
+    "new_basis": 200000,
+    "per_share": 20.0
+  },
+  "liquidation_331": -35000,
+  "constructive_sale_1259": 150000.0,
+  "form_1042s": {
+    "dividends": 12000.0,
+    "withholding_25c": 3600.0
+  },
+  "assumptions": [
+    "Form 1040 line 16 presentation of the section 962 tax with the inclusion excluded from AGI - verify against current instructions",
+    "Atlas dividends treated as qualified (domestic C-corp stock held since 2019)",
+    "2025 section 250 deduction rate for GILTI 50%"
+  ],
+  "software_exceptions": [
+    {
+      "id": "EVG1025-SX1",
+      "workbook_tab": "24. Rare-Event Log",
+      "tab_key": "24",
+      "category": "Other",
+      "title": "Section 962 election - GILTI tax computed outside the 1040 engine, $2,286 on line 16",
+      "axcess_default_behavior": "If the Form 8992 GILTI inclusion ($400,000) is entered as income, Axcess taxes it at individual ordinary rates with no section 250 deduction and no deemed-paid credit - about $125,391 more income tax. The 1040 engine does not compute the corporate-rate 962 tax or the IRC 960(d) credit.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "International specialist workpaper (workbook tab 24): (400,000 + 57,143 gross-up) - 50% IRC 250 = 228,571.50 x 21% = 48,000 - 80% deemed-paid credit 45,714 = 2,286. Do not carry the 951A inclusion to Schedule 1 (not in AGI under the election - presentation assumption to verify). Enter 2,286 as additional tax included on Form 1040 line 16 with the 962 election statement and pro-forma 1120/1118 attached (Taxes > other tax / line 16 adjustment - verify field path in current release); document the override amount.",
+      "override_amount": 2286,
+      "proconnect_default_behavior": "ProConnect does not compute the section 962 tax; Form 1118 is not available.",
+      "proconnect_fix": "Practitioner workaround (verify): prepare the pro-forma 1120/1118/8992/8993 outside the software and enter the computed 962 tax on screen 45.3 (Other Taxes) through the 'Section 962 tax' adjustment. Community guidance describes it as a NEGATIVE adjustment where the inclusion has been entered as income, so that net tax equals the 962 computation. For this return the inclusion is not entered as income; confirm the sign convention so line 16 = regular tax 86,955 + 2,286 = 89,241 and attach the statement as a PDF.",
+      "proconnect_reference": "Intuit Accountants Community thread on section 962 election / Form 8992 (practitioner workaround - verify)",
+      "efile_impact": "Return is paper filed anyway (see SX6); statement and pro-forma forms attached to the paper return",
+      "status": "Signed Off",
+      "affected_lines": [
+        "16",
+        "Line 16 statement",
+        "Form 8992",
+        "Form 8993"
+      ],
+      "procedure_section": "Foreign Corps",
+      "notes": "Override amount documented per Intuit 'Using overrides and adjustments in ProConnect Tax'. Future PTEP distributions taxable under IRC 962(d) to the extent they exceed 962 tax paid."
+    },
+    {
+      "id": "EVG1025-SX2",
+      "workbook_tab": "24. Rare-Event Log",
+      "tab_key": "24",
+      "category": "Other",
+      "title": "Form 5471 (Cat 4/5), Form 8992 / 8993 and pro-forma Form 1118 - specialist workpaper, not the 1040 engine",
+      "axcess_default_behavior": "The 1040 module prepares the information returns only from what is keyed into the 5471/8992/8993 inputs; the GILTI high-tax test, tested income, QBAI and the 962 deemed-paid credit (Form 1118 is a corporate form) are not computed from the Irish accountants' package.",
+      "axcess_diagnostic": "Completeness diagnostics only for keyed 5471/8992 inputs (gist - verify); the GILTI/962 amounts themselves are not tested",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Key Form 5471 Categories 4 and 5 (Schedules C, E, F, H, I-1, J, P, Q, R, M) and Form 8992 Schedule A from the re-performed Kinsale & Murphy package (tested income 400,000; QBAI 0; tested foreign income taxes 57,143). Form 8993 and the pro-forma 1118 are part of the 962 statement (tab 24, row 2). No Form 926 (no 2025 transfers).",
+      "override_amount": 400000,
+      "proconnect_default_behavior": "Form 1118 is not available in ProConnect; practitioners prepare pro-forma 1120/1118/8992/8993 for the 962 election.",
+      "proconnect_fix": "Prepare the 962 pro-forma set outside ProConnect; whether ProConnect's Form 5471 output is adequate for Categories 4/5 is not relied on - verify in the current release or prepare 5471 in the firm's international software and attach to the paper return.",
+      "proconnect_reference": "Intuit Accountants Community thread on section 962 election / Form 8992",
+      "efile_impact": "Attached to the paper return",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Form 5471",
+        "Form 8992",
+        "Form 8993",
+        "Form 8938 Part IV"
+      ],
+      "procedure_section": "Foreign Corps",
+      "notes": "Form 8938 also filed: CFC stock is a specified foreign financial asset, excepted because reported on Form 5471."
+    },
+    {
+      "id": "EVG1025-SX3",
+      "workbook_tab": "22. Reorg, Liquidation, 1244",
+      "tab_key": "22",
+      "category": "Capital Loss",
+      "title": "Merger cash boot - exchange agent 1099-B: $300,000 proceeds, no basis, no acquisition date",
+      "axcess_default_behavior": "Axcess imports the 1099-B with blank basis and blank date acquired. Missing basis is treated as zero, so the gain is $300,000 - numerically right only by coincidence - but with no acquisition date the term is not established and the IRC 356 support is missing. The common manual 'fix' (basis 200,000 -> gain 100,000) is wrong.",
+      "axcess_diagnostic": "Possibly an informational missing-basis / date-acquired message (gist - verify); the $300,000 gain itself calculates without any IRC 356 check",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Workbook tab 22 (Reorg Boot row): realized 1,000,000; recognized = lesser of boot or realized = 300,000; Clark -> capital. Capital Gains worksheet: date acquired 03/15/2012, basis 0 entered explicitly, long-term, box E, statement attached. Record Meridian basis 200,000 ($20/share) in the client's basis schedule.",
+      "override_amount": 300000,
+      "proconnect_default_behavior": "Same - blank basis treated as zero; term needs the acquisition date.",
+      "proconnect_fix": "Dispositions: enter the transaction with date acquired 03/15/2012, cost 0, long-term, box E, and attach the IRC 356 statement (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None (return paper filed for SX6)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 8949 box E"
+      ],
+      "procedure_section": "Schedule D",
+      "notes": ""
+    },
+    {
+      "id": "EVG1025-SX4",
+      "workbook_tab": "22. Reorg, Liquidation, 1244",
+      "tab_key": "22",
+      "category": "Capital Loss",
+      "title": "VBO Holdings liquidation - 1099-DIV box 9 creates no Form 8949 line",
+      "axcess_default_behavior": "Box 9 (cash liquidation distributions) is informational on the dividend input - Axcess cannot know Victor's stock basis, so no gain/loss is computed. If keyed as box 1a it becomes an $85,000 dividend. Either way the $35,000 IRC 331 loss is missing.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Workbook tab 22 (Liquidation row). Capital Gains worksheet: VBO Holdings, Inc., acquired 05/09/2016, sold 11/14/2025, proceeds 85,000, cost 120,000 -> (35,000) LT, box F.",
+      "override_amount": -35000,
+      "proconnect_default_behavior": "Same - the 1099-DIV box 9 entry does not create a disposition.",
+      "proconnect_fix": "Dispositions: add the liquidation as a sale (proceeds 85,000, cost 120,000, LT, box F) (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 8949 box F"
+      ],
+      "procedure_section": "Schedule D",
+      "notes": ""
+    },
+    {
+      "id": "EVG1025-SX5",
+      "workbook_tab": "22. Reorg, Liquidation, 1244",
+      "tab_key": "22",
+      "category": "Capital Loss",
+      "title": "Constructive sale (IRC 1259) - short against the box with no 2025 1099-B",
+      "axcess_default_behavior": "Nothing is reported for 2025: the short sale is reported on a 1099-B only in 2026 when closed. Axcess has no information that a constructive sale occurred - $150,000 of 2025 gain is omitted. In 2026 the 1099-B will show unknown basis and the same gain would be taxed again.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Workbook tab 22 (Constructive Sale row). Capital Gains worksheet: Meridian 2,000 sh, acquired 03/15/2012 (tacked), transaction date overridden to the constructive-sale date 12/10/2025, proceeds 190,000, cost 40,000 -> 150,000 LT, box F. 2026 proforma note: basis of the 2,000 shares 190,000 (code B adjustment).",
+      "override_amount": 150000,
+      "proconnect_default_behavior": "Same - no 2025 document; nothing reported unless entered manually.",
+      "proconnect_fix": "Dispositions: enter the deemed sale (date sold 12/10/2025, proceeds 190,000, cost 40,000, LT, box F) with an explanatory statement; carry the $95/share basis to 2026 (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 8949 box F"
+      ],
+      "procedure_section": "Schedule D",
+      "notes": ""
+    },
+    {
+      "id": "EVG1025-SX6",
+      "workbook_tab": "ProConnect-only",
+      "tab_key": "PC",
+      "category": "E-file Disqualifying",
+      "title": "Form 1042-S withholding on a U.S. citizen's 1040 - paper filing required",
+      "axcess_default_behavior": "Axcess: verify MeF support for claiming Form 1042-S withholding on a Form 1040; firm policy is paper filing with the 1042-S copy attached. The dividends must be keyed as ordinary/qualified dividends (no 1099-DIV was issued).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Dividends input: Atlas Clearing 12,000 ordinary / 12,000 qualified; withholding input: 3,600 federal tax withheld from Form 1042-S -> line 25c (verify field path in current release). Mark the return for paper filing; attach the 1042-S.",
+      "override_amount": 3600,
+      "proconnect_default_behavior": "Form 1042-S is not supported in the e-file of Form 1040 (only 1040-NR supports 1042-S) - per Intuit, returns claiming 1042-S withholding must be paper filed.",
+      "proconnect_fix": "Enter the 1042-S dividends and withholding, suppress e-file and paper file the 1040 with a copy of the 1042-S attached. Client to give the broker a Form W-9.",
+      "proconnect_reference": "Intuit help: e-file diagnostic Ref 47040/47039/47310 for Form 1042-S",
+      "efile_impact": "Paper filing required (ProConnect); firm policy paper in Axcess as well",
+      "status": "Signed Off",
+      "affected_lines": [
+        "3a",
+        "3b",
+        "25c"
+      ],
+      "procedure_section": "Paper Filing Returns",
+      "notes": ""
+    },
+    {
+      "id": "EVG1025-SX7",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "FBAR / Schedule B line 7a - CFC's Irish bank account (financial interest + signature authority)",
+      "axcess_default_behavior": "Schedule B Part III and the FBAR are driven by the foreign-account questions and FBAR inputs; with no 1099 for the account the software has nothing to trigger them. The proforma (prior preparer) answer 'No' carries forward.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "General > foreign accounts question: Yes; country Ireland. FBAR (FinCEN 114) filed separately through BSA E-Filing - AIB ****4471, max EUR 310,000, owner Ochoa Engineering Ltd. (Victor > 50% owner and signatory).",
+      "override_amount": "EUR 310,000 max",
+      "proconnect_default_behavior": "Same - question-driven; ProConnect does not file the FBAR.",
+      "proconnect_fix": "Schedule B foreign account question = Yes / Ireland; FBAR filed through BSA E-Filing outside the return (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None (FBAR filed separately)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Sch B line 7a/7b",
+        "FinCEN 114"
+      ],
+      "procedure_section": "FinCEN114/FBAR",
+      "notes": "Prior-year (2022-2024) FBARs not filed by the prior preparer - delinquent FBAR procedures (separate engagement)."
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "22. Reorg, Liquidation, 1244",
+    "24. Rare-Event Log",
+    "ProConnect-only"
+  ]
+}

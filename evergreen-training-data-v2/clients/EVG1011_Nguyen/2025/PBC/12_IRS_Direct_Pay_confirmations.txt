@@ -1,0 +1,7 @@
+IRS Direct Pay - payment confirmations (copied from emails)
+
+04/15/2025  Estimated tax (1040ES) tax year 2025  $5,500.00  confirmation EFT-2025-88100
+06/16/2025  Estimated tax (1040ES) tax year 2025  $5,500.00  confirmation EFT-2025-88101
+09/15/2025  Estimated tax (1040ES) tax year 2025  $5,500.00  confirmation EFT-2025-88102
+01/15/2026  Estimated tax (1040ES) tax year 2025  $5,500.00  confirmation EFT-2025-88103
+04/14/2026  Extension (Form 4868) payment tax year 2025  $12,000.00  confirmation EFT-2026-04412

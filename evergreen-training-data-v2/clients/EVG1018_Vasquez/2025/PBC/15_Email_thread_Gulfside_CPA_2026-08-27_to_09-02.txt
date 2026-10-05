@@ -1,0 +1,21 @@
+From: preparer@evergreentax.example
+To: Mark Tillman <mtillman@gulfsidecpa.example>
+Cc: Elena Vasquez
+Date: Thu, 27 Aug 2026 10:22:05 -0400
+Subject: Bayline Marine Services 2025 K-1 - property distribution (IRC 311(b))
+
+Mark - the 2025 K-1 reports the F-250 distribution at net book value ($12,000) in box 16D and the disposal
+report shows no gain. Under IRC 311(b) the corporation recognizes gain as if it sold the truck at FMV. Using the
+dealer appraisal ($32,000) the gain is $20,000, all section 1245 recapture (accumulated depreciation
+$33,000), which should be ordinary income in box 1 (Form 4797 Part III on the 1120-S), and the box 16D
+property distribution should be $32,000. Can you amend the 1120-S and issue an amended K-1?
+
+-----
+From: Mark Tillman
+Date: Wed, 2 Sep 2026 16:40:12 -0400
+Subject: RE: Bayline Marine Services 2025 K-1 - property distribution
+
+Agreed - we missed that when we coded the disposal. We will file an amended 1120-S (box 1 becomes $82,000,
+16D $72,000) but we can't get to it until after 10/15. Go ahead and file Elena's return
+consistent with the corrected numbers.
+Mark
