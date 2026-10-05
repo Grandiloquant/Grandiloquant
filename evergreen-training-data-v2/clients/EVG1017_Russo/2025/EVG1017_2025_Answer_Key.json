@@ -1,0 +1,1088 @@
+{
+  "client_id": "EVG1017",
+  "client": "Frank & Diane Russo",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "IL (Hinsdale); PA nonresident",
+    "complexity": "HNW investor - consolidated 1099 + 3 K-1s + IL + PA"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 85000,
+    "2a": 4800,
+    "2b": 26184,
+    "3a": 62410,
+    "3b": 79780,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 118211,
+    "8": 41700,
+    "9": 350875,
+    "10": 0,
+    "11": 350875,
+    "12e": 61608,
+    "13a": 10180,
+    "13b": 0,
+    "15": 279087,
+    "16": 39437,
+    "17": 0,
+    "19": 0,
+    "20": 820,
+    "22": 38617,
+    "23": 3833,
+    "24": 42450,
+    "25d": 12800,
+    "26": 26000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 4000,
+    "33": 42800,
+    "34": 350,
+    "35a": 350,
+    "37": 0
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 350,
+  "balance_due": 0,
+  "carryforwards_to_2026": {
+    "permian_ptp_suspended_loss_carryforward_2026": 3490,
+    "oak_brook_suspended_loss_carryforward_2026": 0,
+    "ridgeview_outside_basis_carryforward_2026": 0
+  },
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 85000
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 85000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 4800
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 26184
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 62410
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 79780
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 118211
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 41700
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 350875
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 350875
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 61608
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 10180
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 71788
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 279087
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 39437
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 39437
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 820
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 820
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 38617
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 3833
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 42450
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 12800
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 12800
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 26000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 4000
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 4000
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 42800
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 350
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 350
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Morgan Stanley - interest (1099-INT box 1)",
+        "amount": 14250
+      },
+      {
+        "line": "1.2",
+        "description": "Morgan Stanley - US Treasury interest (box 3)",
+        "amount": 9600
+      },
+      {
+        "line": "1.3",
+        "description": "Morgan Stanley - accrued market discount (Ford Motor Credit bond, 1099-B box 1f)",
+        "amount": 1624
+      },
+      {
+        "line": "1.4",
+        "description": "Salt Creek Bank & Trust",
+        "amount": 1860
+      },
+      {
+        "line": "1.5",
+        "description": "Ridgeview Capital Partners LLC (K-1 box 5)",
+        "amount": 400
+      },
+      {
+        "line": "1.6",
+        "description": "Accrued interest paid on purchases - Apple 3.35% 2032 (Morgan Stanley)",
+        "amount": -1240
+      },
+      {
+        "line": "1.7",
+        "description": "Accrued interest paid on purchases - US Treasury 4.25% 2030 (Morgan Stanley)",
+        "amount": -310
+      },
+      {
+        "line": "1.8",
+        "description": "Tax-exempt interest (1099-INT box 8) - memo",
+        "amount": 0
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 26184
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 26184
+      },
+      {
+        "line": "5.1",
+        "description": "Morgan Stanley - Apple, JNJ, Microsoft, JPMorgan, PepsiCo, P&G common stock",
+        "amount": 38000
+      },
+      {
+        "line": "5.2",
+        "description": "Morgan Stanley - Vanguard Total Intl Stock Index Adm (VTIAX)",
+        "amount": 16200
+      },
+      {
+        "line": "5.3",
+        "description": "Morgan Stanley - Vanguard Real Estate Index Adm (VGSLX)",
+        "amount": 9200
+      },
+      {
+        "line": "5.4",
+        "description": "Morgan Stanley - American Funds Growth Fund of America F2 (GFFFX)",
+        "amount": 15000
+      },
+      {
+        "line": "5.5",
+        "description": "Morgan Stanley WHFIT - Invesco Unit Trust Series 2104 - Dividend Achievers Portfolio (WHFIT)",
+        "amount": 1380
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 79780
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box A)": [
+      {
+        "line": "1",
+        "description": "300 sh Intel Corp (INTC) | acq 01/14/2025 | sold 03/10/2025 | proceeds 6,030 | basis 12,230 | code W adj 4,100",
+        "amount": -2100
+      },
+      {
+        "line": "2",
+        "description": "150 sh Palantir Technologies (PLTR) | acq 02/03/2025 | sold 07/21/2025 | proceeds 22,410 | basis 12,960 | code  adj 0",
+        "amount": 9450
+      },
+      {
+        "line": "3",
+        "description": "100 sh Advanced Micro Devices (AMD) | acq 04/08/2025 | sold 11/18/2025 | proceeds 14,280 | basis 9,870 | code  adj 0",
+        "amount": 4410
+      },
+      {
+        "line": "4",
+        "description": "300 sh Intel Corp (INTC) - replacement lot | acq 03/28/2025 | sold 10/06/2025 | proceeds 11,550 | basis 11,120 | code  adj 0",
+        "amount": 430
+      }
+    ],
+    "Form 8949 (Box D)": [
+      {
+        "line": "5",
+        "description": "400 sh Apple Inc (AAPL) | acq 06/12/2018 | sold 05/15/2025 | proceeds 84,200 | basis 18,640 | code  adj 0",
+        "amount": 65560
+      },
+      {
+        "line": "6",
+        "description": "200 sh Johnson & Johnson (JNJ) | acq 09/17/2019 | sold 08/11/2025 | proceeds 31,400 | basis 27,900 | code  adj 0",
+        "amount": 3500
+      },
+      {
+        "line": "7",
+        "description": "$50,000 Ford Motor Credit 4.95% 05/28/2031 (CUSIP 345397C35) | acq 03/08/2022 | sold 09/10/2025 | proceeds 49,125 | basis 45,750 | code D adj -1,624",
+        "amount": 1751
+      },
+      {
+        "line": "8",
+        "description": "500 sh Verizon Communications (VZ) | acq 04/22/2016 | sold 12/08/2025 | proceeds 19,850 | basis 24,600 | code  adj 0",
+        "amount": -4750
+      }
+    ],
+    "Form 8949 (Box E)": [
+      {
+        "line": "9",
+        "description": "300 sh Abbott Laboratories (ABT) - NONCOVERED, basis not reported | acq 11/16/2009 | sold 12/02/2025 | proceeds 36,900 | basis 14,850 | code  adj 0",
+        "amount": 22050
+      },
+      {
+        "line": "10",
+        "description": "WHFIT - Invesco UIT 2104: pro-rata sales of underlying securities (WHFIT statement) | acq 03/2021 | sold VARIOUS 2025 | proceeds 4,820 | basis 4,310 | code  adj 0",
+        "amount": 510
+      }
+    ],
+    "Form 8949 (Box F)": [
+      {
+        "line": "11",
+        "description": "Ridgeview Capital Partners LLC - distribution in excess of outside basis (IRC 731(a); no 751 property) | acq 06/01/2017 | sold 12/31/2025 | proceeds 84,000 | basis 74,500 | code  adj 0",
+        "amount": 9500
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "ST box A",
+        "description": "Short-term from Form 8949 box A (proceeds 54,270; cost 46,180; adj 4,100)",
+        "amount": 12190
+      },
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 12190
+      },
+      {
+        "line": "LT box D",
+        "description": "Long-term from Form 8949 box D (proceeds 184,575; cost 116,890; adj -1,624)",
+        "amount": 66061
+      },
+      {
+        "line": "LT box E",
+        "description": "Long-term from Form 8949 box E (proceeds 41,720; cost 19,160; adj 0)",
+        "amount": 22560
+      },
+      {
+        "line": "LT box F",
+        "description": "Long-term from Form 8949 box F (proceeds 84,000; cost 74,500; adj 0)",
+        "amount": 9500
+      },
+      {
+        "line": "13",
+        "description": "Capital gain distributions",
+        "amount": 7900
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 106021
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 118211
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "5",
+        "description": "Rental real estate, royalties, partnerships, S corps, trusts - Schedule E",
+        "amount": 41700
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 41700
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 26316
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 15208
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 18600
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 33808
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 33808
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 33808
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 9400
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 9400
+      },
+      {
+        "line": "9",
+        "description": "Investment interest (Form 4952)",
+        "amount": 6400
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 15800
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 12000
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 12000
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 61608
+      }
+    ],
+    "Form 8995": [
+      {
+        "line": "Ridgeview Capital Partners LLC",
+        "description": "QBI 58,600; component (below threshold: 20% x QBI)",
+        "amount": 11720
+      },
+      {
+        "line": "Oak Brook Industrial Partners LP (current + PY suspended loss allowed)",
+        "description": "QBI -16,900; component (below threshold: 20% x QBI)",
+        "amount": -3380
+      },
+      {
+        "line": "REIT/PTP",
+        "description": "Qualified REIT dividends 9,200 + PTP income 0 x 20%",
+        "amount": 1840
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 289,267 - net capital gain & qualified dividends 168,431)",
+        "amount": 24167
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 10180
+      }
+    ],
+    "Form 6251": [
+      {
+        "line": "1",
+        "description": "Taxable income (Form 1040 line 15)",
+        "amount": 279087
+      },
+      {
+        "line": "2a",
+        "description": "Taxes from Schedule A line 7",
+        "amount": 33808
+      },
+      {
+        "line": "4",
+        "description": "Alternative minimum taxable income",
+        "amount": 312895
+      },
+      {
+        "line": "5",
+        "description": "Exemption",
+        "amount": 137000
+      },
+      {
+        "line": "6",
+        "description": "AMTI less exemption",
+        "amount": 175895
+      },
+      {
+        "line": "7-9",
+        "description": "Tentative minimum tax",
+        "amount": 13820
+      },
+      {
+        "line": "10",
+        "description": "Regular tax (Form 1040 line 16 less Sch 3 line 1 FTC)",
+        "amount": 39437
+      },
+      {
+        "line": "11",
+        "description": "Alternative minimum tax",
+        "amount": 0
+      }
+    ],
+    "Form 1116": [
+      {
+        "line": "summary",
+        "description": "Category: passive (RIC); foreign taxes 820; foreign-source TI 12,036; limitation 1,701",
+        "amount": 820
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "1",
+        "description": "Foreign tax credit",
+        "amount": 820
+      },
+      {
+        "line": "8",
+        "description": "Total nonrefundable credits (to Form 1040, line 20)",
+        "amount": 820
+      },
+      {
+        "line": "10",
+        "description": "Amount paid with request for extension to file (Form 4868)",
+        "amount": 4000
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 4000
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 265875
+      },
+      {
+        "line": "11",
+        "description": "Properly allocable deductions (incl. investment interest)",
+        "amount": 6400
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 259475
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 350,875 over threshold 250,000",
+        "amount": 100875
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 3833
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 3833
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 3833
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "IL-1040",
+      "base_income": 346385,
+      "exemptions": 5700,
+      "net_income": 340685,
+      "tax": 16864,
+      "sch_cr_credit": 1173,
+      "property_tax_credit": 930,
+      "total_tax": 14761,
+      "payments": 15408,
+      "refund": 647
+    },
+    {
+      "jurisdiction": "PA-40 NR",
+      "pa_source_income": 38200,
+      "tax": 1173,
+      "withholding": 1173,
+      "due": 0
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 4868",
+      "filed": "2026-04-15",
+      "payment": 4000.0
+    },
+    {
+      "form": "Form 1040",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-24"
+    },
+    {
+      "form": "IL-1040",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-24"
+    },
+    {
+      "form": "PA-40 NR",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-24"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1017-G1",
+      "procedure_section": "Scan - duplicate documents (original + CORRECTED consolidated 1099)",
+      "title": "Corrected Morgan Stanley 1099 replaces the original",
+      "trap": "Autoflow both consolidated 1099s (dividends ~$158k), or only the original (box 1a $79,650, box 3 $900, box 5 $8,400, no market discount).",
+      "correct_treatment": "Use the CORRECTED 03/12/2026 statement only: 1a $78,400, box 3 nondividend $2,150 (return of capital - not income, reduces VGSLX basis), box 5 199A $9,200, box 1f $1,624. Bookmark original as superseded.",
+      "impact": "Lines 2b/3a/3b/7/13a",
+      "affected_lines": [
+        "3b",
+        "13a"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1017-G2",
+      "procedure_section": "Schedule B - accrued interest / state exemption; Scan - consolidated 1099 (accrued interest, state exemptions)",
+      "title": "Accrued interest paid and Treasury interest for IL",
+      "trap": "Report box 1 + box 3 interest without reversing $1,550 accrued interest paid; subtract all $9,600 Treasury interest on IL; forget the muni add-back.",
+      "correct_treatment": "Schedule B: negative 'Accrued interest' lines (1,240 corporate, 310 Treasury) -> line 2b $26,184. IL Schedule M subtraction = Treasury interest net of its accrued interest = $9,290; add back out-of-state muni interest $4,800.",
+      "impact": "Line 2b; IL base income",
+      "affected_lines": [
+        "2b",
+        "IL-1040"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1017-G3",
+      "procedure_section": "Schedule D - adjustment codes D and W; missing cost basis",
+      "title": "Market discount, wash sale and a noncovered lot with no basis",
+      "trap": "Leave market discount inside capital gain; add the wash-sale loss back twice; let the ABT lot flow with $0 basis ($36,900 gain).",
+      "correct_treatment": "Ford bond: 8949 box D code D adjustment -1,624 and the $1,624 reported as interest on Sch B. INTC: code W +4,100 (replacement lot basis already includes it - no second adjustment). ABT box E basis $14,850 from client's Schwab records (gain $22,050).",
+      "impact": "Line 7 overstated ~$16,500 if ABT basis missed; character shift for market discount",
+      "affected_lines": [
+        "7",
+        "2b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1017-G4",
+      "procedure_section": "Scan - consolidated 1099 (UITs / WHFITs)",
+      "title": "WHFIT section is outside the 1099 totals",
+      "trap": "Import only the 1099-DIV/B summary -> WHFIT dividends ($1,380) and pro-rata sale ($510 LT gain) omitted; or deduct WHFIT expenses.",
+      "correct_treatment": "Report WHFIT items as if held directly: dividends 1,380 (1,210 qualified) on Sch B; pro-rata sales on 8949 box E (4,820 / 4,310); trust expenses $95 are miscellaneous itemized deductions - not deductible.",
+      "impact": "Lines 3a/3b/7",
+      "affected_lines": [
+        "3b",
+        "7"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1017-G5",
+      "procedure_section": "Foreign Transactions - Form 1116 ($600 MFJ de minimis; RIC)",
+      "title": "Foreign tax $820 exceeds the MFJ de minimis",
+      "trap": "Claim $820 directly on Schedule 3 without Form 1116 (de minimis election) or deduct it on Schedule A.",
+      "correct_treatment": "$820 > $600 MFJ -> Form 1116, passive category, country 'RIC'. Foreign-source income $14,600 less apportioned deductions = $12,036; limitation exceeds tax -> credit $820.",
+      "impact": "Sch 3 line 1 / Form 1116",
+      "affected_lines": [
+        "20"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1017-G6",
+      "procedure_section": "NIIT - margin interest allocable; Scan - margin interest",
+      "title": "Margin interest -> Form 4952 and Form 8960",
+      "trap": "Ignore the $6,400 margin interest (not on a 1099 form) or deduct it with the advisory fees.",
+      "correct_treatment": "Form 4952: investment income $43,554 > $6,400 -> fully deductible on Sch A line 9 (no QD election). Form 8960 line 9a allocates it against NII (NII $259,475). This year NIIT is on MAGI over $250k ($100,875) because that is smaller, so the 8960 allocation has no dollar effect - still required. Advisory fees remain nondeductible.",
+      "impact": "Sch A line 9; Form 8960",
+      "affected_lines": [
+        "12e",
+        "23"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1017-G7",
+      "procedure_section": "Schedules K-1 - partnership distribution in excess of outside basis (Section 6 - apply the limitation)",
+      "title": "Ridgeview $80,000 distribution exceeds outside basis",
+      "trap": "Treat the distribution as a tax-free return of capital (client's view; Axcess default without basis limitation).",
+      "correct_treatment": "Basis 15,500 + income 59,000 = 74,500; distributions 80,000 + IRC 752(b) deemed distribution 4,000 (liability share decrease) = 84,000 -> IRC 731(a) LT capital gain $9,500 (8949 box F). No 751 property.",
+      "impact": "Line 7 understated $9,500",
+      "affected_lines": [
+        "7"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1017-G8",
+      "procedure_section": "Schedules K-1 - passive activities / PTP; QBI (REIT, PTP)",
+      "title": "LP rental loss vs other passive income; PTP basket",
+      "trap": "Suspend the Oak Brook loss again (client's assumption) and ignore the $7,300 PY suspended loss (organizer PY line blank); or net the PTP loss against Ridgeview; or include PTP loss in QBI.",
+      "correct_treatment": "Limited partner: no $25k allowance, but passive losses offset passive income: Ridgeview $58,600 absorbs Oak Brook 2025 ($9,600) + PY ($7,300) (all allowed; enters QBI). PTP loss usable only against the same PTP -> $3,490 suspended, excluded from QBI. QBI: 20% x (58,600 -16,900) + 20% x REIT 9,200 = $10,180.",
+      "impact": "Sch E line 41; line 13a",
+      "affected_lines": [
+        "8",
+        "13a"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1017-G9",
+      "procedure_section": "SALT - New State Filing Requirements (K-1 state matrix)",
+      "title": "K-1 state matrices: PA filing required; losses don't trigger filings",
+      "trap": "File nothing outside IL (or file in every state on the PTP schedule).",
+      "correct_treatment": "Ridgeview apportions $38,200 to PA -> PA-40 NR required (PA-source income > $33): tax $1,173 = withholding. IL Schedule CR credit $1,173. WI $1,400 < WI $2,000 filing threshold. PTP and Oak Brook matrices are all losses -> no filing.",
+      "impact": "PA-40 NR; IL Sch CR",
+      "affected_lines": [
+        "IL-1040",
+        "PA-40"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [],
+  "ridgeview_731_gain": 9500,
+  "nii": 259475,
+  "form_1116_foreign_source_ti": 12036,
+  "form_4952_investment_income": 43554,
+  "software_exceptions": [
+    {
+      "id": "EVG1017-SX1",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Original AND corrected Morgan Stanley consolidated 1099 both imported",
+      "axcess_default_behavior": "Autoflow treated the 02/13 original and the 03/12 CORRECTED consolidated 1099s as two payer documents: dividends ~$158k, interest and sales doubled. The original also had box 3 nondividend $900 (vs $2,150), box 5 $8,400 (vs $9,200) and no box 1f market discount.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Delete the original statement's import (bookmark 'superseded'); keep only the CORRECTED 03/12/2026 statement: box 1a $78,400 (+ WHFIT $1,380 = Sch B $79,780), box 3 return of capital $2,150 (reduces VGSLX basis - not income), box 5 $9,200, box 1f $1,624.",
+      "override_amount": 78400,
+      "proconnect_default_behavior": "Same - an imported/entered second consolidated 1099 is additive; ProConnect does not know one supersedes the other.",
+      "proconnect_fix": "Delete the original 1099 entries; import/key the corrected statement only (screen per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "2b",
+        "3a",
+        "3b",
+        "7",
+        "13a"
+      ],
+      "procedure_section": "Scan - consolidated 1099 (corrected statements)",
+      "notes": ""
+    },
+    {
+      "id": "EVG1017-SX2",
+      "workbook_tab": "14. Bond Interest & Premium",
+      "tab_key": "14",
+      "category": "Other",
+      "title": "Accrued interest paid at purchase and accrued market discount - not netted by the broker",
+      "axcess_default_behavior": "The 1099-INT import reports box 1 $14,250 + box 3 $9,600 gross. The $1,240 (Apple bond) and $310 (Treasury note) of accrued interest Frank PAID sellers is only on the supplemental page, and the Ford bond's accrued market discount (1099-B box 1f, $1,624) stays inside the capital gain unless code D is entered.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Income > Interest Income: add negative lines 'Accrued interest' -1,240 (corporate) and -310 (US obligation, so the IL subtraction is also reduced); add $1,624 market discount as interest. Gains and Losses: Ford row box D, code D, adjustment -1,624. Schedule B line 2b = $26,184.",
+      "override_amount": -1550,
+      "proconnect_default_behavior": "Same - accrued interest paid and market discount must be entered as separate adjustments.",
+      "proconnect_fix": "Interest income input: 'Accrued interest paid' / negative adjustment lines (-1,240 and -310, the latter flagged as US obligation interest); Dispositions: Ford sale code D -1,624 with the $1,624 reported as interest (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "2b",
+        "Schedule B",
+        "Form 8949 box D",
+        "IL Schedule M"
+      ],
+      "procedure_section": "Schedule B - accrued interest / state exemption",
+      "notes": ""
+    },
+    {
+      "id": "EVG1017-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Capital Loss",
+      "title": "Noncovered Abbott lot imports with $0 basis; WHFIT section outside the 1099 totals",
+      "axcess_default_behavior": "(1) The ABT sale (box E, noncovered) imports with blank basis -> $36,900 gain. (2) The Invesco UIT (WHFIT) dividends $1,380 and pro-rata sales are reported in a separate statement section that is not in the 1099-DIV/B summary the import reads, so they are omitted. Neither is flagged.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Gains and Losses: ABT row basis $14,850 (2009 Schwab confirm) -> gain $22,050. Add WHFIT: dividends $1,380 ($1,210 qualified) on Schedule B; pro-rata sales on 8949 box E proceeds $4,820 / basis $4,310 (+$510); trust expenses $95 not deductible.",
+      "override_amount": 14850,
+      "proconnect_default_behavior": "Same - noncovered basis must be keyed; WHFIT items are not part of a 1099 import.",
+      "proconnect_fix": "Dispositions: enter ABT cost basis 14,850; add WHFIT dividends and pro-rata sale lines manually (screen per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "3a",
+        "3b",
+        "7"
+      ],
+      "procedure_section": "Schedule D - missing cost basis",
+      "notes": ""
+    },
+    {
+      "id": "EVG1017-SX4",
+      "workbook_tab": "3. K-1 Basis Limitation",
+      "tab_key": "3",
+      "category": "Basis/At-Risk/Passive",
+      "title": "Ridgeview distribution exceeds outside basis once the 752(b) deemed distribution is counted",
+      "axcess_default_behavior": "Without the Section 6 basis limitation applied (beginning basis blank), Axcess treats the $80,000 box 19 distribution as tax-free. Even with basis entered, the $4,000 decrease in his share of liabilities (K-1 item K: 18,000 -> 14,000) is not a box 19 amount, so it is not counted as a distribution.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Income/Deductions > Partnership Passthrough > Section 6 (Basis Limitation): beginning basis $15,500 (tax capital -2,500 + liabilities 18,000); income +$59,000; distributions $80,000 cash + $4,000 752(b) deemed = $84,000 -> excess $9,500 IRC 731(a) LTCG on Form 8949 box F (held since 2017; footnote: no 751 property). Ending basis $0.",
+      "override_amount": 9500,
+      "proconnect_default_behavior": "Same - ProConnect does not compute partner outside basis from the K-1; a liability-share decrease must be entered as a deemed distribution.",
+      "proconnect_fix": "Partnership K-1 > basis worksheet / Dispositions: enter the $9,500 excess distribution as a long-term capital gain (8949 box F) and document basis (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 8949 box F"
+      ],
+      "procedure_section": "Schedules K-1",
+      "notes": "Supporting rows on tab 3 (basis) and tab 11 (752(b) liability shift)."
+    },
+    {
+      "id": "EVG1017-SX5",
+      "workbook_tab": "5. Passive Activity (8582)",
+      "tab_key": "5",
+      "category": "Basis/At-Risk/Passive",
+      "title": "Passive baskets - Oak Brook LP loss + omitted PY carryover vs PTP isolation",
+      "axcess_default_behavior": "(1) The organizer's PY column left the Oak Brook suspended loss ($7,300) blank, so Form 8582 shows no prior-year unallowed loss. (2) Unless the Permian K-1 is flagged as a PTP, its ($2,340) loss nets against Ridgeview's passive income and enters QBI.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Partnership Passthrough: Oak Brook prior-year unallowed loss $7,300 (from PY 8582 / PERM); Permian: check 'Publicly traded partnership' so 469(k) isolates it (PY suspended $1,150). Result: Oak Brook $9,600 + $7,300 allowed against Ridgeview $58,600 -> Schedule E $41,700; PTP $3,490 suspended (excluded from QBI). LP -> no $25k allowance.",
+      "override_amount": 41700,
+      "proconnect_default_behavior": "Same - prior-year unallowed losses and the PTP indicator are inputs.",
+      "proconnect_fix": "Partnership K-1 > Passive Losses tab: prior-year unallowed Regular (and AMT) = 7,300 for Oak Brook; Permian: PTP = Yes with PY unallowed 1,150. Form 8582 can be forced (1=when applicable, 2=force) if needed.",
+      "proconnect_reference": "Intuit help: 'How to generate Form 8582 ... ProConnect Tax' (prior years' unallowed losses)",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "8 (Schedule 1 line 5)",
+        "Schedule E line 41",
+        "Form 8582",
+        "13a"
+      ],
+      "procedure_section": "Schedules K-1",
+      "notes": ""
+    },
+    {
+      "id": "EVG1017-SX6",
+      "workbook_tab": "7. Multi-State Allocation",
+      "tab_key": "7",
+      "category": "State Allocation",
+      "title": "PA-source K-1 income - PA-40 NR and IL Schedule CR not generated from the K-1 matrix",
+      "axcess_default_behavior": "The Ridgeview state matrix ($38,200 PA) is a K-1 footnote; unless the PA amount is entered as PA-source and a PA nonresident return is added, no PA-40 NR is produced and IL Schedule CR has no tax paid to another state to credit.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Partnership Passthrough > state allocation: PA $38,200 (IL $19,000; WI $1,400 under WI's $2,000 threshold). Add PA-40 NR: tax $1,173 = NRK-1 withholding $1,173. IL Schedule CR: lesser of PA tax $1,173 or IL tax on PA income (16,864 x 38,200/346,385 = $1,860) -> $1,173. 731 gain treated as non-PA-source (assumption, flagged for signer).",
+      "override_amount": 1173,
+      "proconnect_default_behavior": "Same - nonresident state returns and the resident credit depend on state-source amounts entered per K-1.",
+      "proconnect_fix": "Partnership K-1 > State: PA-source 38,200; activate PA nonresident return; IL credit for tax paid to PA = 1,173 (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "PA-40 NR e-filed with the IL-1040",
+      "status": "Signed Off",
+      "affected_lines": [
+        "IL-1040 Schedule CR",
+        "PA-40 NR"
+      ],
+      "procedure_section": "SALT Implications - New State Filing Requirements",
+      "notes": ""
+    },
+    {
+      "id": "EVG1017-SX7",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "State Allocation",
+      "title": "IL subtraction for US Treasury interest must be net of accrued interest paid; muni add-back",
+      "axcess_default_behavior": "The IL subtraction for US obligation interest pulls 1099-INT box 3 ($9,600) in full; the $310 accrued interest paid on the Treasury note, entered as a separate negative line, is not tied to it unless flagged as US obligation interest. Out-of-state muni interest $4,800 must be identified as non-IL to be added back.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Illinois > Schedule M: US obligation subtraction $9,290 (9,600 - 310); tax-exempt interest add-back $4,800 (NY/CA/TX issuers). IL base income $346,385.",
+      "override_amount": 9290,
+      "proconnect_default_behavior": "Same - the state US-obligation subtraction follows the amounts flagged as US obligation interest.",
+      "proconnect_fix": "Illinois return > subtractions: US obligation interest 9,290; additions: out-of-state tax-exempt interest 4,800 (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "IL-1040 lines 2/5",
+        "IL Schedule M"
+      ],
+      "procedure_section": "SALT Implications",
+      "notes": ""
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "3. K-1 Basis Limitation",
+    "5. Passive Activity (8582)",
+    "7. Multi-State Allocation",
+    "14. Bond Interest & Premium"
+  ]
+}

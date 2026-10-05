@@ -401,7 +401,7 @@ C.write_notes(f"""
 ## Open items / client communication
 - None open. Letter to June: keep logging the Caldwell checks with dates; the January 2026 check counts in 2026. Consider using
   Form 1098-style annual statement to buyers (they need the interest amount and our SSN for their Schedule A).
-- 2026 estimates: fed 4 x $1,500 and NC 4 x $300 are sufficient on the 90%/100% tests (2025 AGI < $150k -> 100% of 2025 tax safe harbor next year).
+- 2026 estimates: 2025 AGI is $157,434 (> $150,000), so the 2026 prior-year safe harbor is 110% of 2025 tax = $14,099. Withholding at the 2025 level + 4 x $1,500 = $12,780 falls $1,319 short -> recommended federal estimates 4 x $1,830; NC 4 x $300.
 
 ## Hand-off to signer / routing
 - [x] Return locked; Accountant's copy saved as *reviewed*

@@ -1,0 +1,594 @@
+{
+  "client_id": "EVG1021",
+  "client": "Ethan S. Kim",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "WA (no state income tax return)",
+    "complexity": "Dependent child - Form 8615",
+    "related_clients": [
+      "EVG1010 (parents - Form 8615 parent data)"
+    ]
+  },
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 3200,
+    "2a": 0,
+    "2b": 900,
+    "3a": 1900,
+    "3b": 2400,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 3100,
+    "8": 0,
+    "9": 9600,
+    "10": 0,
+    "11": 9600,
+    "12e": 3650,
+    "13a": 0,
+    "13b": 0,
+    "15": 5950,
+    "16": 642,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 642,
+    "23": 0,
+    "24": 642,
+    "25d": 0,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 0,
+    "34": 0,
+    "35a": 0,
+    "37": 642
+  },
+  "deduction_type": "Standard",
+  "refund": 0,
+  "balance_due": 642,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 3200
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 3200
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 900
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 1900
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 2400
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 3100
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 9600
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 9600
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 3650
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 3650
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 5950
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 642
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 642
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 642
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 642
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 0
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 0
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 0
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 0
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 642
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Pioneer Square Brokerage (UTMA ****2270)",
+        "amount": 900
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 900
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 900
+      },
+      {
+        "line": "5.1",
+        "description": "Pioneer Square Brokerage (UTMA ****2270)",
+        "amount": 2400
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 2400
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box D)": [
+      {
+        "line": "1",
+        "description": "74 sh Pioneer Total Market Index Fund Admiral | acq 06/03/2019 | sold 07/21/2025 | proceeds 8,214 | basis 5,114 | code  adj 0",
+        "amount": 3100
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "LT box D",
+        "description": "Long-term from Form 8949 box D (proceeds 8,214; cost 5,114; adj 0)",
+        "amount": 3100
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 3100
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 3100
+      }
+    ],
+    "Form 8615": [
+      {
+        "line": "line5_net_unearned_income",
+        "description": "line5 net unearned income",
+        "amount": 3700
+      },
+      {
+        "line": "parent_tax_with_nui",
+        "description": "parent tax with nui",
+        "amount": 81458
+      },
+      {
+        "line": "parent_tax_without",
+        "description": "parent tax without",
+        "amount": 80830
+      },
+      {
+        "line": "line13_tentative_tax_on_nui",
+        "description": "line13 tentative tax on nui",
+        "amount": 628
+      },
+      {
+        "line": "child_share",
+        "description": "child share",
+        "amount": 628
+      },
+      {
+        "line": "tax_on_child_TI_less_NUI",
+        "description": "tax on child TI less NUI",
+        "amount": 14
+      },
+      {
+        "line": "line15",
+        "description": "line15",
+        "amount": 642
+      },
+      {
+        "line": "tax_as_if_no_8615",
+        "description": "tax as if no 8615",
+        "amount": 96
+      },
+      {
+        "line": "line18_tax",
+        "description": "line18 tax",
+        "amount": 642
+      }
+    ]
+  },
+  "state_and_local": [],
+  "required_filings": [
+    {
+      "form": "Form 1040 with Form 8615 (federal)",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-14"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1021-G1",
+      "procedure_section": "Review - Kid Taxes and Filings (separate client ID / project code)",
+      "title": "Child needs his own return",
+      "trap": "Report Ethan's income on the parents' Form 8814 like 2024, or skip his return because 'he's a dependent'.",
+      "correct_treatment": "Capital gain from a sale + wages -> Form 8814 not allowed. Unearned income $6,400 > $1,350 filing threshold and > $2,700 kiddie threshold -> separate Form 1040 with Form 8615, under its own client ID (EVG1021) and 1040 project code, after discussing with parents.",
+      "impact": "Entire return",
+      "affected_lines": [
+        "16"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1021-G2",
+      "procedure_section": "Kid Taxes - Form 8615 using parents' return",
+      "title": "Parents' rate from the FINAL parents' return",
+      "trap": "Tax all of Ethan's income at his own 10%/0% rates, or use an estimated/prior-year parent taxable income.",
+      "correct_treatment": "Form 8615 line 6 = parents' 2025 taxable income $402,319 (EVG1010, MFJ); line 10 = parents' tax $80,830 excluding the $55 Form 8814 tax. NUI $3,700 taxed at the parents' marginal rates -> $628. If the parents' return changes (amended), Ethan's return must be amended too.",
+      "impact": "Tax $642 vs $96 without Form 8615",
+      "affected_lines": [
+        "16"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1021-G3",
+      "procedure_section": "Kid Taxes - Form 8615 (QD / capital gain)",
+      "title": "Preferential rates keep applying inside Form 8615",
+      "trap": "Tax the whole $3,700 of NUI at the parents' top bracket (their taxable income is in the 32% bracket).",
+      "correct_treatment": "The share of qualified dividends (1,098.44) and capital gain (1,792.19) included in NUI (line 5 / line 1) is taxed at the parents' 15% capital gain rate on line 9. The ordinary part is taxed at 24%, not 32%: the parents' ORDINARY income (TI less QD/CG = $386,538) is in the 24% bracket because the QDCG worksheet stacks QD/CG on top. The rest of the child's QD/CG is taxed at his own 0% rate on line 15.",
+      "impact": "Line 11 $628 vs $1,184 if all NUI at 32%",
+      "affected_lines": [
+        "16"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1021-G4",
+      "procedure_section": "Standard deduction - dependent",
+      "title": "Dependent standard deduction",
+      "trap": "Use the full $15,750 single standard deduction (-> $0 taxable income), or the $1,350 minimum ignoring wages.",
+      "correct_treatment": "Dependent: greater of $1,350 or earned income + $450 = $3,650 (capped at $15,750). Taxable income $5,950.",
+      "impact": "Taxable income",
+      "affected_lines": [
+        "12e",
+        "15"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1021-G5",
+      "procedure_section": "Kid Taxes - Form 8615 line 1",
+      "title": "Only unearned income is subject to kiddie tax",
+      "trap": "Include the $3,200 lifeguard wages in Form 8615 line 1.",
+      "correct_treatment": "Line 1 = unearned income only ($900 + $2,400 + $3,100 = $6,400). Wages are taxed at the child's own rates (line 14/15).",
+      "impact": "Line 16",
+      "affected_lines": [
+        "16"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1021-G6",
+      "procedure_section": "Filing - dependent return",
+      "title": "Dependent checkbox / no credits for the child",
+      "trap": "Leave the 'can be claimed as a dependent' box unchecked, or claim his own personal credits.",
+      "correct_treatment": "Check the box on page 1 (the parents claim him and the CTC). No CTC/EITC on his return; Form 8615 lists the parent's name/SSN. Balance due $642 < $1,000 and no 2024 liability -> no Form 2210.",
+      "impact": "E-file consistency with EVG1010 (duplicate-dependent rejects)",
+      "affected_lines": [
+        "19"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "form_8615_parent_data_used": {
+    "parent_ti": 402319,
+    "parent_status": "MFJ",
+    "parent_qd": 5904,
+    "parent_ncg": 9877,
+    "parent_tax_line16_ex_8814": 80830,
+    "parent_name": "Daniel J. Kim & Grace H. Kim",
+    "parent_ssn": "XXX-XX-3318"
+  },
+  "form_8615_child_shares": {
+    "nui": 3700,
+    "qd_in_nui": 1098.44,
+    "ltcg_in_nui": 1792.19
+  },
+  "software_exceptions": [
+    {
+      "id": "EVG1021-SX1",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Form 8615 parent figures - stale 2024 data / manual entry; must match the FINAL EVG1010 return",
+      "axcess_default_behavior": "Form 8615 uses the parent's taxable income, filing status and tax entered on the child's return. The first draft carried the parents' 2024 taxable income ($357,750) because EVG1010 was not final; the calculation runs without a diagnostic once any parent figure is present. Entering the parents' line 16 including the $55 Form 8814 tax for Chloe also overstates line 10.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Form 8615 (Kiddie tax) input: parents Daniel & Grace Kim, MFJ, 2025 taxable income $402,319, qualified dividends $5,904, net capital gain $9,877, tax $80,830 (excluding the $55 Form 8814 tax); no other children's NUI (Chloe is on Form 8814). Result: tax on NUI $628 + $14 = $642 (line 16). Release only after EVG1010 is locked/accepted (verify field names in current release).",
+      "override_amount": 402319,
+      "proconnect_default_behavior": "ProConnect has no Family Link (that is a Lacerte feature); the parent's information is not pulled from the parents' return. Without it, diagnostic ref 826 ('Form 8615 must be filed') appears and the tax cannot be computed correctly.",
+      "proconnect_fix": "Taxes > Children Under 18 (8615) > Parent's Information: enter the parents' names/SSN, filing status MFJ, taxable income 402,319, tax 80,830, and the qualified dividend / capital gain figures; update manually if EVG1010 changes.",
+      "proconnect_reference": "Intuit help: 'How do you generate Form 8615 in ProConnect Tax'; 'resolve diagnostic Ref 826'",
+      "efile_impact": "None (transmit after EVG1010 is accepted - duplicate-dependent reject risk otherwise)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "16",
+        "Form 8615"
+      ],
+      "procedure_section": "Kid Taxes and Filings",
+      "notes": "If EVG1010 is ever amended, Ethan's Form 8615 must be recomputed and his return amended."
+    },
+    {
+      "id": "EVG1021-SX2",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "'Can be claimed as a dependent' box - dependent standard deduction $3,650",
+      "axcess_default_behavior": "Unless the 'can be claimed as a dependent' indicator is checked on the child's return, Axcess gives the full single standard deduction ($15,750) -> taxable income $0 and Form 8615 has nothing to tax.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "General > Basic Data: check 'Taxpayer can be claimed as a dependent'. Standard deduction = greater of $1,350 or earned income $3,200 + $450 = $3,650; taxable income $5,950.",
+      "override_amount": 3650,
+      "proconnect_default_behavior": "Same - the dependent standard deduction applies only when the 'can be claimed as a dependent' box is checked.",
+      "proconnect_fix": "General > Taxpayer information: 'Can be claimed as a dependent on another return' = Yes (field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "12e",
+        "15"
+      ],
+      "procedure_section": "Kid Taxes and Filings",
+      "notes": ""
+    },
+    {
+      "id": "EVG1021-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Form 8814 rolled forward on the parents' return although Ethan no longer qualifies",
+      "axcess_default_behavior": "The parents' 2024 return reported Ethan's UTMA income on Form 8814; proforma carries that 8814 input into EVG1010 for 2025. Nothing tests the 8814 eligibility rules (only interest/dividends, gross income < $13,500, no estimates/withholding) against the capital-gain sale and summer wages, so his income could be reported on the wrong return.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "EVG1010: delete Ethan's Form 8814 input (keep Chloe's). Set up EVG1021 as its own client/return: unearned income $6,400 (interest $900 + dividends $2,400 + LTCG $3,100) > $2,700 -> Form 8615 on Ethan's own 1040.",
+      "override_amount": 6400,
+      "proconnect_default_behavior": "Same - a Form 8814 entry carried forward on the parents' return is not tested against the child's other income.",
+      "proconnect_fix": "Parents' return: remove Ethan's 8814 entry (Taxes > Children's Interest and Dividends, screen per current release - verify); prepare Ethan's own 1040 with Form 8615.",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Entire return",
+        "EVG1010 Form 8814"
+      ],
+      "procedure_section": "Kid Taxes and Filings",
+      "notes": ""
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log"
+  ]
+}
