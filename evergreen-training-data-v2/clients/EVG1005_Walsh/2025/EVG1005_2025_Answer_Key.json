@@ -1,0 +1,765 @@
+{
+  "client_id": "EVG1005",
+  "client": "Jennifer Walsh",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "MI - Detroit (01/01-06/30) -> Royal Oak (07/01-12/31)",
+    "complexity": "W-2 x2, 8606, MI + Detroit part-year"
+  },
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 199054,
+    "2a": 0,
+    "2b": 186,
+    "3a": 0,
+    "3b": 0,
+    "4b": 6315,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": 0,
+    "9": 205555,
+    "10": 0,
+    "11": 205555,
+    "12e": 15750,
+    "13a": 0,
+    "13b": 0,
+    "15": 189805,
+    "16": 38400,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 38400,
+    "23": 210,
+    "24": 38610,
+    "25d": 39580,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 2880,
+    "33": 42460,
+    "34": 3850,
+    "35a": 3850,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 3850,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 199054
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 199054
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 186
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 7012
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 6315
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 205555
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 205555
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 15750
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 15750
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 189805
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 38400
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 38400
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 38400
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 210
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 38610
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 39580
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 39580
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 2880
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 2880
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 42460
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 3850
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 3850
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Ally Bank",
+        "amount": 186
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 186
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 186
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8959": [
+      {
+        "line": "7/13",
+        "description": "Additional Medicare Tax (Medicare wages 222,554; SE 0; threshold 200,000)",
+        "amount": 203
+      },
+      {
+        "line": "24",
+        "description": "Additional Medicare Tax withheld by employer(s)",
+        "amount": 0
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "11",
+        "description": "Additional Medicare Tax (Form 8959)",
+        "amount": 203
+      },
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 7
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 210
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 186
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 186
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 205,555 over threshold 200,000",
+        "amount": 5555
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 7
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "11",
+        "description": "Excess social security and tier 1 RRTA tax withheld",
+        "amount": 2880
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 2880
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "title": "Michigan MI-1040 (full-year resident) - summary",
+      "lines": [
+        [
+          "AGI",
+          "Federal AGI",
+          205555
+        ],
+        [
+          "Sch 1",
+          "Additions / subtractions (Roth conversion taxable in MI; no retirement subtraction for a conversion; no U.S. obligation interest)",
+          0
+        ],
+        [
+          "-",
+          "Income subject to tax",
+          205555
+        ],
+        [
+          "-",
+          "Exemption allowance (1 x $5,800)",
+          5800
+        ],
+        [
+          "-",
+          "Taxable income",
+          199755
+        ],
+        [
+          "-",
+          "Tax at 4.25%",
+          8490
+        ],
+        [
+          "-",
+          "City income tax paid (Detroit) - no MI credit or deduction",
+          0
+        ],
+        [
+          "-",
+          "Michigan income tax withheld (W-2 box 17: 4,826.30 + 3,425.00)",
+          8251
+        ],
+        [
+          "-",
+          "TAX DUE",
+          239
+        ]
+      ],
+      "note": "MI-1040 e-filed with the federal return. Balance due paid by ACH debit 04/15/2026."
+    },
+    {
+      "title": "City of Detroit Income Tax - PART-YEAR RESIDENT return (resident 01/01-06/30/2025) - summary",
+      "lines": [
+        [
+          "R-1",
+          "Resident period: Motor City Analytics wages (W-2 box 18 = Medicare wages; Detroit taxes 401(k) deferrals)",
+          128400
+        ],
+        [
+          "R-2",
+          "Resident period: Lakeshore Robotics wages earned & paid 06/23-06/30 (resident - taxable although earned in Southfield)",
+          4154
+        ],
+        [
+          "R-3",
+          "Resident period: interest (Ally, Jan-Jun per bank export)",
+          91
+        ],
+        [
+          "R-4",
+          "Resident period: Roth conversion 02/2025 - IRA distribution, excluded from city income (see assumption)",
+          0
+        ],
+        [
+          "NR-1",
+          "Nonresident period 07/01-12/31: Lakeshore wages 07/01-09/15 shown in box 18 but earned outside Detroit - not taxable",
+          0
+        ],
+        [
+          "NR-2",
+          "(memo: Lakeshore Detroit box 18 wages 41,653.85 less resident-period 4,153.85 = 37,500.00 excluded)",
+          0
+        ],
+        [
+          "-",
+          "Total income subject to Detroit tax",
+          132645
+        ],
+        [
+          "-",
+          "Exemption $600 (apportioned to resident income - no Detroit-taxable nonresident income)",
+          600
+        ],
+        [
+          "-",
+          "Taxable income (resident rate 2.4%)",
+          132045
+        ],
+        [
+          "-",
+          "Detroit income tax",
+          3169
+        ],
+        [
+          "-",
+          "Detroit tax withheld: Motor City Analytics 3,081.60 + Lakeshore Robotics 999.69",
+          4081
+        ],
+        [
+          "-",
+          "REFUND",
+          912
+        ]
+      ],
+      "note": "NEW for 2025: part-year resident return replaces the prior-year Detroit resident return (move to Royal Oak 07/01/2025). Royal Oak and Southfield do not levy a city income tax -> no other local return. Detroit return filed through MI Treasury e-file with the MI-1040. ASSUMPTION: the Roth conversion is treated as an excluded IRA distribution under the Uniform City Income Tax Ordinance (retirement/IRA distributions not city income); verify against current Detroit part-year instructions."
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040 (federal)",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-03-19"
+    },
+    {
+      "form": "MI-1040",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-03-19"
+    },
+    {
+      "form": "City of Detroit part-year resident income tax return",
+      "method": "e-file (MI Treasury)",
+      "due": "2026-04-15",
+      "filed": "2026-03-19"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1005-G1",
+      "procedure_section": "Return - Schedule 3 (excess social security)",
+      "title": "Two employers -> excess SS withheld",
+      "trap": "Ignore the excess because each W-2 is correct on its own.",
+      "correct_treatment": "SS withheld 13,798.34 exceeds $10,918.20 (6.2% x $176,100) -> $2,880 refundable credit on Schedule 3 line 11.",
+      "impact": "Refund understated $2,880",
+      "affected_lines": [
+        "31",
+        "Sch 3 line 11"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1005-G2",
+      "procedure_section": "Return - Form 8959 / NIIT",
+      "title": "Additional Medicare Tax not withheld by either employer",
+      "trap": "No Form 8959 because neither W-2 shows extra Medicare withholding (each employer paid < $200k).",
+      "correct_treatment": "Combined Medicare wages 222,553.85 - $200,000 = excess x 0.9% = $203 on Schedule 2. Also NIIT on the Ally interest ($7) since MAGI > $200,000 (the conversion is not NII but raises MAGI).",
+      "impact": "Schedule 2 lines 11-12",
+      "affected_lines": [
+        "23"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1005-G3",
+      "procedure_section": "Review - Client IRAs / General Return Prep Notes (organizer answers vs PY WP)",
+      "title": "Backdoor Roth with an existing rollover IRA - pro-rata rule",
+      "trap": "Accept the organizer answer 'no other IRAs' and the planner's 'tax-free' comment: taxable conversion = $12 (earnings only).",
+      "correct_treatment": "The Fidelity year-end report / 5498 (and the PY WP) show a Rollover IRA worth 63,412.77 at 12/31/2025. Form 8606 line 6 includes it: nontaxable ratio 0.0994 -> taxable conversion $6,315 (line 4b), basis $6,303 carried forward.",
+      "impact": "4b $6,315 vs $12 - tax difference $1,520",
+      "affected_lines": [
+        "4a",
+        "4b",
+        "Form 8606"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1005-G4",
+      "procedure_section": "Return - Form 8606 basis tracking",
+      "title": "Remaining IRA basis must be carried forward",
+      "trap": "Report 8606 Part II only and lose the unrecovered basis.",
+      "correct_treatment": "File Form 8606 Part I: 2026 basis $6,303. Advise rolling the Rollover IRA into Lakeshore's 401(k) (if the plan accepts roll-ins) before 12/31/2026 to make future backdoor conversions clean.",
+      "impact": "Future double taxation of $6,303",
+      "affected_lines": [
+        "Form 8606 line 14"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1005-G5",
+      "procedure_section": "SALT Implications - Local Filing Requirements",
+      "title": "Move Detroit -> Royal Oak creates a part-year Detroit return",
+      "trap": "File a Detroit resident return as in the prior year (full-year wages at 2.4%), or file nothing because she now lives in Royal Oak.",
+      "correct_treatment": "Change in residence mid-year -> City of Detroit PART-YEAR resident return: resident-period income at 2.4%; nonresident period only Detroit-source income (none). Royal Oak/Southfield have no city income tax.",
+      "impact": "Detroit refund $912",
+      "affected_lines": [
+        "Detroit return"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1005-G6",
+      "procedure_section": "SALT Implications - Local Filing Requirements (W-2 box 18-20)",
+      "title": "Detroit withholding on job-2 wages after the move",
+      "trap": "Treat Lakeshore's W-2 box 18 Detroit wages ($41,654) as Detroit-taxable, or ignore the Lakeshore box 19 withholding.",
+      "correct_treatment": "Wages earned 07/01-09/15 as a nonresident working in Southfield/home are not Detroit income; the Detroit tax withheld on them is claimed as a payment on the part-year return and refunded.",
+      "impact": "Detroit tax overstated ~$900 if included",
+      "affected_lines": [
+        "Detroit return"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1005-G7",
+      "procedure_section": "SALT Implications - Local Filing Requirements (part-year allocation)",
+      "title": "Job-2 wages earned while still a Detroit resident",
+      "trap": "Exclude all Lakeshore wages from Detroit because the job is in Southfield.",
+      "correct_treatment": "The 06/23-06/30 paycheck (4,153.85, paid 06/30) was earned and received while a Detroit resident -> taxable at the resident rate regardless of work location.",
+      "impact": "Detroit tax ~$100",
+      "affected_lines": [
+        "Detroit return"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1005-G8",
+      "procedure_section": "SALT Implications - Michigan",
+      "title": "MI-1040 treatment",
+      "trap": "Subtract the Roth conversion (retirement subtraction) or deduct/credit the Detroit tax; or deduct moving expenses.",
+      "correct_treatment": "MI starts from federal AGI; conversion taxable in MI; exemption $5,800; tax 4.25% = $8,490; no credit for city tax. Moving expenses are not deductible (suspended except Armed Forces).",
+      "impact": "MI balance due $239",
+      "affected_lines": [
+        "MI-1040"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1005-G9",
+      "procedure_section": "Scan - Duplicate documents",
+      "title": "ADP reprint of the job-1 W-2",
+      "trap": "Autoflow both copies of the Motor City Analytics W-2 (wages, withholding and the excess-SS computation all doubled).",
+      "correct_treatment": "Same control number / amounts - mark DUP; one W-2 per employer.",
+      "impact": "Line 1a overstated $116,400",
+      "affected_lines": [
+        "1a",
+        "25a"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "form_8606": {
+    "line6": 63413,
+    "line10": 0.0994,
+    "line18_taxable": 6315,
+    "line14_basis_2026": 6303.0
+  },
+  "assumptions": [
+    "Detroit: Roth conversion excluded as an IRA distribution under the UCITO",
+    "Detroit: 401(k) deferrals taxable (box 18 = Medicare wages)",
+    "Detroit exemption fully allocated to resident-period income (no Detroit-taxable nonresident income)"
+  ],
+  "software_exceptions": [
+    {
+      "id": "EVG1005-SX1",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Form 8606 line 6 blank - rollover IRA omitted, conversion shown as tax-free",
+      "axcess_default_behavior": "The draft keyed the 1099-R as a backdoor Roth conversion with 2025 nondeductible contribution $7,000 and line 6 (value of all traditional/SEP/SIMPLE IRAs at 12/31/2025) = $0 per the organizer. Axcess computes taxable conversion $12 (earnings only). The rollover IRA has no 1099 in 2025 - only a Form 5498 - so nothing prompts the input.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Retirement > Form 8606 (nondeductible IRAs) input: 12/31/2025 value of all traditional IRAs = $63,412.77 (Fidelity Rollover IRA 5498). Line 7 conversion $7,012; nontaxable ratio 0.0994 -> nontaxable $697, taxable $6,315 (line 4b); basis carried to 2026 (line 14) $6,303. No additional tax (code 2).",
+      "override_amount": 6315,
+      "proconnect_default_behavior": "Same - ProConnect's Form 8606 calculation uses the year-end traditional IRA value entered; blank = $0.",
+      "proconnect_fix": "IRA Information (8606) screen: enter the 12/31/2025 value of all traditional IRAs $63,412.77 and the 2025 nondeductible contribution $7,000; prior basis $0 (screen/field per current release - verify).",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "4a",
+        "4b",
+        "Form 8606 lines 6-14"
+      ],
+      "procedure_section": "Review - Client IRAs / General Return Prep Notes (organizer answers vs PY WP)",
+      "notes": "Tax cost of the pro-rata rule ~$1,520. Advise rolling the Rollover IRA into the Lakeshore 401(k) before 12/31/2026."
+    },
+    {
+      "id": "EVG1005-SX2",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "ADP REPRINT of the first W-2 AutoFlowed as a third W-2",
+      "axcess_default_behavior": "AutoFlow created a third W-2 from the ADP 'REPRINT' (same control no. MCA-2025-0417). Wages, withholding and the excess social security credit are all overstated; the duplicate also inflates the Detroit box 18/19 inputs.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "W-2 input: delete the REPRINT record (bookmark DUP). Keep both remaining W-2s under the taxpayer so the excess SS credit computes: SS withheld 13,798.34 - 10,918.20 (6.2% x $176,100) = $2,880 (Schedule 3 line 11). Form 8959 on combined Medicare wages 222,553.85 -> $203.",
+      "override_amount": 2880,
+      "proconnect_default_behavior": "Same overstatement if the reprint is keyed/imported as another W-2.",
+      "proconnect_fix": "W-2 screen: two records only (both Taxpayer). Excess SS credit and Form 8959 then calculate automatically.",
+      "proconnect_reference": "Screen name per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "1a",
+        "25a",
+        "31",
+        "Sch 3 line 11",
+        "Form 8959"
+      ],
+      "procedure_section": "Scan - duplicate documents / Return - Schedule 3 (excess social security)",
+      "notes": ""
+    },
+    {
+      "id": "EVG1005-SX3",
+      "workbook_tab": "23. Multi-State W-2 Days",
+      "tab_key": "23",
+      "category": "State Allocation",
+      "title": "Detroit part-year resident return: Lakeshore W-2 box 18 shows Detroit wages through 09/15",
+      "axcess_default_behavior": "The local return proformas as a Detroit RESIDENT return (2024) and picks up both W-2s' box 18 wages at 2.4%: Motor City $128,400 + Lakeshore $41,653.85. Axcess cannot know she moved 07/01, never worked in Detroit for Lakeshore, or that payroll kept her old address until 09/16.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Detroit city return input: change residency to part-year (resident 01/01-06/30/2025). Override Lakeshore resident wages to $4,153.85 (06/23-06/30 paycheck: 6 workdays x $180,000/260 - earned and paid while a resident) and nonresident Detroit-source wages to $0 (worked in Southfield/home). Keep the full Lakeshore box 19 withholding $999.69 as a payment. Resident income 128,400 + 4,154 + interest 91 - exemption 600 = 132,045 x 2.4% = $3,169; withheld $4,081 -> refund $912. City form/field names per current release - verify.",
+      "override_amount": 4154,
+      "proconnect_default_behavior": "Same allocation problem - local wages default from W-2 box 18. Michigan city return availability and screens per current release - verify; if the Detroit return is not supported, prepare it outside the package and file through MI Treasury.",
+      "proconnect_fix": "W-2 local wage fields / Detroit part-year inputs: resident-period wages $4,153.85 for Lakeshore, nonresident $0, withholding $999.69 (screen/field per current release - verify).",
+      "proconnect_reference": "Michigan city return support per current release - verify",
+      "efile_impact": "Detroit return e-filed through MI Treasury (accepted 03/19/2026)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Detroit return"
+      ],
+      "procedure_section": "SALT Implications - Local Filing Requirements",
+      "notes": "The 02/2025 Roth conversion is excluded from Detroit income as an IRA distribution (assumption per the return - verify against current Detroit part-year instructions)."
+    },
+    {
+      "id": "EVG1005-SX4",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "State Allocation",
+      "title": "MI-1040: no retirement subtraction for the Roth conversion",
+      "axcess_default_behavior": "The draft carried the 1099-R into the Michigan pension/retirement subtraction (Form 4884 / Schedule 1). The software keys off the 1099-R record; it does not recognize that a Roth conversion is not a retirement benefit eligible for the subtraction unless the record is excluded (verify how the current release treats a code-2 conversion).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Michigan > retirement/pension subtraction input: exclude the conversion 1099-R (subtraction $0). MI tax 4.25% x (205,555 - 5,800) = $8,490; withheld $8,251 -> balance due $239.",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same risk - the MI pension subtraction worksheet draws on 1099-R records.",
+      "proconnect_fix": "Michigan retirement subtraction (4884) inputs: exclude the conversion (field per current release - verify).",
+      "proconnect_reference": "Field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "MI-1040 Schedule 1"
+      ],
+      "procedure_section": "SALT Implications - Michigan",
+      "notes": ""
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "23. Multi-State W-2 Days"
+  ]
+}

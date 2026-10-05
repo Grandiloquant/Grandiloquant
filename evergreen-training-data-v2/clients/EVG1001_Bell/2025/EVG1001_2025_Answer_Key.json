@@ -1,0 +1,628 @@
+{
+  "client_id": "EVG1001",
+  "client": "Marcus & Tanya Bell",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "TX (no state return)",
+    "complexity": "Basic W-2 tier + OBBBA deductions"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 105478,
+    "2a": 0,
+    "2b": 1285,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": 0,
+    "9": 106763,
+    "10": 0,
+    "11": 106763,
+    "12e": 31500,
+    "13a": 0,
+    "13b": 5602,
+    "15": 69661,
+    "16": 7884,
+    "17": 0,
+    "19": 6600,
+    "20": 200,
+    "22": 1084,
+    "23": 0,
+    "24": 1084,
+    "25d": 6770,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 6770,
+    "34": 5686,
+    "35a": 5686,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 5686,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 105478
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 105478
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 1285
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 106763
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 106763
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 31500
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 5602
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 37102
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 69661
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 7884
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 7884
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 6600
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 200
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 6800
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 1084
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 1084
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 6770
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 6770
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 6770
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 5686
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 5686
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Ally Bank",
+        "amount": 1246
+      },
+      {
+        "line": "1.2",
+        "description": "JPMorgan Chase Bank",
+        "amount": 38
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 1285
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 1285
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule 1-A": [
+      {
+        "line": "Part I",
+        "description": "Modified AGI",
+        "amount": 106763
+      },
+      {
+        "line": "Part III",
+        "description": "Qualified overtime compensation deduction (FLSA premium portion 3,150)",
+        "amount": 3150.0
+      },
+      {
+        "line": "Part IV",
+        "description": "Qualified passenger vehicle loan interest (VIN 1FTFW1E58SFA10393)",
+        "amount": 2452.18
+      },
+      {
+        "line": "38",
+        "description": "Total additional deductions (to Form 1040, line 13b)",
+        "amount": 5602
+      }
+    ],
+    "Form 2441": [
+      {
+        "line": "employer_benefits",
+        "description": "employer benefits",
+        "amount": 5000.0
+      },
+      {
+        "line": "exclusion",
+        "description": "exclusion",
+        "amount": 5000
+      },
+      {
+        "line": "taxable_benefits",
+        "description": "taxable benefits",
+        "amount": 0
+      },
+      {
+        "line": "qualified_expenses_allowed",
+        "description": "qualified expenses allowed",
+        "amount": 1000
+      },
+      {
+        "line": "pct",
+        "description": "pct",
+        "amount": 0.2
+      },
+      {
+        "line": "credit",
+        "description": "credit",
+        "amount": 200
+      }
+    ],
+    "Schedule 8812": [
+      {
+        "line": "4",
+        "description": "Number of qualifying children under 17 with SSN",
+        "amount": 3
+      },
+      {
+        "line": "6",
+        "description": "Number of other dependents",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Tentative credit",
+        "amount": 6600
+      },
+      {
+        "line": "10-11",
+        "description": "Phase-out reduction (MAGI 106,763 vs 400,000)",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Credit after phase-out",
+        "amount": 6600
+      },
+      {
+        "line": "14",
+        "description": "Nonrefundable CTC/ODC (to Form 1040 line 19)",
+        "amount": 6600
+      },
+      {
+        "line": "27",
+        "description": "Additional child tax credit (to Form 1040 line 28)",
+        "amount": 0
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "2",
+        "description": "Credit for child and dependent care expenses (Form 2441)",
+        "amount": 200
+      },
+      {
+        "line": "8",
+        "description": "Total nonrefundable credits (to Form 1040, line 20)",
+        "amount": 200
+      }
+    ]
+  },
+  "state_and_local": [],
+  "required_filings": [
+    {
+      "form": "Form 1040 (federal)",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-06"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1001-G1",
+      "procedure_section": "Scan - duplicate documents",
+      "title": "Tanya's W-2 uploaded twice (PDF + phone photo)",
+      "trap": "Autoflow picks up both documents -> $47,000 wages and $2,810 withholding counted twice.",
+      "correct_treatment": "Mark photo upload as DUP (same EIN, control no., amounts). One W-2 for Brightsmile Dental.",
+      "impact": "Line 1a overstated $47,000 if missed",
+      "affected_lines": [
+        "1a",
+        "25a"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1001-G2",
+      "procedure_section": "General Return Prep Notes - blank organizer line with PY amount",
+      "title": "Ally Bank 1099-INT not in initial PBC",
+      "trap": "Organizer line blank; preparer assumes zero and omits $1,246 of interest (recurring, $980 in 2024).",
+      "correct_treatment": "Open item emailed to client 02/24; 1099-INT received 03/04 and included on line 2b.",
+      "impact": "Line 2b understated $1,246 -> CP2000 exposure",
+      "affected_lines": [
+        "2b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1001-G3",
+      "procedure_section": "Client Interview / dependents",
+      "title": "Newborn not on organizer",
+      "trap": "Organizer lists 2 dependents; baby born 12/18/2025 only disclosed in a later email.",
+      "correct_treatment": "Add Noah as dependent (child born during the year is treated as living with the taxpayer all year; SSN issued before due date). Third $2,200 CTC.",
+      "impact": "CTC understated $2,200",
+      "affected_lines": [
+        "19"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1001-G4",
+      "procedure_section": "OBBBA - no tax on overtime (Schedule 1-A Part III)",
+      "title": "W-2 box 14 shows TOTAL overtime pay",
+      "trap": "Deduct the full $9,450 box 14 overtime amount.",
+      "correct_treatment": "Only the FLSA premium ('half' of time-and-a-half) qualifies. Box 14 = total OT paid at 1.5x -> premium = 9,450 / 3 = $3,150.",
+      "impact": "Line 13b overstated by $6,300",
+      "affected_lines": [
+        "13b"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1001-G5",
+      "procedure_section": "OBBBA - car loan interest (Schedule 1-A Part IV)",
+      "title": "Two vehicle loans, only one qualifies",
+      "trap": "Deduct both loans ($3,557) or neither.",
+      "correct_treatment": "F-150: new, 2025 purchase, US final assembly, personal use, VIN reported -> $2,452 deductible. CR-V: used vehicle, 2024 loan -> not qualified.",
+      "impact": "Line 13b",
+      "affected_lines": [
+        "13b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1001-G6",
+      "procedure_section": "Form 2441",
+      "title": "Dependent care FSA and overnight camp",
+      "trap": "Claim credit on $6,000 of expenses ignoring the $5,000 W-2 box 10 exclusion and including overnight camp.",
+      "correct_treatment": "Exclude $5,000 FSA (box 10) first; credit base = $6,000 cap - $5,000 = $1,000; overnight camp ($1,400) is not a qualified expense. Credit 20% x $1,000 = $200.",
+      "impact": "Sch 3 line 2: $200 not $1,200",
+      "affected_lines": [
+        "20"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1001-G7",
+      "procedure_section": "W-2 box 12 codes",
+      "title": "HSA code W includes employee pre-tax payroll deferrals",
+      "trap": "Take an additional HSA deduction on Schedule 1 line 13 for the $2,000 Marcus 'contributed'.",
+      "correct_treatment": "Code W = employer + cafeteria-plan contributions, already excluded from wages. No Sch 1 deduction. 1099-SA used for qualified medical - nontaxable; Form 8889 still required.",
+      "impact": "Sch 1 line 13 overstated $2,000-3,000",
+      "affected_lines": [
+        "10"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1001-G8",
+      "procedure_section": "W-2 box 12 codes",
+      "title": "Roth 401(k) (code AA) is not pre-tax",
+      "trap": "Subtract $2,600 code AA from wages.",
+      "correct_treatment": "Code AA is already included in box 1. No adjustment.",
+      "impact": "Line 1a",
+      "affected_lines": [
+        "1a"
+      ],
+      "difficulty": "easy"
+    }
+  ],
+  "engine_notes": [],
+  "software_exceptions": [
+    {
+      "id": "EVG1001-SX1",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Duplicate W-2 (PDF + phone photo) picked up by Scan/AutoFlow",
+      "axcess_default_behavior": "Axcess Scan/AutoFlow created three W-2 input records - Marcus (Lone Star Distribution) plus Tanya's Brightsmile Dental W-2 twice (client PDF and phone photo, same EIN and control no. BSD-22-014). The return calculates on both copies: wages and withholding overstated by Tanya's W-2 amounts (about $47,000 of wages).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Income/Deductions > Wages, Salaries, Tips (W-2): delete the duplicate W-2 record created from the phone photo; bookmark the photo DUP in the binder so it does not AutoFlow again. Line 1a = $105,478; line 25a = $6,770.",
+      "override_amount": 105478,
+      "proconnect_default_behavior": "ProConnect has no binder-based AutoFlow in the firm's workflow; W-2s are keyed (or imported - import options per current release - verify). The same overstatement occurs if both copies are entered.",
+      "proconnect_fix": "Wages, Salaries, Tips > W-2 screen: one record per W-2 (two total). Tie line 1a to the W-2 box 1 tape (105,478) before finalizing.",
+      "proconnect_reference": "Screen name per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "1a",
+        "25a"
+      ],
+      "procedure_section": "Scan - duplicate documents",
+      "notes": "Control number and EIN match is the tell; the photo is a re-upload, not a second job."
+    },
+    {
+      "id": "EVG1001-SX2",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Schedule 1-A Part III overtime: W-2 box 14 shows TOTAL overtime pay, not the premium",
+      "axcess_default_behavior": "The qualified-overtime input takes whatever is keyed. If box 14 'OVERTIME 9,450.00' is keyed (or mapped) as qualified overtime compensation, Axcess deducts $9,450 on Schedule 1-A - it cannot know the box 14 figure is total overtime pay at 1.5x rather than the FLSA premium.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "W-2 worksheet / Schedule 1-A qualified overtime input (verify field path in current release): enter $3,150 (9,450 / 1.5 x 0.5 = 9,450 / 3). Keep the calculator tape on WP 3. MAGI $106,763 < $300,000 MFJ - no phase-out.",
+      "override_amount": 3150,
+      "proconnect_default_behavior": "Same - ProConnect deducts the qualified overtime amount entered; it has no way to split total OT pay.",
+      "proconnect_fix": "Enter $3,150 in the qualified overtime compensation field for Marcus (Schedule 1-A input - screen/field per current release - verify).",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "13b",
+        "Schedule 1-A Part III"
+      ],
+      "procedure_section": "OBBBA - no tax on overtime (Schedule 1-A Part III)",
+      "notes": "2025 transition: employers were not required to report qualified overtime separately; a reasonable method (premium = 1/3 of time-and-a-half pay) is allowed. From 2026 use W-2 box 12 code TT if reported."
+    },
+    {
+      "id": "EVG1001-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Schedule 1-A Part IV car-loan interest: only the new F-150 loan qualifies",
+      "axcess_default_behavior": "Both lender year-end interest statements (Ford Credit F-150, Honda CR-V) were keyed as qualified passenger vehicle loan interest; Axcess deducts $3,557. The software cannot test 'new vehicle', 'loan originated after 12/31/2024' or 'final assembly in the U.S.' - those are preparer determinations.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Schedule 1-A qualified vehicle loan interest input (verify field path in current release): keep only the Ford Credit loan - interest $2,452, VIN entered (required on Schedule 1-A). Delete the Honda record (used vehicle, 2024 loan - personal interest, nondeductible).",
+      "override_amount": 2452,
+      "proconnect_default_behavior": "Same - the deduction is computed from the loans entered.",
+      "proconnect_fix": "Schedule 1-A vehicle loan interest input: one record (F-150, VIN, $2,452). Screen/field per current release - verify.",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "None (VIN must be reported on Schedule 1-A)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "13b",
+        "Schedule 1-A Part IV"
+      ],
+      "procedure_section": "OBBBA - car loan interest (Schedule 1-A Part IV)",
+      "notes": "Line 13b total = 3,150 + 2,452 = 5,602."
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log"
+  ]
+}

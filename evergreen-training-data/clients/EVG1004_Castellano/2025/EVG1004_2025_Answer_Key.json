@@ -11,7 +11,7 @@
   "form_1040_summary": {
     "1z": 0,
     "2a": 3115,
-    "2b": 3938,
+    "2b": 4162,
     "3a": 5208,
     "3b": 6184,
     "4b": 30000,
@@ -19,20 +19,20 @@
     "6b": 32640,
     "7": 812,
     "8": 0,
-    "9": 115341,
+    "9": 115565,
     "10": 0,
-    "11": 115341,
+    "11": 115565,
     "12e": 33100,
     "13a": 0,
     "13b": 6000,
-    "15": 76241,
-    "16": 7950,
+    "15": 76465,
+    "16": 7974,
     "17": 0,
     "19": 0,
-    "20": 1183,
-    "22": 6767,
+    "20": 1185,
+    "22": 6789,
     "23": 0,
-    "24": 6767,
+    "24": 6789,
     "25d": 4660,
     "26": 7150,
     "27a": 0,
@@ -40,15 +40,15 @@
     "29": 0,
     "31": 0,
     "33": 11810,
-    "34": 5043,
-    "35a": 5043,
+    "34": 5021,
+    "35a": 5021,
     "37": 0
   },
   "deduction_type": "Standard",
-  "refund": 5043,
+  "refund": 5021,
   "balance_due": 0,
   "carryforwards_to_2026": {
-    "ftc_carryforward": 1392
+    "ftc_carryforward": 1391
   },
   "federal_forms": {
     "Form 1040": [
@@ -90,7 +90,7 @@
       {
         "line": "2b",
         "description": "Taxable interest",
-        "amount": 3938
+        "amount": 4162
       },
       {
         "line": "3a",
@@ -145,7 +145,7 @@
       {
         "line": "9",
         "description": "Total income",
-        "amount": 115341
+        "amount": 115565
       },
       {
         "line": "10",
@@ -155,7 +155,7 @@
       {
         "line": "11",
         "description": "Adjusted gross income",
-        "amount": 115341
+        "amount": 115565
       },
       {
         "line": "12e",
@@ -180,12 +180,12 @@
       {
         "line": "15",
         "description": "Taxable income",
-        "amount": 76241
+        "amount": 76465
       },
       {
         "line": "16",
         "description": "Tax",
-        "amount": 7950
+        "amount": 7974
       },
       {
         "line": "17",
@@ -195,7 +195,7 @@
       {
         "line": "18",
         "description": "Add lines 16 and 17",
-        "amount": 7950
+        "amount": 7974
       },
       {
         "line": "19",
@@ -205,17 +205,17 @@
       {
         "line": "20",
         "description": "Amount from Schedule 3, line 8",
-        "amount": 1183
+        "amount": 1185
       },
       {
         "line": "21",
         "description": "Add lines 19 and 20",
-        "amount": 1183
+        "amount": 1185
       },
       {
         "line": "22",
         "description": "Subtract line 21 from line 18",
-        "amount": 6767
+        "amount": 6789
       },
       {
         "line": "23",
@@ -225,7 +225,7 @@
       {
         "line": "24",
         "description": "Total tax",
-        "amount": 6767
+        "amount": 6789
       },
       {
         "line": "25a",
@@ -285,12 +285,12 @@
       {
         "line": "34",
         "description": "Amount overpaid",
-        "amount": 5043
+        "amount": 5021
       },
       {
         "line": "35a",
         "description": "Refund",
-        "amount": 5043
+        "amount": 5021
       },
       {
         "line": "37",
@@ -307,7 +307,7 @@
       {
         "line": "1.1",
         "description": "Charles Schwab ****3307 - interest (corporate bonds / sweep)",
-        "amount": 2431
+        "amount": 2439
       },
       {
         "line": "1.2",
@@ -322,17 +322,17 @@
       {
         "line": "1.4",
         "description": "Accrued interest paid on purchase - Home Depot 4.90% 2029 (Schwab)",
-        "amount": -386
+        "amount": -169
       },
       {
         "line": "2",
         "description": "Total interest",
-        "amount": 3938
+        "amount": 4162
       },
       {
         "line": "4",
         "description": "Taxable interest (to Form 1040, line 2b)",
-        "amount": 3938
+        "amount": 4162
       },
       {
         "line": "5.1",
@@ -386,7 +386,7 @@
       {
         "line": "Part I",
         "description": "Modified AGI",
-        "amount": 115341
+        "amount": 115565
       },
       {
         "line": "Part V",
@@ -402,20 +402,20 @@
     "Form 1116": [
       {
         "line": "summary",
-        "description": "Category: general (pension); foreign taxes 2,575; foreign-source TI 11,348; limitation 1,183",
-        "amount": 1183
+        "description": "Category: general (pension); foreign taxes 2,575; foreign-source TI 11,359; limitation 1,185",
+        "amount": 1185
       }
     ],
     "Schedule 3": [
       {
         "line": "1",
         "description": "Foreign tax credit",
-        "amount": 1183
+        "amount": 1185
       },
       {
         "line": "8",
         "description": "Total nonrefundable credits (to Form 1040, line 20)",
-        "amount": 1183
+        "amount": 1185
       }
     ]
   },
@@ -467,7 +467,7 @@
       "procedure_section": "Foreign Transactions - Form 1116",
       "title": "FTC on the Canadian pension: general category, no de minimis election",
       "trap": "Claim the $2,575 directly on Schedule 3 without Form 1116, or classify as passive.",
-      "correct_treatment": "Pension is general-category income and not 'qualified passive income' reported on a payee statement, and $2,575 > $600 -> Form 1116 required. Limitation $1,183; credit $1,183; $1,392 added to the carryforward (total $3,860).",
+      "correct_treatment": "Pension is general-category income and not 'qualified passive income' reported on a payee statement, and $2,575 > $600 -> Form 1116 required. Limitation $1,185; credit $1,185; $1,390 added to the carryforward (total $3,858).",
       "impact": "Sch 3 line 1",
       "affected_lines": [
         "20",
@@ -492,9 +492,9 @@
       "id": "EVG1004-G5",
       "procedure_section": "Return - Schedule B (accrued interest reversal)",
       "title": "Accrued interest paid at purchase",
-      "trap": "Report box 1 interest as shown ($2,431), or treat tax-exempt interest as taxable / omit it.",
-      "correct_treatment": "Subtract $386 'Accrued interest' on Schedule B (bond bought between coupon dates). Muni interest $3,115 on line 2a (not taxable, but counts in SS provisional income).",
-      "impact": "2b overstated $386",
+      "trap": "Report box 1 interest as shown ($2,439), or treat tax-exempt interest as taxable / omit it.",
+      "correct_treatment": "Subtract $169 'Accrued interest' on Schedule B (bond bought between coupon dates). Muni interest $3,115 on line 2a (not taxable, but counts in SS provisional income).",
+      "impact": "2b overstated $169",
       "affected_lines": [
         "2a",
         "2b"
@@ -521,7 +521,7 @@
       "title": "'QCD' by a 67-year-old; corrected 1099-R",
       "trap": "Use both 1099-Rs (double count $30,000) and/or exclude $8,000 as a QCD per the client and the original code Y.",
       "correct_treatment": "Use the CORRECTED 1099-R only. A QCD requires the owner to be 70 1/2 on the distribution date (Robert: 11/14/2028). The full $30,000 is taxable (4b); the $8,000 is a cash charitable contribution usable only if itemizing (it isn't beneficial). No RMD was required (RMD age 73).",
-      "impact": "4b $30,000 not $22,000 (refund lower by $895)",
+      "impact": "4b $30,000 not $22,000 (refund lower by $894)",
       "affected_lines": [
         "4a",
         "4b"
@@ -533,7 +533,7 @@
       "procedure_section": "Return - Schedule 1-A senior deduction / standard deduction age test",
       "title": "Linda is 64 at 12/31/2025",
       "trap": "Check both age-65 boxes (+$3,200) and claim the $6,000 senior deduction for both spouses (client says 'Linda is 65 this year').",
-      "correct_treatment": "Linda turns 65 on 03/22/2026 -> only Robert gets the $1,600 additional standard deduction and the $6,000 senior deduction (MAGI $115,341 < $150,000, no phase-out).",
+      "correct_treatment": "Linda turns 65 on 03/22/2026 -> only Robert gets the $1,600 additional standard deduction and the $6,000 senior deduction (MAGI $115,565 < $150,000, no phase-out).",
       "impact": "12e / 13b overstated $7,600",
       "affected_lines": [
         "12e",
@@ -561,6 +561,6 @@
     "Canadian employer pension non-contributory -> no US investment in the contract",
     "QD/CG adjustment exception applies for Form 1116 (no foreign-source QD/CG)"
   ],
-  "ftc_carryforward_general_total": 3860,
-  "client_expected_qcd_refund": 5938
+  "ftc_carryforward_general_total": 3858,
+  "client_expected_qcd_refund": 5915
 }

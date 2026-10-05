@@ -68,7 +68,8 @@ nr4_usd, nr4_tax_usd = round(nr4_cad / CAD_AVG, 2), round(nr4_tax_cad / CAD_AVG,
 rbc_int_cad = 42.18
 rbc_int_usd = round(rbc_int_cad / CAD_AVG, 2)
 rbc_max_cad = 37912.44
-schwab_int, schwab_treas, schwab_muni, accrued = 2431.18, 1862.40, 3114.75, 386.25
+# Home Depot 4.90% bond, $15,000 face, bought 07/08/2025: accrued 04/15-07/08 (83 days, 30/360) = 367.50 x 83/180 = 169.46
+schwab_int, schwab_treas, schwab_muni, accrued = 2438.87, 1862.40, 3114.75, 169.46
 div_ord, div_q, cgd = 6184.22, 5207.90, 812.00
 prop_tax = 5840.36
 retiree_health = 330.00 * 12
@@ -134,7 +135,7 @@ statement(C.pbc_file("05_Schwab_2025_Consolidated_1099_Joint_3307.pdf", "Consoli
          "table": [["Security", "CUSIP", "Date", "Type", "Amount"],
                    ["JPMorgan Chase & Co 4.25% 10/01/2027", "46625HRL6", "04/01, 10/01", "Corporate interest", 1062.50],
                    ["Verizon Communications 3.875% 02/08/2029", "92343VEN0", "02/08, 08/08", "Corporate interest", 968.75],
-                   ["Home Depot 4.90% 04/15/2029", "437076CV2", "10/15", "Corporate interest", 359.81],
+                   ["Home Depot 4.90% 04/15/2029", "437076CV2", "10/15", "Corporate interest", 367.50],
                    ["Schwab Bank sweep", "", "monthly", "Bank interest", 40.12],
                    ["Subtotal box 1", "", "", "", schwab_int],
                    ["US Treasury Note 4.125% 11/15/2027", "91282CJK8", "05/15, 11/15", "Treasury interest", 1237.50],
@@ -366,10 +367,10 @@ gotchas = [
            "auto-extended to 10/15); Schedule B Part III Yes / Canada; RBC interest is taxable. Form 8938 not required (below MFJ thresholds).",
            "FBAR penalty exposure", ["Sch B Part III", "FBAR"], "medium"),
     gotcha("EVG1004-G5", "Return - Schedule B (accrued interest reversal)", "Accrued interest paid at purchase",
-           "Report box 1 interest as shown ($2,431), or treat tax-exempt interest as taxable / omit it.",
-           "Subtract $386 'Accrued interest' on Schedule B (bond bought between coupon dates). Muni interest $3,115 on line 2a "
+           f"Report box 1 interest as shown ({fmt(r(schwab_int))}), or treat tax-exempt interest as taxable / omit it.",
+           f"Subtract {fmt(r(accrued))} 'Accrued interest' on Schedule B (bond bought between coupon dates). Muni interest $3,115 on line 2a "
            "(not taxable, but counts in SS provisional income).",
-           "2b overstated $386", ["2a", "2b"], "medium"),
+           f"2b overstated {fmt(r(accrued))}", ["2a", "2b"], "medium"),
     gotcha("EVG1004-G6", "Review - Client IRAs", "Schwab IRA year-end statement in the PBC",
            "Autoflow the IRA's dividends ($9,812), interest ($3,105) and gains ($14,280) onto Schedules B/D.",
            "Income inside a traditional IRA is not reported; only distributions (1099-R) are taxable.",
@@ -445,7 +446,7 @@ C.write_notes(f"""
    ({fmt(ftc_cf_2025)}) joins the carryforward (total general-category carryforward {fmt(ftc_cf_total)}; 10-year life). Their US
    average rate is below Canada's 15%, so this carryforward will keep growing - no action possible other than tracking it.
    QD/CG adjustment exception applies (no foreign-source dividends or gains).
-6. **Schwab consolidated 1099.** Interest $2,431 less **$386 accrued interest** paid when they bought the Home Depot bond in July
+6. **Schwab consolidated 1099.** Interest {fmt(r(schwab_int))} less **{fmt(r(accrued))} accrued interest** paid when they bought the Home Depot bond in July
    (shown as a separate "Accrued interest" subtraction on Schedule B). Treasury interest $1,862 (federal taxable; no state return, so
    no state subtraction matters). Muni interest $3,115 on line 2a. Qualified dividends $5,208 and capital gain distributions $812 - all
    in the 0% bracket.
@@ -487,7 +488,7 @@ C.write_review_points(f"""
 3. **Standard deduction / Schedule 1-A** - Draft checked the age-65 box for Linda and claimed 2 x $6,000 senior deduction.
    Linda's DOB is 03/22/1961 - she is 64 at 12/31/2025. Robert only.
    - *Preparer: Corrected - std {fmt(v['12e'])}, senior {fmt(v['13b'])}.*
-4. **Schedule B** - Accrued interest ($386, Schwab supplemental page) not reversed. Add as a negative "Accrued interest" line.
+4. **Schedule B** - Accrued interest ({fmt(r(accrued))}, Schwab supplemental page) not reversed. Add as a negative "Accrued interest" line.
    RBC interest missing - add (converted at 1.398).
    - *Preparer: Done.*
 5. **Line 5a/5b / Form 1116** - Draft entered the NR-4 at CAD face value (24,000) and claimed the Canadian tax as a direct credit.

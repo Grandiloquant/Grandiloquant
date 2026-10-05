@@ -1,0 +1,758 @@
+{
+  "client_id": "EVG1009",
+  "client": "Harold Jensen & Eleanor Jensen (deceased)",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "WA (no income tax)",
+    "complexity": "Year of death, inherited property, home sale"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 0,
+    "2a": 0,
+    "2b": 1215,
+    "3a": 5960,
+    "3b": 6840,
+    "4b": 10000,
+    "5b": 28800,
+    "6b": 37639,
+    "7": 11387,
+    "8": 0,
+    "9": 95881,
+    "10": 0,
+    "11": 95881,
+    "12e": 52845,
+    "13a": 0,
+    "13b": 12000,
+    "15": 31036,
+    "16": 1368,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 1368,
+    "23": 0,
+    "24": 1368,
+    "25d": 3400,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 3400,
+    "34": 2032,
+    "35a": 2032,
+    "37": 0
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 2032,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 0
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 0
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 1215
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 5960
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 6840
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 10000
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 10000
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 28800
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 28800
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 45960
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 37639
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 11387
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 95881
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 95881
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 52845
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 12000
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 64845
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 31036
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 1368
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 1368
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 1368
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 1368
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 3400
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 3400
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 3400
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 2032
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 2032
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Charles Schwab & Co.",
+        "amount": 1215
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 1215
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 1215
+      },
+      {
+        "line": "5.1",
+        "description": "Charles Schwab & Co.",
+        "amount": 6840
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 6840
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box E)": [
+      {
+        "line": "1",
+        "description": "400 sh Vanguard 500 Index Admiral (VFIAX) - INHERITED (community property) | acq INHERITED | sold 11/14/2025 | proceeds 230,000 | basis 222,048 | code  adj 0",
+        "amount": 7952
+      },
+      {
+        "line": "3",
+        "description": "200 sh Johnson & Johnson (JNJ) - INHERITED (community property) | acq INHERITED | sold 10/06/2025 | proceeds 37,620 | basis 31,080 | code  adj 0",
+        "amount": 6540
+      }
+    ],
+    "Form 8949 (Box D)": [
+      {
+        "line": "2",
+        "description": "300 sh Microsoft Corp (MSFT) - INHERITED (community property) | acq INHERITED | sold 10/06/2025 | proceeds 153,000 | basis 13,500 | code B adj -142,605",
+        "amount": -3105
+      }
+    ],
+    "Form 8949 (Box F)": [
+      {
+        "line": "4",
+        "description": "Principal residence 3415 S Manito Blvd, Spokane WA (Form 1099-S) - sec. 121 exclusion | acq INHERITED/1998 | sold 12/12/2025 | proceeds 685,000 | basis 666,773 | code H adj -18,227",
+        "amount": 0
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "LT box E",
+        "description": "Long-term from Form 8949 box E (proceeds 267,620; cost 253,128; adj 0)",
+        "amount": 14492
+      },
+      {
+        "line": "LT box D",
+        "description": "Long-term from Form 8949 box D (proceeds 153,000; cost 13,500; adj -142,605)",
+        "amount": -3105
+      },
+      {
+        "line": "LT box F",
+        "description": "Long-term from Form 8949 box F (proceeds 685,000; cost 666,773; adj -18,227)",
+        "amount": 0
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 11387
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 11387
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 48710
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 7191
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 41519
+      },
+      {
+        "line": "5a",
+        "description": "General sales taxes",
+        "amount": 1480
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 6446
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 7926
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 7926
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 7926
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 0
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 0
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 3400
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 3400
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 52845
+      }
+    ],
+    "Schedule 1-A": [
+      {
+        "line": "Part I",
+        "description": "Modified AGI",
+        "amount": 95881
+      },
+      {
+        "line": "Part V",
+        "description": "Enhanced deduction for seniors (2 x max(0, 6,000 - 6% x excess MAGI 0))",
+        "amount": 12000
+      },
+      {
+        "line": "38",
+        "description": "Total additional deductions (to Form 1040, line 13b)",
+        "amount": 12000
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "return": "WA capital gains excise",
+      "required": false,
+      "ltcg": 11387
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 1040 (MFJ - surviving spouse)",
+      "method": "e-file",
+      "due": "2026-04-15",
+      "filed": "2026-04-09"
+    },
+    {
+      "form": "Form 706 (portability only) - estate of Eleanor",
+      "method": "paper",
+      "due": "2026-05-09 or Rev. Proc. 2022-32 by 2030-08-09",
+      "filed": "separate engagement - pending client decision"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1009-G1",
+      "procedure_section": "Review - Filing Status (spouse deceased)",
+      "title": "Client and procedure say 'qualifying widower'",
+      "trap": "File 2025 as Qualifying Surviving Spouse (procedure wording) or Single.",
+      "correct_treatment": "In the year of death the survivor files MFJ (sec. 6013(a)(2)); QSS needs a dependent child and only applies to the 2 following years. Harold has no dependent -> 2026 onward Single. Sign as surviving spouse; no Form 1310. Procedure is imprecise - follow the law.",
+      "impact": "Filing status / std deduction / brackets",
+      "affected_lines": [
+        "Filing status",
+        "12e"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1009-G2",
+      "procedure_section": "Estate Implications - step-up in basis (community property)",
+      "title": "Schwab 1099-B shows original cost; noncovered lots show no basis",
+      "trap": "Use the 1099-B/original cost (gain $347,120), zero basis on noncovered lots, or step up only Eleanor's half (gain $179,254).",
+      "correct_treatment": "Washington community property: BOTH halves get a date-of-death basis (sec. 1014(b)(6)); holding period long-term. Use the Schwab DOD valuation (weekend DOD - mean of adjacent trading days). Box D with code B adjustment for the covered MSFT lot; box E with DOD basis for noncovered lots. Gain $11,387.",
+      "impact": "Sch D overstated $335,733 (~$50,360+ tax and a WA excise filing)",
+      "affected_lines": [
+        "7",
+        "Form 8949",
+        "Sch D"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1009-G3",
+      "procedure_section": "Estate Implications - sale of a home received from an estate; Schedule D code H",
+      "title": "1099-S $685,000 on the marital home",
+      "trap": "Compute gain from the 1998 cost ($338,227) and apply a $250,000 single exclusion -> $88,227 taxable; or omit the sale because it is excluded.",
+      "correct_treatment": "Full community-property step-up to the $615,000 appraisal -> gain $18,227; excluded under sec. 121 ($500,000 - MFJ in year of death; sec. 121(b)(4) would also give $500k within 2 years of death). A 1099-S was issued, so report on Form 8949 box F with code H and the exclusion as a negative adjustment.",
+      "impact": "Up to ~$99k of gain wrongly taxed",
+      "affected_lines": [
+        "Form 8949 box F",
+        "7"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1009-G4",
+      "procedure_section": "Schedule A - medical; decedent's expenses; funeral",
+      "title": "Final medical bills and funeral costs",
+      "trap": "Skip itemizing (standard + 65 add-ons looks 'normal' for retirees), deduct the funeral, or miss the Medicare premiums on the SSA-1099s.",
+      "correct_treatment": "Medical $48,710 (hospital, residential hospice room & board, licensed home aide under a plan of care, Medicare Part B from both SSA-1099s, Medigap/Part D) less 7.5% floor -> itemized $52,845 > standard $34,700. Funeral is never a 1040 deduction.",
+      "impact": "Deduction $52,845 vs $34,700",
+      "affected_lines": [
+        "12e",
+        "Sch A 1-4"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1009-G5",
+      "procedure_section": "Social security - benefits repaid (SSA-1099 box 4)",
+      "title": "Eleanor's August benefit returned",
+      "trap": "Enter box 3 gross benefits ($16,605) for Eleanor.",
+      "correct_treatment": "Use box 5 net benefits ($14,760) - the repayment is netted in the same year (no sec. 1341 claim needed). Total line 6a $45,960.",
+      "impact": "Line 6b overstated ~$1,570",
+      "affected_lines": [
+        "6a",
+        "6b"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1009-G6",
+      "procedure_section": "Client IRAs / inherited IRA",
+      "title": "Vanguard statement shows a $418,903 'transfer out' of Eleanor's IRA",
+      "trap": "Report the spousal transfer as an IRA distribution on line 4a/4b.",
+      "correct_treatment": "Direct trustee-to-trustee transfer by the surviving spouse who elected to treat the IRA as his own - not a distribution, no 1099-R, nothing on line 4. Only Harold's own $10,000 withdrawal is taxable.",
+      "impact": "Line 4b overstated $418,903",
+      "affected_lines": [
+        "4a",
+        "4b"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1009-G7",
+      "procedure_section": "OBBBA - senior deduction (Schedule 1-A Part V)",
+      "title": "Deceased spouse and the new $6,000 senior deduction",
+      "trap": "Claim only one senior deduction (Harold) because Eleanor died, or skip it because they itemize.",
+      "correct_treatment": "Both spouses were 65+ and the deduction is allowed whether or not itemizing; MAGI $95,881 < $150,000 -> 2 x $6,000 = $12,000.",
+      "impact": "Line 13b",
+      "affected_lines": [
+        "13b"
+      ],
+      "difficulty": "easy"
+    },
+    {
+      "id": "EVG1009-G8",
+      "procedure_section": "Estate Implications / SALT - WA capital gains excise; Form 706 portability",
+      "title": "Items outside the 1040",
+      "trap": "Ignore; or file a WA capital gains excise return based on unadjusted gains.",
+      "correct_treatment": "With stepped-up basis, 2025 LTCG $11,387 is far below the ~$278,000 WA standard deduction (home sale exempt) - no WA filing. Flag to signer: a portability-only Form 706 (DSUE election) for Eleanor's estate - due 05/09/2026 (+6 months with Form 4768) or late under Rev. Proc. 2022-32 until 08/09/2030. Engagement for the 706 is a separate project.",
+      "impact": "Compliance / planning",
+      "affected_lines": [],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [],
+  "basis_step_up": {
+    "stock_gain_correct": 11387,
+    "stock_gain_original_cost": 347120,
+    "stock_gain_half_step_up": 179254
+  },
+  "home_sale": {
+    "amount_realized": 633227,
+    "basis_dod": 615000.0,
+    "gain": 18227,
+    "sec121_excluded": 18227
+  },
+  "filing_status_2026": "Single",
+  "software_exceptions": [
+    {
+      "id": "EVG1009-SX1",
+      "workbook_tab": "24. Rare-Event Log",
+      "tab_key": "24",
+      "category": "Capital Loss",
+      "title": "Inherited community-property securities - 1099-B shows original cost; noncovered lots no basis",
+      "axcess_default_behavior": "AutoFlow brought in the Schwab 1099-B as reported: MSFT covered lot basis $13,500 (original cost), VFIAX and JNJ noncovered with no basis -> Schedule D gain $347,120 (or $179,254 if only Eleanor's half were stepped up). Axcess has no way to know the account was community property or that a death occurred.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Gains and Losses > Form 8949: MSFT (box D) keep 1099-B basis $13,500, adjustment code B, column (g) -142,605 -> basis $156,105; VFIAX and JNJ (box E) basis = DOD FMV $222,048 and $31,080; date acquired 'INHERITED' (long-term, sec. 1223(9)). Total DOD basis $409,233; gain $11,387. Attach the step-up schedule.",
+      "override_amount": 11387,
+      "proconnect_default_behavior": "Same - ProConnect computes gain from the basis entered on the Dispositions screen.",
+      "proconnect_fix": "Dispositions (Schedule D/4797) screen: enter DOD basis per lot, code B adjustment for the covered MSFT lot, long-term / inherited acquisition designation (field per current release - verify).",
+      "proconnect_reference": "Field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Form 8949 boxes D/E",
+        "Sch D"
+      ],
+      "procedure_section": "Estate Implications - step-up in basis (community property)",
+      "notes": "Sec. 1014(b)(6): survivor's half of community property also takes DOD basis. DOD 08/09/2025 was a Saturday - mean of 08/08 and 08/11 values (Reg. 20.2031-2(b)). Avoids a WA capital gains excise filing."
+    },
+    {
+      "id": "EVG1009-SX2",
+      "workbook_tab": "24. Rare-Event Log",
+      "tab_key": "24",
+      "category": "Other",
+      "title": "Sale of the marital home (1099-S) - DOD appraisal basis and sec. 121 exclusion, code H",
+      "axcess_default_behavior": "The home-sale worksheet computes gain from the basis keyed; if basis is taken from the PERM / client records (1998 cost + improvements $295,000) and the exclusion is limited to $250,000, the return would show $88,227 of gain. If the sale is omitted because it is 'excluded', the 1099-S goes unmatched. Axcess cannot know about the community-property step-up.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Sale of principal residence input (Form 8949 box F, code H): gross proceeds $685,000 (ties to 1099-S), selling expenses $51,773, basis $615,000 (retrospective DOD appraisal - full step-up), gain $18,227, sec. 121 exclusion $18,227 (MFJ $500,000 limit; ownership/use since 1998). Net $0.",
+      "override_amount": -18227,
+      "proconnect_default_behavior": "Same - basis and exclusion are computed from the inputs on the home-sale worksheet.",
+      "proconnect_fix": "Sale of home (Form 8949 code H) inputs: proceeds $685,000, expenses $51,773, basis $615,000, exclusion applies (screen/field per current release - verify).",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Form 8949 box F",
+        "7"
+      ],
+      "procedure_section": "Estate Implications - sale of a home received from an estate; Schedule D code H",
+      "notes": ""
+    },
+    {
+      "id": "EVG1009-SX3",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Vanguard spousal 'transfer out' AutoFlowed as an IRA distribution",
+      "axcess_default_behavior": "AutoFlow read Eleanor's Vanguard IRA statement ('transfer out $418,902.66') as a distribution and created a line 4a/4b entry. There is no 1099-R for a direct trustee-to-trustee transfer to the surviving spouse's own IRA.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Delete the AutoFlowed distribution; tickmark the statement 'spousal transfer - not reportable'. Only Harold's own $10,000 withdrawal (1099-R, 10% withheld) remains on lines 4a/4b.",
+      "override_amount": 0,
+      "proconnect_default_behavior": "No AutoFlow equivalent in the firm's ProConnect workflow; the error occurs only if the statement is keyed.",
+      "proconnect_fix": "Enter only actual 1099-Rs; nothing for the transfer.",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "4a",
+        "4b"
+      ],
+      "procedure_section": "Client IRAs / inherited IRA",
+      "notes": "Harold's first RMD year is 2026 and will include the former inherited balance."
+    },
+    {
+      "id": "EVG1009-SX4",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Year-of-death filing status: MFJ, not 'qualifying widower' (organizer + procedure wording)",
+      "axcess_default_behavior": "The organizer and the firm procedure say 'qualifying widower'. Axcess prepares whatever filing status is selected; the QSS dependent-child and 'two years after death' tests are preparer determinations.",
+      "axcess_diagnostic": "Not relied on - verify whether the current release flags QSS without a qualifying child",
+      "manual_calc_required": "No",
+      "axcess_override": "General > Basic Data: filing status MFJ; spouse date of death 08/09/2025 (prints 'DECEASED' and the surviving-spouse signature). No Form 1310 (no refund claimed by a non-spouse). PERM: 2026 status Single (no dependent child).",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same - filing status is an input; enter the spouse's date of death on the General/taxpayer information screen.",
+      "proconnect_fix": "General > Filing Status: MFJ; spouse date of death 08/09/2025 (screen/field per current release - verify).",
+      "proconnect_reference": "Screen/field per current release - verify",
+      "efile_impact": "None (MFJ with deceased spouse e-files normally)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Filing status",
+        "12e"
+      ],
+      "procedure_section": "Review - Filing Status (spouse deceased)",
+      "notes": "Procedure wording is imprecise - follow sec. 6013(a)(2) / sec. 2(a)."
+    },
+    {
+      "id": "EVG1009-SX5",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Schedule 1-A senior deduction for the deceased spouse",
+      "axcess_default_behavior": "The first draft showed the senior deduction for Harold only ($6,000). Once the spouse's date of death is entered, confirm the software still counts Eleanor (65+ at death, valid SSN) on Schedule 1-A Part V - the draft result suggests it did not (verify current-release logic).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Schedule 1-A senior deduction input: both spouses 65+ (verify field / override in current release). MAGI $95,881 < $150,000 -> 2 x $6,000 = $12,000, allowed in addition to itemizing ($52,845).",
+      "override_amount": 12000,
+      "proconnect_default_behavior": "Same check - confirm both spouses are counted when a date of death is entered.",
+      "proconnect_fix": "Verify Schedule 1-A Part V shows two qualifying individuals; override if needed and document (field per current release - verify).",
+      "proconnect_reference": "Intuit help: 'Using overrides and adjustments in ProConnect Tax' (document overrides)",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "13b",
+        "Schedule 1-A Part V"
+      ],
+      "procedure_section": "OBBBA - senior deduction (Schedule 1-A Part V)",
+      "notes": ""
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "24. Rare-Event Log"
+  ]
+}

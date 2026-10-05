@@ -2,7 +2,7 @@ client_id,client,filing_status,state,agi_11,deduction_12e,deduction_type,qbi_13a
 EVG1001,Marcus & Tanya Bell,MFJ,TX (no state return),106763,31500,Standard,0,5602,69661,7884,1084,6770,5686,0,8,clients/EVG1001_Bell
 EVG1002,Priya Raman,HOH,IL - Naperville (full-year),36463,23625,Standard,0,0,12838,1283,0,5141,5141,0,8,clients/EVG1002_Raman
 EVG1003,Daniel Okafor,S,NV - Las Vegas (no state return),61471,15750,Standard,3094,25000,17627,1877,4351,4150,0,201,8,clients/EVG1003_Okafor
-EVG1004,Robert & Linda Castellano,MFJ,FL - Sarasota (no state return),115341,33100,Standard,0,6000,76241,7950,6767,11810,5043,0,9,clients/EVG1004_Castellano
+EVG1004,Robert & Linda Castellano,MFJ,FL - Sarasota (no state return),115565,33100,Standard,0,6000,76465,7974,6789,11810,5021,0,9,clients/EVG1004_Castellano
 EVG1005,Jennifer Walsh,S,MI - Detroit (01/01-06/30) -> Royal Oak (07/01-12/31),205555,15750,Standard,0,0,189805,38400,38610,42460,3850,0,9,clients/EVG1005_Walsh
 EVG1006,Carlos & Maria Mendoza,MFJ,TX (no state return),91743,31500,Standard,12049,0,48194,5304,12276,12880,604,0,9,clients/EVG1006_Mendoza
 EVG1007,Dr. Aisha Rahman,S,IL (Chicago) - full-year resident,552750,72925,Itemized (Schedule A),0,0,479825,132794,133340,101360,0,32759,9,clients/EVG1007_Rahman
