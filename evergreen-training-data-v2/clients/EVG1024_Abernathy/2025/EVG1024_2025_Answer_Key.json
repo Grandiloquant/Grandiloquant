@@ -1,0 +1,901 @@
+{
+  "client_id": "EVG1024",
+  "client": "Margaret \"Peggy\" Abernathy",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "FL - Naples (no state income tax)",
+    "complexity": "Complex individual - estate / foreign trust / COD"
+  },
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 70000,
+    "2a": 0,
+    "2b": 15041,
+    "3a": 40000,
+    "3b": 40000,
+    "4b": 150000,
+    "5b": 0,
+    "6b": 0,
+    "7": -3000,
+    "8": -50000,
+    "9": 222041,
+    "10": 0,
+    "11": 222041,
+    "12e": 82115,
+    "13a": 0,
+    "13b": 0,
+    "15": 139926,
+    "16": 22898,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 22898,
+    "23": 838,
+    "24": 23736,
+    "25d": 23200,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 1500,
+    "33": 24700,
+    "34": 964,
+    "35a": 964,
+    "37": 0
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 964,
+  "balance_due": 0,
+  "carryforwards_to_2026": {
+    "capital_loss_carryover_2026": {
+      "st": 0,
+      "lt": 29000,
+      "total": 29000
+    },
+    "capital_loss_carryover_before_form_982_reduction": {
+      "st": 0,
+      "lt": 67000,
+      "total": 67000
+    },
+    "form_982_attribute_reduction": 38000,
+    "irc_691c_remaining_pool_for_future_ird": 420000
+  },
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 70000
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 70000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 15041
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 40000
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 40000
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 150000
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 150000
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 63120
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": -3000
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": -50000
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 222041
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 222041
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 82115
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 82115
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 139926
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 22898
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 22898
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 22898
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 838
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 23736
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 8200
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 15000
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 23200
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 1500
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 1500
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 24700
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 964
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 964
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Gulf Coast Community Bank",
+        "amount": 41
+      },
+      {
+        "line": "1.2",
+        "description": "Hale Family Settlement (Jersey foreign trust) - interest per Foreign Nongrantor Trust Beneficiary Statement",
+        "amount": 15000
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 15041
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 15041
+      },
+      {
+        "line": "5.1",
+        "description": "Hale Family Settlement (Jersey foreign trust) - UK-company dividends per FNTBS (qualified)",
+        "amount": 40000
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 40000
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "Yes"
+      }
+    ],
+    "Form 8949 (Box F)": [
+      {
+        "line": "1",
+        "description": "Brightline Analytics, Inc. - 1,500,000 sh common - WORTHLESS (IRC 165(g)(1)); cost 150,000 less 50,000 claimed as IRC 1244 ordinary loss on Form 4797 | acq 06/12/2019 | sold 12/31/2025 | proceeds 0 | basis 100,000 | code  adj 0",
+        "amount": -100000
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "LT box F",
+        "description": "Long-term from Form 8949 box F (proceeds 0; cost 100,000; adj 0)",
+        "amount": -100000
+      },
+      {
+        "line": "12",
+        "description": "Net long-term gain/(loss) from Schedules K-1",
+        "amount": 30000
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": -70000
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": -70000
+      },
+      {
+        "line": "21",
+        "description": "Allowable capital loss",
+        "amount": -3000
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "4",
+        "description": "Other gains or (losses) - Form 4797",
+        "amount": -50000
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": -50000
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 16653
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "General sales taxes",
+        "amount": 1412
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 3915
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 5327
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 5327
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 5327
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 14288
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 14288
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 14288
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 2500
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 2500
+      },
+      {
+        "line": "16",
+        "description": "Federal estate tax on income in respect of a decedent (IRC 691(c)) - statement attached",
+        "amount": 60000
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 82115
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 52041
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 52041
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 222,041 over threshold 200,000",
+        "amount": 22041
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 838
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 838
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 838
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "10",
+        "description": "Amount paid with request for extension to file (Form 4868)",
+        "amount": 1500
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 1500
+      }
+    ]
+  },
+  "state_and_local": [],
+  "required_filings": [
+    {
+      "form": "Form 4868",
+      "filed": "2026-04-13",
+      "payment": 1500
+    },
+    {
+      "form": "Form 1040 incl. 4797, 982, 8938, 8960",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-18"
+    },
+    {
+      "form": "Form 3520 (Part III)",
+      "method": "paper - IRS Ogden, certified mail",
+      "due": "2026-10-15",
+      "filed": "2026-09-21"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1024-G1",
+      "procedure_section": "Schedule D (worthless stock / IRC 1244)",
+      "title": "Founder stock in a dissolved C corp - 1244 split",
+      "trap": "Report the full $150,000 as a capital loss (only $3,000 usable) - or the full $150,000 as ordinary.",
+      "correct_treatment": "Original-issue stock for cash in a qualifying small business corporation -> IRC 1244 ordinary loss up to $50,000 (single) on Form 4797 Part II line 10 (Schedule 1 line 4: ($50,000)); the excess $100,000 is a long-term capital loss on Form 8949 box F.",
+      "impact": "Ordinary deduction understated $47,000 if all treated as capital",
+      "affected_lines": [
+        "8",
+        "Sch 1 line 4",
+        "Form 4797"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1024-G2",
+      "procedure_section": "Schedule D",
+      "title": "Worthless security - timing, holding period and the $3,000 limit",
+      "trap": "No 1099-B -> nothing reported; or report as a 2026 loss (final notice dated 12/05/2025); or short-term.",
+      "correct_treatment": "Stock became wholly worthless in 2025 (dissolution, no stockholder distributions); IRC 165(g) treats it as sold on 12/31/2025 -> long-term (held since 2019), box F. Nets with the trust's $30,000 LTCG: Schedule D line 16 ($70,000), deduction limited to $3,000.",
+      "impact": "Loss year/character",
+      "affected_lines": [
+        "7",
+        "Sch D",
+        "Form 8949"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1024-G3",
+      "procedure_section": "Return - Form 982 (insolvency)",
+      "title": "1099-C $38,000 - insolvency measured immediately before the discharge",
+      "trap": "Include $38,000 on Schedule 1 line 8c (client's year-end worksheet shows she is solvent once the inherited IRA is counted), or exclude it without a balance sheet; or leave the 401(k) out of assets.",
+      "correct_treatment": "Insolvency is tested immediately before the 03/18/2025 discharge: assets $377,000 (incl. the 401(k) - Carlson) vs liabilities $425,000 (incl. the full card balance) -> insolvent $48,000 >= $38,000 -> exclude all of it (Form 982 line 1b/2). The July inheritance is irrelevant (after the discharge).",
+      "impact": "Tax overstated ~$10,191 if included",
+      "affected_lines": [
+        "8",
+        "Form 982"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1024-G4",
+      "procedure_section": "Return - Form 982 Part II (attribute reduction)",
+      "title": "Excluded COD reduces the capital loss carryover",
+      "trap": "Exclude the $38,000 and carry the full capital loss forward (software proformas $67,000).",
+      "correct_treatment": "IRC 108(b)(2): no NOL or credit carryovers, so the excluded amount reduces the 2025 net capital loss / carryover - after the 2025 tax is computed. 2026 LT carryover = $67,000 - $38,000 = $29,000. Manual override in the 2026 proforma; Form 982 line 9.",
+      "impact": "2026 carryover overstated $38,000",
+      "affected_lines": [
+        "Form 982",
+        "Sch D carryover"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1024-G5",
+      "procedure_section": "Estate Implications (IRC 691(c) - income in respect of a decedent)",
+      "title": "Estate tax deduction on inherited IRA withdrawals",
+      "trap": "Miss the deduction; or deduct the full $960,000; or use the workbook's original IRA value - estate tax formula ($636,000); or include Connecticut estate tax.",
+      "correct_treatment": "691(c) = federal estate tax attributable to IRD x IRD received / total IRD = 960,000 x 150,000 / 2,400,000 = $60,000, Schedule A line 16 (not subject to the 2% floor - IRC 67(b)(7)). Federal estate tax only.",
+      "impact": "Itemized deductions understated $60,000",
+      "affected_lines": [
+        "12e",
+        "Sch A line 16"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1024-G6",
+      "procedure_section": "Client IRAs (inherited IRA)",
+      "title": "Inherited IRA distribution - code 4, RMD rules",
+      "trap": "Apply the 10% early-distribution tax (she is 46); or treat the 2025 withdrawal as a required RMD; or ignore the 10-year rule.",
+      "correct_treatment": "Code 4 (death) - no 10% additional tax. Father died after his required beginning date and took his 2025 RMD (Fidelity letter) -> no year-of-death RMD; annual RMDs required 2026-2034 and the account must be emptied by 12/31/2035. The 401(k) direct rollover (code G) is nontaxable (5a 63,120 / 5b 0).",
+      "impact": "Sch 2 / planning",
+      "affected_lines": [
+        "4b",
+        "5b"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1024-G7",
+      "procedure_section": "Foreign Trusts",
+      "title": "Foreign trust distribution taxed under the ACTUAL method",
+      "trap": "Treat the $120,000 as a nontaxable foreign inheritance (client's view); or tax all $120,000 as ordinary income; or apply the default method / throwback (Form 4970 interest charge).",
+      "correct_treatment": "A Foreign Nongrantor Trust Beneficiary Statement (with a U.S. agent) supports the actual method: DNI $85,000 keeps its character - interest $15,000 (Sch B), UK qualified dividends $40,000 (3a/3b), net LTCG $30,000 (foreign trust DNI includes capital gains) to Schedule D; corpus $35,000 not taxable. UNI $0 -> no accumulation distribution, no interest charge.",
+      "impact": "Income and rate character",
+      "affected_lines": [
+        "2b",
+        "3a",
+        "3b",
+        "7"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1024-G8",
+      "procedure_section": "Foreign Trusts / Paper Filing Returns",
+      "title": "Form 3520, Schedule B Part III and Form 8938",
+      "trap": "Skip Form 3520 (income already on the 1040) or try to e-file it with the 1040; answer Schedule B line 8 'No'; skip Form 8938.",
+      "correct_treatment": "Form 3520 Part III is required for any distribution from a foreign trust (penalty greater of $10,000 or 35%); it is a separate paper filing to IRS Ogden due 10/15/2026 with the extended return. Schedule B Part III line 8 = Yes. Form 8938: value of the beneficial interest = distributions received $120,000 > $75,000 -> file, Part IV excepted (reported on Form 3520). The 1040 itself can still be e-filed.",
+      "impact": "Penalty exposure $42,000",
+      "affected_lines": [
+        "Sch B line 8",
+        "Form 3520",
+        "Form 8938"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1024-G9",
+      "procedure_section": "NIIT",
+      "title": "Net investment income - MAGI limb binds",
+      "trap": "No NIIT because the 1244 loss and capital loss wipe out investment income; or NIIT on all $55,041 of trust and bank income.",
+      "correct_treatment": "NII = interest $15,041 + dividends $40,000 + net gain limited to the $3,000 capital loss = $52,041 (position: the 1244 ordinary loss cannot take Form 8960 net gain below zero - Reg. 1.1411-4(d)(2)). MAGI excess $22,041 is smaller -> NIIT $838. The IRA distribution is not NII.",
+      "impact": "NIIT $838 (alternative position $78)",
+      "affected_lines": [
+        "23",
+        "Form 8960"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [],
+  "insolvency": {
+    "assets": 377000,
+    "liabilities": 425000,
+    "insolvency": 48000,
+    "cod": 38000,
+    "excluded": 38000
+  },
+  "irc_1244": {
+    "basis": 150000,
+    "ordinary_4797": -50000,
+    "capital_8949": -100000
+  },
+  "irc_691c": {
+    "estate_tax_with": 1764000,
+    "estate_tax_without": 804000,
+    "ird_total": 2400000,
+    "ird_received": 150000,
+    "deduction": 60000
+  },
+  "foreign_trust": {
+    "distribution": 120000,
+    "dni": 85000,
+    "interest": 15000,
+    "qualified_dividends": 40000,
+    "net_ltcg": 30000,
+    "corpus": 35000,
+    "method": "actual",
+    "accumulation_distribution": 0
+  },
+  "assumptions": [
+    "Form 8960: 1244 ordinary loss does not reduce net gain below zero (Reg. 1.1411-4(d)(2)); alternative NIIT 78",
+    "Discretionary interest in the Hale Family Settlement valued at $0 for insolvency (no enforceable right at 03/2025); even a $10,000 value leaves her insolvent by $38,000",
+    "Form 982 Part II capital-loss line cited as line 9 - verify against current revision",
+    "Father satisfied his 2025 RMD (Fidelity letter)"
+  ],
+  "software_exceptions": [
+    {
+      "id": "EVG1024-SX1",
+      "workbook_tab": "20. Insolvency (Form 982)",
+      "tab_key": "20",
+      "category": "Other",
+      "title": "1099-C $38,000 - insolvency exclusion (Form 982) must be built and elected manually",
+      "axcess_default_behavior": "The 1099-C input flows the $38,000 to Schedule 1 line 8c as cancellation-of-debt income. Axcess has no balance sheet and cannot test insolvency, so the return simply taxes the COD (about $10,191 of extra tax including NIIT).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Workbook tab 20: assets 377,000 / liabilities 425,000 immediately before the 03/18/2025 discharge (incl. the 401(k); excl. the July inheritance) -> insolvency 48,000 -> excludable 38,000. Then Income > Cancellation of debt / Form 982 input: check 'Discharge of indebtedness to the extent insolvent' (line 1b) and enter 38,000 as the excluded amount; confirm Schedule 1 line 8c drops to $0 (verify field path in current release).",
+      "override_amount": 38000,
+      "proconnect_default_behavior": "Same - the 1099-C amount is taxable unless the insolvency section is completed.",
+      "proconnect_fix": "Income > 1099-C > Canceled Debt Worksheet: complete the Insolvency section (total liabilities 425,000 and total assets 377,000 immediately before the cancellation); the excluded $38,000 flows to Form 982 line 1b/line 2. Attribute reduction still requires manual review (see SX2).",
+      "proconnect_reference": "Intuit help: 'Entering a Form 1099-C with insolvency (Form 982)'",
+      "efile_impact": "None (Form 982 is e-filed with the 1040)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "8 (Sch 1 line 8c)",
+        "Form 982 lines 1b, 2"
+      ],
+      "procedure_section": "Return - Form 982 (insolvency)",
+      "notes": "Client's own worksheet used 12/31/2025 balances, counted the inherited IRA and omitted the 401(k) - all three wrong."
+    },
+    {
+      "id": "EVG1024-SX2",
+      "workbook_tab": "10. Capital Loss Carryover",
+      "tab_key": "10",
+      "category": "Capital Loss",
+      "title": "IRC 108(b) attribute reduction - 2026 capital loss carryover must be overridden (67,000 -> 29,000)",
+      "axcess_default_behavior": "Axcess computes the 2025 Capital Loss Carryover Worksheet (LT 67,000) and proformas it to 2026. Completing Form 982 Part II does not reduce the carryover that rolls forward - the 2026 return would deduct losses that were eliminated by the excluded COD.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Form 982 Part II line 9 (net capital loss / carryovers; verify line number in current revision) = 38,000. Workbook tab 10 documents the pre-reduction carryover (ST 0 / LT 67,000); attach the reduction statement. In the 2026 proforma: Income > Capital Gains and Losses > Carryovers: override LT capital loss carryover to 29,000 (ST 0).",
+      "override_amount": 29000,
+      "proconnect_default_behavior": "Same - ProConnect carries the unreduced 67,000 forward; the 982 attribute-reduction lines are informational for the carryover.",
+      "proconnect_fix": "Form 982 Part II line 9 = 38,000 (Canceled Debt / 982 inputs); in the 2026 return override the prior-year long-term capital loss carryover to 29,000 on the Schedule D carryover input (screen/field per current release - verify).",
+      "proconnect_reference": "Intuit help: 'Entering a Form 1099-C with insolvency (Form 982)' - attribute reduction requires manual review",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Form 982 line 9",
+        "2026 Schedule D lines 6/14"
+      ],
+      "procedure_section": "Return - Form 982 Part II (attribute reduction)",
+      "notes": "Reduction is made after the 2025 tax is determined (IRC 108(b)(4)(A)); the 2025 $3,000 deduction is unaffected. Tab 10 inputs here are the 2025 (year-of-discharge) Schedule D figures, used to compute the 2025->2026 carryover."
+    },
+    {
+      "id": "EVG1024-SX3",
+      "workbook_tab": "22. Reorg, Liquidation, 1244",
+      "tab_key": "22",
+      "category": "Capital Loss",
+      "title": "Brightline founder stock - IRC 1244 ordinary loss + worthless-stock capital loss (no 1099-B)",
+      "axcess_default_behavior": "There is no 1099-B for worthless stock. If the preparer keys the $150,000 on the Capital Gains worksheet with default 'Capital' character, Axcess reports a $150,000 LT capital loss and allows $3,000 - the $50,000 ordinary loss is lost. Axcess cannot know the stock qualifies under IRC 1244.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Workbook tab 22 (two rows). Capital Gains and Losses worksheet: line 1 - Brightline Analytics common, acquired 06/12/2019, sold 12/31/2025 (IRC 165(g) deemed date), proceeds 0, cost 50,000, category changed from 'Capital' to 'Section 1244 Ordinary Loss' -> Form 4797 Part II line 10 (Schedule 1 line 4: -50,000). Line 2 - same stock, cost 100,000, 'Worthless', long-term, Form 8949 box F.",
+      "override_amount": -50000,
+      "proconnect_default_behavior": "Same - a disposition entered without the section 1244 indicator is a capital loss.",
+      "proconnect_fix": "Dispositions (Schedule D/4797): enter two lines - $50,000 marked as section 1244 / ordinary (flows to Form 4797 Part II) and $100,000 as a long-term worthless-security capital loss with date sold 12/31/2025, box F (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Sch 1 line 4",
+        "Form 4797 line 10",
+        "Form 8949 box F",
+        "7"
+      ],
+      "procedure_section": "Schedule D",
+      "notes": "1244 limit $50,000 single; original issuance for cash; capitalization $750,000 <= $1M; active receipts. Worthless in 2025 (plan of dissolution, no stockholder distributions)."
+    },
+    {
+      "id": "EVG1024-SX4",
+      "workbook_tab": "18. NUA & IRD Deduction",
+      "tab_key": "18",
+      "category": "Other",
+      "title": "IRC 691(c) deduction on inherited IRA distribution - not derived from the 1099-R",
+      "axcess_default_behavior": "The 1099-R (code 4) flows $150,000 to line 4b. Axcess computes no IRC 691(c) deduction - it has no estate-tax data. The firm workbook's ORIGINAL tab 18 formula (IRA value - estate tax = 2,400,000 - 1,764,000 = 636,000) would have produced a meaningless figure.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Workbook tab 18 (IRD row - column E typed over per the Corrections Log): (1,764,000 - 804,000) x 150,000 / 2,400,000 = 60,000. Enter on Itemized Deductions > Miscellaneous Deductions > Income in Respect of a Decedent (Schedule A line 16, no 2% floor); attach the computation statement.",
+      "override_amount": 60000,
+      "proconnect_default_behavior": "Same - the 1099-R entry produces no 691(c) deduction.",
+      "proconnect_fix": "Itemized Deductions > Other itemized deductions: 'Federal estate tax on income in respect of a decedent' = 60,000 (screen/field per current release - verify); statement attached.",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "12e",
+        "Schedule A line 16"
+      ],
+      "procedure_section": "Estate Implications",
+      "notes": "Federal estate tax only - Connecticut estate tax excluded. Remaining 691(c) pool for Peggy's future withdrawals 420,000."
+    },
+    {
+      "id": "EVG1024-SX5",
+      "workbook_tab": "24. Rare-Event Log",
+      "tab_key": "24",
+      "category": "Other",
+      "title": "Foreign non-grantor trust distribution - actual method character split from the FNTBS",
+      "axcess_default_behavior": "Axcess has no input that reads a Foreign Nongrantor Trust Beneficiary Statement. Keyed as one $120,000 'other income' amount it is all ordinary (and the $35,000 of corpus is taxed); left out because the client calls it an inheritance, $85,000 of income is omitted. The software also cannot know undistributed net income is $0.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Workbook tab 24 (rare-event log, FNTBS as the workpaper). Enter by character: Interest input - 'Hale Family Settlement (foreign trust)' 15,000; Dividends input - 40,000 ordinary / 40,000 qualified; Capital Gains - Schedule D line 12 (estates and trusts) 30,000 LT. Corpus 35,000 not entered. No accumulation distribution -> no Form 4970 / Form 3520 interest-charge override.",
+      "override_amount": 85000,
+      "proconnect_default_behavior": "Same - ProConnect has no FNTBS import; amounts are taxed as entered.",
+      "proconnect_fix": "Enter the three income items on the Interest, Dividends and Dispositions/Schedule D screens with the trust as payer; do not enter the 35,000 corpus (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None for the 1040 (Form 3520 - see SX6)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "2b",
+        "3a",
+        "3b",
+        "7",
+        "Sch B Part III line 8"
+      ],
+      "procedure_section": "Foreign Trusts",
+      "notes": "Actual method allowed: trustee appointed a U.S. agent and issued the FNTBS. Default method / throwback would be wrong."
+    },
+    {
+      "id": "EVG1024-SX6",
+      "workbook_tab": "ProConnect-only",
+      "tab_key": "PC",
+      "category": "E-file Disqualifying",
+      "title": "Form 3520 Part III - not supported in ProConnect; separate paper filing",
+      "axcess_default_behavior": "Form 3520 is not part of the 1040 e-file in any package. Per the workbook's tab 24 guidance Axcess has a Form 3520 / Miscellaneous Taxes input; whether the current release produces a complete Part III is not relied on - firm practice: prepare Form 3520 separately and mail it.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Prepare Form 3520 Part III (lines 24-33, FNTBS attached, actual method) outside the 1040 e-file; mail to IRS Ogden by 10/15/2026 (extended due date), certified. Log on workbook tab 24.",
+      "override_amount": 120000,
+      "proconnect_default_behavior": "ProConnect does not generate Form 3520.",
+      "proconnect_fix": "Prepare Form 3520 outside ProConnect (IRS fillable PDF) and mail it separately to the IRS (it cannot be e-filed). In ProConnect answer the Schedule B Part III foreign-trust question 'Yes' so line 8 prints.",
+      "proconnect_reference": "Intuit Accountants Community: 'Does ProConnect generate Form 3520...'",
+      "efile_impact": "1040 e-filed; Form 3520 paper-filed separately (IRS Ogden)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Form 3520",
+        "Sch B line 8"
+      ],
+      "procedure_section": "Foreign Trusts / Paper Filing Returns",
+      "notes": "Penalty for failure to file: greater of $10,000 or 35% of the distribution ($42,000)."
+    },
+    {
+      "id": "EVG1024-SX7",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Schedule B Part III line 8 and Form 8938 - foreign trust interest (excepted asset)",
+      "axcess_default_behavior": "Schedule B line 8 (distribution from a foreign trust) is answered from the general foreign-trust question - it defaults to No. Form 8938 is only produced from 8938 inputs; nothing tells the software that a beneficial interest in a foreign trust (value = distributions received $120,000) crosses the $75,000 any-time threshold.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "General / Foreign accounts and trusts input: 'received a distribution from a foreign trust' = Yes. Form 8938 input: Part IV excepted specified foreign financial assets - number of Forms 3520 = 1 (verify field path in current release).",
+      "override_amount": 120000,
+      "proconnect_default_behavior": "Same - question-driven; Form 8938 only if 8938 inputs are completed.",
+      "proconnect_fix": "Schedule B foreign trust question = Yes; Foreign Reporting > Form 8938: list the excepted asset (Form 3520 count 1) (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Sch B line 8",
+        "Form 8938"
+      ],
+      "procedure_section": "Foreign Trusts",
+      "notes": "No FBAR - no foreign financial account; discretionary beneficiary does not report the trust's accounts."
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "10. Capital Loss Carryover",
+    "18. NUA & IRD Deduction",
+    "20. Insolvency (Form 982)",
+    "22. Reorg, Liquidation, 1244",
+    "24. Rare-Event Log",
+    "ProConnect-only"
+  ]
+}
