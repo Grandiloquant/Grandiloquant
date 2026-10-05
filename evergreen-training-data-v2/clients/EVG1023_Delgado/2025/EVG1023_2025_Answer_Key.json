@@ -1,0 +1,1040 @@
+{
+  "client_id": "EVG1023",
+  "client": "Raymond & Carla Delgado",
+  "tax_year": 2025,
+  "synthetic": true,
+  "facts_summary": {
+    "residence": "NC (Charlotte)",
+    "new_client": true,
+    "complexity": "3 partnerships (basis/at-risk/passive/704(c)/752), Form 8865, IRC 1033, Sch C"
+  },
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 0,
+    "2a": 0,
+    "2b": 2840,
+    "3a": 3600,
+    "3b": 13812,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 250000,
+    "8": 183000,
+    "9": 449652,
+    "10": 26125,
+    "11": 423527,
+    "12e": 43420,
+    "13a": 12375,
+    "13b": 0,
+    "15": 367732,
+    "16": 52977,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 52977,
+    "23": 25387,
+    "24": 78364,
+    "25d": 0,
+    "26": 64000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 15000,
+    "33": 79000,
+    "34": 636,
+    "35a": 636,
+    "37": 0
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 636,
+  "balance_due": 0,
+  "carryforwards_to_2026": {
+    "catawba_704d_suspended_loss_carryforward_2026": 22000,
+    "catawba_465_at_risk_suspended_loss_carryforward_2026": 28000,
+    "passive_regular_suspended_total_carryforward_2026": 51252.79,
+    "passive_amt_suspended_total_carryforward_2026": 46552.79,
+    "lakewood_outside_basis_carryforward_2026": 447000,
+    "catawba_outside_basis_carryforward_2026": 0,
+    "baja_outside_basis_carryforward_2026": 174000,
+    "deferred_1033_gain_carryforward_2026": 179758,
+    "nc_bonus_addback_deduction_per_year_2026_2030_carryforward_2026": 4760
+  },
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 0
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 0
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 2840
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 3600
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 13812
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 250000
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 183000
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 449652
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 26125
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 423527
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 43420
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 12375
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 55795
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 367732
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 52977
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 52977
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 52977
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 25387
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 78364
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 0
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 64000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 15000
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 15000
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 79000
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 636
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 636
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Ally Bank",
+        "amount": 2840
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 2840
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 2840
+      },
+      {
+        "line": "5.1",
+        "description": "Schwab Value Advantage Money Fund (insurance proceeds)",
+        "amount": 9612
+      },
+      {
+        "line": "5.2",
+        "description": "Fidelity Brokerage - joint",
+        "amount": 4200
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 13812
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Net long-term gain/(loss) from Schedules K-1",
+        "amount": 250000
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 250000
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 250000
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "3",
+        "description": "Business income or (loss) - Schedule C",
+        "amount": 90000
+      },
+      {
+        "line": "5",
+        "description": "Rental real estate, royalties, partnerships, S corps, trusts - Schedule E",
+        "amount": 93000
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 183000
+      },
+      {
+        "line": "15",
+        "description": "Deductible part of self-employment tax (Schedule SE)",
+        "amount": 9397
+      },
+      {
+        "line": "16",
+        "description": "Self-employed SEP, SIMPLE, and qualified plans",
+        "amount": 16728
+      },
+      {
+        "line": "26",
+        "description": "Total adjustments to income (to Form 1040, line 10)",
+        "amount": 26125
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 31765
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 12550
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 9990
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 22540
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 22540
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 22540
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 14380
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 14380
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 14380
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 6500
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 6500
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 43420
+      }
+    ],
+    "Form 8995": [
+      {
+        "line": "Carla Delgado Interiors (Sch C)",
+        "description": "QBI 66,913; component (below threshold: 20% x QBI)",
+        "amount": 13383
+      },
+      {
+        "line": "Catawba River Outfitters LLC (allowed loss)",
+        "description": "QBI -5,038; component (below threshold: 20% x QBI)",
+        "amount": -1008
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 380,107 - net capital gain & qualified dividends 253,600)",
+        "amount": 25301
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 12375
+      }
+    ],
+    "Form 6251": [
+      {
+        "line": "1",
+        "description": "Taxable income (Form 1040 line 15)",
+        "amount": 367732
+      },
+      {
+        "line": "2a",
+        "description": "Taxes from Schedule A line 7",
+        "amount": 22540
+      },
+      {
+        "line": "4",
+        "description": "Alternative minimum taxable income",
+        "amount": 390272
+      },
+      {
+        "line": "5",
+        "description": "Exemption",
+        "amount": 137000
+      },
+      {
+        "line": "6",
+        "description": "AMTI less exemption",
+        "amount": 253272
+      },
+      {
+        "line": "7-9",
+        "description": "Tentative minimum tax",
+        "amount": 23486
+      },
+      {
+        "line": "10",
+        "description": "Regular tax (Form 1040 line 16 less Sch 3 line 1 FTC)",
+        "amount": 52977
+      },
+      {
+        "line": "11",
+        "description": "Alternative minimum tax",
+        "amount": 0
+      }
+    ],
+    "Schedule SE": [
+      {
+        "line": "T",
+        "description": "Net earnings 39,711; SS 4,924; Medicare 1,152; half deductible 3,038",
+        "amount": 6076
+      },
+      {
+        "line": "S",
+        "description": "Net earnings 83,115; SS 10,306; Medicare 2,410; half deductible 6,359",
+        "amount": 12717
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "4",
+        "description": "Self-employment tax (Schedule SE)",
+        "amount": 18793
+      },
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 6594
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 25387
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 266652
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 266652
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 423,527 over threshold 250,000",
+        "amount": 173527
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 6594
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "10",
+        "description": "Amount paid with request for extension to file (Form 4868)",
+        "amount": 15000
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 15000
+      }
+    ]
+  },
+  "state_and_local": [
+    {
+      "jurisdiction": "NC D-400",
+      "federal_agi": 423527,
+      "bonus_addback": 23800,
+      "deduction": 26500.0,
+      "deduction_type": "NC itemized",
+      "taxable_income": 420827.0,
+      "tax": 17885,
+      "payments": 18200.0,
+      "refund": 315.0
+    }
+  ],
+  "required_filings": [
+    {
+      "form": "Form 4868",
+      "filed": "2026-04-15",
+      "payment": 15000.0
+    },
+    {
+      "form": "Form 1040 (with Forms 8865, 8938, 1033 statement)",
+      "method": "e-file (Axcess)",
+      "due": "2026-10-15",
+      "filed": "2026-09-28"
+    },
+    {
+      "form": "NC D-400",
+      "method": "e-file",
+      "due": "2026-10-15",
+      "filed": "2026-09-28"
+    },
+    {
+      "form": "FinCEN 114",
+      "method": "not required"
+    }
+  ],
+  "gotchas": [
+    {
+      "id": "EVG1023-G1",
+      "procedure_section": "Schedules K-1 - partnership loss limitations (Section 6 - apply the limitation)",
+      "title": "Catawba ordinary loss: basis first, then at-risk",
+      "trap": "Deduct the full $52,000 K-1 loss (Axcess default without basis/at-risk inputs), or stop at the basis limit ($30,000).",
+      "correct_treatment": "Basis $30,000 -> $30,000 passes 704(d), $22,000 suspended. At-risk: the $28,000 share of the equipment seller's NONRECOURSE note is not at risk (qualified nonrecourse financing is only for real property) -> at-risk $2,000; allowed $2,000, $28,000 suspended on Form 6198. Tax effect of taking the full loss: $11,804 understated.",
+      "impact": "Sch E overstated loss $50,000",
+      "affected_lines": [
+        "8",
+        "13a",
+        "24"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1023-G2",
+      "procedure_section": "Schedules K-1 - guaranteed payments / SE",
+      "title": "Guaranteed payments, SE income and basis",
+      "trap": "Add the $95,000 guaranteed payment to outside basis (so the loss is fully allowed) or compute SE on $95,000 only.",
+      "correct_treatment": "Guaranteed payments are ordinary income (Sch E nonpassive) and do not increase basis. SE income per K-1 box 14A = GP 95,000 + loss share (52,000) = $43,000 (assumption: the 704(d)/465 limits do not limit SE earnings - follow box 14A). SE tax $6,076.",
+      "impact": "Sch SE / basis",
+      "affected_lines": [
+        "23"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1023-G3",
+      "procedure_section": "Form 6251 - K-1 AMT items on limited losses",
+      "title": "Box 17A +6,000 when the loss is limited",
+      "trap": "Carry the +$6,000 K-1 AMT adjustment to Form 6251 line 2l.",
+      "correct_treatment": "AMT loss (46,000) is subject to the same basis/at-risk limits -> AMT allowed loss $2,000 = regular allowed loss -> line 2n adjustment $0 and nothing on 2l. Lakewood's +1,200 likewise has no current effect (loss suspended). No AMT in 2025.",
+      "impact": "AMTI overstated $6,000 (no AMT this year; AMT carryforwards distorted)",
+      "affected_lines": [
+        "Form 6251"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1023-G4",
+      "procedure_section": "Schedules K-1 - mixing bowl (IRC 704(c)(1)(B)) / footnotes",
+      "title": "Precontribution gain disclosed only in a K-1 footnote",
+      "trap": "Key boxes 2 and 9a only (box 9a = 0) and miss the gain.",
+      "correct_treatment": "Land contributed 03/2021 (FMV 400,000, basis 150,000) distributed to another partner 08/14/2025 (< 7 years) -> Raymond recognizes $250,000 LTCG (land held for investment; Sch D line 12 with statement) and outside basis +250,000. It is NII (NIIT applies) and portfolio income - it cannot free passive losses. Tax effect $44,094.",
+      "impact": "Line 7 understated $250,000",
+      "affected_lines": [
+        "7",
+        "23"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1023-G5",
+      "procedure_section": "Schedules K-1 - IRC 752(b) deemed distribution",
+      "title": "Liability share dropped 180,000 -> 95,000",
+      "trap": "Ignore item K changes (basis overstated) or treat the $85,000 decrease as gain.",
+      "correct_treatment": "Deemed cash distribution $85,000 reduces basis; basis $546,000 is sufficient -> no IRC 731 gain. Ending basis $447,000.",
+      "impact": "Basis tracking",
+      "affected_lines": [
+        "K-1 worksheet"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1023-G6",
+      "procedure_section": "Schedules K-1 - passive activities (new client carryovers)",
+      "title": "Prior-year unallowed losses - Regular vs AMT",
+      "trap": "Enter one PY carryover ($31,000) for both regular and AMT, or omit it (new client - no proforma); or allow the $25,000 special allowance for the LP and the duplex.",
+      "correct_treatment": "Limited partner -> no $25,000 allowance; MAGI $423,527 > $150,000 anyway. All passive losses suspended: regular $51,253, AMT $46,553 carried to 2026.",
+      "impact": "Form 8582 carryforwards",
+      "affected_lines": [
+        "8",
+        "Form 8582"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": "EVG1023-G7",
+      "procedure_section": "Involuntary conversion (IRC 1033) / Schedule E",
+      "title": "Fire-destroyed rental: deferral election and replacement deadline",
+      "trap": "Report the $179,758 gain (Form 4684/4797) or calculate the deadline as 2 years after the fire (01/24/2027 - adjuster's view / original workbook formula); or treat the fire as a disposition that frees the duplex's passive loss.",
+      "correct_treatment": "Elect IRC 1033 - postpone the entire gain (statement attached); replacement period ends 12/31/2027 (2 years after the close of the first tax year the gain was realized). Basis of replacement = cost less deferred gain. Schedule E for January only: rents net of refunds, expenses and half-month depreciation -> ($253) (passive, suspended - not a fully taxable disposition).",
+      "impact": "Line 7/8 overstated $179,758 if not elected",
+      "affected_lines": [
+        "7",
+        "8",
+        "Form 4684"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1023-G8",
+      "procedure_section": "Foreign Transactions - foreign partnership (Form 8865) / Form 8938 / FBAR",
+      "title": "Cash contribution to a Mexican partnership",
+      "trap": "Report the Baja loss and nothing else; or file Form 926 / FBAR.",
+      "correct_treatment": "Form 8865 Category 3 (6038B: > $100,000 contributed) and Category 4 (6046A: 10%+ acquired), Schedules O and P; passive loss suspended. Form 8938 required (MFJ thresholds); interest listed as excepted asset reported on 8865. No FBAR (not a financial account). ProConnect cannot produce 8865 -> paper filing if prepared there (firm e-filed from Axcess).",
+      "impact": "Penalties $10,000+ per form if omitted",
+      "affected_lines": [
+        "Form 8865",
+        "Form 8938"
+      ],
+      "difficulty": "hard"
+    },
+    {
+      "id": "EVG1023-G9",
+      "procedure_section": "Schedule C - depreciation (OBBBA) / SALT state conformity",
+      "title": "Bonus rate and NC addback",
+      "trap": "Use the bookkeeper's 40% bonus ($13,895 depreciation) and/or forget the NC addback.",
+      "correct_treatment": "Assets acquired 03-06/2025 (after 01/19/2025) -> 100% bonus ($28,000). NC: add back 85% = $23,800 on D-400 Schedule S; deduct $4,760 in each of 2026-2030. SEP max $16,728 funded 09/08/2026.",
+      "impact": "Sch C / NC taxable income",
+      "affected_lines": [
+        "8",
+        "10",
+        "NC D-400"
+      ],
+      "difficulty": "medium"
+    }
+  ],
+  "engine_notes": [],
+  "gain_704c1b": 250000,
+  "deemed_distribution_752b": 85000,
+  "catawba": {
+    "basis_allowed": 30000,
+    "at_risk": 2000,
+    "allowed": 2000,
+    "basis_suspended": 22000,
+    "at_risk_suspended": 28000,
+    "amt_line_2n": 0
+  },
+  "duplex_1033": {
+    "proceeds": 410000,
+    "adjusted_basis": 230242,
+    "gain_deferred": 179758,
+    "deadline": "12/31/2027"
+  },
+  "nii": 266652,
+  "sep": 16728,
+  "nc_bonus_addback": 23800,
+  "software_exceptions": [
+    {
+      "id": "EVG1023-SX1",
+      "workbook_tab": "3. K-1 Basis Limitation",
+      "tab_key": "3",
+      "category": "Basis/At-Risk/Passive",
+      "title": "Catawba River Outfitters - loss exceeds outside basis (guaranteed payments don't add basis)",
+      "axcess_default_behavior": "Without Section 6 (Basis Limitation) inputs, Axcess allows the full ($52,000) K-1 loss. If the preparer keys basis but adds the $95,000 guaranteed payment as an 'other increase', basis looks sufficient and the full loss is still allowed.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Income/Deductions > Partnership Passthrough > Catawba > Section 6 Basis Limitation: check 'apply the limitation'; beginning basis $30,000 (capital 2,000 + nonrecourse share 28,000); no increase for guaranteed payments. Allowed by basis $30,000; $22,000 suspended (704(d) carryover). Verify field path in current release.",
+      "override_amount": 30000,
+      "proconnect_default_behavior": "Same - ProConnect applies the partner basis limitation only when basis information is entered on the K-1 screen's basis worksheet.",
+      "proconnect_fix": "Partnership Information > Schedule K-1 (1065) > Basis Limitations / Partner's basis worksheet: beginning basis 30,000; enforce limitation (screen/field per current release - verify). Suspended 22,000 carries in the 704(d) carryover field.",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "8 (Sch E line 28)",
+        "Sch E Part II"
+      ],
+      "procedure_section": "Schedules K-1 - partnership distributions/losses in excess of basis (Section 6 - apply the limitation)",
+      "notes": "Tab 3 also documents Lakewood: 296,000 + 250,000 (704(c)) - 85,000 (752(b)) = 461,000 before the 14,000 loss."
+    },
+    {
+      "id": "EVG1023-SX2",
+      "workbook_tab": "4. At-Risk (Form 6198)",
+      "tab_key": "4",
+      "category": "Basis/At-Risk/Passive",
+      "title": "At-risk: nonrecourse seller financing on equipment is not qualified nonrecourse financing",
+      "axcess_default_behavior": "Unless 'subject to at-risk limitation' is checked and the liability character is entered, Axcess treats the $30,000 that cleared basis as fully allowed. K-1 item K reports the $28,000 as 'nonrecourse' - Axcess cannot know it is equipment seller financing rather than qualified (real property) nonrecourse financing.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Partnership Passthrough > Catawba > Section 6 / At-Risk: check 'subject this entity to the at-risk limitation'; amount at risk $2,000 (basis 30,000 less nonrecourse non-QNF 28,000). Form 6198 allows $2,000; $28,000 suspended (Form 6198 carryover). Verify field path in current release.",
+      "override_amount": -2000,
+      "proconnect_default_behavior": "Same - Form 6198 is produced only when the at-risk box and at-risk amounts are entered.",
+      "proconnect_fix": "Schedule K-1 (1065) > At-Risk (6198) section: some investment is not at risk = Yes; amount at risk 2,000 (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None (Form 6198 attached)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "8",
+        "Form 6198",
+        "13a"
+      ],
+      "procedure_section": "Schedules K-1",
+      "notes": "IRC 465(b)(6) QNF is limited to the activity of holding real property; this is equipment. Tax effect of skipping tabs 3-4: $11,804."
+    },
+    {
+      "id": "EVG1023-SX3",
+      "workbook_tab": "9. AMT Adjustments (6251)",
+      "tab_key": "9",
+      "category": "AMT",
+      "title": "K-1 box 17A +$6,000 on a loss that is limited by basis/at-risk - Form 6251 line 2n = 0",
+      "axcess_default_behavior": "Axcess carries the K-1 box 17A post-1986 depreciation adjustment to Form 6251 line 2l (+6,000) even though only $2,000 of the regular loss is allowed - unless the AMT basis/at-risk amounts are entered so the AMT allowed loss is recomputed.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "AMT input for the Catawba K-1: AMT basis 30,000 and AMT at-risk 2,000 (AMT columns of the basis/at-risk worksheet); if the line still shows +6,000, use the 'Loss limits (Force)' line 2n override so the net AMT adjustment is $0 (regular allowed 2,000 = AMT allowed 2,000). Lakewood's +1,200 also nets to $0 (loss suspended). Verify field names.",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Same risk - AMT K-1 items flow to 6251 unless AMT limitation amounts are entered.",
+      "proconnect_fix": "Schedule K-1 (1065) > AMT / Basis and at-risk AMT amounts: enter AMT basis and AMT at-risk; confirm Form 6251 shows no net adjustment (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Form 6251 lines 2l/2n"
+      ],
+      "procedure_section": "Schedules K-1",
+      "notes": "No AMT in 2025 either way, but the AMT suspended amounts carried forward depend on it."
+    },
+    {
+      "id": "EVG1023-SX4",
+      "workbook_tab": "11. Hot Assets & Mixing Bowl",
+      "tab_key": "11",
+      "category": "Basis/At-Risk/Passive",
+      "title": "IRC 704(c)(1)(B) mixing-bowl gain disclosed only in a K-1 footnote",
+      "axcess_default_behavior": "Axcess reads the K-1 boxes: box 9a = 0, box 2 (14,000). The $250,000 precontribution gain in footnote 3 is not in any box, so nothing is reported and outside basis is understated.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Partnership Passthrough > Lakewood: add $250,000 net long-term capital gain (K-1 Section 3 direct entry / box 9a override) with a statement explaining IRC 704(c)(1)(B); Section 6 Basis: other increase +250,000. Gain is NII and portfolio (not passive) income. Verify field path in current release.",
+      "override_amount": 250000,
+      "proconnect_default_behavior": "Same - ProConnect imports/keys K-1 boxes; a footnote amount must be entered manually.",
+      "proconnect_fix": "Schedule K-1 (1065) > Lakewood > Net long-term capital gain: 250,000 (adjusted from K-1 with explanation statement); basis worksheet other increase 250,000; ensure the gain is not treated as passive income (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "Explanation statement attached (PDF)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "7",
+        "Sch D line 12",
+        "Form 8960"
+      ],
+      "procedure_section": "Schedules K-1 - hot assets / disproportionate distributions (mixing bowl)",
+      "notes": "Contributed 03/22/2021 (FMV 400,000, basis 150,000); distributed to another partner 08/14/2025 (< 7 years). Tax effect $44,094."
+    },
+    {
+      "id": "EVG1023-SX5",
+      "workbook_tab": "11. Hot Assets & Mixing Bowl",
+      "tab_key": "11",
+      "category": "Basis/At-Risk/Passive",
+      "title": "IRC 752(b) deemed distribution - liability share 180,000 -> 95,000",
+      "axcess_default_behavior": "If only the K-1 boxes are keyed, Axcess's basis worksheet does not reflect the $85,000 decrease in the partner's share of liabilities (item K) - basis is overstated going forward (no gain this year because basis is sufficient).",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Section 6 Basis: beginning share of liabilities 180,000, ending 95,000 (or 'other decrease' 85,000 as a deemed cash distribution). Basis before loss 461,000; ending 447,000. No IRC 731 gain.",
+      "override_amount": -85000,
+      "proconnect_default_behavior": "Same - liability changes must be entered on the basis worksheet.",
+      "proconnect_fix": "Schedule K-1 (1065) > Partner's basis worksheet: beginning/ending liabilities (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "K-1 basis worksheet"
+      ],
+      "procedure_section": "Schedules K-1",
+      "notes": ""
+    },
+    {
+      "id": "EVG1023-SX6",
+      "workbook_tab": "5. Passive Activity (8582)",
+      "tab_key": "5",
+      "category": "Basis/At-Risk/Passive",
+      "title": "New client - Form 8582 prior-year unallowed losses (Regular vs AMT); LP gets no $25,000",
+      "axcess_default_behavior": "No proforma: Axcess shows no prior-year unallowed loss for Lakewood unless keyed, and a single amount keyed only in the regular column leaves the AMT carryover blank (or equal to regular). The duplex is flagged active participation, but MAGI > $150,000 removes the allowance; if 'disposed of activity' is checked for the fire, Axcess releases the duplex loss although the IRC 1033 deferral means no fully taxable disposition.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Partnership Passthrough > Lakewood > Passive Activity carryovers: prior-year unallowed ordinary loss Regular 31,000, AMT 27,500; limited partner. Duplex rental: active participation, do NOT check disposed. Result: all passive losses suspended - Regular 51,253 / AMT 46,553 carried to 2026.",
+      "override_amount": 51253,
+      "proconnect_default_behavior": "ProConnect also has no prior-year data for a new client; prior-year unallowed losses must be entered per activity, with regular and AMT (operating) amounts entered separately; Form 8582 can be forced (1 = when applicable, 2 = force).",
+      "proconnect_fix": "Partnership K-1 (and Rental) > Passive Losses tab / prior years' unallowed losses: Regular 31,000 and AMT 27,500 for Lakewood; no disposition for the duplex; Form 8582 'when applicable'.",
+      "proconnect_reference": "Intuit help: 'How to generate Form 8582 ... in ProConnect Tax'; Intuit Accountants Community thread on prior years' unallowed losses",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "8",
+        "Form 8582"
+      ],
+      "procedure_section": "Schedules K-1 / Schedule E",
+      "notes": "Tab 5 MAGI 423,527 -> special allowance $0 (corrected formulas)."
+    },
+    {
+      "id": "EVG1023-SX7",
+      "workbook_tab": "6. Depreciation Overrides",
+      "tab_key": "6",
+      "category": "Depreciation",
+      "title": "NC decouples from bonus depreciation - 85% addback on Carla's $28,000",
+      "axcess_default_behavior": "Carla's bookkeeper's asset list is keyed on the Sch C as a summary depreciation figure (not in the Depreciation module), so no NC asset-level difference is computed and the D-400 shows no bonus addback.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Enter the three assets in the Depreciation module with NC treatment, or key the NC addition directly: NC > Additions > Bonus depreciation $23,800 (85% of 28,000); set up the 20% ($4,760) deduction for 2026-2030. Verify field path in current release; verify NC conformity for OBBBA 100% bonus.",
+      "override_amount": 23800,
+      "proconnect_default_behavior": "Same - the NC addback is computed only from asset entries with state depreciation; summary entries need a manual NC adjustment.",
+      "proconnect_fix": "Depreciation (4562) asset entries with state (NC) bonus treatment, or North Carolina > Additions > bonus depreciation 23,800 (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None",
+      "status": "Signed Off",
+      "affected_lines": [
+        "NC D-400 Schedule S",
+        "Form 4562"
+      ],
+      "procedure_section": "SALT Implications",
+      "notes": "Federal: 100% bonus (assets acquired 03-06/2025, after 01/19/2025) - bookkeeper's 40% replaced."
+    },
+    {
+      "id": "EVG1023-SX8",
+      "workbook_tab": "21. Involuntary Conv. 1033",
+      "tab_key": "21",
+      "category": "Other",
+      "title": "Rental duplex destroyed by fire - IRC 1033 election and replacement deadline",
+      "axcess_default_behavior": "Entering the casualty on Form 4684 Section B with proceeds $410,000 and basis $230,242 recognizes the $179,758 gain (Form 4797) unless the postponement election is made. Axcess keeps no multi-year ledger of the replacement deadline. The firm workbook's ORIGINAL formula (event date + 2 x 365) would show 01/24/2027 - wrong.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "Yes",
+      "axcess_override": "Gains and Losses > Casualties and Thefts (Form 4684 Section B): enter the conversion; election to postpone gain under IRC 1033 / gain postponed 179,758; attach election statement (property, date, proceeds, basis, intent to replace, deadline 12/31/2027). Tab 21 (corrected formula) tracks the deadline and replacement cost. Verify field path in current release.",
+      "override_amount": 179758,
+      "proconnect_default_behavior": "Same - the postponement must be elected on the casualty/disposition input; no deadline tracking.",
+      "proconnect_fix": "Dispositions > Casualties and Thefts (4684): business property, election to postpone gain (1033), amount postponed 179,758; attach the 1033 statement (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "Election statement attached (PDF)",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Form 4684",
+        "Form 4797",
+        "7"
+      ],
+      "procedure_section": "Rare events / Tax Research",
+      "notes": "Replacement period = 2 years after the close of the first tax year in which any part of the gain is realized (2025) -> 12/31/2027; 3 years applies only to condemned real property."
+    },
+    {
+      "id": "EVG1023-SX9",
+      "workbook_tab": "ProConnect-only",
+      "tab_key": "PC",
+      "category": "E-file Disqualifying",
+      "title": "Form 8865 (Baja Coastal - Categories 3 and 4) is not available in ProConnect",
+      "axcess_default_behavior": "Form 8865 prepared in the Axcess 1040 foreign forms (verify availability in the firm's current release and license) and e-filed with the return.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "n/a (firm e-filed from Axcess with Form 8865 Schedules O and P included).",
+      "override_amount": 0,
+      "proconnect_default_behavior": "Form 8865 is not available in ProConnect Tax (or Lacerte). The software cannot generate it or include it in the 1040 e-file.",
+      "proconnect_fix": "Prepare Form 8865 outside ProConnect (IRS fillable PDF or software that supports it). Firm policy: when the 1040 is prepared in ProConnect, paper-file the complete return with Form 8865 attached (an e-filed return cannot carry the form). Report the Baja loss on Sch E/8582 as a passive partnership activity and list the interest on Form 8938 Part IV as reported on Form 8865.",
+      "proconnect_reference": "Intuit Accountants Community / product discussions: Form 8865 is not available in Lacerte or ProConnect Tax",
+      "efile_impact": "ProConnect: paper filing required (firm decision); Axcess: e-file",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Form 8865",
+        "Form 8938"
+      ],
+      "procedure_section": "E-Filing / Paper Filing Returns; Foreign Transactions",
+      "notes": "Penalty for failure to file Form 8865: $10,000 per form."
+    },
+    {
+      "id": "EVG1023-SX10",
+      "workbook_tab": "2. Diagnostics Log",
+      "tab_key": "2",
+      "category": "Other",
+      "title": "Form 8938 - foreign partnership interest reported on Form 8865 still counts (excepted asset)",
+      "axcess_default_behavior": "Nothing triggers Form 8938 from a Form 8865 entry; if 8938 is not opened, it is not produced. If it is opened, the preparer must list the 8865 interest as an excepted asset in Part IV rather than in Part VI.",
+      "axcess_diagnostic": "None - silent",
+      "manual_calc_required": "No",
+      "axcess_override": "Foreign > Form 8938: MFJ living in the US; Part IV - number of Forms 8865 = 1 (asset counted toward the threshold: max value $180,000, year-end $174,000 -> filing required). No FBAR. Verify field path in current release.",
+      "override_amount": 180000,
+      "proconnect_default_behavior": "ProConnect supports Form 8938 entry, but with no 8865 in the file nothing prompts it.",
+      "proconnect_fix": "Foreign Reporting > Form 8938: enter the excepted-asset information (screen/field per current release - verify).",
+      "proconnect_reference": "",
+      "efile_impact": "None (Axcess); paper with the return if prepared in ProConnect",
+      "status": "Signed Off",
+      "affected_lines": [
+        "Form 8938",
+        "Schedule B Part III"
+      ],
+      "procedure_section": "Foreign Transactions - FinCEN114/FBAR",
+      "notes": ""
+    }
+  ],
+  "software_exception_tabs_used": [
+    "2. Diagnostics Log",
+    "3. K-1 Basis Limitation",
+    "4. At-Risk (Form 6198)",
+    "5. Passive Activity (8582)",
+    "6. Depreciation Overrides",
+    "9. AMT Adjustments (6251)",
+    "11. Hot Assets & Mixing Bowl",
+    "21. Involuntary Conv. 1033",
+    "ProConnect-only"
+  ]
+}

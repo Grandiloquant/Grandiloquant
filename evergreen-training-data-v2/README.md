@@ -10,6 +10,10 @@
 >   the fix and where it is entered, the amount, and the e-file impact
 > * a `software_exceptions` rubric inside `<ID>_2025_Answer_Key.json`
 >
+> **v2 at a glance:** 25 clients - 208 tax gotchas - 126 software exceptions (117 of them *silent*: no software diagnostic fires,
+> the wrong answer just calculates) - every Axcess workbook calculation tab (3-24) exercised by at least one client - 16
+> ProConnect items backed by an Intuit help article or community answer (all other ProConnect screen paths are marked "verify").
+>
 > See [`SOFTWARE_EXCEPTION_MATRIX.md`](SOFTWARE_EXCEPTION_MATRIX.md) for the client x workbook-tab coverage, and
 > [`reference/WORKBOOK_REVIEW.md`](reference/WORKBOOK_REVIEW.md) for **formula errors found in the workbook itself** (several
 > tabs always return the wrong answer; a corrected copy is included). v1 is unchanged in `../evergreen-training-data/`.

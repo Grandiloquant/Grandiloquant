@@ -26,21 +26,22 @@
 | EVG1020 | Ashley Turner | S | TN (no state income tax); NC nonresident return | 89,104 | 65,112 | 9,242 | 1,178 | 0 | 8 | [`clients/EVG1020_Turner`](clients/EVG1020_Turner) |
 | EVG1021 | Ethan S. Kim | S | WA (no state income tax return) | 9,600 | 5,950 | 642 | 0 | 642 | 6 | [`clients/EVG1021_Kim-Ethan`](clients/EVG1021_Kim-Ethan) |
 | EVG1022 | Gregory & Ellen Whitfield | MFJ | PA (West Chester) resident; MA nonresident | 622,485 | 586,245 | 140,074 | 695 | 0 | 9 | [`clients/EVG1022_Whitfield`](clients/EVG1022_Whitfield) |
+| EVG1023 | Raymond & Carla Delgado | MFJ | NC (Charlotte) | 423,527 | 367,732 | 78,364 | 636 | 0 | 9 | [`clients/EVG1023_Delgado`](clients/EVG1023_Delgado) |
 | EVG1024 | Margaret "Peggy" Abernathy | S | FL - Naples (no state income tax) | 222,041 | 139,926 | 23,736 | 964 | 0 | 9 | [`clients/EVG1024_Abernathy`](clients/EVG1024_Abernathy) |
 | EVG1025 | Victor & Lena Brennan-Ochoa | MFJ | TX - Houston (no state income tax) | 608,850 | 577,350 | 102,877 | 0 | 2,277 | 9 | [`clients/EVG1025_Brennan-Ochoa`](clients/EVG1025_Brennan-Ochoa) |
 
-## Gotchas by procedure area (199 total)
+## Gotchas by procedure area (208 total)
 
 | Procedure area | Count | Rubric IDs |
 |---|---:|---|
 | Scan | 21 | EVG1001-G1, EVG1002-G3, EVG1003-G1, EVG1003-G3, EVG1004-G7, EVG1005-G9, EVG1006-G8, EVG1007-G9, EVG1008-G6, EVG1010-G4, EVG1011-G3, EVG1012-G4, EVG1013-G3, EVG1014-G4, EVG1014-G8, EVG1016-G2, EVG1016-G8, EVG1017-G1, EVG1017-G4, EVG1018-G8, EVG1020-G2 |
 | Return | 19 | EVG1002-G4, EVG1002-G5, EVG1002-G6, EVG1002-G7, EVG1003-G2, EVG1003-G4, EVG1003-G5, EVG1003-G6, EVG1003-G7, EVG1003-G8, EVG1004-G1, EVG1004-G5, EVG1004-G8, EVG1004-G9, EVG1005-G1, EVG1005-G2, EVG1005-G4, EVG1024-G3, EVG1024-G4 |
+| Schedules K-1 | 15 | EVG1007-G1, EVG1007-G2, EVG1017-G7, EVG1017-G8, EVG1018-G1, EVG1018-G2, EVG1018-G3, EVG1018-G5, EVG1018-G6, EVG1018-G7, EVG1023-G1, EVG1023-G2, EVG1023-G4, EVG1023-G5, EVG1023-G6 |
 | Schedule A | 13 | EVG1007-G3, EVG1007-G4, EVG1007-G5, EVG1009-G4, EVG1010-G8, EVG1012-G8, EVG1019-G1, EVG1019-G4, EVG1020-G5, EVG1020-G6, EVG1020-G7, EVG1022-G8, EVG1025-G9 |
-| Schedule C | 11 | EVG1006-G1, EVG1006-G2, EVG1006-G3, EVG1006-G4, EVG1006-G5, EVG1006-G6, EVG1006-G7, EVG1014-G5, EVG1014-G6, EVG1019-G3, EVG1019-G7 |
+| Schedule C | 12 | EVG1006-G1, EVG1006-G2, EVG1006-G3, EVG1006-G4, EVG1006-G5, EVG1006-G6, EVG1006-G7, EVG1014-G5, EVG1014-G6, EVG1019-G3, EVG1019-G7, EVG1023-G9 |
 | Schedule D | 11 | EVG1010-G3, EVG1011-G1, EVG1011-G5, EVG1013-G2, EVG1017-G3, EVG1022-G5, EVG1024-G1, EVG1024-G2, EVG1025-G4, EVG1025-G5, EVG1025-G6 |
+| Foreign Transactions | 10 | EVG1004-G2, EVG1004-G3, EVG1004-G4, EVG1015-G1, EVG1015-G2, EVG1015-G3, EVG1015-G4, EVG1015-G6, EVG1017-G5, EVG1023-G8 |
 | Review | 10 | EVG1002-G1, EVG1004-G6, EVG1005-G3, EVG1007-G6, EVG1009-G1, EVG1010-G1, EVG1010-G2, EVG1015-G9, EVG1016-G3, EVG1021-G1 |
-| Schedules K-1 | 10 | EVG1007-G1, EVG1007-G2, EVG1017-G7, EVG1017-G8, EVG1018-G1, EVG1018-G2, EVG1018-G3, EVG1018-G5, EVG1018-G6, EVG1018-G7 |
-| Foreign Transactions | 9 | EVG1004-G2, EVG1004-G3, EVG1004-G4, EVG1015-G1, EVG1015-G2, EVG1015-G3, EVG1015-G4, EVG1015-G6, EVG1017-G5 |
 | SALT | 8 | EVG1012-G7, EVG1017-G9, EVG1019-G9, EVG1020-G8, EVG1022-G1, EVG1022-G2, EVG1022-G3, EVG1022-G9 |
 | SALT Implications | 8 | EVG1002-G8, EVG1005-G5, EVG1005-G6, EVG1005-G7, EVG1005-G8, EVG1008-G7, EVG1013-G7, EVG1016-G6 |
 | NIIT | 5 | EVG1007-G8, EVG1011-G7, EVG1017-G6, EVG1024-G9, EVG1025-G8 |
@@ -58,6 +59,7 @@
 | FinCEN114/FBAR | 2 | EVG1015-G5, EVG1025-G3 |
 | Foreign Corps | 2 | EVG1025-G1, EVG1025-G2 |
 | Foreign Trusts | 2 | EVG1015-G8, EVG1024-G7 |
+| Form 6251 | 2 | EVG1013-G4, EVG1023-G3 |
 | Installment Sales | 2 | EVG1012-G2, EVG1012-G3 |
 | QBI | 2 | EVG1007-G7, EVG1018-G4 |
 | W-2 box 12 codes | 2 | EVG1001-G7, EVG1001-G8 |
@@ -72,10 +74,10 @@
 | Form 1099-Q | 1 | EVG1010-G6 |
 | Form 2441 | 1 | EVG1001-G6 |
 | Form 2441 / W-2 box 10 | 1 | EVG1010-G5 |
-| Form 6251 | 1 | EVG1013-G4 |
 | Form 8962 | 1 | EVG1011-G6 |
 | General Return Prep Notes / Form 2210 | 1 | EVG1014-G7 |
 | General Return Prep Notes / estimated tax | 1 | EVG1013-G6 |
+| Involuntary conversion | 1 | EVG1023-G7 |
 | Local Filing Requirements | 1 | EVG1016-G7 |
 | PFICs | 1 | EVG1015-G7 |
 | Paper Filing Returns / E-File Rejects | 1 | EVG1025-G7 |
@@ -277,6 +279,15 @@
 | EVG1022-G7 | Prior preparer's carryover had the wrong character | General Return Prep Notes - prior-year carryovers (new client) | hard |
 | EVG1022-G8 | MAGI over $500,000 reduces the SALT cap to the $10,000 floor | Schedule A - SALT (OBBBA cap phase-down) | medium |
 | EVG1022-G9 | PA taxes 401(k)/403(b) deferrals; PA exempts the retirement distribution | SALT - PA compensation and retirement income | medium |
+| EVG1023-G1 | Catawba ordinary loss: basis first, then at-risk | Schedules K-1 - partnership loss limitations (Section 6 - apply the limitation) | hard |
+| EVG1023-G2 | Guaranteed payments, SE income and basis | Schedules K-1 - guaranteed payments / SE | medium |
+| EVG1023-G3 | Box 17A +6,000 when the loss is limited | Form 6251 - K-1 AMT items on limited losses | medium |
+| EVG1023-G4 | Precontribution gain disclosed only in a K-1 footnote | Schedules K-1 - mixing bowl (IRC 704(c)(1)(B)) / footnotes | hard |
+| EVG1023-G5 | Liability share dropped 180,000 -> 95,000 | Schedules K-1 - IRC 752(b) deemed distribution | medium |
+| EVG1023-G6 | Prior-year unallowed losses - Regular vs AMT | Schedules K-1 - passive activities (new client carryovers) | medium |
+| EVG1023-G7 | Fire-destroyed rental: deferral election and replacement deadline | Involuntary conversion (IRC 1033) / Schedule E | hard |
+| EVG1023-G8 | Cash contribution to a Mexican partnership | Foreign Transactions - foreign partnership (Form 8865) / Form 8938 / FBAR | hard |
+| EVG1023-G9 | Bonus rate and NC addback | Schedule C - depreciation (OBBBA) / SALT state conformity | medium |
 | EVG1024-G1 | Founder stock in a dissolved C corp - 1244 split | Schedule D (worthless stock / IRC 1244) | medium |
 | EVG1024-G2 | Worthless security - timing, holding period and the $3,000 limit | Schedule D | medium |
 | EVG1024-G3 | 1099-C $38,000 - insolvency measured immediately before the discharge | Return - Form 982 (insolvency) | hard |

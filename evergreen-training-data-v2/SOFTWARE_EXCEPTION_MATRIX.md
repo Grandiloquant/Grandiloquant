@@ -26,13 +26,14 @@
 | EVG1020 Ashley Turner |  |  | X |  | X |  |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  |  | X |  | 5 | 5 |
 | EVG1021 Ethan S. Kim |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | 3 | 3 |
 | EVG1022 Gregory & Ellen Whitfield |  |  |  |  | X | X |  | X |  |  |  | X |  |  | X | X |  |  |  |  | X |  | X |  | 9 | 8 |
+| EVG1023 Raymond & Carla Delgado | X | X | X | X |  |  | X |  | X |  |  |  |  |  |  |  |  |  | X |  |  |  | X | 1 | 10 | 10 |
 | EVG1024 Margaret "Peggy" Abernathy |  |  |  |  |  |  |  | X |  |  |  |  |  |  |  | X |  | X |  | X |  | X | X | 1 | 7 | 7 |
 | EVG1025 Victor & Lena Brennan-Ochoa |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | X |  | X | X | 1 | 7 | 5 |
-| **Clients per tab** | 1 | 0 | 3 | 0 | 3 | 5 | 0 | 2 | 0 | 2 | 1 | 3 | 1 | 2 | 3 | 2 | 1 | 1 | 0 | 2 | 2 | 4 | | | | |
+| **Clients per tab** | 2 | 1 | 4 | 1 | 3 | 5 | 1 | 2 | 1 | 2 | 1 | 3 | 1 | 2 | 3 | 2 | 1 | 1 | 1 | 2 | 2 | 4 | | | | |
 
-Total software exceptions: **116** across 24 clients (107 silent, 2 ProConnect-only).
+Total software exceptions: **126** across 25 clients (117 silent, 3 ProConnect-only).
 
-Tabs not yet exercised: 4., 6., 9., 11., 21.
+Tabs not yet exercised: none - every workbook tab 3-24 is covered.
 
 ## ProConnect items with an Intuit reference
 
@@ -82,6 +83,8 @@ Tabs not yet exercised: 4., 6., 9., 11., 21.
 | EVG1017-SX5 | Passive baskets - Oak Brook LP loss + omitted PY carryover vs PTP isolation | Intuit help: 'How to generate Form 8582 ... ProConnect Tax' (prior years' unallowed losses) |
 | EVG1018-SX2 | Form 7203 ordering with a property distribution - gain first, distribution at FMV | Intuit help: 'How to complete Form 7203 and resolve diagnostic 56844 in ProConnect Tax' |
 | EVG1021-SX1 | Form 8615 parent figures - stale 2024 data / manual entry; must match the FINAL EVG1010 return | Intuit help: 'How do you generate Form 8615 in ProConnect Tax'; 'resolve diagnostic Ref 826' |
+| EVG1023-SX6 | New client - Form 8582 prior-year unallowed losses (Regular vs AMT); LP gets no $25,000 | Intuit help: 'How to generate Form 8582 ... in ProConnect Tax'; Intuit Accountants Community thread on prior years' unallowed losses |
+| EVG1023-SX9 | Form 8865 (Baja Coastal - Categories 3 and 4) is not available in ProConnect | Intuit Accountants Community / product discussions: Form 8865 is not available in Lacerte or ProConnect Tax |
 | EVG1024-SX1 | 1099-C $38,000 - insolvency exclusion (Form 982) must be built and elected manually | Intuit help: 'Entering a Form 1099-C with insolvency (Form 982)' |
 | EVG1024-SX2 | IRC 108(b) attribute reduction - 2026 capital loss carryover must be overridden (67,000 -> 29,000) | Intuit help: 'Entering a Form 1099-C with insolvency (Form 982)' - attribute reduction requires manual review |
 | EVG1024-SX6 | Form 3520 Part III - not supported in ProConnect; separate paper filing | Intuit Accountants Community: 'Does ProConnect generate Form 3520...' |

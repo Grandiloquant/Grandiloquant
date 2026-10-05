@@ -489,6 +489,13 @@
         "amount": 46459
       }
     ],
+    "Line 16 statement": [
+      {
+        "line": "regular",
+        "description": "Regular tax on taxable income (tax table / worksheets)",
+        "amount": 80830
+      }
+    ],
     "Form 2441": [
       {
         "line": "employer_benefits",
