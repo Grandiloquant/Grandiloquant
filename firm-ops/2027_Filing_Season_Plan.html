@@ -1,0 +1,352 @@
+<title>2027 Filing Season Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: single reading column (~72ch) with full-width calendar and tables that scroll inside their own frames */
+:root {
+  --bg: #f6f8f7; --surface: #ffffff; --fg: #17211d; --muted: #56635d; --line: #d8e0dc;
+  --accent: #1f6b52; --accent-soft: #e3efe9; --warn: #9a5b00; --warn-soft: #fbefdc; --crit: #a3322a; --crit-soft: #f8e3e1;
+  --bar-a: #2f7d63; --bar-b: #6b8fb3; --bar-c: #c08a2e; --bar-d: #8a6bb0;
+  --display: "Fraunces", Georgia, serif; --body: "IBM Plex Sans", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111816; --surface: #18211e; --fg: #e3ebe7; --muted: #9aaba3; --line: #2c3a35;
+  --accent: #6cc3a2; --accent-soft: #1d3029; --warn: #e3b05a; --warn-soft: #33281a; --crit: #ef8a80; --crit-soft: #3a1f1d;
+  --bar-a: #4fa585; --bar-b: #7fa3c7; --bar-c: #d5a14a; --bar-d: #a88bcc; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111816; --surface: #18211e; --fg: #e3ebe7; --muted: #9aaba3; --line: #2c3a35;
+  --accent: #6cc3a2; --accent-soft: #1d3029; --warn: #e3b05a; --warn-soft: #33281a; --crit: #ef8a80; --crit-soft: #3a1f1d;
+  --bar-a: #4fa585; --bar-b: #7fa3c7; --bar-c: #d5a14a; --bar-d: #a88bcc; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 15px/1.6 var(--body); padding-inline: 16px; padding-block: 32px 64px; }
+main { max-width: 980px; margin: 0 auto; display: grid; gap: 40px; }
+.prose { max-width: 72ch; }
+h1, h2 { font-family: var(--display); font-weight: 600; text-wrap: balance; line-height: 1.2; margin: 0; }
+h1 { font-size: 2.1rem; }
+h2 { font-size: 1.45rem; padding-top: 8px; border-top: 1px solid var(--line); }
+h3 { font-size: 1rem; margin: 20px 0 6px; }
+p { margin: 8px 0; }
+ul, ol { margin: 8px 0; padding-left: 1.3em; }
+li { margin: 4px 0; }
+a { color: var(--accent); }
+code, .mono { font-family: var(--mono); font-size: .88em; }
+.eyebrow { font: 500 .75rem var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.lede { color: var(--muted); font-size: 1.05rem; max-width: 72ch; }
+section { display: grid; gap: 10px; min-width: 0; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; }
+.fact { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px 14px; }
+.fact b { display: block; font: 600 1.35rem var(--display); font-variant-numeric: tabular-nums; }
+.fact span { color: var(--muted); font-size: .85rem; }
+.scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: .9rem; }
+th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--line); }
+th { font: 500 .72rem var(--mono); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); background: var(--bg); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.when { white-space: nowrap; font-family: var(--mono); font-size: .82rem; }
+.note { border-left: 3px solid var(--warn); background: var(--warn-soft); padding: 10px 14px; border-radius: 0 6px 6px 0; }
+.verdict { border-left: 3px solid var(--accent); background: var(--accent-soft); padding: 10px 14px; border-radius: 0 6px 6px 0; }
+.pill { display: inline-block; font: 500 .7rem var(--mono); padding: 1px 7px; border-radius: 99px; letter-spacing: .04em; white-space: nowrap; }
+.pill.human { background: var(--crit-soft); color: var(--crit); }
+.pill.auto { background: var(--accent-soft); color: var(--accent); }
+.pill.verify { background: var(--warn-soft); color: var(--warn); }
+/* Gantt */
+.gantt { min-width: 860px; display: grid; grid-template-columns: 200px repeat(15, 1fr); font-size: .8rem; }
+.gantt .hd { font: 500 .68rem var(--mono); color: var(--muted); padding: 8px 2px; border-bottom: 1px solid var(--line); text-align: center; }
+.gantt .hd.month { text-align: left; padding-left: 6px; color: var(--fg); }
+.gantt .lab { padding: 7px 10px; border-bottom: 1px solid var(--line); font-weight: 500; }
+.gantt .cell { border-bottom: 1px solid var(--line); border-left: 1px dashed var(--line); position: relative; }
+.gantt .bar { margin: 7px 2px; border-radius: 3px; height: 18px; color: #fff; font: 500 .68rem var(--mono); padding: 1px 6px; white-space: nowrap; overflow: hidden; }
+.bar.a { background: var(--bar-a); } .bar.b { background: var(--bar-b); } .bar.c { background: var(--bar-c); } .bar.d { background: var(--bar-d); }
+.gantt .ms { grid-column: 2 / -1; display: grid; grid-template-columns: repeat(15, 1fr); }
+.flow { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 12px; overflow-x: auto; }
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+.two > div { min-width: 0; }
+.small { font-size: .85rem; color: var(--muted); }
+</style>
+
+<main>
+<header class="prose" style="display:grid;gap:10px">
+  <div class="eyebrow">Individual practice · tax year 2026 · filed in calendar 2027</div>
+  <h1>2027 Filing Season Plan</h1>
+  <p class="lede">A working calendar for January 4 to April 15, 2027, built around one goal: get bulk extensions filed, with real estimated-tax computations, by <strong>Friday, February 26</strong>. It also covers the overnight automation design for Windmill → Karbon → StanfordTax → Filed → CCH Axcess + eSign, the off-season from April 16 to August, and pre-work to start now.</p>
+</header>
+
+<section>
+  <h2>Planning assumptions</h2>
+  <div class="facts">
+    <div class="fact"><b>250</b><span>individual 1040s, no business returns</span></div>
+    <div class="fact"><b>~200</b><span>state returns (assume 80% file one or more)</span></div>
+    <div class="fact"><b>125 hrs</b><span>intake interviews (250 × 30 min)</span></div>
+    <div class="fact"><b>~42 hrs</b><span>memo review (250 × 10 min)</span></div>
+    <div class="fact"><b>150–190</b><span>extensions in the Feb 26 batch (60–75%)</span></div>
+    <div class="fact"><b>15 wks</b><span>Jan 4 to Apr 15, 2027</span></div>
+  </div>
+  <p class="small prose">Every percentage is a planning assumption, not observed data. The extension count follows from the policy below: anyone not already e-filed by February 24 gets extended. Adjust once you know how many returns you usually finish in February.</p>
+</section>
+
+<section>
+  <h2>Season at a glance</h2>
+  <div class="scroll">
+    <div class="gantt" role="table" aria-label="Season calendar by week">
+      <div class="hd month">Week of</div>
+      <div class="hd">Jan 4</div><div class="hd">Jan 11</div><div class="hd">Jan 18</div><div class="hd">Jan 25</div>
+      <div class="hd">Feb 1</div><div class="hd">Feb 8</div><div class="hd">Feb 15</div><div class="hd">Feb 22</div>
+      <div class="hd">Mar 1</div><div class="hd">Mar 8</div><div class="hd">Mar 15</div><div class="hd">Mar 22</div>
+      <div class="hd">Mar 29</div><div class="hd">Apr 5</div><div class="hd">Apr 12</div>
+
+      <div class="lab">Organizers &amp; doc collection</div>
+      <div class="cell" style="grid-column: span 15"><div class="bar b">StanfordTax organizers live (sent mid-Dec) · nightly doc sweep · reminders</div></div>
+
+      <div class="lab">Intake interviews (30 min)</div>
+      <div class="cell" style="grid-column: span 7"><div class="bar a">~36 per week · likely-extension clients booked first</div></div>
+      <div class="cell" style="grid-column: span 1"><div class="bar d">catch-up</div></div>
+      <div class="cell" style="grid-column: span 7"></div>
+
+      <div class="lab">Transcript → memo (nightly)</div>
+      <div class="cell" style="grid-column: span 8"><div class="bar b">read.ai → Windmill → firm memo → Karbon + binder</div></div>
+      <div class="cell" style="grid-column: span 7"></div>
+
+      <div class="lab">Extension projections</div>
+      <div class="cell" style="grid-column: span 5"></div>
+      <div class="cell" style="grid-column: span 2"><div class="bar c">draft → review</div></div>
+      <div class="cell" style="grid-column: span 1"><div class="bar crit" style="background:var(--crit)">FILE 2/26</div></div>
+      <div class="cell" style="grid-column: span 7"></div>
+
+      <div class="lab">Fast-lane prep → e-file</div>
+      <div class="cell" style="grid-column: span 4"></div>
+      <div class="cell" style="grid-column: span 11"><div class="bar a">Filed overnight prep · daytime review · eSign 8879 · e-file</div></div>
+
+      <div class="lab">Extended-return prep</div>
+      <div class="cell" style="grid-column: span 8"></div>
+      <div class="cell" style="grid-column: span 7"><div class="bar d">prep to “waiting on K-1 / corrected 1099” · finish any that complete</div></div>
+
+      <div class="lab">K-1 &amp; corrected 1099 sweep</div>
+      <div class="cell" style="grid-column: span 10"></div>
+      <div class="cell" style="grid-column: span 3"><div class="bar c">re-run projections</div></div>
+      <div class="cell" style="grid-column: span 2"></div>
+
+      <div class="lab">Extension true-up</div>
+      <div class="cell" style="grid-column: span 13"></div>
+      <div class="cell" style="grid-column: span 1"><div class="bar c">top-ups</div></div>
+      <div class="cell" style="grid-column: span 1"><div class="bar crit" style="background:var(--crit)">4/15</div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Week-by-week calendar</h2>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Week of</th><th>Hard dates</th><th>Work</th><th>Exit criteria</th></tr></thead>
+    <tbody>
+      <tr><td class="when">Jan 4</td><td>—</td><td>Interviews start. Book clients likely to be extended first (K-1s, brokerage-heavy, equity comp, multi-state, rental, foreign accounts), because their interview answers feed the February projection. Nightly transcript-to-memo jobs go live.</td><td>All 250 clients have an interview booked</td></tr>
+      <tr><td class="when">Jan 11</td><td><b>Fri 1/15</b>: Q4 2026 estimates due</td><td>Confirm Q4 payments in the interview and record them in the memo's "Preparation facts" table. Every estimate paid in 2026 goes into the projection.</td><td>2026 estimate payments recorded for every client who makes them</td></tr>
+      <tr><td class="when">Jan 18</td><td>—</td><td>Interviews continue (~36 per week). Review memos daily, 10 min each.</td><td>~110 interviews done</td></tr>
+      <tr><td class="when">Jan 25</td><td>IRS e-file opens (date TBA, usually last week of Jan)</td><td>Send a test transmission. Send organizer reminders to anyone under 50% complete.</td><td>Test e-file accepted</td></tr>
+      <tr><td class="when">Feb 1</td><td><b>Mon 2/1</b>: W-2s, 1099-NEC, most 1099s due to recipients</td><td>Fast lane opens: W-2/retiree clients with complete docs go to Filed overnight. Sort every client as <b>Fast lane</b> (likely filed by 3/31) or <b>Extend</b>.</td><td>Every client has a lane</td></tr>
+      <tr><td class="when">Feb 8</td><td>—</td><td><b>Projection week 1.</b> Windmill builds a draft projection for each Extend client: 2025 base year + 2026 docs on hand + interview facts. Staff tier each one (below).</td><td>Draft projection for every Extend client</td></tr>
+      <tr><td class="when">Feb 15</td><td><b>Tue 2/16</b>: brokerage consolidated 1099s due (2/15 is a holiday)</td><td><b>Projection week 2.</b> Load brokerage 1099s, which are usually the biggest moving piece. Reviewer signs off Tier 2/3 projections. Interviews wrap up.</td><td>Projections reviewed; lane list frozen Fri 2/19</td></tr>
+      <tr><td class="when">Feb 22</td><td><b>Fri 2/26: bulk extension filing</b></td><td>Mon–Tue: send each client their extension letter with the payment amount, plus Form 8878 by eSign where the payment will be debited from their bank. Wed 2/24: final cutoff (not e-filed = extended). Thu–Fri: batch e-file federal 4868 and state extensions or vouchers.</td><td>All extensions accepted; rejects fixed by 3/3</td></tr>
+      <tr><td class="when">Mar 1</td><td>—</td><td>Fast-lane production. Filed preps overnight, staff review by day, eSign 8879 batches go out daily. Extended returns are prepped up to "waiting on K-1".</td><td>Daily throughput target: ~8 returns finished</td></tr>
+      <tr><td class="when">Mar 8</td><td>—</td><td>Same. Watch for corrected brokerage 1099s, which usually arrive in March.</td><td>—</td></tr>
+      <tr><td class="when">Mar 15</td><td><b>Mon 3/15</b>: calendar-year partnership/S-corp deadline</td><td>K-1 sweep: any K-1 received goes into the return or projection. Clients whose issuer extended get a note expecting the K-1 by about 9/15.</td><td>Every K-1-dependent client tagged "received" or "expected by"</td></tr>
+      <tr><td class="when">Mar 22</td><td>—</td><td>Fast-lane push. Any fast-lane client still missing docs moves to the small second extension batch.</td><td>—</td></tr>
+      <tr><td class="when">Mar 29</td><td>—</td><td>Fast lane: last day to <i>receive</i> documents is Thu 4/1. Re-run projections for extended clients who received new documents.</td><td>Second-batch list final</td></tr>
+      <tr><td class="when">Apr 5</td><td>—</td><td><b>Extension true-up.</b> Where a re-run projection moved more than $1,000 or 10%, send a revised payment instruction (Direct Pay/EFTPS, or a new scheduled debit). File the second extension batch by Fri 4/9.</td><td>Every extended client has a final payment number</td></tr>
+      <tr><td class="when">Apr 12</td><td><b>Thu 4/15</b>: returns, extension payments, 2027 Q1 estimates</td><td>Finish fast-lane e-files. Confirm debits and payments. Send 2027 Q1 estimate instructions to extended clients, sized from the projection.</td><td>Zero unextended unfiled returns</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Estimated tax at extension</h2>
+  <p>The February deadline means projecting before every document arrives, so the estimate runs twice: once in February to file, and again in early April to true up. A 4868 extends the time to file, not the time to pay, so the payment number has to be right by April 15 whenever the form itself was filed.</p>
+  <h3>Tiers (set in projection week 1)</h3>
+  <div class="scroll"><table>
+    <thead><tr><th>Tier</th><th>Who</th><th>Method</th><th>Review time</th></tr></thead>
+    <tbody>
+      <tr><td><b>1</b> Refund likely</td><td>W-2 withholding plus estimates comfortably cover projected tax</td><td>Automated projection; extend with $0 payment</td><td class="num">5 min</td></tr>
+      <tr><td><b>2</b> Balance due, predictable</td><td>Brokerage, rentals, retirement income, modest K-1s</td><td>Projection in Axcess using the 2025 return rolled forward, plus 2026 docs on hand</td><td class="num">15 min</td></tr>
+      <tr><td><b>3</b> Volatile</td><td>Large K-1s, equity comp, big gains, multi-state</td><td>Tier 2 method plus K-1 estimates requested from issuers in January, and a cushion (e.g., 10%)</td><td class="num">30 min</td></tr>
+    </tbody>
+  </table></div>
+  <p class="small">At a 40/40/20 mix of 170 extended returns, reviewer time is about 6 + 17 + 17 = 40 hours across two weeks.</p>
+  <h3>What the projection computes</h3>
+  <ul>
+    <li><b>2026 balance due</b>: projected federal and state tax, minus withholding, 2026 estimates and any 2025 overpayment applied.</li>
+    <li><b>Penalty exposure (Form 2210)</b>: compare payments made to the prior-year safe harbor, which is 100% of 2025 tax, or 110% if 2025 AGI was over $150,000 ($75,000 MFS). This is why the 2025 base year has to be in the system before January (see pre-work).</li>
+    <li><b>Payment</b>: the extension payment for 4/15, plus a draft 2027 Q1 estimate due the same day.</li>
+    <li><b>States</b>: some states accept the federal extension automatically but still want a payment voucher when tax is owed; others need their own extension form. Keep a state matrix in Karbon so the batch knows which forms each client needs.</li>
+  </ul>
+  <h3>Mechanics of an early filing</h3>
+  <ul>
+    <li>Filing the 4868 on 2/26 with an electronic funds withdrawal needs <b>Form 8878</b> signed. Send it in the same eSign envelope as the extension letter.</li>
+    <li>The IRS lets you schedule the debit for a later date up to the due date, so a 2/26 filing can still debit on 4/15. <span class="pill verify">confirm in your Axcess release</span> Otherwise file with no payment and have clients pay by 4/15 through Direct Pay or EFTPS, choosing "extension" as the payment type.</li>
+    <li>The April true-up only changes the payment, not the extension, so top-ups go through Direct Pay or EFTPS.</li>
+  </ul>
+</section>
+
+<section class="prose">
+  <h2>Can the stack run overnight?</h2>
+  <div class="verdict"><b>Yes for orchestration, ingestion and drafting. No for transmitting.</b> Windmill is a job scheduler with cron triggers, so it can run every step that has an API or webhook. Karbon has a documented REST API (work items, notes, file upload). StanfordTax processes documents as they arrive and syncs with Karbon. Filed and Axcess are cloud services, so no desk machine has to stay on. Everything that files or signs stays a daytime, human step.</div>
+  <h3>Nightly schedule</h3>
+</section>
+<div class="scroll">
+  <table>
+    <thead><tr><th>Time</th><th>Windmill job</th><th>Systems</th><th>Output</th><th>Gate</th></tr></thead>
+    <tbody>
+      <tr><td class="when">21:00</td><td>Transcript sweep</td><td>read.ai → LLM → Karbon / StanfordTax</td><td>Interview memo PDF on the work item and in the binder</td><td><span class="pill human">staff review next morning</span></td></tr>
+      <tr><td class="when">22:00</td><td>Document sweep</td><td>StanfordTax / Karbon</td><td>Checklist completeness score; move work item to "Ready for prep" when the threshold is met</td><td><span class="pill auto">automatic</span></td></tr>
+      <tr><td class="when">23:00</td><td>Prep queue</td><td>Filed</td><td>Submit "Ready for prep" returns, oldest first</td><td><span class="pill verify">confirm Filed has a trigger API</span></td></tr>
+      <tr><td class="when">23:00–05:00</td><td>(Filed runs)</td><td>Filed → Axcess</td><td>Data entered in Axcess, workpapers, review flags</td><td><span class="pill auto">vendor-side</span></td></tr>
+      <tr><td class="when">Feb 8–19, 01:00</td><td>Projection build</td><td>Base-year table + Axcess</td><td>Draft extension projection and tier per client</td><td><span class="pill human">reviewer sign-off</span></td></tr>
+      <tr><td class="when">05:00</td><td>Morning digest</td><td>Filed / Axcess diagnostics → Karbon</td><td>Status updates, review queue, draft missing-doc requests to clients, one summary per preparer</td><td><span class="pill human">client requests approved before sending</span></td></tr>
+    </tbody>
+  </table>
+</div>
+<section class="prose">
+  <h3>Rules for overnight jobs</h3>
+  <ul>
+    <li>Jobs only touch returns in the "Ready for prep" Karbon status. A return a person has open in Axcess is skipped.</li>
+    <li>Nothing transmits overnight. E-file, 8879/8878 eSign and extension batches run after reviewer sign-off.</li>
+    <li>Every job is safe to re-run (it checks what it already did) and writes a log line to the Karbon work item.</li>
+    <li>Run a self-hosted Windmill or a tenant whose data agreement covers taxpayer data, and add it to your WISP (FTC Safeguards Rule).</li>
+  </ul>
+</section>
+
+<section class="prose">
+  <h2>read.ai transcripts → Karbon → StanfordTax → Filed</h2>
+  <p>This works, with one correction to the chain. <b>StanfordTax doesn't write memos.</b> It builds organizers from prior-year data and assembles bookmarked workpaper binders from the documents it receives. The step that turns a transcript into a memo on the firm template has to be an LLM step that Windmill runs. StanfordTax then files that memo in the binder like any other document.</p>
+  <div class="flow"><pre class="mermaid">
+flowchart LR
+  A[read.ai<br/>interview recorded] -->|API, or Zapier<br/>'New Meeting Notes' webhook| B[Windmill]
+  B --> C[Match client<br/>attendee email → Karbon contact]
+  C --> D[LLM fills firm<br/>memo template]
+  D --> E[Render PDF]
+  E -->|POST /v3/Files<br/>+ /v3/Notes| F[Karbon work item]
+  E --> G[StanfordTax binder<br/>bookmarked as 'Interview memo']
+  G --> H[Filed reads memo<br/>as a source document]
+  F --> I[Staff review<br/>10 min]
+  </pre></div>
+  <h3>Memo template (two parts in one PDF)</h3>
+  <ol>
+    <li><b>Preparation facts</b>, page 1, a fixed table Filed can read reliably: filing status changes, dependents (name, relationship, months lived with client), new or closed income sources, estimated payments (date and amount), expected K-1s (issuer, expected date), home or vehicle purchases and sales, retirement distributions and rollovers, state moves and days worked out of state, items needing an organizer follow-up.</li>
+    <li><b>Narrative memo</b> on the firm template: attendees and date, life events, planning topics raised, judgment calls the preparer needs to make, open items with owner and due date, and quotes for anything the client asserted that isn't backed by a document.</li>
+  </ol>
+  <p>Put a banner at the top: <i>"Client representations from interview. Not verified against source documents."</i> Filed and the preparer should treat interview facts as leads that need support, not as data to enter.</p>
+  <h3>How Filed takes it in</h3>
+  <p>Filed's documented pattern is to read source documents and enter data into the tax software. The memo reaches it like any other PDF, as long as it sits wherever Filed pulls documents from (the StanfordTax binder or the Karbon work item). <span class="pill verify">confirm which source Filed reads, and whether it accepts firm instructions per return</span> If Filed accepts per-return notes, also send the Preparation facts as structured text. That's more reliable than having Filed read it out of a PDF.</p>
+  <div class="note"><b>Before the first recording:</b> several states require every party to consent to a recording. Put recording consent in the engagement letter and confirm it out loud at the start of each call. Get §7216 consent covering disclosure of return information to the AI vendors in the chain. Check each vendor's data-retention terms, especially read.ai's.</div>
+</section>
+
+<section class="prose">
+  <h2>Pre-work: October to December 2026</h2>
+  <h3>Bring 2025 returns in as the base year</h3>
+  <p>Use three layers, from most to least authoritative:</p>
+  <ol>
+    <li><b>Axcess proforma rollover</b> (native): rolls 2025 into the 2026 return, including carryovers, depreciation and prior-year comparison columns. Run it when the TY2026 Axcess release ships, usually in December.</li>
+    <li><b>StanfordTax organizers</b> (native): StanfordTax reads prior-year data from Axcess to pre-fill each organizer with 2025 numbers and a document checklist built from 2025 payers. A 1099 issuer from 2025 with no 2026 match becomes an automatic "missing?" flag.</li>
+    <li><b>Firm base-year table</b> (Windmill's Postgres): one row per client, which the projections, safe-harbor math and law-change screens all query. Axcess doesn't make this kind of cross-client query easy.</li>
+  </ol>
+  <h3>Filling the base-year table</h3>
+  <ul>
+    <li><b>Source</b>: ask Wolters Kluwer what Axcess Tax data export your license includes (an API or a bulk export). <span class="pill verify">verify</span> As a fallback, have a Windmill job read each final 2025 client copy (PDF) with an LLM extractor.</li>
+    <li><b>Fields</b>: filing status, state(s), wages, interest, dividends, capital gain, IRA/pension, Social Security, Sch C/E/K-1 totals, AGI, deduction type and amount, taxable income, total tax, withholding, estimates, refund or balance due, applied overpayment, and each carryover (capital loss, passive, AMT credit, foreign tax credit, charitable, NOL, Form 8606 basis).</li>
+    <li><b>Automatic tie-out</b>: AGI, total tax, payments and refund/balance due must foot to the client copy. Any row that doesn't goes to a person.</li>
+    <li><b>Run it</b> the week after the October 15 deadline, once every 2025 return is final, and again after any amended return.</li>
+  </ul>
+  <h3>How the table gets used</h3>
+  <ul>
+    <li>2026 safe-harbor amount for every client (100% or 110% of 2025 tax), checked against 2026 estimates paid, with year-end letters going out in December.</li>
+    <li>Starting point for every February projection.</li>
+    <li>Variance review: Filed's 2026 draft is compared line by line, and anything that moved more than 10% and $1,000 gets flagged for the reviewer.</li>
+    <li>Law-change screens: tag clients affected by provisions that start in 2026 (OBBBA): the 90% cap on gambling losses, the non-itemizer charitable deduction and 0.5%-of-AGI floor, the itemized-deduction value cap for the 37% bracket, the $7,500 dependent-care FSA limit, cost-basis reporting on 1099-DA, and the $2,000 threshold for 1099-NEC/MISC.</li>
+  </ul>
+  <h3>Pre-work checklist</h3>
+</section>
+<div class="scroll"><table>
+  <thead><tr><th>By</th><th>Task</th></tr></thead>
+  <tbody>
+    <tr><td class="when">Oct 30</td><td>Base-year table loaded and tied out for all 250 clients</td></tr>
+    <tr><td class="when">Nov 13</td><td>Engagement letters out: extension-by-default policy, recording consent, §7216 consent, eSign for 8878/8879, fee for extended returns</td></tr>
+    <tr><td class="when">Nov 20</td><td>Windmill flows built: transcript → memo, doc sweep, Filed queue, morning digest, projection builder</td></tr>
+    <tr><td class="when">Nov 30</td><td>Pilot Filed on 10–15 closed 2025 returns and score its output against what you actually filed. Your own returns are the best test set you have.</td></tr>
+    <tr><td class="when">Dec 4</td><td>Memo template approved; a 3-client dry run of the full read.ai chain</td></tr>
+    <tr><td class="when">Dec 11</td><td>Year-end letters: safe-harbor shortfalls, law-change flags, a reminder that Q4 estimates are due 1/15</td></tr>
+    <tr><td class="when">Dec 14</td><td>StanfordTax organizers sent; interview booking link opens (likely-extension clients invited first)</td></tr>
+    <tr><td class="when">Dec 18+</td><td>Axcess TY2026 proforma rollover once the release ships; Karbon work items created from the season template</td></tr>
+  </tbody>
+</table></div>
+
+<section class="prose">
+  <h2>April 16 to August</h2>
+  <p>The goal is to make September small. Extended returns usually pile up because people wait for every document before starting. Start them while they're still missing a document instead.</p>
+  <div class="two">
+    <div>
+      <h3>Late April</h3>
+      <ul>
+        <li>Debrief with numbers: time to finish per lane, how many of Filed's entries reviewers changed, how far each extension projection was from the final tax.</li>
+        <li>Clean up e-file rejects and IRS/state notices.</li>
+        <li>Give 2027 estimate instructions to every completed client.</li>
+      </ul>
+      <h3>May</h3>
+      <ul>
+        <li>Staff time off.</li>
+        <li><b>Wave 1</b>: finish every extended return whose documents are complete.</li>
+        <li>Prep each K-1-blocked return to the point where the K-1 is all that's missing, so it takes about an hour once the K-1 arrives.</li>
+      </ul>
+      <h3>June</h3>
+      <ul>
+        <li>Q2 estimates due Tue 6/15.</li>
+        <li>Mid-year check-ins with clients who have a big 2027 event (sale, retirement, equity vesting, move).</li>
+        <li>Send K-1 chase letters to issuers.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>July</h3>
+      <ul>
+        <li>Tune the stack: firm rules for Filed taken from this season's review notes, memo-template fixes, Windmill dashboards.</li>
+        <li>Offer a paid planning package to the clients with the highest tax (from the base-year table).</li>
+        <li>Review client profitability and pricing for 2028.</li>
+      </ul>
+      <h3>August</h3>
+      <ul>
+        <li><b>Wave 2</b>: finish returns as documents arrive.</li>
+        <li>Plan capacity for the K-1 wave around 9/15 and the 10/15 deadline.</li>
+        <li>Security review and WISP update. Renew vendor contracts before Q4.</li>
+        <li>Start loading the TY2026 base year as returns are completed, so October's pre-work for next season starts half done.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Axcess iQ + AnswerConnect alongside Filed?</h2>
+  <p>They do three different jobs. Filed points out issues inside a return as part of preparation. <b>AnswerConnect</b> is a research library of primary sources and CCH explanations, which gives you something to cite. <b>Axcess iQ</b> searches your Axcess return data for clients affected by tax-law changes and drafts letters to them.</p>
+  <div class="verdict">
+    <p><b>AnswerConnect: worth it if you don't already have a research library</b> (Checkpoint, Bloomberg Tax, etc.) and it can be added to your Axcess contract at a reasonable price. Filed's suggestions aren't authority. When a reviewer questions a position, or an IRS notice does, you need a citation. With 250 individual returns you'll research maybe a few dozen issues a year, so compare the quote against a lighter research subscription. Wolters Kluwer doesn't publish prices.</p>
+    <p><b>Axcess iQ: skip it.</b> It's a scan of the firm's data for law-change impacts, and your base-year table plus a handful of Windmill queries does the same for a 250-client individual practice, at no extra cost and with logic you control. Most of what I could find about iQ is vendor material from 2018–2022, so confirm it's still actively developed before you price it.</p>
+  </div>
+</section>
+
+<section class="prose">
+  <h2>Confirm with vendors</h2>
+  <ul>
+    <li><b>Filed</b>: does it have a trigger API or webhook for queueing returns; which document sources it reads (StanfordTax binder, Karbon, upload); whether it takes per-return firm instructions; whether it can draft extension projections.</li>
+    <li><b>StanfordTax</b>: do files attached to a Karbon work item land in the binder automatically, or does the memo have to be uploaded to StanfordTax; is there an upload API.</li>
+    <li><b>Wolters Kluwer</b>: what Axcess Tax data export or API your license includes; how batch e-filing of 4868s and state extensions works; future-dated debits on an early-filed 4868.</li>
+    <li><b>read.ai</b>: API or webhook access on your plan, whether the full transcript is included, and retention and training-use terms.</li>
+    <li><b>Karbon</b>: API rate limits for the nightly jobs.</li>
+  </ul>
+  <p class="small">Sources:
+    <a href="https://karbonhq.com/integrations/stanford-tax/">Karbon × StanfordTax integration</a> ·
+    <a href="https://www.cpapracticeadvisor.com/2025/12/04/karbon-launches-smart-tax-organizers-and-binders-powered-by-stanfordtax-to-streamline-tax-season/174362/">CPA Practice Advisor on the Karbon/StanfordTax launch</a> ·
+    <a href="https://developers.karbonhq.com/guides/uploading-files/">Karbon API: uploading files</a> ·
+    <a href="https://www.cpapracticeadvisor.com/2025/05/21/new-ai-tax-system-integrates-with-existing-systems-and-workflows-to-automate-tax-preparation/161468/">CPA Practice Advisor on Filed</a> ·
+    <a href="https://zapier.com/apps/read-ai/integrations/webhook">read.ai on Zapier</a> ·
+    <a href="https://taxna.wolterskluwer.com/cch-axcess-iq">CCH Axcess iQ</a> ·
+    <a href="https://www.wolterskluwer.com/en/solutions/cch-answerconnect-us">CCH AnswerConnect</a>
+  </p>
+</section>
+</main>
