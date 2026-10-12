@@ -4,6 +4,22 @@ The firm files in CCH Axcess; some partner firms use ProConnect. Real tax softwa
 cannot know facts that live outside a single form. Log every place this return needs a manual calculation, override, special
 input or alternate filing path - **especially "silent" ones where no diagnostic fires** and the wrong answer just calculates.
 
+## What belongs in the log (and what doesn't)
+Log an item when the **software's default handling of the documents/inputs would produce a wrong return** or needs a
+special input, override, attachment or alternate filing path. Include:
+* **Silent input traps** - duplicate or corrected forms the scanner would load twice; amounts the software takes at face
+  value but which must be adjusted (equity-comp basis, accrued interest, wash sales across accounts, QCD/rollover codes).
+* **Manual-calc inputs** - items you computed off-system that need specific entries for the software to agree (prior-year
+  tax/AGI for the 2210 safe harbor, 8606 year-end balances, K-1 stock vs debt basis, carryovers for a new client).
+* **State and local module defaults** - wage bases the state module pulls from the wrong box, exemptions it takes from the
+  federal dependent screen, credits for other-state tax, city returns.
+* **"Negative" exceptions** - returns or forms the software would generate that must be suppressed (a nonresident state
+  under a reciprocity/de minimis rule, a duplicate dependent claim) and forms it can't produce (filed separately / paper).
+* When one source causes two problems (a rental 1098 routed to Schedule A AND its escrow statement importing as a second
+  1098), log both halves.
+Don't pad the log with pure tax judgments the software has no default for (e.g. "newborn is a dependent") - those belong in
+the prep notes. Amounts must be the corrected amount you entered, not the raw form figure.
+
 ## Format (software_exceptions.md)
 | ID | Workbook tab | Exception | Silent? | Amount | Axcess fix (input/override location) | ProConnect fix | E-file impact |
 Then one short paragraph per item: what the software does by default, why that's wrong here, the calc.

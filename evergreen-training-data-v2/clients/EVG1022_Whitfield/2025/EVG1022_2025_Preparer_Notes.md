@@ -15,10 +15,10 @@
 | Itemized deductions | $36,240 (SALT limited to $10,000) |
 | Taxable income | $586,245 |
 | Tax (QD & CG worksheet) | $135,700 |
-| Additional Medicare / NIIT | $2,304 / $2,070 |
-| Total tax | $140,074 |
+| Additional Medicare / NIIT | $2,304 / $2,048 |
+| Total tax | $140,052 |
 | Payments (withholding $105,769 + estimates $32,000 + extension $3,000) | $140,769 |
-| **Federal refund** | **$695** |
+| **Federal refund** | **$717** |
 | PA-40 | tax $17,821 - MA credit $1,373 = $16,448; **refund $86** |
 | MA 1-NR/PY | tax $2,191; **refund $109** |
 
@@ -70,9 +70,10 @@
    charity $15,000 -> itemized $36,240 > standard $31,500. AMT checked - none (tentative minimum tax below regular tax).
 9. **Additional Medicare / NIIT.** Medicare wages $506,000 - $250,000 = $256,000 x 0.9% = $2,304; Keystone withheld
    0.9% over $200,000 ($2,169 - Form 8959 line 24, included on line 25c). NII = interest + dividends + net capital gain = $54,485 (the 401(k)
-   distribution and muni interest are excluded) -> NIIT $2,070.
+   distribution and muni interest are excluded), less state income tax allocable to NII on Form 8960 line 9b
+   ($596 = income-tax share of the capped SALT deduction x NII/AGI) = $53,889 -> NIIT $2,048.
 10. **Estimated tax penalty.** None - 4 x $8,000 timely estimates plus withholding (treated as paid evenly) meet 25% of the required annual
-    payment each quarter (90% of 2025 tax $126,067 is less than 110% of 2024 tax $181,480). Workbook tab 8.
+    payment each quarter (90% of 2025 tax $126,047 is less than 110% of 2024 tax $181,480). Workbook tab 8.
 
 ## Open items / client communication
 - **KMDV shares (NUA):** basis is $12.00/share ($96,000) - Schwab shows $80.00 in its unrealized gain report. Gregory's handwritten note asked

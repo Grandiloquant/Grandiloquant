@@ -1,0 +1,188 @@
+{
+  "expectations": [
+    {
+      "text": "[gotcha EVG1022-G1] MA Form 1-NR/PY from calendar workdays: MA wages 410,000 x 18/165 = $44,727, tax $2,191",
+      "passed": true,
+      "evidence": "notes.md MA: 410,000 x 18/165 = 44,727; tax ~2,200 vs key 2,191 (estimate, not a finished computation, but base and method correct)"
+    },
+    {
+      "text": "[gotcha EVG1022-G2] No NJ return (reciprocity) and no IL return (30-working-day rule)",
+      "passed": false,
+      "evidence": "filing_package.json lists IL-1040 + Schedule NR (~$1,600 + penalties) and PA G-L credit for IL tax - the trap. NJ correctly excluded."
+    },
+    {
+      "text": "[gotcha EVG1022-G3] PA Sch G-L credit limited to PA tax on MA income (not full MA tax)",
+      "passed": false,
+      "evidence": "notes.md: 'Schedule G-L credit for MA and IL tax' - includes IL tax that should not exist and no credit computed"
+    },
+    {
+      "text": "[gotcha EVG1022-G4] NUA: only $96,000 cost basis taxable; $544,000 deferred; rollover nontaxable; no 10% tax",
+      "passed": true,
+      "evidence": "5b 96,000; notes.md 401(k) lump sum"
+    },
+    {
+      "text": "[gotcha EVG1022-G5] Cross-account wash sale: code W +$18,000, no IRA basis step-up",
+      "passed": true,
+      "evidence": "notes.md capital gains; line 7 27,000"
+    },
+    {
+      "text": "[gotcha EVG1022-G6] Sch B: ABP -786.12 and accrued interest -2,981.94 -> 2b $9,085; 2a $6,396",
+      "passed": true,
+      "evidence": "notes.md interest; 2a/2b match"
+    },
+    {
+      "text": "[gotcha EVG1022-G7] Carryover recharacterised ST $26,000 / LT $12,000",
+      "passed": true,
+      "evidence": "notes.md capital loss carryover corrected"
+    },
+    {
+      "text": "[gotcha EVG1022-G8] SALT cap phased down to $10,000 floor; itemized $36,240",
+      "passed": true,
+      "evidence": "notes.md deductions; 12e 36,240"
+    },
+    {
+      "text": "[gotcha EVG1022-G9] PA: box 16 compensation $506,000; 401(k) distribution not PA-taxable; net gains $47,000; PA tax ~$17,821",
+      "passed": false,
+      "evidence": "notes.md PA: box 16 and 401(k) exclusion right, but net gains left as '47,000 or 65,000 - review' and PA tax 'about 15,500' (key 17,821); PA return not completed"
+    },
+    {
+      "text": "[judgment] NIIT: NII $54,485; any Form 8960 line 9b state-tax allocation follows Reg. 1.1411-4(f)(3)(iii) within the SALT cap",
+      "passed": true,
+      "evidence": "Reg. 1.1411-4(f)(3)(iii) allows state/local income taxes allocable to NII as a properly allocable deduction on Form 8960 line 9b, to the extent deductible under 164 (here after the 164(b)(6) cap). Run took no 9b allocation -> NIIT $2,070 = key; permissible but leaves ~$22 on the table."
+    },
+    {
+      "text": "[swx EVG1022-SX1] MA workday allocation row added: MA wages $44,727",
+      "passed": false,
+      "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+    },
+    {
+      "text": "[swx EVG1022-SX2] Do NOT generate NJ/IL returns (reciprocity / IL 30-day)",
+      "passed": false,
+      "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+    },
+    {
+      "text": "[swx EVG1022-SX3] PA G-L credit limited: $1,373",
+      "passed": false,
+      "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+    },
+    {
+      "text": "[swx EVG1022-SX4] 1099-R NUA input: box 2a $96,000, box 6 $544,000, code 2; PA non-taxable",
+      "passed": false,
+      "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+    },
+    {
+      "text": "[swx EVG1022-SX5] 8949 IVV code W +$18,000, no basis increase",
+      "passed": false,
+      "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+    },
+    {
+      "text": "[swx EVG1022-SX6] Bond premium boxes 11/13 and accrued-interest line (net $3,768)",
+      "passed": false,
+      "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+    },
+    {
+      "text": "[swx EVG1022-SX7] New-client carryover keyed ST $26,000 / LT $12,000",
+      "passed": false,
+      "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+    },
+    {
+      "text": "[swx EVG1022-SX8] Form 2210 for new client - prior-year tax/AGI must be keyed; no penalty",
+      "passed": false,
+      "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+    },
+    {
+      "text": "[swx EVG1022-SX9] PA classes: box 16 comp, no carryover, no wash-sale rule, 1099-R non-PA ($47,000 gains)",
+      "passed": false,
+      "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+    },
+    {
+      "text": "[filing] Form 4868 extension (accepted 04/15/2026, $3,000) recognised",
+      "passed": true,
+      "evidence": "filing_package federal notes: 4868 accepted, $3,000"
+    },
+    {
+      "text": "[filing] Form 1040 MFJ listed (e-file, due 10/15/2026)",
+      "passed": true,
+      "evidence": "04_file/filing_package.json"
+    },
+    {
+      "text": "[filing] PA-40 listed (e-file, due 10/15/2026)",
+      "passed": true,
+      "evidence": "filing_package.json states PA-40 e-file"
+    },
+    {
+      "text": "[filing] MA Form 1-NR/PY listed (e-file, due 10/15/2026)",
+      "passed": true,
+      "evidence": "filing_package.json MA 1-NR/PY e-file"
+    },
+    {
+      "text": "[filing] No required filing missing and no unnecessary return filed",
+      "passed": false,
+      "evidence": "Unnecessary IL-1040 nonresident return listed (13 days <= 30-day rule)"
+    },
+    {
+      "text": "[state] PA-40 refund ~$86 and MA 1-NR/PY refund ~$109 per key",
+      "passed": false,
+      "evidence": "PA 'small refund (~$1,000)', MA 'tax ~2,200' - estimates only; PA tax understated ~$2.3k"
+    },
+    {
+      "text": "[open items] Intake/prep identified real open items/conflicts and did not invent facts",
+      "passed": true,
+      "evidence": "notes.md open items: retirement criteria, PA wash sale, severance sourcing, PSD code; duplicate calendar recognised"
+    },
+    {
+      "text": "[line accuracy] 28/30 key 1040 lines within $2",
+      "passed": false,
+      "evidence": "score.json (rescored after answer-key correction: Form 8960 line 9b allocation)"
+    },
+    {
+      "text": "[bottom line] refund/due within $5 (expected 717, got 695)",
+      "passed": false,
+      "evidence": "score.json (rescored after answer-key correction)"
+    }
+  ],
+  "summary": {
+    "passed": 12,
+    "failed": 16,
+    "total": 28,
+    "pass_rate": 0.429
+  },
+  "by_category": {
+    "gotcha": [
+      6,
+      9
+    ],
+    "other": [
+      1,
+      1
+    ],
+    "swx": [
+      0,
+      9
+    ],
+    "filing": [
+      4,
+      5
+    ],
+    "state": [
+      0,
+      1
+    ],
+    "open": [
+      1,
+      1
+    ],
+    "lines": [
+      2,
+      2
+    ]
+  },
+  "weaknesses": [
+    "Did not know/apply the Illinois 30-working-day nonresident employee exclusion; allocated wages by days to every state with no threshold check -> unnecessary IL return and an overstated PA credit.",
+    "State returns left as rough estimates ('47,000 or 65,000', PA tax 'about 15,500') rather than finished computations; no software-exception log.",
+    "No Form 8960 line 9b allocation considered (minor, ~$22)."
+  ],
+  "eval_feedback": {
+    "overall": "Same NIIT key issue as the with_skill run: the key's $2,070 ignores the allowable line 9b state-tax allocation; this run matches the key only because it also omitted the deduction."
+  }
+}

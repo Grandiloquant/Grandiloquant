@@ -1,0 +1,120 @@
+{
+  "expectations": [
+    {
+      "text": "[gotcha EVG1001-G1] Tanya's duplicate W-2 (phone photo) excluded; line 1a = 105,478, withholding 6,770",
+      "passed": true,
+      "evidence": "run/notes.md 'Wages': photo matches every box incl. control BSD-22-014, entered once; 1z = 105,478 (score.json)."
+    },
+    {
+      "text": "[gotcha EVG1001-G2] Ally Bank interest ($1,246) included on line 2b despite blank organizer line",
+      "passed": true,
+      "evidence": "notes.md 'Interest': Chase 38.42 + Ally 1,246.19 = 1,284.61; Ally missing from original batch, flagged from PY; 2b = 1,285."
+    },
+    {
+      "text": "[gotcha EVG1001-G3] Newborn Noah (born 12/18/2025) added as qualifying child; CTC 6,600",
+      "passed": true,
+      "evidence": "notes.md 'Filing status / dependents': Noah born 12/18/2025, Reg. 1.152-4(c), SSN; CTC 3 x 2,200 = 6,600."
+    },
+    {
+      "text": "[gotcha EVG1001-G4] Overtime deduction uses FLSA premium only ($3,150), not box 14 total $9,450",
+      "passed": true,
+      "evidence": "notes.md 'Schedule 1-A': 9,450/1.5 x 0.5 = 3,150, with employer-confirmation open item."
+    },
+    {
+      "text": "[gotcha EVG1001-G5] Car-loan interest: F-150 $2,452 deducted, used CR-V loan excluded",
+      "passed": true,
+      "evidence": "notes.md: F-150 2,452.18 deducted with VIN; CR-V pre-owned and 2024 loan fails both tests - excluded."
+    },
+    {
+      "text": "[gotcha EVG1001-G6] Form 2441: $5,000 FSA excluded first, overnight camp excluded; credit $200",
+      "passed": true,
+      "evidence": "notes.md 'Dependent care': overnight camp excluded, qualified 6,800; (6,000 - 5,000 FSA) x 20% = 200."
+    },
+    {
+      "text": "[gotcha EVG1001-G7] HSA code W: no additional Schedule 1 HSA deduction; Form 8889 still filed",
+      "passed": true,
+      "evidence": "notes.md 'HSA': code W 3,000 via payroll, no additional deduction; 1099-SA nontaxable; Form 8889 must still be filed (listed in filing package)."
+    },
+    {
+      "text": "[gotcha EVG1001-G8] Roth 401(k) code AA not subtracted from wages",
+      "passed": true,
+      "evidence": "notes.md 'HSA' section last bullet: AA 2,600 Roth 401(k) informational; no wage adjustment; 1z = 105,478."
+    },
+    {
+      "text": "[swx EVG1001-SX1] Duplicate W-2 picked up by Scan/AutoFlow identified; one Brightsmile W-2 record (line 1a 105,478)",
+      "passed": false,
+      "evidence": "No software_exceptions log produced (baseline). Duplicate W-2 is handled as a tax fact in notes.md but no software override/input location is documented."
+    },
+    {
+      "text": "[swx EVG1001-SX2] Sch 1-A overtime input overridden to premium $3,150 (software cannot split total OT)",
+      "passed": false,
+      "evidence": "No software_exceptions log produced. notes.md documents the 3,150 computation but not the software input/override."
+    },
+    {
+      "text": "[swx EVG1001-SX3] Sch 1-A car-loan interest input limited to F-150 $2,452 with VIN",
+      "passed": false,
+      "evidence": "No software_exceptions log produced. notes.md documents the 2,452 treatment but not the software input."
+    },
+    {
+      "text": "[filing] Federal Form 1040 MFJ listed with correct method (e-file); no TX state/local return",
+      "passed": true,
+      "evidence": "04_file/filing_package.json: Federal 1040 MFJ e-file, due 04/15/2026 (extended 10/15/2026); TX and local listed as none."
+    },
+    {
+      "text": "[filing] No required filing missing and no unnecessary return filed",
+      "passed": true,
+      "evidence": "filing_package.json: only federal return; correct attached forms (Sch 1-A, 8812, Sch 3, 2441, 8889); no unnecessary filings."
+    },
+    {
+      "text": "[open items] Intake/prep identified the open items and organizer conflicts a careful preparer would, without inventing facts",
+      "passed": true,
+      "evidence": "notes.md and filing_package open_items: OT basis, HSA distribution, F-150 personal use, childcare 9,600 vs 8,200 conflict, extension status; newborn vs organizer and Ally organizer gap identified. No invented facts."
+    },
+    {
+      "text": "[line accuracy] 30/30 key 1040 lines within $2",
+      "passed": true,
+      "evidence": "score.json final 30/30"
+    },
+    {
+      "text": "[bottom line] refund/due within $5 (expected 5,686, got 5,686)",
+      "passed": true,
+      "evidence": "score.json bottom_line_got 5,686, error 0"
+    }
+  ],
+  "summary": {
+    "passed": 13,
+    "failed": 3,
+    "total": 16,
+    "pass_rate": 0.812
+  },
+  "by_category": {
+    "gotcha": [
+      8,
+      8
+    ],
+    "swx": [
+      0,
+      3
+    ],
+    "filing": [
+      2,
+      2
+    ],
+    "open_items": [
+      1,
+      1
+    ],
+    "lines": [
+      2,
+      2
+    ]
+  },
+  "weaknesses": [
+    "No software-exception log: the baseline reasons correctly about the tax but never translates judgments into software inputs/overrides, which is the artifact the reviewer/signer needs in Axcess/ProConnect.",
+    "No staged intake/prepare/review artifacts (stages_completed shows only final/file) - no reviewer pass or open-items email to the client.",
+    "Filing timing keyed off the environment date (10/12/2026), raising a spurious extension question."
+  ],
+  "eval_feedback": {
+    "overall": "Same notes as with_skill: environment date makes timing items spurious. Baseline was not asked for a software-exception log, so the 3 swx failures reflect scope, not tax error."
+  }
+}

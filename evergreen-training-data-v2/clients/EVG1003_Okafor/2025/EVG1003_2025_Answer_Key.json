@@ -18,21 +18,21 @@
     "5b": 0,
     "6b": 0,
     "7": 0,
-    "8": 16647,
-    "9": 62647,
-    "10": 1176,
-    "11": 61471,
+    "8": 16911,
+    "9": 62911,
+    "10": 1195,
+    "11": 61716,
     "12e": 15750,
-    "13a": 3094,
+    "13a": 3143,
     "13b": 25000,
-    "15": 17627,
-    "16": 1877,
+    "15": 17823,
+    "16": 1901,
     "17": 0,
     "19": 0,
     "20": 0,
-    "22": 1877,
-    "23": 2474,
-    "24": 4351,
+    "22": 1901,
+    "23": 2511,
+    "24": 4412,
     "25d": 3150,
     "26": 1000,
     "27a": 0,
@@ -42,11 +42,11 @@
     "33": 4150,
     "34": 0,
     "35a": 0,
-    "37": 201
+    "37": 262
   },
   "deduction_type": "Standard",
   "refund": 0,
-  "balance_due": 201,
+  "balance_due": 262,
   "carryforwards_to_2026": {},
   "federal_forms": {
     "Form 1040": [
@@ -138,22 +138,22 @@
       {
         "line": "8",
         "description": "Additional income from Schedule 1, line 10",
-        "amount": 16647
+        "amount": 16911
       },
       {
         "line": "9",
         "description": "Total income",
-        "amount": 62647
+        "amount": 62911
       },
       {
         "line": "10",
         "description": "Adjustments to income from Schedule 1, line 26",
-        "amount": 1176
+        "amount": 1195
       },
       {
         "line": "11",
         "description": "Adjusted gross income",
-        "amount": 61471
+        "amount": 61716
       },
       {
         "line": "12e",
@@ -163,7 +163,7 @@
       {
         "line": "13a",
         "description": "Qualified business income deduction (Form 8995/8995-A)",
-        "amount": 3094
+        "amount": 3143
       },
       {
         "line": "13b",
@@ -173,17 +173,17 @@
       {
         "line": "14",
         "description": "Add lines 12e, 13a, and 13b",
-        "amount": 43844
+        "amount": 43893
       },
       {
         "line": "15",
         "description": "Taxable income",
-        "amount": 17627
+        "amount": 17823
       },
       {
         "line": "16",
         "description": "Tax",
-        "amount": 1877
+        "amount": 1901
       },
       {
         "line": "17",
@@ -193,7 +193,7 @@
       {
         "line": "18",
         "description": "Add lines 16 and 17",
-        "amount": 1877
+        "amount": 1901
       },
       {
         "line": "19",
@@ -213,17 +213,17 @@
       {
         "line": "22",
         "description": "Subtract line 21 from line 18",
-        "amount": 1877
+        "amount": 1901
       },
       {
         "line": "23",
         "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
-        "amount": 2474
+        "amount": 2511
       },
       {
         "line": "24",
         "description": "Total tax",
-        "amount": 4351
+        "amount": 4412
       },
       {
         "line": "25a",
@@ -293,7 +293,7 @@
       {
         "line": "37",
         "description": "Amount you owe",
-        "amount": 201
+        "amount": 262
       },
       {
         "line": "38",
@@ -305,29 +305,29 @@
       {
         "line": "3",
         "description": "Business income or (loss) - Schedule C",
-        "amount": 16647
+        "amount": 16911
       },
       {
         "line": "10",
         "description": "Additional income (to Form 1040, line 8)",
-        "amount": 16647
+        "amount": 16911
       },
       {
         "line": "15",
         "description": "Deductible part of self-employment tax (Schedule SE)",
-        "amount": 1176
+        "amount": 1195
       },
       {
         "line": "26",
         "description": "Total adjustments to income (to Form 1040, line 10)",
-        "amount": 1176
+        "amount": 1195
       }
     ],
     "Schedule 1-A": [
       {
         "line": "Part I",
         "description": "Modified AGI",
-        "amount": 61471
+        "amount": 61716
       },
       {
         "line": "Part II",
@@ -343,32 +343,32 @@
     "Form 8995": [
       {
         "line": "Uber rideshare (Sch C)",
-        "description": "QBI 15,471; component (below threshold: 20% x QBI)",
-        "amount": 3094
+        "description": "QBI 15,716; component (below threshold: 20% x QBI)",
+        "amount": 3143
       },
       {
         "line": "limit",
-        "description": "20% x (taxable income before QBI 20,721 - net capital gain & qualified dividends 0)",
-        "amount": 4144
+        "description": "20% x (taxable income before QBI 20,966 - net capital gain & qualified dividends 0)",
+        "amount": 4193
       },
       {
         "line": "deduction",
         "description": "Qualified business income deduction",
-        "amount": 3094
+        "amount": 3143
       }
     ],
     "Schedule SE": [
       {
         "line": "T",
-        "description": "Net earnings 15,374; SS 1,906; Medicare 446; half deductible 1,176",
-        "amount": 2352
+        "description": "Net earnings 15,617; SS 1,937; Medicare 453; half deductible 1,195",
+        "amount": 2389
       }
     ],
     "Schedule 2": [
       {
         "line": "4",
         "description": "Self-employment tax (Schedule SE)",
-        "amount": 2352
+        "amount": 2389
       },
       {
         "line": "5",
@@ -378,7 +378,7 @@
       {
         "line": "21",
         "description": "Total other taxes (to Form 1040, line 23)",
-        "amount": 2474
+        "amount": 2511
       }
     ]
   },
@@ -472,7 +472,7 @@
       "procedure_section": "Return - Schedule SE / QBI",
       "title": "SE tax and QBI on rideshare profit",
       "trap": "Skip SE tax because the W-2 already has FICA, or compute QBI on net profit without the 1/2 SE tax reduction.",
-      "correct_treatment": "SE tax on $16,647 x 92.35% = $2,352 (SS base not reached); QBI = net - 1/2 SE = $15,471 -> $3,094 deduction.",
+      "correct_treatment": "SE tax on $16,911 x 92.35% = $2,389 (SS base not reached); QBI = net - 1/2 SE = $15,716 -> $3,143 deduction.",
       "impact": "Schedule 2 line 4 / line 13a",
       "affected_lines": [
         "23",
@@ -486,7 +486,7 @@
       "procedure_section": "Return - Form 2210 (estimated tax)",
       "title": "Only 2 of 4 estimated payments made",
       "trap": "Compute an underpayment penalty for the missed September and January installments, or skip the 2210 analysis.",
-      "correct_treatment": "Required annual payment = smaller of 90% of 2025 tax ($3,916) or 100% of 2024 tax ($3,159) = $3,159. Withholding is treated as paid evenly; with the April and June $500 payments every cumulative installment is covered -> no penalty, Form 2210 not required.",
+      "correct_treatment": "Required annual payment = smaller of 90% of 2025 tax ($3,971) or 100% of 2024 tax ($3,159) = $3,159. Withholding is treated as paid evenly; with the April and June $500 payments every cumulative installment is covered -> no penalty, Form 2210 not required.",
       "impact": "Line 38 $0",
       "affected_lines": [
         "38"
@@ -498,7 +498,7 @@
   "form_2210": {
     "required_annual_payment": 3159,
     "penalty": 0,
-    "tax_after_withholding": 1201
+    "tax_after_withholding": 1262
   },
   "software_exceptions": [
     {
@@ -559,7 +559,7 @@
       "axcess_default_behavior": "The first draft deducted W-2 box 7 only ($24,600). Axcess cannot identify the rider tips buried inside the Uber 1099-K gross, and it does not know whether the Form 4137 tips are qualified - they must be entered as qualified tips.",
       "axcess_diagnostic": "None - silent",
       "manual_calc_required": "Yes",
-      "axcess_override": "Schedule 1-A qualified tips inputs (W-2 and Schedule C activity - verify field paths in current release): W-2 social-security tips $24,600 + Form 4137 tips $1,600 + rideshare rider tips $2,860 (limited to Schedule C net $16,647 - not limiting) = $29,060; deduction capped at $25,000. Occupation: bartender / rideshare driver (both on Treasury's list). MAGI $61,471 < $150,000.",
+      "axcess_override": "Schedule 1-A qualified tips inputs (W-2 and Schedule C activity - verify field paths in current release): W-2 social-security tips $24,600 + Form 4137 tips $1,600 + rideshare rider tips $2,860 (limited to Schedule C net $16,911 - not limiting) = $29,060; deduction capped at $25,000. Occupation: bartender / rideshare driver (both on Treasury's list). MAGI $61,716 < $150,000.",
       "override_amount": 25000,
       "proconnect_default_behavior": "Same - computed from the qualified tip amounts entered on each source screen.",
       "proconnect_fix": "Enter qualified tips on the W-2 / Form 4137 and Schedule C (rideshare) Schedule 1-A inputs; confirm line 13b $25,000 (screen/field per current release - verify).",

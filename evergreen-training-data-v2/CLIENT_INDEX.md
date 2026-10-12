@@ -6,7 +6,7 @@
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---|
 | EVG1001 | Marcus & Tanya Bell | MFJ | TX (no state return) | 106,763 | 69,661 | 1,084 | 5,686 | 0 | 8 | [`clients/EVG1001_Bell`](clients/EVG1001_Bell) |
 | EVG1002 | Priya Raman | HOH | IL - Naperville (full-year) | 36,463 | 12,838 | 0 | 5,141 | 0 | 8 | [`clients/EVG1002_Raman`](clients/EVG1002_Raman) |
-| EVG1003 | Daniel Okafor | S | NV - Las Vegas (no state return) | 61,471 | 17,627 | 4,351 | 0 | 201 | 8 | [`clients/EVG1003_Okafor`](clients/EVG1003_Okafor) |
+| EVG1003 | Daniel Okafor | S | NV - Las Vegas (no state return) | 61,716 | 17,823 | 4,412 | 0 | 262 | 8 | [`clients/EVG1003_Okafor`](clients/EVG1003_Okafor) |
 | EVG1004 | Robert & Linda Castellano | MFJ | FL - Sarasota (no state return) | 115,565 | 76,465 | 6,789 | 5,021 | 0 | 9 | [`clients/EVG1004_Castellano`](clients/EVG1004_Castellano) |
 | EVG1005 | Jennifer Walsh | S | MI - Detroit (01/01-06/30) -> Royal Oak (07/01-12/31) | 205,555 | 189,805 | 38,610 | 3,850 | 0 | 9 | [`clients/EVG1005_Walsh`](clients/EVG1005_Walsh) |
 | EVG1006 | Carlos & Maria Mendoza | MFJ | TX (no state return) | 91,743 | 48,194 | 12,276 | 604 | 0 | 9 | [`clients/EVG1006_Mendoza`](clients/EVG1006_Mendoza) |
@@ -25,7 +25,7 @@
 | EVG1019 | Owen & Chloe Fitzgerald | MFJ | NC (Raleigh) | 240,012 | 173,434 | 28,020 | 7,780 | 0 | 9 | [`clients/EVG1019_Fitzgerald`](clients/EVG1019_Fitzgerald) |
 | EVG1020 | Ashley Turner | S | TN (no state income tax); NC nonresident return | 89,104 | 65,112 | 9,242 | 1,178 | 0 | 8 | [`clients/EVG1020_Turner`](clients/EVG1020_Turner) |
 | EVG1021 | Ethan S. Kim | S | WA (no state income tax return) | 9,600 | 5,950 | 642 | 0 | 642 | 6 | [`clients/EVG1021_Kim-Ethan`](clients/EVG1021_Kim-Ethan) |
-| EVG1022 | Gregory & Ellen Whitfield | MFJ | PA (West Chester) resident; MA nonresident | 622,485 | 586,245 | 140,074 | 695 | 0 | 9 | [`clients/EVG1022_Whitfield`](clients/EVG1022_Whitfield) |
+| EVG1022 | Gregory & Ellen Whitfield | MFJ | PA (West Chester) resident; MA nonresident | 622,485 | 586,245 | 140,052 | 717 | 0 | 9 | [`clients/EVG1022_Whitfield`](clients/EVG1022_Whitfield) |
 | EVG1023 | Raymond & Carla Delgado | MFJ | NC (Charlotte) | 423,527 | 367,732 | 78,364 | 636 | 0 | 9 | [`clients/EVG1023_Delgado`](clients/EVG1023_Delgado) |
 | EVG1024 | Margaret "Peggy" Abernathy | S | FL - Naples (no state income tax) | 222,041 | 139,926 | 23,736 | 964 | 0 | 9 | [`clients/EVG1024_Abernathy`](clients/EVG1024_Abernathy) |
 | EVG1025 | Victor & Lena Brennan-Ochoa | MFJ | TX - Houston (no state income tax) | 608,850 | 577,350 | 102,877 | 0 | 2,277 | 9 | [`clients/EVG1025_Brennan-Ochoa`](clients/EVG1025_Brennan-Ochoa) |

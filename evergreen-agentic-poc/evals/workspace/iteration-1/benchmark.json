@@ -1,0 +1,1464 @@
+{
+  "metadata": {
+    "skill_name": "evergreen-pipeline",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-10-12T16:23:18Z",
+    "evals_run": [
+      "EVG1001",
+      "EVG1003",
+      "EVG1008",
+      "EVG1013",
+      "EVG1016",
+      "EVG1022"
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": "EVG1001",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 16,
+        "failed": 0,
+        "total": 16,
+        "time_seconds": 262.5,
+        "tokens": 124341,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1001-G1] Tanya's duplicate W-2 (phone photo) excluded; line 1a = 105,478, withholding 6,770",
+          "passed": true,
+          "evidence": "run/02_prepare/prep_notes.md item 2: PBC/04 photo = duplicate (same EIN, control BSD-22-014); final/return.json 1z = 105,478, 25d = 6,770 (score.json)."
+        },
+        {
+          "text": "[gotcha EVG1001-G2] Ally Bank interest ($1,246) included on line 2b despite blank organizer line",
+          "passed": true,
+          "evidence": "prep_notes item 3: Chase 38.42 + Ally 1,246.19 = 1,284.61, organizer blank but recurring per PY; line 2b = 1,285. Intake memo item 6 notes organizer omission."
+        },
+        {
+          "text": "[gotcha EVG1001-G3] Newborn Noah (born 12/18/2025) added as qualifying child; CTC 6,600",
+          "passed": true,
+          "evidence": "prep_notes item 1: Noah born 12/18/2025 per PBC/11 email, organizer overridden, Pub 501 born-in-year rule; line 19 = 6,600."
+        },
+        {
+          "text": "[gotcha EVG1001-G4] Overtime deduction uses FLSA premium only ($3,150), not box 14 total $9,450",
+          "passed": true,
+          "evidence": "prep_notes item 4 / WP-3: 9,450 treated as total OT at 1.5x -> 9,450/3 = 3,150; open item to confirm with employer. Line 13b = 5,602."
+        },
+        {
+          "text": "[gotcha EVG1001-G5] Car-loan interest: F-150 $2,452 deducted, used CR-V loan excluded",
+          "passed": true,
+          "evidence": "prep_notes item 5: F-150 new, 03/08/2025 loan, Dearborn assembly, VIN -> 2,452.18; CR-V used/2024 loan 1,104.77 excluded."
+        },
+        {
+          "text": "[gotcha EVG1001-G6] Form 2441: $5,000 FSA excluded first, overnight camp excluded; credit $200",
+          "passed": true,
+          "evidence": "prep_notes item 6: qualified 6,800 (overnight 1,400 excluded, Pub 503); FSA 5,000 excluded; (6,000-5,000) x 20% = 200; line 20 = 200. Also caught statement total arithmetic error."
+        },
+        {
+          "text": "[gotcha EVG1001-G7] HSA code W: no additional Schedule 1 HSA deduction; Form 8889 still filed",
+          "passed": true,
+          "evidence": "prep_notes item 7: code W 3,000 within limit, no extra deduction; 1,150 1099-SA nontaxable; Form 8889 in filing_package forms list; line 10 = 0."
+        },
+        {
+          "text": "[gotcha EVG1001-G8] Roth 401(k) code AA not subtracted from wages",
+          "passed": true,
+          "evidence": "prep_notes item 2: box 12 D, W, AA, DD 'already reflected in box 1/informational'; 1z = 105,478."
+        },
+        {
+          "text": "[swx EVG1001-SX1] Duplicate W-2 picked up by Scan/AutoFlow identified; one Brightsmile W-2 record (line 1a 105,478)",
+          "passed": true,
+          "evidence": "02_prepare/software_exceptions.md row 1: duplicate W-2 photo, silent, delete/skip second W-2 entry in Income > Wages; amount stated as the 47,000 / 2,810 overstatement (equivalent to line 1a 105,478)."
+        },
+        {
+          "text": "[swx EVG1001-SX2] Sch 1-A overtime input overridden to premium $3,150 (software cannot split total OT)",
+          "passed": true,
+          "evidence": "software_exceptions.md row 2: box 14 total OT, silent, enter 3,150 in Sch 1-A overtime input for Axcess and ProConnect."
+        },
+        {
+          "text": "[swx EVG1001-SX3] Sch 1-A car-loan interest input limited to F-150 $2,452 with VIN",
+          "passed": true,
+          "evidence": "software_exceptions.md row 3: F-150 only 2,452.18 with VIN; CR-V 1,104.77 not entered."
+        },
+        {
+          "text": "[filing] Federal Form 1040 MFJ listed with correct method (e-file); no TX state/local return",
+          "passed": true,
+          "evidence": "04_file/filing_package.json: federal 1040 MFJ e-file; states [] with TX and local listed under not_required. Due shown as 10/15/2026 'if extended' because environment date is 10/12/2026 - see eval_feedback."
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "filing_package.json: only federal 1040; no state/local/FBAR/separate filings; forms list (Sch 1-A, 8812, 2441, 8889) complete."
+        },
+        {
+          "text": "[open items] Intake/prep identified the open items and organizer conflicts a careful preparer would, without inventing facts",
+          "passed": true,
+          "evidence": "01_intake/intake_memo.md + open_items_email.md: newborn vs organizer, Ally organizer blank vs PY, duplicate W-2, OT basis, HSA distribution use, childcare total conflict (5,400 vs 8,200 vs 9,600), F-150 personal use. All assumptions labelled; no invented facts."
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": true,
+          "evidence": "score.json final 30/30, line_accuracy 1.0"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 5,686, got 5,686)",
+          "passed": true,
+          "evidence": "score.json bottom_line_got 5,686, error 0"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1003",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.875,
+        "passed": 14,
+        "failed": 2,
+        "total": 16,
+        "time_seconds": 323.7,
+        "tokens": 132596,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1003-G1] Form 4137 / line 1c uses actual diary tips $1,600, not W-2 box 8 allocated $2,900",
+          "passed": true,
+          "evidence": "run/02_prepare/prep_notes.md item 3: diary is adequate record (PBC/06, client confirms PBC/12), diary 'told' column ties to box 7 24,600; 4137 on 1,600. Line 1z = 46,000 (score.json match)."
+        },
+        {
+          "text": "[gotcha EVG1003-G2] Form 4137 SS/Medicare $122 on Schedule 2 line 5 (no SE tax on tips)",
+          "passed": true,
+          "evidence": "prep_notes item 3 / run_summary: 4137 tax 122.40; total tax lists Form 4137 122 separately from SE 2,360."
+        },
+        {
+          "text": "[gotcha EVG1003-G3] Commuting miles (4,180) excluded; business miles 15,145 x $0.70 + tolls",
+          "passed": true,
+          "evidence": "prep_notes item 6: 4,180 'casino' miles = commuting (PBC/12 confirms) excluded; 15,145 x 0.70 = 10,601.50 + tolls 340."
+        },
+        {
+          "text": "[gotcha EVG1003-G4] Sch C gross = 1099-K $38,720 + 1099-NEC $1,150 = $39,870, Uber fees $11,140 deducted, duplicate 1099-K excluded",
+          "passed": true,
+          "evidence": "prep_notes item 5: gross 39,870 (1099-K 38,720 + NEC 1,150), PBC/11 duplicate excluded, fees 11,140 deducted, ties to deposits 28,730."
+        },
+        {
+          "text": "[gotcha EVG1003-G5] Sch 1-A qualified tips (box 7 + 4137 + rider tips) capped at $25,000; allocated tips not qualified",
+          "passed": true,
+          "evidence": "prep_notes item 9: 24,600 + 1,600 + 2,860 = 29,060 capped at 25,000; listed occupations; MAGI under phase-out; box 8 not used. Line 13b = 25,000."
+        },
+        {
+          "text": "[gotcha EVG1003-G6] No actual car operating costs (gas, insurance, maintenance) on top of standard mileage",
+          "passed": true,
+          "evidence": "prep_notes item 6 / 'Items excluded': gas 3,900, insurance 2,280, maintenance 310 not deducted. Note: the $380 'car washes / water & mints' was deducted in full pending a client split even though the reviewer (review_points #1) says car washes are covered by the standard rate - this matches the key but is legally weak; flagged as an open item, so pass with reservation."
+        },
+        {
+          "text": "[gotcha EVG1003-G7] SE tax computed on Sch C net; QBI = net - 1/2 SE tax, x 20%",
+          "passed": true,
+          "evidence": "prep_notes item 8: SE tax 2,360 on net 16,701.50; QBI (16,702 - 1,180) x 20% = 3,104. Method correct; differences vs key (2,352 / 3,094) flow entirely from the dash-cam allocation."
+        },
+        {
+          "text": "[gotcha EVG1003-G8] Form 2210: 100% PY tax ($3,159) safe harbor met with withholding + 2 estimates - no penalty",
+          "passed": true,
+          "evidence": "prep_notes item 10: estimates 500 + 500 (459 = PY balance excluded); 100% PY 3,159 safe harbor met each quarter with withholding paid evenly - no penalty; filing_package not_required lists Form 2210."
+        },
+        {
+          "text": "[swx EVG1003-SX1] Box 8 allocated tips flowing to Form 4137 overridden to actual $1,600",
+          "passed": true,
+          "evidence": "02_prepare/software_exceptions.md row 1: box 8 flows to 4137 by default, silent; enter box 8 for matching and override 4137 to diary 1,600."
+        },
+        {
+          "text": "[swx EVG1003-SX2] Duplicate Uber 1099-K removed; Sch C gross receipts $39,870",
+          "passed": true,
+          "evidence": "software_exceptions.md row 2: duplicate 1099-K scanned twice, silent, delete second input (38,720 phantom); gross 39,870 per prep_notes item 5."
+        },
+        {
+          "text": "[swx EVG1003-SX3] Sch 1-A qualified tips inputs (W-2 + 4137 + rideshare) entered; deduction $25,000",
+          "passed": true,
+          "evidence": "software_exceptions.md row 4: Sch 1-A tips inputs 24,600 + 1,600 + 2,860, occupation codes, 25,000 cap."
+        },
+        {
+          "text": "[filing] Federal Form 1040 Single listed with correct method (e-file); no NV state/local return",
+          "passed": true,
+          "evidence": "04_file/filing_package.json: federal 1040 e-file, due 04/15/2026, balance due 215 with EFW/Direct Pay; NV and local in not_required."
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "filing_package.json: correct attachments (Sch 1, 1-A, 2, C, SE, 4137, 8995); Form 2210 correctly not filed; 2026 estimates provided; nothing unnecessary."
+        },
+        {
+          "text": "[open items] Intake/prep identified the open items and organizer conflicts a careful preparer would, without inventing facts",
+          "passed": true,
+          "evidence": "intake/prep: duplicate 1099-K, organizer net-vs-gross Uber, commuting in log, organizer actual car costs, 459 PY payment vs estimates, car-wash/supplies split, phone % basis, dash cam receipt. No invented facts."
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": false,
+          "evidence": "score.json final 21/30 - all 9 misses (lines 8, 9, 10, 11, 13a, 15, 16, 23, 24) flow from dash cam allocated 95 (63.8% business use) vs key 149. See eval_feedback: the run's treatment is defensible."
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected -201, got -215)",
+          "passed": false,
+          "evidence": "score.json bottom_line_error -14; entire difference is the 54 dash-cam allocation."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1008",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.947,
+        "passed": 18,
+        "failed": 1,
+        "total": 19,
+        "time_seconds": 433.9,
+        "tokens": 154788,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1008-G1] Duplex 1098 (box 8 rental address) interest $9,860 / escrow taxes $5,420 on Sch E, not Sch A; standard deduction",
+          "passed": true,
+          "evidence": "prep_notes item 4 ('rental-address 1098 (not Sch A)'); workpapers Sch E lines 12/16; final/return.json 12e = 31,500; itemized comparison 26,649 < 31,500 (key 26,545 - immaterial)."
+        },
+        {
+          "text": "[gotcha EVG1008-G2] Roof $14,000 capitalized 27.5-yr ($276); water heater de minimis with election; window repair",
+          "passed": true,
+          "evidence": "prep_notes item 4; workpapers line 29; SE-5/SE-8; filing_package attachments include the 1.263(a)-1(f) election statement; roof treatment re-checked in review (Items reviewed with no exception)."
+        },
+        {
+          "text": "[gotcha EVG1008-G3] Cabin sec. 280A residence: 21 personal days incl. brother's free stay, repair weekend excluded, 62/83 allocation, net $0, carryforward",
+          "passed": true,
+          "evidence": "prep_notes item 5; workpapers WP-4 (Worksheet 5-1 ordering, Bolton tested and rejected); review point 3. Net $0 matches key. Carryforward $2,224 (depreciation only) vs key operating $260 + depreciation $4,244 because the run (a) used 39-yr transient-use life and (b) excluded Jan-Apr pre-rental operating costs - both documented and defensible (reviewer point 3 computes the 27.5-yr alternative $4,245); no 2025 tax effect."
+        },
+        {
+          "text": "[gotcha EVG1008-G4] PY $6,200 suspended loss pulled from PERM; allowance phased out; $9,407 to 2026",
+          "passed": true,
+          "evidence": "prep_notes item 4 and Carryforwards; SE-6; review 'passive allowance phase-out and 6,200 carryover in'."
+        },
+        {
+          "text": "[gotcha EVG1008-G5] AOTC $1,040 ($416 refundable) after scholarship and phase-out; Emma ODC $500, Connor CTC $2,200",
+          "passed": true,
+          "evidence": "prep_notes items 1 and 7 (base 13,040 incl. $640 books vs key 12,400 - both >= $4,000, same credit); return line 19 = 2,700, 29 = 416 (score.json)."
+        },
+        {
+          "text": "[gotcha EVG1008-G6] Escrow statement used as support only - duplex interest/taxes not doubled",
+          "passed": true,
+          "evidence": "Interest 9,860 entered once (from 1098); escrow statement used for taxes 5,420/insurance 1,640 because 1098 box 10 truncated (workpapers lines 15/18; review tickmark PBC/08). Correct result; the duplicate-import risk itself is not called out explicitly."
+        },
+        {
+          "text": "[gotcha EVG1008-G7] PA-40: compensation from box 16 $189,300, rents-class loss not netted, tax $5,823",
+          "passed": true,
+          "evidence": "final/state_returns.json: comp 189,300 (box 16, deferrals PA-taxable), rents class loss -> 0, tax 5,823.24, due 11.73. Class loss shown as (3,207) vs key (7,711) (key assumes cabin unlimited for PA) - no tax effect, noted."
+        },
+        {
+          "text": "[swx EVG1008-SX1] Duplex 1098 autoflow to Sch A (and escrow summary duplicate) - move $9,860 interest/$5,420 taxes to Sch E",
+          "passed": true,
+          "evidence": "software_exceptions.md SE-7 (assign 1098 to Rent & Royalty property; 9,860). The escrow-summary-imported-as-second-1098 half of the exception is not logged."
+        },
+        {
+          "text": "[swx EVG1008-SX2] Roof coded Repairs -> Form 4562 asset 27.5-yr ($276); de minimis election for water heater",
+          "passed": true,
+          "evidence": "SE-5 (remove from repairs, 27.5 SL MM 06/2025; $276 in narrative) and SE-8 (General > Elections de minimis, $1,900)."
+        },
+        {
+          "text": "[swx EVG1008-SX3] 8582 PY unallowed loss $6,200 input (regular and AMT); $9,407 to 2026",
+          "passed": true,
+          "evidence": "SE-6: property A passive carryover input regular and AMT; narrative 2026 carryover 9,407."
+        },
+        {
+          "text": "[swx EVG1008-SX4] Cabin vacation-home input: 62 rental / 21 personal days; net $0",
+          "passed": true,
+          "evidence": "SE-1 (21 days incl. brother, repair days excluded), SE-2, SE-3 (carryover 2,224 vs key 4,504 - life/pre-rental-cost judgment, documented). Additional SE-4 flags software defaulting a short-term rental to 27.5-yr."
+        },
+        {
+          "text": "[swx EVG1008-SX5] PA compensation must come from W-2 box 16 ($189,300); rents-class loss not netted",
+          "passed": false,
+          "evidence": "Correct in state_returns.json but not logged in software_exceptions.md (no PA/state item in the log) - the silent box-1-vs-box-16 input risk is not documented for the software operator."
+        },
+        {
+          "text": "[filing] Form 1040 listed (e-file)",
+          "passed": true,
+          "evidence": "04_file/filing_package.json federal method e-file."
+        },
+        {
+          "text": "[filing] PA-40 resident listed (e-file)",
+          "passed": true,
+          "evidence": "filing_package states: PA-40 with PA Schedule E, e-file with federal."
+        },
+        {
+          "text": "[filing] Manheim Twp EIT final return noted as filed separately (LCTCB)",
+          "passed": true,
+          "evidence": "filing_package locals: 'filed separately by admin per PERM'."
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "Federal, PA, local only; not_required lists FBAR/8938, 1099-NEC with reasoning; 2024 1040-X left as a signer decision (not filed)."
+        },
+        {
+          "text": "[open items] Intake/prep identified the real open items and conflicts without inventing facts",
+          "passed": true,
+          "evidence": "intake_memo: cabin FMV at conversion, Emma's missing $640 book receipt, possible duplicate $1,900 repair line, charity receipts, extension status unknown; client 'about 18 days' corrected to 21. BONUS: prep_notes assumption 6 / review point 2 flags a 2024 Sch 8812 overclaim (CTC claimed for Emma at 17) and a possible 1040-X (~$1,500) - not in the key."
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": true,
+          "evidence": "score.json final line_accuracy 1.0"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 2,772, got 2,772)",
+          "passed": true,
+          "evidence": "score.json"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1013",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.944,
+        "passed": 17,
+        "failed": 1,
+        "total": 18,
+        "time_seconds": 317.2,
+        "tokens": 131716,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1013-G1] Late 83(b) (postmarked 12/10 vs 12/03 deadline) invalid - no $8,000 2025 income; client advised",
+          "passed": true,
+          "evidence": "prep_notes item 5; intake_memo item 3; SE-5; review point 4; client letter referral to Loomwork counsel. No 1h/8 income (score.json)."
+        },
+        {
+          "text": "[gotcha EVG1013-G2] NSO same-day sale: 8949 box A code B adjustment ($22,000) -> loss ($25)",
+          "passed": true,
+          "evidence": "prep_notes item 3; SE-1; line 7 = (25)."
+        },
+        {
+          "text": "[gotcha EVG1013-G3] E*TRADE supplement not entered as a second sale",
+          "passed": true,
+          "evidence": "review tickmark PBC/05 'used as support - same transactions, not additional'; intake table 'informational'."
+        },
+        {
+          "text": "[gotcha EVG1013-G4] ISO spread $50,000 on Form 6251 -> AMT $4,346; AMT basis $56,000; MTC carryforward $4,346",
+          "passed": true,
+          "evidence": "prep_notes item 4 and Carryforwards; review point 2 (deferral re-derived); line 17 = 4,346."
+        },
+        {
+          "text": "[gotcha EVG1013-G5] HSA: $0 deduction for the $1,000 excess; timely withdrawal -> no 5329; $38 taxable 2026; 8889 filed",
+          "passed": true,
+          "evidence": "prep_notes item 7; SE-4; review point 3; filing_package not_required Form 5329."
+        },
+        {
+          "text": "[gotcha EVG1013-G6] No Form 2210 penalty (100% PY safe harbor); $6,000 extension payment on Sch 3 line 10",
+          "passed": true,
+          "evidence": "prep_notes item 9; filing_package not_required Form 2210; review point 1 asks to confirm $6,000 payment."
+        },
+        {
+          "text": "[gotcha EVG1013-G7] IL base = federal AGI $165,959, exemption $2,850, tax $8,074, refund $76; no Chicago tax",
+          "passed": true,
+          "evidence": "final/state_returns.json."
+        },
+        {
+          "text": "[swx EVG1013-SX1] NSO 1099-B basis: code B adjustment ($22,000); supplement not entered",
+          "passed": true,
+          "evidence": "software_exceptions.md SE-1 (Dispositions, code B, -22,000)."
+        },
+        {
+          "text": "[swx EVG1013-SX2] Form 3921 not imported - enter $50,000 ISO AMT adjustment; MTC $4,346; AMT basis tracking",
+          "passed": true,
+          "evidence": "SE-2 (Form 6251 line 2i / 3921 input, 50,000, AMT 4,346) and SE-3 (MTC and AMT basis carryforward)."
+        },
+        {
+          "text": "[swx EVG1013-SX3] HSA excess withdrawn timely - suppress Form 5329, no deduction for $1,000",
+          "passed": true,
+          "evidence": "SE-4 ($1,000 excess, $60 excise avoided, participant contributions 0)."
+        },
+        {
+          "text": "[swx EVG1013-SX4] Form 2210 needs 2024 tax $23,526 / AGI input so the PY safe harbor applies (penalty $0)",
+          "passed": false,
+          "evidence": "Safe harbor computed correctly in prep_notes item 9, but software_exceptions.md has no 2210 entry - the silent fallback to 90% of current-year tax (draft penalty) is not anticipated."
+        },
+        {
+          "text": "[filing] Form 4868 extension recognised ($6,000 payment credited)",
+          "passed": true,
+          "evidence": "intake_memo; filing_package federal due 'Form 4868 filed 04/13/2026'; Sch 3 line 10 6,000."
+        },
+        {
+          "text": "[filing] Form 1040 listed (e-file, due 10/15/2026)",
+          "passed": true,
+          "evidence": "filing_package federal e-file."
+        },
+        {
+          "text": "[filing] IL-1040 resident listed (e-file)",
+          "passed": true,
+          "evidence": "filing_package states IL-1040 e-file."
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "Chicago, FBAR/8938, 5329, 2210, 8801 (2025) correctly not filed; 15620 not attached."
+        },
+        {
+          "text": "[open items] Intake/prep identified the real open items and conflicts without inventing facts",
+          "passed": true,
+          "evidence": "intake_memo: $6,000 extension payment unconfirmed (receipt log only), organizer interest estimate superseded, 83(b) date conflict; no invented facts."
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": true,
+          "evidence": "score.json final line_accuracy 1.0"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 357, got 357)",
+          "passed": true,
+          "evidence": "score.json"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1016",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.905,
+        "passed": 19,
+        "failed": 2,
+        "total": 21,
+        "time_seconds": 356.6,
+        "tokens": 139867,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1016-G1] HOH (married at 12/31/2025 but considered unmarried), not Single/MFS",
+          "passed": true,
+          "evidence": "final/return.json status HOH, 12e 23,625; prep_notes item 1 (7703(b), Brian out 03/01, 84% cost test)"
+        },
+        {
+          "text": "[gotcha EVG1016-G2] Post-2018 spousal support and child support not reported",
+          "passed": true,
+          "evidence": "line 8 = 0; prep_notes item 5 (TCJA, 2025 instrument)"
+        },
+        {
+          "text": "[gotcha EVG1016-G3] CTC for Nora only ($2,200); Liam still counts for HOH and Form 2441",
+          "passed": true,
+          "evidence": "line 19 2,200, line 20 1,040 (2 qualifying persons); prep_notes item 2 cites 152(e)/Reg 1.21-1(b)(5)"
+        },
+        {
+          "text": "[gotcha EVG1016-G4] QDRO $30,000 on line 5b, Form 5329 exception 04, no 10% tax, $6,000 WH on 25b",
+          "passed": true,
+          "evidence": "5b 30,000, 23 = 0; prep_notes item 4 (72(t)(2)(C))"
+        },
+        {
+          "text": "[gotcha EVG1016-G5] Full $4,860 box 14 premium deducted on Sch 1-A (not 1/3); HOH not barred by joint-return rule",
+          "passed": true,
+          "evidence": "13b 4,860; prep_notes item 7 (employer letter premium-only; HOH not 'married')"
+        },
+        {
+          "text": "[gotcha EVG1016-G6] MI exemptions 2 x $5,800 (Liam follows federal 8332 release)",
+          "passed": true,
+          "evidence": "final/state_returns.json MI exemptions count 2 = 11,600"
+        },
+        {
+          "text": "[gotcha EVG1016-G7] Grand Rapids GR-1040R required; QDRO distribution city-taxable; $451 due 04/30/2026",
+          "passed": true,
+          "evidence": "state_returns.json GR tax 1,762, WH 1,311, due 451. Note: rationale is 'conservative/contribution breakdown unknown' rather than the key's 'code 1 premature distribution is not an exempt pension' - right result, slightly soft reasoning"
+        },
+        {
+          "text": "[gotcha EVG1016-G8] Brian's W-2 not used",
+          "passed": true,
+          "evidence": "line 1z 88,600; prep_notes 'PBC/13 Brian's W-2 - not this client'"
+        },
+        {
+          "text": "[swx EVG1016-SX1] 1099-R code 1 QDRO: line 5 not IRA, Form 5329 exception 04 on $30,000",
+          "passed": true,
+          "evidence": "software_exceptions.md #1: exception code 04, $30,000 / $3,000 avoided (does not explicitly say 'uncheck IRA', but return shows 5b)"
+        },
+        {
+          "text": "[swx EVG1016-SX2] Liam coded as 8332-released: HOH/2441 yes, CTC no ($2,200)",
+          "passed": true,
+          "evidence": "software_exceptions.md #3: code as custodial parent releasing claim, keep 2441, $2,200"
+        },
+        {
+          "text": "[swx EVG1016-SX3] Sch 1-A qualified overtime input = $4,860 (premium already isolated)",
+          "passed": true,
+          "evidence": "software_exceptions.md #5: map box 14 QUAL OT PREM to Sch 1-A input, $4,860 (frames it as a mapping issue, not the divide-by-3 trap, but amount/location right; prep_notes item 7 confirms premium-only)"
+        },
+        {
+          "text": "[swx EVG1016-SX4] MI exemption override to 2 ($11,600) because Liam stays on federal dependent input",
+          "passed": false,
+          "evidence": "Not in software_exceptions.md (rows 1-8 cover 5329, status, Liam CTC, alimony, OT, 1098, Brian W-2, MI OT/GR). Exemption count right in state_returns.json, but the software default (3 exemptions from the dependent screen) is never flagged"
+        },
+        {
+          "text": "[swx EVG1016-SX5] GR-1040R: include the $30,000 code-1 distribution in city income (not exempt pension) -> $1,762",
+          "passed": true,
+          "evidence": "software_exceptions.md #8: 'GR treatment of the QDRO distribution needs manual review in city module', $30,000; state_returns includes it -> 1,762. Thin description of the default behavior"
+        },
+        {
+          "text": "[filing] Federal 1040 HOH listed (e-file)",
+          "passed": true,
+          "evidence": "04_file/filing_package.json federal e-file"
+        },
+        {
+          "text": "[filing] MI-1040 listed (e-file)",
+          "passed": true,
+          "evidence": "filing_package.json states MI-1040 e-file"
+        },
+        {
+          "text": "[filing] Grand Rapids GR-1040R listed, due 04/30/2026, $451",
+          "passed": true,
+          "evidence": "filing_package.json locals: GR-1040R, e-file if supported else paper, due 2026-04-30, 451"
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "Fed + MI + GR only; 8332 correctly not attached; no FBAR/other states"
+        },
+        {
+          "text": "[state] MI-1040 refund $175 (tax $4,550; no 2025 MI overtime subtraction)",
+          "passed": false,
+          "evidence": "state_returns.json applies a $4,860 'MI overtime subtraction' from memory -> tax 4,344, refund 381 (key 175). Flagged 'verify' in prep notes, review point 1 and filing package, but APPLIED and reviewer 'agreed'. Michigan Treasury notice (01/06/2026, 'New deductions for qualified overtime compensation and qualified tips') states 2025 PA 24 makes the overtime/tips deductions available only for TY2026-2028 - NOT for 2025."
+        },
+        {
+          "text": "[open items] Intake/prep identified real open items/conflicts and did not invent facts",
+          "passed": true,
+          "evidence": "intake_memo notes organizer alimony and 'Single' conflicts; open_items_email asks to confirm Brian out after 03/01 and optional plan breakdown; no invented facts"
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": true,
+          "evidence": "score.json final 30/30"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 4,026, got 4,026)",
+          "passed": true,
+          "evidence": "score.json"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1022",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.821,
+        "passed": 23,
+        "failed": 5,
+        "total": 28,
+        "time_seconds": 504.2,
+        "tokens": 167345,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1022-G1] MA Form 1-NR/PY from calendar workdays: MA wages 410,000 x 18/165 = $44,727, tax $2,191",
+          "passed": false,
+          "evidence": "Workday count (112/22/18/13) and MA return are right, but MA wages = W-2 box 16 $441,000 x 18/165 = $48,109 (state_returns.json) -> MA tax $2,368, due $67.52 (key refund $109). Box 16 is the PA wage base and includes the $31,000 401(k) deferral, which MA (like federal) excludes; box 1 is the correct MA base."
+        },
+        {
+          "text": "[gotcha EVG1022-G2] No NJ return (reciprocity) and no IL return (30-working-day rule)",
+          "passed": true,
+          "evidence": "state_returns.json / filing_package not_required: NJ reciprocity, IL 13 <= 30 days (verify)"
+        },
+        {
+          "text": "[gotcha EVG1022-G3] PA Sch G-L credit limited to PA tax on MA income (not full MA tax)",
+          "passed": true,
+          "evidence": "state_returns.json: credit = min(MA tax 2,367.52, 48,109 x 3.07% = 1,476.95). Limitation method correct; amount inherits the G1 wage-base error (key 1,373)."
+        },
+        {
+          "text": "[gotcha EVG1022-G4] NUA: only $96,000 cost basis taxable; $544,000 deferred; rollover nontaxable; no 10% tax",
+          "passed": true,
+          "evidence": "5b 96,000; prep_notes item 5"
+        },
+        {
+          "text": "[gotcha EVG1022-G5] Cross-account wash sale: code W +$18,000, no IRA basis step-up",
+          "passed": true,
+          "evidence": "prep_notes item 6 (Rev. Rul. 2008-5); line 7 27,000"
+        },
+        {
+          "text": "[gotcha EVG1022-G6] Sch B: ABP -786.12 and accrued interest -2,981.94 -> 2b $9,085; 2a $6,396",
+          "passed": true,
+          "evidence": "prep_notes item 3; 2a/2b match"
+        },
+        {
+          "text": "[gotcha EVG1022-G7] Carryover recharacterised ST $26,000 / LT $12,000",
+          "passed": true,
+          "evidence": "prep_notes item 6; software_exceptions #2"
+        },
+        {
+          "text": "[gotcha EVG1022-G8] SALT cap phased down to $10,000 floor; itemized $36,240",
+          "passed": true,
+          "evidence": "prep_notes item 7; 12e 36,240"
+        },
+        {
+          "text": "[gotcha EVG1022-G9] PA: box 16 compensation $506,000; 401(k) distribution not PA-taxable; net gains $47,000; PA tax ~$17,821",
+          "passed": true,
+          "evidence": "state_returns.json PA comp 506,000, net gains 47,000, pension 0; PA tax 17,845 (diff $24 from not netting taxable bond premium on PA interest - documented 'verify' assumption; key itself labels PA interest an assumption)"
+        },
+        {
+          "text": "[judgment] NIIT: NII $54,485; any Form 8960 line 9b state-tax allocation follows Reg. 1.1411-4(f)(3)(iii) within the SALT cap",
+          "passed": true,
+          "evidence": "Reg. 1.1411-4(f)(3)(iii) allows state/local income taxes allocable to NII as a properly allocable deduction on Form 8960 line 9b, to the extent deductible under 164 (here after the 164(b)(6) cap). Run allocated $592 (capped $10,000 SALT x income-tax share x NII/AGI) -> NIIT $2,048; method reasonable and documented (prep_notes item 8, swx #8). Key's $2,070 omits the allowable deduction."
+        },
+        {
+          "text": "[swx EVG1022-SX1] MA workday allocation row added: MA wages $44,727",
+          "passed": false,
+          "evidence": "software_exceptions.md #5 identifies issue and fix location correctly but amount 48,109 (box 16 base) vs 44,727"
+        },
+        {
+          "text": "[swx EVG1022-SX2] Do NOT generate NJ/IL returns (reciprocity / IL 30-day)",
+          "passed": false,
+          "evidence": "Not in software_exceptions.md (only in state_returns.json not_required). The risk that day-allocating to every state auto-generates NJ/IL returns and PA credits is not logged"
+        },
+        {
+          "text": "[swx EVG1022-SX3] PA G-L credit limited: $1,373",
+          "passed": false,
+          "evidence": "software_exceptions.md #6 right location, amount 1,476.95 (cascade from SX1 base error) - outside $5"
+        },
+        {
+          "text": "[swx EVG1022-SX4] 1099-R NUA input: box 2a $96,000, box 6 $544,000, code 2; PA non-taxable",
+          "passed": true,
+          "evidence": "software_exceptions.md #4 (+ 'note for PA exclusion'; #9 401(k) excluded for PA)"
+        },
+        {
+          "text": "[swx EVG1022-SX5] 8949 IVV code W +$18,000, no basis increase",
+          "passed": true,
+          "evidence": "software_exceptions.md #1"
+        },
+        {
+          "text": "[swx EVG1022-SX6] Bond premium boxes 11/13 and accrued-interest line (net $3,768)",
+          "passed": true,
+          "evidence": "software_exceptions.md #3: 2,981.94 / 786.12 / 1,104.30"
+        },
+        {
+          "text": "[swx EVG1022-SX7] New-client carryover keyed ST $26,000 / LT $12,000",
+          "passed": true,
+          "evidence": "software_exceptions.md #2"
+        },
+        {
+          "text": "[swx EVG1022-SX8] Form 2210 for new client - prior-year tax/AGI must be keyed; no penalty",
+          "passed": true,
+          "evidence": "software_exceptions.md #7 (ES dates, tab 8) + prep_notes item 10 / review point 4 (110% of 2024 tax 181,480 vs 90%) -> no penalty. Does not explicitly say 'key 2024 tax for new client' - lenient pass"
+        },
+        {
+          "text": "[swx EVG1022-SX9] PA classes: box 16 comp, no carryover, no wash-sale rule, 1099-R non-PA ($47,000 gains)",
+          "passed": true,
+          "evidence": "software_exceptions.md #9 + state_returns PA notes (box 16, net gains 47,000)"
+        },
+        {
+          "text": "[filing] Form 4868 extension (accepted 04/15/2026, $3,000) recognised",
+          "passed": true,
+          "evidence": "filing_package federal due 10/15 (4868 accepted); payments include 3,000"
+        },
+        {
+          "text": "[filing] Form 1040 MFJ listed (e-file, due 10/15/2026)",
+          "passed": true,
+          "evidence": "04_file/filing_package.json"
+        },
+        {
+          "text": "[filing] PA-40 listed (e-file, due 10/15/2026)",
+          "passed": true,
+          "evidence": "filing_package.json states PA-40 e-file"
+        },
+        {
+          "text": "[filing] MA Form 1-NR/PY listed (e-file, due 10/15/2026)",
+          "passed": true,
+          "evidence": "filing_package.json MA 1-NR/PY e-file"
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "NJ/IL excluded with reasons. Local EIT final return also listed - not in key but genuinely required annually under PA Act 32 (not penalised)"
+        },
+        {
+          "text": "[state] PA-40 refund ~$86 and MA 1-NR/PY refund ~$109 per key",
+          "passed": false,
+          "evidence": "PA refund 166.13, MA balance due 67.52 - both driven by box-16 MA wage base (G1)"
+        },
+        {
+          "text": "[open items] Intake/prep identified real open items/conflicts and did not invent facts",
+          "passed": true,
+          "evidence": "intake_memo open items: ES transcript, plan retirement conditions, severance/PTO split, EIT PSD code; duplicate calendar recognised; prior-preparer carryover conflict"
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": true,
+          "evidence": "score.json (rescored after answer-key correction: Form 8960 line 9b allocation)"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 717, got 717)",
+          "passed": true,
+          "evidence": "score.json (rescored after answer-key correction)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1001",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.812,
+        "passed": 13,
+        "failed": 3,
+        "total": 16,
+        "time_seconds": 69.8,
+        "tokens": 74493,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1001-G1] Tanya's duplicate W-2 (phone photo) excluded; line 1a = 105,478, withholding 6,770",
+          "passed": true,
+          "evidence": "run/notes.md 'Wages': photo matches every box incl. control BSD-22-014, entered once; 1z = 105,478 (score.json)."
+        },
+        {
+          "text": "[gotcha EVG1001-G2] Ally Bank interest ($1,246) included on line 2b despite blank organizer line",
+          "passed": true,
+          "evidence": "notes.md 'Interest': Chase 38.42 + Ally 1,246.19 = 1,284.61; Ally missing from original batch, flagged from PY; 2b = 1,285."
+        },
+        {
+          "text": "[gotcha EVG1001-G3] Newborn Noah (born 12/18/2025) added as qualifying child; CTC 6,600",
+          "passed": true,
+          "evidence": "notes.md 'Filing status / dependents': Noah born 12/18/2025, Reg. 1.152-4(c), SSN; CTC 3 x 2,200 = 6,600."
+        },
+        {
+          "text": "[gotcha EVG1001-G4] Overtime deduction uses FLSA premium only ($3,150), not box 14 total $9,450",
+          "passed": true,
+          "evidence": "notes.md 'Schedule 1-A': 9,450/1.5 x 0.5 = 3,150, with employer-confirmation open item."
+        },
+        {
+          "text": "[gotcha EVG1001-G5] Car-loan interest: F-150 $2,452 deducted, used CR-V loan excluded",
+          "passed": true,
+          "evidence": "notes.md: F-150 2,452.18 deducted with VIN; CR-V pre-owned and 2024 loan fails both tests - excluded."
+        },
+        {
+          "text": "[gotcha EVG1001-G6] Form 2441: $5,000 FSA excluded first, overnight camp excluded; credit $200",
+          "passed": true,
+          "evidence": "notes.md 'Dependent care': overnight camp excluded, qualified 6,800; (6,000 - 5,000 FSA) x 20% = 200."
+        },
+        {
+          "text": "[gotcha EVG1001-G7] HSA code W: no additional Schedule 1 HSA deduction; Form 8889 still filed",
+          "passed": true,
+          "evidence": "notes.md 'HSA': code W 3,000 via payroll, no additional deduction; 1099-SA nontaxable; Form 8889 must still be filed (listed in filing package)."
+        },
+        {
+          "text": "[gotcha EVG1001-G8] Roth 401(k) code AA not subtracted from wages",
+          "passed": true,
+          "evidence": "notes.md 'HSA' section last bullet: AA 2,600 Roth 401(k) informational; no wage adjustment; 1z = 105,478."
+        },
+        {
+          "text": "[swx EVG1001-SX1] Duplicate W-2 picked up by Scan/AutoFlow identified; one Brightsmile W-2 record (line 1a 105,478)",
+          "passed": false,
+          "evidence": "No software_exceptions log produced (baseline). Duplicate W-2 is handled as a tax fact in notes.md but no software override/input location is documented."
+        },
+        {
+          "text": "[swx EVG1001-SX2] Sch 1-A overtime input overridden to premium $3,150 (software cannot split total OT)",
+          "passed": false,
+          "evidence": "No software_exceptions log produced. notes.md documents the 3,150 computation but not the software input/override."
+        },
+        {
+          "text": "[swx EVG1001-SX3] Sch 1-A car-loan interest input limited to F-150 $2,452 with VIN",
+          "passed": false,
+          "evidence": "No software_exceptions log produced. notes.md documents the 2,452 treatment but not the software input."
+        },
+        {
+          "text": "[filing] Federal Form 1040 MFJ listed with correct method (e-file); no TX state/local return",
+          "passed": true,
+          "evidence": "04_file/filing_package.json: Federal 1040 MFJ e-file, due 04/15/2026 (extended 10/15/2026); TX and local listed as none."
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "filing_package.json: only federal return; correct attached forms (Sch 1-A, 8812, Sch 3, 2441, 8889); no unnecessary filings."
+        },
+        {
+          "text": "[open items] Intake/prep identified the open items and organizer conflicts a careful preparer would, without inventing facts",
+          "passed": true,
+          "evidence": "notes.md and filing_package open_items: OT basis, HSA distribution, F-150 personal use, childcare 9,600 vs 8,200 conflict, extension status; newborn vs organizer and Ally organizer gap identified. No invented facts."
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": true,
+          "evidence": "score.json final 30/30"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 5,686, got 5,686)",
+          "passed": true,
+          "evidence": "score.json bottom_line_got 5,686, error 0"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1003",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.688,
+        "passed": 11,
+        "failed": 5,
+        "total": 16,
+        "time_seconds": 105.3,
+        "tokens": 80207,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1003-G1] Form 4137 / line 1c uses actual diary tips $1,600, not W-2 box 8 allocated $2,900",
+          "passed": true,
+          "evidence": "run/notes.md 'Wages and tips': adequate contemporaneous diary, Reg. 31.6053-3 / Form 4137 instructions; line 1c 1,600; box 7 tie-out. 1z = 46,000 (score.json)."
+        },
+        {
+          "text": "[gotcha EVG1003-G2] Form 4137 SS/Medicare $122 on Schedule 2 line 5 (no SE tax on tips)",
+          "passed": true,
+          "evidence": "notes.md: Form 4137 1,600 x 7.65% = 122.40; tips counted toward SS base for SE (W-2 SS wages + SS tips + 4137 tips)."
+        },
+        {
+          "text": "[gotcha EVG1003-G3] Commuting miles (4,180) excluded; business miles 15,145 x $0.70 + tolls",
+          "passed": true,
+          "evidence": "notes.md 'Schedule C' table and bullet: 4,180 commuting excluded (Rev. Rul. 99-7), 15,145 x 0.70 = 10,601.50, tolls 340."
+        },
+        {
+          "text": "[gotcha EVG1003-G4] Sch C gross = 1099-K $38,720 + 1099-NEC $1,150 = $39,870, Uber fees $11,140 deducted, duplicate 1099-K excluded",
+          "passed": true,
+          "evidence": "notes.md Sch C table: 1099-K 38,720 (doc 11 duplicate dropped) + NEC 1,150 = 39,870; fees 11,140 deducted; reconciles to deposits 28,730."
+        },
+        {
+          "text": "[gotcha EVG1003-G5] Sch 1-A qualified tips (box 7 + 4137 + rider tips) capped at $25,000; allocated tips not qualified",
+          "passed": true,
+          "evidence": "notes.md 'Schedule 1-A': 24,600 + 1,600 = 26,200 capped at 25,000; notes rider tips 2,860 also qualify but cap already reached. Allocated tips not used. Line 13b = 25,000. Correct result and reasoning."
+        },
+        {
+          "text": "[gotcha EVG1003-G6] No actual car operating costs (gas, insurance, maintenance) on top of standard mileage",
+          "passed": true,
+          "evidence": "notes.md: gas 3,900, GEICO 2,280, maintenance 310 not deducted (covered by rate); car washes correctly treated as covered by the standard rate. The whole $380 (incl. possibly deductible rider water/mints) was excluded pending a split - conservative and documented as open item 1. Legally better than the key on the car-wash portion."
+        },
+        {
+          "text": "[gotcha EVG1003-G7] SE tax computed on Sch C net; QBI = net - 1/2 SE tax, x 20%",
+          "passed": true,
+          "evidence": "notes.md 'Self-employment tax' / QBI: SE on 92.35% of net, half deducted; QBI = net - 1/2 SE = 15,874.72 x 20% = 3,175. Method correct; amounts differ from key only because net differs (dash cam + $380)."
+        },
+        {
+          "text": "[gotcha EVG1003-G8] Form 2210: 100% PY tax ($3,159) safe harbor met with withholding + 2 estimates - no penalty",
+          "passed": true,
+          "evidence": "notes.md 'Payments and Form 2210': lesser of 90% (4,004) or 100% PY (3,159); cumulative installment test shown; no penalty, 2210 not required; 459 identified as PY balance."
+        },
+        {
+          "text": "[swx EVG1003-SX1] Box 8 allocated tips flowing to Form 4137 overridden to actual $1,600",
+          "passed": false,
+          "evidence": "No software_exceptions log produced (baseline). Allocated-tips treatment is in notes.md but no software override documented."
+        },
+        {
+          "text": "[swx EVG1003-SX2] Duplicate Uber 1099-K removed; Sch C gross receipts $39,870",
+          "passed": false,
+          "evidence": "No software_exceptions log produced. Duplicate 1099-K handled as a fact in notes.md, no software input fix."
+        },
+        {
+          "text": "[swx EVG1003-SX3] Sch 1-A qualified tips inputs (W-2 + 4137 + rideshare) entered; deduction $25,000",
+          "passed": false,
+          "evidence": "No software_exceptions log produced. Sch 1-A inputs not documented; rider tips not entered (no effect due to cap)."
+        },
+        {
+          "text": "[filing] Federal Form 1040 Single listed with correct method (e-file); no NV state/local return",
+          "passed": true,
+          "evidence": "04_file/filing_package.json: Federal 1040 Single e-file, due 04/15/2026, balance due 299 via Direct Pay/debit; Nevada and local listed as none."
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "filing_package.json: correct attachments (Sch 1, 1-A, 2, C, SE, 4137, 8995, vehicle info); Form 2210 not required; 2026 1040-ES and NV business-license reminder listed as non-return compliance items, not unnecessary returns."
+        },
+        {
+          "text": "[open items] Intake/prep identified the open items and organizer conflicts a careful preparer would, without inventing facts",
+          "passed": true,
+          "evidence": "notes.md open items: car-wash vs supplies split, filing timing, dash cam %, phone %; organizer conflicts (net Uber, commuting, actual costs, 459 PY payment) resolved in notes. NV business-license item framed as 'confirm', not asserted as fact."
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": false,
+          "evidence": "score.json final 21/30 - misses on lines 8, 9, 10, 11, 13a, 15, 16, 23, 24, all from Sch C net 17,081 vs key 16,647 (dash cam 95 vs 149, $380 car washes/supplies excluded)."
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected -201, got -299)",
+          "passed": false,
+          "evidence": "score.json bottom_line_error -98; caused by the dash-cam allocation (-54 deduction) and the excluded $380 (both defensible, see eval_feedback)."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1008",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.737,
+        "passed": 14,
+        "failed": 5,
+        "total": 19,
+        "time_seconds": 155.5,
+        "tokens": 89660,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1008-G1] Duplex 1098 (box 8 rental address) interest $9,860 / escrow taxes $5,420 on Sch E, not Sch A; standard deduction",
+          "passed": true,
+          "evidence": "notes.md duplex table (mortgage interest 9,860 from 1098; taxes 5,420) and Deductions ('Duplex RE tax/insurance are rental only'); 12e = 31,500."
+        },
+        {
+          "text": "[gotcha EVG1008-G2] Roof $14,000 capitalized 27.5-yr ($276); water heater de minimis with election; window repair",
+          "passed": true,
+          "evidence": "notes.md duplex table: roof 27.5 SL MM June 2025 $276 (Reg. 1.263(a)-3(k); small-taxpayer safe harbor unavailable), water heater de minimis with statement, window repair."
+        },
+        {
+          "text": "[gotcha EVG1008-G3] Cabin sec. 280A residence: 21 personal days incl. brother's free stay, repair weekend excluded, 62/83 allocation, net $0, carryforward",
+          "passed": true,
+          "evidence": "notes.md cabin section: 21 days (brother counted, deck weekend excluded), 62/83, Worksheet 5-1, net 0, Bolton tested. 27.5-yr life as in key; carryforward depreciation $4,195 vs key operating 260 + depreciation 4,244 (operating ordering differs slightly) - immaterial, no 2025 effect."
+        },
+        {
+          "text": "[gotcha EVG1008-G4] PY $6,200 suspended loss pulled from PERM; allowance phased out; $9,407 to 2026",
+          "passed": true,
+          "evidence": "notes.md Passive (Form 8582): 3,207 + 6,200 = 9,407 suspended; MAGI > 150k."
+        },
+        {
+          "text": "[gotcha EVG1008-G5] AOTC $1,040 ($416 refundable) after scholarship and phase-out; Emma ODC $500, Connor CTC $2,200",
+          "passed": true,
+          "evidence": "notes.md Credits; lines 19/29 match (score.json)."
+        },
+        {
+          "text": "[gotcha EVG1008-G6] Escrow statement used as support only - duplex interest/taxes not doubled",
+          "passed": true,
+          "evidence": "Interest from 1098 once; taxes/insurance from escrow statement once. Duplicate risk not explicitly discussed."
+        },
+        {
+          "text": "[gotcha EVG1008-G7] PA-40: compensation from box 16 $189,300, rents-class loss not netted, tax $5,823",
+          "passed": true,
+          "evidence": "notes.md Pennsylvania section: box 16 $189,300, rents class loss -> $0, $5,823, ~$12 due."
+        },
+        {
+          "text": "[swx EVG1008-SX1] Duplex 1098 autoflow to Sch A (and escrow summary duplicate) - move $9,860 interest/$5,420 taxes to Sch E",
+          "passed": false,
+          "evidence": "No software-exception log produced (baseline). Treatment correct in notes but no software input/override documented."
+        },
+        {
+          "text": "[swx EVG1008-SX2] Roof coded Repairs -> Form 4562 asset 27.5-yr ($276); de minimis election for water heater",
+          "passed": false,
+          "evidence": "No software-exception log produced."
+        },
+        {
+          "text": "[swx EVG1008-SX3] 8582 PY unallowed loss $6,200 input (regular and AMT); $9,407 to 2026",
+          "passed": false,
+          "evidence": "No software-exception log produced."
+        },
+        {
+          "text": "[swx EVG1008-SX4] Cabin vacation-home input: 62 rental / 21 personal days; net $0",
+          "passed": false,
+          "evidence": "No software-exception log produced."
+        },
+        {
+          "text": "[swx EVG1008-SX5] PA compensation must come from W-2 box 16 ($189,300); rents-class loss not netted",
+          "passed": false,
+          "evidence": "No software-exception log produced."
+        },
+        {
+          "text": "[filing] Form 1040 listed (e-file)",
+          "passed": true,
+          "evidence": "04_file/filing_package.json Federal e-file."
+        },
+        {
+          "text": "[filing] PA-40 resident listed (e-file)",
+          "passed": true,
+          "evidence": "filing_package Pennsylvania PA-40 e-file."
+        },
+        {
+          "text": "[filing] Manheim Twp EIT final return noted (LCTCB)",
+          "passed": true,
+          "evidence": "filing_package local EIT final return; notes say admin files per client profile."
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "Federal, PA, local; not_required lists estimates, FBAR/8938, 8959/8960, occupancy tax (VRBO remits) - reasonable."
+        },
+        {
+          "text": "[open items] Intake/prep identified the real open items and conflicts without inventing facts",
+          "passed": true,
+          "evidence": "notes.md Open items: duplicate $1,900 line, cabin FMV, books receipt, charity, extension status. Did not flag the 2024 CTC overclaim for Emma (the with-skill run did)."
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": true,
+          "evidence": "score.json final line_accuracy 1.0"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 2,772, got 2,772)",
+          "passed": true,
+          "evidence": "score.json"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1013",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.778,
+        "passed": 14,
+        "failed": 4,
+        "total": 18,
+        "time_seconds": 76.9,
+        "tokens": 77093,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1013-G1] Late 83(b) (postmarked 12/10 vs 12/03 deadline) invalid - no $8,000 2025 income; client advised",
+          "passed": true,
+          "evidence": "notes.md item 4 (no 9100 relief, cancel-and-regrant with counsel, do not attach 15620)."
+        },
+        {
+          "text": "[gotcha EVG1013-G2] NSO same-day sale: 8949 box A code B adjustment ($22,000) -> loss ($25)",
+          "passed": true,
+          "evidence": "notes.md item 2; line 7 = (25)."
+        },
+        {
+          "text": "[gotcha EVG1013-G3] E*TRADE supplement not entered as a second sale",
+          "passed": true,
+          "evidence": "Only one sale on the return (line 7 = -25); supplement referenced as support for the W-2 spread (notes item 1). Duplicate risk not explicitly discussed."
+        },
+        {
+          "text": "[gotcha EVG1013-G4] ISO spread $50,000 on Form 6251 -> AMT $4,346; AMT basis $56,000; MTC carryforward $4,346",
+          "passed": true,
+          "evidence": "notes.md item 3."
+        },
+        {
+          "text": "[gotcha EVG1013-G5] HSA: $0 deduction for the $1,000 excess; timely withdrawal -> no 5329; $38 taxable 2026; 8889 filed",
+          "passed": true,
+          "evidence": "notes.md item 5; filing_package not_filed Form 5329; 8889 attached."
+        },
+        {
+          "text": "[gotcha EVG1013-G6] No Form 2210 penalty (100% PY safe harbor); $6,000 extension payment on Sch 3 line 10",
+          "passed": true,
+          "evidence": "notes.md item 8 and result table (extension payment 6,000)."
+        },
+        {
+          "text": "[gotcha EVG1013-G7] IL base = federal AGI $165,959, exemption $2,850, tax $8,074, refund $76; no Chicago tax",
+          "passed": true,
+          "evidence": "notes.md Illinois section; filing_package."
+        },
+        {
+          "text": "[swx EVG1013-SX1] NSO 1099-B basis: code B adjustment ($22,000); supplement not entered",
+          "passed": false,
+          "evidence": "No software-exception log produced (baseline)."
+        },
+        {
+          "text": "[swx EVG1013-SX2] Form 3921 not imported - enter $50,000 ISO AMT adjustment; MTC $4,346; AMT basis tracking",
+          "passed": false,
+          "evidence": "No software-exception log produced."
+        },
+        {
+          "text": "[swx EVG1013-SX3] HSA excess withdrawn timely - suppress Form 5329, no deduction for $1,000",
+          "passed": false,
+          "evidence": "No software-exception log produced."
+        },
+        {
+          "text": "[swx EVG1013-SX4] Form 2210 needs 2024 tax $23,526 / AGI input so the PY safe harbor applies (penalty $0)",
+          "passed": false,
+          "evidence": "No software-exception log produced."
+        },
+        {
+          "text": "[filing] Form 4868 extension recognised ($6,000 payment credited)",
+          "passed": true,
+          "evidence": "filing_package extension_on_file 4868 04/13/2026 $6,000."
+        },
+        {
+          "text": "[filing] Form 1040 listed (e-file, due 10/15/2026)",
+          "passed": true,
+          "evidence": "filing_package."
+        },
+        {
+          "text": "[filing] IL-1040 resident listed (e-file)",
+          "passed": true,
+          "evidence": "filing_package."
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "Chicago none; 15620, 5329, 2210, 8801 correctly not filed."
+        },
+        {
+          "text": "[open items] Intake/prep identified the real open items and conflicts without inventing facts",
+          "passed": true,
+          "evidence": "notes.md Open items: earlier 83(b) mailing, client advice, IL exemption verification. Did not ask for confirmation of the $6,000 extension payment (receipt log only) - minor."
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": true,
+          "evidence": "score.json final line_accuracy 1.0"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 357, got 357)",
+          "passed": true,
+          "evidence": "score.json"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1016",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.762,
+        "passed": 16,
+        "failed": 5,
+        "total": 21,
+        "time_seconds": 86.8,
+        "tokens": 78083,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1016-G1] HOH (married at 12/31/2025 but considered unmarried), not Single/MFS",
+          "passed": true,
+          "evidence": "final/return.json HOH; notes.md Key judgments 1 lists all considered-unmarried tests"
+        },
+        {
+          "text": "[gotcha EVG1016-G2] Post-2018 spousal support and child support not reported",
+          "passed": true,
+          "evidence": "line 8 = 0; notes.md item 2"
+        },
+        {
+          "text": "[gotcha EVG1016-G3] CTC for Nora only ($2,200); Liam still counts for HOH and Form 2441",
+          "passed": true,
+          "evidence": "line 19 2,200; notes.md items 4-5 (2441 both children under 21(e)(5))"
+        },
+        {
+          "text": "[gotcha EVG1016-G4] QDRO $30,000 on line 5b, Form 5329 exception 04, no 10% tax, $6,000 WH on 25b",
+          "passed": true,
+          "evidence": "5b 30,000; notes.md item 3 (5329 exception 04)"
+        },
+        {
+          "text": "[gotcha EVG1016-G5] Full $4,860 box 14 premium deducted on Sch 1-A (not 1/3); HOH not barred by joint-return rule",
+          "passed": true,
+          "evidence": "13b 4,860; notes.md item 6"
+        },
+        {
+          "text": "[gotcha EVG1016-G6] MI exemptions 2 x $5,800 (Liam follows federal 8332 release)",
+          "passed": true,
+          "evidence": "notes.md State: exemptions 2 x 5,800 = 11,600"
+        },
+        {
+          "text": "[gotcha EVG1016-G7] Grand Rapids GR-1040R required; QDRO distribution city-taxable; $451 due 04/30/2026",
+          "passed": true,
+          "evidence": "notes.md GR: premature distribution (code 1) taxable to city, tax ~1,762, due ~451; flagged for reviewer"
+        },
+        {
+          "text": "[gotcha EVG1016-G8] Brian's W-2 not used",
+          "passed": true,
+          "evidence": "1z 88,600; notes.md item 8"
+        },
+        {
+          "text": "[swx EVG1016-SX1] 1099-R code 1 QDRO: line 5 not IRA, Form 5329 exception 04 on $30,000",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1016-SX2] Liam coded as 8332-released: HOH/2441 yes, CTC no ($2,200)",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1016-SX3] Sch 1-A qualified overtime input = $4,860 (premium already isolated)",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1016-SX4] MI exemption override to 2 ($11,600) because Liam stays on federal dependent input",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1016-SX5] GR-1040R: include the $30,000 code-1 distribution in city income (not exempt pension) -> $1,762",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[filing] Federal 1040 HOH listed (e-file)",
+          "passed": true,
+          "evidence": "04_file/filing_package.json federal e-file"
+        },
+        {
+          "text": "[filing] MI-1040 listed (e-file)",
+          "passed": true,
+          "evidence": "filing_package.json states MI-1040 e-file"
+        },
+        {
+          "text": "[filing] Grand Rapids GR-1040R listed, due 04/30/2026, $451",
+          "passed": true,
+          "evidence": "filing_package.json GR-1040R e-file, due 2026-04-30, 451"
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": true,
+          "evidence": "Fed + MI + GR only; 8332 correctly not attached; no FBAR/other states"
+        },
+        {
+          "text": "[state] MI-1040 refund $175 (tax $4,550; no 2025 MI overtime subtraction)",
+          "passed": true,
+          "evidence": "notes.md MI: 107,062 x 4.25% = ~4,550, refund ~175 - matches key; no OT subtraction (correct per MI Treasury: 2025 PA 24 applies from TY2026)"
+        },
+        {
+          "text": "[open items] Intake/prep identified real open items/conflicts and did not invent facts",
+          "passed": true,
+          "evidence": "notes.md open items: extension/filing-date check, GR taxability, 2026 W-4; organizer alimony conflict noted. Adequate though no formal intake"
+        },
+        {
+          "text": "[line accuracy] 30/30 key 1040 lines within $2",
+          "passed": true,
+          "evidence": "score.json final 30/30"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 4,026, got 4,026)",
+          "passed": true,
+          "evidence": "score.json"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "EVG1022",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.429,
+        "passed": 12,
+        "failed": 16,
+        "total": 28,
+        "time_seconds": 189.0,
+        "tokens": 104652,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "[gotcha EVG1022-G1] MA Form 1-NR/PY from calendar workdays: MA wages 410,000 x 18/165 = $44,727, tax $2,191",
+          "passed": true,
+          "evidence": "notes.md MA: 410,000 x 18/165 = 44,727; tax ~2,200 vs key 2,191 (estimate, not a finished computation, but base and method correct)"
+        },
+        {
+          "text": "[gotcha EVG1022-G2] No NJ return (reciprocity) and no IL return (30-working-day rule)",
+          "passed": false,
+          "evidence": "filing_package.json lists IL-1040 + Schedule NR (~$1,600 + penalties) and PA G-L credit for IL tax - the trap. NJ correctly excluded."
+        },
+        {
+          "text": "[gotcha EVG1022-G3] PA Sch G-L credit limited to PA tax on MA income (not full MA tax)",
+          "passed": false,
+          "evidence": "notes.md: 'Schedule G-L credit for MA and IL tax' - includes IL tax that should not exist and no credit computed"
+        },
+        {
+          "text": "[gotcha EVG1022-G4] NUA: only $96,000 cost basis taxable; $544,000 deferred; rollover nontaxable; no 10% tax",
+          "passed": true,
+          "evidence": "5b 96,000; notes.md 401(k) lump sum"
+        },
+        {
+          "text": "[gotcha EVG1022-G5] Cross-account wash sale: code W +$18,000, no IRA basis step-up",
+          "passed": true,
+          "evidence": "notes.md capital gains; line 7 27,000"
+        },
+        {
+          "text": "[gotcha EVG1022-G6] Sch B: ABP -786.12 and accrued interest -2,981.94 -> 2b $9,085; 2a $6,396",
+          "passed": true,
+          "evidence": "notes.md interest; 2a/2b match"
+        },
+        {
+          "text": "[gotcha EVG1022-G7] Carryover recharacterised ST $26,000 / LT $12,000",
+          "passed": true,
+          "evidence": "notes.md capital loss carryover corrected"
+        },
+        {
+          "text": "[gotcha EVG1022-G8] SALT cap phased down to $10,000 floor; itemized $36,240",
+          "passed": true,
+          "evidence": "notes.md deductions; 12e 36,240"
+        },
+        {
+          "text": "[gotcha EVG1022-G9] PA: box 16 compensation $506,000; 401(k) distribution not PA-taxable; net gains $47,000; PA tax ~$17,821",
+          "passed": false,
+          "evidence": "notes.md PA: box 16 and 401(k) exclusion right, but net gains left as '47,000 or 65,000 - review' and PA tax 'about 15,500' (key 17,821); PA return not completed"
+        },
+        {
+          "text": "[judgment] NIIT: NII $54,485; any Form 8960 line 9b state-tax allocation follows Reg. 1.1411-4(f)(3)(iii) within the SALT cap",
+          "passed": true,
+          "evidence": "Reg. 1.1411-4(f)(3)(iii) allows state/local income taxes allocable to NII as a properly allocable deduction on Form 8960 line 9b, to the extent deductible under 164 (here after the 164(b)(6) cap). Run took no 9b allocation -> NIIT $2,070 = key; permissible but leaves ~$22 on the table."
+        },
+        {
+          "text": "[swx EVG1022-SX1] MA workday allocation row added: MA wages $44,727",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1022-SX2] Do NOT generate NJ/IL returns (reciprocity / IL 30-day)",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1022-SX3] PA G-L credit limited: $1,373",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1022-SX4] 1099-R NUA input: box 2a $96,000, box 6 $544,000, code 2; PA non-taxable",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1022-SX5] 8949 IVV code W +$18,000, no basis increase",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1022-SX6] Bond premium boxes 11/13 and accrued-interest line (net $3,768)",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1022-SX7] New-client carryover keyed ST $26,000 / LT $12,000",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1022-SX8] Form 2210 for new client - prior-year tax/AGI must be keyed; no penalty",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[swx EVG1022-SX9] PA classes: box 16 comp, no carryover, no wash-sale rule, 1099-R non-PA ($47,000 gains)",
+          "passed": false,
+          "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+        },
+        {
+          "text": "[filing] Form 4868 extension (accepted 04/15/2026, $3,000) recognised",
+          "passed": true,
+          "evidence": "filing_package federal notes: 4868 accepted, $3,000"
+        },
+        {
+          "text": "[filing] Form 1040 MFJ listed (e-file, due 10/15/2026)",
+          "passed": true,
+          "evidence": "04_file/filing_package.json"
+        },
+        {
+          "text": "[filing] PA-40 listed (e-file, due 10/15/2026)",
+          "passed": true,
+          "evidence": "filing_package.json states PA-40 e-file"
+        },
+        {
+          "text": "[filing] MA Form 1-NR/PY listed (e-file, due 10/15/2026)",
+          "passed": true,
+          "evidence": "filing_package.json MA 1-NR/PY e-file"
+        },
+        {
+          "text": "[filing] No required filing missing and no unnecessary return filed",
+          "passed": false,
+          "evidence": "Unnecessary IL-1040 nonresident return listed (13 days <= 30-day rule)"
+        },
+        {
+          "text": "[state] PA-40 refund ~$86 and MA 1-NR/PY refund ~$109 per key",
+          "passed": false,
+          "evidence": "PA 'small refund (~$1,000)', MA 'tax ~2,200' - estimates only; PA tax understated ~$2.3k"
+        },
+        {
+          "text": "[open items] Intake/prep identified real open items/conflicts and did not invent facts",
+          "passed": true,
+          "evidence": "notes.md open items: retirement criteria, PA wash sale, severance sourcing, PSD code; duplicate calendar recognised"
+        },
+        {
+          "text": "[line accuracy] 28/30 key 1040 lines within $2",
+          "passed": false,
+          "evidence": "score.json (rescored after answer-key correction: Form 8960 line 9b allocation)"
+        },
+        {
+          "text": "[bottom line] refund/due within $5 (expected 717, got 695)",
+          "passed": false,
+          "evidence": "score.json (rescored after answer-key correction)"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 0.9153,
+        "stddev": 0.0627,
+        "min": 0.821,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 366.35,
+        "stddev": 87.9548,
+        "min": 262.5,
+        "max": 504.2
+      },
+      "tokens": {
+        "mean": 141775.5,
+        "stddev": 16224.5826,
+        "min": 124341,
+        "max": 167345
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.701,
+        "stddev": 0.1396,
+        "min": 0.429,
+        "max": 0.812
+      },
+      "time_seconds": {
+        "mean": 113.8833,
+        "stddev": 47.9432,
+        "min": 69.8,
+        "max": 189.0
+      },
+      "tokens": {
+        "mean": 84031.3333,
+        "stddev": 11366.8135,
+        "min": 74493,
+        "max": 104652
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.21",
+      "time_seconds": "+252.5",
+      "tokens": "+57744"
+    }
+  },
+  "notes": []
+}

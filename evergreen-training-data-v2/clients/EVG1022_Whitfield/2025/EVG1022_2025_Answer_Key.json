@@ -32,8 +32,8 @@
     "19": 0,
     "20": 0,
     "22": 135700,
-    "23": 4374,
-    "24": 140074,
+    "23": 4352,
+    "24": 140052,
     "25d": 105769,
     "26": 32000,
     "27a": 0,
@@ -41,12 +41,12 @@
     "29": 0,
     "31": 3000,
     "33": 140769,
-    "34": 695,
-    "35a": 695,
+    "34": 717,
+    "35a": 717,
     "37": 0
   },
   "deduction_type": "Itemized (Schedule A)",
-  "refund": 695,
+  "refund": 717,
   "balance_due": 0,
   "carryforwards_to_2026": {},
   "federal_forms": {
@@ -219,12 +219,12 @@
       {
         "line": "23",
         "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
-        "amount": 4374
+        "amount": 4352
       },
       {
         "line": "24",
         "description": "Total tax",
-        "amount": 140074
+        "amount": 140052
       },
       {
         "line": "25a",
@@ -284,12 +284,12 @@
       {
         "line": "34",
         "description": "Amount overpaid",
-        "amount": 695
+        "amount": 717
       },
       {
         "line": "35a",
         "description": "Refund",
-        "amount": 695
+        "amount": 717
       },
       {
         "line": "37",
@@ -565,12 +565,12 @@
       {
         "line": "12",
         "description": "Net investment income tax (Form 8960)",
-        "amount": 2070
+        "amount": 2048
       },
       {
         "line": "21",
         "description": "Total other taxes (to Form 1040, line 23)",
-        "amount": 4374
+        "amount": 4352
       }
     ],
     "Form 8960": [
@@ -580,9 +580,14 @@
         "amount": 54485
       },
       {
+        "line": "11",
+        "description": "Properly allocable deductions (incl. investment interest)",
+        "amount": 596
+      },
+      {
         "line": "12",
         "description": "Net investment income",
-        "amount": 54485
+        "amount": 53889
       },
       {
         "line": "13-16",
@@ -592,7 +597,7 @@
       {
         "line": "17",
         "description": "Net investment income tax",
-        "amount": 2070
+        "amount": 2048
       }
     ],
     "Schedule 3": [
@@ -800,14 +805,14 @@
     "box6": 544000.0,
     "rollover": 780000.0
   },
-  "nii": 54485,
+  "nii": 53888.76,
   "capital_loss_carryover_used": {
     "st": 26000,
     "lt": 12000
   },
   "tax_difference_wrong_carryover_character": 1000,
   "form_2210": {
-    "required_annual_payment": 126067,
+    "required_annual_payment": 126047,
     "paid_timely": 137769,
     "penalty": 0
   },

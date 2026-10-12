@@ -89,7 +89,7 @@ F.organizer(C.pbc_file("01_2025_Organizer_Okafor.pdf", "Client organizer", "2026
                  ["Uber - Schedule C gross", "Uber (1099-K / 1099-NEC)", 12940, "about 28,700 deposited"]],
     deductions_rows=[["Business miles", "Uber (log)", 4880, "19,325"],
                      ["Gas", "Camry", 1310, "3,900"], ["Car insurance", "GEICO", 2140, "2,280"],
-                     ["Oil changes / maintenance", "", 160, "310"], ["Car washes / water & mints for riders", "", 110, "380"],
+                     ["Oil changes / maintenance", "", 160, "310"], ["Car washes", "", 60, "210"], ["Water & mints for riders", "", 50, "170"],
                      ["Phone", "T-Mobile $85/mo", "60% business", "same"], ["Dash cam", "", "", "149"],
                      ["Estimated tax payments", "IRS Direct Pay", "", "1,000"]],
     signature_date="02/07/2026")
@@ -194,7 +194,10 @@ biz_miles = online_miles                          # commuting miles excluded
 std_mileage = biz_miles * MILEAGE_2025
 car_line9 = r(std_mileage + tolls)                # standard mileage + tolls (parking none)
 fees_line10 = r(service_fee + booking + other_fees)
-supplies = r(380 + 149)
+# car washes ($210) are covered by the standard mileage rate; rider supplies $170; dash cam $149 used in the car for all
+# driving -> vehicle business-use % (15,145 / 23,750 odometer miles)
+dash_cam = r(149 * online_miles / 23750)
+supplies = r(170 + dash_cam)
 phone = r(1020 * .60)
 gross_receipts = r(k_gross + nec)
 sch_c_exp = car_line9 + fees_line10 + supplies + phone
@@ -249,10 +252,10 @@ schc = [["Schedule C - Uber rideshare (NAICS 485310), cash method, Nevada", "Amo
         ["Line 1 Gross receipts: 1099-K $38,720 (fares, booking/airport fees, tolls, tips) + 1099-NEC $1,150", gross_receipts],
         ["Line 9 Car and truck: 15,145 business miles x $0.70 + tolls $340 (commute 4,180 mi excluded)", car_line9],
         ["Line 10 Commissions and fees: Uber service fee $7,660 + booking fees $2,410 + airport/other $1,070", fees_line10],
-        ["Line 22 Supplies: car washes, rider water/mints $380; dash cam $149", supplies],
+        [f"Line 22 Supplies: rider water/mints $170; dash cam $149 x {online_miles/23750:.1%} vehicle business use = ${dash_cam}", supplies],
         ["Line 25 Utilities: phone $1,020 x 60% business", phone],
         ["Line 28 Total expenses", sch_c_exp], ["Line 31 Net profit", sch_c_net],
-        ["Not deducted: gas $3,900, insurance $2,280, oil changes $310 (included in standard mileage rate)", 0]]
+        ["Not deducted: gas $3,900, insurance $2,280, oil changes $310, car washes $210 (included in standard mileage rate)", 0]]
 car = [["Form 4562 Part V / Sch C Part IV - vehicle information", "Detail"],
        ["Vehicle / placed in service for business", "2021 Toyota Camry SE / 09/2024 (standard mileage elected 2024)"],
        ["Total miles 2025 (odometer 48,210 -> 71,960)", "23,750"], ["Business miles (Uber online miles)", f"{biz_miles:,}"],
@@ -375,7 +378,7 @@ C.write_notes(f"""
    ($28,730) tie to gross less fees.
 4. **Mileage.** His log adds 4,180 "casino" miles (home to the bar job and back) to the Uber miles. That is commuting - excluded.
    Business miles = Uber online miles 15,145 (he goes online from home; miles while offline are not counted) x 70 cents =
-   {fmt(r(std_mileage))} + tolls $340. Gas, insurance and oil changes listed on the organizer are covered by the standard mileage
+   {fmt(r(std_mileage))} + tolls $340. Gas, insurance, oil changes and car washes listed on the organizer are covered by the standard mileage
    rate - not deducted. Standard mileage was elected in 2024 (first year), so it can continue. Odometer photos support 23,750 total miles.
 5. **Phone.** 60% business use (client estimate - Uber app runs whenever he drives; reasonable vs. 64% vehicle business use) -> {fmt(phone)}.
 6. **SE tax / QBI.** SE tax {fmt(se['se_tax'])} (half deducted {fmt(se['half'])}). QBI = {fmt(sch_c_net)} - {fmt(se['half'])} =

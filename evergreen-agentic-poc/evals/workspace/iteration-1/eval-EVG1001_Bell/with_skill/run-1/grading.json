@@ -1,0 +1,120 @@
+{
+  "expectations": [
+    {
+      "text": "[gotcha EVG1001-G1] Tanya's duplicate W-2 (phone photo) excluded; line 1a = 105,478, withholding 6,770",
+      "passed": true,
+      "evidence": "run/02_prepare/prep_notes.md item 2: PBC/04 photo = duplicate (same EIN, control BSD-22-014); final/return.json 1z = 105,478, 25d = 6,770 (score.json)."
+    },
+    {
+      "text": "[gotcha EVG1001-G2] Ally Bank interest ($1,246) included on line 2b despite blank organizer line",
+      "passed": true,
+      "evidence": "prep_notes item 3: Chase 38.42 + Ally 1,246.19 = 1,284.61, organizer blank but recurring per PY; line 2b = 1,285. Intake memo item 6 notes organizer omission."
+    },
+    {
+      "text": "[gotcha EVG1001-G3] Newborn Noah (born 12/18/2025) added as qualifying child; CTC 6,600",
+      "passed": true,
+      "evidence": "prep_notes item 1: Noah born 12/18/2025 per PBC/11 email, organizer overridden, Pub 501 born-in-year rule; line 19 = 6,600."
+    },
+    {
+      "text": "[gotcha EVG1001-G4] Overtime deduction uses FLSA premium only ($3,150), not box 14 total $9,450",
+      "passed": true,
+      "evidence": "prep_notes item 4 / WP-3: 9,450 treated as total OT at 1.5x -> 9,450/3 = 3,150; open item to confirm with employer. Line 13b = 5,602."
+    },
+    {
+      "text": "[gotcha EVG1001-G5] Car-loan interest: F-150 $2,452 deducted, used CR-V loan excluded",
+      "passed": true,
+      "evidence": "prep_notes item 5: F-150 new, 03/08/2025 loan, Dearborn assembly, VIN -> 2,452.18; CR-V used/2024 loan 1,104.77 excluded."
+    },
+    {
+      "text": "[gotcha EVG1001-G6] Form 2441: $5,000 FSA excluded first, overnight camp excluded; credit $200",
+      "passed": true,
+      "evidence": "prep_notes item 6: qualified 6,800 (overnight 1,400 excluded, Pub 503); FSA 5,000 excluded; (6,000-5,000) x 20% = 200; line 20 = 200. Also caught statement total arithmetic error."
+    },
+    {
+      "text": "[gotcha EVG1001-G7] HSA code W: no additional Schedule 1 HSA deduction; Form 8889 still filed",
+      "passed": true,
+      "evidence": "prep_notes item 7: code W 3,000 within limit, no extra deduction; 1,150 1099-SA nontaxable; Form 8889 in filing_package forms list; line 10 = 0."
+    },
+    {
+      "text": "[gotcha EVG1001-G8] Roth 401(k) code AA not subtracted from wages",
+      "passed": true,
+      "evidence": "prep_notes item 2: box 12 D, W, AA, DD 'already reflected in box 1/informational'; 1z = 105,478."
+    },
+    {
+      "text": "[swx EVG1001-SX1] Duplicate W-2 picked up by Scan/AutoFlow identified; one Brightsmile W-2 record (line 1a 105,478)",
+      "passed": true,
+      "evidence": "02_prepare/software_exceptions.md row 1: duplicate W-2 photo, silent, delete/skip second W-2 entry in Income > Wages; amount stated as the 47,000 / 2,810 overstatement (equivalent to line 1a 105,478)."
+    },
+    {
+      "text": "[swx EVG1001-SX2] Sch 1-A overtime input overridden to premium $3,150 (software cannot split total OT)",
+      "passed": true,
+      "evidence": "software_exceptions.md row 2: box 14 total OT, silent, enter 3,150 in Sch 1-A overtime input for Axcess and ProConnect."
+    },
+    {
+      "text": "[swx EVG1001-SX3] Sch 1-A car-loan interest input limited to F-150 $2,452 with VIN",
+      "passed": true,
+      "evidence": "software_exceptions.md row 3: F-150 only 2,452.18 with VIN; CR-V 1,104.77 not entered."
+    },
+    {
+      "text": "[filing] Federal Form 1040 MFJ listed with correct method (e-file); no TX state/local return",
+      "passed": true,
+      "evidence": "04_file/filing_package.json: federal 1040 MFJ e-file; states [] with TX and local listed under not_required. Due shown as 10/15/2026 'if extended' because environment date is 10/12/2026 - see eval_feedback."
+    },
+    {
+      "text": "[filing] No required filing missing and no unnecessary return filed",
+      "passed": true,
+      "evidence": "filing_package.json: only federal 1040; no state/local/FBAR/separate filings; forms list (Sch 1-A, 8812, 2441, 8889) complete."
+    },
+    {
+      "text": "[open items] Intake/prep identified the open items and organizer conflicts a careful preparer would, without inventing facts",
+      "passed": true,
+      "evidence": "01_intake/intake_memo.md + open_items_email.md: newborn vs organizer, Ally organizer blank vs PY, duplicate W-2, OT basis, HSA distribution use, childcare total conflict (5,400 vs 8,200 vs 9,600), F-150 personal use. All assumptions labelled; no invented facts."
+    },
+    {
+      "text": "[line accuracy] 30/30 key 1040 lines within $2",
+      "passed": true,
+      "evidence": "score.json final 30/30, line_accuracy 1.0"
+    },
+    {
+      "text": "[bottom line] refund/due within $5 (expected 5,686, got 5,686)",
+      "passed": true,
+      "evidence": "score.json bottom_line_got 5,686, error 0"
+    }
+  ],
+  "summary": {
+    "passed": 16,
+    "failed": 0,
+    "total": 16,
+    "pass_rate": 1.0
+  },
+  "by_category": {
+    "gotcha": [
+      8,
+      8
+    ],
+    "swx": [
+      3,
+      3
+    ],
+    "filing": [
+      2,
+      2
+    ],
+    "open_items": [
+      1,
+      1
+    ],
+    "lines": [
+      2,
+      2
+    ]
+  },
+  "weaknesses": [
+    "Review stage collapsed into a self-check (no subagent available): pre-review and final are identical and the reviewer approved with FYIs only - fine here because the prep was right, but the review added no independent challenge.",
+    "Software-exception log mixes true software defaults (duplicate W-2, OT input, car-loan input) with pure tax-judgment items (newborn dependent, Form 2441 expense selection), and states SX1 as the overstatement delta rather than the corrected input value - dilutes the log for the signer.",
+    "Filing package keyed off the environment date (10/12/2026) rather than the engagement timeline, so the due date became '10/15/2026 if extended' and an extension-verification blocker was raised."
+  ],
+  "eval_feedback": {
+    "overall": "Clean case. The run's date context (system date 10/12/2026, 5498-SA logged 05/20/2026) leads agents to question extension status; the key shows filed 04/06/2026. Consider fixing the eval's 'today' date to Feb-Apr 2026 so filing-timing items are not spurious. Ally 1099-INT is already in the PBC, so G2 only tests that it is included, not that the preparer requests it."
+  }
+}

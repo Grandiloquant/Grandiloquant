@@ -54,8 +54,8 @@ ITEMS = [
         manual_calc="Yes",
         axcess_fix="Schedule 1-A qualified tips inputs (W-2 and Schedule C activity - verify field paths in current release): W-2 "
                    "social-security tips $24,600 + Form 4137 tips $1,600 + rideshare rider tips $2,860 (limited to Schedule C net "
-                   "$16,647 - not limiting) = $29,060; deduction capped at $25,000. Occupation: bartender / rideshare driver "
-                   "(both on Treasury's list). MAGI $61,471 < $150,000.",
+                   "$16,911 - not limiting) = $29,060; deduction capped at $25,000. Occupation: bartender / rideshare driver "
+                   "(both on Treasury's list). MAGI $61,716 < $150,000.",
         amount=25000,
         proconnect_default="Same - computed from the qualified tip amounts entered on each source screen.",
         proconnect_fix="Enter qualified tips on the W-2 / Form 4137 and Schedule C (rideshare) Schedule 1-A inputs; confirm line 13b "

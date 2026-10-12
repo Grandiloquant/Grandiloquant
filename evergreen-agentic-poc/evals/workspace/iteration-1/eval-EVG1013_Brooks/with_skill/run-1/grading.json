@@ -1,0 +1,125 @@
+{
+ "expectations": [
+  {
+   "text": "[gotcha EVG1013-G1] Late 83(b) (postmarked 12/10 vs 12/03 deadline) invalid - no $8,000 2025 income; client advised",
+   "passed": true,
+   "evidence": "prep_notes item 5; intake_memo item 3; SE-5; review point 4; client letter referral to Loomwork counsel. No 1h/8 income (score.json)."
+  },
+  {
+   "text": "[gotcha EVG1013-G2] NSO same-day sale: 8949 box A code B adjustment ($22,000) -> loss ($25)",
+   "passed": true,
+   "evidence": "prep_notes item 3; SE-1; line 7 = (25)."
+  },
+  {
+   "text": "[gotcha EVG1013-G3] E*TRADE supplement not entered as a second sale",
+   "passed": true,
+   "evidence": "review tickmark PBC/05 'used as support - same transactions, not additional'; intake table 'informational'."
+  },
+  {
+   "text": "[gotcha EVG1013-G4] ISO spread $50,000 on Form 6251 -> AMT $4,346; AMT basis $56,000; MTC carryforward $4,346",
+   "passed": true,
+   "evidence": "prep_notes item 4 and Carryforwards; review point 2 (deferral re-derived); line 17 = 4,346."
+  },
+  {
+   "text": "[gotcha EVG1013-G5] HSA: $0 deduction for the $1,000 excess; timely withdrawal -> no 5329; $38 taxable 2026; 8889 filed",
+   "passed": true,
+   "evidence": "prep_notes item 7; SE-4; review point 3; filing_package not_required Form 5329."
+  },
+  {
+   "text": "[gotcha EVG1013-G6] No Form 2210 penalty (100% PY safe harbor); $6,000 extension payment on Sch 3 line 10",
+   "passed": true,
+   "evidence": "prep_notes item 9; filing_package not_required Form 2210; review point 1 asks to confirm $6,000 payment."
+  },
+  {
+   "text": "[gotcha EVG1013-G7] IL base = federal AGI $165,959, exemption $2,850, tax $8,074, refund $76; no Chicago tax",
+   "passed": true,
+   "evidence": "final/state_returns.json."
+  },
+  {
+   "text": "[swx EVG1013-SX1] NSO 1099-B basis: code B adjustment ($22,000); supplement not entered",
+   "passed": true,
+   "evidence": "software_exceptions.md SE-1 (Dispositions, code B, -22,000)."
+  },
+  {
+   "text": "[swx EVG1013-SX2] Form 3921 not imported - enter $50,000 ISO AMT adjustment; MTC $4,346; AMT basis tracking",
+   "passed": true,
+   "evidence": "SE-2 (Form 6251 line 2i / 3921 input, 50,000, AMT 4,346) and SE-3 (MTC and AMT basis carryforward)."
+  },
+  {
+   "text": "[swx EVG1013-SX3] HSA excess withdrawn timely - suppress Form 5329, no deduction for $1,000",
+   "passed": true,
+   "evidence": "SE-4 ($1,000 excess, $60 excise avoided, participant contributions 0)."
+  },
+  {
+   "text": "[swx EVG1013-SX4] Form 2210 needs 2024 tax $23,526 / AGI input so the PY safe harbor applies (penalty $0)",
+   "passed": false,
+   "evidence": "Safe harbor computed correctly in prep_notes item 9, but software_exceptions.md has no 2210 entry - the silent fallback to 90% of current-year tax (draft penalty) is not anticipated."
+  },
+  {
+   "text": "[filing] Form 4868 extension recognised ($6,000 payment credited)",
+   "passed": true,
+   "evidence": "intake_memo; filing_package federal due 'Form 4868 filed 04/13/2026'; Sch 3 line 10 6,000."
+  },
+  {
+   "text": "[filing] Form 1040 listed (e-file, due 10/15/2026)",
+   "passed": true,
+   "evidence": "filing_package federal e-file."
+  },
+  {
+   "text": "[filing] IL-1040 resident listed (e-file)",
+   "passed": true,
+   "evidence": "filing_package states IL-1040 e-file."
+  },
+  {
+   "text": "[filing] No required filing missing and no unnecessary return filed",
+   "passed": true,
+   "evidence": "Chicago, FBAR/8938, 5329, 2210, 8801 (2025) correctly not filed; 15620 not attached."
+  },
+  {
+   "text": "[open items] Intake/prep identified the real open items and conflicts without inventing facts",
+   "passed": true,
+   "evidence": "intake_memo: $6,000 extension payment unconfirmed (receipt log only), organizer interest estimate superseded, 83(b) date conflict; no invented facts."
+  },
+  {
+   "text": "[line accuracy] 30/30 key 1040 lines within $2",
+   "passed": true,
+   "evidence": "score.json final line_accuracy 1.0"
+  },
+  {
+   "text": "[bottom line] refund/due within $5 (expected 357, got 357)",
+   "passed": true,
+   "evidence": "score.json"
+  }
+ ],
+ "summary": {
+  "passed": 17,
+  "failed": 1,
+  "total": 18,
+  "pass_rate": 0.944
+ },
+ "by_category": {
+  "gotcha": [
+   7,
+   7
+  ],
+  "swx": [
+   3,
+   4
+  ],
+  "filing": [
+   5,
+   5
+  ],
+  "lines": [
+   2,
+   2
+  ]
+ },
+ "weaknesses": [
+  "Exceptions handled by manual computation (2210 safe harbor) are not logged as software exceptions; the log only covers items the run itself had to key, missing the 'software lacks PY data -> wrong default' class.",
+  "Review is performed by the same agent (no subagent available); it re-derived figures but found nothing - limited independent challenge."
+ ],
+ "eval_feedback": {
+  "overall": "Key is consistent with the documents. required_filings lists Form 4868 as already filed (04/13/2026) - graded as 'extension recognised and $6,000 payment credited'. Both runs match all lines; differentiation on this client comes only from the software-exception log. SX4 (Form 2210 needs 2024 tax/AGI input) is an input-level exception that a run computing the safe harbor by hand will naturally not log - consider whether the key expects it in the log or just a $0 penalty."
+ }
+}

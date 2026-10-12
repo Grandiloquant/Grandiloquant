@@ -1,0 +1,121 @@
+{
+  "expectations": [
+    {
+      "text": "[gotcha EVG1003-G1] Form 4137 / line 1c uses actual diary tips $1,600, not W-2 box 8 allocated $2,900",
+      "passed": true,
+      "evidence": "run/notes.md 'Wages and tips': adequate contemporaneous diary, Reg. 31.6053-3 / Form 4137 instructions; line 1c 1,600; box 7 tie-out. 1z = 46,000 (score.json)."
+    },
+    {
+      "text": "[gotcha EVG1003-G2] Form 4137 SS/Medicare $122 on Schedule 2 line 5 (no SE tax on tips)",
+      "passed": true,
+      "evidence": "notes.md: Form 4137 1,600 x 7.65% = 122.40; tips counted toward SS base for SE (W-2 SS wages + SS tips + 4137 tips)."
+    },
+    {
+      "text": "[gotcha EVG1003-G3] Commuting miles (4,180) excluded; business miles 15,145 x $0.70 + tolls",
+      "passed": true,
+      "evidence": "notes.md 'Schedule C' table and bullet: 4,180 commuting excluded (Rev. Rul. 99-7), 15,145 x 0.70 = 10,601.50, tolls 340."
+    },
+    {
+      "text": "[gotcha EVG1003-G4] Sch C gross = 1099-K $38,720 + 1099-NEC $1,150 = $39,870, Uber fees $11,140 deducted, duplicate 1099-K excluded",
+      "passed": true,
+      "evidence": "notes.md Sch C table: 1099-K 38,720 (doc 11 duplicate dropped) + NEC 1,150 = 39,870; fees 11,140 deducted; reconciles to deposits 28,730."
+    },
+    {
+      "text": "[gotcha EVG1003-G5] Sch 1-A qualified tips (box 7 + 4137 + rider tips) capped at $25,000; allocated tips not qualified",
+      "passed": true,
+      "evidence": "notes.md 'Schedule 1-A': 24,600 + 1,600 = 26,200 capped at 25,000; notes rider tips 2,860 also qualify but cap already reached. Allocated tips not used. Line 13b = 25,000. Correct result and reasoning."
+    },
+    {
+      "text": "[gotcha EVG1003-G6] No actual car operating costs (gas, insurance, maintenance) on top of standard mileage",
+      "passed": true,
+      "evidence": "notes.md: gas 3,900, GEICO 2,280, maintenance 310 not deducted (covered by rate); car washes correctly treated as covered by the standard rate. The whole $380 (incl. possibly deductible rider water/mints) was excluded pending a split - conservative and documented as open item 1. Legally better than the key on the car-wash portion."
+    },
+    {
+      "text": "[gotcha EVG1003-G7] SE tax computed on Sch C net; QBI = net - 1/2 SE tax, x 20%",
+      "passed": true,
+      "evidence": "notes.md 'Self-employment tax' / QBI: SE on 92.35% of net, half deducted; QBI = net - 1/2 SE = 15,874.72 x 20% = 3,175. Method correct; amounts differ from key only because net differs (dash cam + $380)."
+    },
+    {
+      "text": "[gotcha EVG1003-G8] Form 2210: 100% PY tax ($3,159) safe harbor met with withholding + 2 estimates - no penalty",
+      "passed": true,
+      "evidence": "notes.md 'Payments and Form 2210': lesser of 90% (4,004) or 100% PY (3,159); cumulative installment test shown; no penalty, 2210 not required; 459 identified as PY balance."
+    },
+    {
+      "text": "[swx EVG1003-SX1] Box 8 allocated tips flowing to Form 4137 overridden to actual $1,600",
+      "passed": false,
+      "evidence": "No software_exceptions log produced (baseline). Allocated-tips treatment is in notes.md but no software override documented."
+    },
+    {
+      "text": "[swx EVG1003-SX2] Duplicate Uber 1099-K removed; Sch C gross receipts $39,870",
+      "passed": false,
+      "evidence": "No software_exceptions log produced. Duplicate 1099-K handled as a fact in notes.md, no software input fix."
+    },
+    {
+      "text": "[swx EVG1003-SX3] Sch 1-A qualified tips inputs (W-2 + 4137 + rideshare) entered; deduction $25,000",
+      "passed": false,
+      "evidence": "No software_exceptions log produced. Sch 1-A inputs not documented; rider tips not entered (no effect due to cap)."
+    },
+    {
+      "text": "[filing] Federal Form 1040 Single listed with correct method (e-file); no NV state/local return",
+      "passed": true,
+      "evidence": "04_file/filing_package.json: Federal 1040 Single e-file, due 04/15/2026, balance due 299 via Direct Pay/debit; Nevada and local listed as none."
+    },
+    {
+      "text": "[filing] No required filing missing and no unnecessary return filed",
+      "passed": true,
+      "evidence": "filing_package.json: correct attachments (Sch 1, 1-A, 2, C, SE, 4137, 8995, vehicle info); Form 2210 not required; 2026 1040-ES and NV business-license reminder listed as non-return compliance items, not unnecessary returns."
+    },
+    {
+      "text": "[open items] Intake/prep identified the open items and organizer conflicts a careful preparer would, without inventing facts",
+      "passed": true,
+      "evidence": "notes.md open items: car-wash vs supplies split, filing timing, dash cam %, phone %; organizer conflicts (net Uber, commuting, actual costs, 459 PY payment) resolved in notes. NV business-license item framed as 'confirm', not asserted as fact."
+    },
+    {
+      "text": "[line accuracy] 30/30 key 1040 lines within $2",
+      "passed": false,
+      "evidence": "score.json final 21/30 - misses on lines 8, 9, 10, 11, 13a, 15, 16, 23, 24, all from Sch C net 17,081 vs key 16,647 (dash cam 95 vs 149, $380 car washes/supplies excluded)."
+    },
+    {
+      "text": "[bottom line] refund/due within $5 (expected -201, got -299)",
+      "passed": false,
+      "evidence": "score.json bottom_line_error -98; caused by the dash-cam allocation (-54 deduction) and the excluded $380 (both defensible, see eval_feedback)."
+    }
+  ],
+  "summary": {
+    "passed": 11,
+    "failed": 5,
+    "total": 16,
+    "pass_rate": 0.688
+  },
+  "by_category": {
+    "gotcha": [
+      8,
+      8
+    ],
+    "swx": [
+      0,
+      3
+    ],
+    "filing": [
+      2,
+      2
+    ],
+    "open_items": [
+      1,
+      1
+    ],
+    "lines": [
+      0,
+      2
+    ]
+  },
+  "weaknesses": [
+    "No software-exception log: tax reasoning is strong but never mapped to software inputs/overrides (allocated tips -> 4137 override, duplicate 1099-K, Sch 1-A tip inputs).",
+    "Lumped mixed-character expense ($380 car washes / rider water & mints) excluded entirely instead of estimating a split - legally safe on car washes but forgoes the deductible supplies portion with no estimate offered.",
+    "No staged intake/review artifacts or client open-items email; open items exist only in notes.",
+    "Filing timing keyed off the environment date (10/12/2026), raising a spurious extension/late-filing item."
+  ],
+  "eval_feedback": {
+    "overall": "Key deducts the full $149 dash cam and full $380 car washes / rider supplies on top of standard mileage. Car washes are covered by the standard mileage rate, so excluding them is legally better than the key; allocating the dash cam by business use (63.8%) is equally defensible. The $98 bottom-line difference and 9 line misses are entirely from these two items, so they reflect the key's position rather than run errors. Excluding the rider-supply portion is conservative; ideally the run would have estimated it. Baseline was not asked for a software-exception log."
+  }
+}

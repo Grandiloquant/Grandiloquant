@@ -386,8 +386,13 @@ facts = {
 }
 # NIIT: interest + dividends + net capital gain (qualified-plan distribution and muni interest excluded)
 pre = Return1040(dict(facts)).compute()
-NII = pre.values["2b"] + pre.values["3b"] + pre.values["7"]
-facts["niit"] = {"nii": NII}
+NII_GROSS = pre.values["2b"] + pre.values["3b"] + pre.values["7"]
+# Form 8960 line 9b: state/local income tax allocable to NII (Reg. 1.1411-4(f)(3)(iii)) - only the income-tax share of the
+# SALT actually deducted on Schedule A (capped), allocated by NII / AGI
+SALT_DEDUCTED = min(pre.values["salt_cap_applied"], SALT_INCOME + sum(RE_TAX.values()))
+L9B = round(SALT_DEDUCTED * SALT_INCOME / (SALT_INCOME + sum(RE_TAX.values())) * NII_GROSS / pre.values["11"], 2)
+NII = NII_GROSS - L9B
+facts["niit"] = {"nii": NII, "gross": NII_GROSS, "deductions": L9B}
 R = Return1040(facts).compute()
 v = R.values
 sd = v["sch_d"]
@@ -644,8 +649,9 @@ C.write_notes(f"""
    MAGI {fmt(v['11'])} is over $500,000 -> SALT cap = $40,000 - 30% of the excess = below the floor -> **$10,000**. Mortgage $11,240 +
    charity $15,000 -> itemized {fmt(v['12e'])} > standard $31,500. AMT checked - none (tentative minimum tax below regular tax).
 9. **Additional Medicare / NIIT.** Medicare wages $506,000 - $250,000 = $256,000 x 0.9% = {fmt(R.forms_value('Schedule 2', '11'))}; Keystone withheld
-   0.9% over $200,000 ($2,169 - Form 8959 line 24, included on line 25c). NII = interest + dividends + net capital gain = {fmt(NII)} (the 401(k)
-   distribution and muni interest are excluded) -> NIIT {fmt(v.get('niit', 0))}.
+   0.9% over $200,000 ($2,169 - Form 8959 line 24, included on line 25c). NII = interest + dividends + net capital gain = {fmt(NII_GROSS)} (the 401(k)
+   distribution and muni interest are excluded), less state income tax allocable to NII on Form 8960 line 9b
+   ({fmt(L9B)} = income-tax share of the capped SALT deduction x NII/AGI) = {fmt(NII)} -> NIIT {fmt(v.get('niit', 0))}.
 10. **Estimated tax penalty.** None - 4 x $8,000 timely estimates plus withholding (treated as paid evenly) meet 25% of the required annual
     payment each quarter (90% of 2025 tax {fmt(r(REQ_90))} is less than 110% of 2024 tax {fmt(r(PY_110))}). Workbook tab 8.
 

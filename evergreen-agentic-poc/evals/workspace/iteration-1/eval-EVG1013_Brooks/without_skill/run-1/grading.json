@@ -1,0 +1,125 @@
+{
+ "expectations": [
+  {
+   "text": "[gotcha EVG1013-G1] Late 83(b) (postmarked 12/10 vs 12/03 deadline) invalid - no $8,000 2025 income; client advised",
+   "passed": true,
+   "evidence": "notes.md item 4 (no 9100 relief, cancel-and-regrant with counsel, do not attach 15620)."
+  },
+  {
+   "text": "[gotcha EVG1013-G2] NSO same-day sale: 8949 box A code B adjustment ($22,000) -> loss ($25)",
+   "passed": true,
+   "evidence": "notes.md item 2; line 7 = (25)."
+  },
+  {
+   "text": "[gotcha EVG1013-G3] E*TRADE supplement not entered as a second sale",
+   "passed": true,
+   "evidence": "Only one sale on the return (line 7 = -25); supplement referenced as support for the W-2 spread (notes item 1). Duplicate risk not explicitly discussed."
+  },
+  {
+   "text": "[gotcha EVG1013-G4] ISO spread $50,000 on Form 6251 -> AMT $4,346; AMT basis $56,000; MTC carryforward $4,346",
+   "passed": true,
+   "evidence": "notes.md item 3."
+  },
+  {
+   "text": "[gotcha EVG1013-G5] HSA: $0 deduction for the $1,000 excess; timely withdrawal -> no 5329; $38 taxable 2026; 8889 filed",
+   "passed": true,
+   "evidence": "notes.md item 5; filing_package not_filed Form 5329; 8889 attached."
+  },
+  {
+   "text": "[gotcha EVG1013-G6] No Form 2210 penalty (100% PY safe harbor); $6,000 extension payment on Sch 3 line 10",
+   "passed": true,
+   "evidence": "notes.md item 8 and result table (extension payment 6,000)."
+  },
+  {
+   "text": "[gotcha EVG1013-G7] IL base = federal AGI $165,959, exemption $2,850, tax $8,074, refund $76; no Chicago tax",
+   "passed": true,
+   "evidence": "notes.md Illinois section; filing_package."
+  },
+  {
+   "text": "[swx EVG1013-SX1] NSO 1099-B basis: code B adjustment ($22,000); supplement not entered",
+   "passed": false,
+   "evidence": "No software-exception log produced (baseline)."
+  },
+  {
+   "text": "[swx EVG1013-SX2] Form 3921 not imported - enter $50,000 ISO AMT adjustment; MTC $4,346; AMT basis tracking",
+   "passed": false,
+   "evidence": "No software-exception log produced."
+  },
+  {
+   "text": "[swx EVG1013-SX3] HSA excess withdrawn timely - suppress Form 5329, no deduction for $1,000",
+   "passed": false,
+   "evidence": "No software-exception log produced."
+  },
+  {
+   "text": "[swx EVG1013-SX4] Form 2210 needs 2024 tax $23,526 / AGI input so the PY safe harbor applies (penalty $0)",
+   "passed": false,
+   "evidence": "No software-exception log produced."
+  },
+  {
+   "text": "[filing] Form 4868 extension recognised ($6,000 payment credited)",
+   "passed": true,
+   "evidence": "filing_package extension_on_file 4868 04/13/2026 $6,000."
+  },
+  {
+   "text": "[filing] Form 1040 listed (e-file, due 10/15/2026)",
+   "passed": true,
+   "evidence": "filing_package."
+  },
+  {
+   "text": "[filing] IL-1040 resident listed (e-file)",
+   "passed": true,
+   "evidence": "filing_package."
+  },
+  {
+   "text": "[filing] No required filing missing and no unnecessary return filed",
+   "passed": true,
+   "evidence": "Chicago none; 15620, 5329, 2210, 8801 correctly not filed."
+  },
+  {
+   "text": "[open items] Intake/prep identified the real open items and conflicts without inventing facts",
+   "passed": true,
+   "evidence": "notes.md Open items: earlier 83(b) mailing, client advice, IL exemption verification. Did not ask for confirmation of the $6,000 extension payment (receipt log only) - minor."
+  },
+  {
+   "text": "[line accuracy] 30/30 key 1040 lines within $2",
+   "passed": true,
+   "evidence": "score.json final line_accuracy 1.0"
+  },
+  {
+   "text": "[bottom line] refund/due within $5 (expected 357, got 357)",
+   "passed": true,
+   "evidence": "score.json"
+  }
+ ],
+ "summary": {
+  "passed": 14,
+  "failed": 4,
+  "total": 18,
+  "pass_rate": 0.778
+ },
+ "by_category": {
+  "gotcha": [
+   7,
+   7
+  ],
+  "swx": [
+   0,
+   4
+  ],
+  "filing": [
+   5,
+   5
+  ],
+  "lines": [
+   2,
+   2
+  ]
+ },
+ "weaknesses": [
+  "No software-exception log (baseline): correct manual treatments (code B, ISO AMT, HSA excess, 2210) are not translated into software inputs/overrides.",
+  "Payment evidence accepted from the receipt log without flagging the need to verify the $6,000 extension payment before e-file."
+ ],
+ "eval_feedback": {
+  "overall": "Key is consistent with the documents. required_filings lists Form 4868 as already filed (04/13/2026) - graded as 'extension recognised and $6,000 payment credited'. Both runs match all lines; differentiation on this client comes only from the software-exception log. SX4 (Form 2210 needs 2024 tax/AGI input) is an input-level exception that a run computing the safe harbor by hand will naturally not log - consider whether the key expects it in the log or just a $0 penalty."
+ }
+}

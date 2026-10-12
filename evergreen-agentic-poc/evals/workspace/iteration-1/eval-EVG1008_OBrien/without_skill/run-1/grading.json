@@ -1,0 +1,131 @@
+{
+ "expectations": [
+  {
+   "text": "[gotcha EVG1008-G1] Duplex 1098 (box 8 rental address) interest $9,860 / escrow taxes $5,420 on Sch E, not Sch A; standard deduction",
+   "passed": true,
+   "evidence": "notes.md duplex table (mortgage interest 9,860 from 1098; taxes 5,420) and Deductions ('Duplex RE tax/insurance are rental only'); 12e = 31,500."
+  },
+  {
+   "text": "[gotcha EVG1008-G2] Roof $14,000 capitalized 27.5-yr ($276); water heater de minimis with election; window repair",
+   "passed": true,
+   "evidence": "notes.md duplex table: roof 27.5 SL MM June 2025 $276 (Reg. 1.263(a)-3(k); small-taxpayer safe harbor unavailable), water heater de minimis with statement, window repair."
+  },
+  {
+   "text": "[gotcha EVG1008-G3] Cabin sec. 280A residence: 21 personal days incl. brother's free stay, repair weekend excluded, 62/83 allocation, net $0, carryforward",
+   "passed": true,
+   "evidence": "notes.md cabin section: 21 days (brother counted, deck weekend excluded), 62/83, Worksheet 5-1, net 0, Bolton tested. 27.5-yr life as in key; carryforward depreciation $4,195 vs key operating 260 + depreciation 4,244 (operating ordering differs slightly) - immaterial, no 2025 effect."
+  },
+  {
+   "text": "[gotcha EVG1008-G4] PY $6,200 suspended loss pulled from PERM; allowance phased out; $9,407 to 2026",
+   "passed": true,
+   "evidence": "notes.md Passive (Form 8582): 3,207 + 6,200 = 9,407 suspended; MAGI > 150k."
+  },
+  {
+   "text": "[gotcha EVG1008-G5] AOTC $1,040 ($416 refundable) after scholarship and phase-out; Emma ODC $500, Connor CTC $2,200",
+   "passed": true,
+   "evidence": "notes.md Credits; lines 19/29 match (score.json)."
+  },
+  {
+   "text": "[gotcha EVG1008-G6] Escrow statement used as support only - duplex interest/taxes not doubled",
+   "passed": true,
+   "evidence": "Interest from 1098 once; taxes/insurance from escrow statement once. Duplicate risk not explicitly discussed."
+  },
+  {
+   "text": "[gotcha EVG1008-G7] PA-40: compensation from box 16 $189,300, rents-class loss not netted, tax $5,823",
+   "passed": true,
+   "evidence": "notes.md Pennsylvania section: box 16 $189,300, rents class loss -> $0, $5,823, ~$12 due."
+  },
+  {
+   "text": "[swx EVG1008-SX1] Duplex 1098 autoflow to Sch A (and escrow summary duplicate) - move $9,860 interest/$5,420 taxes to Sch E",
+   "passed": false,
+   "evidence": "No software-exception log produced (baseline). Treatment correct in notes but no software input/override documented."
+  },
+  {
+   "text": "[swx EVG1008-SX2] Roof coded Repairs -> Form 4562 asset 27.5-yr ($276); de minimis election for water heater",
+   "passed": false,
+   "evidence": "No software-exception log produced."
+  },
+  {
+   "text": "[swx EVG1008-SX3] 8582 PY unallowed loss $6,200 input (regular and AMT); $9,407 to 2026",
+   "passed": false,
+   "evidence": "No software-exception log produced."
+  },
+  {
+   "text": "[swx EVG1008-SX4] Cabin vacation-home input: 62 rental / 21 personal days; net $0",
+   "passed": false,
+   "evidence": "No software-exception log produced."
+  },
+  {
+   "text": "[swx EVG1008-SX5] PA compensation must come from W-2 box 16 ($189,300); rents-class loss not netted",
+   "passed": false,
+   "evidence": "No software-exception log produced."
+  },
+  {
+   "text": "[filing] Form 1040 listed (e-file)",
+   "passed": true,
+   "evidence": "04_file/filing_package.json Federal e-file."
+  },
+  {
+   "text": "[filing] PA-40 resident listed (e-file)",
+   "passed": true,
+   "evidence": "filing_package Pennsylvania PA-40 e-file."
+  },
+  {
+   "text": "[filing] Manheim Twp EIT final return noted (LCTCB)",
+   "passed": true,
+   "evidence": "filing_package local EIT final return; notes say admin files per client profile."
+  },
+  {
+   "text": "[filing] No required filing missing and no unnecessary return filed",
+   "passed": true,
+   "evidence": "Federal, PA, local; not_required lists estimates, FBAR/8938, 8959/8960, occupancy tax (VRBO remits) - reasonable."
+  },
+  {
+   "text": "[open items] Intake/prep identified the real open items and conflicts without inventing facts",
+   "passed": true,
+   "evidence": "notes.md Open items: duplicate $1,900 line, cabin FMV, books receipt, charity, extension status. Did not flag the 2024 CTC overclaim for Emma (the with-skill run did)."
+  },
+  {
+   "text": "[line accuracy] 30/30 key 1040 lines within $2",
+   "passed": true,
+   "evidence": "score.json final line_accuracy 1.0"
+  },
+  {
+   "text": "[bottom line] refund/due within $5 (expected 2,772, got 2,772)",
+   "passed": true,
+   "evidence": "score.json"
+  }
+ ],
+ "summary": {
+  "passed": 14,
+  "failed": 5,
+  "total": 19,
+  "pass_rate": 0.737
+ },
+ "by_category": {
+  "gotcha": [
+   7,
+   7
+  ],
+  "swx": [
+   0,
+   5
+  ],
+  "filing": [
+   5,
+   5
+  ],
+  "lines": [
+   2,
+   2
+  ]
+ },
+ "weaknesses": [
+  "No software-exception log (baseline was not asked for one): all technically correct overrides live only in narrative notes, so nothing tells a software operator where the silent defaults (1098 autoflow, ledger repairs, 8582 carryover input, 280A days, PA box 16) must be overridden.",
+  "No prior-year review: PY return was used for the carryover but not checked for errors (missed the 2024 CTC overclaim for Emma).",
+  "No intake/review stage outputs (no separate open-items email, no review points) - quality relies on a single pass."
+ ],
+ "eval_feedback": {
+  "overall": "Cabin recovery period: the key depreciates the VRBO cabin as 27.5-yr residential rental ($250,000 x 2.273% x 74.70% = $4,244 carryforward). Under sec. 168(e)(2)(A) and Reg. 1.168(e)-1 / the 'dwelling unit' definition, a unit where more than half the rental use is transient (14 stays averaging ~4.4 nights) is not a dwelling unit, so 39-yr nonresidential is the stronger legal position. The key should accept either, or adopt 39-yr. Also: the key keeps Jan-Apr (pre-conversion, personal) cabin utilities/insurance in the 280A allocation (operating carryforward $260); excluding pre-rental months is at least as defensible. 2025 tax is unaffected either way (depreciation limited to ~$0-773); only the sec. 280A carryforward differs. The key's itemized total $26,545 vs runs' $26,649 ($104) is immaterial (standard wins). The 2024 Sch 8812 issue (CTC for Emma, 17 at 12/31/2024) is a genuine PY error the key does not mention - consider adding it as a bonus/review item. carryforwards_to_2026 is empty though $9,407 passive and the 280A carryover exist."
+ }
+}

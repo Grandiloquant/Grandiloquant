@@ -26,6 +26,9 @@ Go through every section the return touches. Each bullet is a question to answer
 * Installment sales: Form 6252 gross-profit % x principal received in 2025 only; interest separately.
 * Constructive sales (§1259), reorganisation boot (§356), liquidations (§331), worthless stock (§165(g) - last day of year), §1244 ordinary loss ($50k/$100k MFJ).
 
+## E0. Organizer lines that lump different kinds of costs together
+* Deduct the clearly deductible part, leave out the clearly non-deductible part (e.g. car washes under standard mileage), make a reasonable documented estimate only if the documents support one, and ask the client for the split. Don't deduct the whole lump "pending a split".
+
 ## E. Schedule C (SOP: Schedule C)
 * Cash basis for tax (convert accrual books: A/R, A/P changes). Personal expenses out; meals 50%; gifts $25/person; club dues out; de minimis safe harbor ($2,500) vs capitalize/depreciate (bonus/179); vehicle - standard mileage OR actual, not both, commuting excluded.
 * Prior-year AJEs booked? Tax-prep fee proration to Sch C. 1099s filed for contractors (> $600; "did you file" box)? New business box?
@@ -72,4 +75,6 @@ Go through every section the return touches. Each bullet is a question to answer
 * Withholding ties to forms (incl. 1099-R, W-2G, 1042-S, Additional Medicare); estimates actually paid (dates!); prior-year overpayment applied; extension payment; Form 2210 (lesser of 90% / 100%-110%); 2026 estimate recommendation (110% if 2025 AGI > $150k).
 
 ## M. States and locals (SOP: SALT Implications, States)
+* Wage base per state (box 16 for the state shown vs box 1 for others; deferrals; severance/vacation sourcing) reconciled before applying any workday ratio.
+* Before listing a nonresident return, test that state's filing threshold / de minimis day rule / reciprocity - and list the returns you decided NOT to file, with the reason.
 * Residency all year; part-year moves; nonresident sources (workdays - check reciprocity, de minimis days, convenience rules; K-1 apportionment; gambling location; rental location); resident credit for taxes paid to other states; local city returns; state modifications (US interest, retirement exclusions, bonus addbacks).

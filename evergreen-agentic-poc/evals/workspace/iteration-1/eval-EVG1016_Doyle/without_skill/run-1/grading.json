@@ -1,0 +1,148 @@
+{
+ "expectations": [
+  {
+   "text": "[gotcha EVG1016-G1] HOH (married at 12/31/2025 but considered unmarried), not Single/MFS",
+   "passed": true,
+   "evidence": "final/return.json HOH; notes.md Key judgments 1 lists all considered-unmarried tests"
+  },
+  {
+   "text": "[gotcha EVG1016-G2] Post-2018 spousal support and child support not reported",
+   "passed": true,
+   "evidence": "line 8 = 0; notes.md item 2"
+  },
+  {
+   "text": "[gotcha EVG1016-G3] CTC for Nora only ($2,200); Liam still counts for HOH and Form 2441",
+   "passed": true,
+   "evidence": "line 19 2,200; notes.md items 4-5 (2441 both children under 21(e)(5))"
+  },
+  {
+   "text": "[gotcha EVG1016-G4] QDRO $30,000 on line 5b, Form 5329 exception 04, no 10% tax, $6,000 WH on 25b",
+   "passed": true,
+   "evidence": "5b 30,000; notes.md item 3 (5329 exception 04)"
+  },
+  {
+   "text": "[gotcha EVG1016-G5] Full $4,860 box 14 premium deducted on Sch 1-A (not 1/3); HOH not barred by joint-return rule",
+   "passed": true,
+   "evidence": "13b 4,860; notes.md item 6"
+  },
+  {
+   "text": "[gotcha EVG1016-G6] MI exemptions 2 x $5,800 (Liam follows federal 8332 release)",
+   "passed": true,
+   "evidence": "notes.md State: exemptions 2 x 5,800 = 11,600"
+  },
+  {
+   "text": "[gotcha EVG1016-G7] Grand Rapids GR-1040R required; QDRO distribution city-taxable; $451 due 04/30/2026",
+   "passed": true,
+   "evidence": "notes.md GR: premature distribution (code 1) taxable to city, tax ~1,762, due ~451; flagged for reviewer"
+  },
+  {
+   "text": "[gotcha EVG1016-G8] Brian's W-2 not used",
+   "passed": true,
+   "evidence": "1z 88,600; notes.md item 8"
+  },
+  {
+   "text": "[swx EVG1016-SX1] 1099-R code 1 QDRO: line 5 not IRA, Form 5329 exception 04 on $30,000",
+   "passed": false,
+   "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+  },
+  {
+   "text": "[swx EVG1016-SX2] Liam coded as 8332-released: HOH/2441 yes, CTC no ($2,200)",
+   "passed": false,
+   "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+  },
+  {
+   "text": "[swx EVG1016-SX3] Sch 1-A qualified overtime input = $4,860 (premium already isolated)",
+   "passed": false,
+   "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+  },
+  {
+   "text": "[swx EVG1016-SX4] MI exemption override to 2 ($11,600) because Liam stays on federal dependent input",
+   "passed": false,
+   "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+  },
+  {
+   "text": "[swx EVG1016-SX5] GR-1040R: include the $30,000 code-1 distribution in city income (not exempt pension) -> $1,762",
+   "passed": false,
+   "evidence": "No software_exceptions.md produced (baseline); issue not logged as a software exception."
+  },
+  {
+   "text": "[filing] Federal 1040 HOH listed (e-file)",
+   "passed": true,
+   "evidence": "04_file/filing_package.json federal e-file"
+  },
+  {
+   "text": "[filing] MI-1040 listed (e-file)",
+   "passed": true,
+   "evidence": "filing_package.json states MI-1040 e-file"
+  },
+  {
+   "text": "[filing] Grand Rapids GR-1040R listed, due 04/30/2026, $451",
+   "passed": true,
+   "evidence": "filing_package.json GR-1040R e-file, due 2026-04-30, 451"
+  },
+  {
+   "text": "[filing] No required filing missing and no unnecessary return filed",
+   "passed": true,
+   "evidence": "Fed + MI + GR only; 8332 correctly not attached; no FBAR/other states"
+  },
+  {
+   "text": "[state] MI-1040 refund $175 (tax $4,550; no 2025 MI overtime subtraction)",
+   "passed": true,
+   "evidence": "notes.md MI: 107,062 x 4.25% = ~4,550, refund ~175 - matches key; no OT subtraction (correct per MI Treasury: 2025 PA 24 applies from TY2026)"
+  },
+  {
+   "text": "[open items] Intake/prep identified real open items/conflicts and did not invent facts",
+   "passed": true,
+   "evidence": "notes.md open items: extension/filing-date check, GR taxability, 2026 W-4; organizer alimony conflict noted. Adequate though no formal intake"
+  },
+  {
+   "text": "[line accuracy] 30/30 key 1040 lines within $2",
+   "passed": true,
+   "evidence": "score.json final 30/30"
+  },
+  {
+   "text": "[bottom line] refund/due within $5 (expected 4,026, got 4,026)",
+   "passed": true,
+   "evidence": "score.json"
+  }
+ ],
+ "summary": {
+  "passed": 16,
+  "failed": 5,
+  "total": 21,
+  "pass_rate": 0.762
+ },
+ "by_category": {
+  "gotcha": [
+   8,
+   8
+  ],
+  "swx": [
+   0,
+   5
+  ],
+  "filing": [
+   4,
+   4
+  ],
+  "state": [
+   1,
+   1
+  ],
+  "open": [
+   1,
+   1
+  ],
+  "lines": [
+   2,
+   2
+  ]
+ },
+ "weaknesses": [
+  "No software-exception log at all (not requested of baseline) - all 5 swx items fail by construction.",
+  "State/local returns are left as 'estimates; prepare in state software' rather than finalized workpapers, though here the estimates match the key exactly."
+ ],
+ "eval_feedback": {
+  "overall": "Baseline got every tax-law item and the MI/GR amounts right; its only losses are the software-exception expectations, which the baseline prompt did not ask for."
+ }
+}

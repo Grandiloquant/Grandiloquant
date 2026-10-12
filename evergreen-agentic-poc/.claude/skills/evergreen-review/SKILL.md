@@ -53,6 +53,12 @@ Reviewer: <role> | Date | Decision: <...>
 ```
 Be specific and dollar-quantified; a vague point ("check Schedule D") wastes the preparer's time.
 
+## Challenge the preparer's "verify" items
+Anything the preparer flagged as uncertain ("from memory", "verify", "assumption") is where reviews add most value.
+Decide it: if the position isn't supported by the reference, the documents or an authority you can cite, reverse it to the
+supported treatment and leave the alternative as a signer question with its dollar effect. Don't approve an unverified
+position just because it was flagged.
+
 ## Calibration
 * A clean return deserves a short review - don't manufacture points. But silence on a risky area should mean you checked it,
   so list it under "reviewed with no exception".

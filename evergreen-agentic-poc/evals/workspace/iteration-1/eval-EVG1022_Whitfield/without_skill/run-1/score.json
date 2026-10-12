@@ -1,13 +1,13 @@
 {
   "client_id": "EVG1022",
   "final": {
-    "line_accuracy": 1.0,
-    "lines_matched": 30,
+    "line_accuracy": 0.933,
+    "lines_matched": 28,
     "lines_total": 30,
-    "bottom_line_expected": 695,
+    "bottom_line_expected": 717,
     "bottom_line_got": 695,
-    "bottom_line_ok": true,
-    "bottom_line_error": 0,
+    "bottom_line_ok": false,
+    "bottom_line_error": -22,
     "status_expected": "MFJ",
     "status_got": "MFJ",
     "status_ok": true,
@@ -184,18 +184,18 @@
       {
         "line": "23",
         "desc": "Other taxes",
-        "expected": 4374,
+        "expected": 4352,
         "got": 4374,
-        "diff": 0,
-        "ok": true
+        "diff": 22,
+        "ok": false
       },
       {
         "line": "24",
         "desc": "Total tax",
-        "expected": 140074,
+        "expected": 140052,
         "got": 140074,
-        "diff": 0,
-        "ok": true
+        "diff": 22,
+        "ok": false
       },
       {
         "line": "25d",
@@ -256,13 +256,13 @@
     ]
   },
   "pre_review": {
-    "line_accuracy": 1.0,
-    "lines_matched": 30,
+    "line_accuracy": 0.933,
+    "lines_matched": 28,
     "lines_total": 30,
-    "bottom_line_expected": 695,
+    "bottom_line_expected": 717,
     "bottom_line_got": 695,
-    "bottom_line_ok": true,
-    "bottom_line_error": 0,
+    "bottom_line_ok": false,
+    "bottom_line_error": -22,
     "status_expected": "MFJ",
     "status_got": "MFJ",
     "status_ok": true,
@@ -439,18 +439,18 @@
       {
         "line": "23",
         "desc": "Other taxes",
-        "expected": 4374,
+        "expected": 4352,
         "got": 4374,
-        "diff": 0,
-        "ok": true
+        "diff": 22,
+        "ok": false
       },
       {
         "line": "24",
         "desc": "Total tax",
-        "expected": 140074,
+        "expected": 140052,
         "got": 140074,
-        "diff": 0,
-        "ok": true
+        "diff": 22,
+        "ok": false
       },
       {
         "line": "25d",

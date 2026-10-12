@@ -1,0 +1,149 @@
+{
+ "expectations": [
+  {
+   "text": "[gotcha EVG1016-G1] HOH (married at 12/31/2025 but considered unmarried), not Single/MFS",
+   "passed": true,
+   "evidence": "final/return.json status HOH, 12e 23,625; prep_notes item 1 (7703(b), Brian out 03/01, 84% cost test)"
+  },
+  {
+   "text": "[gotcha EVG1016-G2] Post-2018 spousal support and child support not reported",
+   "passed": true,
+   "evidence": "line 8 = 0; prep_notes item 5 (TCJA, 2025 instrument)"
+  },
+  {
+   "text": "[gotcha EVG1016-G3] CTC for Nora only ($2,200); Liam still counts for HOH and Form 2441",
+   "passed": true,
+   "evidence": "line 19 2,200, line 20 1,040 (2 qualifying persons); prep_notes item 2 cites 152(e)/Reg 1.21-1(b)(5)"
+  },
+  {
+   "text": "[gotcha EVG1016-G4] QDRO $30,000 on line 5b, Form 5329 exception 04, no 10% tax, $6,000 WH on 25b",
+   "passed": true,
+   "evidence": "5b 30,000, 23 = 0; prep_notes item 4 (72(t)(2)(C))"
+  },
+  {
+   "text": "[gotcha EVG1016-G5] Full $4,860 box 14 premium deducted on Sch 1-A (not 1/3); HOH not barred by joint-return rule",
+   "passed": true,
+   "evidence": "13b 4,860; prep_notes item 7 (employer letter premium-only; HOH not 'married')"
+  },
+  {
+   "text": "[gotcha EVG1016-G6] MI exemptions 2 x $5,800 (Liam follows federal 8332 release)",
+   "passed": true,
+   "evidence": "final/state_returns.json MI exemptions count 2 = 11,600"
+  },
+  {
+   "text": "[gotcha EVG1016-G7] Grand Rapids GR-1040R required; QDRO distribution city-taxable; $451 due 04/30/2026",
+   "passed": true,
+   "evidence": "state_returns.json GR tax 1,762, WH 1,311, due 451. Note: rationale is 'conservative/contribution breakdown unknown' rather than the key's 'code 1 premature distribution is not an exempt pension' - right result, slightly soft reasoning"
+  },
+  {
+   "text": "[gotcha EVG1016-G8] Brian's W-2 not used",
+   "passed": true,
+   "evidence": "line 1z 88,600; prep_notes 'PBC/13 Brian's W-2 - not this client'"
+  },
+  {
+   "text": "[swx EVG1016-SX1] 1099-R code 1 QDRO: line 5 not IRA, Form 5329 exception 04 on $30,000",
+   "passed": true,
+   "evidence": "software_exceptions.md #1: exception code 04, $30,000 / $3,000 avoided (does not explicitly say 'uncheck IRA', but return shows 5b)"
+  },
+  {
+   "text": "[swx EVG1016-SX2] Liam coded as 8332-released: HOH/2441 yes, CTC no ($2,200)",
+   "passed": true,
+   "evidence": "software_exceptions.md #3: code as custodial parent releasing claim, keep 2441, $2,200"
+  },
+  {
+   "text": "[swx EVG1016-SX3] Sch 1-A qualified overtime input = $4,860 (premium already isolated)",
+   "passed": true,
+   "evidence": "software_exceptions.md #5: map box 14 QUAL OT PREM to Sch 1-A input, $4,860 (frames it as a mapping issue, not the divide-by-3 trap, but amount/location right; prep_notes item 7 confirms premium-only)"
+  },
+  {
+   "text": "[swx EVG1016-SX4] MI exemption override to 2 ($11,600) because Liam stays on federal dependent input",
+   "passed": false,
+   "evidence": "Not in software_exceptions.md (rows 1-8 cover 5329, status, Liam CTC, alimony, OT, 1098, Brian W-2, MI OT/GR). Exemption count right in state_returns.json, but the software default (3 exemptions from the dependent screen) is never flagged"
+  },
+  {
+   "text": "[swx EVG1016-SX5] GR-1040R: include the $30,000 code-1 distribution in city income (not exempt pension) -> $1,762",
+   "passed": true,
+   "evidence": "software_exceptions.md #8: 'GR treatment of the QDRO distribution needs manual review in city module', $30,000; state_returns includes it -> 1,762. Thin description of the default behavior"
+  },
+  {
+   "text": "[filing] Federal 1040 HOH listed (e-file)",
+   "passed": true,
+   "evidence": "04_file/filing_package.json federal e-file"
+  },
+  {
+   "text": "[filing] MI-1040 listed (e-file)",
+   "passed": true,
+   "evidence": "filing_package.json states MI-1040 e-file"
+  },
+  {
+   "text": "[filing] Grand Rapids GR-1040R listed, due 04/30/2026, $451",
+   "passed": true,
+   "evidence": "filing_package.json locals: GR-1040R, e-file if supported else paper, due 2026-04-30, 451"
+  },
+  {
+   "text": "[filing] No required filing missing and no unnecessary return filed",
+   "passed": true,
+   "evidence": "Fed + MI + GR only; 8332 correctly not attached; no FBAR/other states"
+  },
+  {
+   "text": "[state] MI-1040 refund $175 (tax $4,550; no 2025 MI overtime subtraction)",
+   "passed": false,
+   "evidence": "state_returns.json applies a $4,860 'MI overtime subtraction' from memory -> tax 4,344, refund 381 (key 175). Flagged 'verify' in prep notes, review point 1 and filing package, but APPLIED and reviewer 'agreed'. Michigan Treasury notice (01/06/2026, 'New deductions for qualified overtime compensation and qualified tips') states 2025 PA 24 makes the overtime/tips deductions available only for TY2026-2028 - NOT for 2025."
+  },
+  {
+   "text": "[open items] Intake/prep identified real open items/conflicts and did not invent facts",
+   "passed": true,
+   "evidence": "intake_memo notes organizer alimony and 'Single' conflicts; open_items_email asks to confirm Brian out after 03/01 and optional plan breakdown; no invented facts"
+  },
+  {
+   "text": "[line accuracy] 30/30 key 1040 lines within $2",
+   "passed": true,
+   "evidence": "score.json final 30/30"
+  },
+  {
+   "text": "[bottom line] refund/due within $5 (expected 4,026, got 4,026)",
+   "passed": true,
+   "evidence": "score.json"
+  }
+ ],
+ "summary": {
+  "passed": 19,
+  "failed": 2,
+  "total": 21,
+  "pass_rate": 0.905
+ },
+ "by_category": {
+  "gotcha": [
+   8,
+   8
+  ],
+  "swx": [
+   4,
+   5
+  ],
+  "filing": [
+   4,
+   4
+  ],
+  "state": [
+   0,
+   1
+  ],
+  "open": [
+   1,
+   1
+  ],
+  "lines": [
+   2,
+   2
+  ]
+ },
+ "weaknesses": [
+  "Applied an unverified state law change from model memory (MI 2025 overtime subtraction) instead of holding it as an open item; reviewer 'agreed' rather than requiring the authority - MI Treasury says the deduction starts TY2026, so MI refund is $381 vs $175. 'Flag but apply' is the wrong default for unverified law: compute the conservative/known position and flag the alternative.",
+  "Software-exception log is organised around federal input issues; state-module defaults derived from federal inputs (MI exemption count from the dependent screen) are handled correctly in the numbers but never logged as an exception.",
+  "Reviewer is the same agent as preparer (self-review), so judgment items flagged by the preparer were rubber-stamped."
+ ],
+ "eval_feedback": {
+  "overall": "Key and dataset consistent. The key's MI refund $175 (no OT subtraction) is correct: Michigan Treasury notice (Jan 2026) confirms 2025 PA 24 overtime/tip deductions apply TY2026-2028 only. Consider adding an explicit gotcha for this since models 'remember' the Oct 2025 MI law."
+ }
+}

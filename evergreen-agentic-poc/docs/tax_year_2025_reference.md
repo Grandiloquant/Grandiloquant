@@ -55,11 +55,15 @@ QBI thresholds. This sheet is for the **judgment calls** the engine can't make.
 * Single + qualifying person -> check HOH.
 
 ## State quick facts (summary-level state returns)
+**Each state has its own wage base - reconcile it before allocating.** W-2 box 16 is the *employer's* state wage figure for the
+state shown (PA box 16 includes 401(k) deferrals because PA taxes them); another state's base usually starts from box 1. When
+you source wages to a nonresident state, start from that state's base, then apply the workday ratio, and say which base you used.
+
 | State | 2025 rule of thumb |
 |---|---|
 | IL | 4.95% flat on federal AGI +/- modifications (US Treasury interest, retirement income and Social Security subtracted); exemption $2,850 each (none if AGI > $250k single / $500k MFJ); IL EIC 20% of federal; property-tax credit 5% (AGI limits). Nonresident employees working 30 or fewer days in IL aren't taxed on that compensation (verify) |
-| MI | 4.25%; exemption $5,800 per person/dependent claimed on the federal return. Cities: Detroit 2.4% resident / 1.2% nonresident ($600 exemption); Grand Rapids 1.5% / 0.75% ($600 exemption). No Michigan tips/overtime subtraction is in this reference for 2025 - don't apply one; flag it |
+| MI | 4.25%; exemption $5,800 per person/dependent claimed on the federal return. Cities: Detroit 2.4% resident / 1.2% nonresident ($600 exemption); Grand Rapids 1.5% / 0.75% ($600 exemption). Michigan's new tips/overtime deductions (2025 PA 24) apply to tax years **2026-2028, not 2025** (MI Treasury notice 01/06/2026) |
 | PA | 3.07% flat on PA income classes (compensation, interest, dividends, net gains, rents...). No standard deduction; losses don't cross classes; retirement distributions after retirement aren't taxable; credit for tax paid to other states on the same income. PA-NJ reciprocity on wages |
 | NC | 4.25%; NC standard deduction $12,750 S / $25,500 MFJ / $19,125 HOH; Social Security subtracted; Bailey-settlement government pensions (5+ years vested by 08/12/1989) exempt; NC adds back 85% of federal bonus depreciation and deducts it 20%/yr over 5 years |
-| MA | 5% (4% surtax above ~$1.08M); nonresidents taxed on MA-source income (wages by MA workdays); exemptions prorated |
+| MA | 5% (4% surtax above ~$1.08M); nonresidents taxed on MA-source income (wages by MA workdays); exemptions prorated. MA wage base starts from federal (W-2 box 1-type) wages - 401(k) deferrals are NOT MA wages |
 | TX, FL, NV, TN, WA, SD, WY, AK, NH | No wage income tax (WA has a 7% capital-gains excise above its standard deduction - check large LTCG) |
