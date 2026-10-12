@@ -1,0 +1,690 @@
+Project Evergreen Draft
+Written by: Shane Kennedy
+Date: September 22, 2026
+Prospecting
+Referrals
+Online Inquiries
+Cold Calls
+Quoting
+Client Onboarding
+Required Onboarding Docs
+Project and State Codes Set-Up
+Rollovers
+Expedited Processing
+Extension Prep
+Document Ingestion/Receipt
+Client Interview
+Engagement Letter
+Requesting Documents/Sending Organizer
+Logistics/Contact/Routing
+Prep, Review and Sign Process
+Prep
+Scan
+Workpapers
+Return
+General Return Prep Notes
+Responding to Review Points
+Installment Sales
+Schedule A
+Schedule B
+Schedule C
+Schedule D
+Schedule E
+Rental Properties
+Schedules K-1
+NIIT
+Foreign Transactions
+Form 1116
+FinCEN114/FBAR
+PFICs
+Foreign Corps
+Foreign Trusts
+Other Reportable Transactions
+Review
+General Review Notes
+Filing Status
+Estate Implications
+Kid Taxes and Filings
+Client IRAs
+SALT Implications
+New State Filing Requirements
+Local Filing Requirements
+Restricted Stock
+QBI (QOFs, QROFs)
+Review Points
+Tax Research
+Hand-Off to Signer
+Sign-Off/Provide to Client/Billing
+Sign-Off
+Billing
+Send to Client
+E-Filing
+Post-Submission Exceptions
+Updating Returns per Client
+E-File Rejects
+Superseded Returns
+Amended Returns
+Paper Filing Returns
+Non-Return Engagements
+Audit Notices/Support
+Projections
+Consultations
+Folder Structures
+Tax Tech Stack
+Glossary of Tax Terms
+Overview of Title 26: Internal Revenue Code (with common research subsections)
+Disclaimers
+# Prospecting
+When searching for new clients, there are a few common sources you’ll find:
+- Referrals
+- Online inquiries
+- Cold Calls
+When searching for clients, the ideal client…
+- Is communicative and collaborative
+- Isn’t constantly complaining about prior CPAs/wealth managers
+- Has returns with at least some complexity (not just W-2s/1099 forms) - see “Quoting” section for further information
+- Keeps good, organized records
+- Has a professional network
+- Is proactive
+- Strong technical skills
+- Potentially has questions/opportunities for non-return work (projections, consultations)
+Once the interview is complete, the firm and client decide whether to accept or reject the relationship. If the client comes onboard, any notes gained, whether through research or over-the-phone/via email, should be documented in the client’s PERM folder once their unique ID and folder structure are set-up. 
+For initial meetings, there are a few good questions to ask:
+- Have you previously worked with a CPA?
+- Financial advisor - do you have one?
+- Major transactions?
+- Why are you looking for a new CPA?
+## Referrals
+In the case of referrals, be sure to document:
+- The name of the person/firm referring them
+- The capacity in which this referral knows the prospect (e.g. next door neighbor, lawyer)
+- In the case of a pre-existing client referring a new one, the Client ID
+## Online Inquiries
+Clients will submit an online form via our website containing some brief information about why they’re reaching out. They’ll include, at a minimum, the following:
+- Name
+- Contact Information
+- Reason for Outreach
+Upon receipt of an online inquiry, the relevant client team member/CPA will have to reach out to the client via phone. Refrain from interviewing a prospect via email. Best practices for any outreach are discussed in greater detail under the Cold Calls section below.
+## Cold Calls
+When reaching out to potential clients, it is important to qualify leads ahead of time. Research should focus on the following:
+- Business website, if any
+- Google/Yelp reviews (if applicable)
+- Social media presence
+Ensure those selected satisfy the ideal client criteria previously mentioned. On top of this, there are a few best practices to follow:
+- Introduce yourself and clarify the firm you work with
+- Confirm the reason for your outreach and mention you’re happy to help with any tax questions they have
+- List best contact information for a callback and follow-up email
+- If prospect’s email is available, send them a follow-up email confirming the nature of your call and asking if there’s a good day/time to connect
+## Quoting
+This should be driven by the complexity of the return. Basic returns, at a minimum, generally go for around $1,200 a return. These returns only have simple forms not requiring much manual calculation and that are easily read into the system (W-2s, non-consolidated 1099 forms). 
+Complexity starts to increase when less-structured items, as well as items with more complexity requiring additional calculations, are included. Less-structured items usually include self-employment and rental income, as well as large brokerage account statements. State return filings also add more time/complexity to a return. 
+Before providing a finalized quote to the client, the prior two years’ tax returns must be received and reviewed. Final billing is ultimately driven by actual time spent on the return and is charged per hour based on the rate that pertains to each underlying staff member, including the admin team. Retainers are also common in accounting, though these are usually for larger projects. If unsure on any part of the quoting, ask around (preferably the internal person sending along the prospect). 
+# Client Onboarding
+Once a client comes on board, they must be assigned a unique Client ID that is used to identify their electronic return ID,  as well as the ID used for their document folders. 
+## Required Onboarding Docs
+At a minimum, the following are needed from the client:
+- A voided check for payment information
+- Scanned copy of drivers license(s)
+- Copies of the two prior years tax returns
+- Internal/External Client Onboarding forms
+  - Internal Client Forms: Deal with how things are routed, verify steps signed off
+  - External Client Forms: Get-to-know you, static data collection docs
+## Project and State Codes Set-Up
+Upon successful client onboarding, each client for a given tax year must have a project code set-up. This should be based on the type of project (1040/1040-SR/1040-X, Audit Notice, PROJ, CONS). More than one project code may be set up for the same client in a given year, but no duplicate codes should be created for the same project (e.g. no more than one project code set-up for a given tax year’s 1040 filing). 
+## Rollovers
+Pre-existing clients, at year-end, must have their static data rolled over with new projects created. Ensure any client information changes are reflected prior to extensions going out. 
+## Expedited Processing
+In the event that the client doesn’t provide materials until within 15 days of the filing deadline, a 15 % expedition fee will be assessed for clients who want their return to go out by the deadline. 
+# Extension Prep
+The Preferred Batch-Send Date for returns is February 15th, at which point Admin sends them out. Any return assigned to you as preparer must have the extension verified as having been sent prior to the April 15th filing deadline. State extensions, for any clients with a state filing requirement, must also be reviewed and verified as having been sent. Extension filing can be verified by one of the following methods:
+- Check the electronic filing status report
+- In CCH Axcess, look up the return in Return Manager
+- Use CCH’s Client Dashboard and look-up the client there
+If the Verify Extension Sent step wasn’t already checked as being complete, take a look at the ELF and see if the Extension was accepted. If it wasn’t accepted, we need to perfect it asap. 
+For clients required to make estimated payments with extension, save a PDF copy of the voucher containing the payment amount down. This will also be included in the workpaper as proof of payment made with extension.
+# Document Ingestion/Receipt
+For purposes of obtaining documents and information relevant to the upcoming tax season, a combination of client discussion as well as electronic requests for documents will need to be made.
+## Client Interview
+Any initial client correspondence must be taken down in a Word document or, if handwritten, scanned to PDF and transcribed into a word document. Preferably, this document follows the firm standard memo template. The following should be obtained:
+- Client, spouse, and dependent names
+- Dates of Birth
+- Any missing documentation the client is aware of / any they’re pending receipt on
+Ensure this information is saved to the PERM folder for any first-time tax season client interviews. Any interviews specific to a given tax year for an existing client must be included as “client correspondence” in that given tax year’s WP. 
+## Engagement Letter
+In the event that a client hasn’t provided a signed Engagement Letter (EL), they need to be contacted immediately. Preferred contact method (phone, email) should be confirmed. 
+## Requesting Documents/Sending Organizer
+For a given tax year, a client must have the updated CCH client organizer sent securely to them via Sharefile. Although some clients may choose to opt-out of completing the organizer, we encourage them to answer each question in the beginning checklist and fill out any relevant schedules for a given tax year. Clients who opt out of filing the organizer must have “Blank Organizer” noted in a text box on the first page of the organizer. 
+## Logistics/Contact/Routing
+This information fleshes out more of the communication preferences indicated in the signed EL. The following are key points to clarify:
+- Client Contact
+- Phone Number
+- Email Address
+# Prep, Review and Sign Process
+## Prep
+Once initial information is received, the date of receipt should be noted as an “Actual Start Date”. It is best practice to complete returns on a FIFO basis. The signer of the return must ensure to have the preparer and reviewer assigned prior to initiating the rest of the prep process.
+In the event that additional documents are received from the client after the prep process is begun, they are to be saved down to the relevant client folder.
+### Scan
+The software utilized for scanning documents and auto-flowing into the electronic Axcess return is known as ProSystemfx Scan. Docs received must be scanned and saved down as a “combined” WP. Once this is done, the combined WP must be auto-flowed into the electronic version of the return. The auto-flow process will categorize each page of the workpaper according to the type of transaction information it contains (income, deduction, schedule). The system also highlights and pulls fields of interest that its AI determines have tax-reportable values, then includes them in the electronic version of the return. 
+High-Level Procedure:
+- Open it up
+- Go to autoflow
+- Select the return
+- If the return isn’t showing up, search by client ID
+- Normally they skip K-1s on the accelerate tier
+- Once complete, look in the J &gt; Pfx Scan &gt; 1040 export
+Common Issues in the Scan process that must be identified in the Workpaper prep process include the following:
+- The client forgets to provide information on an annually recurring transaction
+- Duplicate documents are provided and accidentally loaded into the electronic return more than once
+- Unstructured PBC documents are unable to be accurately read into the system, common examples include:
+  - Handwritten statements
+  - Legal agreements (that have tax reportable amounts)
+  - Schedule C/Self-Employed Income records
+  - Schedule E/Rental Income records
+  - Flow-through entity investment forms (K-1s)
+  - Consolidated 1099 Forms (each broker follows its own formatting)
+    - Accrued Interest
+    - Accrued Market Discount
+    - State Tax Exemptions for certain federal government obligations
+    - UITs
+    - WHFITs
+    - Margin Interest deductible for NIIT
+- Poor formatting/scanning either prevents ingestion or results in incorrect/omitted figures
+### Workpapers
+At a minimum, be sure to include the Signed Engagement Letter at the beginning, the Organizer, and the AICPA checklist at the end. Per the Interview procedure, any client interviews for a given tax year must be saved and bookmarked as client correspondence within the workpaper, ideally just before the AICPA checklist. 
+Upon the autoflow being performed, the workpapers must be paged through by both preparer and reviewer to ensure there are no pages that the initial scan missed in the return data import. If there are, they must be bookmarked and manually entered into the electronic return.
+As a general rule, the following are the colors to use for various levels of review:
+- Red: preparer
+- Blue: reviewer
+- Green: signer
+Using CCH’s PDFlyer Engagement tool within your PDF editor, each level of review must sign-off on a per-page basis in the workpaper. Any pages grouped under the same bookmark can have sign-off applied by clicking on the bookmark and selecting the button. 
+For a detailed listing of tickmarks and their associated meetings, please see CCH’s resource here: ​​https://www.scanautoflow.com/ophelp/v18/en/Scan_WkStn/Content/PDFlyer/TickmarkReference.htm 
+### Return
+### General Return Prep Notes
+When a client leaves a line in the organizer blank that it had a prior year amount for, do not assume that it is zero for the current tax year. It is possible that the client forgot to populate it or had an amount requiring us to compute it. Unless the client confirmed in the Organizer that it didn’t occur for the current tax year, double-check the PY WP for what was in there. If it was a computation we don’t have the figures for CY, or the client simply forgot to give us it, draft it as an open item to request of the client in an email and send a draft to the reviewer and/or client contact. 
+### Lists
+Upon right clicking in a cell, there is the option to create a List to tally to a given transaction amount. Once done, the return will generate an informational page showing any and all lists that feed into a given figure on the tax return. These rollover each year and do not have a way for ProSystemfx Scan to automatically update. Consequently, the list will need to be updated by hand and, depending on that year’s activity, deleted in whole or by specific list item. 
+### States
+### Manually Adding
+- Open the project
+- Select Form Due Dates (FED-1040 will show up)
+- Click Firm Form Due Dates
+- Select Form Type
+- Click box under Taxing Authority to search by state/municipality needed
+- Click Done
+- Select the filing method in the drop-down of the Workstream Route sheet to reflect if the state/local filing will be E-file or paper file
+- Click Save &amp; Close, then re-open the Workstream sheet to confirm the states/municipalities are added
+### Manually Removing
+- Open the project and select Form Due Dates
+- Click the one you want removed and click Remove, then click Remove on the next window that shows up
+- Ensure the only form remaining is the FED one
+- Click save &amp; close, then re-open the Workstream sheet to confirm the states/municipalities are deleted
+### E-file Diagnostics
+As a preparer, it is important to review and sign-off on all E-file diagnostics in the return. CAUTION and INFORMATIONAL diagnostics are fine, but any WARNINGS need review and approval from reviewer/signer in how they’re dealt with. E-file disqualification notices must be addressed before sending returns along to reviewer and signer.
+### Responding to Review Points
+When reverting back on review points, ensure to respond to each point with the preparer color (red) confirming if it is done or responding back with a question. If a review point will require clarity from the client, draft an email and reach out to the client contact with the draft before sending anything to the client. The point-of-contact may send the email themself or, with their approval, allow the preparer to send directly to client with reviewer cc’d.
+### Installment Sales
+For taxpayers recognizing a gain on sale for which the cash is to be distributed across a span of several years, Form 6252 will need to be used to determine how much gain to be recognized in a given year. Do not recognize all gains in the year the sale is made - depending on how much cash is received relative to the total expected in the deal, the gain will be prorated for each tax year. A schedule of cash payments will be generated by the system but must have the dates and amounts reviewed for correctness, possibly manual entry. 
+### Schedule A
+In the case of a client with a home office deduction, ensure Schedule A is not double-counting amounts computed for the deduction on Form 8829.
+Medical Expenses: ensure medicare premiums withheld from social security on the SSA-1099 are reported here.
+For itemizing state and local taxes…
+- Ensure any refund of taxes paid that the client also itemized on a prior year tax return are properly included in the system for possible reduction in taxes able to be itemized in the current year
+- In the event that a client does not have an estimate of general sales taxes they paid in a given year (apart from large ticket items), the system is able to calculate using a blended rate - ensure the option to do so is selected in the Axcess tax return
+- Even if a client is using the general sales tax calculation, they are also able to claim sales tax paid on specific large items as personal property taxes (e.g. automobile or boat purchase)
+- Be sure to note that the client can only itemize state and local income taxes OR general sales taxes, but not both
+Some clients with mortgages prior to 2017 are still subject to the higher $1m debt threshold as opposed to the $750,000 threshold. Consequently, the Axcess return’s default mortgage interest limitation calc is going to be off for clients with pre-2017 mortgages. To remedy this, you’ll have to calculate the correct limited amount outside of Axcess and override it within the return. 
+Charitable Contributions: For non-cash contributions, we assume a thrift shop value of 3x the cost basis for clothes donated. In the event that contributions are to be made via a DAF over a span of several years, these are grouped within and considered made in the year the client elects. Any donations (cash or otherwise) have to be made to an actual charity, not a go-fund-me.
+Disaster Losses: ensure these are in a federally declared disaster area. See the following IRS page: https://www.irs.gov/newsroom/tax-relief-in-disaster-situations 
+Gambling Winnings/Losses: these must reflect the new rules published by the OBBBA and in effect for 2026.
+### Schedule B
+In addition to making sure to include market discount (see Schedule D section), be sure to reverse out any accrued interest paid as reported on a Consolidated 1099. Some interest on securities, as detailed later within the brokerage statement, is taxable at the federal level but potentially exempt from tax at the state level. Please review this section for any clients with a state filing and display any computation via a calculator tape on that brokerage statement page in the WP. 
+### Schedule C
+When a client provides detail on a self-employment business, there are a few special concerns to watch out for:
+- Tax Prep Fees:
+  - Clients may not realize they can prorate some of their tax prep fees to the Schedule C
+  - These should be considered “Legal and Professional Fees” and…
+  - Prorated based on an estimated amount of time spent on the Schedule C relative to the entire return (e.g. 1 hour out of 3 = 1/3rd of the prep fee prorated to the Schedule C)
+- SEP IRA:
+  - confirm if the client wants to maximize this contribution prior to the tax filing
+  - if so, be sure to compute the amount by navigating to the SEP/Keogh deduction section in Axcess, select “compute maximum amount” or enter a client prescribed fixed amount, 
+- S/E Health Insurance Deduction
+- Home Office Deduction
+  - Compare what the amount would be under the Simplified approach ($5/square foot) and Form 8829
+  - Ensure any Forms 1098 provided that pertain to the address of the home office have their amounts included on the Form 8829 for proration along with any PBC utilities and other expenses
+  - Avoid double-counting home mortgage interest for both the home office and the Schedule A for clients who itemize - ensure the system is correctly subtracting the amount claimed on the Form 8829 from whatever’s being itemized on the Schedule A
+- AJEs: For clients that we proposed entries for, ensure that they incorporated them. If not, Retained Earnings won’t roll and balance sheet accounts will be impacted. 
+- Book-Tax Differences
+  - Meals &amp; Entertainment
+  - Personal Expenses
+  - Club Dues
+  - Gifts (in excess of $25/recipient)
+- De-Minimis Safe Harbor Election: for expenses under $2,500
+- Accrual Basis books that should be on cash basis for the tax return
+- Checking the top of Schedule C boxes for…
+  - Whether or not a client filed a Form 1099 for any contractors that received more than $600 in compensation for a given tax year
+  - If the taxpayer started the business in a given tax year
+### Schedule D
+When preparing the return, it is important to bear in mind a few nuances that require manual intervention on the Schedule D and Form 8949. This section also references the IRS’s own Form 8949 instructions. For non-CoinLedger provided Forms 8949, the following will be necessary to consider for Consolidated Forms 1099:
+Adjustment Codes to Note (more than one can apply to each line on Form 8949):
+- D: Market Discount - requires 2 steps for accurate inclusion…
+  - Ensure the discount is reversed out of the recognized gain on Schedule D and…
+  - Instead report it in the 1099-INT section of the Consolidated 1099 form as Market discount (this will cause it to show up on Schedule B)
+- W: Wash Sale Losses (disallowed for tax purposes)
+- C: Collectibles (taxed at the higher 28% rate for collectibles)
+- M: Multiple transactions (most common)
+- H: Sale of Home 
+Another common issue that occurs with Consolidated 1099 brokerage information is the matter of missing cost basis for ST or LT capital gain. The software will treat the cost basis as zero for its default. In order to determine the true cost basis, it is best to page through the Consolidated 1099 and look for costs incurred in connection with the transaction for which cost basis is missing. These can include transaction costs listed further out.
+At times, it may be necessary to attach a detailed statement showing an extract of the Consolidated Form 1099 that shows the transactions in question. The following is a breakdown of a best practice:
+Is the transaction covered per Form 1099-B (basis reported to IRS, has no adjustments and isn’t a collectible)?
+- If yes, no detail needed. Schedule D Line 1a or 8a can include it as a summary line. In Axcess, enter 1099-B Code 1 and term code S or L
+- If no, detail must be provided. 
+  - If the transaction is unusual, complex, or has manual adjustments,include this as a summary line on the Form 8949 grouped with similar transactions and include a PDF statement
+  - If the transaction is basic (common, simple, no manual adjustments) then it can just be included as a separate line on the Form 8949
+### Schedule E
+### Rental Properties
+At times, a client will provide a Form 1098 that the system erroneously believes to be personal. For Forms 1098 with an address pertaining to a rental property, ensure to include any amounts listed on the 1098 as rental property amounts. In the case of rental properties with some personal use, the personal use days should be stated on the Schedule E so that the system can properly prorate expenses between business and personal use. Also be sure to file a de-minimis safe harbor election for the rental businesses where appropriate. Be sure to double-check capitalization of repairs and maintenance. 
+### Schedules K-1
+If an investor receives distributions in excess of basis on their Schedule K-1 from an S-corporation, there will be the requirement to report this as a capital gain on Schedule D via Form 8949. 
+Another issue that the system is unable to trigger automatically on the individual 1040 side, due to outside variables, is Built-in-Gains. If an investor purchases or inherits S-Corp stock that has an implicit “inside” built-in gain trigger, the 1040 module doesn’t know this history. 
+Another S-Corp issue is the Debt Basis vs Stock Basis Distribution Trap. If an individual receives a cash distribution from an S-Corp, it is only tax-free up to their stock basis. Should a taxpayer’s stock basis in the S-Corp be $0 but they have $50,000 in Debt Basis, the distribution is still 100% taxable as a capital gain. Where Axcess shortfalls is erroneously looking at the overall positive basis and letting the distribution pass-through as tax-free. 
+To overcome this, do the following:
+- Go to Income &gt; S Corporation Pass-through (K-1) and select the relevant S-Corp entity
+- Select Section 5: Basis Limitation Information
+- Split the inputs between…
+  - Stock Basis on Line 2 (beginning stock basis) and remove any blended amounts the system computes.
+  - After the Stock Basis, scroll to the Debt Basis section and enter the shareholder loan history separately.
+- Upon completion of the steps above, Axcess’s algorithm will recognize the stock basis as zero and freeze the debt basis, pushing the excess distribution to Form 8949 / Schedule D as a taxable gain. 
+An S-Corp may make a property distribution as an IRC Section 311(b) Gain. This occurs when the S-corp distributes an asset (such as a company car or real estate) to a shareholder. A taxable gain is triggered inside the S-Corp as if it were sold at fair market value. This gain flows to the 1040 as part of the ordinary or capital gain income, and increases their stock basis before the distribution reduces it. If the S-corp’s accountant fails to properly reflect this on the 1120-S k-1, or if you are dealing with a contested valuation, inputting the property’s book value into Axcess will cause an improper basis calculation. 
+To fix this:
+- Go to income &gt; S corporation pass-through
+- If the k-1 omitted the corporate-level gain but that gain needs to be recognized, you must manually adjust Section 3 (Schedule K-1 direct entries) to input the correct share of the gain (e.g. Net LTCG or Ordinary Income)
+- Go to Section 5 (Basis Limitation) and use Line 16 (Other Increases to Basis) to input the FMV step-up, making sure the parallel property distribution entry doesn’t accidentally trigger an artificial “excess distribution” capital gain. 
+For trust k-1s, a trust termination results in any unused/suspended passive losses held to not flow to the beneficiary’s Schedule K-1 as a deductible loss. These losses are permanently added to the individual’s tax basis in the distributed property. To overcome the system limitation, you must…
+- Determine the suspended loss amount from the final trust k-1 package (usually a separate footnote or statement)
+- Select Income &gt; Fiduciary Pass-Through (k-1) and pick trust with the final k-1
+- If the trust distributed a passive activity (such as rental property or a partnership interest) to the beneficiary, go to the Partnership or Rent/Royalty input screen for that specific underlying asset.
+- Navigate to the Basis / Carryover section and manually type the trust’s dead passive loss into the Prior Year Suspended Passive Losses field, or manually increase the asset’s Beginning Basis field by that amount. The loss is then safely preserved to offset future individual gains.
+In the case of partnership k-1s, it is possible for a taxpayer to receive distribution in excess of their outside basis in their partnership interest. Similar to S corporation distributions in excess of basis, these will need to be reported on the taxpayer’s 1040 as a capital gain. To enable outside basis tracking in CCH Axcess, do the following:
+- Go to Income &gt; Partnership Pass-Through &gt; General
+- Select the specific partnership
+- Click Section 6: Basis Limitation Information
+- Check the box for Line 1: Apply the Limitation
+- Enter beginning of year basis and any other manual adjustments (such as outside legal fees, separate capital contributions)
+- Once done, ensure the Box 19, Code A cash distribution is entered in the distribution field
+Another partnership issue is disproportionate distributions &amp; hot assets (IRC Section 751). If an individual gets a cash distribution that changes their share of the partnership’s “hot assets” (unrealized receivables or inventory), the IRS considers it a sale. Ordinary income must be recognized on the 1040, even if they have plenty of outside basis to cover the cash. The k-1 just reports the distribution on Box 19 Code A. Consequently, Axcess just reads this as a basis-reducing event and shows $0 tax impact if basis remains positive.
+To fix this, do the following:
+- Manually calculate the Section 751 ordinary income piece outside of Axcess
+- Go to income &gt; partnership pass-through &gt; select the entity
+- Navigate to Section 2: Activity Information &gt; Line 1 (Ordinary Income/Loss)
+- Use manual input to increase the ordinary income field by your calculated Section 751 gain amount.
+- To prevent double-counting and correct your basis tracking, go to Section 6: Basis Limitation Information and utilize Other Increases/Decreases to Basis fields to manually adjust the running basis worksheet to prevent cash distributions from triggering a phantom capital gain later. 
+Oil and gas holdings may occur on the k-1s received. Additional reporting requirements/statements accompany these within the taxpayer return.
+Some pass-through entities may elect to pay state taxes at the entity level as opposed to having investors pay them on their personal returns. This was a common practice for when the SALT deduction was capped at $10,000. In the event that the PTE tax credit is indicated, _.
+Sometimes there is a Section 361 transfer that consists of _.
+For R&amp;D Credits, _.
+Schedule K-2 and the accompanying Forms K-3 matter because of _. 
+### NIIT
+Certain deductions are allocable to NIIT that aren’t always itemizable to clients. Investment interest, in particular, is important to allocate to this. Common sources of this include Brokerage Statements on Consolidated 1099 forms (especially in the form of margin interest), as well as pick-ups from K-1s. Form 8960 is used to report net investment income and the aforementioned deductions before arriving at NIIT.
+### Foreign Transactions
+### Form 1116
+For Foreign taxes paid/accrued, if an individual is single or head of household it is best practice to refrain from printing the 1116 and instead just claim the deduction on Schedule 3 if the amount is $300 or less. For MFJ, the acceptable higher bound is $600 (see the safe harbor figures at the Form 1116 instructions: https://www.irs.gov/instructions/i1116).
+When examining multiple countries on a Consolidated 1099 for which foreign taxes are paid, the best point at which to use “RIC” as a catch-all for clients that have a mutual fund making these investments. Mutual funds pool together and pay taxes on these foreign investments, hence the “RIC” code. 
+HTKO: this applies when income taxes in certain foreign countries exceeds a percentage threshold set by the IRS. Taxes paid at rates in excess of this threshold are partially disallowed for purposes of computing the foreign tax credit.  
+For all income received and taxes paid, ensure to use the USD amounts provided. If only foreign currency amounts are provided, the original foreign amount and the USD-translated amount based on IRS tables will be needed. 
+Apart from Consolidated Forms 1099, some taxpayers and/or their spouses may have foreign pension income. A common example is an American taxpayer married to a Canadian citizen, the latter of whom receives Canadian pension income reported to them on a Form NR-4 (link: https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/nr4.html). The appropriate IRS FX conversion rate must be used to translate amounts from the foreign currency (in this case CAD) to USD to determine tax reportable amounts. Apart from being considered foreign gross income, foreign pension income still figures into the computation for taxable social security.  
+### FinCEN114/FBAR
+For clients with foreign bank accounts, including securities, the client will likely have a filing requirement with the U.S. Treasury Department’s Financial Crimes Enforcement Network. The form should be listed as part of the return title. Ensure the proper exchange rates are used - these can be found on the IRS website.
+### PFICs
+These are filed with a taxpayer’s 1040 via Form 8621.
+### Foreign Corps
+These require an individual to file Form 5471. Individuals who have to file a Form 5471 may also have to file a Form 926. Use Form 926 to report transactions with a CFC (have to have property transfers). CFCs need an analysis to determine if the individual is subject to GILTI/NCTI. 
+### Foreign Trusts
+Use Form 3520 to report any transactions with these.
+### Other Reportable Transactions
+These are reported via Form 8886.
+## Review
+### General Review Notes
+Sign-off, per the workpapers section previously described, is done in blue at the preparer level. This color coding also pertains to any tickmarks used in the PDF workpapers as well as any spreadsheet calculations. 
+### Filing Status
+Occasionally, a client will have their filing status change for the given tax year. In the event that a spouse is deceased, it is important that the surviving spouse be treated as a qualifying widower subject to the more generous MFJ brackets. If a taxpayer is married by the end of that tax year, they are considered married and eligible for MFJ or MFS status. Conversely, if a taxpayer is divorced by the final day in the tax year, they are ineligible for MFJ or MFS status. Separations do not constitute divorces. The divorces must be legally finalized. Some taxpayers may file as Single while claiming a dependent not realizing they’re eligible for HoH status. This matters due to the more generous brackets afforded by HoH and can result in significant savings for eligible clients.
+### Estate Implications
+Property sold that was received out of inheritance is subject to special asset step-up in basis rules. Sales of a home received from an estate have special rules. Ensure these are applied for eligible property, as the tax laws surrounding estates are significantly more favorable to taxpayers. 
+### Kid Taxes and Filings
+Kiddie Tax applies when a child’s unearned income exceeds $2,700 (in 2025). In such an event, a Form 8615 must be filed to compute the child’s tax (link: https://www.irs.gov/taxtopics/tc553).  If the child’s unearned income is below a certain limit, the parent may elect to include the child’s income on their own return rather than have the child file their own separate tax return using Form 8814. 
+After satisfying a certain threshold, a child may be required to file their own tax return separate from the parent. Conversations will need to be held with the taxpayer and a separate client ID will need to be created for the child, along with its own 1040 project code. 
+### Client IRAs
+If a client’s IRA has a brokerage account statement, PTE k-1, or other holding in its name, the income is housed within the IRA and is not included on the taxpayer’s 1040. Income earned from this only gets taxed to the taxpayer at the time of distribution (but only for Traditional IRAs). Roth IRAs require taxes to be withheld at the time of contribution, making distributions tax free. 
+### SALT Implications
+### New State Filing Requirements
+It is possible for clients to incur transactions, or change residence, that requires them to file in another state. Even if they aren’t residing there, they could be subject to a nonresident requirement. It is important for the reviewer to examine any possible filing requirement trigger.
+At times, an investor may receive a matrix attached to their k-1 statement showing various income items apportioned to each state. If they’re apportioning loss to a given state, there is no new filing requirement for that state if the client isn’t already filing there. Often, positive income amounts apportioned will be immaterial, often in the single digits. For larger amounts, compare these against a state filing requirements matrix for nonresidents to see if a filing requirement is triggered by ownership in the passthrough entity. 
+### Local Filing Requirements
+Some municipalities, such as Detroit, require a city-level income tax return filing from individuals. It is important for the reviewer to examine any change in residence, even if it is to a different town within the same state, to determine if there is a local filing requirement. 
+### Restricted Stock
+In the case of restricted stock, a timely Section 83(b) election must be filed within 30 days of grant to receive favorable tax treatment under the IRC. This election allows you to pay ordinary income taxes on the FMV of restricted stock or early-exercised options at the grant date rather than when the shares vest. Use Form 15620 to file this with the IRS. See Form 15620 instructions for more information: https://www.irs.gov/pub/irs-pdf/f15620.pdf 
+### QBI (QOFs, QROFs)
+For investors in QOFs or QROFs, the funds themselves file a certifying Form 8997 at the fund-level before issuing k-1s to partners. There is no Form 8997 filing requirement at the individual level. Instead, QBI pick-up from the k-1s flows to Form 8995 for computation of the QBI deduction. Other common sources of QBI include certain income from self-employment, Section 199A REIT Dividends, as well as PTP income. Ensure the QBI, the UBIA and W-2 wages are all properly reported within Axcess to ensure proper inclusion, as well as application of limitations. Higher income taxpayers are often ineligible for the QBI deduction due to max income thresholds for getting the deduction ($403,500 for MFJ in 2026, $201,750 for single). 
+### Review Points
+In the event that there are issues with the return requiring preparer update, a simple document/note should be saved down with any updates, as well as friendly FYI’s, included. Some quick tips on how to make this effective:
+- Include the client ID and Year in the document title
+- Title “Review Points” at the top of the document
+- Number each review point, referencing either the relevant WP# or Schedule/Form on the return, and include sub-points for addressing each underlying issue
+- Every point, and even some sub-points, should include a snip/picture illustrating the problem
+It is also best practice to send a preparer an email letting them know the Client ID, tax year and type of return to let them know it is ready for them to make an update.
+### Tax Research
+On occasion, certain nuances of an individual taxpayer’s situation may require the reviewer to do some research into the IRC, Treasury Regulations, and Revenue Rulings regarding applicable tax treatment. An overview of the IRC is included  later on in this procedure.Link to IRS site: https://www.irs.gov/newsroom/understanding-irs-guidance-a-brief-primer 
+When documenting your findings, it is important to document the following within the PDF workpaper:
+- Reference the client matter or question needing research (can include an email on it)
+- The answer, as conveyed by the reviewer (be it to a client question or a matter raised internally)
+- The relevant code, regulation or revenue ruling supporting the answer
+- Perform a currency check to confirm that, in the case of court decisions or Revenue Rulings, they haven’t been overturned, rendered obsolete or superseded
+- For SALT, ensure you are consulting that jurisdiction’s binding guidance, as these are separate from the federal
+For income tax matters, Chapter 1: Normal Taxes and Surtaxes of the Internal Revenue Code (Title 26 of the U.S. Code) will be a general go-to.  Below is a hierarchy of tax research authority:
+- Statutory Authority:
+  - IRC
+  - International Tax Treaties
+  - Legislative History (committee reports, the Joint Committee’s “Blue Book”): used to interpret ambiguous statutes, listed as authority in Treas. REg. Sec. 1.6662-4(d)(3)(iii)
+- Regulatory Authority
+  - Treasury Regulations (issued by Treasury to interpret and implement the IRC)
+  - T.D. Memorandum (Official Treasury publication issuing or amending Treasury Regulations and Decisions)
+- Judicial Authority - TC rulings, which are subject to Circuit Court and Supreme Court appeals in the following hierarchy…
+  - Supreme Court: binding nationally
+  - Circuit Courts of Appeals: Binding within the circuit, TC appeals go here and TC follows the law of the circuit to which a case is appealable (Golsen v. Commissioner, 54 T.C. 742 (1970), aff’d 445 F.2d 985 (10th Cir.1971))
+  - Trial-level courts (each of which are equal)
+    - District Courts: appeals go to regional circuit
+    - Court of Federal Claims: appeals go to federal circuit
+    - TC: Article I court per IRC Sec. 7441, has three types of opinions:
+      - T.C. (regular) opinions: issued for new legal principles or issues of first impression, carry the most weight, TC generally follows its own prior regular opinions
+      - T.C. Memorandum opinions: persuasive but not controlling, issued where law is settled and the case turns on applying it to the facts - these are official and citable, but TC does not treat them as binding precedent (see Nico v. Commissioner, 67 T.C. 647 (1977))
+      - Summary opinions: small case procedure, per IRC Sec.7463(b) cannot be treated as precedent for any other case
+- Alternative Guidance (authority: Statement of Procedural Rules, 26 C.F.R. Sec. 601.601(d)(2)).
+  - Rev. Rul.’s (published interpretations by the IRS applying the IRC to a specific set of facts)
+  - Rev. Proc.’s (outline internal IRS practices, procedures, or instructions for complying with tax administration)
+- Specific/Non-Precedent Written Determinations (binding only to specific taxpayers):
+  - PLR: proactive, requested by the taxpayer and written by IRS to a specific taxpayer regarding a proposed transaction - Section 6110(k)(3) states these can’t be used or cited as precedent by other taxpayers
+  - TAM: reactive, requested by an IRS Field Agent for the IRS to opine on a specific transaction for a given taxpayer
+- Informal/Less Authoritative IRS-issued Sources
+  - Notice: Public pronouncement that may contain substantive guidance on interpretations of IRC 
+  - Announcement: Public pronouncement with only immediate/short-term relevance
+  - Publications: Such as 946, these are more ground-level instructions for applying guidance to tax returns
+  - Chief Counsel Documents: 
+    - CCA: Written advice from IRS Chief Counsel - similar to PLRs and TAMs, not precedent
+    - PMTA: advice to IRS program managers and falls within the CCA definition
+    - AODs: State whether the IRS will acquiesce in a court ruling, useful when a TC decision is involved
+  - Non-TAM IRM: internal guidance for IRS employees
+  - Forms Instructions: 
+Background, not authoritative source: MOUs, which explain why IRS or state handles something a certain way (e.g. data matching, joint audit programs)
+### Hand-Off to Signer
+Prior to signing off on the final review step, the following must be completed:
+- The electronic return must be locked to prevent further edit
+- The final return copy (Accountant’s Copy) for signer review must be saved down and clearly noted in the document title as “reviewed”
+- Steps must be signed off and proper routing must be verified
+  - Federal return
+  - Each state return
+  - Any FBAR/FinCEN114 filing must be noted
+  - Appropriate due dates populated for each of the aforementioned filings
+  - Electronic or Paper File
+  - eSign checked if applicable
+  - Confirmation of preferred client contact method and appropriate phone/email
+  - Any special instructions for processing
+  - Clearing of any project notes
+# Sign-Off/Provide to Client/Billing
+Once the return is through review, it must undergo processing before being sent to the signer for their final review and approval of the return to be sent to the client. Admin handles the processing of the return that gets provided to the signer.
+## Sign-Off
+The signer is to take a brief, final pass at the return. This is a strictly high-level review and should be informed by the signer’s knowledge of the client and any current year nuances that have a tax impact. Proposed updates get sent back to preparer for update and reviewer for subsequent review. In the event that these are quick updates, the signer may elect to push through these on their own or delegate them directly to either the preparer or reviewer for quick update before going back to signer for only one layer of review as opposed to two. 
+## Billing
+Prior to final billing, the WIP must be reviewed to determine…
+- Which amounts to be charged (use a checkmark for each line)
+- Which amounts for W/O
+- Which amounts for leaving in WIP (for projects pending completion)
+For work that falls outside the scope of the normal return process but necessary, it is common for individuals to use the “MISC” project category. These are a common source of amounts to leave in WIP for subsequent billing, possibly in conjunction with any consulting engagement. Amounts billed will be driven by time spent, as the ad-hoc nature of these prevents any general fixed amount to be applied.
+Once the amounts to bill are finalized, these are provided to admin to be included with the return sent to the client. Admin will ensure to follow the desired format for delivery (electronic, mail, in-person pick-up). 
+Best Practices for Invoice Summary:
+- 2 columns: Description and $ Amount
+- Form number prepared
+- Keep it simple
+In the case of progress billing for ongoing consultations, abide by the best practices above and keep in mind that the client needs to know that the billing is for an in-progress project as opposed to a finalized form. 
+## Send to Client
+Ensure the “client copy” is used for submission. The e-file authorization should be sent as a separate document. The final bill should be included with the package provided to the client.
+## E-Filing
+Once the client approves and signs the finalized return (see Exceptions - Updating Returns per Client for any updates needed), it must be e-filed to the relevant tax authorities. The signed e-file authorization (Form 8879) must also be received. Ensure the electronic version of the return is held for ELF for 24 hours in case the client reverts back, then transmit the return. 
+# Post-Submission Exceptions
+The following are types of instances that require additional handling outside the typical prep, review, and sign process.
+## Updating Returns per Client
+Occasionally there will be updates needing to be made to a return once it is through client review. There are two types of updates needing to be made, which should be noted in our routing:
+Internal Reasons (exceptions that occurred within the firm’s processing of the return):
+- Workpaper calculation error
+- Electronic return manual input error
+- Missed source docs already received
+- Incorrect client static information update (last name, address)
+- Software glitch
+External Reasons (issues with the PBC information provided):
+- Incorrect Information
+- Incomplete Information
+Internal Reasons should not be reflected in the final bill to the client and instead should be written off. External Reasons, however, are client chargeable. 
+## E-File Rejects
+These are instances in which the return, after being approved by the client, was electronically transmitted to the IRS and encountered an error causing the return to be rejected. 
+- The reason for the e-file rejection must be reviewed and documented
+- An updated return reflecting the necessary change must be saved down
+- The return must be retransmitted to the IRS and monitored until it is accepted
+- If the return is rejected again, the above steps must be followed for creating an additional version of the return that resolves the new e-file reject issue
+Common E-file Rejections result from the following:
+- The taxpayer and/or their dependents were issued an IP PIN for one year but did not provide their new one for the most recent tax year (these change each tax year)
+- Failure to include self-select PIN (this is separate from the IP PIN)
+- Current drivers license/state ID information was not included in the e-file
+- See “Paper Filing Returns” for additional information
+## Superseded Returns
+Superseded returns are essentially returns re-filed with the IRS after the initial e-filing was accepted but before the extended due date is passed. This is considered an “original” return since it was still filed by the extended date, merely superseding the old version.
+## Amended Returns
+These are returns re-filed with the IRS after the extended due date. This is considered a separate return from the original. Use Form 1040-X when submitting amended returns.
+## Paper Filing Returns
+Some exceptions may require that a return be paper-filed instead of e-filed in order to be processed by the IRS. 
+- Returns outside the e-file window (in 2026, these are returns for tax years prior to 2023) - link: https://kb.drakesoftware.com/kb/Drake-Tax/10747.htm , https://legalclarity.org/what-tax-years-can-still-be-e-filed-with-the-irs/ 
+- Anything due during the IRS’s annual maintenance/blackout window
+- Persistent, uncorrectable e-file rejections
+- Dependent already claimed on another person’s return but is able to be rightfully claimed on the client’s return https://support.taxslayerpro.com/hc/en-us/articles/360009294953-Common-Form-1040-e-File-Reject-Codes 
+- Unresolvable name-control/SSN rematch https://support.taxslayerpro.com/hc/en-us/articles/360009294953-Common-Form-1040-e-File-Reject-Codes 
+Should a return need to be paper filed, the following must be done:
+- A government copy printed and enclosed in an envelope
+- Mailing labels generated to the correct IRS processing center
+- Hand-off made to USPS/UPS/FedEx with the tracking number 
+# Non-Return Engagements
+## Audit Notices/Support
+Unlike exceptions, these have a separate project code created and are outside the scope of the original 1040 filing. Any source docs used specifically in the resolution of the notice must be saved down into a separate workpaper apart from the one used for the underlying return.
+## Projections
+For some clients, a request is made to do a projection of a tax return and any taxes owed for one or more subsequent tax years. A separate projection tool is used for this. Similar to the audit notices, a separate workpaper must be created with any assumptions documented as well as any new PBCs or calculations. 
+On top of forecasting for future years, the projection tool can also be used to simulate certain filing scenarios (e.g. MFJ vs MFS, when one partner claims one dependent versus the other). Scenario modeling is able to be toggled both in the compliance software and the projection tool. Ensure to reconcile anticipated taxes owed/refunded between the two systems.
+## Consultations
+These are atypical projects that the firm has the resources to accomplish and are done upon request by pre-existing tax filing clients. The finalized deliverable must be coded similar to the returns, and a workpaper for all documents and computations used in arriving at the finalized deliverable must be maintained. 
+# Folder Structures
+For each client’s folders, the following is a best practice:
+- A folder set-up at the Client ID level for every client, with the Client ID as the title
+- A PERM folder for any permanent info that impacts all client tax years (e.g. residency and other information, special types of promissory notes)
+- Folders set up for each tax year that compliance is being done and that prior tax returns PBC pertain to, using the tax year as the title and within each tax year folder should be the following…
+  - PBC for source documents received
+  - Deliverables for the finalized return and any payment vouchers
+  - The main area of each tax year’s folder should act as a repository for the workpapers the firm prepares, as well as the accountant copy that has the finalized Accountant’s View copy (same data as the copy that will be delivered to the client, just different formatting/statement visibility)
+  - PROJ for any tax projections rendered and their underlying source documents (this is separate from the tax return work)
+  - CONS for any consulting work performed for the given tax year
+  - NOTICE for any notice response
+# Tax Tech Stack
+- CCH Suite of products for most uses
+  - Doc Ingestion: CCH ProSysftemfx Scan
+  - General Tax Compliance: Axcess Tax
+  - Business Intelligence: DataScan
+  - Practice Management: Workstream
+  - Financial Statement Prep: Engagement
+  - PDFs
+    - Editor: Adobe
+    - Tickmarks: PDFlyer
+  - One-Off Forms: Intelliforms
+  - CRM: Client Collaboration (used by admin)
+- CFS Tax Tools for the Following…
+  - Projections
+  - Simulations (e.g. MFJ vs MFS)
+  - Payroll
+- Document Receipt: Sharefile
+- Data Storage: Shared drive
+- Office Software: Microsoft Office
+- FYI: In the Big 4, I’d commonly see the following:
+  - GoSystem Tax for entity-level returns
+  - Proprietary k-1 suites for investors
+  - Retain for practice/capacity management
+  - Cloud-based solution similar to Sharepoint for doc storage
+# Glossary of Tax Terms
+- 1040: Standard individual return used by the IRS
+  - 1040-SR: Same as the 1040 return but with bigger text for seniors
+  - 1040-X: Is the form used for submitting an amended individual tax return
+- 1099: Tax-reportable transaction form that is issued to clients by whoever they incurred the transaction with
+  - CONS 1099: Consolidated 1099 brokerage statement issued by broker-dealers/wealth managers and contains a number of different 1099 forms within it
+  - 1099-INT: interest
+  - 1099-DIV: dividends
+  - 1099-B: stock/securities transactions
+  - 1099-DA: digital assets
+  - 1099-NEC: non-employee/contractor compensation
+  - 1099-G: government payments, including unemployment compensation
+  - 1099-LTC: long-term care
+  - 1099-R: retirement plan payments
+  - 1099-E: cancellation of debt
+  - 1099-S: sale of home
+  - 1099-SA: HSA withdrawals
+  - SSA-1099: Social Security payments
+- AICPA: American Institute of Certified Public Accountants
+- AGI: (in tax) Adjusted Gross Income
+- AJE: Adjusting Journal Entry
+- AMT: Alternative Minimum Tax
+- AOD: Actions on Decision
+- Axcess: CCH’s electronic tax prep software
+- BEAT: Base Erosion Anti-Abuse Tax
+- BS: Balance Sheet
+- CAF: Centralized Authorization File, needed to have POA for a client
+- CCA: Chief Counsel Advice
+- CCH: Wolters Kluwer CCH
+- CF: Carryforward-to-next-year
+- CFC: Controlled Foreign Corporation
+- CFR: Code of Federal Regulations
+- CG: Capital Gain
+- CL: Capital Loss
+- CPA: Certified Public Accountant
+- CTC: Child Tax Credit
+- CY: Current Year
+- DAF: Donor Advised Fund
+- DUP: Duplicate tax form provided by client
+- EA: Enrolled Agent (with the IRS), can also sign a tax return and practice before the tax court with the same authority a CPA does (but doesn’t have the same authority for financial statements)
+- ECI: Effectively Connected Income (with a U.S. trade or business)
+- EFIN: Electronic Filing Identification Number
+- EITC: Earned Income Tax Credit
+- EL: Engagement Letter
+- ELF: Electronic Filing
+- FBAR: Report of Foreign Bank and Financial Accounts (aka the FinCEN114)
+- FDAP: Fixed, Determinable, Annual, Periodic (income)
+- FDII: Foreign-Derived Intangible Income
+- FIFO: First-in First-Out
+- FinCEN: Financial Crimes Enforcement Network
+- FTC: Foreign Tax Credit
+- GILTI: Global, Intangible Low-Tax Income
+- GL: General Ledger
+- HoH: Head of Household
+- HTKO: High-Tax Kick-Out
+- IP PIN: Identity Protection PIN
+- IRM: Internal Revenue Memorandum
+- IRS: Internal Revenue Service (U.S. federal government taxing authority)
+- ITIN: International Tax Identification Number
+- LT: Long-Term
+- MAGI: Modified Adjusted Gross Income
+- MFJ: Married Filing Jointly
+- MFS: Married Filing Separately
+- NCTI: Net CFC Tested Income
+- NIIT: Net Investment Income Tax
+- NTE: No-Tax-Effect
+- PBC: Provided-by-Client
+- PERM: Permanent (folder)
+- PFIC: Passive Foreign Investment Company
+- PII: Personally Identifying Information
+- PL: Profit &amp; Loss Statement
+- PLR: Private Letter Ruling
+- PMTA: Program Manager Technical Advice
+- POA: Power of Attorney, uses Form 2848 to establish for a given client
+- PR: Personal Representative
+- PTE: Pass-through Entity
+- PTIN: Preparer Tax Identification Number
+- PTC: Premium Tax Credit
+- PTP: Publicly Traded Partnership
+- PY: Prior Year
+- QBI: Qualified Business Income (also known as Section 199A)
+- QOF: Qualified Opportunity Fund
+- QOZ: Qualified Opportunity Zone
+- QROF: Qualified Rural Opportunity Fund
+- QSBS: Qualified Small Business Stock
+- RE: Retained Earnings
+- REIT: Real Estate Investment Trust
+- Reg: Regulation
+- Rev. Proc: Revenue Procedure
+- Rev. Rul: Revenue Ruling
+- RJE: Reclassing Journal Entry
+- SALT: State and Local Tax
+- SALY: Same-as-last-year
+- S/E: Self-Employed/Self-Employment
+- SSTB: Specialized Service Trade or Business
+- ST: Short-term
+- TAM: Technical Advice Memorandum
+- TB: Trial Balance
+- TC: Tax Court
+- TD: Treasury Decision
+- TJE: Tax Journal Entry
+- TR: Tax Return/Agrees-to-Tax Return
+- UBTI: Unrelated Business Taxable Income
+- UIT: Unit Investment Trust
+- W/H: Withholding
+- W/O: Write-off of certain billable amounts
+- WHFIT: Widely Held Fixed Investment Trust
+- WIP: Work-in-Progress billing
+- WP: Workpaper
+- WTB: Working Trial Balance
+# Overview of Title 26: Internal Revenue Code (with common research subsections)
+Per https://www.law.cornell.edu/uscode/text/26:  
+- Subtitle A—Income Taxes (§§ 1 – 1564)
+  - CHAPTER 1—NORMAL TAXES AND SURTAXES (§§ 1 – 1400Z–2)
+    - Subchapter A—Determination of Tax Liability (§§ 1 – 59B)
+    - Subchapter B—Computation of Taxable Income (§§ 61 – 291)
+    - Subchapter C—Corporate Distributions and Adjustments (§§ 301 – 391)
+    - Subchapter J—Estates, Trusts, Beneficiaries, and Decedents (§§ 641 – 692)
+    - Subchapter K—Partners and Partnerships (§§ 701 – 771)
+    - Subchapter S—Tax Treatment of S Corporations and Their Shareholders (§§ 1361 – 1379)
+  - CHAPTER 2—TAX ON SELF-EMPLOYMENT INCOME (§§ 1401 – 1403)
+  - CHAPTER 2A—UNEARNED INCOME MEDICARE CONTRIBUTION (§ 1411)
+  - CHAPTER 3—WITHHOLDING OF TAX ON NONRESIDENT ALIENS AND FOREIGN CORPORATIONS (§§ 1441 – 1465)
+  - CHAPTER 4—TAXES TO ENFORCE REPORTING ON CERTAIN FOREIGN ACCOUNTS (§§ 1471 – 1474)
+  - [CHAPTER 5—REPEALED] (§§ 1491 – 1494)
+  - CHAPTER 6—CONSOLIDATED RETURNS (§§ 1501 – 1564)
+- Subtitle B—Estate and Gift Taxes (§§ 2001 – 2801)
+- Subtitle C—Employment Taxes (§§ 3101 – 3512)
+- Subtitle D—Miscellaneous Excise Taxes (§§ 4001 – 5000D)
+- Subtitle E—Alcohol, Tobacco, and Certain Other Excise Taxes (§§ 5001 – 5891)
+- Subtitle F—Procedure and Administration (§§ 6001 – 7874)
+- Subtitle G—The Joint Committee on Taxation (§§ 8001 – 8023)
+- Subtitle H—Financing of Presidential Election Campaigns (§§ 9001 – 9042)
+- Subtitle I—Trust Fund Code (§§ 9500 – 9602)
+- Subtitle J—Coal Industry Health Benefits (§§ 9701 – 9722)
+- Subtitle K—Group Health Plan Requirements (§§ 9801 – 9834)
+# Disclaimers
+- This is not a public accounting firm: we aren’t doing financial statements audit/prep/compilation/reviews
+- These procedures are for a pre-AI tax firm
+- CCH, especially CCH Axcess Tax, is the default software being used as the baseline
+- The document created is only an example and can be fine-tuned as needed, especially when going to the AI-native framework
+- Assumes only the CPA credential is used (no EA’s/Attorneys)
+- No business return procedures, only individuals
+- Best Practices are not exhaustive and will change based on the final tech stack used
+- Assumes only electronic receipt and storage of docs - paper filing some returns with exceptions may be necessary (though rare)
+- Some e-file attachments are necessary - this list is only for one example
+- Time Entry may not be used for the final billing but could still be useful to track against actual revenue, possible amended billings based on client failure-to-identify complexities
+- This procedure doc’s audit notice section pertains just to the response - we are not a tax law practice, just a tax compliance practice, so we won’t have procedures on how to argue unique positions before an actual Tax Court. 
+- Apart from outbound transactions (e.g. 1042-S reporting), no international tax compliance is shown within this procedure - the U.S. federal tax authority is the baseline, and each state has its own nuances outside the scope of this procedure
+- It is assumed that no known downstream/upstream partnership referrals are in-place at this time
+- The following procedure docs will be kept separate from this:
+  - WISP
+  - AI Acceptable Use Policy
+  - Employee Handbook
+  - Environmental Management System (if even applicable)
+  - Referrals Matrix
+  - CPE for CPA license and professional license maintenance/renewal
