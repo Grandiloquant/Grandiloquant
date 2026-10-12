@@ -1,0 +1,148 @@
+[
+  {
+    "file": "EVG1001_2025_PBC_Receipt_Log.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 2008,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/01_2025_Organizer_completed.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1677,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/02_W-2_Lone_Star_Distribution_Marcus.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1101,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/03_W-2_Brightsmile_Dental_Tanya.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1039,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/04_IMG_4471_tanya_w2.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 18,
+    "needs_vision": true,
+    "page_images": [
+      "04_IMG_4471_tanya_w2.pdf_p1.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/05_1099-INT_Chase.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1074,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/06_1099-SA_HSA_Bank.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 746,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/07_5498-SA_HSA_Bank.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 808,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/08_Ford_Credit_2025_Interest_Statement_F150.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 812,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/09_Honda_Financial_2025_Interest_Statement_CRV.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 458,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/10_Childcare_receipts_2025.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 805,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/11_Email_from_Tanya_2026-02-11.txt",
+    "type": "txt",
+    "pages": 1,
+    "text_chars": 541,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/12_Email_thread_Ally_1099-INT_2026-03-04.txt",
+    "type": "txt",
+    "pages": 1,
+    "text_chars": 590,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/13_1099-INT_Ally_Bank.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1054,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/2024_Form_1040_Return_Summary.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 905,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/Client_Profile.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 984,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  }
+]

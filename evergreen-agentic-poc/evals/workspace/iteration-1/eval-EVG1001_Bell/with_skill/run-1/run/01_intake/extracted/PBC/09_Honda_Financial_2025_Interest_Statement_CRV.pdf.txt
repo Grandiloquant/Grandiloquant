@@ -1,0 +1,13 @@
+
+===== page 1 =====
+American Honda Finance Corporation - 2025 Year-End Statement - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+American Honda Finance Corporation - 2025 Year-End Statement
+Field Value
+Borrower Tanya R. Bell
+Account ****0937
+Vehicle 2022 Honda CR-V EX (pre-owned)
+VIN 7FARW2H56NE00417
+Contract date 06/14/2024
+Interest paid in 2025 1,104.77
+Balance 12/31/2025 16,203.40

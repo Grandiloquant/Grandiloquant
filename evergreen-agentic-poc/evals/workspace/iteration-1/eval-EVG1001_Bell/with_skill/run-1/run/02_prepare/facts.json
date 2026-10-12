@@ -1,0 +1,21 @@
+{
+  "client_id": "EVG1001",
+  "status": "MFJ",
+  "taxpayer": {"age65": false, "blind": false},
+  "spouse": {"age65": false, "blind": false},
+  "dependents": [
+    {"name": "Jaylen Bell", "ctc": true},
+    {"name": "Maya Bell", "ctc": true},
+    {"name": "Noah James Bell", "ctc": true}
+  ],
+  "w2": [
+    {"who": "T", "box1": 58477.50, "box2": 3960.00, "box3": 61850.00, "box4": 3834.70, "box5": 61850.00, "box6": 896.83, "box10": 0},
+    {"who": "S", "box1": 47000.00, "box2": 2810.00, "box3": 47000.00, "box4": 2914.00, "box5": 47000.00, "box6": 681.50, "box10": 5000.00}
+  ],
+  "interest": [
+    {"payer": "JPMorgan Chase Bank (1099-INT)", "amount": 38.42},
+    {"payer": "Ally Bank (1099-INT)", "amount": 1246.19}
+  ],
+  "dependent_care": {"expenses": 6800.00, "n_qual": 2},
+  "sch1a": {"overtime": 3150.00, "car_interest": 2452.18, "vin": "1FTFW1E58SFA10393"}
+}

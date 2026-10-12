@@ -1,0 +1,82 @@
+{
+  "client_id": "EVG1001",
+  "tax_year": 2025,
+  "profile": {
+    "taxpayer": {"name": "Marcus D. Bell", "dob": "1988-04-12", "age_12_31_2025": 37, "occupation": "Warehouse Operations Supervisor (hourly, non-exempt)"},
+    "spouse": {"name": "Tanya R. Bell", "dob": "1990-09-03", "age_12_31_2025": 35, "occupation": "Dental Hygienist", "deceased_date": null},
+    "marital_status_12_31_2025": "married",
+    "marital_events": [],
+    "prior_year_filing_status": "MFJ",
+    "dependents": [
+      {"name": "Jaylen Bell", "dob": "2015-06-20", "age_12_31_2025": 10, "relationship": "son", "months_in_home": 12, "ssn": "on file (last 4 7781)", "notes": "per organizer and PY return"},
+      {"name": "Maya Bell", "dob": "2019-02-11", "age_12_31_2025": 6, "relationship": "daughter", "months_in_home": 12, "ssn": "on file (last 4 6120)", "notes": "per organizer and PY return"},
+      {"name": "Noah James Bell", "dob": "2025-12-18", "age_12_31_2025": 0, "relationship": "son", "months_in_home": 12, "ssn": "issued (last 4 3386); card retained in PERM per email", "notes": "NEWBORN - not on organizer (organizer Q2 'changes in dependents' answered No); disclosed in PBC/11 email. Born in 2025 = treated as lived with parents all year"}
+    ],
+    "residency": [{"state": "TX", "city": "Round Rock (Williamson County)", "from": "2025-01-01", "to": "2025-12-31", "status": "resident"}],
+    "contact": {"preferred": "email", "who": "Tanya Bell - tanya.bell@example.com, (512) 555-0144; eSign OK"},
+    "refund_method": "Direct deposit - Ally checking ending 2210 (voided check on file, PERM/Client_Profile.md)"
+  },
+  "documents": [
+    {"file": "EVG1001_2025_PBC_Receipt_Log.md", "type": "Receipt log", "owner": "firm", "status": "informational", "flags": [], "data": {"first_pbc": "2026-02-02"}, "notes": "13 PBC items logged; 5498-SA received 2026-05-20 (after main batch)."},
+    {"file": "PERM/Client_Profile.md", "type": "Client profile", "owner": "J", "status": "informational", "flags": [], "data": {}, "notes": "TX resident all years - no state individual income tax return."},
+    {"file": "PERM/2024_Form_1040_Return_Summary.pdf", "type": "Prior-year return summary", "owner": "J", "status": "informational", "flags": [], "data": {"status": "MFJ", "wages": 101240.00, "interest": 1011.00, "agi": 102251.00, "std_ded": 29200.00, "taxable_income": 73051.00, "ctc": 4000.00, "dep_care_credit": 200.00, "refund": 3902.00}, "notes": "PY WP: Ally interest recurring; Tanya dependent-care FSA each year; HSA via Marcus' employer (family HDHP)."},
+    {"file": "PBC/01_2025_Organizer_completed.pdf", "type": "Client organizer", "owner": "J", "status": "informational", "flags": [], "data": {"marital_change": "No", "dependent_change": "No", "1099s": "Chase checking", "vehicle_bought": "Yes - new truck March", "childcare": "Yes", "hsa": "Yes", "digital_assets": "No", "estimates": "No", "ally_interest_2025": "(blank)", "chase_interest_2025": 38}, "notes": "Blank Ally line and 'no dependent changes' both contradicted by later PBC items."},
+    {"file": "PBC/02_W-2_Lone_Star_Distribution_Marcus.pdf", "type": "W-2", "owner": "T", "issuer": "Lone Star Distribution LLC", "issuer_id": "00-4417290", "status": "use", "flags": [], "data": {"box1": 58477.50, "box2": 3960.00, "box3": 61850.00, "box4": 3834.70, "box5": 61850.00, "box6": 896.83, "box12": [["D", 3372.50], ["W", 3000.00], ["DD", 14812.00]], "box13_retirement_plan": true, "box14": [["OVERTIME", 9450.00], ["SEC125", 3600.00]], "box15_20": "none (TX)"}, "notes": "Box 14 OVERTIME 9,450 - not stated whether total OT pay or premium only; Marcus is hourly non-exempt (FLSA). Box 1 = box 3 61,850 - 401(k) D 3,372.50 (SEC125 already out of box 3). Code W = HSA employer+payroll contributions."},
+    {"file": "PBC/03_W-2_Brightsmile_Dental_Tanya.pdf", "type": "W-2", "owner": "S", "issuer": "Brightsmile Dental PLLC", "issuer_id": "00-7730215", "status": "use", "flags": [], "data": {"box1": 47000.00, "box2": 2810.00, "box3": 47000.00, "box4": 2914.00, "box5": 47000.00, "box6": 681.50, "box10": 5000.00, "box12": [["AA", 2600.00], ["DD", 7200.00]], "box13_retirement_plan": true}, "notes": "Box 10 dependent care FSA 5,000. AA = Roth 401(k), already in box 1."},
+    {"file": "PBC/04_IMG_4471_tanya_w2.pdf", "type": "W-2 (phone photo)", "owner": "S", "issuer": "Brightsmile Dental PLLC", "issuer_id": "00-7730215", "status": "duplicate_of:PBC/03_W-2_Brightsmile_Dental_Tanya.pdf", "flags": ["photo"], "data": {"box1": 47000.00, "box2": 2810.00, "box10": 5000.00, "control": "BSD-22-014"}, "notes": "Read visually - same EIN, control number and all amounts as PBC/03. Tanya confirms she sent it twice (PBC/11). Do NOT load."},
+    {"file": "PBC/05_1099-INT_Chase.pdf", "type": "1099-INT", "owner": "T", "issuer": "JPMorgan Chase Bank, N.A.", "issuer_id": "00-0000001", "status": "use", "flags": [], "data": {"box1": 38.42}, "notes": "acct ****8812"},
+    {"file": "PBC/06_1099-SA_HSA_Bank.pdf", "type": "1099-SA", "owner": "T", "issuer": "HSA Bank", "issuer_id": "00-3920118", "status": "use", "flags": [], "data": {"box1": 1150.00, "box3_code": "1", "box5": "HSA"}, "notes": "Normal distribution - Form 8889; need confirmation used for qualified medical expenses."},
+    {"file": "PBC/07_5498-SA_HSA_Bank.pdf", "type": "5498-SA", "owner": "T", "issuer": "HSA Bank", "issuer_id": "00-3920118", "status": "informational", "flags": [], "data": {"box2": 3000.00, "box5_fmv": 6842.55}, "notes": "Received 2026-05-20. 3,000 contributions ties to W-2 code W - no separate deduction."},
+    {"file": "PBC/08_Ford_Credit_2025_Interest_Statement_F150.pdf", "type": "Lender interest statement (vehicle)", "owner": "J", "issuer": "Ford Motor Credit Company LLC", "status": "needs_manual_entry", "flags": [], "data": {"vehicle": "2025 Ford F-150 XLT SuperCrew 4x4 (NEW)", "vin": "1FTFW1E58SFA10393", "purchase_date": "2025-03-08", "amount_financed": 48250.00, "lien": "first lien on vehicle", "interest_paid_2025": 2452.18, "balance_12_31_2025": 42106.77, "final_assembly": "Dearborn, Michigan, USA"}, "notes": "Candidate for Sch 1-A qualified passenger vehicle loan interest (new, US assembly, loan after 12/31/2024, secured). Personal use assumed - confirm no business use."},
+    {"file": "PBC/09_Honda_Financial_2025_Interest_Statement_CRV.pdf", "type": "Lender interest statement (vehicle)", "owner": "S", "issuer": "American Honda Finance Corporation", "status": "informational", "flags": [], "data": {"vehicle": "2022 Honda CR-V EX (pre-owned)", "vin": "7FARW2H56NE00417", "contract_date": "2024-06-14", "interest_paid_2025": 1104.77}, "notes": "Used vehicle and pre-2025 loan - NOT deductible under Sch 1-A."},
+    {"file": "PBC/10_Childcare_receipts_2025.pdf", "type": "Provider statements (client-compiled)", "owner": "J", "status": "needs_manual_entry", "flags": [], "data": {"kids_kampus_maya_after_school": 4200.00, "kids_kampus_ein": "00-6618204", "camp_cedar_ridge_ein": "00-5512093", "jaylen_day_camp": 1300.00, "maya_day_camp": 1300.00, "jaylen_overnight_adventure_week": 1400.00, "stated_total": 5400.00, "actual_sum_of_lines": 8200.00, "tanya_note_total_paid": 9600.00}, "notes": "Printed 'Total 5,400' is the 2024 organizer figure / arithmetic error - lines sum to 8,200. Tanya's note says total paid 9,600 (1,400 unsupported). Overnight camp (1,400) not a qualified 2441 expense."},
+    {"file": "PBC/11_Email_from_Tanya_2026-02-11.txt", "type": "Client correspondence", "owner": "J", "status": "informational", "flags": [], "data": {"newborn": "Noah James Bell, DOB 2025-12-18, SSN last 4 3386"}, "notes": "Newborn disclosed; confirms duplicate W-2 upload."},
+    {"file": "PBC/12_Email_thread_Ally_1099-INT_2026-03-04.txt", "type": "Client correspondence", "owner": "J", "status": "informational", "flags": [], "data": {"ally_interest_per_client": 1246.19}, "notes": "Resolves the missing-Ally open item raised 02/24."},
+    {"file": "PBC/13_1099-INT_Ally_Bank.pdf", "type": "1099-INT", "owner": "T", "issuer": "Ally Bank", "issuer_id": "00-0000002", "status": "use", "flags": [], "data": {"box1": 1246.19}, "notes": "acct ****5591 - recurring HYSA; organizer line was blank."}
+  ],
+  "prior_year": {
+    "items": [
+      {"item": "Wages - Lone Star Distribution (Marcus)", "py_amount": 55890.00, "cy_status": "found", "cy_source": "PBC/02_W-2_Lone_Star_Distribution_Marcus.pdf"},
+      {"item": "Wages - Brightsmile Dental (Tanya)", "py_amount": 45350.00, "cy_status": "found", "cy_source": "PBC/03_W-2_Brightsmile_Dental_Tanya.pdf"},
+      {"item": "Interest - Ally Bank 5591", "py_amount": 980.00, "cy_status": "resolved later in PBC", "cy_source": "PBC/13_1099-INT_Ally_Bank.pdf"},
+      {"item": "Interest - Chase", "py_amount": 31.00, "cy_status": "found", "cy_source": "PBC/05_1099-INT_Chase.pdf"},
+      {"item": "Dependent care credit / FSA", "py_amount": 200.00, "cy_status": "found", "cy_source": "PBC/10_Childcare_receipts_2025.pdf; W-2 box 10"},
+      {"item": "HSA contributions via payroll", "py_amount": 3000.00, "cy_status": "found", "cy_source": "W-2 code W; PBC/07"},
+      {"item": "Child tax credit (2 children)", "py_amount": 4000.00, "cy_status": "found - now 3 children (newborn)", "cy_source": "PBC/11"}
+    ],
+    "carryovers": []
+  },
+  "conflicts": [
+    {"topic": "Dependents", "organizer_says": "No changes in dependents; lists Jaylen and Maya only", "documents_show": "Newborn Noah James Bell born 12/18/2025, SSN issued", "source": "PBC/11_Email_from_Tanya_2026-02-11.txt"},
+    {"topic": "Ally interest", "organizer_says": "Blank; Q3 lists only Chase", "documents_show": "Ally 1099-INT 1,246.19", "source": "PBC/13_1099-INT_Ally_Bank.pdf"},
+    {"topic": "Childcare total", "organizer_says": "Statement 'Total 5,400'; Tanya note says total paid 9,600", "documents_show": "Line items sum to 8,200 (4,200 + 1,300 + 1,300 + 1,400)", "source": "PBC/10_Childcare_receipts_2025.pdf"},
+    {"topic": "Tanya W-2", "organizer_says": "n/a", "documents_show": "Same W-2 received twice (PDF + phone photo)", "source": "PBC/03, PBC/04, PBC/11"}
+  ],
+  "filing_requirements": [
+    {"filing": "Federal Form 1040 MFJ", "trigger": "Wages 105k+", "certainty": "required"},
+    {"filing": "Form 8889 (HSA)", "trigger": "W-2 code W and 1099-SA distribution", "certainty": "required"},
+    {"filing": "Form 2441", "trigger": "W-2 box 10 dependent-care benefits (Part III required even if no credit)", "certainty": "required"},
+    {"filing": "Schedule 8812", "trigger": "3 qualifying children", "certainty": "required"},
+    {"filing": "Schedule 1-A", "trigger": "Overtime (FLSA non-exempt) and new US-assembled vehicle loan interest", "certainty": "required"},
+    {"filing": "Schedule B", "trigger": "Interest > $1,500? total 1,284.61 - not required", "certainty": "check"},
+    {"filing": "Texas state return", "trigger": "TX resident all year - no individual income tax", "certainty": "required"}
+  ],
+  "issues_for_preparer": [
+    {"area": "Schedule 1-A overtime", "issue": "Box 14 OVERTIME 9,450 - determine whether it is total OT pay (premium = 1/3 = 3,150) or the premium itself", "evidence": "PBC/02 box 14; PERM profile says hourly non-exempt"},
+    {"area": "Schedule 1-A car loan interest", "issue": "F-150 new, loan 03/08/2025, US final assembly, first lien - 2,452.18 qualifies; Honda CR-V used + 2024 loan does not", "evidence": "PBC/08, PBC/09"},
+    {"area": "Form 2441", "issue": "Qualified expenses: 4,200 after-school + 2,600 day camps = 6,800; overnight Adventure Week 1,400 excluded. FSA 5,000 excluded reduces $6,000 limit to 1,000", "evidence": "PBC/10; W-2 box 10 PBC/03"},
+    {"area": "Dependents / CTC", "issue": "Newborn Noah - 3 CTC children", "evidence": "PBC/11"},
+    {"area": "HSA", "issue": "1099-SA 1,150 code 1 - assume qualified medical; family coverage limit 8,550 vs 3,000 contributed", "evidence": "PBC/06, PBC/07, W-2 code W"},
+    {"area": "Duplicate", "issue": "PBC/04 is a duplicate of PBC/03 - do not load", "evidence": "PBC/04 visual vs PBC/03"}
+  ],
+  "open_items": [
+    {"item": "Confirm whether W-2 box 14 'OVERTIME 9,450' is total overtime pay or only the half-time premium (ask Lone Star payroll or a final paystub)", "why_it_matters": "Sch 1-A deduction is premium only: 3,150 if total (assumed) vs 9,450 if premium - ~$760 tax difference (6,300 x 12%)", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Confirm the 1,150 HSA distribution paid qualified medical expenses", "why_it_matters": "Otherwise taxable + 20% additional tax", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Childcare total: statement lines sum to 8,200 but Tanya says 9,600 paid - any other provider receipts?", "why_it_matters": "No credit effect if more after-school/day-camp costs (already above $6,000 cap); needed only for substantiation", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Confirm F-150 is personal-use (not used in business)", "why_it_matters": "Sch 1-A requires personal-use vehicle", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Verify 2025 extension (Form 4868) was filed - last documents received 2026-05-20, after April 15", "why_it_matters": "Late filing; refund return so no penalty expected but timeliness", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Ally interest (missing 1099-INT)", "why_it_matters": "Recurring PY income", "blocking": false, "resolved_in_pbc": true},
+    {"item": "Newborn SSN", "why_it_matters": "CTC requires SSN", "blocking": false, "resolved_in_pbc": true}
+  ],
+  "engagement": {"engagement_letter_signed": null, "extension_filed": null, "docs_received_within_15_days_of_deadline": false}
+}

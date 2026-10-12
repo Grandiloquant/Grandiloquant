@@ -1,0 +1,29 @@
+{
+  "decision": "approved",
+  "independence_note": "No subagent tool available in this session; same agent reviewed after re-reading source documents.",
+  "points": [
+    {"n": 1, "area": "Sch 1-A overtime", "ref": "WP-3", "issue": "Box 14 OT 9,450 total vs premium unclear; 1/3 method used", "change": "none - open client item", "dollar_effect": "-756 tax if premium-only", "severity": "fyi", "resolved": false},
+    {"n": 2, "area": "Form 2441", "ref": "WP-5", "issue": "Statement total 5,400 wrong (8,200); client says 9,600", "change": "none", "dollar_effect": 0, "severity": "fyi", "resolved": true},
+    {"n": 3, "area": "Form 8889", "ref": "WP-6", "issue": "1,150 HSA distribution assumed qualified", "change": "none - open client item", "dollar_effect": "+368 tax if not qualified", "severity": "fyi", "resolved": false},
+    {"n": 4, "area": "Prep notes", "ref": "prep_notes item 9", "issue": "EITC wording", "change": "none", "dollar_effect": 0, "severity": "fyi", "resolved": true},
+    {"n": 5, "area": "Filing", "ref": "SOP Extension Prep", "issue": "Verify extension accepted; e-file by 10/15/2026", "change": "none", "dollar_effect": 0, "severity": "fyi", "resolved": false}
+  ],
+  "tickmarks": {
+    "EVG1001_2025_PBC_Receipt_Log.md": "used: completeness",
+    "PERM/Client_Profile.md": "used",
+    "PERM/2024_Form_1040_Return_Summary.pdf": "used: PY comparison",
+    "PBC/01_2025_Organizer_completed.pdf": "used (overridden on dependents/Ally)",
+    "PBC/02_W-2_Lone_Star_Distribution_Marcus.pdf": "used",
+    "PBC/03_W-2_Brightsmile_Dental_Tanya.pdf": "used",
+    "PBC/04_IMG_4471_tanya_w2.pdf": "excluded: duplicate of PBC/03",
+    "PBC/05_1099-INT_Chase.pdf": "used",
+    "PBC/06_1099-SA_HSA_Bank.pdf": "used: 8889 nontaxable",
+    "PBC/07_5498-SA_HSA_Bank.pdf": "excluded: informational",
+    "PBC/08_Ford_Credit_2025_Interest_Statement_F150.pdf": "used: Sch 1-A",
+    "PBC/09_Honda_Financial_2025_Interest_Statement_CRV.pdf": "excluded: used vehicle / 2024 loan",
+    "PBC/10_Childcare_receipts_2025.pdf": "used: 2441 (overnight camp excluded)",
+    "PBC/11_Email_from_Tanya_2026-02-11.txt": "used: newborn",
+    "PBC/12_Email_thread_Ally_1099-INT_2026-03-04.txt": "used",
+    "PBC/13_1099-INT_Ally_Bank.pdf": "used"
+  }
+}

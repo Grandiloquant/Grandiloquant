@@ -1,0 +1,7 @@
+{
+  "client_id": "EVG1001",
+  "returns": [
+    {"jurisdiction": "TX", "type": "not required", "reason": "Texas has no individual income tax; taxpayers TX residents all year (PERM/Client_Profile.md); W-2s show no state wages/withholding.", "refund_or_due": 0},
+    {"jurisdiction": "Local (Round Rock / Williamson County)", "type": "not required", "reason": "No local income tax in Texas.", "refund_or_due": 0}
+  ]
+}

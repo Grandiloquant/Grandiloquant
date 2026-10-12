@@ -1,0 +1,41 @@
+{
+  "client_id": "EVG1001",
+  "review_decision": "approved",
+  "federal": {
+    "form": "1040",
+    "status": "MFJ",
+    "method": "e-file",
+    "reason": "No paper triggers: all forms supported for e-file, no 1042-S, no separately mailed forms",
+    "due": "2026-10-15 (with Form 4868 - extension acceptance to be verified in ELF; otherwise 2026-04-15 and now late, refund return so no penalty)",
+    "forms": ["Form 1040", "Schedule 1-A", "Schedule 8812", "Schedule 3", "Form 2441", "Form 8889", "Schedule B (optional - interest 1,285 < 1,500)"],
+    "attachments": [],
+    "agi": 106763, "taxable_income": 69661, "total_tax": 1084, "payments": 6770,
+    "refund": 5686, "refund_method": "Direct deposit - Ally checking ending 2210 (verify routing/account from voided check)",
+    "balance_due": 0
+  },
+  "states": [],
+  "locals": [],
+  "not_required": [
+    {"return": "Texas individual income tax return", "reason": "Texas has no individual income tax; residents all year"},
+    {"return": "Local return (Round Rock / Williamson County)", "reason": "No local income tax in Texas"}
+  ],
+  "separate_filings": [],
+  "efile_blockers": [
+    {"issue": "Extension status unknown (documents received through 2026-05-20)", "resolution": "Verify Form 4868 acceptance in ELF before transmitting; e-file no later than 2026-10-15"},
+    {"issue": "IP PIN", "resolution": "Ask whether either spouse or any dependent has an IP PIN; retrieve the current 2025 PIN if so"},
+    {"issue": "Newborn dependent SSN (Noah, last 4 3386)", "resolution": "Key SSN and name exactly as on SS card in PERM to avoid dependent SSN/name mismatch reject"},
+    {"issue": "Sch 1-A vehicle VIN", "resolution": "VIN 1FTFW1E58SFA10393 entered (required)"},
+    {"issue": "Form 2441 provider info", "resolution": "Kids Kampus EIN 00-6618204; Camp Cedar Ridge EIN 00-5512093"},
+    {"issue": "Form 8879 signatures", "resolution": "Both spouses e-sign (eSign OK per profile); 24-hour hold after approval"}
+  ],
+  "signatures": ["Form 8879 (Marcus and Tanya)"],
+  "payments": [],
+  "estimates_2026": [],
+  "open_items_at_filing": [
+    "Overtime premium basis (box 14 9,450 assumed total OT pay -> 3,150); if premium-only, refile/supersede before 10/15 or amend (+756 refund)",
+    "HSA 1,150 distribution assumed qualified medical",
+    "F-150 personal use assumed",
+    "Childcare receipts (9,600 vs 8,200) - substantiation only, no tax effect",
+    "Extension acceptance verification"
+  ]
+}

@@ -1,0 +1,17 @@
+
+===== page 1 =====
+Ford Motor Credit Company LLC - 2025 Annual Interest Statement - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Ford Motor Credit Company LLC - 2025 Annual Interest Statement
+Field Value
+Borrower(s) Marcus D. Bell; Tanya R. Bell
+Account ****5518
+Vehicle 2025 Ford F-150 XLT SuperCrew 4x4 (NEW)
+VIN 1FTFW1E58SFA10393
+Contract / purchase date 03/08/2025
+Original amount financed 48,250.00
+Lien First lien on vehicle
+Interest paid 01/01/2025 - 12/31/2025 2,452.18
+Principal balance 12/31/2025 42,106.77
+This statement is provided for informational purposes to assist borrowers who may claim the deduction for qualified
+passenger vehicle loan interest. Final assembly location per Monroney label: Dearborn, Michigan, USA.
