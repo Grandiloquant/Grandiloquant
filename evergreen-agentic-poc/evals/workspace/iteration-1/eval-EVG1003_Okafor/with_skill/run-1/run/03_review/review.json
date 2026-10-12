@@ -1,0 +1,26 @@
+{"decision": "approved",
+ "reviewer_independence": "Same agent as preparer (no subagent tool available); sources re-read and high-risk areas re-derived before reading prep_notes.",
+ "points": [
+  {"n": 1, "area": "Sch C other expenses", "ref": "WP-2", "issue": "Car washes vs rider amenities 380 unsplit; car washes arguably covered by standard mileage rate", "change": "none - open client item", "dollar_effect": "up to +$100 tax", "severity": "fyi", "resolved": false},
+  {"n": 2, "area": "Sch C other expenses", "ref": "WP-2", "issue": "Dash cam allocated 63.8% vs 100% - both defensible", "change": "none", "dollar_effect": "~$15", "severity": "fyi", "resolved": true},
+  {"n": 3, "area": "Sch C phone", "ref": "WP-2", "issue": "60% business use is client estimate", "change": "none - substantiation requested", "dollar_effect": "0", "severity": "fyi", "resolved": false},
+  {"n": 4, "area": "Filing timeliness", "ref": "Filing", "issue": "No extension evidence in file; environment date 10/12/2026 is past 04/15/2026", "change": "signer to confirm filing/extension status", "dollar_effect": "possible FTF/FTP penalties + interest on 215", "severity": "fyi", "resolved": false}
+ ],
+ "tickmarks": {
+  "EVG1003_2025_PBC_Receipt_Log.md": "used",
+  "PBC/01_2025_Organizer_Okafor.pdf": "used (facts; amounts superseded by documents)",
+  "PBC/02_W-2_Silver_Sage_Casino.pdf": "used",
+  "PBC/03_1099-K_Uber.pdf": "used",
+  "PBC/04_1099-NEC_Uber.pdf": "used",
+  "PBC/05_Uber_2025_Tax_Summary.pdf": "used",
+  "PBC/06_Tip_diary_scan_2025.pdf": "used",
+  "PBC/07_Mileage_log_scan_2025.pdf": "used",
+  "PBC/08_TMobile_2025_statement_summary.pdf": "used",
+  "PBC/09_IRS_Online_Account_Payment_History.pdf": "used",
+  "PBC/10_GEICO_auto_declarations.pdf": "excluded: informational - covered by standard mileage rate",
+  "PBC/11_1099-K_Uber (1).pdf": "excluded: duplicate of PBC/03",
+  "PBC/12_Email_thread_tips_miles_2026-02-18.txt": "used",
+  "PBC/13_IMG_odometer_photos.pdf": "used",
+  "PERM/2024_Form_1040_Return_Summary.pdf": "used",
+  "PERM/Client_Profile.md": "used"
+ }}

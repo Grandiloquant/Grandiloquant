@@ -1,0 +1,22 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 1099-NEC
+Nonemployee Compensation Tax Year 2025 OMB No. 1545-0116
+Copy B - For Recipient
+PAYER'S name, street address, city, state, ZIP, telephone
+Uber Technologies, Inc.
+1725 3rd Street
+San Francisco, CA 94158
+TIN: 00-2647441
+RECIPIENT'S name, street address, city, state, ZIP
+Daniel C. Okafor
+7720 W Oquendo Rd, Unit 2114
+Las Vegas, NV 89113
+TIN: XXX-XX-5082
+1 Nonemployee compensation
+1,150.00
+2 Payer made direct sales totaling $5,000 or more
+3 Excess golden parachute payments 4 Federal income tax withheld
+5-7 State tax withheld / State / State income
+Form 1099-NEC (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

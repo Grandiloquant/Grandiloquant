@@ -1,0 +1,34 @@
+
+===== page 1 =====
+Uber - 2025 Tax Summary for Daniel Okafor (driver) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Uber - 2025 Tax Summary for Daniel Okafor (driver)
+This summary is provided for informational purposes. It is not tax advice. Your 1099-K reports the gross amount of payments
+from riders; Uber fees and other expenses listed below are not deducted in the 1099-K amount.
+Gross earnings
+Item Amount
+Gross fares 32,040.00
+Booking fees 2,410.00
+Airport fees / other rider fees 1,070.00
+Tolls (rider reimbursed) 340.00
+Tips 2,860.00
+Total 1099-K gross payments 38,720.00
+Other income (1099-NEC)
+Item Amount
+Incentives / Quest promotions 1,030.00
+Referral bonuses 120.00
+Total 1099-NEC 1,150.00
+Potential tax deductions - fees and charges
+Item Amount
+Uber service fee 7,660.00
+Booking fees (passed to Uber) 2,410.00
+Airport / city / other fees 1,070.00
+Total fees 11,140.00
+Mileage
+Item Miles
+Online miles (waiting, en route to pickup, on trip) 15,145.00
+On-trip miles (included above) 10,210.00
+Online miles do not include miles driven while offline (e.g., commuting to your first trip from home).
+Net payouts to your bank (for reference)
+Item Amount
+Total deposits 2025 28,730.00

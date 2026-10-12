@@ -15,3 +15,11 @@
 - 2025 reference: missing 8801/MTC guidance, IL extension/payment rule, timely-mailing (§7502) rule for 83(b).
 - Billing ambiguity in client fee schedule (base fee vs per-event).
 - filing_package.json: no carryforwards field; unclear source for final/return.md.
+
+## EVG1003 Okafor
+- Same: no Agent tool -> self-review.
+- No "as-of date" for the run: sandbox date (Oct 2026) is after 04/15 while the scenario reads as a filing-season engagement -> agents flag lateness. (Fix: harness/skill should state the engagement date or tell agents to read it from the receipt log.)
+- extract_docs keeps spaces in filenames (e.g. "(1).pdf.txt") - breaks naive shell loops.
+- Reference gap: car washes are covered by the standard mileage rate; rider supplies are not.
+- facts_schema gaps: Sch 1-A tips = W-2 + 4137 + SE tips combined? SE tips limited to Sch C net; se.w2_ss_wages should include box 7 tips + 4137 tips (Sch SE 8a/8b).
+- Engine: Schedule C detail only lives in workpapers (net profit input only).

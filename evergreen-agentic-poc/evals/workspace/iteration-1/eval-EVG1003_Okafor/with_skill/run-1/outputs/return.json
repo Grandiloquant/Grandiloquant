@@ -1,0 +1,379 @@
+{
+  "client_id": "EVG1003",
+  "filing_status": "S",
+  "form_1040_summary": {
+    "1z": 46000,
+    "2a": 0,
+    "2b": 0,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 0,
+    "6b": 0,
+    "7": 0,
+    "8": 16702,
+    "9": 62702,
+    "10": 1180,
+    "11": 61522,
+    "12e": 15750,
+    "13a": 3104,
+    "13b": 25000,
+    "15": 17668,
+    "16": 1883,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 1883,
+    "23": 2482,
+    "24": 4365,
+    "25d": 3150,
+    "26": 1000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 4150,
+    "34": 0,
+    "35a": 0,
+    "37": 215
+  },
+  "deduction_type": "Standard",
+  "refund": 0,
+  "balance_due": 215,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 44400
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 1600
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 46000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 0
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 0
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 16702
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 62702
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 1180
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 61522
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 15750
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 3104
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 25000
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 43854
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 17668
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 1883
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 1883
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 1883
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 2482
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 4365
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 3150
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 3150
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 1000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 4150
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 0
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 0
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 215
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule 1": [
+      {
+        "line": "3",
+        "description": "Business income or (loss) - Schedule C",
+        "amount": 16702
+      },
+      {
+        "line": "10",
+        "description": "Additional income (to Form 1040, line 8)",
+        "amount": 16702
+      },
+      {
+        "line": "15",
+        "description": "Deductible part of self-employment tax (Schedule SE)",
+        "amount": 1180
+      },
+      {
+        "line": "26",
+        "description": "Total adjustments to income (to Form 1040, line 10)",
+        "amount": 1180
+      }
+    ],
+    "Schedule 1-A": [
+      {
+        "line": "Part I",
+        "description": "Modified AGI",
+        "amount": 61522
+      },
+      {
+        "line": "Part II",
+        "description": "Qualified tips deduction (qualified tips 29,060, occupation: Bartender (W-2/Form 4137); rideshare driver (Sch C))",
+        "amount": 25000
+      },
+      {
+        "line": "38",
+        "description": "Total additional deductions (to Form 1040, line 13b)",
+        "amount": 25000
+      }
+    ],
+    "Form 8995": [
+      {
+        "line": "Sch C - Uber rideshare",
+        "description": "QBI 15,522; component (below threshold: 20% x QBI)",
+        "amount": 3104
+      },
+      {
+        "line": "limit",
+        "description": "20% x (taxable income before QBI 20,772 - net capital gain & qualified dividends 0)",
+        "amount": 4154
+      },
+      {
+        "line": "deduction",
+        "description": "Qualified business income deduction",
+        "amount": 3104
+      }
+    ],
+    "Schedule SE": [
+      {
+        "line": "T",
+        "description": "Net earnings 15,424; SS 1,913; Medicare 447; half deductible 1,180",
+        "amount": 2360
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "4",
+        "description": "Self-employment tax (Schedule SE)",
+        "amount": 2360
+      },
+      {
+        "line": "5",
+        "description": "Social security and Medicare tax on unreported tip income (Form 4137)",
+        "amount": 122
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 2482
+      }
+    ]
+  },
+  "engine_notes": []
+}

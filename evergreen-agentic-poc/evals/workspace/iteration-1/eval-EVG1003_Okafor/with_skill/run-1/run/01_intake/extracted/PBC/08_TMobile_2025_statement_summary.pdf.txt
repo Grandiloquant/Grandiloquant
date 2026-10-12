@@ -1,0 +1,19 @@
+
+===== page 1 =====
+T-Mobile - 2025 Account Statement Summary (1 line) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+T-Mobile - 2025 Account Statement Summary (1 line)
+Month Plan charges Taxes & fees Total
+Jan 76.00 9.00 85.00
+Feb 76.00 9.00 85.00
+Mar 76.00 9.00 85.00
+Apr 76.00 9.00 85.00
+May 76.00 9.00 85.00
+Jun 76.00 9.00 85.00
+Jul 76.00 9.00 85.00
+Aug 76.00 9.00 85.00
+Sep 76.00 9.00 85.00
+Oct 76.00 9.00 85.00
+Nov 76.00 9.00 85.00
+Dec 76.00 9.00 85.00
+Total 912.00 108.00 1,020.00

@@ -1,0 +1,8 @@
+{
+  "client_id": "EVG1003",
+  "returns": [
+    {"jurisdiction": "NV", "type": "not required", "reason": "Nevada has no individual income tax; resident all year (PERM profile, W-2 address); W-2 shows no state wages/withholding.", "tax": 0, "withholding": 0, "refund_due": 0},
+    {"jurisdiction": "Local (Las Vegas / Clark County)", "type": "not required", "reason": "No local income tax.", "tax": 0},
+    {"jurisdiction": "Other states", "type": "not required", "reason": "No nonresident source income: W-2 work in NV; Uber trips logged in Las Vegas area (no out-of-state 1099 state boxes).", "tax": 0}
+  ]
+}

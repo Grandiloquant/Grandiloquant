@@ -1,0 +1,51 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 1099-K
+Payment Card and Third Party Network Transactions Tax Year 2025 OMB No. 1545-2205
+Copy B - For Recipient
+PAYER'S name, street address, city, state, ZIP, telephone
+Uber Technologies, Inc.
+1725 3rd Street
+San Francisco, CA 94158
+TIN: 00-2647441
+RECIPIENT'S name, street address, city, state, ZIP
+Daniel C. Okafor
+7720 W Oquendo Rd, Unit 2114
+Las Vegas, NV 89113
+TIN: XXX-XX-5082
+1a Gross amount of payment card/third party network 
+38,720.00
+1b Card Not Present transactions
+38,720.00
+2 Merchant category code
+4121
+3 Number of payment transactions
+1,463.00
+4 Federal income tax withheld 5a Jan
+2,410.10
+5b Feb
+2,655.25
+5c Mar
+3,120.40
+5d Apr
+3,302.85
+5e May
+3,288.70
+5f Jun
+3,044.30
+5g Jul
+3,561.15
+5h Aug
+3,390.90
+5i Sep
+3,128.60
+5j Oct
+3,355.00
+5k Nov
+3,468.45
+5l Dec
+3,994.30
+1a filer type PSE / Electronic Payment Facilitator / Other thir
+Third party settlement organization
+Form 1099-K (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

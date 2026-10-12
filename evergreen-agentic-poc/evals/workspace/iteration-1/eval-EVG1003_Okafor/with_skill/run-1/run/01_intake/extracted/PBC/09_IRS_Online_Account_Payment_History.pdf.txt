@@ -1,0 +1,11 @@
+
+===== page 1 =====
+IRS Online Account - Payment Activity (printed 02/06/2026) - Tax period 12/31/2025 - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+IRS Online Account - Payment Activity (printed 02/06/2026) - Tax period
+12/31/2025
+Payment date Type Method Amount
+04/14/2025 Estimated tax (1040-ES) 2025 Direct Pay 500.00
+04/14/2025 Balance due 2024 Form 1040 Direct Pay 459.00
+06/16/2025 Estimated tax (1040-ES) 2025 Direct Pay 500.00
+Total 2025 estimated tax payments: $1,000.00.
