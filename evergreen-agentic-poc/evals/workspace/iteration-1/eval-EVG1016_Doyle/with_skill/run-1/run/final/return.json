@@ -1,0 +1,513 @@
+{
+  "client_id": "EVG1016",
+  "filing_status": "HOH",
+  "form_1040_summary": {
+    "1z": 88600,
+    "2a": 0,
+    "2b": 62,
+    "3a": 0,
+    "3b": 0,
+    "4b": 0,
+    "5b": 30000,
+    "6b": 0,
+    "7": 0,
+    "8": 0,
+    "9": 118662,
+    "10": 0,
+    "11": 118662,
+    "12e": 23625,
+    "13a": 0,
+    "13b": 4860,
+    "15": 90177,
+    "16": 13014,
+    "17": 0,
+    "19": 2200,
+    "20": 1040,
+    "22": 9774,
+    "23": 0,
+    "24": 9774,
+    "25d": 13800,
+    "26": 0,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 0,
+    "33": 13800,
+    "34": 4026,
+    "35a": 4026,
+    "37": 0
+  },
+  "deduction_type": "Standard",
+  "refund": 4026,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 88600
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 88600
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 0
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 62
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 0
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 0
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 30000
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 30000
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 118662
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 118662
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Standard)",
+        "amount": 23625
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 4860
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 28485
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 90177
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 13014
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 13014
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 2200
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 1040
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 3240
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 9774
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 0
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 9774
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 7800
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 6000
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 0
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 13800
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 0
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 0
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 0
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 13800
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 4026
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 4026
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Lake Michigan Credit Union",
+        "amount": 62
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 62
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 62
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 0
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Itemized vs. standard comparison (Schedule A not filed)": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 8900
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 6036
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 3608
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 9644
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($40,000 after MAGI phase-down)",
+        "amount": 9644
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 9644
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 6750
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 6750
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 6750
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 0
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 16394
+      }
+    ],
+    "Schedule 1-A": [
+      {
+        "line": "Part I",
+        "description": "Modified AGI",
+        "amount": 118662
+      },
+      {
+        "line": "Part III",
+        "description": "Qualified overtime compensation deduction (FLSA premium portion 4,860)",
+        "amount": 4860.0
+      },
+      {
+        "line": "38",
+        "description": "Total additional deductions (to Form 1040, line 13b)",
+        "amount": 4860
+      }
+    ],
+    "Form 2441": [
+      {
+        "line": "employer_benefits",
+        "description": "employer benefits",
+        "amount": 0
+      },
+      {
+        "line": "exclusion",
+        "description": "exclusion",
+        "amount": 0
+      },
+      {
+        "line": "taxable_benefits",
+        "description": "taxable benefits",
+        "amount": 0
+      },
+      {
+        "line": "qualified_expenses_allowed",
+        "description": "qualified expenses allowed",
+        "amount": 5200
+      },
+      {
+        "line": "pct",
+        "description": "pct",
+        "amount": 0.2
+      },
+      {
+        "line": "credit",
+        "description": "credit",
+        "amount": 1040
+      }
+    ],
+    "Schedule 8812": [
+      {
+        "line": "4",
+        "description": "Number of qualifying children under 17 with SSN",
+        "amount": 1
+      },
+      {
+        "line": "6",
+        "description": "Number of other dependents",
+        "amount": 0
+      },
+      {
+        "line": "8",
+        "description": "Tentative credit",
+        "amount": 2200
+      },
+      {
+        "line": "10-11",
+        "description": "Phase-out reduction (MAGI 118,662 vs 200,000)",
+        "amount": 0
+      },
+      {
+        "line": "12",
+        "description": "Credit after phase-out",
+        "amount": 2200
+      },
+      {
+        "line": "14",
+        "description": "Nonrefundable CTC/ODC (to Form 1040 line 19)",
+        "amount": 2200
+      },
+      {
+        "line": "27",
+        "description": "Additional child tax credit (to Form 1040 line 28)",
+        "amount": 0
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "2",
+        "description": "Credit for child and dependent care expenses (Form 2441)",
+        "amount": 1040
+      },
+      {
+        "line": "8",
+        "description": "Total nonrefundable credits (to Form 1040, line 20)",
+        "amount": 1040
+      }
+    ]
+  },
+  "engine_notes": [
+    "Itemized deductions $16,394 < standard deduction $23,625; standard deduction used."
+  ]
+}

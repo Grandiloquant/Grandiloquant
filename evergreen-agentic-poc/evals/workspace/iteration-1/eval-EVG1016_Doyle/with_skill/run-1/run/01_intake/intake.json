@@ -1,0 +1,112 @@
+{
+  "client_id": "EVG1016",
+  "tax_year": 2025,
+  "profile": {
+    "taxpayer": {"name": "Megan R. Doyle", "dob": "1989-05-17", "age_12_31_2025": 36, "occupation": "Registered Nurse (ICU), Grand River Health System"},
+    "spouse": {"name": "Brian T. Doyle (separated; NOT a firm client for 2025 - conflict check)", "dob": null, "age_12_31_2025": null, "deceased_date": null},
+    "marital_status_12_31_2025": "separated (still married)",
+    "marital_events": [
+      "married 06/11/2011 (PBC/06 recitals)",
+      "Brian moved out of marital home 03/01/2025 (PBC/06 recitals; PERM/Client_Profile.md)",
+      "Separation and Property Settlement Agreement executed 03/20/2025 (PBC/06)",
+      "Stipulated interim QDRO entered 07/22/2025; plan determined QUALIFIED 08/04/2025 (PBC/07)",
+      "Judgment of Divorce entered 02/10/2026 (PERM profile; PBC/11 email) - AFTER year end, so married at 12/31/2025"
+    ],
+    "prior_year_filing_status": "MFJ (with Brian T. Doyle)",
+    "dependents": [
+      {"name": "Liam P. Doyle", "dob": "2014-03-08", "age_12_31_2025": 11, "relationship": "son", "months_in_home": 12, "ssn": "on file (XXX-XX-2287)",
+       "notes": "Released to noncustodial parent Brian for 2025 via Form 8332 signed 01/28/2026 (PBC/08; agreement Art. 9.2 odd years). Megan keeps HOH qualifying-person and Form 2441 qualifying-person status as custodial parent; no CTC on her return."},
+      {"name": "Nora J. Doyle", "dob": "2017-10-21", "age_12_31_2025": 8, "relationship": "daughter", "months_in_home": 12, "ssn": "on file (XXX-XX-9054)",
+       "notes": "Megan claims every year (Art. 9.2). CTC-eligible (under 17)."}
+    ],
+    "residency": [{"state": "MI", "city": "Grand Rapids", "from": "2025-01-01", "to": "2025-12-31", "status": "resident"}],
+    "contact": {"preferred": "email (megan.doyle.rn@example.com); text OK after 7pm; eSign OK", "who": "Megan Doyle"}
+  },
+  "documents": [
+    {"file": "PBC/01_2025_Organizer_Doyle_Megan.pdf", "type": "Organizer", "owner": "T", "issuer": "Evergreen / client", "status": "informational", "flags": [],
+     "data": {"marital_change": "Separated March 2025, divorce final 2/10/2026 - asks to file SINGLE", "dependents_change": "Brian gets Liam odd years, signed 8332", "alimony_received": 13500, "child_support_monthly": 900, "retirement_distribution": 30000, "dependent_care": 5200, "dsa_fsa": "No", "estimates": "No", "interest_client_entry": 62, "property_tax_client_entry": 4330, "signed": "2026-02-17"},
+     "notes": "Client's requested 'Single' status is not available (married at 12/31)."},
+    {"file": "PBC/02_W-2_Grand_River_Health_Megan.pdf", "type": "W-2", "owner": "T", "issuer": "Grand River Health System", "issuer_id": "00-3811620", "status": "use", "flags": [],
+     "data": {"box1": 88600.00, "box2": 7800.00, "box3": 88600.00, "box4": 5493.20, "box5": 88600.00, "box6": 1284.70, "box10": 0, "box12": [["DD", 9820.00]], "box14": [["QUAL OT PREM", 4860.00], ["UNION DUES", 742.00]], "box15": "MI 38-1181620", "box16": 88600.00, "box17": 3450.00, "box18": 88600.00, "box19": 1311.00, "box20": "GRAND RAPIDS (resident)"},
+     "notes": "Box 14 QUAL OT PREM is premium-only per employer letter PBC/12. Union dues not deductible (no 2025 misc itemized). No box 12 D deferrals shown."},
+    {"file": "PBC/03_1099-R_Lakeshore_401k_QDRO_alternate_payee.pdf", "type": "1099-R", "owner": "T (as QDRO alternate payee)", "issuer": "Lakeshore Industrial Supply Co. 401(k) Savings Plan", "issuer_id": "00-2270451", "status": "use", "flags": [],
+     "data": {"box1": 30000.00, "box2a": 30000.00, "box2b_total_distribution": "No", "box4": 6000.00, "box7": "1", "box13_date": "2025-08-14", "box14_state_wh": 1275.00, "box15_state": "MI", "box16_state_dist": 30000.00},
+     "notes": "Distribution to alternate payee (spouse) under QDRO - taxable to Megan (IRC 402(e)(1)(A)); code 1 but 10% additional tax does not apply (IRC 72(t)(2)(C)) - Form 5329 exception 04 needed."},
+    {"file": "PBC/04_1099-INT_Lake_Michigan_CU.pdf", "type": "1099-INT", "owner": "T", "issuer": "Lake Michigan Credit Union", "issuer_id": "00-0000021", "status": "use", "flags": [],
+     "data": {"box1": 61.88}, "notes": "Organizer rounded to $62."},
+    {"file": "PBC/05_1098_Lake_Michigan_CU_mortgage.pdf", "type": "1098", "owner": "T and Brian (joint borrowers; TIN shown is Megan's)", "issuer": "Lake Michigan Credit Union", "issuer_id": "00-0000021", "status": "use", "flags": [],
+     "data": {"box1": 8120.44, "box2": 212480.00, "box3_origination": "2016-05-28", "box7_same_address": "Yes", "box10_RE_tax_escrow": 4330.12},
+     "notes": "Principal residence, debt well under $750k. Agreement Art. 9.3 gives Megan the deductions from 3/1/2025; per PBC/10 Brian paid Jan-Feb share (interest 1,370; RE tax 722). Megan's paid share: interest 6,750, RE tax 3,608."},
+    {"file": "PBC/06_Separation_Agreement_Doyle_executed_2025-03-20.pdf", "type": "Legal agreement (scan)", "owner": "T", "status": "needs_manual_entry", "flags": ["scan"],
+     "data": {"executed": "2025-03-20", "separated": "2025-03-01", "custody": "Wife sole physical custody of Liam and Nora", "child_support": "900/mo from 04/01/2025", "spousal_support": "1,500/mo from 04/01/2025 for 36 months; terminates on Wife's death or remarriage", "retirement": "Wife awarded $30,000 of Husband's Lakeshore 401(k) via QDRO; cash distribution allowed", "tax_9_1": "parties file SEPARATE returns for 2025", "tax_9_2": "Husband claims Liam odd years, Wife Liam even years, Wife Nora every year; 8332 for odd years", "tax_9_3": "Wife entitled to mortgage interest and property tax deductions from 3/1/2025"},
+     "notes": "Post-2018 instrument -> spousal support neither taxable to Megan nor deductible by Brian (TCJA 11051). 'Separate returns' does not force MFS - HOH is a separate return."},
+    {"file": "PBC/07_Interim_QDRO_Order_2025-07-22.pdf", "type": "Court order (scan)", "owner": "T", "status": "needs_manual_entry", "flags": ["scan"],
+     "data": {"participant": "Brian T. Doyle", "alternate_payee": "Megan R. Doyle", "assigned": 30000, "entered": "2025-07-22", "qualified_determination": "2025-08-04"},
+     "notes": "Supports 72(t)(2)(C) exception and alternate-payee taxation."},
+    {"file": "PBC/08_Form_8332_signed_Liam_2025.pdf", "type": "Form 8332 (scan)", "owner": "T", "status": "needs_manual_entry", "flags": ["scan"],
+     "data": {"child": "Liam P. Doyle", "noncustodial_parent": "Brian T. Doyle", "year": 2025, "signed": "2026-01-28"},
+     "notes": "Original given to Brian's attorney. Brian attaches to his return; Megan does not claim Liam's CTC."},
+    {"file": "PBC/09_Kent_Kids_Club_2025_statement.pdf", "type": "Dependent care provider statement", "owner": "T", "issuer": "Kent Kids Club", "issuer_id": "00-4471208", "status": "use", "flags": [],
+     "data": {"Liam": 2600.00, "Nora": 2600.00, "total": 5200.00, "paid_by": "Megan (LMCU ****3321)", "provider_address": "1530 Plainfield Ave NE, Grand Rapids MI 49505"},
+     "notes": "After-school care (not overnight camp) - qualified. Both children under 13 all year."},
+    {"file": "PBC/10_Megan_household_costs_and_support_2025.xlsx", "type": "Client spreadsheet", "owner": "T", "status": "needs_manual_entry", "flags": [],
+     "data": {"home_cost_total": 30330, "paid_by_brian": 4782, "paid_by_megan": 25548, "megan_share_pct": 84.2,
+              "lines": {"mortgage_interest": [8120, 1370, 6750], "re_tax": [4330, 722, 3608], "insurance": [1380, 230, 1150], "utilities": [5160, 860, 4300], "repairs": [940, 0, 940], "food": [10400, 1600, 8800]},
+              "spousal_support_received": 13500, "child_support_received": 8100},
+     "notes": "Supports HOH 'more than half the cost of keeping up the home' test (84%). Principal correctly excluded."},
+    {"file": "PBC/11_Email_Megan_2026-02-19.txt", "type": "Client email", "owner": "T", "status": "informational", "flags": [],
+     "data": {"questions": ["File Single for 2025?", "10% penalty on QDRO distribution?", "Is the $1,500/mo taxable?", "Does Grand Rapids need its own return?"]},
+     "notes": "Answer all four in the client letter."},
+    {"file": "PBC/12_Grand_River_Health_OT_premium_letter.pdf", "type": "Employer letter", "owner": "T", "issuer": "Grand River Health System", "status": "use", "flags": [],
+     "data": {"ot_hours": 162.0, "regular_rate": 60.00, "premium_rate": 30.00, "qualified_ot_premium": 4860.00},
+     "notes": "Employer reports the FLSA premium itself -> use $4,860 as is (do not divide by 3)."},
+    {"file": "PBC/13_Brian_Doyle_W-2_2025_copy.pdf", "type": "W-2 (copy)", "owner": "Brian T. Doyle", "issuer": "Lakeshore Industrial Supply Co.", "status": "not_this_client", "flags": ["copy"],
+     "data": {"box1": 73850.00, "box2": 7120.00, "box16": 73850.00},
+     "notes": "Ex-spouse's form; Brian has another preparer. Do not use; do not prepare joint. Note for file only."}
+  ],
+  "prior_year": {
+    "items": [
+      {"item": "Wages - Grand River Health (Megan)", "py_amount": 84110, "cy_status": "found", "cy_source": "PBC/02 (88,600)"},
+      {"item": "Wages - Lakeshore Industrial (Brian)", "py_amount": 71300, "cy_status": "ended (separate return; not this client)", "cy_source": "PBC/13 (not used)"},
+      {"item": "Interest - Lake Michigan CU", "py_amount": 58, "cy_status": "found", "cy_source": "PBC/04 (61.88)"},
+      {"item": "Dependent care - Kent Kids Club", "py_amount": 4900, "cy_status": "found", "cy_source": "PBC/09 (5,200)"},
+      {"item": "Mortgage interest (std deduction taken PY)", "py_amount": 8410, "cy_status": "found", "cy_source": "PBC/05 (8,120.44)"},
+      {"item": "Property tax", "py_amount": 4210, "cy_status": "found", "cy_source": "PBC/05 box 10 (4,330.12)"},
+      {"item": "CTC - Liam and Nora", "py_amount": 4000, "cy_status": "Nora only (Liam released via 8332)", "cy_source": "PBC/08"},
+      {"item": "MI-1040 and GR-1040R", "py_amount": "MI 5,655 / GR 2,295", "cy_status": "required again (resident all year)", "cy_source": "PBC/02 boxes 15-20"}
+    ],
+    "carryovers": [{"item": "None shown on 2024 summary", "amount": 0, "character": null, "source": "PERM/2024_Form_1040_Return_Summary.pdf"}]
+  },
+  "conflicts": [
+    {"topic": "Filing status", "organizer_says": "Single (divorce final 2/10/2026)", "documents_show": "Divorce entered 02/10/2026 -> still married at 12/31/2025; Single not allowed. HOH 'considered unmarried' test appears met (spouse out since 03/01/2025; Megan paid 84% of home costs; both kids lived with her 12 months).", "source": "PBC/01, PBC/06, PBC/10, PBC/11, PERM profile"},
+    {"topic": "Alimony", "organizer_says": "Alimony received $13,500 (listed as income line)", "documents_show": "Agreement executed 03/20/2025 (post-2018) -> not includible in income.", "source": "PBC/06 Art. 5"},
+    {"topic": "Interest", "organizer_says": "62", "documents_show": "61.88", "source": "PBC/04"},
+    {"topic": "Dependents", "organizer_says": "Both kids listed as dependents, 12 months", "documents_show": "Liam released to Brian for 2025 via signed 8332", "source": "PBC/08"}
+  ],
+  "filing_requirements": [
+    {"filing": "Form 1040 (HOH proposed)", "trigger": "Gross income ~$118.7k", "certainty": "required"},
+    {"filing": "Form 5329 Part I (exception 04 - QDRO)", "trigger": "1099-R code 1 with exception applying", "certainty": "required"},
+    {"filing": "Form 2441", "trigger": "Kent Kids Club $5,200 for two children under 13", "certainty": "required"},
+    {"filing": "Schedule 8812 (Nora)", "trigger": "Child under 17", "certainty": "required"},
+    {"filing": "Schedule 1-A (qualified overtime)", "trigger": "W-2 box 14 QUAL OT PREM $4,860", "certainty": "required"},
+    {"filing": "MI-1040 resident", "trigger": "MI resident all year; MI withholding W-2 and 1099-R", "certainty": "required"},
+    {"filing": "Grand Rapids GR-1040R resident", "trigger": "Grand Rapids resident all year; GR tax withheld", "certainty": "required"},
+    {"filing": "FBAR/8938/Schedule H/other states", "trigger": "None indicated", "certainty": "check"}
+  ],
+  "issues_for_preparer": [
+    {"area": "Filing status", "issue": "Married at 12/31/2025. Test HOH under IRC 7703(b)/2(b): spouse not in home last 6 months (moved out 03/01/2025), paid >1/2 cost of home (25,548/30,330 = 84%), home was principal home of a child for >1/2 year (Liam and Nora 12 months). Form 8332 release does not affect HOH. Compare MFS.", "evidence": "PBC/06, PBC/10, PERM profile"},
+    {"area": "Retirement", "issue": "QDRO distribution $30,000 to alternate-payee spouse: taxable to Megan, 10% additional tax exempt under 72(t)(2)(C) (exception 04 on Form 5329). Withholding $6,000 fed / $1,275 MI.", "evidence": "PBC/03, PBC/07"},
+    {"area": "Alimony", "issue": "$13,500 spousal support under 2025 agreement - excluded from income. Child support $8,100 nontaxable.", "evidence": "PBC/06 Art. 4-5; PBC/10"},
+    {"area": "Schedule 1-A", "issue": "Qualified overtime premium $4,860 reported by employer (premium only). HOH considered-unmarried taxpayer is not 'married' for the joint-filing requirement.", "evidence": "PBC/02 box 14; PBC/12"},
+    {"area": "Credits", "issue": "CTC for Nora only. Form 2441 for both kids (custodial parent; $5,200 of $6,000 limit; no box 10 benefits).", "evidence": "PBC/08, PBC/09"},
+    {"area": "Schedule A", "issue": "Itemized (Megan-paid interest 6,750 + RE tax 3,608 + state/local income tax withheld 6,036) far below HOH standard $23,625 - standard likely.", "evidence": "PBC/05, PBC/10, PBC/02, PBC/03"},
+    {"area": "State/local", "issue": "MI: retirement subtraction eligibility for an early QDRO distribution to an alternate payee aged 36 - check; MI exemptions: Megan + Nora (Liam follows federal dependency). GR: taxability of 401(k) distribution for city tax - check.", "evidence": "PBC/03"}
+  ],
+  "open_items": [
+    {"item": "Confirm Brian did not live in the home at any time after 03/01/2025 (HOH test - last 6 months)", "why_it_matters": "HOH vs MFS status", "blocking": false, "resolved_in_pbc": true},
+    {"item": "Confirm Megan has the copy of the signed Form 8332 only (original with Brian's attorney) and that Brian will claim Liam", "why_it_matters": "Avoid duplicate claim; Megan must not claim Liam's CTC", "blocking": false, "resolved_in_pbc": true},
+    {"item": "Brian's 401(k) contribution breakdown (employee deferrals vs employer/earnings) for the QDRO amount", "why_it_matters": "Possible Grand Rapids city-tax exclusion of previously-taxed deferrals; conservatively treated as fully taxable", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Direct-deposit account for refund (LMCU ****3321) - voided check on file", "why_it_matters": "Refund routing", "blocking": false, "resolved_in_pbc": true}
+  ],
+  "engagement": {"engagement_letter_signed": true, "extension_filed": null, "docs_received_within_15_days_of_deadline": false}
+}

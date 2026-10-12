@@ -1,0 +1,53 @@
+{
+  "decision": "approved",
+  "points": [
+    {
+      "n": 1,
+      "area": "MI-1040",
+      "ref": "WP-8",
+      "issue": "MI overtime subtraction $4,860 relies on Oct 2025 MI legislation not in firm reference",
+      "change": "none - signer verify",
+      "dollar_effect": "MI refund -206 if not allowed",
+      "severity": "fyi",
+      "resolved": true
+    },
+    {
+      "n": 2,
+      "area": "GR-1040R",
+      "ref": "WP-9",
+      "issue": "QDRO distribution fully taxed for city; possible partial exclusion",
+      "change": "none - open client item",
+      "dollar_effect": "up to -450 GR tax",
+      "severity": "fyi",
+      "resolved": false
+    },
+    {
+      "n": 3,
+      "area": "Dependents/e-file",
+      "ref": "software_exceptions #3",
+      "issue": "Liam must not be entered as CTC dependent; keep as 2441 qualifying person",
+      "change": "none to numbers",
+      "dollar_effect": "0",
+      "severity": "fyi",
+      "resolved": true
+    }
+  ],
+  "tickmarks": {
+    "PERM/Client_Profile.md": "used",
+    "PERM/2024_Form_1040_Return_Summary.pdf": "used",
+    "PBC/01_2025_Organizer_Doyle_Megan.pdf": "used (facts); alimony line rejected",
+    "PBC/02_W-2_Grand_River_Health_Megan.pdf": "used",
+    "PBC/03_1099-R_Lakeshore_401k_QDRO_alternate_payee.pdf": "used",
+    "PBC/04_1099-INT_Lake_Michigan_CU.pdf": "used",
+    "PBC/05_1098_Lake_Michigan_CU_mortgage.pdf": "used (itemized comparison only)",
+    "PBC/06_Separation_Agreement_Doyle_executed_2025-03-20.pdf": "used",
+    "PBC/07_Interim_QDRO_Order_2025-07-22.pdf": "used",
+    "PBC/08_Form_8332_signed_Liam_2025.pdf": "used",
+    "PBC/09_Kent_Kids_Club_2025_statement.pdf": "used",
+    "PBC/10_Megan_household_costs_and_support_2025.xlsx": "used",
+    "PBC/11_Email_Megan_2026-02-19.txt": "used",
+    "PBC/12_Grand_River_Health_OT_premium_letter.pdf": "used",
+    "PBC/13_Brian_Doyle_W-2_2025_copy.pdf": "excluded: not this client (ex-spouse)"
+  },
+  "note": "Reviewed by same agent (no subagent tool); sources re-read first"
+}

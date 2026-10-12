@@ -1,0 +1,25 @@
+{
+  "client_id": "EVG1016",
+  "returns": [
+    {"jurisdiction": "MI", "type": "MI-1040 resident (full year)",
+     "federal_agi": 118662,
+     "additions": 0,
+     "subtractions": [{"item": "Qualified overtime compensation (MI subtraction enacted Oct 2025 for TY2025, mirrors federal Sch 1-A premium amount) - VERIFY against final 2025 MI-1040 Schedule 1 instructions", "amount": 4860}],
+     "retirement_subtraction": {"amount": 0, "reason": "QDRO 401(k) lump sum paid to alternate payee age 36 is a premature distribution from an elective-deferral plan - not a qualifying retirement/pension benefit (MCL 206.30)."},
+     "income_subject_to_tax": 113802,
+     "exemptions": {"count": 2, "each": 5800, "total": 11600, "who": "Megan + Nora (Liam released to Brian via Form 8332 - follows federal dependency)"},
+     "taxable_income": 102202, "rate": 0.0425, "tax": 4344,
+     "credits": {"homestead_property_tax_credit": 0, "reason_hptc": "Total household resources exceed the $69,700 limit", "mi_eic": 0},
+     "withholding": {"w2_box17": 3450.00, "1099r_box14": 1275.00, "total": 4725},
+     "refund": 381, "balance_due": 0, "method": "e-file with federal"},
+    {"jurisdiction": "Grand Rapids", "type": "GR-1040R resident (full year)",
+     "income": [{"item": "W-2 wages (box 18)", "amount": 88600}, {"item": "Interest", "amount": 62}, {"item": "QDRO 401(k) premature distribution (treated as taxable - contribution breakdown unknown; open item)", "amount": 30000}],
+     "excluded": [{"item": "Spousal support", "amount": 13500, "reason": "Not federal income (post-2018 agreement)"}],
+     "total_income": 118662,
+     "exemptions": {"count": 2, "each": 600, "total": 1200},
+     "taxable_income": 117462, "rate": 0.015, "tax": 1762,
+     "withholding": {"w2_box19": 1311.00, "total": 1311},
+     "refund": 0, "balance_due": 451, "method": "e-file if supported by software/city, otherwise paper; payment due 04/30/2026 (GR due date) - verify"},
+    {"jurisdiction": "Other states / cities", "type": "not required", "reason": "MI resident all year; no out-of-state income; ex-spouse's city (Wyoming MI) irrelevant to Megan."}
+  ]
+}

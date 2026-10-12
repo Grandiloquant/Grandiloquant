@@ -1,0 +1,11 @@
+
+===== page 1 =====
+Grand River Health System - Payroll - Qualified Overtime Compensation Statement (2025) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Grand River Health System - Payroll - Qualified Overtime Compensation
+Statement (2025)
+Employee: Megan R. Doyle Employee ID 118802
+Box 14 of your 2025 Form W-2 ('QUAL OT PREM') reports the premium portion only (the amount in excess of your regular
+rate) of overtime required under section 7 of the Fair Labor Standards Act, as described in the Schedule 1-A instructions.
+Total overtime hours 2025: 162.0. Regular rate $60.00/hr; FLSA premium $30.00/hr x 162.0 = $4,860.00.
+Shift differentials and holiday premiums not required under the FLSA are excluded.

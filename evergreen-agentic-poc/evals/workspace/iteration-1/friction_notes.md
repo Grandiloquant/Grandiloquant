@@ -23,3 +23,11 @@
 - Reference gap: car washes are covered by the standard mileage rate; rider supplies are not.
 - facts_schema gaps: Sch 1-A tips = W-2 + 4137 + SE tips combined? SE tips limited to Sch C net; se.w2_ss_wages should include box 7 tips + 4137 tips (Sch SE 8a/8b).
 - Engine: Schedule C detail only lives in workpapers (net profit input only).
+
+## EVG1016 Doyle
+- Same: no Agent tool -> self-review.
+- Agent applied a Michigan 2025 overtime subtraction "from memory" (MI refund 381 vs key 175) - unverified law applied from recall; skill should require state positions not in the reference to be flagged, not applied.
+- Reference gaps: MI tips/overtime + retirement subtraction, Grand Rapids treatment of retirement distributions and due date, city exemptions vs 8332 release.
+- facts_schema: no field for 5329 exception codes, HOH qualifying person, 2441 lived-apart rule.
+- Separation cases: Sch 1-A "married must file jointly" vs considered-unmarried HOH; splitting a joint 1098.
+- Run date after 04/15 again (no as-of date).

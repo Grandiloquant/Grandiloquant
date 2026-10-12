@@ -1,0 +1,153 @@
+[
+  {
+    "file": "EVG1016_2025_PBC_Receipt_Log.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 2083,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/01_2025_Organizer_Doyle_Megan.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 2019,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/02_W-2_Grand_River_Health_Megan.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1256,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/03_1099-R_Lakeshore_401k_QDRO_alternate_payee.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1475,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/04_1099-INT_Lake_Michigan_CU.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1075,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/05_1098_Lake_Michigan_CU_mortgage.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1107,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/06_Separation_Agreement_Doyle_executed_2025-03-20.pdf",
+    "type": "pdf",
+    "pages": 2,
+    "text_chars": 38,
+    "needs_vision": true,
+    "page_images": [
+      "06_Separation_Agreement_Doyle_executed_2025-03-20.pdf_p1.png",
+      "06_Separation_Agreement_Doyle_executed_2025-03-20.pdf_p2.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/07_Interim_QDRO_Order_2025-07-22.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 18,
+    "needs_vision": true,
+    "page_images": [
+      "07_Interim_QDRO_Order_2025-07-22.pdf_p1.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/08_Form_8332_signed_Liam_2025.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 18,
+    "needs_vision": true,
+    "page_images": [
+      "08_Form_8332_signed_Liam_2025.pdf_p1.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/09_Kent_Kids_Club_2025_statement.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 524,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/10_Megan_household_costs_and_support_2025.xlsx",
+    "type": "xlsx",
+    "pages": 2,
+    "text_chars": 790,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/11_Email_Megan_2026-02-19.txt",
+    "type": "txt",
+    "pages": 1,
+    "text_chars": 771,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/12_Grand_River_Health_OT_premium_letter.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 780,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/13_Brian_Doyle_W-2_2025_copy.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 448,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/2024_Form_1040_Return_Summary.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1106,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/Client_Profile.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 1401,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  }
+]

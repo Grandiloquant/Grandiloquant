@@ -1,0 +1,106 @@
+{
+  "client_id": "EVG1016",
+  "review_decision": "approved",
+  "federal": {
+    "form": "1040 (HOH)",
+    "method": "e-file",
+    "reason": "No paper triggers; all forms e-file supported",
+    "due": "2026-04-15 (10/15/2026 if Form 4868 on file - confirm; package date is 10/12/2026)",
+    "attachments": [
+      "Schedule 1-A (qualified overtime $4,860)",
+      "Form 2441 (Kent Kids Club EIN 00-4471208; Liam and Nora)",
+      "Schedule 8812 (Nora)",
+      "Form 5329 Part I (exception 04 QDRO, $30,000; no tax)",
+      "Schedule B not required (interest < $1,500) - engine shows it for reference"
+    ],
+    "refund": 4026,
+    "balance_due": 0
+  },
+  "states": [
+    {
+      "return": "MI-1040",
+      "type": "resident",
+      "method": "e-file (with federal)",
+      "due": "2026-04-15",
+      "refund": 381,
+      "balance_due": 0,
+      "note": "Includes $4,860 MI overtime subtraction - signer to verify; without it refund $175"
+    }
+  ],
+  "locals": [
+    {
+      "return": "Grand Rapids GR-1040R",
+      "type": "resident",
+      "method": "e-file if supported by software for GR, else paper to City of Grand Rapids Income Tax Dept",
+      "due": "2026-04-30 (verify)",
+      "refund": 0,
+      "balance_due": 451
+    }
+  ],
+  "not_required": [
+    {
+      "return": "Other states/cities",
+      "reason": "MI resident all year; no out-of-state income"
+    },
+    {
+      "return": "Joint return with Brian",
+      "reason": "Separate preparer; HOH chosen"
+    },
+    {
+      "return": "FBAR/8938/3520",
+      "reason": "No foreign accounts/assets"
+    }
+  ],
+  "separate_filings": [],
+  "efile_blockers": [
+    {
+      "issue": "Dependent duplicate claim risk - Liam claimed by Brian under 8332",
+      "resolution": "Liam entered only as 2441 qualifying person / HOH child, not as dependent for CTC; Nora only dependent"
+    },
+    {
+      "issue": "Filing status rolled forward as MFJ",
+      "resolution": "Set to HOH; spouse name/SSN entered on HOH line (married living apart)"
+    },
+    {
+      "issue": "IP PIN",
+      "resolution": "None noted in file - confirm with client none issued for 2025"
+    },
+    {
+      "issue": "Name control",
+      "resolution": "No name change (divorce final 2026; still Doyle) - none"
+    },
+    {
+      "issue": "1099-R code 1 - 5329 exception",
+      "resolution": "Exception 04 entered; no additional tax"
+    },
+    {
+      "issue": "Timing - package prepared 10/12/2026",
+      "resolution": "Confirm Form 4868/MI extension was filed; if not, federal and MI are refunds (no failure-to-file penalty on zero balance) but GR balance $451 accrues penalty/interest - file immediately"
+    }
+  ],
+  "signatures": [
+    "Form 8879 (federal)",
+    "MI-8879",
+    "GR e-file authorization (or paper signature)"
+  ],
+  "payments": [
+    {
+      "jurisdiction": "Grand Rapids",
+      "amount": 451,
+      "how": "Pay with GR-1040R (check or city online payment)",
+      "due": "2026-04-30 (verify)"
+    }
+  ],
+  "refund_direct_deposit": "Lake Michigan CU checking ****3321 (new individual account; voided check on file)",
+  "estimates_2026": [
+    {
+      "note": "None recommended. 2026 W-2 withholding ($7,800 run-rate) expected to cover tax on wages; spousal support nontaxable; no QDRO income in 2026. Megan claims both children in 2026 (even year). Review W-4 if overtime rises."
+    }
+  ],
+  "open_items_at_filing": [
+    "Client confirm Brian did not live in home after 03/01/2025 (HOH)",
+    "Optional: 401(k) contribution breakdown for GR exclusion",
+    "Signer verify MI overtime subtraction",
+    "Confirm extension status / filing date"
+  ]
+}
