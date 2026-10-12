@@ -1,0 +1,28 @@
+{
+  "decision": "approved",
+  "independence_note": "No subagent tool available; same agent re-read all source documents and re-derived AGI, regular tax, AMT, MTC and IL tax before reading prep_notes.md.",
+  "points": [
+    {"n": 1, "area": "Payments", "ref": "WP-7 / Sch 3 line 10", "issue": "$6,000 extension payment supported only by receipt log", "change": "none - confirm before transmission", "dollar_effect": 0, "severity": "fyi", "resolved": false},
+    {"n": 2, "area": "AMT / MTC", "ref": "WP-3", "issue": "MTC carryforward $4,346 and ISO AMT basis $56,000 must carry to 2026", "change": "none", "dollar_effect": 0, "severity": "fyi", "resolved": true},
+    {"n": 3, "area": "HSA", "ref": "WP-4 / Form 8889", "issue": "Engine does not render Form 8889; filed form must show line 2 = 0, line 9 = 4,300, no 5329", "change": "none to tax", "dollar_effect": 0, "severity": "fyi", "resolved": true},
+    {"n": 4, "area": "83(b)", "ref": "WP-5", "issue": "Late election - agree no 2025 income; client advice needed", "change": "none", "dollar_effect": 0, "severity": "fyi", "resolved": true}
+  ],
+  "tickmarks": {
+    "PBC/01_2025_Organizer_Brooks.pdf": "used: status/questions",
+    "PBC/02_W-2_Parallax_Robotics.pdf": "used",
+    "PBC/03_Form_3921_Parallax_ISO_exercise.pdf": "used: AMT",
+    "PBC/04_ETRADE_2025_Consolidated_1099.pdf": "used: basis adjusted code B",
+    "PBC/05_ETRADE_Stock_Plan_Transactions_Supplement_2025.pdf": "used: support only",
+    "PBC/06_1099-INT_Wealthfront.pdf": "used",
+    "PBC/07_5498-SA_Fidelity_HSA.pdf": "excluded: informational; box 2 includes excess later returned",
+    "PBC/08_Fidelity_HSA_Contribution_History_2025.pdf": "used: 8889 support",
+    "PBC/09_Loomwork_AI_Restricted_Stock_Agreement.pdf": "used: 83(b) analysis",
+    "PBC/10_Form_15620_83b_election_and_USPS_receipt.pdf": "used: late election, $8,000 excluded",
+    "PBC/11_Email_Nathan_2026-03-02.txt": "used: facts",
+    "PBC/12_Chicago_Public_Library_Foundation_receipt.pdf": "used: itemized comparison only",
+    "PBC/13_Email_thread_HSA_excess_2026-09-16.txt": "used: corrective distribution",
+    "PBC/14_Loomwork_cap_table_export.csv": "used: corroboration",
+    "PERM/2024_Form_1040_Return_Summary.pdf": "used: PY comparison",
+    "PERM/Client_Profile.md": "used: profile"
+  }
+}

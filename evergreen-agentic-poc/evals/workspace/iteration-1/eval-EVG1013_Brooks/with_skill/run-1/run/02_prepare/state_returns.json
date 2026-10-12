@@ -1,0 +1,10 @@
+{
+  "client_id": "EVG1013",
+  "returns": [
+    {"jurisdiction": "IL", "type": "IL-1040 resident (full year)", "base_income": 165959, "modifications": 0,
+     "exemption": 2850, "net_income": 163109, "rate": 0.0495, "tax": 8074, "credits": 0, "withholding": 8150,
+     "estimates_and_extension_payments": 0, "refund": 76, "balance_due": 0,
+     "notes": "Federal AGI with no IL subtractions (bank interest, no US obligations). Automatic IL extension to 10/15/2026; no payment needed (refund). Sources: W-2 boxes 15-17 (PBC/02)."},
+    {"jurisdiction": "Chicago", "type": "not required", "reason": "Chicago has no city income tax (PERM/Client_Profile.md)"}
+  ]
+}

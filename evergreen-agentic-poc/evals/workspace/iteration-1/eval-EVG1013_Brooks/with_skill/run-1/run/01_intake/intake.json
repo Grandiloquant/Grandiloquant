@@ -1,0 +1,108 @@
+{
+  "client_id": "EVG1013",
+  "tax_year": 2025,
+  "profile": {
+    "taxpayer": {"name": "Nathan J. Brooks", "dob": "1995-07-22", "age_12_31_2025": 30, "occupation": "Senior Robotics Software Engineer (Parallax Robotics); co-founder/CTO Loomwork AI, Inc.", "ssn_last4": "6618"},
+    "spouse": null,
+    "marital_status_12_31_2025": "single",
+    "marital_events": [],
+    "prior_year_filing_status": "Single",
+    "dependents": [],
+    "residency": [{"state": "IL", "city": "Chicago", "from": "2025-01-01", "to": "2025-12-31", "status": "resident", "note": "Chicago has no city income tax (PERM/Client_Profile.md)"}],
+    "contact": {"preferred": "email", "who": "Nathan Brooks, nathan.brooks@example.com, (312) 555-0187; eSign OK"},
+    "health_coverage": "Parallax HDHP, self-only, all 12 months of 2025 (PERM profile; Fidelity contribution history)",
+    "refund_bank": "Chase checking ****7730 (voided check on file)"
+  },
+  "documents": [
+    {"file": "PBC/01_2025_Organizer_Brooks.pdf", "type": "Organizer", "owner": "T", "issuer": "Evergreen/CCH organizer", "status": "informational", "flags": [],
+     "data": {"marital_change": "No", "equity_events": "ISO exercise Feb (held), NSO exercise+sale Sept, founder shares", "3921": "Yes", "83b_filed": "Yes - mailed in December", "HSA": "payroll + $1,000 April", "digital_assets": "No", "estimates": "No", "extend": "Yes", "interest_est": "~1,300", "other_income": "Loomwork founder stock 8,000?? (83b)", "HSA_contrib": 5300, "charitable": "blank"},
+     "notes": "Signed 02/27/2026. Client's '8,000?? (83b)' entry is a question, not a fact - see 83(b) timeliness issue."},
+    {"file": "PBC/02_W-2_Parallax_Robotics.pdf", "type": "W-2", "owner": "T", "issuer": "Parallax Robotics, Inc.", "issuer_id": "00-8814402", "status": "use", "flags": [],
+     "data": {"box1": 164700.00, "box2": 27600.00, "box3": 176100.00, "box4": 10918.20, "box5": 176700.00, "box6": 2562.15,
+              "box12": [["D", 12000.00], ["W", 4300.00], ["V", 22000.00], ["DD", 7812.00]], "box13_retirement_plan": true,
+              "box15": "IL 0088-1440", "box16": 164700.00, "box17": 8150.00},
+     "notes": "Box 12 V $22,000 = NSO exercise income already in box 1 (ties to E*TRADE supplement). Box 3 at 2025 SS wage base $176,100. Box 5 = box 1 + D 12,000 (cafeteria HSA payroll excluded from Medicare too). Box 12 W $4,300 = $3,300 employee payroll + $1,000 employer seed."},
+    {"file": "PBC/03_Form_3921_Parallax_ISO_exercise.pdf", "type": "3921", "owner": "T", "issuer": "Parallax Robotics, Inc.", "issuer_id": "00-8814402", "status": "use", "flags": [],
+     "data": {"grant": "ISO-2021-0117", "box1_date_granted": "2021-03-15", "box2_date_exercised": "2025-02-14", "box3_exercise_price": 1.50, "box4_fmv": 14.00, "box5_shares": 4000,
+              "bargain_element": 50000.00},
+     "notes": "Exercise-and-hold; no 2025 sale (3921 note + E*TRADE supplement). FMV per 01/31/2025 409A (pre-IPO). AMT adjustment (Form 6251 line 2i) $50,000 = 4,000 x (14.00 - 1.50). Not regular-tax income."},
+    {"file": "PBC/04_ETRADE_2025_Consolidated_1099.pdf", "type": "Consolidated 1099 (1099-B)", "owner": "T", "issuer": "E*TRADE from Morgan Stanley", "issuer_id": "Stock plan acct ****4471", "status": "use", "flags": [],
+     "data": {"1099-DIV_total": 0, "1099-INT": 0, "1099-B": [{"desc": "PLXR 2,000 sh NSO exercise same-day sale", "acq": "2025-09-18", "sold": "2025-09-18", "proceeds": 25975.05, "basis_reported": 4000.00, "gain_reported": 21975.05, "term": "short", "covered": true, "box": "A", "wash": 0, "fed_wh": 0}]},
+     "notes": "Reported basis = exercise price only ($2 x 2,000). Proceeds net of $24.95 commissions. Basis must be adjusted to $26,000 (code B) - the $22,000 is in W-2 box 1 (code V)."},
+    {"file": "PBC/05_ETRADE_Stock_Plan_Transactions_Supplement_2025.pdf", "type": "Broker supplemental statement", "owner": "T", "issuer": "E*TRADE from Morgan Stanley", "status": "informational", "flags": [],
+     "data": {"NSO": {"grant": "NSO-2022-0288", "date": "2025-09-18", "shares": 2000, "exercise_price": 2.00, "fmv": 13.00, "w2_income": 22000.00, "proceeds": 25975.05, "adjusted_basis": 26000.00, "adjusted_gain": -24.95},
+              "ISO": {"grant": "ISO-2021-0117", "date": "2025-02-14", "shares": 4000, "exercise_price": 1.50, "fmv": 14.00, "bargain_element_amt": 50000.00, "held_12_31": 4000},
+              "holdings_12_31_2025": {"PLXR_ISO_lot": {"shares": 4000, "price": 11.35, "value": 45400.00}}},
+     "notes": "Supports basis adjustment; same transactions as 1099-B (not additional). ISO shares worth $45,400 at 12/31 vs AMT basis $56,000 - no disqualifying disposition in 2025 so no AMT relief."},
+    {"file": "PBC/06_1099-INT_Wealthfront.pdf", "type": "1099-INT", "owner": "T", "issuer": "Wealthfront Brokerage LLC", "issuer_id": "00-3350097", "status": "use", "flags": [],
+     "data": {"box1": 1284.37, "box3": 0, "box4": 0, "box8": 0}, "notes": "Bank-sweep interest; not US obligation interest (no IL subtraction)."},
+    {"file": "PBC/07_5498-SA_Fidelity_HSA.pdf", "type": "5498-SA", "owner": "T", "issuer": "Fidelity Management Trust Co.", "issuer_id": "00-2297021", "status": "informational", "flags": [],
+     "data": {"box2_total_contributions_2025": 5300.00, "box5_fmv": 14870.12, "box6": "HSA"},
+     "notes": "Received 05/28/2026 (before the excess was returned 09/15/2026), so box 2 still shows $5,300 including the $1,000 excess."},
+    {"file": "PBC/08_Fidelity_HSA_Contribution_History_2025.pdf", "type": "HSA contribution history", "owner": "T", "issuer": "Fidelity HSA ****5512", "status": "informational", "flags": [],
+     "data": {"payroll_employee_pretax": 3300.00, "employer_seed_2025-01-10": 1000.00, "participant_after_tax_2025-04-11": 1000.00, "total": 5300.00, "coverage": "self-only HDHP", "limit": 4300.00},
+     "notes": "Payroll + employer = $4,300 = W-2 code W = the full self-only limit; the $1,000 after-tax deposit is an excess contribution."},
+    {"file": "PBC/09_Loomwork_AI_Restricted_Stock_Agreement.pdf", "type": "Legal agreement (founder RSA)", "owner": "T", "issuer": "Loomwork AI, Inc.", "status": "needs_manual_entry", "flags": ["legal agreement"],
+     "data": {"grant_date": "2025-11-03", "shares": 20000, "price_paid": 0, "fmv_per_share": 0.40, "fmv_total": 8000.00, "vesting": "25% on 11/03/2026, balance 36 monthly", "forfeiture": "unvested shares forfeited on termination of service", "83b_deadline_stated": "30 days after Grant Date"},
+     "notes": "Shares are substantially nonvested at 12/31/2025. 30-day 83(b) deadline = 12/03/2025."},
+    {"file": "PBC/10_Form_15620_83b_election_and_USPS_receipt.pdf", "type": "Form 15620 (83(b) election) + USPS certified mail receipt", "owner": "T", "issuer": "Taxpayer / USPS", "status": "needs_manual_entry", "flags": ["scanned", "image-only", "handwritten note on receipt"],
+     "data": {"service_recipient": "Loomwork AI, Inc. EIN 00-5520871", "line7_date_transferred": "2025-11-03", "line8_tax_year": 2025, "line10_fmv": 8000.00, "line11_paid": 0.00, "line12_includible": 8000.00, "signed": "2025-12-08", "copy_to_company": "emailed 12/08", "usps_postmark": "2025-12-10 Chicago IL 60647", "sent_to": "IRS Ogden UT 84201-0002"},
+     "notes": "Signed 12/08/2025 and postmarked 12/10/2025 - both after the 12/03/2025 deadline (30 days after 11/03/2025 transfer). Election appears UNTIMELY -> invalid; no 2025 income."},
+    {"file": "PBC/11_Email_Nathan_2026-03-02.txt", "type": "Client correspondence", "owner": "T", "status": "informational", "flags": [],
+     "data": {"facts": ["4,000 ISOs exercised Feb, still held", "2,000 NSOs exercised+sold Sept; worried about double tax", "20,000 Loomwork founder shares Nov; 83(b) mailed December; asks whether to report $8,000", "extra $1,000 HSA in April", "asked to extend"]}},
+    {"file": "PBC/12_Chicago_Public_Library_Foundation_receipt.pdf", "type": "Donation receipt", "owner": "T", "issuer": "Chicago Public Library Foundation", "issuer_id": "00-3611982", "status": "use", "flags": [],
+     "data": {"cash_gift": 250.00, "date": "2025-11-28", "goods_services": "none"},
+     "notes": "Contemporaneous written acknowledgment OK. Deductible only if itemizing (2025)."},
+    {"file": "PBC/13_Email_thread_HSA_excess_2026-09-16.txt", "type": "Client correspondence + Fidelity return-of-excess confirmation", "owner": "T", "status": "use", "flags": [],
+     "data": {"excess_returned": 1000.00, "nia": 38.00, "total_distributed": 1038.00, "processed": "2026-09-15", "tax_year_of_contribution": 2025, "reported_on": "2026 Form 1099-SA code 2"},
+     "notes": "Corrective distribution before 10/15/2026 extended due date -> no 6% excise; $1,000 not deducted; $38 NIA taxable in year received (2026)."},
+    {"file": "PBC/14_Loomwork_cap_table_export.csv", "type": "Spreadsheet (cap table)", "owner": "T", "issuer": "Loomwork counsel", "status": "informational", "flags": [],
+     "data": {"Nathan_shares": 20000, "issue_date": "2025-11-03", "price_paid": 0, "83b_column": "Copy received 12/08/2025"},
+     "notes": "Co-founders' 83(b)s shown 'Yes - 11/21' and 'Yes - 11/26' (timely); Nathan's copy only 12/08/2025 - corroborates late filing. Rows for other holders are not this client."},
+    {"file": "PERM/2024_Form_1040_Return_Summary.pdf", "type": "Prior-year return summary", "owner": "T", "status": "informational", "flags": [],
+     "data": {"status": "Single", "wages": 139880, "interest": 1106, "agi": 140986, "std_ded": 14600, "ti": 126386, "tax": 23526, "amt": 0, "total_tax": 23526, "withholding": 24410, "refund": 884, "IL_base": 140986, "IL_exemption": 2775, "IL_tax": 6842, "IL_refund": 311, "MTC_carryover": 0, "cap_loss_co": 0}},
+    {"file": "PERM/Client_Profile.md", "type": "Client profile", "owner": "T", "status": "informational", "flags": []},
+    {"file": "EVG1013_2025_PBC_Receipt_Log.md", "type": "PBC receipt log", "owner": "firm", "status": "informational", "flags": [],
+     "data": {"extension": "Form 4868 filed 04/13/2026; $6,000 paid via EFTPS/Direct Pay", "first_pbc": "2026-03-02"}}
+  ],
+  "prior_year": {
+    "items": [
+      {"item": "W-2 wages - Parallax Robotics", "py_amount": 139880, "cy_status": "found", "cy_source": "PBC/02_W-2_Parallax_Robotics.pdf"},
+      {"item": "Interest - Wealthfront Cash", "py_amount": 1106, "cy_status": "found", "cy_source": "PBC/06_1099-INT_Wealthfront.pdf"},
+      {"item": "HSA (self-only)", "py_amount": 3850, "cy_status": "found", "cy_source": "PBC/07, PBC/08, PBC/13"},
+      {"item": "Federal withholding", "py_amount": 24410, "cy_status": "found", "cy_source": "PBC/02 box 2"},
+      {"item": "IL withholding / IL-1040", "py_amount": 6842, "cy_status": "found", "cy_source": "PBC/02 box 17"}
+    ],
+    "carryovers": [
+      {"item": "Minimum tax credit (Form 8801)", "amount": 0, "character": "n/a", "source": "PERM/2024_Form_1040_Return_Summary.pdf"},
+      {"item": "Capital loss carryover", "amount": 0, "character": "ST/LT", "source": "PERM/2024_Form_1040_Return_Summary.pdf"}
+    ]
+  },
+  "conflicts": [
+    {"topic": "83(b) election / $8,000 income", "organizer_says": "83(b) filed in 2025; 'Loomwork founder stock 8,000??'; Form 15620 line 12 says $8,000 includible", "documents_show": "Grant 11/03/2025; 30-day deadline 12/03/2025; election signed 12/08/2025, USPS postmark 12/10/2025; company received copy 12/08/2025 (co-founders' were 11/21 and 11/26). Election is late and invalid.", "source": "PBC/09, PBC/10, PBC/14"},
+    {"topic": "HSA contributions", "organizer_says": "5,300 HSA contributions", "documents_show": "$4,300 via payroll/employer (= self-only limit) + $1,000 after-tax excess, returned with $38 NIA on 09/15/2026", "source": "PBC/08, PBC/13, W-2 code W"},
+    {"topic": "NSO gain", "organizer_says": "NSO sale - see 1099 (client worried about double tax)", "documents_show": "1099-B gain $21,975.05 on $4,000 basis; adjusted basis $26,000 -> loss $(24.95)", "source": "PBC/04, PBC/05, W-2 code V"},
+    {"topic": "Interest", "organizer_says": "~1,300", "documents_show": "1,284.37", "source": "PBC/06"}
+  ],
+  "filing_requirements": [
+    {"filing": "Federal Form 1040 (Single) with Form 8949/Sch D, Sch B (optional < $1,500 - not required), Form 6251, Form 8889, Form 8801 (computes MTC carryforward)", "trigger": "Wages, NSO sale, ISO AMT adjustment, HSA activity", "certainty": "required"},
+    {"filing": "IL-1040 resident", "trigger": "IL resident all year; IL W-2 wages", "certainty": "required"},
+    {"filing": "Chicago city return", "trigger": "n/a - Chicago has no city income tax", "certainty": "not required"},
+    {"filing": "FBAR / 8938", "trigger": "No foreign accounts indicated", "certainty": "not required"},
+    {"filing": "Extension", "trigger": "Form 4868 filed 04/13/2026 with $6,000 payment; extended due date 10/15/2026. IL automatic extension (no separate IL extension required; payment would need IL-505-I)", "certainty": "required (done)"}
+  ],
+  "issues_for_preparer": [
+    {"area": "Wages / Form 8949", "issue": "NSO same-day sale: broker basis $4,000 excludes $22,000 W-2 code V income. Adjust basis to $26,000 (code B) -> ST loss $(24.95). Avoid double tax.", "evidence": "PBC/02 box 12 V; PBC/04; PBC/05"},
+    {"area": "AMT", "issue": "ISO exercise-and-hold 4,000 sh, spread $50,000 -> Form 6251 line 2i. Creates AMT basis $56,000 in PLXR ISO lot (regular basis $6,000) and likely a minimum tax credit carryforward (deferral item).", "evidence": "PBC/03; PBC/05"},
+    {"area": "83(b) / Loomwork", "issue": "Election untimely (deadline 12/03/2025, signed 12/08, postmarked 12/10). Late election is invalid; no 2025 income. Shares taxed as compensation on vesting (from 11/03/2026). Client needs advice (possible restructuring with counsel). Do not report $8,000.", "evidence": "PBC/09 sec. 1-3; PBC/10 p1-p2; PBC/14"},
+    {"area": "HSA / Form 8889", "issue": "Self-only limit $4,300 met via payroll+employer (code W). $1,000 after-tax deposit is excess; withdrawn with $38 NIA on 09/15/2026 before extended due date -> no excise (Form 5329 not needed), no HSA deduction for it; $38 taxable in 2026.", "evidence": "PBC/02 code W; PBC/08; PBC/13"},
+    {"area": "Charity", "issue": "$250 cash to CPL Foundation - only useful if itemizing; standard deduction $15,750 will be larger.", "evidence": "PBC/12"},
+    {"area": "Payments", "issue": "Extension payment $6,000 (04/13/2026). No estimates. PY AGI $140,986 <= $150k -> 2210 safe harbor is 100% of PY tax $23,526; withholding $27,600 covers it.", "evidence": "Receipt log; PERM 2024 summary"}
+  ],
+  "open_items": [
+    {"item": "Confirmation of the $6,000 extension payment (EFTPS/Direct Pay confirmation)", "why_it_matters": "Credited on line 10; amount from receipt log only", "blocking": false, "resolved_in_pbc": false},
+    {"item": "83(b) election late - client to be advised; confirm the actual mailing date (no earlier mailing exists)", "why_it_matters": "If no timely election, $8,000 is NOT 2025 income and vesting-date FMV is taxed later as compensation", "blocking": false, "resolved_in_pbc": true},
+    {"item": "HSA excess contribution", "why_it_matters": "6% excise avoided only if returned by 10/15/2026", "blocking": false, "resolved_in_pbc": true}
+  ],
+  "engagement": {"engagement_letter_signed": null, "extension_filed": true, "extension_date": "2026-04-13", "extended_due_date": "2026-10-15", "docs_received_within_15_days_of_deadline": false}
+}

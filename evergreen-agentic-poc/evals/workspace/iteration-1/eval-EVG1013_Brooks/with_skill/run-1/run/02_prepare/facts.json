@@ -1,0 +1,16 @@
+{
+  "client_id": "EVG1013",
+  "status": "S",
+  "taxpayer": {"age65": false, "blind": false},
+  "dependents": [],
+  "w2": [{"who": "T", "box1": 164700.00, "box2": 27600.00, "box3": 176100.00, "box4": 10918.20, "box5": 176700.00, "box6": 2562.15, "box10": 0}],
+  "interest": [{"payer": "Wealthfront Brokerage LLC", "amount": 1284.37}],
+  "trades": [{"id": "1", "desc": "2,000 sh Parallax Robotics (PLXR) - NSO exercise same-day sale (basis adj. for W-2 code V $22,000)",
+              "acq": "09/18/2025", "sold": "09/18/2025", "proceeds": 25975.05, "basis": 26000.00, "adj": 0, "code": "B", "box": "A"}],
+  "cap_loss_co": {"st": 0, "lt": 0},
+  "adjustments": {"hsa": 0},
+  "itemized": {"state_income_tax": 8150.00, "charity_cash": 250.00},
+  "amt": {"iso": 50000.00},
+  "extension_payment": 6000.00,
+  "estimated_payments": 0
+}

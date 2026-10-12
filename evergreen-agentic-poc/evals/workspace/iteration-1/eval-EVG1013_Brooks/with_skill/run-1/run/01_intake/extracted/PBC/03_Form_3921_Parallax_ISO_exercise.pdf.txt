@@ -1,0 +1,32 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 3921
+Exercise of an Incentive Stock Option Under Section 422(b) Tax Year 2025 OMB No. 1545-2129
+Copy B - For Recipient
+TRANSFEROR'S name, street address, city, state, ZIP
+Parallax Robotics, Inc.
+1045 W Fulton Market Ste 400
+Chicago, IL 60607
+TIN: 00-8814402
+EMPLOYEE'S name, street address, city, state, ZIP
+Nathan J. Brooks
+2250 W Belden Ave Apt 3R
+Chicago, IL 60647
+TIN: XXX-XX-6618
+Account number (see instructions)
+Grant ISO-2021-0117
+1 Date option granted
+03/15/2021
+2 Date option exercised
+02/14/2025
+3 Exercise price paid per share
+1.50
+4 Fair market value per share on exercise date
+14.00
+5 No. of shares transferred
+4,000
+6 If other than transferor, name/address of corp. w
+FMV per share on exercise date per Board-approved 409A valuation dated 01/31/2025 (pre-IPO).
+Shares held in E*TRADE stock plan account - no shares sold in 2025.
+Form 3921 (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

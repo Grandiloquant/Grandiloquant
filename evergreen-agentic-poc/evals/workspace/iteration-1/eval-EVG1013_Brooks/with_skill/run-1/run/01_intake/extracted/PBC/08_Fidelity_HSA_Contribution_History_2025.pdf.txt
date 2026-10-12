@@ -1,0 +1,19 @@
+
+===== page 1 =====
+Fidelity HSA - Contribution History - Account ****5512 - Calendar Year 2025 - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Fidelity HSA - Contribution History - Account ****5512 - Calendar Year
+2025
+Date Source Tax year Amount
+Jan-Dec (26 pay periods) Payroll - employee pre-tax
+(Parallax cafeteria plan)
+2025 3,300.00
+01/10/2025 Employer seed contribution
+(Parallax)
+2025 1,000.00
+04/11/2025 Participant - online transfer from
+Chase ****7730 (after-tax)
+2025 1,000.00
+Total 5,300.00
+Coverage type on file: SELF-ONLY HDHP. 2025 IRS contribution limit for self-only coverage: $4,300 (age 55+ catch-up: not
+applicable).

@@ -1,0 +1,29 @@
+{
+  "client_id": "EVG1013",
+  "review_decision": "approved",
+  "federal": {"form": "1040", "status": "Single", "method": "e-file", "reason": "No paper triggers; all forms supported", "due": "2026-10-15 (Form 4868 filed 04/13/2026)",
+              "forms": ["1040", "Schedule 2 (AMT)", "Schedule 3 (extension payment)", "Schedule D", "Form 8949 (box A, code B)", "Form 6251", "Form 8889", "Schedule B (optional, interest $1,284)"],
+              "attachments": [], "agi": 165959, "taxable_income": 150209, "total_tax": 33243, "refund": 357, "balance_due": 0,
+              "refund_method": "Direct deposit - Chase checking ****7730"},
+  "states": [{"return": "IL-1040", "type": "resident", "method": "e-file (with federal)", "due": "2026-10-15 (IL automatic extension)", "tax": 8074, "refund": 76, "balance_due": 0}],
+  "locals": [],
+  "not_required": [
+    {"return": "Chicago city income tax", "reason": "Chicago has no city income tax"},
+    {"return": "FinCEN 114 / Form 8938", "reason": "No foreign accounts or assets"},
+    {"return": "Form 5329", "reason": "HSA excess $1,000 + earnings withdrawn 09/15/2026 before extended due date"},
+    {"return": "Form 2210", "reason": "Withholding $27,600 exceeds 100% of 2024 tax $23,526"},
+    {"return": "Form 8801 (2025)", "reason": "No MTC carried into 2025; $4,346 MTC is generated for 2026"}
+  ],
+  "separate_filings": [],
+  "efile_blockers": [
+    {"issue": "IP PIN", "resolution": "None indicated in file; confirm with client on 8879 call (any 2025 IP PIN must be current-year)"},
+    {"issue": "Extension payment $6,000 supported by receipt log only", "resolution": "Tie to IRS transcript / Direct Pay confirmation before transmission"},
+    {"issue": "Timing - 24-hour hold after client approval; deadline 10/15/2026", "resolution": "Send 8879/IL-8453 for eSign 10/12; transmit by 10/15/2026"},
+    {"issue": "Name control / SSN", "resolution": "No name change; BROO matches prior-year accepted return"}
+  ],
+  "signatures": ["Form 8879 (eSign)", "IL-8453 (eSign)"],
+  "payments": [],
+  "estimates_2026": [{"note": "No required ES vouchers computed; safe harbor 110% of 2025 tax = $36,567 (2025 AGI > $150k). Recommend reviewing W-4 / adding estimates when Loomwork shares vest (from 11/03/2026) or PLXR shares are sold."}],
+  "carryforwards": {"minimum_tax_credit": 4346, "iso_lot_amt_basis": 56000, "iso_lot_regular_basis": 6000, "hsa_nia_2026_income": 38},
+  "open_items_at_filing": ["Confirm $6,000 extension payment", "Client advice: untimely Loomwork 83(b) - refer to company counsel"]
+}

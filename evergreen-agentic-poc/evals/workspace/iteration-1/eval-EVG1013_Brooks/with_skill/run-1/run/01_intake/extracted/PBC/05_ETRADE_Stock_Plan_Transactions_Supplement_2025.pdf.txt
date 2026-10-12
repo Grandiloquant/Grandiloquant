@@ -1,0 +1,18 @@
+
+===== page 1 =====
+E*TRADE from Morgan Stanley - 2025 Stock Plan Transactions Supplement (not a tax form) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+E*TRADE from Morgan Stanley - 2025 Stock Plan Transactions
+Supplement (not a tax form)
+This supplement is provided for informational purposes to help you reconcile your Form 1099-B. It is not filed with the IRS.
+Transactions shown here are the SAME transactions reported on your 2025 Form 1099-B.
+Nonqualified Stock Option (NSO) - Exercise and Same-Day Sale
+Grant Exercise / sale date Shares Exercise price FMV at exercise Ordinary income (on W-2) Proceeds (net) Adjusted cost basis Adjusted gain/(loss)
+NSO-2022-0288 09/18/2025 2,000.00 2.00 13.00 22,000.00 25,975.05 26,000.00 (24.95)
+Incentive Stock Option (ISO) - Exercise and Hold (no sale)
+Grant Exercise date Shares Exercise price FMV at exercise Bargain element (AMT) Shares held 12/31/2025
+ISO-2021-0117 02/14/2025 4,000.00 1.50 14.00 50,000.00 4,000.00
+ISO exercise is not reported on Form W-2 or Form 1099-B. See Form 3921 issued by your employer.
+Holdings at 12/31/2025
+Security Shares Price 12/31/2025 Market value
+PLXR (ISO lot 02/14/2025) 4,000.00 11.35 45,400.00

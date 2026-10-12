@@ -1,0 +1,24 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 5498-SA
+HSA, Archer MSA, or Medicare Advantage MSA Information Tax Year 2025 
+Copy B - For Recipient
+TRUSTEE'S name, street address, city, state, ZIP
+Fidelity Management Trust Co.
+PO Box 770001
+Cincinnati, OH 45277
+TIN: 00-2297021
+PARTICIPANT'S name, street address, city, state, ZIP
+Nathan J. Brooks
+2250 W Belden Ave Apt 3R
+Chicago, IL 60647
+TIN: XXX-XX-6618
+1 Employee or self-employed person's Archer MSA con2 Total contributions made in 2025
+5,300.00
+3 Total HSA or Archer MSA contributions made in 202 4 Rollover contributions
+5 Fair market value of HSA, Archer MSA, or MA MSA
+14,870.12
+6 HSA / Archer MSA / MA MSA
+HSA
+Form 5498-SA (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
