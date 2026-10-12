@@ -1,0 +1,91 @@
+{
+  "client_id": "EVG1008",
+  "tax_year": 2025,
+  "profile": {
+    "taxpayer": {"name": "Kevin M. O'Brien", "dob": "1975-05-14", "age_12_31_2025": 50, "occupation": "Production manager, Conestoga Precision Components"},
+    "spouse": {"name": "Samantha J. O'Brien", "dob": "1977-09-30", "age_12_31_2025": 48, "occupation": "RN care coordinator, Lancaster Regional Health System", "deceased_date": null},
+    "marital_status_12_31_2025": "married",
+    "marital_events": [],
+    "prior_year_filing_status": "MFJ",
+    "dependents": [
+      {"name": "Emma O'Brien", "dob": "2007-03-18", "age_12_31_2025": 18, "relationship": "daughter", "months_in_home": 12, "ssn": "on file (last 4 5540)", "notes": "Full-time student at Penn State from fall 2025 (temporary absence at school Aug-Dec counts as in home). Qualifying child (under 24, FT student) -> ODC $500; AOTC candidate."},
+      {"name": "Connor O'Brien", "dob": "2011-08-02", "age_12_31_2025": 14, "relationship": "son", "months_in_home": 12, "ssn": "on file (last 4 9021)", "notes": "Under 17 -> CTC"}
+    ],
+    "residency": [{"state": "PA", "city": "Manheim Township, Lancaster County", "from": "2025-01-01", "to": "2025-12-31", "status": "resident"}],
+    "contact": {"preferred": "email", "who": "Samantha - sam.obrien@example.com, (717) 555-0129; eSign OK"}
+  },
+  "documents": [
+    {"file": "PBC/01_2025_Organizer_completed.pdf", "type": "Organizer", "owner": "T+S", "status": "informational", "flags": [], "data": {"interest_fulton": 382, "re_tax_home": 6100, "re_tax_cabin": 3320, "charity_cash": 2400, "estimates": "none", "digital_assets": "no", "personal_use_of_rental": "yes - cabin", "improvements": "new roof duplex June; water heater unit B"}, "notes": "Signed 02/21/2026. Charity $2,400 (St. Anne Parish / United Way) - no receipts provided."},
+    {"file": "PBC/02_W-2_Conestoga_Precision_Kevin.pdf", "type": "W-2", "owner": "T", "issuer": "Conestoga Precision Components Inc", "issuer_id": "00-2238104", "status": "use", "flags": [], "data": {"box1": 98500.00, "box2": 11800.00, "box3": 110500.00, "box4": 6851.00, "box5": 110500.00, "box6": 1602.25, "box12": [["D", 12000.00], ["DD", 16240.00]], "box13_retirement_plan": true, "box14": [["PA LST", 52.00]], "box16": 110500.00, "box17": 3392.35, "box18": 110500.00, "box19": 1105.00, "box20": "MANHEIM TWP EIT (LCTCB)"}, "notes": "Box1 = box3 - 401(k) D 12,000. Ties."},
+    {"file": "PBC/03_W-2_Lancaster_Regional_Samantha.pdf", "type": "W-2", "owner": "S", "issuer": "Lancaster Regional Health System", "issuer_id": "00-1104772", "status": "use", "flags": [], "data": {"box1": 72800.00, "box2": 7900.00, "box3": 78800.00, "box4": 4885.60, "box5": 78800.00, "box6": 1142.60, "box12": [["E", 6000.00], ["DD", 9880.00]], "box13_retirement_plan": true, "box14": [["PA LST", 52.00]], "box16": 78800.00, "box17": 2419.16, "box18": 78800.00, "box19": 788.00, "box20": "MANHEIM TWP EIT (LCTCB)"}, "notes": "Box1 = box3 - 403(b) E 6,000. Ties."},
+    {"file": "PBC/04_1099-INT_Fulton_Bank.pdf", "type": "1099-INT", "owner": "J", "issuer": "Fulton Bank, N.A.", "issuer_id": "00-0000052", "status": "use", "flags": [], "data": {"box1": 382.10}, "notes": "Recurring; PY 355."},
+    {"file": "PBC/05_1098_Susquehanna_Valley_Mortgage.pdf", "type": "1098", "owner": "J", "issuer": "Susquehanna Valley Mortgage Co.", "issuer_id": "00-6120044", "status": "use", "flags": ["rental address"], "data": {"box1": 9860.00, "box2": 176402.33, "box3": "04/20/2018", "box7_same_address": "No", "box8": "128-130 Chestnut Row, Lancaster, PA 17602", "box10": "Property taxes disbursed from escrow 5,4[truncated] - 5,420 per escrow statement"}, "notes": "RENTAL (duplex) -> Schedule E, not Schedule A."},
+    {"file": "PBC/06_1098_Members_1st_FCU_Home.pdf", "type": "1098", "owner": "J", "issuer": "Members 1st FCU", "issuer_id": "00-8770321", "status": "use", "flags": [], "data": {"box1": 7400.00, "box2": 208110.05, "box3": "10/15/2012", "box8": "86 Hawthorne Ridge Dr", "box10": "RE taxes 6,100.00"}, "notes": "Main home - Schedule A."},
+    {"file": "PBC/07_1098_Pocono_Community_Bank_Cabin.pdf", "type": "1098", "owner": "J", "issuer": "Pocono Community Bank", "issuer_id": "00-4410982", "status": "use", "flags": ["mixed-use property"], "data": {"box1": 8300.00, "box2": 238990.71, "box3": "06/26/2020", "box8": "27 Blue Heron Ln, Pocono Lake, PA 18347", "box10": "RE taxes 3,320.00"}, "notes": "Cabin - mixed rental/personal (§280A allocation)."},
+    {"file": "PBC/08_Susquehanna_Valley_Escrow_Annual_Statement_Duplex.pdf", "type": "Lender escrow statement", "owner": "J", "issuer": "Susquehanna Valley Mortgage Co.", "status": "use", "flags": [], "data": {"principal_paid": 7118.40, "interest_paid": 9860.00, "escrow_re_taxes": 5420.00, "escrow_hazard_insurance": 1640.00}, "notes": "Supports duplex taxes/insurance; principal 7,118.40 not deductible (ledger shows full P&I 16,978.40)."},
+    {"file": "PBC/09_1098-T_Penn_State_Emma.pdf", "type": "1098-T", "owner": "dependent (Emma)", "issuer": "The Pennsylvania State University", "issuer_id": "00-6003624", "status": "use", "flags": [], "data": {"box1": 18400.00, "box5": 6000.00, "box7": true, "box8": true}, "notes": "Box 7 checked - box 1 includes Spring 2026 tuition/fees billed and paid in Dec 2025."},
+    {"file": "PBC/10_Penn_State_LionPATH_Account_Activity_2025.pdf", "type": "Bursar statement", "owner": "dependent (Emma)", "status": "use", "flags": [], "data": {"tuition_fall": 9200, "fees_fall": 610, "tuition_spring26": 8000, "fees_spring26": 590, "room_board": 14840, "scholarship_provost": 6000, "parent_payments": 27240}, "notes": "Qualified T&F paid 2025 = 18,400; room & board not qualified; scholarship restricted to tuition."},
+    {"file": "PBC/11_OBrien_Rental_Ledger_2025.xlsx", "type": "Client rental ledger", "owner": "J", "status": "needs_manual_entry", "flags": ["spreadsheet"], "data": {
+      "duplex": {"rent_unit_A": 16200, "rent_unit_B": 12950, "late_fee": 75, "total_rents": 29225, "advertising": 85, "water_heater_weaver_88710": 1900, "roof_keystone": 14000, "window_lancaster_glass": 450, "repairs_various_plumbing_780_misc_1120": 1900, "utilities": 1380, "maintenance": 600, "insurance": 1640, "taxes": 5420, "mortgage_P_and_I": 16978.40, "mileage_miles": 380},
+      "cabin": {"nights_booked": 62, "gross_bookings": 14880, "vrbo_fees": 1190.40, "payout": 13689.60, "cleaning": 1240, "utilities_full_year": 2490, "insurance_full_year": 1660, "repairs_full_year": 830, "supplies": 415, "mortgage_interest": 8300, "re_tax": 3320}}, "notes": "Unit B vacant Mar-Apr (10 months rent). Roof booked as repair (must be capitalized). Possible duplicate: 'Various Weaver Plumbing / Home Depot 1,900 (plumbing 780; misc 1,120)' equals Weaver invoice 88710 amount 1,900 also listed separately."},
+    {"file": "PBC/12_1099-K_VRBO_Cabin.pdf", "type": "1099-K", "owner": "T", "issuer": "Expedia / VRBO (HomeAway.com, Inc.)", "issuer_id": "00-0000061", "status": "use", "flags": [], "data": {"box1a": 14880.00, "box3": 14, "monthly": {"May": 1440, "Jun": 2640, "Jul": 2250, "Aug": 2940, "Sep": 1880, "Oct": 2380, "Nov": 690, "Dec": 660}}, "notes": "Gross; ties to payout report. Fees deducted separately."},
+    {"file": "PBC/13_VRBO_Payout_Report_2025.csv", "type": "Platform payout report", "owner": "T", "status": "use", "flags": [], "data": {"reservations": 14, "nights": 62, "gross": 14880.00, "host_service_fee": 744.00, "payment_processing": 446.40, "payout": 13689.60}, "notes": "Average stay 62/14 = 4.43 nights (<= 7) -> not a 'rental activity' under Reg. 1.469-1T(e)(3)(ii)(A); transient use."},
+    {"file": "PBC/14_Keystone_Roofing_Invoice_2025-0619.pdf", "type": "Contractor invoice", "owner": "J", "status": "use", "flags": [], "data": {"roof_replacement": 13150, "decking": 520, "disposal": 330, "total": 14000, "paid": "06/20/2025", "completed": "06/18/2025"}, "notes": "Full tear-off replacement of duplex roof -> improvement (restoration, Reg. 1.263(a)-3(k)); capitalize 27.5-yr."},
+    {"file": "PBC/15_Weaver_Plumbing_Invoice_88710.pdf", "type": "Contractor invoice", "owner": "J", "status": "use", "flags": [], "data": {"removal": 180, "install_50gal_water_heater": 1720, "total": 1900}, "notes": "Undated; ledger date 02/11/2025. Under $2,500 per invoice - de minimis safe harbor candidate."},
+    {"file": "PBC/16_IMG_2207_window_receipt.pdf", "type": "Receipt (phone photo)", "owner": "J", "status": "use", "flags": ["photo"], "data": {"date": "09/08/2025", "labor": 165, "glass_unit": 285, "total": 450}, "notes": "Broken window glass (baseball), unit A - repair."},
+    {"file": "PBC/17_Cabin_2025_calendar_Samantha.pdf", "type": "Handwritten use calendar", "owner": "S", "status": "needs_manual_entry", "flags": ["handwritten"], "data": {"jan_apr": "2 day trips to check pipes", "listed_vrbo": "05/01/2025", "Jul_3_9_family": 7, "Aug_10_16_family": 7, "Sep_19_21_Kevin_brother_free": 3, "Oct_11_12_deck_repair": 2, "Nov_26_29_family": 4, "vrbo_nights": 62}, "notes": "Client counts 18 personal days; brother's free use is personal use under §280A(d)(2)(A) -> 21. Deck weekend = repair days (substantially full time, §280A(d)(2) flush language / Reg. 1.280A-1(e)(6)) - not personal."},
+    {"file": "PBC/18_Email_Samantha_cabin_roof_2026-03-10.txt", "type": "Client correspondence", "owner": "S", "status": "use", "flags": [], "data": {"available_may_dec": true, "vrbo_guests_unrelated_market_rate": true, "deck_weekend_full_time_repair": true, "roof_full_tear_off": true, "emma_books_campus_store": 640}, "notes": "Books $640 receipt referenced as attached but not in PBC folder."},
+    {"file": "PBC/19_Lancaster_County_2025_Reassessment_Notice.pdf", "type": "County assessment notice", "owner": "J", "status": "informational", "flags": [], "data": {"parcel": "390-11752-0-0000", "address": "86 Hawthorne Ridge Dr", "assessed_value": 311400}, "notes": "Not a tax bill; no tax effect."},
+    {"file": "PERM/2024_Form_1040_Return_Summary.pdf", "type": "Prior-year return summary", "owner": "J", "status": "informational", "flags": [], "data": {"wages": 164900, "interest": 355, "duplex_rents": 28400, "duplex_loss": -3050, "agi": 165255, "std_ded": 29200, "taxable_income": 136055, "refund": 1680, "suspended_passive_loss_duplex": 6200}, "notes": ""},
+    {"file": "PERM/Depreciation_Schedule_Rentals.pdf", "type": "Depreciation schedule", "owner": "J", "status": "use", "flags": [], "data": {"duplex_building": {"in_service": "04/2018", "basis": 220000, "annual": 8000, "accum_12_31_2024": 53667}, "duplex_land": 45000, "unit_A_kitchen": {"in_service": "09/2021", "basis": 18000, "annual": 655, "accum_12_31_2024": 2156}}, "notes": "Cabin not on schedule (personal through 2024)."},
+    {"file": "PERM/Client_Profile.md", "type": "Client profile", "owner": "J", "status": "informational", "flags": [], "data": {"cabin_purchase": "06/2020 $310,000 (land $60,000)", "duplex_purchase": "04/2018 $265,000 (land $45,000)"}, "notes": ""}
+  ],
+  "prior_year": {
+    "items": [
+      {"item": "Wages - Conestoga (Kevin)", "py_amount": 93100, "cy_status": "found", "cy_source": "PBC/02"},
+      {"item": "Wages - Lancaster Regional (Samantha)", "py_amount": 71800, "cy_status": "found", "cy_source": "PBC/03"},
+      {"item": "Interest - Fulton Bank", "py_amount": 355, "cy_status": "found", "cy_source": "PBC/04"},
+      {"item": "Duplex rents", "py_amount": 28400, "cy_status": "found", "cy_source": "PBC/11"},
+      {"item": "Duplex mortgage 1098 (Susquehanna)", "py_amount": null, "cy_status": "found", "cy_source": "PBC/05"},
+      {"item": "Home mortgage interest Members 1st", "py_amount": 7710, "cy_status": "found", "cy_source": "PBC/06"},
+      {"item": "Cabin mortgage interest Pocono", "py_amount": 8500, "cy_status": "found", "cy_source": "PBC/07"},
+      {"item": "RE tax home / cabin", "py_amount": 9200, "cy_status": "found", "cy_source": "PBC/06, PBC/07"},
+      {"item": "Charity", "py_amount": 2600, "cy_status": "found (organizer only, 2,400)", "cy_source": "PBC/01"}
+    ],
+    "carryovers": [
+      {"item": "Form 8582 unallowed passive loss - duplex", "amount": 6200, "character": "passive (regular; AMT assumed same)", "source": "PERM/2024_Form_1040_Return_Summary.pdf"},
+      {"item": "Sec. 280A carryover - cabin", "amount": 0, "character": "", "source": "PERM/2024_Form_1040_Return_Summary.pdf"},
+      {"item": "Capital loss carryover", "amount": 0, "character": "", "source": "PERM/2024_Form_1040_Return_Summary.pdf"},
+      {"item": "Duplex accumulated depreciation 12/31/2024", "amount": 55823, "character": "building 53,667 + kitchen 2,156", "source": "PERM/Depreciation_Schedule_Rentals.pdf"}
+    ]
+  },
+  "conflicts": [
+    {"topic": "Cabin personal-use days", "organizer_says": "Calendar: 'about 18 days not counting Pat and the deck weekend'", "documents_show": "Brother's free 3-day stay is personal use by law (family, below-market) -> 21 personal days; deck weekend 2 days is repair use (email confirms full-time work)", "source": "PBC/17, PBC/18"},
+    {"topic": "Duplex roof", "organizer_says": "Ledger category 'Repairs' $14,000", "documents_show": "Full tear-off replacement of entire roof (invoice + email) - capital improvement", "source": "PBC/11, PBC/14, PBC/18"},
+    {"topic": "Duplex mortgage", "organizer_says": "Ledger expense 'Mortgage payment (P&I)' 16,978.40", "documents_show": "Interest 9,860 deductible; principal 7,118.40 not", "source": "PBC/05, PBC/08"},
+    {"topic": "Education expenses", "organizer_says": "1098-T + bursar statement", "documents_show": "Books $640 additional per email; receipt said attached but not in PBC", "source": "PBC/18"}
+  ],
+  "filing_requirements": [
+    {"filing": "Federal Form 1040 MFJ with Sch 1, Sch E (duplex + cabin), Form 8582, Form 4562, Form 8863, Sch 8812", "trigger": "wages, rentals, AOTC, CTC/ODC", "certainty": "required"},
+    {"filing": "PA-40 resident (with PA Schedule E rents class)", "trigger": "PA full-year residents; PA withholding on W-2s", "certainty": "required"},
+    {"filing": "Local EIT final return - Manheim Twp (LCTCB)", "trigger": "Local EIT withheld by both employers", "certainty": "required - filed separately by admin per PERM; note PA local EIT also reaches net rental profits (none net here)"},
+    {"filing": "Form 1099-NEC for contractors", "trigger": "Keystone Roofing LLC $14,000 paid for rental (LLC); Weaver Plumbing $1,900", "certainty": "check - rental activity, not a trade or business for 1099 purposes generally; ask client"},
+    {"filing": "FBAR / 8938", "trigger": "none indicated", "certainty": "not required"}
+  ],
+  "issues_for_preparer": [
+    {"area": "Schedule E - cabin", "issue": "First year renting cabin (VRBO from 05/01/2025). 62 rental nights, personal use 21 days (18 family + 3 brother free). Personal use > greater of 14 or 10% of rental days -> §280A(c)(5) residence: expenses limited to gross rental income, allocate by days. Average stay 4.43 nights -> not a rental activity under §469 (and §469(j)(10) - residence rules override). Building converted to rental: basis = lesser of adjusted basis ($250,000 building) or FMV at conversion; transient use -> 39-year nonresidential. Jan-Apr day trips to check pipes and Oct deck weekend not personal days.", "evidence": "PBC/11 Cabin sheet, PBC/12, PBC/13, PBC/17, PBC/18, PERM/Client_Profile.md"},
+    {"area": "Schedule E - duplex", "issue": "Roof $14,000 capitalize (27.5-yr, placed in service June 2025); water heater $1,900 (invoice < $2,500 - de minimis safe harbor election); window $450 repair; mortgage principal not deductible; rents 29,225 incl. $75 late fee; mileage 380 mi; possible duplicate $1,900 'Various Weaver/Home Depot' line.", "evidence": "PBC/11, PBC/14, PBC/15, PBC/16"},
+    {"area": "Passive", "issue": "MAGI > $150k -> no $25k allowance; duplex loss plus $6,200 PY suspended remains suspended.", "evidence": "PERM/2024 summary"},
+    {"area": "Schedule A vs standard", "issue": "Home mortgage 7,400 + cabin personal share of interest/taxes; SALT incl. PA withholding 5,811.51, local EIT 1,893, LST 104, home RE tax 6,100; charity 2,400. Compare to $31,500 std.", "evidence": "PBC/02, 03, 06, 07, 01"},
+    {"area": "Education", "issue": "AOTC for Emma: qualified T&F 18,400 + books 640 - scholarships 6,000 = 13,040 (>= 4,000). MAGI ~171.7k -> partial phase-out (160-180k MFJ).", "evidence": "PBC/09, PBC/10, PBC/18"},
+    {"area": "Dependents", "issue": "Connor CTC; Emma ODC (18 at year-end).", "evidence": "PERM/Client_Profile.md"}
+  ],
+  "open_items": [
+    {"item": "Cabin FMV at conversion to rental (05/2025) and any furnishings placed in rental service", "why_it_matters": "Depreciable basis is lesser of FMV or adjusted basis; affects depreciation carried forward under §280A", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Emma's $640 campus-store book receipt (referenced in email but not attached)", "why_it_matters": "Qualified AOTC expense substantiation; no effect on credit amount here since expenses exceed $4,000 without it", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Confirm 'Various - Weaver Plumbing / Home Depot $1,900 (plumbing 780; misc 1,120)' is separate from Weaver invoice 88710 $1,900", "why_it_matters": "Possible double-count of duplex repairs (passive loss suspended, so federal effect deferred; PA rents class affected)", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Charity receipts ($2,400 St. Anne Parish / United Way)", "why_it_matters": "Substantiation if itemizing; gifts >= $250 need contemporaneous acknowledgment", "blocking": false, "resolved_in_pbc": false},
+    {"item": "Did the family use the cabin on any other days (e.g. Jan-Apr day trips stayed overnight)?", "why_it_matters": "Personal-use day count drives the §280A allocation", "blocking": false, "resolved_in_pbc": true}
+  ],
+  "engagement": {"engagement_letter_signed": null, "extension_filed": null, "docs_received_within_15_days_of_deadline": false}
+}

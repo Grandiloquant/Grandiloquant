@@ -1,0 +1,29 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 1099-INT
+Interest Income Tax Year 2025 OMB No. 1545-0112
+Copy B - For Recipient
+PAYER'S name, street address, city, state, ZIP, telephone
+Fulton Bank, N.A.
+One Penn Square
+Lancaster, PA 17602
+TIN: 00-0000052
+RECIPIENT'S name, street address, city, state, ZIP
+Kevin M. & Samantha J. O'Brien
+86 Hawthorne Ridge Dr
+Lancaster, PA 17601
+TIN: XXX-XX-2841
+Account number (see instructions)
+****3318
+1 Interest income
+382.10
+2 Early withdrawal penalty
+3 Interest on U.S. Savings Bonds and Treas. obligat 4 Federal income tax withheld
+5 Investment expenses 6 Foreign tax paid
+7 Foreign country or U.S. possession 8 Tax-exempt interest
+9 Specified private activity bond interest 10 Market discount
+11 Bond premium 12 Bond premium on Treasury obligations
+13 Bond premium on tax-exempt bond 14 Tax-exempt and tax credit bond CUSIP no.
+15-17 State / State ID / State tax withheld
+Form 1099-INT (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

@@ -1,0 +1,56 @@
+
+===== sheet: Duplex 2025 =====
+Date	Unit	Payee / payer	Category	Income	Expense	Memo
+01/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+01/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+02/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+02/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+03/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+04/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+05/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+05/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+06/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+06/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+07/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+07/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+08/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+08/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+09/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+09/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+10/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+10/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+11/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+11/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+12/01/2025	A	Tenant - R. Alvarez	Rent	1350		
+12/01/2025	B	Tenant - J. Kline / (new tenant T. Moyer from 05/2025)	Rent	1295		
+03/2025	B	Zillow Rentals	Advertising		85	Unit B vacant Mar-Apr - listed
+06/03/2025	A	Kline - late fee	Rent	75		late fee Feb
+02/11/2025	B	Weaver Plumbing & Heating	Repairs		1900	50 gal gas water heater replaced - inv 88710
+06/20/2025	Both	Keystone Roofing LLC	Repairs		14000	New roof - full tear off
+09/08/2025	A	Lancaster Glass Co.	Repairs		450	Broken window - bedroom
+Various	Both	Weaver Plumbing / Home Depot	Repairs		1900	plumbing 780; misc 1,120
+Various	Both	Lancaster City Water/Sewer; Penn Waste	Utilities		1380	
+Various	Both	Green Acres Lawn / snow	Maintenance		600	
+Escrow	Both	Susquehanna Valley Mortgage	Insurance		1640	escrow
+Escrow	Both	Susquehanna Valley Mortgage	Taxes		5420	escrow
+Monthly	Both	Susquehanna Valley Mortgage	Mortgage payment (P&I)		16978.4	P&I total - see 1098
+Various	Both	Mileage (Kevin) 380 mi	Auto			trips to duplex
+
+===== sheet: Cabin 2025 =====
+Month	Nights booked (VRBO)	Gross bookings	VRBO fees	Payout	Cleaning (guest turnover)
+May	6	1440	115.2	1324.8	120
+Jun	11	2640	211.2	2428.8	220
+Jul	9	2250	180	2070	180
+Aug	12	2940	235.2	2704.8	240
+Sep	8	1880	150.4	1729.6	160
+Oct	10	2380	190.4	2189.6	200
+Nov	3	690	55.2	634.8	60
+Dec	3	660	52.8	607.2	60
+TOTAL	62	14880	1190.4	13689.6	1240
+Cabin annual costs (whole year)					
+Utilities					2490
+Insurance					1660
+Repairs (deck boards, plumbing)					830
+Supplies (linens, consumables)					415
+Mortgage interest (1098)					8300
+Real estate tax (Tobyhanna Twp / Pocono Mtn SD)					3320

@@ -1,0 +1,19 @@
+# EVG1008 - Software exception log (CCH Axcess primary; ProConnect noted)
+
+| ID | Workbook tab | Exception | Silent? | Amount | Axcess fix (input/override location) | ProConnect fix | E-file impact |
+|---|---|---|---|---:|---|---|---|
+| SE-1 | 16 Vacation home allocation | Cabin personal-use days must include the brother's free stay (21, not 18) and exclude deck-repair days; client calendar total would be keyed wrong | Yes | 21 days | Rent & Royalty > property B: fair-rental days 62, personal-use days 21 (vacation-home section) - verify field path in current release | Rental & Royalty Income screen: days rented / personal days - screen/field per current release - verify | None |
+| SE-2 | 16 Vacation home allocation | Pre-rental (Jan-Apr) utilities/insurance must be removed before the day ratio; software applies the ratio to whatever is keyed | Yes | 1,383 removed | Key only May-Dec amounts (1,660 utilities, 1,106.67 insurance) | Same - key reduced amounts | None |
+| SE-3 | 16 Vacation home allocation | §280A carryforward (depreciation 2,224) must be tracked to 2026; confirm the limitation worksheet carries it | Partly | 2,224 | Rent & Royalty > vacation home carryover field (2026 rollover check) | screen per current release - verify | None |
+| SE-4 | 6 Depreciation | Cabin conversion: basis = lesser of FMV/adjusted basis; 39-yr class for transient use (software defaults residential 27.5 for a "vacation/short-term rental" property type) | Yes | 250,000 basis / 4,013 | Depreciation > asset: method 39-yr SL MM, in service 05/01/2025, basis 250,000 (land 60,000 separate) | Depreciation screen: select nonresidential real property 39-yr | None |
+| SE-5 | 6 Depreciation | Roof booked as "repairs" in client ledger - scan/flow of the ledger would deduct 14,000 | Yes | 14,000 | Remove from Repairs; add asset 27.5 SL MM 06/2025 | Same | None |
+| SE-6 | 5 Passive (8582) | PY unallowed loss 6,200 must be on the duplex 8582 carryover input (organizer column blank) | Yes | 6,200 | Rent & Royalty > property A > Passive activity / prior-year unallowed loss (regular and AMT) | Enter Regular AND AMT prior-year unallowed losses separately (documented ProConnect behaviour) | None |
+| SE-7 | 15 Mortgage interest limit (log) | Duplex 1098 (rental address) must be attached to Sch E, not Sch A; cabin 1098 split rental/personal | Yes | 9,860 / 8,300 | 1098 input: assign to Rent & Royalty property; cabin interest entered on property B so the vacation-home worksheet splits it | Same | None |
+| SE-8 | 2 Diagnostics log | De minimis safe harbor election statement (§1.263(a)-1(f)) | Yes (no diagnostic if box unchecked) | 1,900 | General > Elections: de minimis safe harbor election | Elections screen - verify | Statement attached to e-file |
+| SE-9 | 2 Diagnostics log | Duplex rents: ledger mortgage P&I line 16,978.40 must not be keyed | Yes | 7,118.40 | Key only 1098 interest | Same | None |
+
+**SE-1/SE-2/SE-3 (vacation home).** Axcess prorates by the days keyed; it cannot know that a relative's free stay is personal use, that a full-time repair weekend isn't, or that January-April costs pre-date the rental. With 21 personal days the property falls under §280A(c)(5); the software's vacation-home worksheet then applies the tiered limit (interest/taxes, operating, depreciation) and produces a $0 net with a $2,224 depreciation carryover. Check the worksheet's ratio is 62/83 (IRS method), not 62/365.
+
+**SE-4/SE-5 (depreciation).** A flowed ledger would put the $14,000 roof in repairs; it's a restoration and must be a new 27.5-yr asset (276 in 2025). The cabin is a new asset at conversion; transient-use unit -> 39-yr (4,012.50 total, rental share used in the 280A worksheet).
+
+**SE-6 (8582).** The organizer has no suspended-loss line; without manual entry the $6,200 PY carryover would be lost. 2026 carryover = 9,407.

@@ -31,3 +31,11 @@
 - facts_schema: no field for 5329 exception codes, HOH qualifying person, 2441 lived-apart rule.
 - Separation cases: Sch 1-A "married must file jointly" vs considered-unmarried HOH; splitting a joint 1098.
 - Run date after 04/15 again (no as-of date).
+
+## EVG1008 O'Brien
+- Same: no Agent tool -> self-review.
+- Engine: no Sch E detail / 8582 / 280A carryforward inputs -> carryforwards only in workpapers (return.json carryforwards block empty).
+- Reference gaps: vacation-home details (pre-conversion costs, guest supplies, conversion basis = lower of FMV/basis), firm default IRS vs Bolton; PA specifics (PA vs §280A, extension form, local EIT).
+- Scanner truncated 1098 box 10 ("5,4") - long values in form boxes get clipped.
+- SOP text still says gambling follows 2026 rules (conflicts with CLAUDE.md) - CLAUDE.md wins.
+- Notable catch: agent spotted a likely 2024 CTC over-claim (Emma 17 at end of 2024) in the PY summary.

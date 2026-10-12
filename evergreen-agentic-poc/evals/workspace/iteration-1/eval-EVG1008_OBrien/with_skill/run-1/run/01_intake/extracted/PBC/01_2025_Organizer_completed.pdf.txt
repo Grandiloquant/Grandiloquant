@@ -1,0 +1,50 @@
+
+===== page 1 =====
+2025 Client Tax Organizer - Kevin & Samantha O'Brien (EVG1008) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+2025 Client Tax Organizer - Kevin & Samantha O'Brien (EVG1008)
+Prepared from CCH Axcess organizer export (synthetic). Amounts in the 2024 column are from your prior year return.
+Beginning Checklist / General Questions (client answers)
+# Question Answer Client explanation
+1.00 Did your marital status change during 2025? No
+2.00 Were there any changes in dependents? No Emma started Penn State in August
+3.00 Did you pay higher-education expenses? Yes 1098-T + bursar statement
+4.00 Do you own rental property? Yes Duplex (see spreadsheet) + we started
+renting the cabin on VRBO in May
+5.00 Did you personally use any rental property? Yes Cabin - family used it a few weeks, see
+calendar
+6.00 Did you make improvements to a rental? Yes New roof on the duplex in June, water
+heater unit B
+7.00 Did you make estimated tax payments? No
+8.00 Did you receive, sell, exchange digital assets? No
+Dependents
+Name Relationship DOB SSN (last 4) Months in home Full-time student
+Emma O'Brien Daughter 03/18/2007 5540 12 (at school Aug-Dec) Yes
+Connor O'Brien Son 08/02/2011 9021 12 No
+Income - Prior year amounts pre-printed by Evergreen Tax; client to enter 2025
+Income item Payer 2024 (prior year) 2025 (client entry)
+Wages Conestoga Precision
+Components
+93,100.00 see W-2
+Wages Lancaster Regional Health
+System
+71,800.00 see W-2
+Interest Fulton Bank 355.00 382
+Rental - 128-130 Chestnut Row
+(duplex) - rents
+tenants 28,400.00 see Excel
+Rental - 128-130 Chestnut Row -
+net income (loss)
+(3,050.00)
+Rental - 27 Blue Heron Ln
+(cabin) - rents
+VRBO see VRBO 1099-K
+Deductions / Adjustments / Payments
+Item Detail 2024 (prior year) 2025 (client entry)
+Mortgage interest Members 1st FCU (home) 7,710.00 see 1098
+Mortgage interest Pocono Community Bank (cabin) 8,500.00 see 1098
+Real estate tax Home - Manheim Twp 5,950.00 6,100
+Real estate tax Cabin - Tobyhanna Twp 3,250.00 3,320
+Charitable St. Anne Parish / United Way 2,600.00 2,400
+Signature
+Client signature on file: Kevin & Samantha O'Brien Date: 02/21/2026

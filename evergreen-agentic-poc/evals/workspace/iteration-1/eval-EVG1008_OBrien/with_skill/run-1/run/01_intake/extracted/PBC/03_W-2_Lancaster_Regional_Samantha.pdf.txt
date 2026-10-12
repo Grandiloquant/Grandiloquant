@@ -1,0 +1,49 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form W-2
+Wage and Tax Statement Tax Year 2025 OMB No. 1545-0008
+Copy B - To Be Filed With Employee's FEDERAL Tax Return
+c Employer's name, address, and ZIP code
+Lancaster Regional Health System
+555 N Duke St
+Lancaster, PA 17602
+b EIN: 00-1104772
+e/f Employee's name, address, and ZIP code
+Samantha J. O'Brien
+86 Hawthorne Ridge Dr
+Lancaster, PA 17601
+a SSN: XXX-XX-7719
+d Control number
+LRHS-10433
+1 Wages, tips, other comp.
+72,800.00
+2 Federal income tax withheld
+7,900.00
+3 Social security wages
+78,800.00
+4 Social security tax withheld
+4,885.60
+5 Medicare wages and tips
+78,800.00
+6 Medicare tax withheld
+1,142.60
+7 Social security tips 8 Allocated tips
+9 10 Dependent care benefits
+11 Nonqualified plans 13 Stat. emp / Ret. plan / 3rd-party sick
+Retirement plan: X
+12 Code E
+E 6,000.00
+12 Code DD
+DD 9,880.00
+14 Other: PA LST
+52.00
+15 State / Employer state ID
+PA 3310-2208
+16/17 State wages / State income tax
+78,800.00 / 2,419.16
+18/19 Local wages / Local income tax
+78,800.00 / 788.00
+20 Locality name
+MANHEIM TWP EIT (LCTCB)
+Form W-2 (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

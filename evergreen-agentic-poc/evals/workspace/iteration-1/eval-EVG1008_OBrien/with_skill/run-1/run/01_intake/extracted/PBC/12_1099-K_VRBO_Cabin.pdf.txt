@@ -1,0 +1,53 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 1099-K
+Payment Card and Third Party Network Transactions Tax Year 2025 OMB No. 1545-2205
+Copy B - For Recipient
+PAYER'S name, street address, city, state, ZIP, telephone
+Expedia / VRBO (HomeAway.com, Inc.)
+1111 Expedia Group Way W
+Seattle, WA 98119
+TIN: 00-0000061
+RECIPIENT'S name, street address, city, state, ZIP
+Kevin M. O'Brien
+86 Hawthorne Ridge Dr
+Lancaster, PA 17601
+TIN: XXX-XX-2841
+Account number (see instructions)
+VRBO-4471902
+1a Gross amount of payment card/third party network 
+14,880.00
+1b Card Not Present transactions
+14,880.00
+2 Merchant category code
+6513
+3 Number of payment transactions
+14.00
+4 Federal income tax withheld 5a Jan
+0.00
+5b Feb
+0.00
+5c Mar
+0.00
+5d Apr
+0.00
+5e May
+1,440.00
+5f Jun
+2,640.00
+5g Jul
+2,250.00
+5h Aug
+2,940.00
+5i Sep
+1,880.00
+5j Oct
+2,380.00
+5k Nov
+690.00
+5l Dec
+660.00
+1a filer type PSE / Electronic Payment Facilitator / Other thir
+Third party settlement organization
+Form 1099-K (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

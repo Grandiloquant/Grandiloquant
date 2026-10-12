@@ -1,0 +1,40 @@
+{
+  "client_id": "EVG1008",
+  "returns": [
+    {
+      "jurisdiction": "PA",
+      "type": "PA-40 resident (full year), joint",
+      "income_classes": {
+        "compensation": {"amount": 189300.00, "source": "W-2 box 16: 110,500.00 + 78,800.00 (PA taxes 401(k)/403(b) elective deferrals)"},
+        "interest": {"amount": 382.10, "source": "Fulton Bank 1099-INT"},
+        "dividends": 0,
+        "net_profits": 0,
+        "net_gains": 0,
+        "rents_royalties": {"amount": 0, "computed": -3207.00, "note": "PA Schedule E: duplex (3,207) (PA has no passive-loss limitation, but federal 8582 carryover is irrelevant); cabin 0 under the same §280A allocation (a non-limited PA computation would only deepen the class loss). Net class loss -> reported as 0; PA losses don't offset other classes and don't carry forward."}
+      },
+      "taxable_income": 189682.10,
+      "rate": 0.0307,
+      "tax": 5823.24,
+      "credits": {"tax_forgiveness": 0, "resident_credit_other_states": 0},
+      "withholding": 5811.51,
+      "refund": 0,
+      "balance_due": 11.73,
+      "notes": "Summary-level. No PA tax forgiveness (income far above limits). Balance due ~ $12 - PA withholding on box 16 at 3.07% is 3,392.35 + 2,419.16 = 5,811.51 exactly; the interest income creates the small balance. No PA estimated payments needed. 529/other PA deductions: none provided."
+    },
+    {
+      "jurisdiction": "Manheim Township EIT (Lancaster County Tax Collection Bureau)",
+      "type": "Local earned income tax final return - prepared/filed separately by admin per PERM",
+      "base": "Earned income: Kevin 110,500 + Samantha 78,800 (local wages box 18); rental income is not earned income/net profits for EIT (passive investment) - nothing to add",
+      "rate": "1.0% (implied by W-2 withholding 1,105/110,500 and 788/78,800 - verify current Manheim Twp + school district rate)",
+      "tax": 1893.00,
+      "withholding": 1893.00,
+      "balance_due": 0,
+      "notes": "Expected zero balance. LST $52 each withheld - no return needed."
+    },
+    {
+      "jurisdiction": "Other states",
+      "type": "not required",
+      "notes": "Both rentals are in PA; VRBO income PA-source; no out-of-state wages."
+    }
+  ]
+}

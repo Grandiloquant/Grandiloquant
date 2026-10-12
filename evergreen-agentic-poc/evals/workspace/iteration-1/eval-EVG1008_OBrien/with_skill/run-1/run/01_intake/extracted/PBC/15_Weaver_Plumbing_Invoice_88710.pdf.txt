@@ -1,0 +1,11 @@
+
+===== page 1 =====
+Weaver Plumbing & Heating - Invoice 88710 - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Weaver Plumbing & Heating - Invoice 88710
+Description Amount
+Remove failed 40-gal gas water heater (unit 130 / B) 180.00
+Install new Bradford White 50-gal gas water heater, expansion tank,
+venting to code
+1,720.00
+TOTAL 1,900.00

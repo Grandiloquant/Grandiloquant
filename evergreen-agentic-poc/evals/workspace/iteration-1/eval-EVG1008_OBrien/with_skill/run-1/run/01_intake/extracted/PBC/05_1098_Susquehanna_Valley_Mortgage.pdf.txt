@@ -1,0 +1,34 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 1098
+Mortgage Interest Statement Tax Year 2025 OMB No. 1545-1380
+Copy B - For Recipient
+RECIPIENT'S/LENDER'S name, street address, city, state, ZIP, telephone
+Susquehanna Valley Mortgage Co.
+PO Box 4410
+Harrisburg, PA 17111
+TIN: 00-6120044
+PAYER'S/BORROWER'S name, street address, city, state, ZIP
+Kevin M. & Samantha J. O'Brien
+86 Hawthorne Ridge Dr
+Lancaster, PA 17601
+TIN: XXX-XX-2841
+1 Mortgage interest received from payer(s)/borrower
+9,860.00
+2 Outstanding mortgage principal
+176,402.33
+3 Mortgage origination date
+04/20/2018
+4 Refund of overpaid interest
+5 Mortgage insurance premiums 6 Points paid on purchase of principal residence
+7 Is address of property securing mortgage same as 
+No
+8 Address or description of property securing mortg
+128-130 Chestnut Row, Lancaster, PA 1760
+9 Number of properties securing the mortgage
+1
+10 Other (real estate taxes / escrow)
+Property taxes disbursed from escrow 5,4
+11 Mortgage acquisition date
+Form 1098 (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

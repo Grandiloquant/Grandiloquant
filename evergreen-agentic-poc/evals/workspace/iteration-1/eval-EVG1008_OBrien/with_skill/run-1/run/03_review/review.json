@@ -1,0 +1,13 @@
+{"decision": "approved",
+ "reviewer_independence": "No subagent tool available; same agent re-read all source documents and re-derived high-risk areas before reading prep notes.",
+ "points": [
+  {"n": 1, "area": "Filing / extension", "ref": "intake engagement.extension_filed", "issue": "Original due date passed; extension status unknown", "change": "Verify 4868/REV-276; e-file by 10/15/2026", "dollar_effect": 0, "severity": "fyi", "resolved": false},
+  {"n": 2, "area": "Prior-year CTC", "ref": "PERM/2024 summary line 19", "issue": "Emma 17 at 12/31/2024 - CTC overclaimed ~1,500 in 2024", "change": "Signer decision on 2024 1040-X", "dollar_effect": 1500, "severity": "fyi", "resolved": false},
+  {"n": 3, "area": "Cabin depreciation class", "ref": "WP-3", "issue": "39-yr transient use vs 27.5", "change": "none - agree", "dollar_effect": 0, "severity": "judgment", "resolved": true},
+  {"n": 4, "area": "Cabin supplies allocation", "ref": "WP-4", "issue": "100% vs prorated", "change": "none", "dollar_effect": 0, "severity": "judgment", "resolved": true},
+  {"n": 5, "area": "IRS vs Bolton", "ref": "WP-4", "issue": "Method choice verified", "change": "none", "dollar_effect": 0, "severity": "fyi", "resolved": true},
+  {"n": 6, "area": "Duplex repairs", "ref": "WP-1", "issue": "Possible duplicate $1,900", "change": "client to confirm; 2025 effect $0", "dollar_effect": 0, "severity": "fyi", "resolved": false},
+  {"n": 7, "area": "1099-NEC", "ref": "Sch E line A/B", "issue": "Rental contractor payments", "change": "Answer 'No' - not a trade or business", "dollar_effect": 0, "severity": "fyi", "resolved": true},
+  {"n": 8, "area": "Charity", "ref": "WP-5", "issue": "Unsubstantiated 2,400", "change": "none - standard deduction", "dollar_effect": 0, "severity": "fyi", "resolved": true}
+ ],
+ "tickmarks": {"PBC/01": "used", "PBC/02": "used", "PBC/03": "used", "PBC/04": "used", "PBC/05": "used - Sch E", "PBC/06": "used", "PBC/07": "used - split", "PBC/08": "used", "PBC/09": "used", "PBC/10": "used", "PBC/11": "used - roof reclassified, principal excluded", "PBC/12": "used", "PBC/13": "used", "PBC/14": "used - capitalized", "PBC/15": "used", "PBC/16": "used", "PBC/17": "used", "PBC/18": "used", "PBC/19": "excluded: informational", "PERM/2024": "used", "PERM/Depreciation": "used", "PERM/Profile": "used"}}

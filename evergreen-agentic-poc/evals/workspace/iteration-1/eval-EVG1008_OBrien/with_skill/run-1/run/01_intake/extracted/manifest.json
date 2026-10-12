@@ -1,0 +1,213 @@
+[
+  {
+    "file": "EVG1008_2025_PBC_Receipt_Log.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 2699,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/01_2025_Organizer_completed.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 2238,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/02_W-2_Conestoga_Precision_Kevin.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1268,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/03_W-2_Lancaster_Regional_Samantha.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1259,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/04_1099-INT_Fulton_Bank.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1083,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/05_1098_Susquehanna_Valley_Mortgage.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1161,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/06_1098_Members_1st_FCU_Home.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1127,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/07_1098_Pocono_Community_Bank_Cabin.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1128,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/08_Susquehanna_Valley_Escrow_Annual_Statement_Duplex.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 643,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/09_1098-T_Penn_State_Emma.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 876,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/10_Penn_State_LionPATH_Account_Activity_2025.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1047,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/11_OBrien_Rental_Ledger_2025.xlsx",
+    "type": "xlsx",
+    "pages": 2,
+    "text_chars": 2883,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/12_1099-K_VRBO_Cabin.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1154,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/13_VRBO_Payout_Report_2025.csv",
+    "type": "csv",
+    "pages": 1,
+    "text_chars": 744,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/14_Keystone_Roofing_Invoice_2025-0619.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 650,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/15_Weaver_Plumbing_Invoice_88710.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 408,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/16_IMG_2207_window_receipt.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 18,
+    "needs_vision": true,
+    "page_images": [
+      "16_IMG_2207_window_receipt.pdf_p1.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/17_Cabin_2025_calendar_Samantha.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 18,
+    "needs_vision": true,
+    "page_images": [
+      "17_Cabin_2025_calendar_Samantha.pdf_p1.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/18_Email_Samantha_cabin_roof_2026-03-10.txt",
+    "type": "txt",
+    "pages": 1,
+    "text_chars": 1055,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/19_Lancaster_County_2025_Reassessment_Notice.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 403,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/2024_Form_1040_Return_Summary.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1359,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/Client_Profile.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 1513,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/Depreciation_Schedule_Rentals.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 633,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  }
+]

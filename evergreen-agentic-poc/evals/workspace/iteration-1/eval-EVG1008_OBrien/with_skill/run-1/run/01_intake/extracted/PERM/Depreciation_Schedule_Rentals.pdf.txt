@@ -1,0 +1,16 @@
+
+===== page 1 =====
+O'Brien - Rental Depreciation Schedule (through 12/31/2024) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+O'Brien - Rental Depreciation Schedule (through 12/31/2024)
+Asset In service Basis Method Annual Accum. 12/31/2024
+Duplex building -
+128-130 Chestnut
+Row, Lancaster, PA
+17602
+04/2018 220,000.00 27.5 SL MM 8,000.00 53,667.00
+Land - duplex (not
+depreciable)
+04/2018 45,000.00 - 0.00 0.00
+Unit A kitchen remodel 09/2021 18,000.00 27.5 SL MM 655.00 2,156.00
+Cabin (27 Blue Heron Ln) - personal use only through 2024 - not on schedule.
