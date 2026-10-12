@@ -1,0 +1,158 @@
+[
+  {
+    "file": "EVG1013_2025_PBC_Receipt_Log.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 2366,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/01_2025_Organizer_Brooks.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1748,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/02_W-2_Parallax_Robotics.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1188,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/03_Form_3921_Parallax_ISO_exercise.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1059,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/04_ETRADE_2025_Consolidated_1099.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1589,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/05_ETRADE_Stock_Plan_Transactions_Supplement_2025.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1260,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/06_1099-INT_Wealthfront.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1111,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/07_5498-SA_Fidelity_HSA.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 835,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/08_Fidelity_HSA_Contribution_History_2025.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 716,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/09_Loomwork_AI_Restricted_Stock_Agreement.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1510,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/10_Form_15620_83b_election_and_USPS_receipt.pdf",
+    "type": "pdf",
+    "pages": 2,
+    "text_chars": 38,
+    "needs_vision": true,
+    "page_images": [
+      "10_Form_15620_83b_election_and_USPS_receipt.pdf_p1.png",
+      "10_Form_15620_83b_election_and_USPS_receipt.pdf_p2.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/11_Email_Nathan_2026-03-02.txt",
+    "type": "txt",
+    "pages": 1,
+    "text_chars": 935,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/12_Chicago_Public_Library_Foundation_receipt.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 399,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/13_Email_thread_HSA_excess_2026-09-16.txt",
+    "type": "txt",
+    "pages": 1,
+    "text_chars": 1220,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/14_Loomwork_cap_table_export.csv",
+    "type": "csv",
+    "pages": 1,
+    "text_chars": 402,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/2024_Form_1040_Return_Summary.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1072,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/Client_Profile.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 1226,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "client_id": "EVG1001",
+  "tax_year": 2025,
+  "taxpayers": "Marcus D. & Tanya R. Bell",
+  "filing_status": "MFJ",
+  "summary": {"agi": 106763, "taxable_income": 69661, "total_tax": 1084, "payments": 6770, "refund": 5686, "balance_due": 0,
+              "refund_method": "Direct deposit - Ally checking ending 2210"},
+  "filings": [
+    {"jurisdiction": "Federal", "return": "Form 1040 (MFJ)", "method": "e-file", "due_date": "2026-04-15",
+     "extended_due_date": "2026-10-15",
+     "attached_forms": ["Schedule 1-A (overtime $3,150; car loan interest $2,452 - VIN 1FTFW1E58SFA10393)",
+                        "Schedule 8812 (CTC x3: Jaylen, Maya, Noah)",
+                        "Schedule 3", "Form 2441 (dependent care credit $200; FSA exclusion $5,000)",
+                        "Form 8889 (Marcus - HSA, family HDHP)"],
+     "signature": "Form 8879 via eSign (both spouses)",
+     "note": "Original due date has passed. No extension evidence in file; confirm Form 4868 status. Refund return, so no penalty. File immediately."},
+    {"jurisdiction": "Texas", "return": "None - Texas has no individual income tax", "method": "n/a", "due_date": null},
+    {"jurisdiction": "Local (Round Rock / Williamson County, TX)", "return": "None - no local income tax", "method": "n/a", "due_date": null},
+    {"jurisdiction": "Other", "return": "None (no FBAR, no Schedule H, no estimated payments needed for 2026 - withholding exceeds liability)", "method": "n/a", "due_date": null}
+  ],
+  "open_items": ["Confirm W-2 box 14 OVERTIME $9,450 is total OT pay (premium deduction $3,150 assumed)",
+                 "Confirm HSA distribution $1,150 used for qualified medical expenses",
+                 "Confirm F-150 is personal-use",
+                 "Provider support for $9,600 childcare total (does not change credit)",
+                 "Confirm whether Form 4868 extension was filed"]
+}

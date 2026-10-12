@@ -1,0 +1,31 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 1098
+Mortgage Interest Statement Tax Year 2025 OMB No. 1545-1380
+Copy B - For Recipient
+RECIPIENT'S/LENDER'S name, street address, city, state, ZIP, telephone
+Lake Michigan Credit Union
+PO Box 2848
+Grand Rapids, MI 49501
+TIN: 00-0000021
+PAYER'S/BORROWER'S name, street address, city, state, ZIP
+Brian T. Doyle / Megan R. Doyle
+2217 Oakwood Ave NE
+Grand Rapids, MI 49505
+TIN: XXX-XX-5190
+1 Mortgage interest received from payer(s)/borrower
+8,120.44
+2 Outstanding mortgage principal
+212,480.00
+3 Mortgage origination date
+05/28/2016
+4 Refund of overpaid interest
+5 Mortgage insurance premiums 6 Points paid on purchase of principal residence
+7 Is address of property securing mortgage same as 
+Yes
+8 Address or description of property securing mortg
+9 Number of properties securing the mortgage 10 Other (real estate taxes / escrow)
+RE tax paid from escrow 4,330.12
+11 Mortgage acquisition date
+Form 1098 (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

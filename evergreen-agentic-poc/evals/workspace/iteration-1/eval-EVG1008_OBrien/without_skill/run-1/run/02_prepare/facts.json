@@ -1,0 +1,10 @@
+{"client_id": "EVG1008", "status": "MFJ",
+ "taxpayer": {"age65": false, "blind": false}, "spouse": {"age65": false, "blind": false},
+ "dependents": [{"name": "Connor O'Brien", "ctc": true}, {"name": "Emma O'Brien", "odc": true}],
+ "w2": [{"who": "T", "box1": 98500, "box2": 11800, "box3": 110500, "box4": 6851, "box5": 110500, "box6": 1602.25},
+        {"who": "S", "box1": 72800, "box2": 7900, "box3": 78800, "box4": 4885.60, "box5": 78800, "box6": 1142.60}],
+ "interest": [{"payer": "Fulton Bank, N.A.", "amount": 382.10}],
+ "sch1": {"sch_e": 0},
+ "itemized": {"state_income_tax": 7808.51, "real_estate_tax": 6940, "mortgage_interest_1098": 9500, "charity_cash": 2400},
+ "education": [{"name": "Emma O'Brien", "type": "AOTC", "qualified_expenses": 13040}]
+}

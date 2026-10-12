@@ -1,0 +1,41 @@
+
+===== page 1 =====
+2025 Client Tax Organizer - Gregory & Ellen Whitfield (EVG1022) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+2025 Client Tax Organizer - Gregory & Ellen Whitfield (EVG1022)
+Prepared from CCH Axcess organizer export (synthetic). Amounts in the 2024 column are from your prior year return.
+Beginning Checklist / General Questions (client answers)
+# Question Answer Client explanation
+1.00 Did your marital status change during 2025? No
+2.00 Did you work in any state other than your home state? Yes Travelled a lot - NJ, Boston, Chicago.
+Employer withheld PA only
+3.00 Did you retire or change jobs? Yes Greg retired 8/29/2025
+4.00 Did you receive distributions from retirement plans? Yes 401k - stock to Schwab, rest rolled to
+Fidelity IRA
+5.00 Did you sell any securities? Yes See Schwab
+6.00 Did you buy or sell bonds? Yes Pfizer bond in March
+7.00 Do you have capital loss carryovers? Yes Per last year's return ($38,000)
+8.00 Did you make estimated tax payments? Yes Fed 4 x 8,000
+9.00 Did you receive, sell, exchange digital assets? No
+10.00 Foreign accounts / foreign trusts? No
+Dependents
+Name Relationship DOB SSN (last 4) Months in home Full-time student
+Income - Prior year amounts pre-printed by Evergreen Tax; client to enter 2025
+Income item Payer 2024 (prior year) 2025 (client entry)
+Wages Keystone Medical Devices
+(Gregory)
+590,000.00 see W-2
+Wages Brandywine Valley SD (Ellen) 61,000.00 see W-2
+Interest Charles Schwab - joint 4,990.00 see 1099
+Interest Brandywine Federal Credit Union 210.00 212
+Dividends Charles Schwab 16,100.00 see 1099
+Retirement distributions 0.00 Fidelity 401k - see 1099-R
+Capital gains/losses Charles Schwab (41,000.00) gains this year
+Deductions / Adjustments / Payments
+Item Detail 2024 (prior year) 2025 (client entry)
+Mortgage interest PNC Mortgage 12,100.00 see 1098
+Real estate taxes County/twp + school 9,500.00 9,830
+Charitable contributions Church, food bank, PSU 13,500.00 15,000
+Federal estimated payments 0.00 32,000
+Signature
+Client signature on file: Gregory & Ellen Whitfield Date: 02/22/2026

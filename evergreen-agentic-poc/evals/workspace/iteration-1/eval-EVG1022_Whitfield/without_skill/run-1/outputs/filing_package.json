@@ -1,0 +1,14 @@
+{
+  "client_id": "EVG1022",
+  "tax_year": 2025,
+  "taxpayers": "Gregory A. & Ellen M. Whitfield (MFJ)",
+  "filings": [
+    {"jurisdiction": "Federal", "form": "Form 1040 (MFJ) with Schedules 2, 3, A, B, D; Forms 8949, 8959, 8960; Form 6251 test (no AMT); Form 2210 not required", "method": "e-file", "due_date": "2026-10-15", "extended": true, "result": "Refund $695", "notes": "Form 4868 accepted 04/15/2026; $3,000 paid with extension"},
+    {"jurisdiction": "Pennsylvania", "form": "PA-40 resident with Schedules B, D, W-2S, G-L (credit for MA/IL tax)", "method": "e-file", "due_date": "2026-10-15", "extended": true, "result": "Estimated small refund (~$1,000); REV-276 $1,000 paid", "notes": "401(k) distribution excluded as retirement distribution (confirm)"},
+    {"jurisdiction": "Massachusetts", "form": "Form 1-NR/PY nonresident (MFJ)", "method": "e-file", "due_date": "2026-10-15", "extended": true, "result": "Estimated tax ~$2,200 vs M-4868 payment $2,300", "notes": "18/165 MA workdays; first MA filing"},
+    {"jurisdiction": "Illinois", "form": "IL-1040 nonresident with Schedule NR", "method": "e-file", "due_date": "2026-10-15", "extended": true, "result": "Estimated balance due ~$1,600 plus late-payment penalty/interest from 04/15/2026", "notes": "13/165 IL workdays; automatic IL 6-month extension, no payment made"},
+    {"jurisdiction": "New Jersey", "form": "None required", "method": "n/a", "due_date": null, "extended": false, "notes": "PA-NJ reciprocal agreement - PA resident compensation exempt from NJ tax"},
+    {"jurisdiction": "Local - West Goshen Twp / West Chester Area SD (Keystone Collections Group, Chester County TCD)", "form": "PA Local Earned Income Tax Final Return (both spouses)", "method": "e-file", "due_date": "2026-10-15", "extended": true, "result": "Estimated small refund (~$770) from out-of-state tax credit", "notes": "Original due 04/15/2026; extension relies on federal extension - confirm with collector. W-2 PSD shows W Chester Boro - verify"},
+    {"jurisdiction": "Federal", "form": "Form 1040-ES 2026 vouchers / estimate planning", "method": "n/a (advisory)", "due_date": "2026-01-15 (4th 2025 installment already paid)", "notes": "Retired - no wages in 2026; review 2026 estimates"}
+  ]
+}

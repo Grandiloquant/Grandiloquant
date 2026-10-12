@@ -1,0 +1,16 @@
+
+===== page 1 =====
+Charles Schwab - Trade Confirmation - Account ****2207 - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Charles Schwab - Trade Confirmation - Account ****2207
+Field Value
+Trade date / settlement 03/12/2025 / 03/13/2025
+Action BUY
+Security Pfizer Investment Enterprises Pte 4.75% due 05/19/2033, CUSIP
+716973AE2
+Face amount 200,000.00
+Price 104.250
+Principal 208,500.00
+Accrued interest (113 days, 30/360) 2,981.94
+Total amount due 211,481.94
+Yield to maturity 4.098%

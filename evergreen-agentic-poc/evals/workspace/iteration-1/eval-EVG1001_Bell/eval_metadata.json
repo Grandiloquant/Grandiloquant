@@ -1,0 +1,7 @@
+{
+  "eval_id": "EVG1001",
+  "eval_name": "EVG1001_Bell",
+  "prompt": "Take client EVG1001 from intake to a filing-ready 2025 return.",
+  "answer_key": "/home/user/Grandiloquant/evergreen-training-data-v2/clients/EVG1001_Bell/2025/EVG1001_2025_Answer_Key.json",
+  "assertions": []
+}

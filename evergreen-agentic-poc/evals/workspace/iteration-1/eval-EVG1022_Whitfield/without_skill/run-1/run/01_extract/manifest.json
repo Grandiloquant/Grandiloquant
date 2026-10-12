@@ -1,0 +1,231 @@
+[
+  {
+    "file": "EVG1022_2025_PBC_Receipt_Log.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 3278,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/00_Engagement_Letter_signed.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1278,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/01_2025_Organizer_completed.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 2172,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/02_W-2_Keystone_Medical_Devices_Gregory.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1358,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/03_W-2_Brandywine_Valley_SD_Ellen.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1238,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/04_Outlook_calendar_export_2025_work_locations.xlsx",
+    "type": "xlsx",
+    "pages": 2,
+    "text_chars": 18808,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/04b_Outlook_calendar_export_DUPLICATE_upload.xlsx",
+    "type": "xlsx",
+    "pages": 1,
+    "text_chars": 18382,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/05_1099-R_Fidelity_401k_KMD_stock_in_kind.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1360,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/06_1099-R_Fidelity_401k_direct_rollover.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1336,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/07_Fidelity_401k_distribution_confirmation_NUA.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1544,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/08_Fidelity_NetBenefits_2025_year_end_summary.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 670,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/09_Schwab_1099_Composite_Joint_2207.pdf",
+    "type": "pdf",
+    "pages": 2,
+    "text_chars": 2445,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/10_Schwab_1099_Composite_Gregory_4410.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1741,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/11_1099-INT_Brandywine_FCU_Ellen.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1090,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/12_Schwab_IRA_Ellen_8831_Q4_2025_statement.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 959,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/13_Email_Ellen_IRA_and_docs_2026-02-24.txt",
+    "type": "txt",
+    "pages": 1,
+    "text_chars": 699,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/14_Schwab_trade_confirmation_Pfizer_bond_2025-03-12.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 560,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/15_1098_PNC_Mortgage.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1186,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/16_Real_estate_tax_receipts_2025.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 407,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/17_Charitable_acknowledgments_2025.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 542,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/18_Gregory_handwritten_ES_payments_note.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 18,
+    "needs_vision": true,
+    "page_images": [
+      "18_Gregory_handwritten_ES_payments_note.pdf_p1.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/19_Form_4868_and_extension_payments_confirmation.txt",
+    "type": "txt",
+    "pages": 1,
+    "text_chars": 437,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/2024_Form_1040_Return_Summary.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1335,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/2024_Prior_Preparer_Sch_D_and_Carryover_Worksheet_scan.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 18,
+    "needs_vision": true,
+    "page_images": [
+      "2024_Prior_Preparer_Sch_D_and_Carryover_Worksheet_scan.pdf_p1.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/Client_Profile.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 1867,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  }
+]

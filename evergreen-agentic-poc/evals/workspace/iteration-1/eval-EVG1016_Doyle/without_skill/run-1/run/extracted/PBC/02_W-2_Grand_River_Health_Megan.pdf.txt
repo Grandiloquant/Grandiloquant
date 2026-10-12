@@ -1,0 +1,48 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form W-2
+Wage and Tax Statement Tax Year 2025 OMB No. 1545-0008
+Copy B - To Be Filed With Employee's FEDERAL Tax Return
+c Employer's name, address, and ZIP code
+Grand River Health System
+100 Michigan St NE
+Grand Rapids, MI 49503
+b EIN: 00-3811620
+e/f Employee's name, address, and ZIP code
+Megan R. Doyle
+2217 Oakwood Ave NE
+Grand Rapids, MI 49505
+a SSN: XXX-XX-5190
+d Control number
+GRHS-118802
+1 Wages, tips, other comp.
+88,600.00
+2 Federal income tax withheld
+7,800.00
+3 Social security wages
+88,600.00
+4 Social security tax withheld
+5,493.20
+5 Medicare wages and tips
+88,600.00
+6 Medicare tax withheld
+1,284.70
+7 Social security tips 8 Allocated tips
+9 10 Dependent care benefits
+11 Nonqualified plans 13 Stat. emp / Ret. plan / 3rd-party sick
+12 Code DD
+DD 9,820.00
+14 Other: QUAL OT PREM
+4,860.00
+14 Other: UNION DUES
+742.00
+15 State / Employer state ID
+MI 38-1181620
+16/17 State wages / State income tax
+88,600.00 / 3,450.00
+18/19 Local wages / Local income tax
+88,600.00 / 1,311.00
+20 Locality name
+GRAND RAPIDS (resident)
+Form W-2 (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

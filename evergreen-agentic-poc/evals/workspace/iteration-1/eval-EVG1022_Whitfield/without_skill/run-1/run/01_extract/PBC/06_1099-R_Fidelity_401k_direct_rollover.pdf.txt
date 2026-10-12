@@ -1,0 +1,36 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 1099-R
+Distributions From Pensions, Annuities, Retirement or Profit-Sharing Plans, IRAs, Insurance Contracts, etc. Tax Year 2025 OMB No. 1545-0119
+Copy B - For Recipient
+PAYER'S name, street address, city, state, ZIP, telephone
+Fidelity Management Trust Company, Trustee
+Keystone Medical Devices 401(k) Savings Plan
+245 Summer St, Boston, MA 02210
+TIN: 00-6110482
+RECIPIENT'S name, street address, city, state, ZIP
+Gregory A. Whitfield
+1418 Brandywine Hunt Dr
+West Chester, PA 19382
+TIN: XXX-XX-6618
+Account number (see instructions)
+KMD401K-****0712
+1 Gross distribution
+780,000.00
+2a Taxable amount
+0.00
+2b Taxable amount not determined / Total distributio
+Total distribution: X
+3 Capital gain (included in box 2a)
+4 Federal income tax withheld
+0.00
+5 Employee contributions / Designated Roth contrib.
+6 Net unrealized appreciation 7 Distribution code(s) / IRA/SEP/SIMPLE
+G
+8 Other 9a Your percentage of total distribution
+10 Amount allocable to IRR within 5 years 11 1st year of desig. Roth contrib.
+12 FATCA filing requirement 13 Date of payment
+09/10/2025
+14-16 State tax withheld / State / State distribution
+Form 1099-R (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

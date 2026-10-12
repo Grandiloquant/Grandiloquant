@@ -1,0 +1,609 @@
+{
+  "client_id": "EVG1022",
+  "filing_status": "MFJ",
+  "form_1040_summary": {
+    "1z": 472000,
+    "2a": 6396,
+    "2b": 9085,
+    "3a": 15900,
+    "3b": 18400,
+    "4b": 0,
+    "5b": 96000,
+    "6b": 0,
+    "7": 27000,
+    "8": 0,
+    "9": 622485,
+    "10": 0,
+    "11": 622485,
+    "12e": 36240,
+    "13a": 0,
+    "13b": 0,
+    "15": 586245,
+    "16": 135700,
+    "17": 0,
+    "19": 0,
+    "20": 0,
+    "22": 135700,
+    "23": 4374,
+    "24": 140074,
+    "25d": 105769,
+    "26": 32000,
+    "27a": 0,
+    "28": 0,
+    "29": 0,
+    "31": 3000,
+    "33": 140769,
+    "34": 695,
+    "35a": 695,
+    "37": 0
+  },
+  "deduction_type": "Itemized (Schedule A)",
+  "refund": 695,
+  "balance_due": 0,
+  "carryforwards_to_2026": {},
+  "federal_forms": {
+    "Form 1040": [
+      {
+        "line": "1a",
+        "description": "Total amount from Form(s) W-2, box 1",
+        "amount": 472000
+      },
+      {
+        "line": "1b",
+        "description": "Household employee wages not reported on Form(s) W-2",
+        "amount": 0
+      },
+      {
+        "line": "1c",
+        "description": "Tip income not reported on line 1a (Form 4137)",
+        "amount": 0
+      },
+      {
+        "line": "1e",
+        "description": "Taxable dependent care benefits (Form 2441, line 26)",
+        "amount": 0
+      },
+      {
+        "line": "1h",
+        "description": "Other earned income",
+        "amount": 0
+      },
+      {
+        "line": "1z",
+        "description": "Add lines 1a through 1h",
+        "amount": 472000
+      },
+      {
+        "line": "2a",
+        "description": "Tax-exempt interest",
+        "amount": 6396
+      },
+      {
+        "line": "2b",
+        "description": "Taxable interest",
+        "amount": 9085
+      },
+      {
+        "line": "3a",
+        "description": "Qualified dividends",
+        "amount": 15900
+      },
+      {
+        "line": "3b",
+        "description": "Ordinary dividends",
+        "amount": 18400
+      },
+      {
+        "line": "4a",
+        "description": "IRA distributions",
+        "amount": 0
+      },
+      {
+        "line": "4b",
+        "description": "IRA distributions - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "Pensions and annuities",
+        "amount": 1420000
+      },
+      {
+        "line": "5b",
+        "description": "Pensions and annuities - taxable amount",
+        "amount": 96000
+      },
+      {
+        "line": "6a",
+        "description": "Social security benefits",
+        "amount": 0
+      },
+      {
+        "line": "6b",
+        "description": "Social security benefits - taxable amount",
+        "amount": 0
+      },
+      {
+        "line": "7",
+        "description": "Capital gain or (loss) (Schedule D)",
+        "amount": 27000
+      },
+      {
+        "line": "8",
+        "description": "Additional income from Schedule 1, line 10",
+        "amount": 0
+      },
+      {
+        "line": "9",
+        "description": "Total income",
+        "amount": 622485
+      },
+      {
+        "line": "10",
+        "description": "Adjustments to income from Schedule 1, line 26",
+        "amount": 0
+      },
+      {
+        "line": "11",
+        "description": "Adjusted gross income",
+        "amount": 622485
+      },
+      {
+        "line": "12e",
+        "description": "Standard deduction or itemized deductions (Itemized (Schedule A))",
+        "amount": 36240
+      },
+      {
+        "line": "13a",
+        "description": "Qualified business income deduction (Form 8995/8995-A)",
+        "amount": 0
+      },
+      {
+        "line": "13b",
+        "description": "Additional deductions from Schedule 1-A, line 38",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Add lines 12e, 13a, and 13b",
+        "amount": 36240
+      },
+      {
+        "line": "15",
+        "description": "Taxable income",
+        "amount": 586245
+      },
+      {
+        "line": "16",
+        "description": "Tax",
+        "amount": 135700
+      },
+      {
+        "line": "17",
+        "description": "Amount from Schedule 2, line 3",
+        "amount": 0
+      },
+      {
+        "line": "18",
+        "description": "Add lines 16 and 17",
+        "amount": 135700
+      },
+      {
+        "line": "19",
+        "description": "Child tax credit / credit for other dependents (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "20",
+        "description": "Amount from Schedule 3, line 8",
+        "amount": 0
+      },
+      {
+        "line": "21",
+        "description": "Add lines 19 and 20",
+        "amount": 0
+      },
+      {
+        "line": "22",
+        "description": "Subtract line 21 from line 18",
+        "amount": 135700
+      },
+      {
+        "line": "23",
+        "description": "Other taxes, including self-employment tax, from Schedule 2, line 21",
+        "amount": 4374
+      },
+      {
+        "line": "24",
+        "description": "Total tax",
+        "amount": 140074
+      },
+      {
+        "line": "25a",
+        "description": "Federal income tax withheld - Form(s) W-2",
+        "amount": 103600
+      },
+      {
+        "line": "25b",
+        "description": "Federal income tax withheld - Form(s) 1099",
+        "amount": 0
+      },
+      {
+        "line": "25c",
+        "description": "Federal income tax withheld - other forms (incl. Form 8959 line 24)",
+        "amount": 2169
+      },
+      {
+        "line": "25d",
+        "description": "Total withholding",
+        "amount": 105769
+      },
+      {
+        "line": "26",
+        "description": "2025 estimated tax payments and amount applied from 2024 return",
+        "amount": 32000
+      },
+      {
+        "line": "27a",
+        "description": "Earned income credit (EIC)",
+        "amount": 0
+      },
+      {
+        "line": "28",
+        "description": "Additional child tax credit (Schedule 8812)",
+        "amount": 0
+      },
+      {
+        "line": "29",
+        "description": "American opportunity credit - refundable (Form 8863, line 8)",
+        "amount": 0
+      },
+      {
+        "line": "31",
+        "description": "Amount from Schedule 3, line 15",
+        "amount": 3000
+      },
+      {
+        "line": "32",
+        "description": "Total other payments and refundable credits",
+        "amount": 3000
+      },
+      {
+        "line": "33",
+        "description": "Total payments",
+        "amount": 140769
+      },
+      {
+        "line": "34",
+        "description": "Amount overpaid",
+        "amount": 695
+      },
+      {
+        "line": "35a",
+        "description": "Refund",
+        "amount": 695
+      },
+      {
+        "line": "37",
+        "description": "Amount you owe",
+        "amount": 0
+      },
+      {
+        "line": "38",
+        "description": "Estimated tax penalty (Form 2210)",
+        "amount": 0
+      }
+    ],
+    "Schedule B": [
+      {
+        "line": "1.1",
+        "description": "Charles Schwab ****2207 (joint) 1099-INT box 1",
+        "amount": 12641
+      },
+      {
+        "line": "1.2",
+        "description": "Accrued interest paid - Pfizer 4.75% 2033 bought 03/12/2025",
+        "amount": -2982
+      },
+      {
+        "line": "1.3",
+        "description": "ABP adjustment - Pfizer 4.75% 2033 (1099-INT box 11)",
+        "amount": -786
+      },
+      {
+        "line": "1.4",
+        "description": "Charles Schwab ****2207 - PA Turnpike 5% 2038 (box 8 7,500 less box 13 premium 1,104.30)",
+        "amount": 0
+      },
+      {
+        "line": "1.5",
+        "description": "Brandywine Federal Credit Union (Ellen)",
+        "amount": 212
+      },
+      {
+        "line": "2",
+        "description": "Total interest",
+        "amount": 9085
+      },
+      {
+        "line": "4",
+        "description": "Taxable interest (to Form 1040, line 2b)",
+        "amount": 9085
+      },
+      {
+        "line": "5.1",
+        "description": "Charles Schwab ****2207 (joint)",
+        "amount": 14250
+      },
+      {
+        "line": "5.2",
+        "description": "Charles Schwab ****4410 (Gregory)",
+        "amount": 4150
+      },
+      {
+        "line": "6",
+        "description": "Ordinary dividends (to Form 1040, line 3b)",
+        "amount": 18400
+      },
+      {
+        "line": "7a",
+        "description": "Foreign financial account at any time in 2025? / FBAR required?",
+        "amount": "No"
+      },
+      {
+        "line": "8",
+        "description": "Grantor of / transferor to a foreign trust?",
+        "amount": "No"
+      }
+    ],
+    "Form 8949 (Box D)": [
+      {
+        "line": "1",
+        "description": "400 sh Procter & Gamble (PG) | acq 05/14/2014 | sold 04/03/2025 | proceeds 66,400 | basis 31,200 | code  adj 0",
+        "amount": 35200
+      },
+      {
+        "line": "2",
+        "description": "300 sh Vanguard Total Stock Market ETF (VTI) | acq 03/09/2017 | sold 09/22/2025 | proceeds 92,100 | basis 67,300 | code  adj 0",
+        "amount": 24800
+      }
+    ],
+    "Form 8949 (Box A)": [
+      {
+        "line": "3",
+        "description": "120 sh Eli Lilly (LLY) | acq 01/22/2025 | sold 06/30/2025 | proceeds 95,400 | basis 90,400 | code  adj 0",
+        "amount": 5000
+      },
+      {
+        "line": "4",
+        "description": "400 sh iShares Core S&P 500 ETF (IVV) - wash sale: spouse IRA bought 420 sh IVV 11/20/2025 (Rev. Rul. 2008-5) | acq 02/19/2025 | sold 11/10/2025 | proceeds 227,000 | basis 245,000 | code W adj 18,000",
+        "amount": 0
+      }
+    ],
+    "Schedule D": [
+      {
+        "line": "ST box A",
+        "description": "Short-term from Form 8949 box A (proceeds 322,400; cost 335,400; adj 18,000)",
+        "amount": 5000
+      },
+      {
+        "line": "6",
+        "description": "Short-term capital loss carryover from 2024",
+        "amount": -26000
+      },
+      {
+        "line": "7",
+        "description": "Net short-term capital gain or (loss)",
+        "amount": -21000
+      },
+      {
+        "line": "LT box D",
+        "description": "Long-term from Form 8949 box D (proceeds 158,500; cost 98,500; adj 0)",
+        "amount": 60000
+      },
+      {
+        "line": "14",
+        "description": "Long-term capital loss carryover from 2024",
+        "amount": -12000
+      },
+      {
+        "line": "15",
+        "description": "Net long-term capital gain or (loss)",
+        "amount": 48000
+      },
+      {
+        "line": "16",
+        "description": "Combine lines 7 and 15",
+        "amount": 27000
+      }
+    ],
+    "Schedule A": [
+      {
+        "line": "1",
+        "description": "Medical and dental expenses",
+        "amount": 0
+      },
+      {
+        "line": "3",
+        "description": "7.5% of AGI",
+        "amount": 46686
+      },
+      {
+        "line": "4",
+        "description": "Deductible medical",
+        "amount": 0
+      },
+      {
+        "line": "5a",
+        "description": "State and local income taxes",
+        "amount": 21004
+      },
+      {
+        "line": "5b",
+        "description": "State and local real estate taxes",
+        "amount": 9830
+      },
+      {
+        "line": "5c",
+        "description": "State and local personal property taxes",
+        "amount": 0
+      },
+      {
+        "line": "5d",
+        "description": "Add lines 5a through 5c",
+        "amount": 30834
+      },
+      {
+        "line": "5e",
+        "description": "Smaller of line 5d or SALT limit ($10,000 after MAGI phase-down)",
+        "amount": 10000
+      },
+      {
+        "line": "7",
+        "description": "Total taxes",
+        "amount": 10000
+      },
+      {
+        "line": "8a",
+        "description": "Home mortgage interest and points reported on Form 1098",
+        "amount": 11240
+      },
+      {
+        "line": "8e",
+        "description": "Add lines 8a through 8c",
+        "amount": 11240
+      },
+      {
+        "line": "10",
+        "description": "Total interest",
+        "amount": 11240
+      },
+      {
+        "line": "11",
+        "description": "Gifts by cash or check",
+        "amount": 15000
+      },
+      {
+        "line": "12",
+        "description": "Other than by cash or check",
+        "amount": 0
+      },
+      {
+        "line": "14",
+        "description": "Total gifts to charity",
+        "amount": 15000
+      },
+      {
+        "line": "17",
+        "description": "Total itemized deductions",
+        "amount": 36240
+      }
+    ],
+    "Form 6251": [
+      {
+        "line": "1",
+        "description": "Taxable income (Form 1040 line 15)",
+        "amount": 586245
+      },
+      {
+        "line": "2a",
+        "description": "Taxes from Schedule A line 7",
+        "amount": 10000
+      },
+      {
+        "line": "4",
+        "description": "Alternative minimum taxable income",
+        "amount": 596245
+      },
+      {
+        "line": "5",
+        "description": "Exemption",
+        "amount": 137000
+      },
+      {
+        "line": "6",
+        "description": "AMTI less exemption",
+        "amount": 459245
+      },
+      {
+        "line": "7-9",
+        "description": "Tentative minimum tax",
+        "amount": 118230
+      },
+      {
+        "line": "10",
+        "description": "Regular tax (Form 1040 line 16 less Sch 3 line 1 FTC)",
+        "amount": 135700
+      },
+      {
+        "line": "11",
+        "description": "Alternative minimum tax",
+        "amount": 0
+      }
+    ],
+    "Form 8959": [
+      {
+        "line": "7/13",
+        "description": "Additional Medicare Tax (Medicare wages 506,000; SE 0; threshold 250,000)",
+        "amount": 2304
+      },
+      {
+        "line": "24",
+        "description": "Additional Medicare Tax withheld by employer(s)",
+        "amount": 2169
+      }
+    ],
+    "Schedule 2": [
+      {
+        "line": "11",
+        "description": "Additional Medicare Tax (Form 8959)",
+        "amount": 2304
+      },
+      {
+        "line": "12",
+        "description": "Net investment income tax (Form 8960)",
+        "amount": 2070
+      },
+      {
+        "line": "21",
+        "description": "Total other taxes (to Form 1040, line 23)",
+        "amount": 4374
+      }
+    ],
+    "Form 8960": [
+      {
+        "line": "8",
+        "description": "Total investment income",
+        "amount": 54485
+      },
+      {
+        "line": "12",
+        "description": "Net investment income",
+        "amount": 54485
+      },
+      {
+        "line": "13-16",
+        "description": "MAGI 622,485 over threshold 250,000",
+        "amount": 372485
+      },
+      {
+        "line": "17",
+        "description": "Net investment income tax",
+        "amount": 2070
+      }
+    ],
+    "Schedule 3": [
+      {
+        "line": "10",
+        "description": "Amount paid with request for extension to file (Form 4868)",
+        "amount": 3000
+      },
+      {
+        "line": "15",
+        "description": "Total other payments and refundable credits (to Form 1040, line 31)",
+        "amount": 3000
+      }
+    ]
+  },
+  "engine_notes": []
+}

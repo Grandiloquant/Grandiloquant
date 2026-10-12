@@ -1,0 +1,27 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form 1099-SA
+Distributions From an HSA, Archer MSA, or Medicare Advantage MSA Tax Year 2025 
+Copy B - For Recipient
+PAYER'S name, street address, city, state, ZIP, telephone
+HSA Bank
+605 N 8th St
+Sheboygan, WI 53081
+TIN: 00-3920118
+RECIPIENT'S name, street address, city, state, ZIP
+Marcus D. Bell
+4417 Pecan Hollow Dr
+Round Rock, TX 78665
+TIN: XXX-XX-4471
+Account number (see instructions)
+HSA-****3310
+1 Gross distribution
+1,150.00
+2 Earnings on excess cont.
+3 Distribution code
+1
+4 FMV on date of death
+5 HSA / Archer MSA / MA MSA
+HSA
+Form 1099-SA (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

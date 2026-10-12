@@ -1,0 +1,17 @@
+
+===== page 1 =====
+2025 Child Care / Camp Payment Statements (compiled by client) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+2025 Child Care / Camp Payment Statements (compiled by client)
+Kids Kampus After-School Program (EIN 00-6618204, 1800 Gattis School Rd, Round Rock TX)
+Child Period Amount paid
+Maya Bell Jan-May, Aug-Dec 2025 (after-school) 4,200.00
+Camp Cedar Ridge (EIN 00-5512093, Georgetown TX)
+Child / Program Dates Amount paid
+Jaylen - Summer Day Camp (8:00-5:30) 06/09-07/03/2025 1,300.00
+Maya - Summer Day Camp (8:00-5:30) 06/09-07/03/2025 1,300.00
+Jaylen - Adventure Week (overnight, 6
+nights)
+07/13-07/19/2025 1,400.00
+Total 5,400.00
+Tanya's note: 'FSA reimbursed $5,000 of this. Total we paid was $9,600.'

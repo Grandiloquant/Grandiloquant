@@ -1,0 +1,25 @@
+
+===== page 1 =====
+2024 Return Summary - Brian & Megan Doyle (EVG1016) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+2024 Return Summary - Brian & Megan Doyle (EVG1016)
+Filing status: Married filing jointly
+2024 Form 1040 - key lines (from filed return)
+Line Description Amount
+1a W-2 wages (Grand River Health - Megan
+$84,110; Lakeshore Industrial Supply - Brian
+$71,300)
+155,410.00
+2b Taxable interest - Lake Michigan CU 58.00
+11 AGI 155,468.00
+12 Standard deduction 29,200.00
+15 Taxable income 126,268.00
+19 Child tax credit (Liam, Nora) 4,000.00
+Sch 3 / 2441 Dependent care credit ($4,900 x 20%) 980.00
+24 Total tax 11,322.00
+35a Refund 1,840.00
+MI-1040 Exemptions 4 x $5,600; MI tax 5,655 5,655.00
+GR-1040R Grand Rapids resident, 4 exemptions x $600 2,295.00
+Prior-year preparer notes (PY WP)
+PY WP: joint return. Kids' after-school program at Kent Kids Club. Megan asked (12/2025 call) whether she can file 'single'
+for 2025 since the divorce will be final in February - told her we need the separation agreement.

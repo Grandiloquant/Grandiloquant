@@ -1,0 +1,25 @@
+{
+  "client_id": "EVG1003",
+  "taxpayer": "Daniel C. Okafor",
+  "tax_year": 2025,
+  "filings": [
+    {"jurisdiction": "Federal", "form": "Form 1040 (Single)",
+     "attachments": ["Schedule 1", "Schedule 1-A (qualified tips $25,000)", "Schedule 2", "Schedule C (Uber rideshare)",
+                     "Schedule SE", "Form 4137 (unreported tips $1,600)", "Form 8995 (QBI)",
+                     "Form 4562 Part V / Sch C Part IV vehicle information",
+                     "Statement: allocated tips (W-2 box 8 $2,900) vs actual unreported tips per tip diary"],
+     "method": "e-file", "due_date": "2026-04-15",
+     "extended_due_date_if_4868_filed": "2026-10-15",
+     "balance_due": 299, "payment": "IRS Direct Pay / EFTPS or direct debit from Nevada State Bank acct ending 7765 with e-file",
+     "signature": "Form 8879 (client eSign OK)"},
+    {"jurisdiction": "Federal", "form": "Form 1040-ES 2026 estimated tax vouchers (approx. $325/quarter)",
+     "method": "IRS Direct Pay (electronic)",
+     "due_dates": ["2026-04-15", "2026-06-15", "2026-09-15", "2027-01-15"]},
+    {"jurisdiction": "Nevada", "form": "None - Nevada has no individual income tax", "method": "n/a", "due_date": null},
+    {"jurisdiction": "Las Vegas / Clark County", "form": "None - no local income tax", "method": "n/a", "due_date": null},
+    {"jurisdiction": "Nevada (non-income-tax compliance)", "form": "Nevada State Business License renewal (TNC driver) - confirm current; not a tax return",
+     "method": "online (SilverFlume)", "due_date": "annual, on license anniversary"}
+  ],
+  "not_required": ["Form 2210 (no underpayment penalty - prior-year safe harbor met)", "State income tax returns", "Local income tax returns"],
+  "open_items": ["Split of $380 car washes vs rider water/mints", "Confirm whether Form 4868 extension was filed (today 2026-10-12)"]
+}

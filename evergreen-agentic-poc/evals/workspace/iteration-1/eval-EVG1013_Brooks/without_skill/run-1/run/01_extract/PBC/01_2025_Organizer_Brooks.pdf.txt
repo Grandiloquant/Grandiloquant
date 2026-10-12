@@ -1,0 +1,32 @@
+
+===== page 1 =====
+2025 Client Tax Organizer - Nathan Brooks (EVG1013) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+2025 Client Tax Organizer - Nathan Brooks (EVG1013)
+Prepared from CCH Axcess organizer export (synthetic). Amounts in the 2024 column are from your prior year return.
+Beginning Checklist / General Questions (client answers)
+# Question Answer Client explanation
+1.00 Did your marital status change during 2025? No
+2.00 Did you exercise, vest or sell any employer stock / options / RSUs? Yes Exercised ISOs in Feb (held),
+exercised+sold NSOs in Sept. Also got
+founder shares in my startup.
+3.00 Did you receive any Form 3921 / 3922? Yes 3921 attached
+4.00 Did you file a Section 83(b) election in 2025? Yes Mailed it in December - copy attached
+5.00 Did you have an HSA? Yes Fidelity - payroll + I added $1,000 in April
+6.00 Did you receive, sell, exchange digital assets? No
+7.00 Did you make estimated tax payments? No
+8.00 Do you want to extend? Yes waiting on Loomwork paperwork
+Dependents
+Name Relationship DOB SSN (last 4) Months in home Full-time student
+Income - Prior year amounts pre-printed by Evergreen Tax; client to enter 2025
+Income item Payer 2024 (prior year) 2025 (client entry)
+Wages Parallax Robotics, Inc. 139,880.00 see W-2
+Interest Wealthfront Cash Account 1,106.00 ~1,300
+Brokerage (1099-B) E*TRADE from Morgan Stanley 0.00 NSO sale - see 1099
+Other income Loomwork AI founder stock 8,000?? (83b)
+Deductions / Adjustments / Payments
+Item Detail 2024 (prior year) 2025 (client entry)
+HSA contributions payroll + direct 3,850.00 5,300
+Charitable 0.00
+Signature
+Client signature on file: Nathan Brooks Date: 02/27/2026

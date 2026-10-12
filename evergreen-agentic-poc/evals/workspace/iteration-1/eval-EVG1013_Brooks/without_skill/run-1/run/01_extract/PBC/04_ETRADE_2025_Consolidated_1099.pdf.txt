@@ -1,0 +1,29 @@
+
+===== page 1 =====
+E*TRADE from Morgan Stanley - 2025 Consolidated Form 1099 (Stock Plan Account ****4471) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+E*TRADE from Morgan Stanley - 2025 Consolidated Form 1099 (Stock
+Plan Account ****4471)
+Summary
+Form Item Amount
+1099-DIV Total ordinary dividends 0.00
+1099-INT Interest income 0.00
+1099-B Total proceeds (short-term, covered - Box A) 25,975.05
+1099-B Total cost basis reported to IRS 4,000.00
+1099-B Wash sale loss disallowed 0.00
+Form 1099-B - Short-term transactions for covered tax lots (Box 12: basis reported to the IRS) -
+Form 8949 Box A
+1a Description 1b Acquired 1c Sold 1d Proceeds 1e Cost basis 1f/1g Gain/(loss)
+PARALLAX
+ROBOTICS INC
+(PLXR) 2,000 sh
+- NSO exercise,
+same-day sale
+09/18/2025 09/18/2025 25,975.05 4,000.00 21,975.05
+Box 2: Short-term. Box 5: noncovered - not checked. Box 12: basis reported to IRS - checked. Box 4: federal withholding 0.00. Proceeds are net of
+commissions and fees of $24.95.
+Important information about cost basis for compensatory options
+Beginning with securities acquired in 2014, brokers are required to report the cost basis of shares acquired through a
+compensatory stock option as the amount paid for the shares (the exercise price) only. Cost basis reported on this Form
+1099-B does not include compensation income that may have been reported on your Form W-2. See your Stock Plan
+Transactions Supplement for adjusted cost basis information. You may need to adjust basis on Form 8949 (code B).

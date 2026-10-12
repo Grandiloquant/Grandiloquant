@@ -1,0 +1,22 @@
+{
+  "client_id": "EVG1013",
+  "taxpayer": "Nathan J. Brooks",
+  "tax_year": 2025,
+  "extension_on_file": {"form": "4868", "filed": "2026-04-13", "payment": 6000},
+  "filings": [
+    {"jurisdiction": "Federal", "return": "Form 1040", "method": "e-file", "due_date": "2026-10-15",
+     "attachments": ["Schedule 2 (AMT)", "Schedule 3 (extension payment)", "Schedule B", "Schedule D", "Form 8949 (Box A, code B basis adjustment)", "Form 6251", "Form 8889"],
+     "result": {"agi": 165959, "taxable_income": 150209, "total_tax": 33243, "payments": 33600, "refund": 357},
+     "refund_method": "direct deposit - Chase checking ****7730"},
+    {"jurisdiction": "Illinois", "return": "Form IL-1040 (resident)", "method": "e-file", "due_date": "2026-10-15",
+     "result": {"base_income": 165959, "exemption": 2850, "net_income": 163109, "tax": 8074, "withholding": 8150, "refund": 76},
+     "refund_method": "direct deposit - Chase checking ****7730"},
+    {"jurisdiction": "Local (City of Chicago)", "return": "none", "method": "n/a", "due_date": null, "note": "Chicago has no city income tax"}
+  ],
+  "not_filed": [
+    {"form": "Form 15620 / 83(b) copy", "reason": "Election was mailed 12/10/2025, after the 12/03/2025 deadline - invalid; not attached, no 2025 income reported"},
+    {"form": "Form 5329", "reason": "HSA excess $1,000 + $38 earnings withdrawn before extended due date - no excise tax"},
+    {"form": "Form 2210", "reason": "Prior-year safe harbor met by withholding"},
+    {"form": "Form 8801", "reason": "No prior MTC; 2025 creates $4,346 carryforward to be claimed beginning 2026"}
+  ]
+}

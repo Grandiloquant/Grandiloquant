@@ -1,0 +1,41 @@
+
+===== page 1 =====
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Form W-2
+Wage and Tax Statement Tax Year 2025 OMB No. 1545-0008
+Copy B - To Be Filed With Employee's FEDERAL Tax Return
+c Employer's name, address, and ZIP code
+Silver Sage Casino Resort LLC dba Ember Bar & Grill
+3900 S Las Vegas Blvd
+Las Vegas, NV 89109
+b EIN: 00-8812046
+e/f Employee's name, address, and ZIP code
+Daniel C. Okafor
+7720 W Oquendo Rd, Unit 2114
+Las Vegas, NV 89113
+a SSN: XXX-XX-5082
+d Control number
+SSC-25-08814
+1 Wages, tips, other comp.
+44,400.00
+2 Federal income tax withheld
+3,150.00
+3 Social security wages
+19,800.00
+4 Social security tax withheld
+2,752.80
+5 Medicare wages and tips
+44,400.00
+6 Medicare tax withheld
+643.80
+7 Social security tips
+24,600.00
+8 Allocated tips
+2,900.00
+9 10 Dependent care benefits
+11 Nonqualified plans 13 Stat. emp / Ret. plan / 3rd-party sick
+14 Other: TIPS RPTD (4070)
+24,600.00
+14 Other: NV SUTA/UI
+n/a
+Form W-2 (2025) - generated for Project Evergreen eval suite. SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT

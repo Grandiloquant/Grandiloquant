@@ -1,0 +1,16 @@
+{
+  "client_id": "EVG1016",
+  "taxpayer": "Megan R. Doyle",
+  "tax_year": 2025,
+  "filings": [
+    {"jurisdiction": "Federal", "form": "Form 1040 (Head of Household)", "attachments": ["Schedule 1-A (qualified overtime $4,860)", "Schedule 8812 (CTC - Nora)", "Form 2441 (Kent Kids Club $5,200, 2 qualifying persons)", "Schedule 3", "Form 5329 Part I (exception code 04 - QDRO, $30,000)"], "method": "e-file", "due_date": "2026-04-15", "result": "refund", "amount": 4026, "refund_method": "direct deposit LMCU ****3321"},
+    {"jurisdiction": "Michigan", "form": "MI-1040 (resident)", "attachments": ["Schedule W (withholding: W-2 $3,450, 1099-R $1,275)"], "method": "e-file", "due_date": "2026-04-15", "result": "refund (estimate)", "amount": 175},
+    {"jurisdiction": "City of Grand Rapids", "form": "GR-1040R (resident)", "attachments": ["W-2 and 1099-R copies", "federal 1040 copy"], "method": "e-file", "due_date": "2026-04-30", "result": "balance due (estimate)", "amount": 451, "note": "Reviewer to confirm city taxability of the QDRO 401(k) distribution (code 1); about $1 due if excluded"}
+  ],
+  "not_filed": [
+    "Form 8332: signed by Megan, attached to Brian's return (not ours)",
+    "No 2026 Form 1040-ES required (2025 withholding covers liability); review 2026 withholding",
+    "No MI-1040CR homestead credit (household resources exceed $69,700)"
+  ],
+  "signature": "Form 8879 / MI-8879 e-sign by taxpayer (eSign OK per profile)"
+}

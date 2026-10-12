@@ -1,0 +1,25 @@
+
+===== page 1 =====
+2024 Return Summary - Marcus & Tanya Bell (EVG1001) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+2024 Return Summary - Marcus & Tanya Bell (EVG1001)
+Filing status: Married filing jointly
+2024 Form 1040 - key lines (from filed return)
+Line Description Amount
+1a W-2 wages (Lone Star Distribution;
+Brightsmile Dental)
+101,240.00
+2b Taxable interest - Ally Bank (savings 5591)
+$980; Chase $31
+1,011.00
+11 AGI 102,251.00
+12 Standard deduction 29,200.00
+15 Taxable income 73,051.00
+19 Child tax credit (2 children) 4,000.00
+Sch 3 / 2441 Dependent care credit (after $5,000 FSA
+exclusion)
+200.00
+35a Refund 3,902.00
+Prior-year preparer notes (PY WP)
+PY WP: Ally Bank savings interest is recurring (HYSA ~$25k balance). Tanya has a dependent-care FSA each year. HSA
+through Marcus' employer (family HDHP).

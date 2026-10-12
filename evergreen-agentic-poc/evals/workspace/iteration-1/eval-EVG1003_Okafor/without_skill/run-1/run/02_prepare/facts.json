@@ -1,0 +1,12 @@
+{"client_id": "EVG1003", "status": "S", "taxpayer": {"age65": false, "blind": false},
+ "dependents": [],
+ "w2": [{"who": "T", "box1": 44400, "box2": 3150, "box3": 19800, "box4": 2752.80, "box5": 44400, "box6": 643.80, "box10": 0}],
+ "unreported_tips": 1600, "unreported_tips_medicare": 1600, "form4137_tax": 122.40,
+ "sch1": {"sch_c": 17081.49},
+ "se": [{"who": "T", "net_profit": 17081.49, "w2_ss_wages": 46000}],
+ "se_earned_T": 17081.49,
+ "qbi": {"businesses": [{"name": "Sch C - Uber rideshare", "qbi": 15874.72, "w2_wages": 0, "ubia": 0, "sstb": false}], "loss_carryforward": 0, "reit": 0, "ptp": 0},
+ "sch1a": {"tips": 25000, "tip_occupation": "Bartender"},
+ "eic_eligible": false,
+ "estimated_payments": 1000
+}

@@ -1,0 +1,176 @@
+
+===== sheet: Calendar 2025 =====
+Date	Day	Work state	Location	Calendar subject / activity	Workday?
+2025-01-01	Wed			Company holiday - New Year's Day	No
+2025-01-02	Thu	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-03	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-06	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-07	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-08	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-09	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-01-10	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-13	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-14	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-15	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-16	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-01-17	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-20	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-21	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-22	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-23	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-01-24	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-27	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-01-28	Tue	IL	Chicago, IL	National sales kickoff (McCormick Place)	Yes
+2025-01-29	Wed	IL	Chicago, IL	National sales kickoff (McCormick Place)	Yes
+2025-01-30	Thu	IL	Chicago, IL	National sales kickoff (McCormick Place)	Yes
+2025-01-31	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-03	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-04	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-05	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-06	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-02-07	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-10	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-11	Tue	MA	Boston, MA	Mass General Brigham - capital equipment review	Yes
+2025-02-12	Wed	MA	Boston, MA	Mass General Brigham - capital equipment review	Yes
+2025-02-13	Thu	MA	Boston, MA	Mass General Brigham - capital equipment review	Yes
+2025-02-14	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-17	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-18	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-19	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-20	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-02-21	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-24	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-25	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-26	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-02-27	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-02-28	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-03	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-04	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-05	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-06	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-03-07	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-10	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-11	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-12	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-13	Thu	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-14	Fri			PTO	No
+2025-03-17	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-18	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-19	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-20	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-03-21	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-24	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-03-25	Tue	MA	Boston / Burlington, MA	New England region launch; Lahey Hospital	Yes
+2025-03-26	Wed	MA	Boston / Burlington, MA	New England region launch; Lahey Hospital	Yes
+2025-03-27	Thu	MA	Boston / Burlington, MA	New England region launch; Lahey Hospital	Yes
+2025-03-28	Fri	MA	Boston / Burlington, MA	New England region launch; Lahey Hospital	Yes
+2025-03-31	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-01	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-02	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-03	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-04-04	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-07	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-08	Tue	IL	Chicago, IL	AAMI-type trade conference booth + customer dinners	Yes
+2025-04-09	Wed	IL	Chicago, IL	AAMI-type trade conference booth + customer dinners	Yes
+2025-04-10	Thu	IL	Chicago, IL	AAMI-type trade conference booth + customer dinners	Yes
+2025-04-11	Fri	IL	Chicago, IL	AAMI-type trade conference booth + customer dinners	Yes
+2025-04-14	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-15	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-16	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-17	Thu	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-18	Fri			Company holiday - Good Friday	No
+2025-04-21	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-22	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-23	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-24	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-04-25	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-28	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-29	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-04-30	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-01	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-05-02	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-05	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-06	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-07	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-08	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-05-09	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-12	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-13	Tue	MA	Worcester, MA	UMass Memorial - contract negotiation	Yes
+2025-05-14	Wed	MA	Worcester, MA	UMass Memorial - contract negotiation	Yes
+2025-05-15	Thu	MA	Worcester, MA	UMass Memorial - contract negotiation	Yes
+2025-05-16	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-19	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-20	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-21	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-22	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-05-23	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-26	Mon			Company holiday - Memorial Day	No
+2025-05-27	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-28	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-05-29	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-05-30	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-02	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-03	Tue	IL	Chicago / Oak Brook, IL	Midwest GPO contract renewal	Yes
+2025-06-04	Wed	IL	Chicago / Oak Brook, IL	Midwest GPO contract renewal	Yes
+2025-06-05	Thu	IL	Chicago / Oak Brook, IL	Midwest GPO contract renewal	Yes
+2025-06-06	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-09	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-10	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-11	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-12	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-06-13	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-16	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-17	Tue	MA	Boston, MA	Boston Children's / Beth Israel QBRs	Yes
+2025-06-18	Wed	MA	Boston, MA	Boston Children's / Beth Israel QBRs	Yes
+2025-06-19	Thu	MA	Boston, MA	Boston Children's / Beth Israel QBRs	Yes
+2025-06-20	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-23	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-24	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-25	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-26	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-06-27	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-06-30	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-01	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-02	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-03	Thu			PTO	No
+2025-07-04	Fri			Company holiday - Independence Day	No
+2025-07-07	Mon			PTO	No
+2025-07-08	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-09	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-10	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-07-11	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-14	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-15	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-16	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-17	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-07-18	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-21	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-22	Tue	MA	Cambridge / Boston, MA	New England sales team offsite + handoff to successor	Yes
+2025-07-23	Wed	MA	Cambridge / Boston, MA	New England sales team offsite + handoff to successor	Yes
+2025-07-24	Thu	MA	Cambridge / Boston, MA	New England sales team offsite + handoff to successor	Yes
+2025-07-25	Fri	MA	Cambridge / Boston, MA	New England sales team offsite + handoff to successor	Yes
+2025-07-28	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-29	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-30	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-07-31	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-08-01	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-04	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-05	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-06	Wed	MA	Springfield, MA	Baystate Health - final account handoff	Yes
+2025-08-07	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-08-08	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-11	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-12	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-13	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-14	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-08-15	Fri			PTO - retirement paperwork	No
+2025-08-18	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-19	Tue	IL	Chicago, IL	Transition meetings - Midwest accounts	Yes
+2025-08-20	Wed	IL	Chicago, IL	Transition meetings - Midwest accounts	Yes
+2025-08-21	Thu	IL	Chicago, IL	Transition meetings - Midwest accounts	Yes
+2025-08-22	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-25	Mon	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-26	Tue	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-27	Wed	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes
+2025-08-28	Thu	NJ	New Brunswick / Princeton / Camden, NJ	Day trip - NJ hospital system accounts (RWJBarnabas, Penn Medicine Princeton, Cooper)	Yes
+2025-08-29	Fri	PA	King of Prussia, PA (HQ) / home office West Chester	Office / internal meetings / calls	Yes

@@ -1,0 +1,154 @@
+[
+  {
+    "file": "EVG1003_2025_PBC_Receipt_Log.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 2018,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/01_2025_Organizer_Okafor.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1834,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/02_W-2_Silver_Sage_Casino.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1080,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/03_1099-K_Uber.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1120,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/04_1099-NEC_Uber.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 767,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/05_Uber_2025_Tax_Summary.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1286,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/06_Tip_diary_scan_2025.pdf",
+    "type": "pdf",
+    "pages": 3,
+    "text_chars": 58,
+    "needs_vision": true,
+    "page_images": [
+      "06_Tip_diary_scan_2025.pdf_p1.png",
+      "06_Tip_diary_scan_2025.pdf_p2.png",
+      "06_Tip_diary_scan_2025.pdf_p3.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/07_Mileage_log_scan_2025.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 18,
+    "needs_vision": true,
+    "page_images": [
+      "07_Mileage_log_scan_2025.pdf_p1.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/08_TMobile_2025_statement_summary.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 566,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/09_IRS_Online_Account_Payment_History.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 553,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/10_GEICO_auto_declarations.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 413,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/11_1099-K_Uber (1).pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1120,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/12_Email_thread_tips_miles_2026-02-18.txt",
+    "type": "txt",
+    "pages": 1,
+    "text_chars": 1063,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PBC/13_IMG_odometer_photos.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 18,
+    "needs_vision": true,
+    "page_images": [
+      "13_IMG_odometer_photos.pdf_p1.png"
+    ],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/2024_Form_1040_Return_Summary.pdf",
+    "type": "pdf",
+    "pages": 1,
+    "text_chars": 1322,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  },
+  {
+    "file": "PERM/Client_Profile.md",
+    "type": "md",
+    "pages": 1,
+    "text_chars": 1209,
+    "needs_vision": false,
+    "page_images": [],
+    "extract_error": null
+  }
+]

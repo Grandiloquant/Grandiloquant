@@ -1,0 +1,7 @@
+{
+  "eval_id": "EVG1022",
+  "eval_name": "EVG1022_Whitfield",
+  "prompt": "Take client EVG1022 from intake to a filing-ready 2025 return.",
+  "answer_key": "/home/user/Grandiloquant/evergreen-training-data-v2/clients/EVG1022_Whitfield/2025/EVG1022_2025_Answer_Key.json",
+  "assertions": []
+}

@@ -1,0 +1,35 @@
+
+===== page 1 =====
+2024 Return Summary - Kevin & Samantha O'Brien (EVG1008) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+2024 Return Summary - Kevin & Samantha O'Brien (EVG1008)
+Filing status: Married filing jointly
+2024 Form 1040 - key lines (from filed return)
+Line Description Amount
+1a W-2 wages 164,900.00
+2b Interest - Fulton Bank 355.00
+Sch E Duplex 128-130 Chestnut Row, Lancaster,
+PA 17602: rents 28,400; net loss (3,050) -
+passive, fully suspended (Form 8582)
+0.00
+11 AGI 165,255.00
+12 Standard deduction (itemized 28,800 incl.
+cabin as 2nd home)
+29,200.00
+15 Taxable income 136,055.00
+19 CTC (Connor) + ODC (Emma, age 17 -> CTC
+in 2024)
+4,000.00
+35a Refund 1,680.00
+Carryovers to 2025
+Item Amount
+Form 8582 - prior-year unallowed passive loss, duplex (2023 3,150 +
+2024 3,050)
+6,200.00
+Sec. 280A carryover (cabin) 0.00
+Capital loss carryover 0.00
+Prior-year preparer notes (PY WP)
+PY WP: MAGI above $150k -> no $25k special allowance; carry the suspended duplex loss. Cabin was 100% personal in
+2024 (second home - interest/taxes on Sch A worksheet, standard deduction still larger). Clients mentioned possibly renting
+the cabin in 2025 - if so, track rental and personal-use days. Emma starts college fall 2025 - get the 1098-T and bursar
+statement.

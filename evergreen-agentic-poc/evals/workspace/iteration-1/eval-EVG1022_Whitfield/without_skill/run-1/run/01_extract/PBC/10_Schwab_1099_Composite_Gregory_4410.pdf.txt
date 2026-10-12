@@ -1,0 +1,44 @@
+
+===== page 1 =====
+Charles Schwab - 2025 Form 1099 Composite & Year-End Summary - Brokerage ****4410 - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Charles Schwab - 2025 Form 1099 Composite & Year-End Summary -
+Brokerage ****4410
+Account owner(s): Gregory A. Whitfield (individual) - Date prepared 02/13/2026
+Payer: Charles Schwab & Co., Inc., 211 Main St, San Francisco, CA 94105 (TIN: 00-1737782)
+Summary
+Form Box Description Amount
+1099-DIV 1a Total ordinary dividends 4,150.00
+1099-DIV 1b Qualified dividends 3,300.00
+1099-INT 1 Interest income 0.00
+1099-INT 8 Tax-exempt interest 0.00
+1099-INT 11 Bond premium 0.00
+1099-INT 13 Bond premium on tax-exempt
+bond
+0.00
+1099-B Total proceeds / cost basis (all
+covered)
+322,400.00 / 335,400.00
+1099-DIV detail
+Security 1a Ordinary 1b Qualified
+iShares Core S&P 500 ETF (IVV) - until 11/10
+sale
+2,870.00 2,020.00
+Keystone Medical Devices Inc (KMDV) - NUA
+shares, Q4 dividend
+1,280.00 1,280.00
+1099-B detail - covered securities (basis reported to the IRS)
+Description Acquired Sold 1d Proceeds 1e Cost 1g Wash sale loss disallowed Gain/(loss) ST/LT
+120 sh Eli Lilly & Co (LLY) 01/22/2025 06/30/2025 95,400.00 90,400.00 5,000.00 Short
+400 sh iShares Core
+S&P 500 ETF (IVV)
+02/19/2025 11/10/2025 227,000.00 245,000.00 (18,000.00) Short
+Supplemental information (not reported to the IRS)
+Item Detail Amount
+Transfer in (09/12/2025) 8,000 sh KMDV from Fidelity 401(k) - cost
+basis per plan letter $12.00/sh (noncovered
+transfer)
+96,000.00
+Unrealized gain/loss 12/31/2025 KMDV 8,000 sh @ 83.15 569,200.00
+Wash sale tracking Schwab tracks wash sales for identical
+CUSIPs within this account only

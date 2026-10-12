@@ -1,0 +1,22 @@
+{
+  "client_id": "EVG1008",
+  "tax_year": 2025,
+  "taxpayers": "Kevin M. & Samantha J. O'Brien (MFJ)",
+  "filings": [
+    {"jurisdiction": "Federal", "return": "Form 1040 (MFJ)",
+     "forms": ["Form 1040", "Schedule 1", "Schedule 3", "Schedule E (duplex + cabin)", "Form 8582 (passive loss limitation - duplex)", "Form 4562 (roof improvement; cabin placed in service 05/2025)", "Form 8863 (AOTC - Emma)", "Schedule 8812 (CTC Connor / ODC Emma)", "Section 1.263(a)-1(f) de minimis safe harbor election statement", "Section 280A vacation home worksheet / carryover statement"],
+     "method": "e-file", "due_date": "2026-04-15", "extended_due_date": "2026-10-15",
+     "result": {"agi": 171682, "taxable_income": 140182, "total_tax": 17344, "payments": 20116, "refund": 2772, "balance_due": 0}},
+    {"jurisdiction": "Pennsylvania", "return": "PA-40 Personal Income Tax Return (joint)",
+     "forms": ["PA-40", "PA-40 Schedule E (rents - net loss, reported as $0)", "PA-40 W-2 reconciliation (Schedule W-2S)"],
+     "method": "e-file", "due_date": "2026-04-15", "extended_due_date": "2026-10-15",
+     "result": {"pa_taxable_income": 189682, "tax": 5823, "withholding": 5811.51, "balance_due": 12}},
+    {"jurisdiction": "Local - Manheim Township (Lancaster County Tax Collection Bureau)", "return": "Local Earned Income Tax Final Return",
+     "forms": ["LCTCB Individual Local EIT Final Return (both spouses)"],
+     "method": "e-file (LCTCB portal) or paper", "due_date": "2026-04-15",
+     "result": {"earned_income": 189300, "tax": 1893, "withholding": 1893, "balance_due": 0}},
+    {"jurisdiction": "Federal - authorization", "return": "Form 8879 / PA-8879 e-file signature authorization",
+     "method": "eSign", "due_date": "before transmission"}
+  ],
+  "not_required": ["Estimated tax vouchers (refund/withholding sufficient)", "FBAR/8938 (no foreign accounts)", "Form 8959/8960 (below thresholds)", "Monroe County / Tobyhanna Twp hotel/occupancy tax - VRBO remits taxes (gross excludes taxes remitted by VRBO); confirm"]
+}

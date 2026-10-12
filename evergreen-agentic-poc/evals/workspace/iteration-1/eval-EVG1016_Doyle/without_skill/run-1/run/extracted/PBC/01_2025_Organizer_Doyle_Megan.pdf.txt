@@ -1,0 +1,42 @@
+
+===== page 1 =====
+2025 Client Tax Organizer - Megan Doyle (EVG1016) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+2025 Client Tax Organizer - Megan Doyle (EVG1016)
+Prepared from CCH Axcess organizer export (synthetic). Amounts in the 2024 column are from your prior year return.
+Beginning Checklist / General Questions (client answers)
+# Question Answer Client explanation
+1.00 Did your marital status change during 2025? Yes Separated March 2025, divorce final
+2/10/2026 - file SINGLE?
+2.00 Were there any changes in dependents? Yes Brian gets Liam in odd years (agreement)
+- signed 8332
+3.00 Did you pay or receive alimony / spousal support? Yes Received $1,500/mo from April +
+$900/mo child support
+4.00 Did you receive distributions from a retirement plan? Yes From Brian's 401k thru the court order
+($30k)
+5.00 Did you pay for childcare? Yes Kent Kids Club after school - both kids
+6.00 Did you have an FSA / dependent care benefits? No
+7.00 Did you make estimated tax payments? No
+8.00 Did you receive, sell, exchange digital assets? No
+Dependents
+Name Relationship DOB SSN (last 4) Months in home Full-time student
+Liam P. Doyle Son 03/08/2014 2287 12 No
+Nora J. Doyle Daughter 10/21/2017 9054 12 No
+Income - Prior year amounts pre-printed by Evergreen Tax; client to enter 2025
+Income item Payer 2024 (prior year) 2025 (client entry)
+Wages Grand River Health System
+(Megan)
+84,110.00 see W-2
+Wages Lakeshore Industrial Supply Co.
+(Brian)
+71,300.00 N/A - separated
+Interest Lake Michigan Credit Union 58.00 62
+Alimony received Brian Doyle 13,500
+Retirement distribution Lakeshore 401(k) (QDRO) 30,000
+Deductions / Adjustments / Payments
+Item Detail 2024 (prior year) 2025 (client entry)
+Dependent care Kent Kids Club 4,900.00 5,200
+Mortgage interest Lake Michigan CU mortgage 8,410.00 see 1098
+Property tax City of Grand Rapids 4,210.00 4,330
+Signature
+Client signature on file: Megan Doyle Date: 02/17/2026

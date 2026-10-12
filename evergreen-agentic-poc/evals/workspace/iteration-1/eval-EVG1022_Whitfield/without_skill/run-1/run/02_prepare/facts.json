@@ -1,0 +1,161 @@
+{
+ "client_id": "EVG1022",
+ "status": "MFJ",
+ "taxpayer": {
+  "age65": false,
+  "blind": false
+ },
+ "spouse": {
+  "age65": false,
+  "blind": false
+ },
+ "dependents": [],
+ "w2": [
+  {
+   "who": "T",
+   "box1": 410000.0,
+   "box2": 98400.0,
+   "box3": 176100.0,
+   "box4": 10918.2,
+   "box5": 441000.0,
+   "box6": 8563.5,
+   "box10": 0
+  },
+  {
+   "who": "S",
+   "box1": 62000.0,
+   "box2": 5200.0,
+   "box3": 65000.0,
+   "box4": 4030.0,
+   "box5": 65000.0,
+   "box6": 942.5,
+   "box10": 0
+  }
+ ],
+ "interest": [
+  {
+   "payer": "Charles Schwab ****2207 (joint) 1099-INT box 1",
+   "amount": 12640.55,
+   "tax_exempt": 0
+  },
+  {
+   "payer": "Accrued interest paid - Pfizer 4.75% 2033 bought 03/12/2025",
+   "amount": -2981.94
+  },
+  {
+   "payer": "ABP adjustment - Pfizer 4.75% 2033 (1099-INT box 11)",
+   "amount": -786.12
+  },
+  {
+   "payer": "Charles Schwab ****2207 - PA Turnpike 5% 2038 (box 8 7,500 less box 13 premium 1,104.30)",
+   "amount": 0,
+   "tax_exempt": 6395.7
+  },
+  {
+   "payer": "Brandywine Federal Credit Union (Ellen)",
+   "amount": 212.4
+  }
+ ],
+ "dividends": [
+  {
+   "payer": "Charles Schwab ****2207 (joint)",
+   "ordinary": 14250.0,
+   "qualified": 12600.0,
+   "capgain_dist": 0
+  },
+  {
+   "payer": "Charles Schwab ****4410 (Gregory)",
+   "ordinary": 4150.0,
+   "qualified": 3300.0,
+   "capgain_dist": 0
+  }
+ ],
+ "pension": [
+  {
+   "payer": "Keystone Medical Devices 401(k) - KMDV shares in kind (code 2; NUA 544,000 deferred)",
+   "gross": 640000.0,
+   "taxable": 96000.0
+  },
+  {
+   "payer": "Keystone Medical Devices 401(k) - direct rollover to Fidelity IRA (code G)",
+   "gross": 780000.0,
+   "taxable": 0
+  }
+ ],
+ "trades": [
+  {
+   "id": "1",
+   "desc": "400 sh Procter & Gamble (PG)",
+   "acq": "05/14/2014",
+   "sold": "04/03/2025",
+   "proceeds": 66400.0,
+   "basis": 31200.0,
+   "adj": 0,
+   "code": "",
+   "box": "D"
+  },
+  {
+   "id": "2",
+   "desc": "300 sh Vanguard Total Stock Market ETF (VTI)",
+   "acq": "03/09/2017",
+   "sold": "09/22/2025",
+   "proceeds": 92100.0,
+   "basis": 67300.0,
+   "adj": 0,
+   "code": "",
+   "box": "D"
+  },
+  {
+   "id": "3",
+   "desc": "120 sh Eli Lilly (LLY)",
+   "acq": "01/22/2025",
+   "sold": "06/30/2025",
+   "proceeds": 95400.0,
+   "basis": 90400.0,
+   "adj": 0,
+   "code": "",
+   "box": "A"
+  },
+  {
+   "id": "4",
+   "desc": "400 sh iShares Core S&P 500 ETF (IVV) - wash sale: spouse IRA bought 420 sh IVV 11/20/2025 (Rev. Rul. 2008-5)",
+   "acq": "02/19/2025",
+   "sold": "11/10/2025",
+   "proceeds": 227000.0,
+   "basis": 245000.0,
+   "adj": 18000.0,
+   "code": "W",
+   "box": "A"
+  }
+ ],
+ "cap_loss_co": {
+  "st": 26000.0,
+  "lt": 12000.0
+ },
+ "itemized": {
+  "medical": 0,
+  "state_income_tax": 21004.2,
+  "use_sales_tax": false,
+  "real_estate_tax": 9830.0,
+  "personal_property_tax": 0,
+  "other_taxes": 0,
+  "mortgage_interest_1098": 11240.0,
+  "mortgage_interest_no_1098": 0,
+  "points": 0,
+  "investment_interest": 0,
+  "charity_cash": 15000.0,
+  "charity_noncash": 0,
+  "charity_carryover": 0
+ },
+ "niit": {
+  "nii": 54484.89,
+  "gross": 54484.89,
+  "deductions": 0
+ },
+ "estimated_payments": 32000.0,
+ "extension_payment": 3000.0,
+ "es_penalty": 0,
+ "amt": {
+  "check": true
+ }
+}

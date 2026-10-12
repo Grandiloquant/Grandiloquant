@@ -1,0 +1,24 @@
+
+===== sheet: Home costs 2025 =====
+Cost of keeping up home	Total 2025	Paid by Brian (Jan-Feb)	Paid by Megan
+Mortgage interest (escrowed payments)	8120	1370	6750
+Real estate taxes (escrow)	4330	722	3608
+Homeowners insurance (escrow)	1380	230	1150
+Utilities (Consumers Energy, water, internet)	5160	860	4300
+Home repairs (furnace service, gutter)	940	0	940
+Groceries / food eaten at home	10400	1600	8800
+Total	30330	4782	25548
+(Mortgage PRINCIPAL 2025 $12,680 - excluded, not a cost of keeping up the home per Pub. 501)			
+
+===== sheet: Support received =====
+Month	Spousal support	Child support	Paid via
+Apr	1500	900	MiSDU
+May	1500	900	MiSDU
+Jun	1500	900	MiSDU
+Jul	1500	900	MiSDU
+Aug	1500	900	MiSDU
+Sep	1500	900	MiSDU
+Oct	1500	900	MiSDU
+Nov	1500	900	MiSDU
+Dec	1500	900	MiSDU
+Total	13500	8100	

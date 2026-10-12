@@ -1,0 +1,13 @@
+{"client_id": "EVG1016", "status": "HOH",
+ "taxpayer": {"age65": false, "blind": false},
+ "dependents": [{"name": "Nora J. Doyle", "ctc": true}],
+ "w2": [{"who": "T", "box1": 88600, "box2": 7800, "box3": 88600, "box4": 5493.20, "box5": 88600, "box6": 1284.70, "box10": 0}],
+ "interest": [{"payer": "Lake Michigan Credit Union", "amount": 61.88}],
+ "pension": [{"payer": "Lakeshore Industrial Supply Co. 401(k) Savings Plan (QDRO alternate payee)", "gross": 30000, "taxable": 30000}],
+ "form5329_tax": 0,
+ "itemized": {"state_income_tax": 6036, "real_estate_tax": 3608, "mortgage_interest_1098": 6750},
+ "sch1a": {"overtime": 4860},
+ "dependent_care": {"expenses": 5200, "n_qual": 2},
+ "eic_eligible": false,
+ "withholding_1099": 6000
+}

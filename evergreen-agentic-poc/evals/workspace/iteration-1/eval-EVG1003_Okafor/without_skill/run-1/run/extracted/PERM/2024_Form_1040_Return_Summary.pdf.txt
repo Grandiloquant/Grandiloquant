@@ -1,0 +1,35 @@
+
+===== page 1 =====
+2024 Return Summary - Daniel Okafor (EVG1003) - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+2024 Return Summary - Daniel Okafor (EVG1003)
+Filing status: Single
+2024 Form 1040 - key lines (from filed return)
+Line Description Amount
+1a W-2 wages incl. reported tips - Silver Sage
+Casino Resort
+36,800.00
+1c Unreported tips (Form 4137) - actual per tip
+diary (W-2 box 8 allocated $2,450 not used)
+1,180.00
+Sch 1-3 Schedule C - Uber rideshare
+(09/2024-12/2024), standard mileage
+2,150.00
+10 Adjustments - 1/2 SE tax 152.00
+11 AGI 39,978.00
+12 Standard deduction 14,600.00
+13 QBI deduction 400.00
+15 Taxable income 24,978.00
+16 Tax 2,765.00
+Sch 2-4 SE tax 304.00
+Sch 2-5 Form 4137 SS/Medicare tax 90.00
+24 Total tax 3,159.00
+25a Federal withholding 2,700.00
+37 Balance due (paid 04/14/2025) 459.00
+Carryovers to 2025
+Item Amount
+Vehicle - standard mileage method elected 2024 (2021 Camry) Yes
+2024 total tax for 2025 Form 2210 safe harbor (100% - AGI < $150k) 3,159.00
+Prior-year preparer notes (PY WP)
+Tip diary kept daily; 4137 on actual unreported cash tips. Uber: use gross 1099-K and deduct Uber fees; exclude commute
+to casino from mileage. 2025 estimates recommended $500/quarter (vouchers sent 04/2025).
