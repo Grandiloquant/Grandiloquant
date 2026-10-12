@@ -1,0 +1,34 @@
+
+===== page 1 =====
+Fidelity NetBenefits - Keystone Medical Devices 401(k) Savings Plan - Distribution Confirmation - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Fidelity NetBenefits - Keystone Medical Devices 401(k) Savings Plan -
+Distribution Confirmation
+Field Value
+Participant Gregory A. Whitfield
+Plan account ****0712
+Distribution reason Separation from service 08/29/2025 (age 58)
+Distribution date 09/10/2025
+Type Lump-sum distribution of entire vested balance
+Distribution detail
+Component Shares Value Disposition
+Keystone Medical Devices
+common (KMDV) - in kind
+8,000.00 640,000.00 Transferred to Schwab
+brokerage ****4410 (participant)
+Plan cost basis of employer
+securities ($12.00/sh)
+96,000.00 Taxable amount (box 2a)
+Net unrealized appreciation (box
+6)
+544,000.00 Not taxable until shares are sold
+All other plan assets (mutual
+funds, stable value)
+780,000.00 Direct rollover to Fidelity Rollover
+IRA ****5519 (code G)
+Total distribution 1,420,000.00
+Federal withholding: none. The distribution to you consisted solely of employer securities, and mandatory 20% withholding
+cannot exceed the cash and property other than employer securities distributed to you.
+Because the distribution was made after separation from service in or after the year you reached age 55, the 10% additional
+tax does not apply (code 2).
+Schwab has been sent a cost-basis letter showing $12.00 per share. Fair market value at distribution: $80.00 per share.

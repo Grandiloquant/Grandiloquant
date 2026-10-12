@@ -39,3 +39,10 @@
 - Scanner truncated 1098 box 10 ("5,4") - long values in form boxes get clipped.
 - SOP text still says gambling follows 2026 rules (conflicts with CLAUDE.md) - CLAUDE.md wins.
 - Notable catch: agent spotted a likely 2024 CTC over-claim (Emma 17 at end of 2024) in the PY summary.
+
+## EVG1022 Whitfield
+- Same: no Agent tool -> self-review.
+- Reference gaps: MA severance/vacation sourcing, MA exemption proration formula, PA wash-sale/bond premium conformity, PA local EIT rates/credit/due dates, IL 30-day rule authority.
+- Engine: NIIT needs hand-computed NII (no guidance on state-tax allocation, Form 8960 line 9b); Form 2210 only takes an amount.
+- Intake schema: no workday or extension-payment fields.
+- No 2026 projection tool for estimate recommendations.

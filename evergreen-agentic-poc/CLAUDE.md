@@ -22,6 +22,12 @@ Four skills mirror the firm SOP (`docs/Project_Evergreen_SOP_v2.txt`): `evergree
 <run>/run_summary.md
 ```
 
+## Engagement date ("as of")
+The machine clock may be months after the work would really happen. Treat the engagement as happening **just after the
+latest document in the PBC / receipt log was received**. Use the receipt log (and any extension recorded there) to decide
+whether the return is on time or on extension; only raise "possibly late" if the documents themselves show the deadline
+was missed. Record the as-of date you used in `intake.json` (`engagement.as_of_date`).
+
 ## Firm rules
 * Work only from the run folder's `input/` documents and what earlier stages wrote. Do not open other client folders,
   answer keys, preparer notes or review files from any dataset - using them would invalidate the evaluation.
@@ -32,5 +38,8 @@ Four skills mirror the firm SOP (`docs/Project_Evergreen_SOP_v2.txt`): `evergree
   survivor files MFJ (QSS is for the next two years with a dependent child); used-clothing donations are limited to thrift
   FMV (the SOP's "3x cost" can't be used); the FTC de minimis election requires all foreign income to be qualified passive
   income on payee statements; a separated taxpayer can still qualify for HOH; 2025 gambling losses are 100% (90% starts 2026).
+* **Don't apply law you can't support.** If a rule (especially a state or local one) isn't in `docs/tax_year_2025_reference.md`
+  and you aren't certain of it, prepare the return WITHOUT it and raise it as a signer question with the dollar effect.
+  Applying a remembered rule that turns out not to exist is worse than flagging one that does.
 * Describe tax software behaviour honestly: never invent CCH Axcess diagnostic numbers; state ProConnect behaviour only
   where documented (list in `evergreen-prepare/references/software_exceptions.md`).

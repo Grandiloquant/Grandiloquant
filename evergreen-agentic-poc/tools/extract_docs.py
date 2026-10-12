@@ -13,7 +13,6 @@ characters of text and whether it needs visual review ("needs_vision": true).
 
 Like the real scan step, this does NOT classify, de-duplicate or interpret anything - that is the intake agent's job.
 """
-import csv
 import json
 import os
 import sys
@@ -67,7 +66,8 @@ def main(src, dst):
         for fn in sorted(files):
             path = os.path.join(root, fn)
             rel = os.path.relpath(path, src)
-            out_base = os.path.join(dst, rel)
+            safe_rel = rel.replace(" ", "_").replace("(", "").replace(")", "")   # shell-friendly output names
+            out_base = os.path.join(dst, safe_rel)
             os.makedirs(os.path.dirname(out_base), exist_ok=True)
             ext = fn.lower().rsplit(".", 1)[-1]
             try:
@@ -86,7 +86,7 @@ def main(src, dst):
                 text, n, imgs, err = "", 0, [], repr(e)
             with open(out_base + ".txt", "w") as fh:
                 fh.write(text)
-            manifest.append({"file": rel, "type": ext, "pages": n, "text_chars": len(text.strip()),
+            manifest.append({"file": rel, "text_file": safe_rel + ".txt", "type": ext, "pages": n, "text_chars": len(text.strip()),
                              "needs_vision": bool(imgs) or (ext == "pdf" and len(text.strip()) < MIN_TEXT_CHARS),
                              "page_images": imgs, "extract_error": err})
     with open(os.path.join(dst, "manifest.json"), "w") as fh:

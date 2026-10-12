@@ -10,10 +10,12 @@
     "marital_status_12_31_2025": "married | single | divorced | widowed | separated (still married)",
     "marital_events": ["e.g. married 12/20/2025", "separated 03/01/2025; divorce final 02/10/2026"],
     "prior_year_filing_status": "MFJ",
-    "dependents": [{"name": "", "dob": "", "relationship": "", "months_in_home": 12, "ssn": "on file | pending",
+    "dependents": [{"name": "", "dob": "", "age_12_31_2025": 0, "relationship": "", "months_in_home": 12, "ssn": "on file | pending",
                     "notes": "e.g. released to other parent via 8332 for 2025"}],
     "residency": [{"state": "IL", "city": "Chicago", "from": "2025-01-01", "to": "2025-12-31", "status": "resident"}],
-    "contact": {"preferred": "email", "who": ""}
+    "contact": {"preferred": "email", "who": ""},
+    "refund_method": "direct deposit to <bank ****1234> | check | apply to 2026",
+    "work_locations": [{"person": "T", "state": "MA", "workdays": 18, "total_workdays": 165, "source": "PBC/..."}]
   },
   "documents": [
     {"file": "PBC/02_W-2_Employer.pdf", "type": "W-2", "owner": "T", "issuer": "Employer LLC", "issuer_id": "00-1234567",
@@ -31,7 +33,8 @@
   "filing_requirements": [{"filing": "IL-1040 resident", "trigger": "", "certainty": "required | likely | check"}],
   "issues_for_preparer": [{"area": "Schedule E", "issue": "", "evidence": "file + page/box"}],
   "open_items": [{"item": "", "why_it_matters": "", "blocking": true, "resolved_in_pbc": false}],
-  "engagement": {"engagement_letter_signed": null, "extension_filed": null, "docs_received_within_15_days_of_deadline": false}
+  "engagement": {"as_of_date": "YYYY-MM-DD (just after the last document received)", "engagement_letter_signed": null,
+                 "extension_filed": null, "extension_payment": 0, "docs_received_within_15_days_of_deadline": false}
 }
 ```
 Keep `data` keys close to the form's box labels so the preparer can trace them.

@@ -26,8 +26,14 @@ QBI thresholds. This sheet is for the **judgment calls** the engine can't make.
 | Mortgage interest | Acquisition debt limit $750,000; $1,000,000 for debt incurred before 12/16/2017 (grandfathered). Pro-rate by average balance |
 | Retirement | IRA $7,000 (+$1,000 at 50+); 401(k) $23,500; SEP 25% of comp (20% of net SE earnings after 1/2 SE tax for the self-employed), max $70,000; QCD age 70 1/2, limit $108,000; RMD age 73 |
 | HSA | $4,300 self / $8,550 family (+$1,000 at 55+); W-2 code W already includes pre-tax payroll deferrals. Excess removed (with earnings) by the extended due date avoids the 6% excise |
-| SE tax | 15.3% on 92.35% of net SE earnings; SS portion only up to $176,100 minus W-2 SS wages |
-| Mileage | 70 cents/mile (business). Commuting is never deductible |
+| SE tax | 15.3% on 92.35% of net SE earnings; SS portion only up to $176,100 minus W-2 SS wages **and** SS tips (box 7) and Form 4137 tips (Sch SE lines 8a-8b) |
+| Tips deduction mechanics | Qualified tips = W-2 box 7 SS tips + Form 4137 unreported tips + self-employed tips (e.g. rideshare rider tips); SE tips limited to that business's net income; then the $25,000 cap |
+| NIIT detail | NII = interest + dividends + net gains + passive income - properly allocable deductions (investment interest; state/local income tax allocable to NII on Form 8960 line 9b = deductible income-tax portion of Sch A SALT x NII/AGI-type ratio; advisory fees not deductible 2018-2025). Active S-corp/partnership gains: 8960 line 5c |
+| AMT credit | AMT from deferral items (ISO spread) creates a Form 8801 minimum tax credit carryforward; track AMT basis of ISO shares |
+| Timely mailing | A paper election/return is timely if postmarked by the deadline (IRC 7502). 83(b): within 30 days of transfer - no extensions |
+| HSA excess | Excess + earnings withdrawn by the extended due date: no 6% excise, no deduction for the excess, earnings taxable in the year withdrawn. Form 8889 still filed |
+| Vacation home (280A) | Firm default = IRS method (rental days / total days used) for all expenses; mention Bolton (interest & taxes by rental days / 365) as an alternative when it helps. Costs before the property was first rented aren't rental expenses. Converted personal home: depreciable basis = lower of FMV or adjusted basis at conversion. Expenses solely for guests (supplies, cleaning fees) are 100% rental |
+| Mileage | 70 cents/mile (business). Commuting is never deductible. Standard mileage covers ALL vehicle operating costs (gas, insurance, repairs, car washes, depreciation) - only parking, tolls and business % of auto-loan interest (self-employed) are added. Equipment used in the car for all driving (dash cam) follows the vehicle's business-use % |
 | De minimis safe harbor | $2,500 per item/invoice (election statement); improvements (new roof) must be capitalized |
 | Depreciation | 100% bonus for property acquired after 01/19/2025; residential rental 27.5-yr, nonresidential (incl. transient-use units) 39-yr, mid-month |
 | 1099-K | Reporting threshold back to $20,000 and 200 transactions; personal items sold at a loss: report proceeds on Sch 1 line 8z and offset on 24z |
@@ -39,6 +45,8 @@ QBI thresholds. This sheet is for the **judgment calls** the engine can't make.
 | PTC | Enhanced subsidies still apply for 2025; at or above 400% FPL there is no repayment cap |
 
 ## Filing status reminders
+* Schedule 1-A tips/overtime/senior deductions require a joint return if *married*; a separated parent who qualifies as
+  "considered unmarried" for HOH is treated as not married (IRC 7703(b)) and can claim them.
 * Married at 12/31 = married for the whole year (MFJ or MFS). Divorced by 12/31 = unmarried. Separated is still married,
   BUT a separated parent can file HOH if "considered unmarried" (spouse out of the home the last 6 months, taxpayer paid
   more than half the cost of the home, child lived there more than half the year).
@@ -50,7 +58,7 @@ QBI thresholds. This sheet is for the **judgment calls** the engine can't make.
 | State | 2025 rule of thumb |
 |---|---|
 | IL | 4.95% flat on federal AGI +/- modifications (US Treasury interest, retirement income and Social Security subtracted); exemption $2,850 each (none if AGI > $250k single / $500k MFJ); IL EIC 20% of federal; property-tax credit 5% (AGI limits). Nonresident employees working 30 or fewer days in IL aren't taxed on that compensation (verify) |
-| MI | 4.25%; exemption $5,800 per person/dependent. Cities: Detroit 2.4% resident / 1.2% nonresident ($600 exemption); Grand Rapids 1.5% / 0.75% |
+| MI | 4.25%; exemption $5,800 per person/dependent claimed on the federal return. Cities: Detroit 2.4% resident / 1.2% nonresident ($600 exemption); Grand Rapids 1.5% / 0.75% ($600 exemption). No Michigan tips/overtime subtraction is in this reference for 2025 - don't apply one; flag it |
 | PA | 3.07% flat on PA income classes (compensation, interest, dividends, net gains, rents...). No standard deduction; losses don't cross classes; retirement distributions after retirement aren't taxable; credit for tax paid to other states on the same income. PA-NJ reciprocity on wages |
 | NC | 4.25%; NC standard deduction $12,750 S / $25,500 MFJ / $19,125 HOH; Social Security subtracted; Bailey-settlement government pensions (5+ years vested by 08/12/1989) exempt; NC adds back 85% of federal bonus depreciation and deducts it 20%/yr over 5 years |
 | MA | 5% (4% surtax above ~$1.08M); nonresidents taxed on MA-source income (wages by MA workdays); exemptions prorated |

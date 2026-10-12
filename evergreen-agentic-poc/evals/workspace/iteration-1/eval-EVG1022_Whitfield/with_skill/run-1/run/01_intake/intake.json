@@ -1,0 +1,724 @@
+{
+  "client_id": "EVG1022",
+  "tax_year": 2025,
+  "profile": {
+    "taxpayer": {
+      "name": "Gregory A. Whitfield",
+      "dob": "1967-06-21",
+      "age_12_31_2025": 58,
+      "occupation": "SVP Sales, Keystone Medical Devices - retired 08/29/2025",
+      "source": "PERM/Client_Profile.md; PBC/07"
+    },
+    "spouse": {
+      "name": "Ellen M. Whitfield",
+      "dob": "1969-02-09",
+      "age_12_31_2025": 56,
+      "occupation": "School nurse, Brandywine Valley SD",
+      "deceased_date": null
+    },
+    "marital_status_12_31_2025": "married",
+    "marital_events": [],
+    "prior_year_filing_status": "MFJ",
+    "dependents": [],
+    "dependents_note": "None - two adult independent children (PERM profile); organizer dependents table blank",
+    "residency": [
+      {
+        "state": "PA",
+        "city": "West Chester (West Goshen Twp, Chester County; West Chester Area SD)",
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "status": "resident"
+      }
+    ],
+    "nonresident_work_days_2025": {
+      "source": "PBC/04_Outlook_calendar_export_2025_work_locations.xlsx (Gregory only)",
+      "total_workdays": 165,
+      "PA": 112,
+      "NJ": 22,
+      "MA": 18,
+      "IL": 13,
+      "non_work_days_listed": 8,
+      "period": "2025-01-02 to 2025-08-29 (weekends omitted by client)",
+      "client_estimate": "~20 MA / ~15 IL (Gregory notes) - actual count 18 MA / 13 IL"
+    },
+    "contact": {
+      "preferred": "email + one call before filing; eSign OK",
+      "who": "Gregory - greg.whitfield@example.com, (610) 555-0182"
+    }
+  },
+  "documents": [
+    {
+      "file": "PBC/00_Engagement_Letter_signed.pdf",
+      "type": "Engagement letter",
+      "owner": "T+S",
+      "status": "informational",
+      "data": {
+        "signed": "2026-02-10",
+        "fee": "$4,800 fed+PA; $450 per nonresident state"
+      }
+    },
+    {
+      "file": "PBC/01_2025_Organizer_completed.pdf",
+      "type": "Organizer",
+      "owner": "T+S",
+      "status": "informational",
+      "data": {
+        "estimates": "Fed 4 x 8,000",
+        "RE_tax": 9830,
+        "charity": 15000,
+        "BFCU_int": 212,
+        "cap_loss_co": "$38,000 per last year",
+        "worked_other_states": "NJ, Boston, Chicago; employer withheld PA only"
+      }
+    },
+    {
+      "file": "PBC/02_W-2_Keystone_Medical_Devices_Gregory.pdf",
+      "type": "W-2",
+      "owner": "T",
+      "issuer": "Keystone Medical Devices, Inc.",
+      "issuer_id": "00-6612480",
+      "status": "use",
+      "data": {
+        "box1": 410000,
+        "box2": 98400,
+        "box3": 176100,
+        "box4": 10918.2,
+        "box5": 441000,
+        "box6": 8563.5,
+        "box12": [
+          [
+            "D",
+            31000
+          ],
+          [
+            "C",
+            1242
+          ],
+          [
+            "DD",
+            22800
+          ]
+        ],
+        "box13_retirement_plan": true,
+        "box14": [
+          [
+            "PA UC",
+            308.7
+          ],
+          [
+            "SEVERANCE/PTO PAYOUT incl. box 1",
+            38500
+          ]
+        ],
+        "box15_17": [
+          "PA",
+          441000,
+          13538.7
+        ],
+        "box18_20": [
+          441000,
+          4410.0,
+          "W CHESTER BORO EIT"
+        ]
+      },
+      "notes": "Box 16 = 100% PA though he worked 53 days in NJ/MA/IL. Box 6 includes 0.9% Additional Medicare on 241,000. Locality coded West Chester Borough but residence is West Goshen Twp."
+    },
+    {
+      "file": "PBC/03_W-2_Brandywine_Valley_SD_Ellen.pdf",
+      "type": "W-2",
+      "owner": "S",
+      "issuer": "Brandywine Valley School District",
+      "issuer_id": "00-2209177",
+      "status": "use",
+      "data": {
+        "box1": 62000,
+        "box2": 5200,
+        "box3": 65000,
+        "box4": 4030,
+        "box5": 65000,
+        "box6": 942.5,
+        "box12": [
+          [
+            "E",
+            3000
+          ],
+          [
+            "DD",
+            9600
+          ]
+        ],
+        "box15_17": [
+          "PA",
+          65000,
+          1995.5
+        ],
+        "box18_20": [
+          65000,
+          650.0,
+          "W CHESTER BORO EIT"
+        ]
+      }
+    },
+    {
+      "file": "PBC/04_Outlook_calendar_export_2025_work_locations.xlsx",
+      "type": "Workday log (spreadsheet)",
+      "owner": "T",
+      "status": "needs_manual_entry",
+      "data": {
+        "PA": 112,
+        "NJ": 22,
+        "MA": 18,
+        "IL": 13,
+        "total": 165
+      },
+      "notes": "Sheet 'Gregory notes': weekends omitted; travel days coded to state of most of the working day; holidays/PTO marked No."
+    },
+    {
+      "file": "PBC/04b_Outlook_calendar_export_DUPLICATE_upload.xlsx",
+      "type": "Workday log (spreadsheet)",
+      "owner": "T",
+      "status": "duplicate_of:PBC/04_Outlook_calendar_export_2025_work_locations.xlsx",
+      "notes": "Calendar rows identical (diffed); lacks the notes sheet."
+    },
+    {
+      "file": "PBC/05_1099-R_Fidelity_401k_KMD_stock_in_kind.pdf",
+      "type": "1099-R",
+      "owner": "T",
+      "issuer": "Fidelity Mgmt Trust Co - Keystone 401(k)",
+      "issuer_id": "00-6110482",
+      "status": "use",
+      "data": {
+        "box1": 640000,
+        "box2a": 96000,
+        "total_distribution": true,
+        "box4": 0,
+        "box6_NUA": 544000,
+        "box7": "2",
+        "date": "2025-09-10"
+      },
+      "notes": "Employer stock in kind (8,000 sh KMDV); NUA deferred. Code 2 = separation at/after 55."
+    },
+    {
+      "file": "PBC/06_1099-R_Fidelity_401k_direct_rollover.pdf",
+      "type": "1099-R",
+      "owner": "T",
+      "issuer": "Fidelity Mgmt Trust Co - Keystone 401(k)",
+      "issuer_id": "00-6110482",
+      "status": "use",
+      "data": {
+        "box1": 780000,
+        "box2a": 0,
+        "box4": 0,
+        "box7": "G",
+        "date": "2025-09-10"
+      },
+      "notes": "Direct rollover to Fidelity Rollover IRA ****5519."
+    },
+    {
+      "file": "PBC/07_Fidelity_401k_distribution_confirmation_NUA.pdf",
+      "type": "Plan distribution confirmation",
+      "owner": "T",
+      "status": "informational",
+      "data": {
+        "shares": 8000,
+        "cost_basis_per_sh": 12.0,
+        "fmv_per_sh": 80.0,
+        "total_distribution": 1420000,
+        "lump_sum_entire_balance": true,
+        "separation": "2025-08-29"
+      },
+      "notes": "Confirms lump-sum distribution in one tax year after separation -> NUA treatment available."
+    },
+    {
+      "file": "PBC/08_Fidelity_NetBenefits_2025_year_end_summary.pdf",
+      "type": "Retirement account summary",
+      "owner": "T",
+      "status": "informational",
+      "data": {
+        "401k_12_31_2025": 0,
+        "rollover_IRA_12_31_2025": 803114.27
+      }
+    },
+    {
+      "file": "PBC/09_Schwab_1099_Composite_Joint_2207.pdf",
+      "type": "Consolidated 1099",
+      "owner": "Joint",
+      "issuer": "Charles Schwab & Co.",
+      "issuer_id": "00-1737782",
+      "status": "use",
+      "data": {
+        "div_1a": 14250,
+        "div_1b": 12600,
+        "int_1": 12640.55,
+        "int_8": 7500,
+        "int_11": 786.12,
+        "int_13": 1104.3,
+        "B_proceeds": 158500,
+        "B_cost": 98500,
+        "trades": [
+          [
+            "400 sh PG",
+            "2014-05-14",
+            "2025-04-03",
+            66400,
+            31200,
+            "LT covered"
+          ],
+          [
+            "300 sh VTI",
+            "2017-03-09",
+            "2025-09-22",
+            92100,
+            67300,
+            "LT covered"
+          ]
+        ],
+        "int_detail": {
+          "Pfizer 4.75% 2033": 9500,
+          "Schwab sweep/SVA": 3140.55,
+          "PA Turnpike 5% 2038 (box 8, PA issuer)": 7500
+        },
+        "accrued_interest_paid_on_purchase": 2981.94
+      },
+      "notes": "Supplemental: accrued interest paid on Pfizer purchase $2,981.94 (not netted in box 1); box 1 is gross of box 11 premium."
+    },
+    {
+      "file": "PBC/10_Schwab_1099_Composite_Gregory_4410.pdf",
+      "type": "Consolidated 1099",
+      "owner": "T",
+      "issuer": "Charles Schwab & Co.",
+      "issuer_id": "00-1737782",
+      "status": "use",
+      "data": {
+        "div_1a": 4150,
+        "div_1b": 3300,
+        "B_proceeds": 322400,
+        "B_cost": 335400,
+        "trades": [
+          [
+            "120 sh LLY",
+            "2025-01-22",
+            "2025-06-30",
+            95400,
+            90400,
+            "ST covered"
+          ],
+          [
+            "400 sh IVV",
+            "2025-02-19",
+            "2025-11-10",
+            227000,
+            245000,
+            "ST covered, no W reported"
+          ]
+        ],
+        "KMDV_transfer_in": "8,000 sh 09/12/2025, basis $96,000 ($12/sh) noncovered"
+      }
+    },
+    {
+      "file": "PBC/11_1099-INT_Brandywine_FCU_Ellen.pdf",
+      "type": "1099-INT",
+      "owner": "S",
+      "issuer": "Brandywine FCU",
+      "issuer_id": "00-2318840",
+      "status": "use",
+      "data": {
+        "box1": 212.4
+      }
+    },
+    {
+      "file": "PBC/12_Schwab_IRA_Ellen_8831_Q4_2025_statement.pdf",
+      "type": "IRA statement",
+      "owner": "S",
+      "status": "informational",
+      "data": {
+        "buy_IVV": "420 sh 11/20/2025 @571.20 = 239,904",
+        "fmv_12_31_2025": 281906.04
+      },
+      "notes": "Not income - BUT purchase of IVV in spouse's IRA 10 days after Gregory sold IVV at an $18,000 loss = wash sale (Rev. Rul. 2008-5)."
+    },
+    {
+      "file": "PBC/13_Email_Ellen_IRA_and_docs_2026-02-24.txt",
+      "type": "Client email",
+      "owner": "S",
+      "status": "informational",
+      "notes": "Confirms Nov IRA purchase of 'same' S&P 500 fund; asks if bond accrued interest is deductible."
+    },
+    {
+      "file": "PBC/14_Schwab_trade_confirmation_Pfizer_bond_2025-03-12.pdf",
+      "type": "Trade confirmation",
+      "owner": "Joint",
+      "status": "informational",
+      "data": {
+        "face": 200000,
+        "price": 104.25,
+        "principal": 208500,
+        "accrued_interest": 2981.94,
+        "ytm": "4.098%"
+      }
+    },
+    {
+      "file": "PBC/15_1098_PNC_Mortgage.pdf",
+      "type": "1098",
+      "owner": "T+S",
+      "issuer": "PNC Mortgage",
+      "issuer_id": "00-1201890",
+      "status": "use",
+      "data": {
+        "box1": 11240,
+        "box2": 318420.55,
+        "box3": "2019-06-11",
+        "box7_same_address": "Yes",
+        "box10_RE_tax_escrow": 9830
+      }
+    },
+    {
+      "file": "PBC/16_Real_estate_tax_receipts_2025.pdf",
+      "type": "RE tax receipts",
+      "owner": "T+S",
+      "status": "use",
+      "data": {
+        "county_twp": 2350,
+        "school": 7480,
+        "total": 9830
+      },
+      "notes": "Same taxes as 1098 box 10 escrow - count once."
+    },
+    {
+      "file": "PBC/17_Charitable_acknowledgments_2025.pdf",
+      "type": "Charity acknowledgments",
+      "owner": "T+S",
+      "status": "use",
+      "data": {
+        "Holy Trinity": 9000,
+        "Chester County Food Bank": 4000,
+        "Penn State Brandywine scholarship": 2000,
+        "total_cash": 15000
+      }
+    },
+    {
+      "file": "PBC/18_Gregory_handwritten_ES_payments_note.pdf",
+      "type": "Handwritten note",
+      "owner": "T",
+      "flags": [
+        "handwritten"
+      ],
+      "status": "needs_manual_entry",
+      "data": {
+        "fed_ES": [
+          [
+            "2025-04-15",
+            8000
+          ],
+          [
+            "2025-06-16",
+            8000
+          ],
+          [
+            "2025-09-15",
+            8000
+          ],
+          [
+            "2026-01-15",
+            8000
+          ]
+        ],
+        "PA_ES": "none"
+      },
+      "notes": "Also: 'ask about Boston + Chicago' and 'Schwab cost basis on KMD stock = 640k??' (Schwab actually shows $96,000)."
+    },
+    {
+      "file": "PBC/19_Form_4868_and_extension_payments_confirmation.txt",
+      "type": "Extension confirmation",
+      "owner": "T+S",
+      "status": "use",
+      "data": {
+        "fed_4868_payment": 3000,
+        "PA_REV-276": 1000,
+        "MA_M-4868": 2300,
+        "date": "2026-04-15"
+      }
+    },
+    {
+      "file": "PERM/Client_Profile.md",
+      "type": "Client profile",
+      "status": "informational"
+    },
+    {
+      "file": "PERM/2024_Form_1040_Return_Summary.pdf",
+      "type": "Prior-year return summary",
+      "status": "informational"
+    },
+    {
+      "file": "PERM/2024_Prior_Preparer_Sch_D_and_Carryover_Worksheet_scan.pdf",
+      "type": "Prior preparer workpaper (scan)",
+      "flags": [
+        "scan"
+      ],
+      "status": "needs_manual_entry",
+      "data": {
+        "ST_net_2024": -29000,
+        "LT_net_2024": -12000,
+        "loss_allowed": -3000,
+        "carryover_per_preparer": {
+          "ST": 0,
+          "LT": 38000
+        }
+      },
+      "notes": "Character error: the $3,000 allowed loss absorbs ST first -> correct carryover ST 26,000 / LT 12,000 (total 38,000 agrees)."
+    }
+  ],
+  "prior_year": {
+    "items": [
+      {
+        "item": "Wages - Keystone (Gregory)",
+        "py_amount": 590000,
+        "cy_status": "found",
+        "cy_source": "PBC/02"
+      },
+      {
+        "item": "Wages - BVSD (Ellen)",
+        "py_amount": 61000,
+        "cy_status": "found",
+        "cy_source": "PBC/03"
+      },
+      {
+        "item": "Interest - Schwab joint",
+        "py_amount": 4990,
+        "cy_status": "found",
+        "cy_source": "PBC/09"
+      },
+      {
+        "item": "Interest - BFCU",
+        "py_amount": 210,
+        "cy_status": "found",
+        "cy_source": "PBC/11"
+      },
+      {
+        "item": "Dividends - Schwab",
+        "py_amount": 16100,
+        "cy_status": "found",
+        "cy_source": "PBC/09, PBC/10"
+      },
+      {
+        "item": "Capital gains/losses - Schwab",
+        "py_amount": -41000,
+        "cy_status": "found",
+        "cy_source": "PBC/09, PBC/10"
+      },
+      {
+        "item": "Mortgage interest - PNC",
+        "py_amount": 12100,
+        "cy_status": "found",
+        "cy_source": "PBC/15"
+      },
+      {
+        "item": "Real estate taxes",
+        "py_amount": 9500,
+        "cy_status": "found",
+        "cy_source": "PBC/16"
+      },
+      {
+        "item": "Charity",
+        "py_amount": 13500,
+        "cy_status": "found",
+        "cy_source": "PBC/17"
+      },
+      {
+        "item": "PA-40 balance due 2024 ($410)",
+        "py_amount": 410,
+        "cy_status": "assumed paid 04/2025 - no proof; immaterial (SALT at $10k floor)",
+        "cy_source": "PERM/2024 summary"
+      }
+    ],
+    "carryovers": [
+      {
+        "item": "Capital loss carryover (per prior preparer)",
+        "amount": 38000,
+        "character": "LT (as labeled)",
+        "source": "PERM/2024_Prior_Preparer_Sch_D_and_Carryover_Worksheet_scan.pdf"
+      },
+      {
+        "item": "Capital loss carryover (recomputed)",
+        "amount": 38000,
+        "character": "ST 26,000 / LT 12,000",
+        "source": "Recomputed from same worksheet (Sch D Capital Loss Carryover Worksheet logic)"
+      },
+      {
+        "item": "Charitable carryover",
+        "amount": 0,
+        "source": "PERM/2024 summary"
+      }
+    ]
+  },
+  "conflicts": [
+    {
+      "topic": "Capital loss carryover character",
+      "organizer_says": "$38,000 (prior preparer: all long-term)",
+      "documents_show": "2024 Sch D: ST (29,000), LT (12,000), 3,000 allowed -> ST 26,000 / LT 12,000",
+      "source": "PERM scan"
+    },
+    {
+      "topic": "Workdays outside PA",
+      "organizer_says": "Gregory estimate ~20 MA / ~15 IL; employer coded 100% PA",
+      "documents_show": "Calendar: MA 18, IL 13, NJ 22 of 165 workdays",
+      "source": "PBC/04"
+    },
+    {
+      "topic": "KMDV basis at Schwab",
+      "organizer_says": "Gregory's note: Schwab cost basis = 640k??",
+      "documents_show": "Schwab supplemental: $96,000 ($12/sh) noncovered; plan letter $12/sh; FMV $80",
+      "source": "PBC/10, PBC/07, PBC/18"
+    },
+    {
+      "topic": "Local EIT jurisdiction",
+      "organizer_says": "Profile: West Goshen Twp / West Chester Area SD",
+      "documents_show": "Both W-2s: locality W CHESTER BORO EIT",
+      "source": "PBC/02, PBC/03, PERM profile, PBC/16"
+    }
+  ],
+  "filing_requirements": [
+    {
+      "filing": "Form 1040 MFJ",
+      "trigger": "Income",
+      "certainty": "required"
+    },
+    {
+      "filing": "PA-40 resident (with Schedule G-L credit for MA tax)",
+      "trigger": "PA residents all year",
+      "certainty": "required"
+    },
+    {
+      "filing": "MA Form 1-NR/PY nonresident",
+      "trigger": "18 MA workdays; MA-source wages ~ $48k > $8,000 threshold; M-4868 already paid $2,300",
+      "certainty": "required"
+    },
+    {
+      "filing": "NJ nonresident",
+      "trigger": "22 NJ day trips",
+      "certainty": "not required - PA/NJ reciprocity on compensation"
+    },
+    {
+      "filing": "IL-1040 nonresident",
+      "trigger": "13 IL workdays",
+      "certainty": "check - not required if IL 30-day nonresident-employee rule applies (13 <= 30)"
+    },
+    {
+      "filing": "PA local EIT final return (Keystone Collections Group, Chester County TCD)",
+      "trigger": "PA resident with earned income",
+      "certainty": "required"
+    },
+    {
+      "filing": "Form 2210",
+      "trigger": "Withholding+ES 135,600 vs required 110% of PY tax ($181,480) or 90% CY",
+      "certainty": "likely"
+    },
+    {
+      "filing": "FBAR / 8938",
+      "trigger": "Organizer: no foreign accounts",
+      "certainty": "not required"
+    }
+  ],
+  "issues_for_preparer": [
+    {
+      "area": "Schedule D / wash sale",
+      "issue": "Gregory sold 400 IVV 11/10/2025 at (18,000) loss in ****4410; Ellen bought 420 IVV in her traditional IRA 11/20/2025. Spouse/IRA purchase within 30 days -> loss disallowed and permanently lost (Rev. Rul. 2008-5). Schwab doesn't track across accounts.",
+      "evidence": "PBC/10 1099-B; PBC/12 IRA statement 11/20; PBC/13 email"
+    },
+    {
+      "area": "Capital loss carryover",
+      "issue": "Prior preparer labeled entire $38,000 as LT. Correct split ST 26,000 / LT 12,000.",
+      "evidence": "PERM scan"
+    },
+    {
+      "area": "Schedule B",
+      "issue": "Pfizer bond: reverse accrued interest paid at purchase $2,981.94; bond premium amortization box 11 $786.12 reduces taxable interest; box 13 $1,104.30 reduces tax-exempt interest (7,500 -> 6,395.70). Client asked if accrued interest is deductible.",
+      "evidence": "PBC/09 supplemental; PBC/14"
+    },
+    {
+      "area": "NUA",
+      "issue": "1099-R $640,000 gross, taxable $96,000 (cost basis), NUA $544,000 deferred; code 2 no 10% penalty; no withholding (employer securities only). NUA LTCG when sold; Q4 KMDV dividend $1,280 already on 1099-DIV.",
+      "evidence": "PBC/05, PBC/07, PBC/10"
+    },
+    {
+      "area": "Rollover",
+      "issue": "$780,000 direct rollover code G - nontaxable.",
+      "evidence": "PBC/06"
+    },
+    {
+      "area": "Multi-state wages",
+      "issue": "Gregory 165 workdays: MA 18, IL 13, NJ 22. Box 14 severance/PTO payout $38,500 - consider MA sourcing rules for severance/PTO.",
+      "evidence": "PBC/04, PBC/02 box 14"
+    },
+    {
+      "area": "PA retirement",
+      "issue": "PA: 401(k) distribution after retirement from service not taxable; NUA taxable portion and rollover excluded for PA.",
+      "evidence": "PBC/05-07"
+    },
+    {
+      "area": "PA interest",
+      "issue": "PA Turnpike interest is PA-exempt (PA issuer); Pfizer and sweep interest PA taxable.",
+      "evidence": "PBC/09"
+    },
+    {
+      "area": "Estimated tax / 2210",
+      "issue": "4 federal ES of $8,000 (last paid 01/15/2026 - counts for 2025). PY AGI > $150k so 110% safe harbor = $181,480; underpayment penalty likely. PA: no estimates.",
+      "evidence": "PBC/18, PERM 2024 summary"
+    },
+    {
+      "area": "Additional Medicare / NIIT",
+      "issue": "Gregory's box 6 includes the 0.9% on wages > $200k; joint threshold $250k -> Form 8959. NIIT applies (MAGI > $250k). 401(k) distribution excluded from NII.",
+      "evidence": "PBC/02"
+    }
+  ],
+  "open_items": [
+    {
+      "item": "Confirm federal estimated payments (4 x $8,000, dates per handwritten note) - IRS account transcript",
+      "why_it_matters": "$32,000 of payments and Form 2210 timing",
+      "blocking": false,
+      "resolved_in_pbc": false
+    },
+    {
+      "item": "Confirm Gregory's retirement met the 401(k) plan's retirement conditions (for PA exclusion of the 1099-R)",
+      "why_it_matters": "PA tax on $96,000 (and treatment of $780,000 rollover) - rollover excluded regardless",
+      "blocking": false,
+      "resolved_in_pbc": false
+    },
+    {
+      "item": "Severance/PTO $38,500 detail (what portion is severance vs accrued PTO; when PTO accrued)",
+      "why_it_matters": "MA-source allocation of the payout",
+      "blocking": false,
+      "resolved_in_pbc": false
+    },
+    {
+      "item": "Confirm residence municipality/PSD code (West Goshen Twp vs West Chester Boro EIT withheld)",
+      "why_it_matters": "Local EIT return and correct jurisdiction credit",
+      "blocking": false,
+      "resolved_in_pbc": false
+    },
+    {
+      "item": "Confirm 2024 PA-40 balance due $410 paid in 2025",
+      "why_it_matters": "Sch A SALT - immaterial because SALT limited to $10,000",
+      "blocking": false,
+      "resolved_in_pbc": false
+    },
+    {
+      "item": "Calendar export",
+      "why_it_matters": "Multi-state allocation",
+      "blocking": true,
+      "resolved_in_pbc": true
+    },
+    {
+      "item": "Accrued interest question from Ellen",
+      "why_it_matters": "Answer: not a deduction, it reduces the bond's taxable interest",
+      "blocking": false,
+      "resolved_in_pbc": true
+    }
+  ],
+  "engagement": {
+    "engagement_letter_signed": "2026-02-10",
+    "extension_filed": "Federal 4868 accepted 04/15/2026 ($3,000); PA REV-276 $1,000; MA M-4868 $2,300",
+    "extended_due_date": "2026-10-15",
+    "docs_received_within_15_days_of_deadline": false
+  }
+}

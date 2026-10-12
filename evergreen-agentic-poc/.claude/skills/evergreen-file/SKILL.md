@@ -27,14 +27,16 @@ Read `CLAUDE.md` and `references/filing_rules.md`.
 2. Build the filing list: federal 1040 (+ forms/attachments), each state/local return, separate filings (FBAR - FinCEN 114,
    Form 3520, late 1099-NEC/W-2 for household employees, 8865 if unsupported by software, child's own return), and any
    amended prior-year returns or projects recommended.
-3. For each filing decide **method** and **due date** with the reason (rules in `references/filing_rules.md`): e-file unless
+3. Work as of the engagement date in `intake.json` (see CLAUDE.md). If the receipt log/documents don't show an extension and
+   that date is after 04/15/2026, list "confirm extension status" as an open item - don't assume either way.
+4. For each filing decide **method** and **due date** with the reason (rules in `references/filing_rules.md`): e-file unless
    a paper trigger exists. Note extensions on file.
-4. Run the **e-file blocker check**: IP PIN currency (they change every year), name control vs SSA record (recent name
+5. Run the **e-file blocker check**: IP PIN currency (they change every year), name control vs SSA record (recent name
    change), dependent claimed elsewhere, 1042-S withholding, unsupported/separately-filed forms, required PDF attachments
    (8949 statements, 7203, elections), self-select PIN/8879, driver's license data.
-5. Payments: balance due (how/when; interest after 4/15 on extensions), refund (direct deposit), 2026 estimates (amounts,
+6. Payments: balance due (how/when; interest after 4/15 on extensions), refund (direct deposit), 2026 estimates (amounts,
    dates, safe-harbor rule used).
-6. Write the four outputs.
+7. Write the four outputs. `final/return.md` comes from the engine run that produced `final/return.json`.
 
 ## filing_package.json
 ```json
@@ -45,5 +47,6 @@ Read `CLAUDE.md` and `references/filing_rules.md`.
  "not_required": [{"return": "NJ-1040NR", "reason": "PA-NJ reciprocity"}],
  "separate_filings": [{"filing": "FinCEN 114 (FBAR)", "method": "BSA e-file", "due": "2026-04-15 (auto-ext 10/15)", "who": "Linda"}],
  "efile_blockers": [{"issue": "", "resolution": ""}],
- "signatures": ["Form 8879", "IL-8453"], "payments": [], "estimates_2026": [], "open_items_at_filing": []}
+ "signatures": ["Form 8879", "IL-8453"], "payments": [], "estimates_2026": [], "carryforwards_to_2026": [],
+ "open_items_at_filing": [], "as_of_date": ""}
 ```

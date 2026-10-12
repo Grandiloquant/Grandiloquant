@@ -1,0 +1,79 @@
+{
+  "decision": "approved",
+  "reviewer_independence": "same agent (no subagent tool); sources re-read first",
+  "points": [
+    {
+      "n": 1,
+      "area": "MA sourcing of severance/PTO",
+      "ref": "WP-9; state_returns MA",
+      "issue": "38,500 severance/PTO allocated by 2025 day ratio; may be partly non-MA-source",
+      "change": "none - conservative; open client item",
+      "dollar_effect": "MA tax up to -10 if excluded",
+      "severity": "judgment",
+      "resolved": false
+    },
+    {
+      "n": 2,
+      "area": "PA wash sale / bond premium positions",
+      "ref": "state_returns PA",
+      "issue": "PA allows IVV loss; no PA premium amortization - verify",
+      "change": "none",
+      "dollar_effect": "PA +/- ~4 to 53",
+      "severity": "fyi",
+      "resolved": true
+    },
+    {
+      "n": 3,
+      "area": "IL 30-day rule",
+      "ref": "state_returns IL",
+      "issue": "13 IL days <= 30",
+      "change": "none",
+      "dollar_effect": "0",
+      "severity": "fyi",
+      "resolved": true
+    },
+    {
+      "n": 4,
+      "area": "Form 2210",
+      "ref": "WP-8",
+      "issue": "Re-derived: no penalty (90% CY safe harbor met each quarter)",
+      "change": "none",
+      "dollar_effect": "0",
+      "severity": "fyi",
+      "resolved": true
+    },
+    {
+      "n": 5,
+      "area": "Estimated payments verification",
+      "ref": "1040 line 26",
+      "issue": "32,000 supported only by handwritten note/organizer",
+      "change": "pull IRS transcript before release",
+      "dollar_effect": "up to -,000 refund per missing payment",
+      "severity": "fyi",
+      "resolved": false
+    }
+  ],
+  "tickmarks": {
+    "PBC/04b_Outlook_calendar_export_DUPLICATE_upload.xlsx": "excluded: duplicate of PBC/04",
+    "PBC/08_Fidelity_NetBenefits_2025_year_end_summary.pdf": "excluded: informational",
+    "PBC/12_Schwab_IRA_Ellen_8831_Q4_2025_statement.pdf": "excluded as income; used as wash-sale evidence",
+    "PBC/00_Engagement_Letter_signed.pdf": "used",
+    "PBC/01_2025_Organizer_completed.pdf": "used",
+    "PBC/02_W-2_Keystone_Medical_Devices_Gregory.pdf": "used",
+    "PBC/03_W-2_Brandywine_Valley_SD_Ellen.pdf": "used",
+    "PBC/04_Outlook_calendar_export_2025_work_locations.xlsx": "used",
+    "PBC/05_1099-R_Fidelity_401k_KMD_stock_in_kind.pdf": "used",
+    "PBC/06_1099-R_Fidelity_401k_direct_rollover.pdf": "used",
+    "PBC/07_Fidelity_401k_distribution_confirmation_NUA.pdf": "used",
+    "PBC/09_Schwab_1099_Composite_Joint_2207.pdf": "used",
+    "PBC/10_Schwab_1099_Composite_Gregory_4410.pdf": "used",
+    "PBC/11_1099-INT_Brandywine_FCU_Ellen.pdf": "used",
+    "PBC/13_Email_Ellen_IRA_and_docs_2026-02-24.txt": "used",
+    "PBC/14_Schwab_trade_confirmation_Pfizer_bond_2025-03-12.pdf": "used",
+    "PBC/15_1098_PNC_Mortgage.pdf": "used",
+    "PBC/16_Real_estate_tax_receipts_2025.pdf": "used",
+    "PBC/17_Charitable_acknowledgments_2025.pdf": "used",
+    "PBC/18_Gregory_handwritten_ES_payments_note.pdf": "used",
+    "PBC/19_Form_4868_and_extension_payments_confirmation.txt": "used"
+  }
+}

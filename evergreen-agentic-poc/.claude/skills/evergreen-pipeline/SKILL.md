@@ -5,6 +5,8 @@ description: Runs the full Evergreen Tax individual-return process end to end fo
 
 # Evergreen Pipeline (intake -> prepare -> review -> file)
 
+When asked to run only part of the pipeline ("stages 1-2" / "stages 3-4"), do just those stages and stop after their gates.
+
 One client = one run folder `<run>/` containing `input/` (PERM + PBC). Stages write to `01_intake/`, `02_prepare/`,
 `03_review/`, `final/`, `04_file/`. Each stage reads only what the previous stages wrote plus the source documents.
 
@@ -13,9 +15,11 @@ One client = one run folder `<run>/` containing `input/` (PERM + PBC). Stages wr
    `documents`, open items listed.
 2. **Prepare** - follow `evergreen-prepare`. Gate: `02_prepare/return.json` has no unresolved E-FILE DISQUALIFYING
    diagnostics; `prep_notes.md` written.
-3. **Review** - follow `evergreen-review`. Do this with **fresh eyes**: if you can, hand it to a separate agent/subagent that
-   has not seen the preparation reasoning (give it only the run folder and the review skill). If the same agent must do it,
-   re-read the source documents before opening `prep_notes.md`. Gate: `final/return.json` written; decision recorded.
+3. **Review** - follow `evergreen-review` with **fresh eyes**. Independence is the point of this stage, so the preferred setup is
+   a separate agent/session that has not seen the preparation reasoning (it gets only the run folder and the review skill).
+   Batch runners and orchestrators should run stages 1-2 and 3-4 as separate agents. If you are a single agent with no way to
+   start another one, say so in `03_review/review.json` (`"independent": false`), then re-read the source documents and
+   re-derive the high-risk areas before opening `prep_notes.md`. Gate: `final/return.json` written; decision recorded.
 4. **File** - follow `evergreen-file`. Gate: `04_file/filing_package.json` written.
 5. Write `<run>/run_summary.md`: key numbers (AGI, taxable income, total tax, refund/due, states), review decision and
    number of review points by severity, open items, filings and methods, and anything a human must decide.

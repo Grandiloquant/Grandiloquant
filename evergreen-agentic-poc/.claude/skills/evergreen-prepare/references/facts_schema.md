@@ -25,6 +25,7 @@ to the other parent via Form 8332 is NOT listed for CTC on the custodial parent'
 ```json
 "w2": [ {"who": "T", "box1": 50000, "box2": 4000, "box3": 52000, "box4": 3224, "box5": 52000, "box6": 754, "box10": 0} ]
 ```
+`w2_ss_wages` in the `se` block (section 7) = W-2 box 3 + box 7 SS tips + Form 4137 tips for that person.
 `who` T/S drives the excess-SS credit (two+ employers, same person) and Form 2441 earned income. Box 5/6 drive Form 8959.
 Box 10 (dependent-care benefits) is excluded automatically up to $5,000 and reduces the 2441 credit base.
 Other wage-type income: `"hh_wages_no_w2"`, `"unreported_tips"` (Form 4137 tips -> line 1c; also set
@@ -117,7 +118,8 @@ paid in 2025). `use_sales_tax: true` if general sales tax is larger. Gambling lo
 ```json
 "sch1a": {"tips": 4000, "tip_occupation": "Bartender", "overtime": 2000, "car_interest": 1500, "vin": "1FA...", "seniors": 1}
 ```
-`overtime` = qualified PREMIUM only. `seniors` = number of people 65+ at 12/31/2025 (1 or 2). Omit for MFS.
+`tips` = W-2 box 7 + Form 4137 tips + self-employed tips (SE tips first limited to that business's net income); the engine
+applies the $25,000 cap. `overtime` = qualified PREMIUM only. `seniors` = number of people 65+ at 12/31/2025 (1 or 2). Omit for MFS.
 
 ## 11. Credits
 ```json
@@ -156,6 +158,16 @@ Additional Medicare Tax (Form 8959) is computed from W-2 box 5/6 and SE earnings
 "net_ptc": 0, "sch3_ref_other": []
 ```
 Excess Social Security (two+ employers) is computed from the W-2s automatically.
+
+## 14b. Supporting forms the engine doesn't compute (shown in return.json / return.md)
+```json
+"supporting_forms": {"Form 8889": [["2", "HSA contributions you made", 0], ["9", "Employer contributions (code W)", 2500]],
+                     "Schedule C": [["1", "Gross receipts", 50000], ["9", "Car and truck (10,000 mi x $0.70)", 7000]],
+                     "Form 5329": [["2", "Exception code (e.g. 01 separation after 55)", 10000]], "Form 8801": [["-", "MTC carryforward", 0]]}
+```
+Use this for Schedule C/E detail, 8889, 8582, 4562, 6252, 7203, 8606, 8801, 5329 exception codes, 8938/FBAR summaries -
+anything a reviewer needs to see on the return but the engine doesn't calculate. Amounts here do NOT flow anywhere;
+the flowing amount still goes in the normal key (e.g. `sch1.sch_c`).
 
 ## 15. Worked example (MFJ, two W-2s, newborn, overtime premium)
 ```json

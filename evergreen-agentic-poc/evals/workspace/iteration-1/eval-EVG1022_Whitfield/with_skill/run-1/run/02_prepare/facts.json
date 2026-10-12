@@ -1,0 +1,39 @@
+{
+ "client_id": "EVG1022", "tax_year": 2025,
+ "status": "MFJ",
+ "taxpayer": {"age65": false, "blind": false},
+ "spouse": {"age65": false, "blind": false},
+ "dependents": [],
+ "w2": [
+  {"who": "T", "box1": 410000, "box2": 98400, "box3": 176100, "box4": 10918.20, "box5": 441000, "box6": 8563.50, "box10": 0},
+  {"who": "S", "box1": 62000, "box2": 5200, "box3": 65000, "box4": 4030, "box5": 65000, "box6": 942.50, "box10": 0}
+ ],
+ "interest": [
+  {"payer": "Charles Schwab ****2207 - Schwab sweep/Value Advantage", "amount": 3140.55},
+  {"payer": "Charles Schwab ****2207 - Pfizer 4.75% 2033 coupons", "amount": 9500.00},
+  {"payer": "Accrued interest paid at purchase - Pfizer 4.75% 2033 (03/12/2025)", "amount": -2981.94},
+  {"payer": "ABP adjustment - Pfizer 4.75% 2033 (1099-INT box 11)", "amount": -786.12},
+  {"payer": "Brandywine Federal Credit Union", "amount": 212.40},
+  {"payer": "Charles Schwab ****2207 - PA Turnpike 5% 2038 (box 8 7,500 less box 13 premium 1,104.30)", "amount": 0, "tax_exempt": 6395.70}
+ ],
+ "dividends": [
+  {"payer": "Charles Schwab ****2207 (joint)", "ordinary": 14250, "qualified": 12600, "capgain_dist": 0},
+  {"payer": "Charles Schwab ****4410 (Gregory)", "ordinary": 4150, "qualified": 3300, "capgain_dist": 0}
+ ],
+ "pension": [
+  {"payer": "Fidelity - Keystone 401(k) employer stock in kind (NUA 544,000 excluded; code 2)", "gross": 640000, "taxable": 96000},
+  {"payer": "Fidelity - Keystone 401(k) direct rollover (code G)", "gross": 780000, "taxable": 0}
+ ],
+ "trades": [
+  {"id": "1", "desc": "120 sh Eli Lilly (LLY)", "acq": "01/22/2025", "sold": "06/30/2025", "proceeds": 95400, "basis": 90400, "adj": 0, "code": "", "box": "A"},
+  {"id": "2", "desc": "400 sh iShares Core S&P 500 ETF (IVV) - wash sale: spouse IRA bought 420 sh 11/20/2025", "acq": "02/19/2025", "sold": "11/10/2025", "proceeds": 227000, "basis": 245000, "adj": 18000, "code": "W", "box": "A"},
+  {"id": "3", "desc": "400 sh Procter & Gamble (PG)", "acq": "05/14/2014", "sold": "04/03/2025", "proceeds": 66400, "basis": 31200, "adj": 0, "code": "", "box": "D"},
+  {"id": "4", "desc": "300 sh Vanguard Total Stock Market ETF (VTI)", "acq": "03/09/2017", "sold": "09/22/2025", "proceeds": 92100, "basis": 67300, "adj": 0, "code": "", "box": "D"}
+ ],
+ "cap_loss_co": {"st": 26000, "lt": 12000},
+ "itemized": {"state_income_tax": 20594.20, "real_estate_tax": 9830, "mortgage_interest_1098": 11240, "charity_cash": 15000, "charity_noncash": 0},
+ "amt": {"check": true},
+ "niit": {"nii": 53892.41, "gross": 54484.89, "deductions": 592.48},
+ "estimated_payments": 32000,
+ "extension_payment": 3000
+}

@@ -31,13 +31,14 @@ KNOWN = {"status", "taxpayer", "spouse", "dependents", "w2", "interest", "divide
          "energy_home_improvement", "other_earned", "withholding_1099", "withholding_other", "estimated_payments",
          "extension_payment", "apply_to_2026", "es_penalty", "ss_taxable_override", "qd_elected_4952",
          "foreign_accounts", "foreign_account_country", "foreign_trust"}
+PASSTHROUGH = {"supporting_forms"}
 META = {"_comment", "_notes", "client_id", "tax_year", "_sources"}
 
 
 def diagnostics(f):
     d = []
     for k in f:
-        if k not in KNOWN and k not in META:
+        if k not in KNOWN and k not in META and k not in PASSTHROUGH:
             d.append({"severity": "WARNING", "msg": f"Unknown input field '{k}' - ignored by the engine (check facts_schema.md)"})
     if f.get("status") not in ("S", "MFJ", "MFS", "HOH", "QSS"):
         d.append({"severity": "E-FILE DISQUALIFYING", "msg": "Filing status missing/invalid (S, MFJ, MFS, HOH, QSS)"})
@@ -88,9 +89,16 @@ def main(facts_path, out_dir):
         "federal_forms": {form: [{"line": ln, "description": d, "amount": a} for ln, d, a in lines]
                           for form, lines in R.forms.items()},
         "engine_notes": R.notes,
+        "supporting_forms": {form: [{"line": l[0], "description": l[1], "amount": l[2]} for l in lines]
+                             for form, lines in f.get("supporting_forms", {}).items()},
     }
     json.dump(data, open(os.path.join(out_dir, "return.json"), "w"), indent=2, default=str)
-    open(os.path.join(out_dir, "return.md"), "w").write(to_md(R, cid))
+    md = to_md(R, cid)
+    for form, lines in f.get("supporting_forms", {}).items():
+        md += f"\n## {form} (supporting detail - preparer computed)\n\n| Line | Description | Amount |\n|---|---|---:|\n"
+        md += "".join(f"| {l[0]} | {l[1]} | {l[2]:,} |\n" if isinstance(l[2], (int, float)) else f"| {l[0]} | {l[1]} | {l[2]} |\n"
+                      for l in lines)
+    open(os.path.join(out_dir, "return.md"), "w").write(md)
     json.dump(diag, open(os.path.join(out_dir, "diagnostics.json"), "w"), indent=2)
     s = R.summary()
     print(f"{cid}: AGI {s['11']:,} | TI {s['15']:,} | total tax {s['24']:,} | payments {s['33']:,} | "

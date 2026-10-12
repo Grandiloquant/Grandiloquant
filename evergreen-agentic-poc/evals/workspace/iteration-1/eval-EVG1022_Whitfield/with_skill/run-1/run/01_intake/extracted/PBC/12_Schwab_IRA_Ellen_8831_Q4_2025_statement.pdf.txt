@@ -1,0 +1,28 @@
+
+===== page 1 =====
+Charles Schwab - Traditional IRA ****8831 - Ellen M. Whitfield - Statement Period 10/01/2025 - 12/31/2025 - page 1 | SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+SYNTHETIC TRAINING DATA - NOT A REAL TAX DOCUMENT
+Charles Schwab - Traditional IRA ****8831 - Ellen M. Whitfield - Statement
+Period 10/01/2025 - 12/31/2025
+Account value
+Amount
+Beginning value 10/01/2025 268,411.36
+Ending value 12/31/2025 281,906.04
+Transaction detail
+Date Activity Description Quantity Price Amount
+10/31/2025 Dividend Schwab Short-Term
+US Treasury ETF
+(SCHO)
+812.40
+11/18/2025 Sell Schwab Short-Term
+US Treasury ETF
+(SCHO)
+(9,800.00) 24.48 239,904.00
+11/20/2025 Buy iShares Core S&P
+500 ETF (IVV)
+420.00 571.20 (239,904.00)
+12/17/2025 Dividend iShares Core S&P
+500 ETF (IVV)
+798.00
+Income and gains in an IRA are tax-deferred and are not reported on Form 1099. Form 5498 (FMV 12/31/2025 $281,906.04)
+will be mailed by 05/31/2026.

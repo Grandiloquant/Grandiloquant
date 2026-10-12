@@ -1,0 +1,520 @@
+{
+  "client_id": "EVG1022",
+  "final": {
+    "line_accuracy": 1.0,
+    "lines_matched": 30,
+    "lines_total": 30,
+    "bottom_line_expected": 695,
+    "bottom_line_got": 695,
+    "bottom_line_ok": true,
+    "bottom_line_error": 0,
+    "status_expected": "MFJ",
+    "status_got": "MFJ",
+    "status_ok": true,
+    "deduction_type_ok": true,
+    "lines": [
+      {
+        "line": "1z",
+        "desc": "Wages etc.",
+        "expected": 472000,
+        "got": 472000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "2a",
+        "desc": "Tax-exempt interest",
+        "expected": 6396,
+        "got": 6396,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "2b",
+        "desc": "Taxable interest",
+        "expected": 9085,
+        "got": 9085,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "3a",
+        "desc": "Qualified dividends",
+        "expected": 15900,
+        "got": 15900,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "3b",
+        "desc": "Ordinary dividends",
+        "expected": 18400,
+        "got": 18400,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "4b",
+        "desc": "IRA taxable",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "5b",
+        "desc": "Pensions taxable",
+        "expected": 96000,
+        "got": 96000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "6b",
+        "desc": "SS taxable",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "7",
+        "desc": "Capital gain/loss",
+        "expected": 27000,
+        "got": 27000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "8",
+        "desc": "Schedule 1 income",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "9",
+        "desc": "Total income",
+        "expected": 622485,
+        "got": 622485,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "10",
+        "desc": "Adjustments",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "11",
+        "desc": "AGI",
+        "expected": 622485,
+        "got": 622485,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "12e",
+        "desc": "Deduction",
+        "expected": 36240,
+        "got": 36240,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "13a",
+        "desc": "QBI deduction",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "13b",
+        "desc": "Schedule 1-A",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "15",
+        "desc": "Taxable income",
+        "expected": 586245,
+        "got": 586245,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "16",
+        "desc": "Tax",
+        "expected": 135700,
+        "got": 135700,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "17",
+        "desc": "Schedule 2 Part I (AMT, APTC)",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "19",
+        "desc": "CTC/ODC",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "20",
+        "desc": "Schedule 3 credits",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "23",
+        "desc": "Other taxes",
+        "expected": 4374,
+        "got": 4374,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "24",
+        "desc": "Total tax",
+        "expected": 140074,
+        "got": 140074,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "25d",
+        "desc": "Withholding",
+        "expected": 105769,
+        "got": 105769,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "26",
+        "desc": "Estimated payments",
+        "expected": 32000,
+        "got": 32000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "27a",
+        "desc": "EIC",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "28",
+        "desc": "ACTC",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "29",
+        "desc": "AOTC refundable",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "31",
+        "desc": "Schedule 3 payments",
+        "expected": 3000,
+        "got": 3000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "33",
+        "desc": "Total payments",
+        "expected": 140769,
+        "got": 140769,
+        "diff": 0,
+        "ok": true
+      }
+    ]
+  },
+  "pre_review": {
+    "line_accuracy": 1.0,
+    "lines_matched": 30,
+    "lines_total": 30,
+    "bottom_line_expected": 695,
+    "bottom_line_got": 695,
+    "bottom_line_ok": true,
+    "bottom_line_error": 0,
+    "status_expected": "MFJ",
+    "status_got": "MFJ",
+    "status_ok": true,
+    "deduction_type_ok": true,
+    "lines": [
+      {
+        "line": "1z",
+        "desc": "Wages etc.",
+        "expected": 472000,
+        "got": 472000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "2a",
+        "desc": "Tax-exempt interest",
+        "expected": 6396,
+        "got": 6396,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "2b",
+        "desc": "Taxable interest",
+        "expected": 9085,
+        "got": 9085,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "3a",
+        "desc": "Qualified dividends",
+        "expected": 15900,
+        "got": 15900,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "3b",
+        "desc": "Ordinary dividends",
+        "expected": 18400,
+        "got": 18400,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "4b",
+        "desc": "IRA taxable",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "5b",
+        "desc": "Pensions taxable",
+        "expected": 96000,
+        "got": 96000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "6b",
+        "desc": "SS taxable",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "7",
+        "desc": "Capital gain/loss",
+        "expected": 27000,
+        "got": 27000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "8",
+        "desc": "Schedule 1 income",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "9",
+        "desc": "Total income",
+        "expected": 622485,
+        "got": 622485,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "10",
+        "desc": "Adjustments",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "11",
+        "desc": "AGI",
+        "expected": 622485,
+        "got": 622485,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "12e",
+        "desc": "Deduction",
+        "expected": 36240,
+        "got": 36240,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "13a",
+        "desc": "QBI deduction",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "13b",
+        "desc": "Schedule 1-A",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "15",
+        "desc": "Taxable income",
+        "expected": 586245,
+        "got": 586245,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "16",
+        "desc": "Tax",
+        "expected": 135700,
+        "got": 135700,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "17",
+        "desc": "Schedule 2 Part I (AMT, APTC)",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "19",
+        "desc": "CTC/ODC",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "20",
+        "desc": "Schedule 3 credits",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "23",
+        "desc": "Other taxes",
+        "expected": 4374,
+        "got": 4374,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "24",
+        "desc": "Total tax",
+        "expected": 140074,
+        "got": 140074,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "25d",
+        "desc": "Withholding",
+        "expected": 105769,
+        "got": 105769,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "26",
+        "desc": "Estimated payments",
+        "expected": 32000,
+        "got": 32000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "27a",
+        "desc": "EIC",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "28",
+        "desc": "ACTC",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "29",
+        "desc": "AOTC refundable",
+        "expected": 0,
+        "got": 0,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "31",
+        "desc": "Schedule 3 payments",
+        "expected": 3000,
+        "got": 3000,
+        "diff": 0,
+        "ok": true
+      },
+      {
+        "line": "33",
+        "desc": "Total payments",
+        "expected": 140769,
+        "got": 140769,
+        "diff": 0,
+        "ok": true
+      }
+    ]
+  },
+  "stages_completed": {
+    "intake": false,
+    "prepare": true,
+    "review": false,
+    "final": true,
+    "file": true
+  }
+}

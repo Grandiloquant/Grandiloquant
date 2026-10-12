@@ -1,0 +1,139 @@
+{
+  "client_id": "EVG1022",
+  "review_decision": "approved",
+  "federal": {
+    "form": "1040 (MFJ)",
+    "method": "e-file",
+    "reason": "No paper triggers; all forms e-file supported",
+    "due": "2026-10-15 (Form 4868 accepted 04/15/2026)",
+    "attachments": [
+      "Schedule A",
+      "Schedule B",
+      "Schedule D",
+      "Form 8949 (box A incl. IVV code W; box D)",
+      "Form 8959",
+      "Form 8960",
+      "Form 6251 (computed, no AMT)"
+    ],
+    "refund": 717,
+    "balance_due": 0
+  },
+  "states": [
+    {
+      "return": "PA-40",
+      "type": "resident",
+      "method": "e-file (federal/state MeF)",
+      "due": "2026-10-15 (REV-276 extension)",
+      "refund": 166.13,
+      "balance_due": 0,
+      "attachments": [
+        "Schedule G-L credit for MA tax (attach MA 1-NR/PY copy)",
+        "PA Schedule B/D summaries",
+        "PA W-2 statements"
+      ]
+    },
+    {
+      "return": "MA Form 1-NR/PY",
+      "type": "nonresident",
+      "method": "e-file",
+      "due": "2026-10-15 (M-4868)",
+      "refund": 0,
+      "balance_due": 67.52,
+      "note": "plus small interest/M-2210 computed by software at filing"
+    }
+  ],
+  "locals": [
+    {
+      "return": "PA local EIT final return (Chester County TCD - Keystone Collections Group)",
+      "method": "e-file via Keystone portal (or paper)",
+      "due": "2026-04-15 (local EIT returns are not extended by the federal 4868 - verify; file immediately)",
+      "refund": 481.09,
+      "note": "confirm municipality/PSD code (West Goshen Twp vs West Chester Boro) before filing"
+    }
+  ],
+  "not_required": [
+    {
+      "return": "NJ-1040NR",
+      "reason": "PA-NJ reciprocity - 22 NJ workdays of compensation not NJ-taxable for PA resident"
+    },
+    {
+      "return": "IL-1040 nonresident",
+      "reason": "13 IL workdays <= 30-day nonresident-employee threshold (verify)"
+    },
+    {
+      "return": "FinCEN 114 / Form 8938",
+      "reason": "No foreign accounts (organizer Q10)"
+    }
+  ],
+  "separate_filings": [],
+  "efile_blockers": [
+    {
+      "issue": "IP PIN",
+      "resolution": "New client - ask whether either spouse has an IRS IP PIN; if so retrieve current 2026-issued PIN"
+    },
+    {
+      "issue": "Prior-year AGI for signature",
+      "resolution": "2024 AGI 669,300 (PERM summary) if self-select PIN used; 8879 eliminates need"
+    },
+    {
+      "issue": "Form 8949 attachment",
+      "resolution": "Detail lines entered; no 8453 needed"
+    },
+    {
+      "issue": "24-hour hold",
+      "resolution": "Transmit no earlier than 24h after signed 8879s - deadline 10/15/2026 is tight; send eSign today"
+    }
+  ],
+  "signatures": [
+    "Form 8879 (both spouses)",
+    "PA-8879",
+    "MA M-8453"
+  ],
+  "payments": [
+    {
+      "jurisdiction": "MA",
+      "amount": 67.52,
+      "method": "EFW with return or MassTaxConnect",
+      "when": "with return by 10/15/2026"
+    },
+    {
+      "jurisdiction": "Federal",
+      "refund": 717,
+      "method": "direct deposit PNC ****7720 (confirm)"
+    },
+    {
+      "jurisdiction": "PA",
+      "refund": 166.13,
+      "method": "direct deposit (confirm)"
+    }
+  ],
+  "estimates_2026": [
+    {
+      "jurisdiction": "Federal",
+      "basis": "90% of projected 2026 tax (110% of 2025 tax = 154,057 is far above expected 2026 liability after retirement)",
+      "amount": "preliminary ~,000 per quarter - confirm with projection call (KMDV sales or IRA withdrawals would change this)",
+      "dates": [
+        "2026-04-15",
+        "2026-06-15",
+        "2026-09-15",
+        "2027-01-15"
+      ],
+      "note": "First three 2026 dates have passed - recommend increasing Ellen's W-4 withholding for the rest of 2026 (withholding treated as paid evenly) and/or pay 01/15/2027"
+    },
+    {
+      "jurisdiction": "PA",
+      "basis": "PA tax on investment income not covered by Ellen's withholding (~,400)",
+      "amount": "projection call",
+      "dates": [
+        "2027-01-15"
+      ]
+    }
+  ],
+  "open_items_at_filing": [
+    "Verify 4 x ,000 federal ES via IRS transcript (PBC/18 only support)",
+    "Severance/PTO split for MA sourcing (possible MA amendment ~10)",
+    "Plan retirement conditions for PA 401(k) exclusion",
+    "Local EIT municipality/PSD code and rate",
+    "PA positions: wash sale / bond premium (verify)"
+  ]
+}
